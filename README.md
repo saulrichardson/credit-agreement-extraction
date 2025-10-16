@@ -142,3 +142,11 @@ singularity exec --overlay edgar-filing.ext3 \
 
 Both `edgar-filing.ext3` and `python311.sif` are single files, so you stay well
 within Greene's inode quotas.  Adjust the overlay size if you need more space.
+
+Alternatively, run the helper script to perform all three steps in one go:
+
+```bash
+SCRATCH=/scratch/$USER
+./scripts/setup_overlay.sh $SCRATCH/repos/edgar-filing-pipeline
+```
+
