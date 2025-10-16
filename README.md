@@ -107,3 +107,38 @@ apptainer exec edgar-filing.sif python -m edgar_filing_pipeline.scripts.build_ma
 ```
 
 and add `--nv` if you ever need GPU access.
+
+### Optional: Singularity overlay workflow (NYU Greene)
+
+If the cluster does not permit `singularity/apptainer build --fakeroot`, use a
+base Python image together with a writable overlay to keep dependencies in a
+single file.  The following snippet is what we ran on Greene:
+
+```bash
+# once per project
+SCRATCH=/scratch/$USER
+cd $SCRATCH/repos
+REPO=$SCRATCH/repos/edgar-filing-pipeline
+cd $REPO
+singularity pull python311.sif docker://python:3.11-slim
+singularity overlay create --size 4096 edgar-filing.ext3
+
+# bootstrap a virtualenv inside the overlay
+singularity exec --overlay edgar-filing.ext3 $REPO/python311.sif python -m venv /ext3/venv
+singularity exec --overlay edgar-filing.ext3 --bind "$REPO:/workspace" \
+  $REPO/python311.sif /ext3/venv/bin/pip install -r /workspace/requirements.txt
+singularity exec --overlay edgar-filing.ext3 --bind "$REPO:/workspace" \
+  $REPO/python311.sif /ext3/venv/bin/pip install /workspace
+```
+
+Use the environment by calling the interpreter in `/ext3/venv/bin/python`:
+
+```bash
+singularity exec --overlay edgar-filing.ext3 \
+  --bind "$REPO:/workspace" \
+  $REPO/python311.sif /ext3/venv/bin/python \
+  -m edgar_filing_pipeline.scripts.build_manifest ...
+```
+
+Both `edgar-filing.ext3` and `python311.sif` are single files, so you stay well
+within Greene's inode quotas.  Adjust the overlay size if you need more space.
