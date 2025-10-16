@@ -150,3 +150,18 @@ SCRATCH=/scratch/$USER
 ./scripts/setup_overlay.sh $SCRATCH/repos/edgar-filing-pipeline
 ```
 
+
+
+### Generate plain text with Markdown tables
+
+If you already have extracted HTML segments and simply want `.txt` files that
+retain the tables as Markdown (for LLM prompts, for example), run:
+
+```bash
+python scripts/export_markdown_text.py \
+    --input-dir /Users/saul/projects/dan-covenants/clean/edgar-covenants/isdebt_contracts/2003_high_confidence_html \
+    --output-dir /Users/saul/projects/dan-covenants/clean/edgar-covenants/isdebt_contracts/2003_high_confidence_markdown
+```
+
+This leaves the original HTML files untouched and writes Markdown-enhanced text
+files to the destination directory.

@@ -4,3 +4,5 @@ __pycache__/
 /build/
 /dist/
 /edgar_filing_pipeline.egg-info/
+
+*.egg-info/
