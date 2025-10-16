@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edgar-filing-pipeline"
+version = "0.1.0"
+description = "Utilities for extracting and analysing EDGAR filings from SEC tar archives."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "EDGAR Pipeline"}
+]
+dependencies = [
+  "beautifulsoup4>=4.12",
+  "pandas>=2.1",
+]
+
+[project.optional-dependencies]
+dev = ["black", "ruff"]
+
+[tool.setuptools.package-dir]
+"" = "src"
