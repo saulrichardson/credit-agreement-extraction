@@ -16,6 +16,7 @@ from pathlib import Path
 
 import pandas as pd
 from bs4 import BeautifulSoup
+from io import StringIO
 
 
 def html_to_markdown_text(html_path: Path) -> str:
@@ -23,8 +24,11 @@ def html_to_markdown_text(html_path: Path) -> str:
 
     for table in soup.find_all("table"):
         try:
-            df_list = pd.read_html(str(table))
-            markdown = df_list[0].to_markdown(index=False)
+            df_list = pd.read_html(StringIO(str(table)))
+            if df_list:
+                markdown = df_list[0].to_markdown(index=False)
+            else:
+                raise ValueError
         except ValueError:
             markdown = table.get_text(separator="\n").strip()
         table.replace_with(soup.new_string(f"\n{markdown}\n"))
