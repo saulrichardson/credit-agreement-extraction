@@ -16,6 +16,9 @@ Key features
   metadata (file name, segment number, document type, table presence, etc.).
 * Extraction helpers that materialise the raw HTML for selected segments while
   keeping metadata in sync.
+* Built-in filtering for binary-only exhibits (e.g. GRAPHIC/PDF attachments) so
+  downstream notebooks only receive text-based segments, with skip reasons
+  captured in the extraction metadata.
 
 The API is intentionally simple so we can embed it inside larger pipelines or
 call it from notebooks.  See `scripts/build_manifest.py` and
@@ -47,6 +50,18 @@ python scripts/extract_segments.py \
     --manifest manifest_2003_q2.parquet \
     --tar-root /path/to/daily_filings \
     --output-dir ./html_segments
+
+# Metadata rows include `skipped`/`skip_reason` so the manifest and extraction
+# stay aligned even when image/PDF exhibits are filtered out.
+
+# Normalize the surviving segments into text + Markdown tables
+python scripts/normalize_segments.py \
+    --manifest data/manifest_19960103.parquet \
+    --tar-root data/daily_filings/1996/QTR1 \
+    --output data/processed/v1/1996_Q1.parquet
+
+# The `data/` directory contains sample tarballs under
+# `data/daily_filings/<year>/<quarter>/` for quick local runs.
 ```
 
 Once extracted, wrap each file with `EdgarFiling` to access plain text,
@@ -165,3 +180,33 @@ python scripts/export_markdown_text.py \
 
 This leaves the original HTML files untouched and writes Markdown-enhanced text
 files to the destination directory.
+
+
+### Batch LLM reasoning over agreements
+
+To analyse a folder of agreement `.txt` files with `gpt-5-mini` (reasoning mode
+set to “medium”), use the batch runner:
+
+```bash
+python scripts/run_reasoning_batch.py \
+    --input-dir /path/to/agreements \
+    --system-prompt-file /path/to/system_prompt.txt \
+    --output-dir ./llm_responses \
+    --workers 6 \
+    --skip-existing
+```
+
+Key notes:
+
+- The user prompt template is optional; when omitted, the script defaults to
+  wrapping the agreement between `<<BEGIN DOC>>` and `<<END DOC>>`. If you
+  provide a template, include `{{document}}` where the full agreement should be
+  injected; otherwise the document text is appended after the prompt.
+- Use `--system-prompt-file` when you want to send a separate system message;
+  the agreement is always delivered in the user message.
+- Responses are written one-per-agreement (same basename) in the chosen output
+  directory.
+- Set `OPENAI_API_KEY` in your environment or pass `--api-key`.
+- The runner uses concurrent workers with exponential backoff and jitter to
+  minimise failures from transient API issues. Use `--max-retries`/
+  `--initial-backoff` to tune the retry policy as needed.

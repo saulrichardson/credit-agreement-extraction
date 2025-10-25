@@ -109,12 +109,28 @@ class TarSegmentReader:
     def __init__(self, tar_path: os.PathLike[str] | str, *, encoding: str = "utf-8"):
         self.tar_path = Path(tar_path)
         self.encoding = encoding
+        self._candidate_encodings = [self.encoding]
+        for fallback in ("cp1252", "latin-1"):
+            if fallback not in self._candidate_encodings:
+                self._candidate_encodings.append(fallback)
         self._tar = tarfile.open(self.tar_path, "r:gz")
         self._members = {
             os.path.basename(member.name): member
             for member in self._tar.getmembers()
             if member.isfile()
         }
+        self._last_encoding: str | None = None
+
+    def _decode_bytes(self, data: bytes) -> tuple[str, str]:
+        for encoding in self._candidate_encodings:
+            try:
+                return data.decode(encoding), encoding
+            except UnicodeDecodeError:
+                continue
+        return (
+            data.decode(self._candidate_encodings[0], errors="ignore"),
+            self._candidate_encodings[0],
+        )
 
     def list_members(self) -> Iterable[str]:
         return self._members.keys()
@@ -126,7 +142,9 @@ class TarSegmentReader:
                 f"{member_name} not found in tar archive {self.tar_path}"
             )
         data = self._tar.extractfile(member).read()
-        return data.decode(self.encoding, errors="ignore")
+        text, encoding = self._decode_bytes(data)
+        self._last_encoding = encoding
+        return text
 
     def iter_segments(self, member_name: str) -> Iterable[TarSegment]:
         raw_text = self.read_member(member_name)
@@ -147,3 +165,7 @@ class TarSegmentReader:
 
     def close(self) -> None:
         self._tar.close()
+
+    @property
+    def last_encoding(self) -> str | None:
+        return self._last_encoding

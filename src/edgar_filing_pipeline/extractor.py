@@ -1,10 +1,11 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional
+from typing import Dict, List, Optional
 
 import pandas as pd
 
+from .filters import detect_binary_segment
 from .segment import SegmentExtractor, TarSegmentReader
 
 
@@ -76,12 +77,34 @@ def extract_from_manifest(
             extractor = SegmentExtractor(reader.read_member(file_name))
             extractors[extractor_key] = extractor
 
-        html, table_dict = extractor.get_segment_text(
-            segment_index,
-            convert_html=convert_html,
-            replace_tables_with_markers=replace_tables_with_markers,
-        )
-        has_table = bool(table_dict) if convert_html else extractor.has_tables(segment_index)
+        header = extractor.get_segment_header(segment_index)
+        raw_html = extractor.get_segment_html(segment_index)
+        skip_reason = detect_binary_segment(header, raw_html)
+        if skip_reason:
+            records.append(
+                {
+                    "tarfile": getattr(row, "tarfile"),
+                    "file": file_name,
+                    "segment_no": segment_no,
+                    "internal_id": internal_id,
+                    "output_path": None,
+                    "has_table": extractor.has_tables(segment_index),
+                    "skipped": True,
+                    "skip_reason": skip_reason,
+                }
+            )
+            continue
+
+        if convert_html:
+            html, table_dict = extractor.get_segment_text(
+                segment_index,
+                convert_html=True,
+                replace_tables_with_markers=replace_tables_with_markers,
+            )
+            has_table = bool(table_dict)
+        else:
+            html = raw_html
+            has_table = extractor.has_tables(segment_index)
 
         out_name = _build_output_name(file_name, segment_no, internal_id)
         out_path = output_dir / out_name
@@ -96,6 +119,8 @@ def extract_from_manifest(
                 "internal_id": internal_id,
                 "output_path": str(out_path),
                 "has_table": has_table,
+                "skipped": False,
+                "skip_reason": None,
             }
         )
 
