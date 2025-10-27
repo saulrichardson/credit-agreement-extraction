@@ -1,11 +1,12 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Any, Callable, Dict, List, Optional
 
 import pandas as pd
 
-from .filters import detect_binary_segment
+from .filters import FilterContext, FilterContextBuilder, FilterFn, default_filter
+from .identifiers import SegmentKey
 from .segment import SegmentExtractor, TarSegmentReader
 
 
@@ -29,12 +30,22 @@ def extract_from_manifest(
     output_dir: Path | str,
     convert_html: bool = False,
     replace_tables_with_markers: bool = False,
+    filter_fn: FilterFn | None = None,
+    filter_context_builder: FilterContextBuilder | None = None,
 ) -> List[dict]:
     """Materialise the segments described in ``manifest`` to ``output_dir``.
 
     The manifest must contain at least ``tarfile``, ``file`` (or ``file_x``),
     and ``segment_no`` columns.  If ``internal_id`` is provided it will be
     encoded into the output filename and echoed in the returned metadata.
+
+    A custom ``filter_fn`` may be supplied to decide whether individual
+    segments should be skipped. The callable receives the SGML header,
+    raw HTML, and a context dictionary (which always contains the
+    manifest row under ``"manifest_row"``) and should return either
+    ``None`` to keep the segment or a string reason explaining why it
+    should be skipped. Use ``filter_context_builder`` to enrich the
+    context with derived data (e.g. lookups from a metadata store).
     """
 
     tar_root = Path(tar_root)
@@ -59,6 +70,8 @@ def extract_from_manifest(
     extractors: Dict[tuple[Path, str], SegmentExtractor] = {}
     records: List[dict] = []
 
+    active_filter = filter_fn or default_filter
+
     for row in manifest.itertuples(index=False):
         tar_path = tar_root / getattr(row, "tarfile")
         reader = readers.get(tar_path)
@@ -79,10 +92,27 @@ def extract_from_manifest(
 
         header = extractor.get_segment_header(segment_index)
         raw_html = extractor.get_segment_html(segment_index)
-        skip_reason = detect_binary_segment(header, raw_html)
+        segment_key = SegmentKey(getattr(row, "tarfile"), file_name, segment_no)
+        manifest_row = row._asdict() if hasattr(row, "_asdict") else row.__dict__
+        manifest_row = dict(manifest_row)
+        manifest_row.setdefault("segment_id", segment_key.id)
+        manifest_row.setdefault("segment_digest", segment_key.digest())
+
+        context: FilterContext = {
+            "manifest_row": manifest_row,
+            "segment_id": manifest_row["segment_id"],
+        }
+        if filter_context_builder:
+            extra_context = filter_context_builder(manifest_row)
+            if extra_context:
+                context.update(extra_context)
+
+        skip_reason = active_filter(header, raw_html, context)
         if skip_reason:
             records.append(
                 {
+                    "segment_id": segment_key.id,
+                    "segment_digest": segment_key.digest(),
                     "tarfile": getattr(row, "tarfile"),
                     "file": file_name,
                     "segment_no": segment_no,
@@ -113,7 +143,9 @@ def extract_from_manifest(
 
         records.append(
             {
-                "tarfile": getattr(row, "tarfile"),
+                    "segment_id": segment_key.id,
+                    "segment_digest": segment_key.digest(),
+                    "tarfile": getattr(row, "tarfile"),
                 "file": file_name,
                 "segment_no": segment_no,
                 "internal_id": internal_id,

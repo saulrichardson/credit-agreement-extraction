@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import re
 from pathlib import Path
-from typing import Dict, Optional
+from typing import Any, Callable, Dict, Optional
 
 BINARY_DOC_TYPE_KEYWORDS = (
     "GRAPHIC",
@@ -49,6 +49,15 @@ DOC_TYPE_KEYS = (
     "document_type",
     "document-type",
 )
+
+FilterContext = Dict[str, Any]
+FilterFn = Callable[[Dict[str, str], str, Optional[FilterContext]], Optional[str]]
+FilterContextBuilder = Callable[[Dict[str, Any]], Optional[FilterContext]]
+
+
+def default_filter(header: Dict[str, str], html: str, context: Optional[FilterContext] = None) -> Optional[str]:
+    """Default filter that mirrors the historical binary detection behaviour."""
+    return detect_binary_segment(header, html)
 
 
 def extract_doc_type(header: Dict[str, str]) -> Optional[str]:

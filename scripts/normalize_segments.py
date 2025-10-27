@@ -4,91 +4,8 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
-from typing import Dict, List
 
-import pandas as pd
-
-from edgar_filing_pipeline.processing import (
-    NormalizedSegment,
-    build_checksum,
-    normalize_html,
-    tables_to_json_dict,
-)
-from edgar_filing_pipeline.segment import SegmentExtractor, TarSegmentReader
-
-
-def normalize_from_manifest(
-    manifest: pd.DataFrame,
-    *,
-    tar_root: Path,
-    limit: int | None = None,
-) -> pd.DataFrame:
-    tar_root = Path(tar_root)
-
-    readers: Dict[Path, TarSegmentReader] = {}
-    extractors: Dict[tuple[Path, str], SegmentExtractor] = {}
-    records: List[dict] = []
-
-    processed = 0
-
-    for row in manifest.itertuples(index=False):
-        tarfile_name = getattr(row, "tarfile")
-        tar_path = tar_root / tarfile_name
-
-        reader = readers.get(tar_path)
-        if reader is None:
-            reader = TarSegmentReader(tar_path)
-            readers[tar_path] = reader
-
-        file_name = getattr(row, "file")
-        segment_no = int(getattr(row, "segment_no"))
-        segment_index = segment_no - 1
-
-        extractor_key = (tar_path, file_name)
-        extractor = extractors.get(extractor_key)
-        if extractor is None:
-            extractor = SegmentExtractor(reader.read_member(file_name))
-            extractors[extractor_key] = extractor
-
-        html = extractor.get_segment_html(segment_index)
-        normalized: NormalizedSegment = normalize_html(html)
-
-        markdown_json, html_json = tables_to_json_dict(normalized.tables)
-        checksum = build_checksum(normalized.text)
-
-        records.append(
-            {
-                "tarfile": tarfile_name,
-                "file": file_name,
-                "segment_no": segment_no,
-                "doc_type": getattr(row, "doc_type", None),
-                "header_json": getattr(row, "header_json", None),
-                "text": normalized.text,
-                "tables_markdown": markdown_json,
-                "tables_html": html_json,
-                "num_tables": len(normalized.tables.markers),
-                "encoding": reader.last_encoding,
-                "checksum_text": checksum,
-                "num_chars": len(normalized.text),
-            }
-        )
-
-        processed += 1
-        if limit and processed >= limit:
-            break
-
-    for reader in readers.values():
-        reader.close()
-
-    return pd.DataFrame.from_records(records)
-
-
-def load_manifest(path: Path) -> pd.DataFrame:
-    if path.suffix == ".parquet":
-        return pd.read_parquet(path)
-    if path.suffix == ".csv":
-        return pd.read_csv(path)
-    raise ValueError("Manifest must be a .parquet or .csv file")
+from edgar_filing_pipeline.workflow import normalize_from_manifest, read_manifest
 
 
 def main() -> None:
@@ -99,7 +16,7 @@ def main() -> None:
     parser.add_argument("--limit", type=int, help="Optional limit on the number of segments to process")
     args = parser.parse_args()
 
-    manifest = load_manifest(args.manifest)
+    manifest = read_manifest(args.manifest)
 
     normalized_df = normalize_from_manifest(
         manifest,
