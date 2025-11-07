@@ -1,0 +1,19 @@
+You are writing production-grade Python that encodes the pricing mechanics described below. Treat the text as authoritative; do not invent terms.
+
+Requirements:
+- Declare all borrower-specific inputs (Total Leverage Ratio, Base Rate, SOFR, commitment amounts, etc.) as global variables at the top. Use placeholder values so a reader knows what to supply.
+- Implement helper functions for each major component:
+  * `determine_applicable_margin(total_leverage_ratio)` → returns Base Rate and SOFR margins based on the tier table.
+  * `adjust_margin_for_reporting(default_margin, delivered_financials)` → applies the “Tier I by default until financials delivered” rule.
+  * Additional helpers for prepayment premiums, benchmark adjustments, or other pricing logic described.
+- Provide a single `compute_pricing_summary(delivered_financials: bool) -> dict` tying everything together. When called, it should compute:
+  * Current Applicable Margin (Base Rate & SOFR)
+  * Whether Tier I is presumed
+  * Prepayment premium percentages applicable today
+- Include docstrings for each helper. Raise exceptions when required inputs are missing. No heuristics beyond the supplied text.
+- Use only the information provided. Mark any missing concepts with TODOs.
+
+Source text:
+<<<
+{{SOURCE_TEXT}}
+>>>

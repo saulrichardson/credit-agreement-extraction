@@ -1,0 +1,14 @@
+Given the following excerpt from a term loan credit agreement, describe every performance-pricing construct you find. Provide a free-form explanation organized in clearly labeled sections. For each construct, cite the relevant language in prose (no JSON or anchor IDs) and explain how it affects borrower pricing.
+
+Focus on:
+- Leverage-based margin tiers (Applicable Margin table, reporting-based adjustments)
+- Benchmark fallback/reset mechanics (Term SOFR replacement, Benchmark Transition Events)
+- Timing-based prepayment premiums or fees
+- Default rate and other clauses that change borrower costs (e.g., increased costs, illegality provisions)
+
+Call out any missing data or ambiguities in a closing “Notes” section.
+
+Source text:
+<<<
+{{SOURCE_TEXT}}
+>>>

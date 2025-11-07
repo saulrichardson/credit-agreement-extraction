@@ -42,8 +42,28 @@ def create_segments(text: str) -> List[Tuple[int, int, int, int]]:
 
 
 def get_header_dict(header_text: str) -> Dict[str, str]:
-    matches = re.findall(r"<([-a-zA-Z0-9]+)>(.*)\n", header_text)
-    return {key.lower(): val for key, val in matches if val}
+    headers: Dict[str, str] = {}
+    current_key: str | None = None
+    current_lines: list[str] = []
+
+    tag_pattern = re.compile(r"<([-a-zA-Z0-9]+)>(.*)")
+
+    for line in header_text.splitlines():
+        match = tag_pattern.match(line)
+        if match:
+            if current_key is not None:
+                headers[current_key] = "\n".join(current_lines).rstrip("\r")
+            current_key = match.group(1).lower()
+            current_lines = [match.group(2)]
+            continue
+
+        if current_key is not None:
+            current_lines.append(line)
+
+    if current_key is not None:
+        headers[current_key] = "\n".join(current_lines).rstrip("\r")
+
+    return {key: value for key, value in headers.items() if value is not None}
 
 
 class SegmentExtractor:

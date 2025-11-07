@@ -56,6 +56,74 @@ You can also run the entire workflow in one go:
 make pipeline TAR_ROOT=/path/to/daily_filings MANIFEST_OUT=manifest.parquet EXTRACT_DIR=./html_segments NORMALIZED_OUT=./normalized.parquet
 ```
 
+Anchoring individual filings
+----------------------------
+
+Generate the canonical text, anchor index, and prompt-ready view for a single
+HTML segment:
+
+```bash
+poetry run edgar-pipeline anchor-document \
+  --input-html data/segments_19960103/0000013386-96-000003_seg1.html \
+  --output-dir output/anchors/sample_doc
+```
+
+The output directory will contain:
+
+* `canonical.txt` – the normalized document text
+* `anchors.tsv` – enriched anchor metadata with sentence, heading, paragraph, and table-cell coverage
+* `prompt_view.txt` – inline-id view (`⟦s000123⟧ …`) suitable for LLM prompts. True data tables are rendered as Markdown so the model sees the entire grid; prose/layout tables are flattened to plain sentences.
+
+Segments that are pure machine payloads (XML/XBRL, uuencoded blobs, etc.) are skipped automatically.
+
+Existing directories are never overwritten; delete them first if you need to regenerate the bundle.
+
+Semantic planning & validation
+------------------------------
+
+Once a canonical bundle exists you can ask GPT-5-nano to build the
+pricing/covenant-aware semantic index directly from the prompt view.
+
+```
+export OPENAI_API_KEY=sk-...
+poetry run edgar-pipeline plan-document \
+  --canonical-dir output/anchors/sample_doc \
+  --output docs/plans/sample_doc_plan.json \
+  --focus-hint "pricing mechanics and covenants"
+```
+
+By default the CLI writes `planner_semantic_index.json` next to the
+canonical bundle and immediately validates it against `anchors.tsv`.
+The validation logic is also exposed as a standalone helper:
+
+```
+python scripts/validate_plan.py \
+  --plan docs/plans/sample_doc_plan.json \
+  --anchors output/anchors/sample_doc/anchors.tsv
+```
+
+Both steps fail closed if anchors are missing, the segmentation leaves gaps,
+or overlays/frames reference unknown IDs. Only validated plans should flow
+into retrieval/synthesis stages.
+
+Relevance scoring (optional)
+----------------------------
+
+You can quickly rank the planner segments against a question (e.g., “pricing
+structure”) and only feed relevant chunks to downstream prompting:
+
+```
+poetry run edgar-pipeline score-plan \
+  --plan docs/plans/sample_doc_plan.json \
+  --question "Explain the pricing structure and covenant triggers."
+```
+
+This writes `sample_doc_plan_scores.json` with a score/rationale per segment
+and prints the top hits. Segments score `1` when they contain the pricing
+engine itself (rate/margin grids, leverage tiers, benchmark fallback/fee logic),
+`0.5` when they provide supporting definitions/covenants needed to interpret the
+engine, and `0` otherwise.
+
 Need a plain `requirements.txt` for remote clusters? Run `poetry export --without-hashes -f requirements.txt --output requirements.txt` (requires the `poetry-plugin-export` we ship) before copying files around.
 
 Legacy helpers in `scripts/` continue to exist for backwards compatibility, but
@@ -324,3 +392,20 @@ retrieve the response text, raw payload, and the document snapshot that was
 sent to the model. This keeps API keys, rate limiting, retries, and pipeline
 policy in one place while letting any agent (or workflow runner) make a single
 HTTP request per task.
+Custom chunking
+---------------
+
+Need finer-grained chunks than the semantic planner? Generate sliding windows
+over the canonical bundle and treat them like plan segments:
+
+```
+poetry run edgar-pipeline chunk-document \
+  --canonical-dir output/anchors/sample_doc \
+  --output docs/chunks/sample_doc_chunks.json \
+  --chunk-size 40 \
+  --stride 20
+```
+
+The resulting JSON mirrors the planner format (`segments` array) so you can run
+`score-plan` directly on it. Tune `chunk-size`/`stride` to explore different
+granularities when searching for pricing grids or other hot zones.

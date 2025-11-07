@@ -1,0 +1,583 @@
+===== chunk0007 | range s000121–s000160 | score=1.0 =====
+Rationale: Provides the tiered Applicable Margin table (rates per base/SOFR across leverage bands) and the measurement-based triggering logic for pricing, i.e., how margins change with Total Leverage Ratio, plus a temporary presumption clause that fixes the margin until required financials are delivered.
+Summary: “ Anti-Corruption Laws ” means the FCPA, the U.K. Bribery Act of 2010, as amended, and all other applicable laws and regulations or ordinances concerning or relating to bribery or corruption.
+“ Anti-Money Laundering Laws ” means the applicable laws or regulations that relates to money laundering or any financial record keeping and reporting requirements related thereto.
+“ Applicable Lenders ” means the Required Lenders, all affected Lenders, or all Lenders, as the context may require.
+“ Applicable Margin ” means the applicable rate per annum set forth below, based on the Total Leverage Ratio as of the last day of each Measurement Period:
+| Pricing level | Total Leverage Ratio | Base Rate Loans | SOFR Loans |
+| --- | --- | --- | --- |
+| I | ≥ 2.75 to 1.00 | 7.25% | 8.25% |
+| II | < 2.75 to 1.00 and ≥ 2.25 to 1.00 | 7.00% | 8.00% |
+| III | < 2.25 to 1.00 | 6.75% | 7.75% |
+From the Closing Date until the date the Borrower delivers the financial statements, certificates and/or other information required to be delivered under Sections 6.1(b) and 6.2(a) for the Fiscal Quarter ending May 3, 2024, the Applicable Margin shall be conclusively presumed to equal the Applicable Margin specified
+
+⟦s000121⟧ “ Anti-Corruption Laws ” means the FCPA, the U.
+⟦s000122⟧ K.
+⟦s000123⟧ Bribery Act of 2010, as amended, and all other applicable laws and regulations or ordinances concerning or relating to bribery or corruption.
+⟦s000124⟧ “ Anti-Money Laundering Laws ” means the applicable laws or regulations that relates to money laundering or any financial record keeping and reporting requirements related thereto.
+⟦s000125⟧ “ Applicable Lenders ” means the Required Lenders, all affected Lenders, or all Lenders, as the context may require.
+⟦s000126⟧ “ Applicable Margin ” means the applicable rate per annum set forth below, based on the Total Leverage Ratio as of the last day of each Measurement Period:
+⟦s000127⟧ ```markdown
+| Pricing level | Total Leverage Ratio | Base Rate Loans | SOFR Loans |
+| --- | --- | --- | --- |
+| I | ≥ 2.75 to 1.00 | 7.25% | 8.25% |
+| II | < 2.75 to 1.00 and ≥ 2.25 to 1.00 | 7.00% | 8.00% |
+| III | < 2.25 to 1.00 | 6.75% | 7.75% |
+```
+⟦s000128⟧ From the Closing Date until the date the Borrower delivers the financial statements, certificates and/or other information required to be delivered under Sections 6.
+⟦s000129⟧ 1(b) and 6.
+⟦s000130⟧ 2(a) for the Fiscal Quarter ending May 3, 2024, the Applicable Margin shall be conclusively presumed to equal the Applicable Margin specified in “Tier I” of the pricing table set forth above.
+⟦s000131⟧ Thereafter, the Applicable Margin shall be adjusted quarterly upon delivery to Administrative Agent of the financial statements for Fiscal Quarter required to be delivered pursuant to Section 6.
+⟦s000132⟧ 1(b) hereof accompanied by a Compliance Certificate with a written calculation of the Total Leverage Ratio.
+⟦s000133⟧ If such calculation indicates that the Applicable Margin shall increase or decrease, then on the first Business Day following the date of delivery of such financial statements and a Compliance Certificate with such written calculation, the Applicable Margin shall be adjusted in accordance therewith.
+⟦s000134⟧ If the Borrower shall fail to deliver the financial statements, certificates and/or other information required to be delivered under Sections 6.
+⟦s000135⟧ 1 and 6.
+⟦s000136⟧ 2 by the dates required pursuant to such sections, the Applicable Margin shall be conclusively presumed to equal the Applicable Margin specified in “Tier I” of the pricing table set forth above until the date of delivery of such financial statements, certificates and/or other information, at which time the rate will be adjusted based upon the Total Leverage Ratio calculated pursuant to such financial statements.
+⟦s000137⟧ “ Applicable Percentage ” means, at any time (a) with respect to any Lender with a Commitment, the percentage equal to a fraction the numerator of which is the amount of such Lender’s Commitment at such time and the denominator of which is the aggregate amount of all Commitments of all Lenders, and (b) with respect to the Loans, a percentage equal to a fraction the numerator of which is such Lender’s Outstanding Amount of the Loans and the denominator of which is the aggregate Outstanding Amount of all Loans.
+⟦s000138⟧ - 3 -
+⟦s000139⟧ “ Applicable Prepayment Premium ” shall mean, with respect to any prepayments of the principal of the Loan in connection with a Prepayment Event occurring prior to the fourth anniversary of the Closing Date, a premium equal to: (a) on any date on or prior to the date that is twelve (12) months after the Closing Date, payment of all interest that would have accrued on the Loans (assuming no change in Term SOFR, and if a Default exists at the time of calculation, assuming that the Default Rate applies) until the date that is twelve (12) months after the Closing Date, plus a premium of three percent (3.
+⟦s000140⟧ 00%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended, (b) after the date that is twelve (12) months after the Closing Date but on or prior to the date that is twenty-four (24) months after the Closing Date (or if such date is not a Business Day, the previous Business Day), two percent (2.
+⟦s000141⟧ 00%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended, (c) after the date that is twenty-four (24) months after the Closing Date but on or prior to the date that is thirty-six (36) months after the Closing Date (or if such date is not a Business Day, the previous Business Day), one percent (1.
+⟦s000142⟧ 00%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended and (d) after the date that is thirty-six (36) months after the Closing Date (or if such date is not a Business Day, the previous Business Day) but on or prior to the date that is forty-eight (48) months after the Closing Date, one-half percent (0.
+⟦s000143⟧ 50%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended, in each case, including such prepayment, repayment, refinancing or amendment in connection with (u) a Change of Control, (v) an acceleration of the Loan as a result of the occurrence of an Event of Default, (w) foreclosure and sale of, or collection of, the Collateral in connection with the exercise of remedies by the Agent and Lenders following an Event of Default, (x) sale of the Collateral in any Insolvency Proceeding of any Loan Party, (y) the restructure, reorganization, or compromise of the Loan by the confirmation of a plan of reorganization or any other plan of compromise, restructure, or arrangement in any Insolvency Proceeding of any Loan Party or any of its Subsidiaries, or (z) the termination of this Agreement for any reason (other than in connection with a repayment in full of the Obligations that would not otherwise constitute a Prepayment Event).
+⟦s000144⟧ “ Approved Fund ” means any Fund that is administered or managed by (a) a Lender, (b) an Affiliate of a Lender (c) an entity or an Affiliate of an entity that administers or manages a Lender, or (d) the same investment advisor or an advisor under common control with such Lender, Affiliate or advisor, as applicable.
+⟦s000145⟧ “ Asset Sale ” means any Disposition or series of related Dispositions involving assets with a fair market value in excess of $1,000,000 in the aggregate per Fiscal Year or $2,500,000 in the aggregate (other than (i) Dispositions permitted under clauses (a) , (b) , (c) , (d) , (e) , (f) , (g) , (h) , (i) , (j) , (k) , (l) , (m) , (n) , (o) , (q) or (r) of the definition of Permitted Dispositions and (ii) Dispositions permitted under clause (t) of the definition of Permitted Dispositions to the extent the aggregate amount of cash proceeds (whether constituting licensing fees, royalties or other payments made by the applicable third parties) received by the Loan Parties in any Fiscal Year shall not exceed $10,000,000 (it being understood that cash proceeds in excess of the foregoing basket shall constitute proceeds of an Asset Sale (such excess proceeds, “ Excess Licensing Proceeds ”)).
+⟦s000146⟧ “ Assignee Group ” means two or more Eligible Assignees that are Affiliates of one another or two or more Approved Funds managed by the same investment advisor.
+⟦s000147⟧ “ Assignment and Assumption ” means an assignment and assumption entered into by a Lender and an Eligible Assignee (with the consent of any party whose consent is required by Section 10.
+⟦s000148⟧ 6(b) ), and accepted by the Agent, in substantially the form of Exhibit E or any other form approved by the Agent.
+⟦s000149⟧ “ Attributable Indebtedness ” means, on any date, (a) in respect of any Capital Lease Obligation of any Person, the capitalized amount thereof that would appear on a balance sheet of such Person prepared as of such date in accordance with GAAP, and (b) in respect of any Synthetic Lease
+⟦s000150⟧ - 4 -
+⟦s000151⟧ Obligation, the capitalized amount of the remaining lease or similar payments under the relevant lease or other applicable agreement or instrument that would appear on a balance sheet of such Person prepared as of such date in accordance with GAAP if such lease, agreement or instrument were accounted for as a capital lease.
+⟦s000152⟧ “ Audited Financial Statements ” means the audited consolidated balance sheet of the Borrower and its Subsidiaries for the Fiscal Year ended January 27, 2023, and the related consolidated statements of income or operations, Shareholders’ Equity and cash flows for such Fiscal Year of the Borrower and its Subsidiaries, including the notes thereto.
+⟦s000153⟧ “ Available Tenor ” means, as of any date of determination and with respect to the then-current Benchmark, as applicable, (x) if any such Benchmark is a term rate, any tenor for such Benchmark (or component thereof) that is or may be used for determining the length of an Interest Period pursuant to this Agreement or (y) otherwise, any payment period for interest calculated with reference to such Benchmark (or component thereof) that is or may be used for determining any frequency of making payments of interests calculated with reference to such Benchmark, in each case, as of such date and not including, for the avoidance of doubt, any tenor for such Benchmark that is then-removed from the definition of “Interest Period” pursuant to clause (e) of Section 2.
+⟦s000154⟧ 14 .
+⟦s000155⟧ “ Bail-In Action ” means the exercise of any Write-Down and Conversion Powers by the applicable EEA Resolution Authority in respect of any liability of an EEA Financial Institution.
+⟦s000156⟧ “ Bail-In Legislation ” means, with respect to any EEA Member Country implementing Article 55 of Directive 2014/59/EU of the European Parliament and of the Council of the European Union, the implementing law for such EEA Member Country from time to time that is described in the EU Bail-In Legislation Schedule.
+⟦s000157⟧ “ Base Rate ” means for any day a floating rate equal to the greater of (i) the Prime Rate in effect on such date (or, if The Wall Street Journal ceases quoting a Prime Rate of the type described, either (A) the per annum rate quoted as the base rate on such corporate loans in a different national publication as reasonably selected by the Agent or (B) the highest per annum rate of interest published by the Federal Reserve Board in Federal Reserve statistical release H.
+⟦s000158⟧ 15 (519) entitled “ Selected Interest Rates ” as the bank prime loan rate or its equivalent), (ii) the Federal Funds Rate in effect on such day, provided that the Federal Funds Rate shall not be less 0.
+⟦s000159⟧ 00 %, plus ½ of 1%, and (iii) Term SOFR for a one-month tenor in effect on such day (or if such day is not a Business Day, the immediately preceding Business Day) (taking into account the Floor) plus one percent (1.
+⟦s000160⟧ 00%) per annum; provided , further , that if at any time Term SOFR is not available, Base Rate shall be calculated without reference to clause (c) above.
+
+===== chunk0008 | range s000141–s000180 | score=1.0 =====
+Rationale: Explicit prepayment fee structure by timing (1.00% then 0.50%) and related events; directly governs pricing charges on repayments/refinancings.
+Summary: 00%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended, (c) after the date that is twenty-four (24) months after the Closing Date but on or prior to the date that is thirty-six (36) months after the Closing Date (or if such date is not a Business Day, the previous Business Day), one percent (1.00%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended and (d) after the date that is thirty-six (36) months after the Closing Date (or if such date is not a Business Day, the previous Business Day) but on or prior to the date that is forty-eight (48) months after the Closing Date, one-half percent (0.50%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended, in each case, including such prepayment, repayment, refinancing or amendment in connection with (u) a Change of Control, (v) an acceleration of the Loan as a result of the occurrence of an Event of Default, (w) foreclosure and sale of, or collection of, the Collateral in connection with the exercise of remedies by the Agent and Lenders following an Event of Default, (x) sale of the Collateral in any Insolvency Proceeding of any Loan Party, (y) the restructur
+
+⟦s000141⟧ 00%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended, (c) after the date that is twenty-four (24) months after the Closing Date but on or prior to the date that is thirty-six (36) months after the Closing Date (or if such date is not a Business Day, the previous Business Day), one percent (1.
+⟦s000142⟧ 00%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended and (d) after the date that is thirty-six (36) months after the Closing Date (or if such date is not a Business Day, the previous Business Day) but on or prior to the date that is forty-eight (48) months after the Closing Date, one-half percent (0.
+⟦s000143⟧ 50%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended, in each case, including such prepayment, repayment, refinancing or amendment in connection with (u) a Change of Control, (v) an acceleration of the Loan as a result of the occurrence of an Event of Default, (w) foreclosure and sale of, or collection of, the Collateral in connection with the exercise of remedies by the Agent and Lenders following an Event of Default, (x) sale of the Collateral in any Insolvency Proceeding of any Loan Party, (y) the restructure, reorganization, or compromise of the Loan by the confirmation of a plan of reorganization or any other plan of compromise, restructure, or arrangement in any Insolvency Proceeding of any Loan Party or any of its Subsidiaries, or (z) the termination of this Agreement for any reason (other than in connection with a repayment in full of the Obligations that would not otherwise constitute a Prepayment Event).
+⟦s000144⟧ “ Approved Fund ” means any Fund that is administered or managed by (a) a Lender, (b) an Affiliate of a Lender (c) an entity or an Affiliate of an entity that administers or manages a Lender, or (d) the same investment advisor or an advisor under common control with such Lender, Affiliate or advisor, as applicable.
+⟦s000145⟧ “ Asset Sale ” means any Disposition or series of related Dispositions involving assets with a fair market value in excess of $1,000,000 in the aggregate per Fiscal Year or $2,500,000 in the aggregate (other than (i) Dispositions permitted under clauses (a) , (b) , (c) , (d) , (e) , (f) , (g) , (h) , (i) , (j) , (k) , (l) , (m) , (n) , (o) , (q) or (r) of the definition of Permitted Dispositions and (ii) Dispositions permitted under clause (t) of the definition of Permitted Dispositions to the extent the aggregate amount of cash proceeds (whether constituting licensing fees, royalties or other payments made by the applicable third parties) received by the Loan Parties in any Fiscal Year shall not exceed $10,000,000 (it being understood that cash proceeds in excess of the foregoing basket shall constitute proceeds of an Asset Sale (such excess proceeds, “ Excess Licensing Proceeds ”)).
+⟦s000146⟧ “ Assignee Group ” means two or more Eligible Assignees that are Affiliates of one another or two or more Approved Funds managed by the same investment advisor.
+⟦s000147⟧ “ Assignment and Assumption ” means an assignment and assumption entered into by a Lender and an Eligible Assignee (with the consent of any party whose consent is required by Section 10.
+⟦s000148⟧ 6(b) ), and accepted by the Agent, in substantially the form of Exhibit E or any other form approved by the Agent.
+⟦s000149⟧ “ Attributable Indebtedness ” means, on any date, (a) in respect of any Capital Lease Obligation of any Person, the capitalized amount thereof that would appear on a balance sheet of such Person prepared as of such date in accordance with GAAP, and (b) in respect of any Synthetic Lease
+⟦s000150⟧ - 4 -
+⟦s000151⟧ Obligation, the capitalized amount of the remaining lease or similar payments under the relevant lease or other applicable agreement or instrument that would appear on a balance sheet of such Person prepared as of such date in accordance with GAAP if such lease, agreement or instrument were accounted for as a capital lease.
+⟦s000152⟧ “ Audited Financial Statements ” means the audited consolidated balance sheet of the Borrower and its Subsidiaries for the Fiscal Year ended January 27, 2023, and the related consolidated statements of income or operations, Shareholders’ Equity and cash flows for such Fiscal Year of the Borrower and its Subsidiaries, including the notes thereto.
+⟦s000153⟧ “ Available Tenor ” means, as of any date of determination and with respect to the then-current Benchmark, as applicable, (x) if any such Benchmark is a term rate, any tenor for such Benchmark (or component thereof) that is or may be used for determining the length of an Interest Period pursuant to this Agreement or (y) otherwise, any payment period for interest calculated with reference to such Benchmark (or component thereof) that is or may be used for determining any frequency of making payments of interests calculated with reference to such Benchmark, in each case, as of such date and not including, for the avoidance of doubt, any tenor for such Benchmark that is then-removed from the definition of “Interest Period” pursuant to clause (e) of Section 2.
+⟦s000154⟧ 14 .
+⟦s000155⟧ “ Bail-In Action ” means the exercise of any Write-Down and Conversion Powers by the applicable EEA Resolution Authority in respect of any liability of an EEA Financial Institution.
+⟦s000156⟧ “ Bail-In Legislation ” means, with respect to any EEA Member Country implementing Article 55 of Directive 2014/59/EU of the European Parliament and of the Council of the European Union, the implementing law for such EEA Member Country from time to time that is described in the EU Bail-In Legislation Schedule.
+⟦s000157⟧ “ Base Rate ” means for any day a floating rate equal to the greater of (i) the Prime Rate in effect on such date (or, if The Wall Street Journal ceases quoting a Prime Rate of the type described, either (A) the per annum rate quoted as the base rate on such corporate loans in a different national publication as reasonably selected by the Agent or (B) the highest per annum rate of interest published by the Federal Reserve Board in Federal Reserve statistical release H.
+⟦s000158⟧ 15 (519) entitled “ Selected Interest Rates ” as the bank prime loan rate or its equivalent), (ii) the Federal Funds Rate in effect on such day, provided that the Federal Funds Rate shall not be less 0.
+⟦s000159⟧ 00 %, plus ½ of 1%, and (iii) Term SOFR for a one-month tenor in effect on such day (or if such day is not a Business Day, the immediately preceding Business Day) (taking into account the Floor) plus one percent (1.
+⟦s000160⟧ 00%) per annum; provided , further , that if at any time Term SOFR is not available, Base Rate shall be calculated without reference to clause (c) above.
+⟦s000161⟧ Changes in the rate of interest on that portion of any Loans maintained as Base Rate Loans will take effect one Business Day following each change in the Base Rate.
+⟦s000162⟧ “ Base Rate Loan ” means a Loan that bears interest based on the Base Rate.
+⟦s000163⟧ “ Base Rate SOFR Adjustment ” has the meaning specified in the definition of “Term SOFR”.
+⟦s000164⟧ “ Base Rate Term SOFR Determination Day ” has the meaning specified in the definition of “Term SOFR”.
+⟦s000165⟧ “ Benchmark ” means, initially, the Term SOFR Reference Rate; provided that if a Benchmark Transition Event has occurred with respect to the Term SOFR Reference Rate or the then-current Benchmark, then “Benchmark” means the applicable Benchmark Replacement to the extent that
+⟦s000166⟧ - 5 -
+⟦s000167⟧ such Benchmark Replacement has replaced such prior benchmark rate pursuant to clause (a) of Section 2.
+⟦s000168⟧ 14 .
+⟦s000169⟧ “ Benchmark Replacement ” means the first alternative set forth in the order below that can be determined by the Agent for the applicable Benchmark Replacement Date:
+⟦s000170⟧ (a) Daily Simple SOFR; or
+⟦s000171⟧ (b) the sum of: (i) the alternate benchmark rate that has been selected by the Agent and the Borrower giving due consideration to (A) any selection or recommendation of a replacement benchmark rate or the mechanism for determining such rate by the Relevant Governmental Body or (B) any evolving or then-prevailing market convention for determining a benchmark rate as a replacement to the then-current Benchmark for U.
+⟦s000172⟧ S.
+⟦s000173⟧ dollar-denominated syndicated credit facilities and (ii) the related Benchmark Replacement Adjustment.
+⟦s000174⟧ If the Benchmark Replacement as determined pursuant to clause (a) or clause (b) above would be less than the Floor (which shall be calculated after increasing the Benchmark Replacement by any Benchmark Replacement Adjustment), then the Benchmark Replacement will be deemed to be the Floor for purposes of this Agreement and the other Loan Documents.
+⟦s000175⟧ “ Benchmark Replacement Adjustment ” means, with respect to any replacement of the then-current Benchmark with a Benchmark Replacement the spread adjustment, or method for calculating or determining such spread adjustment, (which may be a positive or negative value or zero) that has been selected by the Agent and the Borrower giving due consideration to (i) any selection or recommendation of a spread adjustment, or method for calculating or determining such spread adjustment, for the replacement of such Benchmark with the applicable Benchmark Replacement by the Relevant Governmental Body or (ii) any evolving or then-prevailing market convention for determining a spread adjustment, or method for calculating or determining such spread adjustment, for the replacement of such Benchmark with the applicable Benchmark Replacement for U.
+⟦s000176⟧ S.
+⟦s000177⟧ dollar-denominated syndicated credit facilities.
+⟦s000178⟧ “ Benchmark Replacement Date ” means a date and time determined by the Agent, which date shall be no later than the earlier to occur of the following events with respect to the then-current Benchmark:
+⟦s000179⟧ (a) in the case of clause (a) or (b) of the definition of Benchmark Transition Event, the later of (i) the date of the public statement or publication of information referenced therein and (ii) the date on which the administrator of such Benchmark (or the published component used in the calculation thereof) permanently or indefinitely ceases to provide all Available Tenors of such Benchmark (or such component thereof);
+⟦s000180⟧ (b) in the case of clause (c) of the definition of “Benchmark Transition Event,” the first date on which such Benchmark (or the published component used in the calculation thereof) has been determined and announced by or on behalf of the administrator of such Benchmark (or such component thereof) or the regulatory supervisor for the administrator of such Benchmark (or such component thereof) to be non-representative or non-compliant with or non-aligned with the International Organization of Securities Commissions (IOSCO) Principles for Financial Benchmarks; provided that such non-representativeness, non-compliance or non-alignment will be determined by reference to the most recent statement or publication referenced in such clause (c) and even if any Available Tenor of such Benchmark (or such component thereof) continues to be provided on such date.
+
+===== chunk0009 | range s000161–s000200 | score=1.0 =====
+Rationale: Defines how base-rate/benchmark rates adjust and what benchmarks may be used or replaced, directly shaping pricing mechanics for Base Rate Loans.
+Summary: Changes in the rate of interest on that portion of any Loans maintained as Base Rate Loans will take effect one Business Day following each change in the Base Rate.
+“ Base Rate Loan ” means a Loan that bears interest based on the Base Rate.
+“ Base Rate SOFR Adjustment ” has the meaning specified in the definition of “Term SOFR”.
+“ Base Rate Term SOFR Determination Day ” has the meaning specified in the definition of “Term SOFR”.
+“ Benchmark ” means, initially, the Term SOFR Reference Rate; provided that if a Benchmark Transition Event has occurred with respect to the Term SOFR Reference Rate or the then-current Benchmark, then “Benchmark” means the applicable Benchmark Replacement to the extent that
+- 5 -
+such Benchmark Replacement has replaced such prior benchmark rate pursuant to clause (a) of Section 2.14 .
+“ Benchmark Replacement ” means the first alternative set forth in the order below that can be determined by the Agent for the applicable Benchmark Replacement Date:
+(a) Daily Simple SOFR; or
+(b) the sum of: (i) the alternate benchmark rate that has been selected by the Agent and the Borrower giving due consideration to (A) any selection or recommendation of a replacement ben
+
+⟦s000161⟧ Changes in the rate of interest on that portion of any Loans maintained as Base Rate Loans will take effect one Business Day following each change in the Base Rate.
+⟦s000162⟧ “ Base Rate Loan ” means a Loan that bears interest based on the Base Rate.
+⟦s000163⟧ “ Base Rate SOFR Adjustment ” has the meaning specified in the definition of “Term SOFR”.
+⟦s000164⟧ “ Base Rate Term SOFR Determination Day ” has the meaning specified in the definition of “Term SOFR”.
+⟦s000165⟧ “ Benchmark ” means, initially, the Term SOFR Reference Rate; provided that if a Benchmark Transition Event has occurred with respect to the Term SOFR Reference Rate or the then-current Benchmark, then “Benchmark” means the applicable Benchmark Replacement to the extent that
+⟦s000166⟧ - 5 -
+⟦s000167⟧ such Benchmark Replacement has replaced such prior benchmark rate pursuant to clause (a) of Section 2.
+⟦s000168⟧ 14 .
+⟦s000169⟧ “ Benchmark Replacement ” means the first alternative set forth in the order below that can be determined by the Agent for the applicable Benchmark Replacement Date:
+⟦s000170⟧ (a) Daily Simple SOFR; or
+⟦s000171⟧ (b) the sum of: (i) the alternate benchmark rate that has been selected by the Agent and the Borrower giving due consideration to (A) any selection or recommendation of a replacement benchmark rate or the mechanism for determining such rate by the Relevant Governmental Body or (B) any evolving or then-prevailing market convention for determining a benchmark rate as a replacement to the then-current Benchmark for U.
+⟦s000172⟧ S.
+⟦s000173⟧ dollar-denominated syndicated credit facilities and (ii) the related Benchmark Replacement Adjustment.
+⟦s000174⟧ If the Benchmark Replacement as determined pursuant to clause (a) or clause (b) above would be less than the Floor (which shall be calculated after increasing the Benchmark Replacement by any Benchmark Replacement Adjustment), then the Benchmark Replacement will be deemed to be the Floor for purposes of this Agreement and the other Loan Documents.
+⟦s000175⟧ “ Benchmark Replacement Adjustment ” means, with respect to any replacement of the then-current Benchmark with a Benchmark Replacement the spread adjustment, or method for calculating or determining such spread adjustment, (which may be a positive or negative value or zero) that has been selected by the Agent and the Borrower giving due consideration to (i) any selection or recommendation of a spread adjustment, or method for calculating or determining such spread adjustment, for the replacement of such Benchmark with the applicable Benchmark Replacement by the Relevant Governmental Body or (ii) any evolving or then-prevailing market convention for determining a spread adjustment, or method for calculating or determining such spread adjustment, for the replacement of such Benchmark with the applicable Benchmark Replacement for U.
+⟦s000176⟧ S.
+⟦s000177⟧ dollar-denominated syndicated credit facilities.
+⟦s000178⟧ “ Benchmark Replacement Date ” means a date and time determined by the Agent, which date shall be no later than the earlier to occur of the following events with respect to the then-current Benchmark:
+⟦s000179⟧ (a) in the case of clause (a) or (b) of the definition of Benchmark Transition Event, the later of (i) the date of the public statement or publication of information referenced therein and (ii) the date on which the administrator of such Benchmark (or the published component used in the calculation thereof) permanently or indefinitely ceases to provide all Available Tenors of such Benchmark (or such component thereof);
+⟦s000180⟧ (b) in the case of clause (c) of the definition of “Benchmark Transition Event,” the first date on which such Benchmark (or the published component used in the calculation thereof) has been determined and announced by or on behalf of the administrator of such Benchmark (or such component thereof) or the regulatory supervisor for the administrator of such Benchmark (or such component thereof) to be non-representative or non-compliant with or non-aligned with the International Organization of Securities Commissions (IOSCO) Principles for Financial Benchmarks; provided that such non-representativeness, non-compliance or non-alignment will be determined by reference to the most recent statement or publication referenced in such clause (c) and even if any Available Tenor of such Benchmark (or such component thereof) continues to be provided on such date.
+⟦s000181⟧ - 6 -
+⟦s000182⟧ For the avoidance of doubt, the “Benchmark Replacement Date” will be deemed to have occurred in the case of clause (a) or (b) with respect to any Benchmark upon the occurrence of the applicable event or events set forth therein with respect to all then-current Available Tenors of such Benchmark (or the published component used in the calculation thereof).
+⟦s000183⟧ “ Benchmark Transition Event ” means the occurrence of one or more of the following events with respect to the then-current Benchmark:
+⟦s000184⟧ (a) a public statement or publication of information by or on behalf of the administrator of such Benchmark (or the published component used in the calculation thereof) announcing that such administrator has ceased or will cease to provide all Available Tenors of such Benchmark (or such component thereof), permanently or indefinitely, provided that, at the time of such statement or publication, there is no successor administrator that will continue to provide any Available Tenor of such Benchmark (or such component thereof);
+⟦s000185⟧ (b) a public statement or publication of information by the regulatory supervisor for the administrator of such Benchmark (or the published component used in the calculation thereof), the Federal Reserve Board, the Federal Reserve Bank of New York, an insolvency official with jurisdiction over the administrator for such Benchmark (or such component), a resolution authority with jurisdiction over the administrator for such Benchmark (or such component) or a court or an entity with similar insolvency or resolution authority over the administrator for such Benchmark (or such component), which states that the administrator of such Benchmark (or such component) has ceased or will cease to provide all Available Tenors of such Benchmark (or such component thereof) permanently or indefinitely, provided that, at the time of such statement or publication, there is no successor administrator that will continue to provide any Available Tenor of such Benchmark (or such component thereof); or
+⟦s000186⟧ (c) a public statement or publication of information by or on behalf of the administrator of such Benchmark (or the published component used in the calculation thereof) or the regulatory supervisor for the administrator of such Benchmark (or such component thereof) announcing that all Available Tenors of such Benchmark (or such component thereof) are not, or as of a specified future date will not be representative or in compliance with or aligned with the International Organization of Securities Commissions (IOSCO Principles for Financial Benchmarks).
+⟦s000187⟧ For the avoidance of doubt, a “Benchmark Transition Event” will be deemed to have occurred with respect to any Benchmark if a public statement or publication of information set forth above has occurred with respect to each then-current Available Tenor of such Benchmark (or the published component used in the calculation thereof).
+⟦s000188⟧ “ Benchmark Unavailability Period ” means the period (if any) (x) beginning at the time that a Benchmark Replacement Date has occurred if, at such time, no Benchmark Replacement has replaced the then-current Benchmark for all purposes hereunder and under any Loan Document in accordance with Section 2.
+⟦s000189⟧ 14 and (y) ending at the time that a Benchmark Replacement has replaced the then-current Benchmark for all purposes hereunder and under any Loan Document in accordance with Section 2.
+⟦s000190⟧ 14 .
+⟦s000191⟧ “ Benefit Plan ” means any of (a) an “employee benefit plan” (as defined in ERISA) that is subject to Title I of ERISA, (b) a “plan” as defined in and subject to Section 4975 of the Code or (c) any Person whose assets include (for purposes of ERISA Section 3(42) or otherwise for purposes of Title I of ERISA or Section 4975 of the Code) the assets of any such “employee benefit plan” or “plan”.
+⟦s000192⟧ - 7 -
+⟦s000193⟧ “ Borrower ” has the meaning specified in the introductory paragraph hereto.
+⟦s000194⟧ “ Borrower Materials ” has the meaning specified in Section 6.
+⟦s000195⟧ 2 .
+⟦s000196⟧ “ Borrowing ” means Loans of the same Type and currency, made, Converted or continued on the same date and, in the case of SOFR Loans, as to which a single Interest Period is in effect.
+⟦s000197⟧ “ Borrowing Base ” has the meaning specified in the ABL Credit Agreement.
+⟦s000198⟧ “ Business Day ” means any day other than a Saturday, Sunday or other day on which commercial banks are authorized to close under the Laws of, or are in fact closed in, the City of New York; provided, however, that, when used in connection with a SOFR Loan relating to any interest rate setting, fundings, disbursements, settlements or payments, the term “Business Day” shall mean a U.
+⟦s000199⟧ S.
+⟦s000200⟧ Government Securities Business Day.
+
+===== chunk0038 | range s000741–s000780 | score=1.0 =====
+Rationale: Contains the Repricing Event mechanism and Effective Yield reference, establishing pricing adjustment logic (how rates can change) and the threshold at which pricing would be re-set, which directly informs the pricing math even though exact numeric rates are not shown.
+Summary: “ Relevant Governmental Body ” means the Federal Reserve Board and/or the Federal Reserve Bank of New York, or a committee officially endorsed or convened by the Federal Reserve Board and/or the Federal Reserve Bank of New York or any successor thereto.
+“ Reportable Event ” means any of the events set forth in Section 4043(c) of ERISA, other than events for which the 30 day notice period has been waived.
+“ Repricing Event ” means, (i) any prepayment or repayment of the Term Loans, in whole or in part, with the proceeds of, or conversion of the Term Loans into, any new or replacement tranche of term loans bearing interest with an Effective Yield less than the Effective Yield applicable to the Term Loans (as such comparative yields are determined in the reasonable judgment of the Agent consistent with generally accepted financial practices) and (ii) any amendment to this Agreement that reduces the Effective Yield applicable to the Term Loans.
+“ Required Lenders ” means, as of any date of determination, Lenders holding more than 50% of the sum of the Total Outstandings; provided that the unused Commitment of, and the portion of the Total Outstandings held or deemed held by, any Defaul
+
+⟦s000741⟧ “ Relevant Governmental Body ” means the Federal Reserve Board and/or the Federal Reserve Bank of New York, or a committee officially endorsed or convened by the Federal Reserve Board and/or the Federal Reserve Bank of New York or any successor thereto.
+⟦s000742⟧ “ Reportable Event ” means any of the events set forth in Section 4043(c) of ERISA, other than events for which the 30 day notice period has been waived.
+⟦s000743⟧ “ Repricing Event ” means, (i) any prepayment or repayment of the Term Loans, in whole or in part, with the proceeds of, or conversion of the Term Loans into, any new or replacement tranche of term loans bearing interest with an Effective Yield less than the Effective Yield applicable to the Term Loans (as such comparative yields are determined in the reasonable judgment of the Agent consistent with generally accepted financial practices) and (ii) any amendment to this Agreement that reduces the Effective Yield applicable to the Term Loans.
+⟦s000744⟧ “ Required Lenders ” means, as of any date of determination, Lenders holding more than 50% of the sum of the Total Outstandings; provided that the unused Commitment of, and the portion of the Total Outstandings held or deemed held by, any Defaulting Lender shall be excluded for all purposes of making a determination of Required Lenders; provided further , however, if at any time there is more than one Lender, “Required Lenders” shall include at least two unaffiliated Lenders (it being acknowledged and agreed that if any Lender is an Affiliate or managed fund/account of another Lender, such Lenders shall be deemed to be one (1) Lender for the purposes of this proviso).
+⟦s000745⟧ “ Responsible Officer ” means the chief executive officer, president, chief financial officer, chief commercial officer, treasurer, controller or assistant treasurer of a Loan Party or any of the other individuals designated in writing to the Agent by an existing Responsible Officer of a Loan Party as an authorized signatory of any certificate or other document to be delivered hereunder (or, in the case of any Foreign Subsidiary, a director or other authorized signatory of such Foreign Subsidiary).
+⟦s000746⟧ Any document delivered hereunder that is signed by a Responsible Officer of a Loan Party shall be conclusively presumed to have been authorized by all necessary corporate, partnership and/or other action on the part of such Loan Party and such Responsible Officer shall be conclusively presumed to have acted on behalf of such Loan Party.
+⟦s000747⟧ - 43 -
+⟦s000748⟧ “ Restricted Payment ” means (i) any dividend or other distribution (whether in cash, securities or other property, and the amount of any Restricted Payment made other than in cash being deemed to be the fair market value, as reasonably determined by the Borrower, of the property subject to such Restricted Payment as of the time of such Restricted Payment) with respect to any capital stock or other Equity Interest of any Person or any of its Subsidiaries, or (ii) any payment (whether in cash, securities or other property), including any sinking fund or similar deposit, on account of the purchase, redemption, retirement, defeasance, acquisition, cancellation or termination of any such capital stock or other Equity Interest, or on account of any return of capital, to such Person’s stockholders, partners or members (or the equivalent of any thereof).
+⟦s000749⟧ “ Restricted Subsidiary ” means any Subsidiary of the Borrower.
+⟦s000750⟧ “ S&P ” means Standard & Poor’s Ratings Services, a Standard & Poor’s Financial Services LLC business, and any successor thereto.
+⟦s000751⟧ “ Sanctioned Entity ” means (a) a country or territory or a government of a country or territory, (b) an agency of the government of a country or territory, (c) an organization directly or indirectly controlled by a country or territory or its government, or (d) a Person resident in or determined to be resident in a country, in each case of clauses (a) through (d) that is a target of comprehensive country-wide or territory-wide Sanctions program administered and enforced by OFAC (as of the Closing Date, the sanctions programs for Cuba, Iran, North Korea, Syria, the non-government controlled areas of Zaporizhzhia and Kherson, the so-called Donetsk People’s Republic, the so-called Luhansk People’s Republic, and the Crimea region of Ukraine).
+⟦s000752⟧ “ Sanctioned Person ” means, at any time, and in each case insofar as dealings with the person are prohibited under Sanctions, (a) any Person named on the list of Specially Designated Nationals and Blocked Persons maintained by OFAC or any other Sanctions-related list maintained by a Governmental Authority, (b) any Person operating, organized or resident in a Sanctioned Entity, (c) any Person directly or indirectly fifty percent or more owned or controlled (individually or in the aggregate) by or acting on behalf of any such Person or Persons described in clauses (a) through (c) above, or (d) a Person that is otherwise the target of Sanctions.
+⟦s000753⟧ “ Sanctions ” means individually and collectively, respectively, any and all economic sanctions, trade sanctions, financial sanctions, sectoral sanctions, secondary sanctions, trade embargoes, anti-terrorism laws and other sanctions laws, regulations or embargoes, including those imposed, administered or enforced from time to time by: (a) the United States of America, including those Sanctions administered by OFAC, the U.
+⟦s000754⟧ S.
+⟦s000755⟧ Department of State, the U.
+⟦s000756⟧ S.
+⟦s000757⟧ Department of Commerce, or through any existing or future executive order, (b) the United Nations Security Council, (c) the European Union or any European Union member state, (d) His Majesty’s Treasury of the United Kingdom, or (e) any other Governmental Authority with jurisdiction over any Credit Party, Loan Party, or any of its Subsidiaries.
+⟦s000758⟧ “ Sanctions Provisions ” has the meaning specified in Section 1.
+⟦s000759⟧ 10.
+⟦s000760⟧ “ Sanctions Restricted Credit Party ” has the meaning specified in Section 1.
+⟦s000761⟧ 10.
+⟦s000762⟧ “ Sanctions Restricted Lender ” has the meaning specified in Section 1.
+⟦s000763⟧ 10.
+⟦s000764⟧ “ Sarbanes-Oxley ” means the Sarbanes-Oxley Act of 2002.
+⟦s000765⟧ “ SEC ” means the Securities and Exchange Commission, or any Governmental Authority succeeding to any of its principal functions.
+⟦s000766⟧ - 44 -
+⟦s000767⟧ “ Securities Laws ” means the Securities Act of 1933, the Securities Exchange Act of 1934, Sarbanes-Oxley, and the applicable accounting and auditing principles, rules, standards and practices promulgated, approved or incorporated by the SEC or the PCAOB.
+⟦s000768⟧ “ Security Documents ” means the Guaranty and Security Agreement, the Control Agreements (as such term is defined in the Guaranty and Security Agreement), the Mortgages, the UK Security Agreements and each other security agreement or other instrument or document executed and delivered to the Agent pursuant to this Agreement or any other Loan Document granting a Lien to secure any of the Obligations.
+⟦s000769⟧ “ Shareholders’ Equity ” means, as of any date of determination, consolidated shareholders’ equity of the Borrower and its Restricted Subsidiaries as of that date determined in accordance with GAAP.
+⟦s000770⟧ “ SOFR ” means a rate equal to the secured overnight financing rate as administered by the SOFR Administrator.
+⟦s000771⟧ “ SOFR Adjustment ” has the meaning specified in the definition of “Term SOFR”.
+⟦s000772⟧ “ SOFR Administrator ” means the Federal Reserve Bank of New York (or a successor administrator of the secured overnight financing rate).
+⟦s000773⟧ “ SOFR Borrowing ” means, as to any Borrowing, the SOFR Loans comprising such Borrowing.
+⟦s000774⟧ “ SOFR Loan ” means a Loan that bears interest at a rate based on Term SOFR, other than pursuant to clause (iii) of the definition of Base Rate.
+⟦s000775⟧ “ Solvent ” and “ Solvency ” means, with respect to any Person and its Subsidiaries on a Consolidated basis on a particular date, that on such date (a) at fair valuation, all of the properties and assets of such Person are greater than the sum of the debts, including contingent liabilities, of such Person, (b) the present fair saleable value of the properties and assets of such Person is not less than the amount that would be required to pay the probable liability of such Person on its debts as they become absolute and matured, (c) such Person is able to realize upon its properties and assets and pay its debts and other liabilities, contingent obligations and other commitments as they mature in the normal course of business, (d) such Person does not intend to, and does not believe that it will, incur debts beyond such Person’s ability to pay as such debts mature, and (e) such Person is not engaged in a business or a transaction, and is not about to engage in a business or transaction, for which such Person’s properties and assets would constitute unreasonably small capital after giving due consideration to the prevailing practices in the industry in which such Person is engaged.
+⟦s000776⟧ The amount of all guarantees at any time shall be computed as the amount that, in light of all the facts and circumstances existing at the time, can reasonably be expected to become an actual or matured liability.
+⟦s000777⟧ “ Specified Indebtedness ” means any Indebtedness incurred pursuant to clause (i) of the definition of “Permitted Indebtedness” and any unsecured Indebtedness incurred pursuant to clause (k) of the definition of “Permitted Indebtedness.
+⟦s000778⟧ ”
+⟦s000779⟧ “ Specified Transaction ” means any Investment, Disposition, incurrence or repayment of Indebtedness, Restricted Payment, or other transaction by the Borrower or any Restricted Subsidiary that by the terms of this Agreement requires satisfaction of a financial test calculated on a “Pro Forma Basis” or after giving “Pro Forma Effect” thereto; provided that any such Specified Transaction (other than a
+⟦s000780⟧ - 45 -
+
+===== chunk0041 | range s000801–s000840 | score=1.0 =====
+Rationale: Provides concrete pricing mechanics: base Term SOFR rate by tenor plus explicit fixed adjustments and a defined fallback if the rate isn't published, i.e., direct pricing formula and adjustment logic.
+Summary: (a) for any calculation with respect to a SOFR Loan, the Term SOFR Reference Rate for a tenor comparable to the applicable Interest Period on the day (such day, the “ Periodic Term SOFR Determination Day ”) that is two (2) U.S. Government Securities Business Days prior to the first day of such Interest Period, as such rate is published by the Term SOFR Administrator, plus (x) in respect of any one month Interest Period; 0.11448%, and (y) in respect of any three month Interest Period, 0.26161% (clauses (x) through (y), the “ SOFR Adjustment ”); provided , however , that if as of 5:00 p.m. (New York City time) on any Periodic Term SOFR Determination Day the Term SOFR Reference Rate for the applicable tenor has not been published by the Term SOFR Administrator and a Benchmark Replacement Date with respect to the Term SOFR Reference Rate has not occurred, then Term SOFR will be the Term SOFR Reference Rate for such tenor as published by the Term SOFR Administrator on the first preceding U.S. Government Securities Business Day for which such Term SOFR Reference Rate for such tenor was published by the Term SOFR Administrator so long as such first preceding U.S. Government Securities Bus
+
+⟦s000801⟧ (a) for any calculation with respect to a SOFR Loan, the Term SOFR Reference Rate for a tenor comparable to the applicable Interest Period on the day (such day, the “ Periodic Term SOFR Determination Day ”) that is two (2) U.
+⟦s000802⟧ S.
+⟦s000803⟧ Government Securities Business Days prior to the first day of such Interest Period, as such rate is published by the Term SOFR Administrator, plus (x) in respect of any one month Interest Period; 0.
+⟦s000804⟧ 11448%, and (y) in respect of any three month Interest Period, 0.
+⟦s000805⟧ 26161% (clauses (x) through (y), the “ SOFR Adjustment ”); provided , however , that if as of 5:00 p.m.
+⟦s000806⟧ (New York City time) on any Periodic Term SOFR Determination Day the Term SOFR Reference Rate for the applicable tenor has not been published by the Term SOFR Administrator and a Benchmark Replacement Date with respect to the Term SOFR Reference Rate has not occurred, then Term SOFR will be the Term SOFR Reference Rate for such tenor as published by the Term SOFR Administrator on the first preceding U.
+⟦s000807⟧ S.
+⟦s000808⟧ Government Securities Business Day for which such Term SOFR Reference Rate for such tenor was published by the Term SOFR Administrator so long as such first preceding U.
+⟦s000809⟧ S.
+⟦s000810⟧ Government Securities Business Day is not more than three (3) U.
+⟦s000811⟧ S.
+⟦s000812⟧ Government Securities Business Days prior to such Periodic Term SOFR Determination Day, and
+⟦s000813⟧ (b) for any calculation with respect to a Base Rate Loan on any day, the Term SOFR Reference Rate for a tenor of one month on the day (such day, the “ Base Rate Term SOFR Determination Day ”) that is two (2) U.
+⟦s000814⟧ S.
+⟦s000815⟧ Government Securities Business Days prior to such day, as such rate is published by the Term SOFR Administrator plus 0.
+⟦s000816⟧ 11448% (the “ Base Rate SOFR Adjustment ” and, together with the SOFR Adjustment, the “ Term SOFR Adjustment ”); provided , however, that if as of 5:00 p.m.
+⟦s000817⟧ (New York City Time) on any Base Rate Term SOFR Determination Day the Term SOFR Reference Rate for the applicable tenor has not been published by the Term SOFR Administrator and a Benchmark Replacement Date with respect to the Term SOFR Reference Rate has not occurred, then Term SOFR will be the Term SOFR Reference Rate for such tenor as published by the Term SOFR Administrator on the first preceding U.
+⟦s000818⟧ S.
+⟦s000819⟧ Government Securities Business Day for which such Term SOFR Reference Rate for such tenor was published by the Term SOFR Administrator so long as such first preceding U.
+⟦s000820⟧ S.
+⟦s000821⟧ Government Securities Business Day is not more than three (3) U.
+⟦s000822⟧ S.
+⟦s000823⟧ Government Securities Business Days prior to such Base Rate Term SOFR Determination Day;
+⟦s000824⟧ provided , further, that if Term SOFR determined as provided above (including pursuant to the proviso under clause (a) or (b) above and, for the avoidance of doubt, after giving effect to the Term SOFR Adjustment) shall ever be less than the Floor, then Term SOFR shall be deemed to be the Floor.
+⟦s000825⟧ - 47 -
+⟦s000826⟧ “ Term SOFR Adjustment ” has the meaning specified in the definition of “Term SOFR”.
+⟦s000827⟧ “ Term SOFR Administrator ” means CME Group Benchmark Administration Limited (CBA) (or a successor administrator of the Term SOFR Reference Rate selected by Agent in its reasonable discretion).
+⟦s000828⟧ “ Term SOFR Reference Rate ” means the forward-looking term rate based on SOFR.
+⟦s000829⟧ “ Total Leverage Ratio ” means, with respect to any Measurement Period, the ratio of (a) Consolidated Total Debt as of the last day of such Measurement Period to (b) Consolidated EBITDA of the Borrower for such Measurement Period.
+⟦s000830⟧ “ Total Outstandings ” means the aggregate Outstanding Amount of all Loans.
+⟦s000831⟧ “ Trading with the Enemy Act ” has the meaning set forth in Section 10.
+⟦s000832⟧ 19 .
+⟦s000833⟧ “ Transactions ” means, collectively, (a) the initial Borrowing hereunder on the Closing Date , (b) the repayment in full and termination of the Indebtedness under the Existing Term Loan Agreement and (c) the payment of the fees and expenses incurred in connection with the consummation of the foregoing.
+⟦s000834⟧ “ Type ” means, with respect to a Loan, its character as a Base Rate Loan or a SOFR Loan.
+⟦s000835⟧ “ UCC ” or “ Uniform Commercial Code ” means the Uniform Commercial Code as in effect from time to time in the State of New York; provided , however , that if a term is defined in Article 9 of the Uniform Commercial Code differently than in another Article thereof, the term shall have the meaning set forth in Article IX ; provided further that, if by reason of mandatory provisions of law, perfection, or the effect of perfection or non-perfection, of a security interest in any Collateral or the availability of any remedy hereunder is governed by the Uniform Commercial Code as in effect in a jurisdiction other than New York, “Uniform Commercial Code” means the Uniform Commercial Code as in effect in such other jurisdiction for purposes of the provisions hereof relating to such perfection or effect of perfection or non-perfection or availability of such remedy, as the case may be.
+⟦s000836⟧ “ UK Guarantor ” means Lands’ End Europe Limited.
+⟦s000837⟧ “ UK Mortgage ” means a fully executed legal mortgage in favor of the Agent granted pursuant to the relevant UK Security Agreement by the UK Guarantor creating a fixed and floating charge over the UK Property.
+⟦s000838⟧ “ UK Property ” means the freehold property being ‘land lying to the North of Pillings Road, Oakham’, registered at the UK Land Registry with title number LT295459, and referred to more commonly as Lands’ End Way, Oakham, Rutland LE15 6US.
+⟦s000839⟧ “ UK Security Agreements ” means, collectively, (a) an all asset debenture entered into by the UK Guarantor creating a first priority security interest over all or substantially all of its assets (including the UK Mortgage), (b) [reserved] and (c) a share charge granted over the Equity Interests of the UK Guarantor in connection with this Agreement.
+⟦s000840⟧ “ Unintentional Overadvance ” has the meaning provided therefor in the ABL Credit Agreement.
+
+===== chunk0055 | range s001081–s001120 | score=1.0 =====
+Rationale: Exposes the core pricing mechanic: interest = Term SOFR (or Base Rate) plus Applicable Margin; references the applicable margins that drive pricing and benchmarking.
+Summary: 7 Repayment of Obligations . The Borrower shall repay to the Agent for the ratable account of the Lenders (i) on the last Business Day of each Fiscal Quarter, commencing with May 3, 2024, an aggregate principal amount equal to 1.25% of the aggregate principal amount of the Term Loans funded on the Closing Date (which is $260,000,000) and (ii) on the Maturity Date for the Term Loans, the aggregate principal amount of all Term Loans outstanding on such date; provided that payments required by this Section 2.7 above shall be reduced as a result of the application of prepayments in accordance with the order of priority set forth in Section 2.5 .
+2.8 Interest .
+(a) Subject to the provisions of Section 2.8(b) below, (i) each SOFR Loan shall bear interest on the outstanding principal amount thereof for each Interest Period at a rate per annum equal to Term SOFR for such Interest Period plus the Applicable Margin for SOFR Loans; and (ii) each Base Rate Loan shall bear interest on the outstanding principal amount thereof from the applicable borrowing date at a rate per annum equal to the Base Rate plus the Applicable Margin for Base Rate Loans.
+(b) If any Event of Default exists, then the A
+
+⟦s001081⟧ 7 Repayment of Obligations .
+⟦s001082⟧ The Borrower shall repay to the Agent for the ratable account of the Lenders (i) on the last Business Day of each Fiscal Quarter, commencing with May 3, 2024, an aggregate principal amount equal to 1.
+⟦s001083⟧ 25% of the aggregate principal amount of the Term Loans funded on the Closing Date (which is $260,000,000) and (ii) on the Maturity Date for the Term Loans, the aggregate principal amount of all Term Loans outstanding on such date; provided that payments required by this Section 2.
+⟦s001084⟧ 7 above shall be reduced as a result of the application of prepayments in accordance with the order of priority set forth in Section 2.
+⟦s001085⟧ 5 .
+⟦s001086⟧ 2.
+⟦s001087⟧ 8 Interest .
+⟦s001088⟧ (a) Subject to the provisions of Section 2.
+⟦s001089⟧ 8(b) below, (i) each SOFR Loan shall bear interest on the outstanding principal amount thereof for each Interest Period at a rate per annum equal to Term SOFR for such Interest Period plus the Applicable Margin for SOFR Loans; and (ii) each Base Rate Loan shall bear interest on the outstanding principal amount thereof from the applicable borrowing date at a rate per annum equal to the Base Rate plus the Applicable Margin for Base Rate Loans.
+⟦s001090⟧ (b) If any Event of Default exists, then the Agent may, and upon the request of the Required Lenders shall, notify the Borrower that all outstanding Obligations shall thereafter bear interest at a fluctuating interest rate per annum at all times equal to the Default Rate and thereafter (for so long as such Event of Default is continuing) such Obligations shall bear interest at the Default Rate to the fullest extent permitted by Law; provided, that, upon the occurrence of an Event of Default under Sections 8.
+⟦s001091⟧ 1(a) or (f) the Default Rate shall apply automatically.
+⟦s001092⟧ Accrued and unpaid interest on past due amounts (including interest on past due interest) shall be due and payable upon demand.
+⟦s001093⟧ - 59 -
+⟦s001094⟧ (c) Except as provided in Section 2.
+⟦s001095⟧ 8(b) , interest on each Loan shall be due and payable in arrears in cash on each Interest Payment Date applicable thereto and at such other times as may be specified herein.
+⟦s001096⟧ Interest hereunder shall be due and payable in accordance with the terms hereof before and after judgment, and before and after the commencement of any proceeding under any Debtor Relief Law.
+⟦s001097⟧ 2.
+⟦s001098⟧ 9 Fees .
+⟦s001099⟧ (a) Upfront Fee .
+⟦s001100⟧ The Borrower shall pay to the Agent an upfront fee in Dollars on the Closing Date in an amount equal to 3.
+⟦s001101⟧ 00% of the principal amount of the Term Loans for the account of each Lender.
+⟦s001102⟧ (b) Other Fees .
+⟦s001103⟧ The Borrower shall pay to the Agent for their own respective accounts fees in the amounts and at the times specified in the Fee Letter.
+⟦s001104⟧ Such fees shall be fully earned when paid and shall not be refundable for any reason whatsoever.
+⟦s001105⟧ 2.
+⟦s001106⟧ 10 Computation of Interest .
+⟦s001107⟧ All computations of interest for Base Rate Loans when the Base Rate is determined by the Prime Rate shall be made on the basis of a year of 365 or 366 days, as the case may be, and actual days elapsed.
+⟦s001108⟧ All other computations of fees and interest shall be made on the basis of a 360-day year and actual days elapsed (which results in more fees or interest, as applicable, being paid than if computed on the basis of a 365-day year).
+⟦s001109⟧ Interest shall accrue on the Loan for the day on which the Loan is made, and shall not accrue on a Loan, or any portion thereof, for the day on which the Loan or such portion is paid, provided that any Loan that is repaid on the same day on which it is made shall, subject to Section 2.
+⟦s001110⟧ 12(a) , bear interest for one day.
+⟦s001111⟧ Each determination by the Agent of an interest rate hereunder shall be conclusive and binding for all purposes, absent manifest error.
+⟦s001112⟧ 2.
+⟦s001113⟧ 11 Evidence of Debt .
+⟦s001114⟧ The Loans made by each Lender shall be evidenced by one or more accounts or records maintained by the Agent in the ordinary course of business.
+⟦s001115⟧ In addition, each Lender may record in such Lender’s internal records, an appropriate notation evidencing the date and amount of each Loan from such Lender, each payment and prepayment of principal of any such Loan, and each payment of interest, fees and other amounts due in connection with the Obligations due to such Lender.
+⟦s001116⟧ The accounts or records maintained by the Agent and each Lender shall be conclusive absent manifest error of the amount of the Loans made by the Lenders to the Borrower and the interest and payments thereon.
+⟦s001117⟧ Any failure to so record or any error in doing so shall not, however, limit or otherwise affect the obligation of the Borrower hereunder to pay any amount owing with respect to the Obligations.
+⟦s001118⟧ In the event of any conflict between the accounts and records maintained by any Lender and the accounts and records of the Agent in respect of such matters, the accounts and records of the Agent shall control in the absence of manifest error.
+⟦s001119⟧ Upon the request of any Lender made through the Agent, the Borrower shall execute and deliver to such Lender (through the Agent) a Note, which shall evidence such Lender’s Loans in addition to such accounts or records.
+⟦s001120⟧ Each Lender may attach schedules to its Note and endorse thereon the date, Type (if applicable), amount and maturity of its Loans and payments with respect thereto.
+
+===== chunk0056 | range s001101–s001140 | score=1.0 =====
+Rationale: Describes how interest and fees are computed (day-count basis, base-rate vs other fees, accrual rules), which directly affects pricing mechanics, even though exact margins or leverage tiers aren't shown.
+Summary: 00% of the principal amount of the Term Loans for the account of each Lender.
+(b) Other Fees . The Borrower shall pay to the Agent for their own respective accounts fees in the amounts and at the times specified in the Fee Letter. Such fees shall be fully earned when paid and shall not be refundable for any reason whatsoever.
+2.10 Computation of Interest . All computations of interest for Base Rate Loans when the Base Rate is determined by the Prime Rate shall be made on the basis of a year of 365 or 366 days, as the case may be, and actual days elapsed. All other computations of fees and interest shall be made on the basis of a 360-day year and actual days elapsed (which results in more fees or interest, as applicable, being paid than if computed on the basis of a 365-day year). Interest shall accrue on the Loan for the day on which the Loan is made, and shall not accrue on a Loan, or any portion thereof, for the day on which the Loan or such portion is paid, provided that any Loan that is repaid on the same day on which it is made shall, subject to Section 2.12(a) , bear interest for one day. Each determination by the Agent of an interest rate hereunder shall be conclusive and bi
+
+⟦s001101⟧ 00% of the principal amount of the Term Loans for the account of each Lender.
+⟦s001102⟧ (b) Other Fees .
+⟦s001103⟧ The Borrower shall pay to the Agent for their own respective accounts fees in the amounts and at the times specified in the Fee Letter.
+⟦s001104⟧ Such fees shall be fully earned when paid and shall not be refundable for any reason whatsoever.
+⟦s001105⟧ 2.
+⟦s001106⟧ 10 Computation of Interest .
+⟦s001107⟧ All computations of interest for Base Rate Loans when the Base Rate is determined by the Prime Rate shall be made on the basis of a year of 365 or 366 days, as the case may be, and actual days elapsed.
+⟦s001108⟧ All other computations of fees and interest shall be made on the basis of a 360-day year and actual days elapsed (which results in more fees or interest, as applicable, being paid than if computed on the basis of a 365-day year).
+⟦s001109⟧ Interest shall accrue on the Loan for the day on which the Loan is made, and shall not accrue on a Loan, or any portion thereof, for the day on which the Loan or such portion is paid, provided that any Loan that is repaid on the same day on which it is made shall, subject to Section 2.
+⟦s001110⟧ 12(a) , bear interest for one day.
+⟦s001111⟧ Each determination by the Agent of an interest rate hereunder shall be conclusive and binding for all purposes, absent manifest error.
+⟦s001112⟧ 2.
+⟦s001113⟧ 11 Evidence of Debt .
+⟦s001114⟧ The Loans made by each Lender shall be evidenced by one or more accounts or records maintained by the Agent in the ordinary course of business.
+⟦s001115⟧ In addition, each Lender may record in such Lender’s internal records, an appropriate notation evidencing the date and amount of each Loan from such Lender, each payment and prepayment of principal of any such Loan, and each payment of interest, fees and other amounts due in connection with the Obligations due to such Lender.
+⟦s001116⟧ The accounts or records maintained by the Agent and each Lender shall be conclusive absent manifest error of the amount of the Loans made by the Lenders to the Borrower and the interest and payments thereon.
+⟦s001117⟧ Any failure to so record or any error in doing so shall not, however, limit or otherwise affect the obligation of the Borrower hereunder to pay any amount owing with respect to the Obligations.
+⟦s001118⟧ In the event of any conflict between the accounts and records maintained by any Lender and the accounts and records of the Agent in respect of such matters, the accounts and records of the Agent shall control in the absence of manifest error.
+⟦s001119⟧ Upon the request of any Lender made through the Agent, the Borrower shall execute and deliver to such Lender (through the Agent) a Note, which shall evidence such Lender’s Loans in addition to such accounts or records.
+⟦s001120⟧ Each Lender may attach schedules to its Note and endorse thereon the date, Type (if applicable), amount and maturity of its Loans and payments with respect thereto.
+⟦s001121⟧ Upon receipt of an affidavit of a Lender as to the loss, theft, destruction or mutilation of such Lender’s Note and upon cancellation of such Note, the Borrower will issue, in lieu thereof, a replacement Note in favor of such Lender, in the same principal amount thereof and otherwise of like tenor.
+⟦s001122⟧ 2.
+⟦s001123⟧ 12 Payments Generally; Agent’s Clawback .
+⟦s001124⟧ (a) General .
+⟦s001125⟧ All payments to be made by the Borrower shall be made without deduction for any counterclaim, defense, recoupment or setoff.
+⟦s001126⟧ Except as otherwise expressly provided herein, all payments by the Borrower hereunder shall be made to the Agent, for the account of the respective Lenders to which such payment is owed, at the Agent’s Office in Dollars and in immediately available
+⟦s001127⟧ - 60 -
+⟦s001128⟧ funds not later than 2:00 p.m.
+⟦s001129⟧ on the date specified herein.
+⟦s001130⟧ The Agent will promptly distribute to each Lender its Applicable Percentage (or other applicable share as provided herein) of such payment in Dollars by wire transfer to such Lender’s Lending Office.
+⟦s001131⟧ All payments received by the Agent after 2:00 p.m.
+⟦s001132⟧ shall, at the option of the Agent, be deemed received on the next succeeding Business Day and any applicable interest or fee shall continue to accrue.
+⟦s001133⟧ If any payment to be made by the Borrower shall come due on a day other than a Business Day, payment shall be made on the next following Business Day (other than with respect to payment of a SOFR Loan), and such extension of time shall be reflected in computing interest or fees, as the case may be.
+⟦s001134⟧ (b) Funding by Lenders; Presumption by Agent .
+⟦s001135⟧ (i) Unless the Agent shall have received notice from a Lender prior to the proposed date of any Borrowing of the Loan that such Lender will not make available to the Agent such Lender’s share of such Borrowing, the Agent may assume that such Lender has made such share available on such date in accordance with Section 2.
+⟦s001136⟧ 2 (or in the case of a Borrowing of Base Rate Loans, that such Lender has made such share available in accordance with and at the time required by Section 2.
+⟦s001137⟧ 2 ) and may, in reliance upon such assumption, make available to the Borrower a corresponding amount.
+⟦s001138⟧ In such event, if a Lender has not in fact made its share of the applicable Borrowing available to the Agent, then the applicable Lender and the Borrower severally agree to pay to the Agent forthwith on demand such corresponding amount in immediately available funds with interest thereon, for each day from and including the date such amount is made available to the Borrower to but excluding the date of payment to the Agent, at (A) in the case of a payment to be made by such Lender, the greater of the Federal Funds Rate and a rate determined by the Agent in accordance with banking industry rules on interbank compensation plus any administrative processing or similar fees customarily charged by the Agent in connection with the foregoing, and (B) in the case of a payment to be made by the Borrower, the interest rate applicable to Base Rate Loans.
+⟦s001139⟧ If the Borrower and such Lender shall pay such interest to the Agent for the same or an overlapping period, the Agent shall promptly remit to the Borrower the amount of such interest paid by the Borrower for such period.
+⟦s001140⟧ If such Lender pays its share of the applicable Borrowing to the Agent, then the amount so paid shall constitute such Lender’s Loan included in such Borrowing.
+
+===== chunk0058 | range s001141–s001180 | score=1.0 =====
+Rationale: Shows a concrete pricing formula used in a specific scenario: the rate for distributions uses the greater of the Federal Funds Rate and an agent-determined rate, with daily accrual; this is a pricing mechanic and benchmark/adjustment logic relevant to pricing.
+Summary: Any payment by the Borrower shall be without prejudice to any claim the Borrower may have against a Lender that shall have failed to make such payment to the Agent.
+(ii) Payments by Borrower; Presumptions by Agent . Unless the Agent shall have received notice from the Borrower prior to the time at which any payment is due to the Agent for the account of any of the Lenders hereunder that the Borrower will not make such payment, the Agent may assume that the Borrower has made such payment on such date in accordance herewith and may, in reliance upon such assumption, distribute to the Lenders the amount due. In such event, if the Borrower has not in fact made such payment, then each of the Lenders severally agrees to repay to the Agent forthwith on demand the amount so distributed to such Lender, in immediately available funds with interest thereon, for each day from and including the date such amount is distributed to it to but excluding the date of payment to the Agent, at the greater of the Federal Funds Rate and a rate determined by the Agent in accordance with banking industry rules on interbank compensation. A notice of the Agent to any Lender or the Borrower with respect to any
+
+⟦s001141⟧ Any payment by the Borrower shall be without prejudice to any claim the Borrower may have against a Lender that shall have failed to make such payment to the Agent.
+⟦s001142⟧ (ii) Payments by Borrower; Presumptions by Agent .
+⟦s001143⟧ Unless the Agent shall have received notice from the Borrower prior to the time at which any payment is due to the Agent for the account of any of the Lenders hereunder that the Borrower will not make such payment, the Agent may assume that the Borrower has made such payment on such date in accordance herewith and may, in reliance upon such assumption, distribute to the Lenders the amount due.
+⟦s001144⟧ In such event, if the Borrower has not in fact made such payment, then each of the Lenders severally agrees to repay to the Agent forthwith on demand the amount so distributed to such Lender, in immediately available funds with interest thereon, for each day from and including the date such amount is distributed to it to but excluding the date of payment to the Agent, at the greater of the Federal Funds Rate and a rate determined by the Agent in accordance with banking industry rules on interbank compensation.
+⟦s001145⟧ A notice of the Agent to any Lender or the Borrower with respect to any amount owing under this subsection (b) shall be conclusive, absent manifest error.
+⟦s001146⟧ (c) Failure to Satisfy Conditions Precedent .
+⟦s001147⟧ If any Lender makes available to the Agent funds for any Loan to be made by such Lender as provided in the foregoing provisions of this Article II , and such funds are not made available to the Borrower by the Agent because the conditions to the Loan set forth in Article IV are not satisfied or waived in accordance with the terms hereof (subject to the provisions of the last paragraph of Section 4.
+⟦s001148⟧ 1 hereof), the Agent shall return such funds (in like funds as received from such Lender) to such Lender, without interest.
+⟦s001149⟧ - 61 -
+⟦s001150⟧ (d) Obligations of Lenders Several .
+⟦s001151⟧ The obligations of the Lenders hereunder to make Loans and to make payments hereunder are several and not joint.
+⟦s001152⟧ The failure of any Lender to make any Loan or to make any payment hereunder on any date required hereunder shall not relieve any other Lender of its corresponding obligation to do so on such date, and no Lender shall be responsible for the failure of any other Lender to so make its Loan or to make its payment hereunder.
+⟦s001153⟧ (e) Funding Source .
+⟦s001154⟧ Nothing herein shall be deemed to obligate any Lender to obtain the funds for any Loan in any particular place or manner or to constitute a representation by any Lender that it has obtained or will obtain the funds for any Loan in any particular place or manner.
+⟦s001155⟧ 2.
+⟦s001156⟧ 13 Sharing of Payments by Lenders .
+⟦s001157⟧ If any Lender shall, by exercising any right of setoff or counterclaim or otherwise, obtain payment in respect of any principal of, interest on, or other amounts with respect to, any of the Obligations resulting in such Lender’s receiving payment of a proportion of the aggregate amount of such Obligations greater than its pro rata share thereof as provided herein (including as in contravention of the priorities of payment set forth in Section 8.
+⟦s001158⟧ 3 ), then the Lender receiving such greater proportion shall (a) notify the Agent of such fact, and (b) purchase (for cash at face value) participations in the Obligations of the other Lenders, or make such other adjustments as shall be equitable, so that the benefit of all such payments shall be shared by the Lenders ratably and in the priorities set forth in Section 8.
+⟦s001159⟧ 3 , provided that:
+⟦s001160⟧ (a) if any such participations or subparticipations are purchased and all or any portion of the payment giving rise thereto is recovered, such participations or subparticipations shall be rescinded and the purchase price restored to the extent of such recovery, without interest; and
+⟦s001161⟧ (b) the provisions of this Section shall not be construed to apply to (x) any payment made by the Loan Parties pursuant to and in accordance with the express terms of this Agreement (including the application of funds arising from the existence of a Defaulting Lender) or (y) any payment obtained by a Lender as consideration for the assignment of or sale of a participation in any of its Loans to any assignee or participant, other than to the Borrower or any Restricted Subsidiary thereof (as to which the provisions of this Section shall apply unless such assignment has been approved by the Required Lenders).
+⟦s001162⟧ Each Loan Party consents to the foregoing and agrees, to the extent it may effectively do so under Law, that any Lender acquiring a participation pursuant to the foregoing arrangements may exercise against such Loan Party rights of setoff and counterclaim with respect to such participation as fully as if such Lender were a direct creditor of such Loan Party in the amount of such participation.
+⟦s001163⟧ 2.
+⟦s001164⟧ 14 Benchmark Replacement .
+⟦s001165⟧ (a) Benchmark Replacement .
+⟦s001166⟧ Notwithstanding anything to the contrary herein or in any other Loan Document, upon the occurrence of a Benchmark Transition Event and its related Benchmark Replacement Date prior to any setting of the then-current Benchmark, then (x) if a Benchmark Replacement is determined in accordance with clause (a) of the definition of “Benchmark Replacement” for such Benchmark Replacement Date, such Benchmark Replacement will replace such Benchmark for all purposes hereunder and under any Loan Document in respect of such Benchmark setting and subsequent Benchmark settings without any amendment to, or further action or consent of any other party to, this Agreement or any other Loan Document and (y) if a Benchmark Replacement is determined in accordance with clause (b) of the definition of “Benchmark Replacement” for such Benchmark Replacement Date, such Benchmark Replacement will replace such Benchmark for all purposes hereunder and under any Loan Document in respect of any Benchmark setting at or after 5:00 p.m.
+⟦s001167⟧ (New York City time) on the fifth (5th) Business Day after the date notice of such Benchmark Replacement is provided to the Lenders without any amendment to, or further action or consent of any other party to, this Agreement or any other Loan
+⟦s001168⟧ - 62 -
+⟦s001169⟧ Document so long as the Agent has not received, by such time, written notice of objection to such Benchmark Replacement from Lenders comprising the Required Lenders.
+⟦s001170⟧ If the Benchmark Replacement is Daily Simple SOFR, all interest payments will be made on a monthly basis.
+⟦s001171⟧ (b) Conforming Changes .
+⟦s001172⟧ In connection with the use, administration, adoption or implementation of a Benchmark Replacement, the Agent will have the right to make Conforming Changes, in consultation with the Borrower (provided that the Agent’s decision shall be conclusive), from time to time and, notwithstanding anything to the contrary herein or in any other Loan Document, any amendments implementing such Conforming Changes will become effective without any further action or consent of any other party to this Agreement or any other Loan Document.
+⟦s001173⟧ (c) Notices; Standards for Decisions and Determinations .
+⟦s001174⟧ The Agent will promptly notify the Borrower and the Lenders of (i) the implementation of any Benchmark Replacement and (ii) the effectiveness of any Conforming Changes in connection with the use, administration, adoption or implementation of a Benchmark Replacement.
+⟦s001175⟧ The Agent will promptly notify the Borrower of the removal and reinstatement of any tenor of a Benchmark pursuant to Section 2.
+⟦s001176⟧ 14(e) below.
+⟦s001177⟧ Any determination, decision or election that may be made by the Agent pursuant to this Section 2.
+⟦s001178⟧ 14 , including any determination with respect to a tenor, rate or adjustment or of the occurrence or non-occurrence of an event, circumstance or date and any decision to take or refrain from taking any action, will be conclusive and binding absent manifest error and may be made in its or their sole discretion and without consent from any other party hereto, except, in each case, as expressly required pursuant to this Section 2.
+⟦s001179⟧ 14 .
+⟦s001180⟧ (d) Benchmark Unavailability Period .
+
+===== chunk0060 | range s001181–s001220 | score=1.0 =====
+Rationale: Describes fallback from SOFR to Base Rate and how the Base Rate is determined during Benchmark Unavailability, i.e., core pricing adjustment logic.
+Summary: Upon the Borrower’s receipt of notice of the commencement of a Benchmark Unavailability Period, the Borrower may revoke any request for a SOFR Borrowing of, conversion to or continuation of SOFR Loans to be made, converted or continued during any Benchmark Unavailability Period and, failing that, the Borrower will be deemed to have converted any such request into a request for a Borrowing of or conversion to Base Rate Loans. Any conversion of SOFR Loans to Base Rate Loans required by the preceding sentence shall be subject to Section 3.5 . During any Benchmark Unavailability Period or at any time that a tenor for the then-current Benchmark is not an Available Tenor, the component of the Base Rate based upon the then-current Benchmark or such tenor for such Benchmark, as applicable, will not be used in any determination of the Base Rate.
+(e) Unavailability of Tenor of Benchmark . Notwithstanding anything to the contrary herein or in any other Loan Document, at any time (including in connection with the implementation of a Benchmark Replacement), (i) if the then-current Benchmark is a term rate (including the Term SOFR Reference Rate) and either (A) any tenor for such Benchmark is no
+
+⟦s001181⟧ Upon the Borrower’s receipt of notice of the commencement of a Benchmark Unavailability Period, the Borrower may revoke any request for a SOFR Borrowing of, conversion to or continuation of SOFR Loans to be made, converted or continued during any Benchmark Unavailability Period and, failing that, the Borrower will be deemed to have converted any such request into a request for a Borrowing of or conversion to Base Rate Loans.
+⟦s001182⟧ Any conversion of SOFR Loans to Base Rate Loans required by the preceding sentence shall be subject to Section 3.
+⟦s001183⟧ 5 .
+⟦s001184⟧ During any Benchmark Unavailability Period or at any time that a tenor for the then-current Benchmark is not an Available Tenor, the component of the Base Rate based upon the then-current Benchmark or such tenor for such Benchmark, as applicable, will not be used in any determination of the Base Rate.
+⟦s001185⟧ (e) Unavailability of Tenor of Benchmark .
+⟦s001186⟧ Notwithstanding anything to the contrary herein or in any other Loan Document, at any time (including in connection with the implementation of a Benchmark Replacement), (i) if the then-current Benchmark is a term rate (including the Term SOFR Reference Rate) and either (A) any tenor for such Benchmark is not displayed on a screen or other information service that publishes such rate from time to time as selected by the Agent in its reasonable discretion or (B) the administration of such Benchmark or the regulatory supervisor for the administrator of such Benchmark has provided a public statement or publication of information announcing that any tenor for such Benchmark is or will be no longer representative or in compliance with or aligned with the International Organization of Securities Commissions (IOSCO) Principles for Financial Benchmarks, then the Agent may modify the definition of “Interest Period” (or any similar or analogous definition) for any Benchmark settings at or after such time to remove such unavailable or non-representative, non-compliant or non-aligned tenor and (ii) if a tenor that was removed pursuant to clause (i) above either (A) is subsequently displayed on a screen or information service for a Benchmark (including a Benchmark Replacement) or (B) is not, or is no longer, subject to an announcement that it is or will no longer be representative or in compliance with or aligned with the International Organization of Securities Commissions (IOSCO) Principles for Financial Benchmarks for a Benchmark (including a Benchmark Replacement), then the Agent may modify the definition of “Interest Period” (or any similar or analogous definition) for all Benchmark settings at or after such time to reinstate such previously removed tenor.
+⟦s001187⟧ - 63 -
+⟦s001188⟧ 2.
+⟦s001189⟧ 15 Defaulting Lenders .
+⟦s001190⟧ (a) Adjustments .
+⟦s001191⟧ Notwithstanding anything to the contrary contained in this Agreement, if any Lender becomes a Defaulting Lender, then, until such time as that Lender is no longer a Defaulting Lender, to the extent permitted by applicable Law:
+⟦s001192⟧ (i) Waivers and Amendments .
+⟦s001193⟧ That Defaulting Lender’s right to approve or disapprove any amendment, waiver or consent with respect to this Agreement shall be restricted as set forth in the definition of “Required Lenders” and Section 10.
+⟦s001194⟧ 1 .
+⟦s001195⟧ (ii) Reallocation of Payments .
+⟦s001196⟧ Any payment of principal, interest, fees or other amounts received by the Agent for the account of that Defaulting Lender (whether voluntary or mandatory, at maturity, pursuant to Article VIII or otherwise, and including any amounts made available to the Agent by that Defaulting Lender pursuant to Section 10.
+⟦s001197⟧ 9 ), shall be applied at such time or times as may be determined by the Agent as follows: first , to the payment of any amounts owing by that Defaulting Lender to the Agent hereunder; second , as the Borrower may request (so long as no Default or Event of Default exists), to the funding of any Loan in respect of which that Defaulting Lender has failed to fund its portion thereof as required by this Agreement, as determined by the Agent; third , if so determined by the Agent and the Borrower, to be held in a non-interest bearing deposit account and released in order to satisfy such Defaulting Lender’s potential future funding with respect to Loans under this Agreement; fourth , so long as no Default or Event of Default exists, to the payment of any amounts owing to the Borrower as a result of any judgment of a court of competent jurisdiction obtained by the Borrower against that Defaulting Lender as a result of that Defaulting Lender’s breach of its obligations under this Agreement; and fifth , to that Defaulting Lender or as otherwise directed by a court of competent jurisdiction; provided that if (x) such payment is a payment of the principal amount of any Loans in respect of which that Defaulting Lender has not fully funded its appropriate share and (y) such Loans were made at a time when the conditions set forth in Article IV were satisfied or waived, such payment shall be applied solely to pay the Loans of all Non-Defaulting Lenders on a non-pro rata basis prior to being applied to the payment of any Loans of that Defaulting Lender until such time as all Loans are held by the Lenders pro rata in accordance with the Commitments.
+⟦s001198⟧ Any payments, prepayments or other amounts paid or payable to a Defaulting Lender that are applied (or held) to pay amounts owed by a Defaulting Lender pursuant to this Section 2.
+⟦s001199⟧ 15(a)(ii) shall be deemed paid to and redirected by that Defaulting Lender, and each Lender irrevocably consents hereto.
+⟦s001200⟧ (iii) Responsibility .
+⟦s001201⟧ The failure of any Defaulting Lender to fund any purchase of any participation to be made or funded by it, or to make any payment required by it under any Loan Document on the date specified therefor shall not relieve any other Lender of its obligations to make such loan, fund the purchase of any such participation, or make any other such required payment on such date, and neither Agent nor, other than as expressly set forth herein, any other Lender shall be responsible for the failure of any Defaulting Lender to make a loan, fund the purchase of a participation or make any other required payment under any Loan Document.
+⟦s001202⟧ (b) Defaulting Lender Cure .
+⟦s001203⟧ Once the Defaulting Lender has cured such default in a manner reasonably satisfactory to the Agent and the Borrower, the Agent will so notify the parties hereto, whereupon as of the effective date specified in such notice and subject to any conditions set forth therein, that Lender will, to the extent applicable, purchase that portion of outstanding Loans of the other Lenders or take such other actions as the Agent may determine to be necessary to cause the Loans to be held on a pro rata basis by the Lenders in accordance with their Commitments, whereupon that Lender will cease to be a Defaulting Lender; provided that no adjustments will be made retroactively with respect to fees accrued or payments made by or on behalf of the Borrower while that Lender was a Defaulting Lender; and provided, further, that except to the extent otherwise expressly agreed by the affected parties, no change
+⟦s001204⟧ - 64 -
+⟦s001205⟧ hereunder from Defaulting Lender to a Lender that is not a Defaulting Lender will constitute a waiver or release of any claim of any party hereunder arising from that Lender’s having been a Defaulting Lender.
+⟦s001206⟧ Article III Taxes, Yield Protection and Illegality
+⟦s001207⟧ 3.
+⟦s001208⟧ 1 Taxes .
+⟦s001209⟧ (a) Payments Free of Taxes; Obligation to Withhold; Payments on Account of Taxes .
+⟦s001210⟧ (i) Any and all payments by or on account of any obligation of any Loan Party under any Loan Document shall be made without deduction or withholding for any Taxes, except as required by applicable Laws.
+⟦s001211⟧ If any applicable Laws (as determined in the good faith discretion of the Agent or Loan Party, as applicable) require the deduction or withholding of any Tax from any such payment by the Agent or a Loan Party, then the Agent or such Loan Party shall be entitled to make such deduction or withholding, upon the basis of the information and documentation to be delivered pursuant to subsection (e) below.
+⟦s001212⟧ (ii) If any Loan Party or the Agent shall be required by any applicable Laws to withhold or deduct any Taxes from any payment, then (A) such Loan Party or the Agent, as required by such Laws, shall withhold or make such deductions as are determined by it to be required based upon the information and documentation it has received pursuant to subsection (e) below, (B) such Loan Party or the Agent, to the extent required by such Laws, shall timely pay the full amount withheld or deducted to the relevant Governmental Authority in accordance with such Laws, and (C) to the extent that the withholding or deduction is made on account of Indemnified Taxes, the sum payable by the applicable Loan Party shall be increased as necessary so that after any required withholding or the making of all required deductions (including deductions applicable to additional sums payable under this Section 3.
+⟦s001213⟧ 1 ) the applicable Recipient receives an amount equal to the sum it would have received had no such withholding or deduction been made.
+⟦s001214⟧ (b) Payment of Other Taxes by the Borrower .
+⟦s001215⟧ Without limitation or duplication of the provisions of subsection (a) above, the Borrower shall timely pay to the relevant Governmental Authority in accordance with applicable Law, or at the option of the Agent timely reimburse it for the payment of, any Other Taxes.
+⟦s001216⟧ (c) Tax Indemnifications .
+⟦s001217⟧ (i) The Loan Parties shall, and each Loan Party does hereby, jointly and severally indemnify each Recipient, and shall make payment in respect thereof within 10 days after demand therefor, for the full amount of any Indemnified Taxes (including Indemnified Taxes imposed or asserted on or attributable to amounts payable under this Section 3.
+⟦s001218⟧ 1 ) payable or paid by such Recipient or required to be withheld or deducted from a payment to such Recipient, and any penalties, interest and reasonable expenses arising therefrom or with respect thereto, whether or not such Indemnified Taxes were correctly or legally imposed or asserted by the relevant Governmental Authority.
+⟦s001219⟧ A certificate as to the amount of such payment or liability delivered to the Borrower by a Lender (with a copy to the Agent), or by the Agent on its own behalf or on behalf of a Lender, shall be conclusive absent manifest error.
+⟦s001220⟧ (ii) Each Lender shall, and does hereby, severally indemnify, and shall make payment in respect thereof within 10 days after demand therefor, (x) the Agent against any Indemnified Taxes attributable to such Lender (but only to the extent that any Loan Party has not already indemnified the Agent for such Taxes that are Indemnified Taxes and without limiting the obligation of the Loan Parties
+
+===== chunk0065 | range s001281–s001320 | score=1.0 =====
+Rationale: Describes benchmark fallback/adjustment logic for SOFR vs Base Rate loans, showing how pricing would change if SOFR is unavailable or illegal.
+Summary: S. branch” and that the payments it receives for the account of others are not effectively connected with the conduct of a trade or business in the United States and that it is using such form as evidence of its agreement with Borrower to be treated as a “United States person” as set forth in U.S. Treasury Regulation Section 1.1441-1(b)(2)(iv). Notwithstanding anything in this Section 3.1(h) to the contrary, the Agent shall not be required to provide any documentation pursuant to this Section 3.10(h) that the Agent is legally ineligible to deliver.
+3.2 Illegality . If any Lender determines that any Law has made it unlawful, or that any Governmental Authority has asserted that it is unlawful, for any Lender or its applicable Lending Office to make, maintain or fund SOFR Loans, or to determine or charge interest rates based upon Term SOFR, or any Governmental Authority has imposed material restrictions on the authority of such Lender to purchase or sell, or to take deposits of, Dollars in the London interbank market, then, on notice thereof by such Lender to the Borrower through the Agent, (i) any obligation of such Lender to make or continue SOFR Loans or to Convert Base Rate Loans 
+
+⟦s001281⟧ S.
+⟦s001282⟧ branch” and that the payments it receives for the account of others are not effectively connected with the conduct of a trade or business in the United States and that it is using such form as evidence of its agreement with Borrower to be treated as a “United States person” as set forth in U.
+⟦s001283⟧ S.
+⟦s001284⟧ Treasury Regulation Section 1.
+⟦s001285⟧ 1441-1(b)(2)(iv).
+⟦s001286⟧ Notwithstanding anything in this Section 3.
+⟦s001287⟧ 1(h) to the contrary, the Agent shall not be required to provide any documentation pursuant to this Section 3.
+⟦s001288⟧ 10(h) that the Agent is legally ineligible to deliver.
+⟦s001289⟧ 3.
+⟦s001290⟧ 2 Illegality .
+⟦s001291⟧ If any Lender determines that any Law has made it unlawful, or that any Governmental Authority has asserted that it is unlawful, for any Lender or its applicable Lending Office to make, maintain or fund SOFR Loans, or to determine or charge interest rates based upon Term SOFR, or any Governmental Authority has imposed material restrictions on the authority of such Lender to purchase or sell, or to take deposits of, Dollars in the London interbank market, then, on notice thereof by such Lender to the Borrower through the Agent, (i) any obligation of such Lender to make or continue SOFR Loans or to Convert Base Rate Loans to SOFR Loans shall be suspended, and (ii) if such notice asserts the illegality of such Lender making or maintaining Base Rate Loans the interest rate on which is
+⟦s001292⟧ - 68 -
+⟦s001293⟧ determined by reference to Term SOFR component of the Base Rate, the interest rate on which Base Rate Loans of such Lender shall, if necessary to avoid such illegality, be determined by the Agent without reference to Term SOFR component of the Base Rate, in each case, until such Lender notifies the Agent and the Borrower that the circumstances giving rise to such determination no longer exist.
+⟦s001294⟧ Upon receipt of such notice, (x) the Borrower shall, upon demand from such Lender (with a copy to the Agent), prepay or, if applicable, Convert all SOFR Loans of such Lender to Base Rate Loans (the interest rate on which Base Rate Loans of such Lender shall, if necessary to avoid such illegality, be determined by the Agent without reference to Term SOFR component of the Base Rate), either on the last day of the Interest Period therefor, if such Lender may lawfully continue to maintain such SOFR Loans to such day, or immediately, if such Lender may not lawfully continue to maintain such SOFR Loans and (y) if such notice asserts the illegality of such Lender determining or charging interest rates based upon Term SOFR, the Agent shall during the period of such suspension compute the Base Rate applicable to such Lender without reference to Term SOFR component thereof until the Agent is advised in writing by such Lender that it is no longer illegal for such Lender to determine or charge interest rates based upon Term SOFR.
+⟦s001295⟧ Upon any such prepayment or Conversion, the Borrower shall also pay accrued interest on the amount so prepaid or Converted.
+⟦s001296⟧ 3.
+⟦s001297⟧ 3 Inability to Determine Rates .
+⟦s001298⟧ If in connection with any request for a SOFR Loan or a Conversion to or continuation thereof: (a) the Agent determines that adequate and reasonable means do not exist for determining Term SOFR for any requested Interest Period with respect to a proposed SOFR Loan or in connection with an existing or proposed Base Rate Loan, or (b) the Agent or the Required Lenders determine that for any reason Term SOFR for any requested Interest Period with respect to a proposed SOFR Loan does not adequately and fairly reflect the cost to such Lenders of funding such SOFR Loan, the Agent will promptly so notify the Borrower and each Lender.
+⟦s001299⟧ Thereafter, (x) the obligation of the Lenders to make or maintain SOFR Loans shall be suspended (to the extent of the affected SOFR Loans or Interest Periods) and (y) in the event of a determination described in the preceding sentence with respect to Term SOFR component of the Base Rate, the utilization of Term SOFR component in determining the Base Rate shall be suspended, in each case until the Agent upon the instruction of the Required Lenders revokes such notice or the condition giving rise to such suspension has terminated.
+⟦s001300⟧ Upon receipt of such notice, the Borrower may revoke any pending request for a Borrowing of, Conversion to or continuation of SOFR Loans (to the extent of the affected SOFR Loans or Interest Periods) or, failing that, will be deemed to have Converted such request into a request for a Borrowing of Base Rate Loans in the amount specified therein.
+⟦s001301⟧ 3.
+⟦s001302⟧ 4 Increased Costs; Reserves on SOFR Loans .
+⟦s001303⟧ (a) Increased Costs Generally .
+⟦s001304⟧ If any Change in Law occurring after the date that such Lender first became a Lender shall:
+⟦s001305⟧ (i) impose, modify or deem applicable any reserve, special deposit, compulsory loan, insurance charge or similar requirement against assets of, deposits with or for the account of, or credit extended or participated in by, any Lender (except any reserve requirement contemplated by Section 3.
+⟦s001306⟧ 4(e) or otherwise reflected in Term SOFR);
+⟦s001307⟧ (ii) subject any Recipient to any Taxes (other than (A) Indemnified Taxes, (B) Taxes described in clauses (b) through (d) of the definition of Excluded Taxes and (C) Connection Income Taxes) on its loans, loan principal, letters of credit, commitments, or other obligations, or its deposits, reserves, other liabilities or capital attributable thereto; or
+⟦s001308⟧ (iii) impose on any Lender or the London interbank market any other condition, cost or expense affecting this Agreement or SOFR Loans made by such Lender;
+⟦s001309⟧ - 69 -
+⟦s001310⟧ and the result of any of the foregoing shall be to increase the cost to such Lender of making, converting to, continuing or maintaining any SOFR Loan (or of maintaining its obligation to make any such Loan), or to reduce the amount of any sum received or receivable by such Lender hereunder (whether of principal, interest or any other amount) then, upon request of such Lender, the Borrower will pay to such Lender such additional amount or amounts as will compensate such Lender for such additional costs incurred or reduction suffered.
+⟦s001311⟧ (b) Capital Requirements .
+⟦s001312⟧ If any Lender determines that any Change in Law occurring after the date that such Lender first became a Lender affecting such Lender or any Lending Office of such Lender or such Lender’s holding company, if any, regarding capital or liquidity requirements has or would have the effect of reducing the rate of return on such Lender’s capital or on the capital or liquidity of such Lender’s holding company, if any, as a consequence of this Agreement, the Commitments of such Lender or the Loans made by such Lender, to a level below that which such Lender or such Lender’s holding company could have achieved but for such Change in Law (taking into consideration such Lender’s policies and the policies of such Lender’s holding company with respect to capital adequacy), then from time to time the Borrower will pay to such Lender such additional amount or amounts as will compensate such Lender or such Lender’s holding company for any such reduction suffered.
+⟦s001313⟧ (c) Certificates for Reimbursement .
+⟦s001314⟧ A certificate of a Lender setting forth the amount or amounts necessary to compensate such Lender or its holding company, as the case may be, as specified in subsection (a) or (b) of this Section and delivered to the Borrower shall include a written statement setting forth in reasonable detail the basis for calculating such amount or amounts and be conclusive absent manifest error.
+⟦s001315⟧ The Borrower shall pay such Lender the amount shown as due on any such certificate within 10 days after receipt thereof.
+⟦s001316⟧ (d) Delay in Requests .
+⟦s001317⟧ Failure or delay on the part of any Lender to demand compensation pursuant to the foregoing provisions of this Section 3.
+⟦s001318⟧ 4 shall not constitute a waiver of such Lender’s right to demand such compensation, provided that the Borrower shall not be required to compensate a Lender pursuant to the foregoing provisions of this Section for any increased costs incurred or reductions suffered more than six months prior to the date that such Lender notifies the Borrower of the Change in Law giving rise to such increased costs or reductions and of such Lender’s intention to claim compensation therefor (except that, if the Change in Law giving rise to such increased costs or reductions is retroactive, then the six-month period referred to above shall be extended to include the period of retroactive effect thereof).
+⟦s001319⟧ 3.
+⟦s001320⟧ 5 Compensation for Losses .
+
+===== chunk0089 | range s001761–s001800 | score=1.0 =====
+Rationale: Contains explicit leverage ratio thresholds (Maximum Total Leverage Ratio) across measurement periods, which are leverage-based pricing components that would feed pricing/margins and covenants — a core part of the pricing mechanics even if explicit rates aren’t stated.
+Summary: 7.14 Reserved .
+7.15 Financial Covenants .
+(a) Maximum Total Leverage Ratio . Permit the Total Leverage Ratio, as of the last day of each Measurement Period ending the last day of the Fiscal Quarter ending closest to the date set forth in the table below, to be greater than the level under the heading “Total Leverage Ratio”:
+| Measurement Period ending | Total Leverage Ratio |
+| --- | --- |
+| May 3, 2024 | 5.50:1.00 |
+| August 2, 2024 | 5.50:1.00 |
+| November 1, 2024 | 6.00:1.00 |
+| January 31, 2025 | 5.25:1.00 |
+| May 2, 2025 | 5.25:1.00 |
+- 94 -
+| Measurement Period ending | Total Leverage Ratio |
+| --- | --- |
+| August 1, 2025 | 5.25:1.00 |
+| October 31, 2025 | 5.75:1.00 |
+| January 30, 2026 | 5.00:1.00 |
+| May 1, 2026 | 5.00:1.00 |
+| July 31, 2026 | 5.00:1.00 |
+| October 30, 2026 | 5.50:1.00 |
+| January 29, 2027 | 4.75:1.00 |
+| April 30, 2027 | 4.75:1.00 |
+| July 30, 2027 | 4.75:1.00 |
+| October 29, 2027 | 5.25:1.00 |
+| January 28, 2028 | 4.50:1.00 |
+| April 28, 2028 | 4.50:1.00 |
+| July 28, 2028 | 4.50:1.00 |
+| October 27, 2028 | 5.00:1.00 |
+| February 2, 2029 | 4.25:1.00 |
+(b) Minimum Liquidity . Permit Liquidity, as of the last Business Day of each Fiscal Month, to be less t
+
+⟦s001761⟧ 7.
+⟦s001762⟧ 14 Reserved .
+⟦s001763⟧ 7.
+⟦s001764⟧ 15 Financial Covenants .
+⟦s001765⟧ (a) Maximum Total Leverage Ratio .
+⟦s001766⟧ Permit the Total Leverage Ratio, as of the last day of each Measurement Period ending the last day of the Fiscal Quarter ending closest to the date set forth in the table below, to be greater than the level under the heading “Total Leverage Ratio”:
+⟦s001767⟧ ```markdown
+| Measurement Period ending | Total Leverage Ratio |
+| --- | --- |
+| May 3, 2024 | 5.50:1.00 |
+| August 2, 2024 | 5.50:1.00 |
+| November 1, 2024 | 6.00:1.00 |
+| January 31, 2025 | 5.25:1.00 |
+| May 2, 2025 | 5.25:1.00 |
+```
+⟦s001768⟧ - 94 -
+⟦s001769⟧ ```markdown
+| Measurement Period ending | Total Leverage Ratio |
+| --- | --- |
+| August 1, 2025 | 5.25:1.00 |
+| October 31, 2025 | 5.75:1.00 |
+| January 30, 2026 | 5.00:1.00 |
+| May 1, 2026 | 5.00:1.00 |
+| July 31, 2026 | 5.00:1.00 |
+| October 30, 2026 | 5.50:1.00 |
+| January 29, 2027 | 4.75:1.00 |
+| April 30, 2027 | 4.75:1.00 |
+| July 30, 2027 | 4.75:1.00 |
+| October 29, 2027 | 5.25:1.00 |
+| January 28, 2028 | 4.50:1.00 |
+| April 28, 2028 | 4.50:1.00 |
+| July 28, 2028 | 4.50:1.00 |
+| October 27, 2028 | 5.00:1.00 |
+| February 2, 2029 | 4.25:1.00 |
+```
+⟦s001770⟧ (b) Minimum Liquidity .
+⟦s001771⟧ Permit Liquidity, as of the last Business Day of each Fiscal Month, to be less than $50,000,000.
+⟦s001772⟧ Article VIII Events of Default and Remedies
+⟦s001773⟧ 8.
+⟦s001774⟧ 1 Events of Default .
+⟦s001775⟧ Any of the following shall constitute an Event of Default:
+⟦s001776⟧ (a) Non-Payment .
+⟦s001777⟧ The Borrower or any other Loan Party fails to pay (i) when and as required to be paid, any amount of principal of any Loan, or (ii) within three (3) days after the same is due, any amount of interest due on any Loan, or any fee due hereunder, or any other amount payable hereunder or under any other Loan Document; or
+⟦s001778⟧ (b) Specific Covenants .
+⟦s001779⟧ Any Loan Party fails to perform or observe any term, covenant or agreement contained in any of Sections 6.
+⟦s001780⟧ 3(a) , 6.
+⟦s001781⟧ 5 (with respect to the Borrower) or Article VII ; or
+⟦s001782⟧ - 95 -
+⟦s001783⟧ (c) Other Defaults .
+⟦s001784⟧ Any Loan Party fails to perform or observe (i) any term, covenant or agreement contained in any of Sections 6.
+⟦s001785⟧ 3(b) , (h) or (i) and such failure continues for fifteen (15) days; (ii) the covenant contained in Sections 6.
+⟦s001786⟧ 2(c) and such failure continues for five (5) Business Days or (iii) any other covenant or agreement (not specified in subsection (a), (b), (c)(i) or (c)(ii) above) contained in any Loan Document on its part to be performed or observed and such failure continues for 30 days; or
+⟦s001787⟧ (d) Representations and Warranties .
+⟦s001788⟧ Any representation, warranty, or certification made or deemed made by or on behalf of any Loan Party herein, in any other Loan Document, or in any document delivered in connection herewith or therewith shall be incorrect in any material respect when made or deemed made (or, in the case of any representation and warranty qualified by materiality, in any respect when made or deemed made); or
+⟦s001789⟧ (e) Cross-Default .
+⟦s001790⟧ Any Loan Party (A) fails to make any payment when due (whether by scheduled maturity, required prepayment, acceleration, demand, or otherwise) in respect of any Material Indebtedness, or (B) fails to observe or perform any other agreement or condition relating to any such Material Indebtedness or contained in any instrument or agreement evidencing, securing or relating thereto, or any other event occurs, the effect of which default or other event is to cause, or to permit the holder or holders of such Material Indebtedness (or a trustee or agent on behalf of such holder or holders or beneficiary or beneficiaries) to cause, with the giving of notice if required, such Indebtedness to become due or to be repurchased, prepaid, defeased or redeemed (automatically or otherwise), becomes payable or cash collateral in respect thereof to be demanded, prior to its stated maturity; or
+⟦s001791⟧ (f) Insolvency Proceedings, Etc. (x) Any Loan Party or any Restricted Subsidiary (other than any Immaterial Subsidiary) thereof institutes or consents to the institution of any proceeding under any Debtor Relief Law, or makes an assignment for the benefit of creditors; or applies for or consents to the appointment of any receiver, trustee, custodian, conservator, liquidator, rehabilitator or similar officer for it or for all or any material part of its property; or a proceeding shall be commenced or a petition filed, without the application or consent of such Person, seeking or requesting the appointment of any receiver, trustee, custodian, conservator, liquidator, rehabilitator or similar officer is appointed and the appointment continues undischarged, undismissed or unstayed for 60 calendar days or an order or decree approving or ordering any of the foregoing shall be entered; or any proceeding under any Debtor Relief Law relating to any such Person or to all or any material part of its property is instituted without the consent of such Person and continues undismissed or unstayed for 60 calendar days, or an order for relief is entered in any such proceeding; or (y) in addition to the foregoing clause (f)(x), (i) a Foreign Subsidiary (other than any Immaterial Subsidiary) is (A) unable or admits inability to pay its debt as they fall due, (B) is deemed to, or is declared to, be unable to pay its debts under applicable law, (C) suspends or threatens to suspend making payments on any of its debts, or (D) by reason of actual or anticipated financial difficulties, commences negotiations with one or more creditors with a view to rescheduling any of its indebtedness, (ii) the value of the assets of any Foreign Subsidiary is less than its liabilities (taking into account contingent and prospective liabilities), (iii) a moratorium is declared in respect of any indebtedness of any Foreign Subsidiary (and, if a moratorium occurs, the ending of the moratorium will not remedy any Event of Default caused by that moratorium), (iv) any corporate action, legal proceedings or other procedure or step is taken in relation to (A) the suspension of payments, a moratorium of any indebtedness, winding-up, dissolution, administration or reorganization (by way of voluntary arrangement, scheme of arrangement or otherwise) by any Foreign Subsidiary, (B) a composition, compromise, assignment or arrangements with any creditor of any Foreign Subsidiary, (C) the appointment of a liquidator, receiver, administrative receiver, administrator, compulsory manager or other similar officer in respect of any Foreign Subsidiary or any of its assets or (D) enforcement of any Lien securing the Obligations
+⟦s001792⟧ - 96 -
+⟦s001793⟧ by any Credit Party; provided this clause (iv) shall not apply to any involuntary winding up petition which is frivolous or vexatious and is discharged, stayed or dismissed within 14 days of commencement, or any step or procedure which is otherwise permitted pursuant to the terms of this Agreement; or
+⟦s001794⟧ (g) Judgments .
+⟦s001795⟧ There is entered against any Loan Party or any Restricted Subsidiary (other than any Immaterial Subsidiary) thereof one or more judgments or orders for the payment of money in an aggregate amount (as to all such judgments and orders) exceeding $10,000,000 (to the extent not covered by independent third-party insurance as to which the insurer is rated at least “A” by A.
+⟦s001796⟧ M.
+⟦s001797⟧ Best Company, has been notified of the potential claim and does not dispute coverage), and (i) enforcement proceedings are commenced by any creditor upon such judgment or order, or (ii) there is a period of 60 consecutive days during which a stay of enforcement of such judgment or order, by reason of a pending appeal or otherwise, is not in effect; or
+⟦s001798⟧ (h) ERISA .
+⟦s001799⟧ (i) An ERISA Event occurs, or any event described in Section 5.
+⟦s001800⟧ 12(d)(i) through (vii) with respect to a Foreign Plan occurs, which would reasonably be expected to result in a Material Adverse Effect, or (ii) a Loan Party or any ERISA Affiliate fails to pay when due, after the expiration of any applicable grace period, any installment payment with respect to its withdrawal liability under Section 4201 of ERISA under a Multiemployer Plan which would reasonably be expected to result in a Material Adverse Effect; or

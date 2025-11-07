@@ -1,0 +1,32 @@
+[
+  {
+    "anchor_id": "t01r01c01",
+    "start": 20,
+    "end": 27,
+    "text": "<s> <c>"
+  },
+  {
+    "anchor_id": "t01r02c01",
+    "start": 50,
+    "end": 51,
+    "text": "6"
+  },
+  {
+    "anchor_id": "t01r04c01",
+    "start": 73,
+    "end": 74,
+    "text": "5"
+  },
+  {
+    "anchor_id": "t01r05c01",
+    "start": 94,
+    "end": 130,
+    "text": "ALGER SMALL CAPITALIZATION PORTFOLIO"
+  },
+  {
+    "anchor_id": "t01r06c01",
+    "start": 156,
+    "end": 160,
+    "text": "1000"
+  }
+]

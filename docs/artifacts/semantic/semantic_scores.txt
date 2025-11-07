@@ -1,0 +1,798 @@
+{
+  "question": "Does this segment help us fully understand the pricing the company will face?",
+  "plan_path": "/tmp/pricing_grid_sample/planner_semantic_index.json",
+  "model": "gpt-5-nano",
+  "scores": [
+    {
+      "seg_id": "seg08",
+      "name": "Interest rate framework and calculation conventions",
+      "range": [
+        "s000350",
+        "s000399"
+      ],
+      "tags": [
+        "Interest",
+        "Floor",
+        "SOFR Adjustment",
+        "Base Rate"
+      ],
+      "score": 1.0,
+      "verdict": "include",
+      "rationale": "Provides core pricing mechanics: base rate construction, Floor, and SOFR adjustments (pricing rate formation), enabling understanding of how interest is computed and adjusted."
+    },
+    {
+      "seg_id": "seg17",
+      "name": "Term Loan mechanics and borrowing typology",
+      "range": [
+        "s000800",
+        "s000849"
+      ],
+      "tags": [
+        "SOFR",
+        "Base Rate",
+        "Interest Period"
+      ],
+      "score": 1.0,
+      "verdict": "include",
+      "rationale": "Describes core term loan pricing mechanics (SOFR/Base Rate determination, determination days, adjustments) and references to margins/benchmark transition, which directly feed the pricing calculation."
+    },
+    {
+      "seg_id": "seg19",
+      "name": "Pricing mechanics and rate adjustments in detail",
+      "range": [
+        "s000900",
+        "s000949"
+      ],
+      "tags": [
+        "Interest Rate",
+        "Base Rate",
+        "SOFR"
+      ],
+      "score": 1.0,
+      "verdict": "include",
+      "rationale": "Segment provides concrete pricing mechanics (calculation days, interest accrual, base rate/SOFR and applicable margins) and benchmark transition context directly shaping the pricing."
+    },
+    {
+      "seg_id": "seg20",
+      "name": "Pricing mechanics and payment timing groundwork",
+      "range": [
+        "s000950",
+        "s000999"
+      ],
+      "tags": [
+        "Interest Payment Dates",
+        "Calculation Basis",
+        "Payment Timing"
+      ],
+      "score": 1.0,
+      "verdict": "include",
+      "rationale": "Segments describe rate computation norms and include references to base rate/SOFR, applicable margin, and benchmark transition logic, constituting core pricing mechanics required to understand pricing."
+    },
+    {
+      "seg_id": "seg01",
+      "name": "Exhibit header and initial definitions",
+      "range": [
+        "s000001",
+        "s000049"
+      ],
+      "tags": [
+        "exhibit",
+        "header",
+        "definitions"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Introduces key pricing terms (Applicable Margin, Base Rate, Benchmark) and framework definitions necessary to interpret the pricing engine, but contains no actual rates, margins, or formula mechanics."
+    },
+    {
+      "seg_id": "seg02",
+      "name": "Table of Contents and early terms",
+      "range": [
+        "s000050",
+        "s000099"
+      ],
+      "tags": [
+        "definitions",
+        "structure",
+        "terms"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Provides definitions/structure for pricing terms (e.g., Base Rate, Applicable Margin, Benchmark) necessary to interpret pricing, but does not disclose the actual pricing mechanics (rates, margins, ladders, or fallback logic)."
+    },
+    {
+      "seg_id": "seg03",
+      "name": "Pricing mechanics and Basis for interest",
+      "range": [
+        "s000100",
+        "s000149"
+      ],
+      "tags": [
+        "Pricing mechanics",
+        "Base Rate",
+        "SOFR",
+        "Benchmark Replacement",
+        "Applicable Margin"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Gives definitions and framework for pricing mechanics (Base Rate/SOFR, Benchmark, Applicable Margin bands), which are necessary to interpret pricing, but does not provide concrete rate/margin tables or explicit tier logic."
+    },
+    {
+      "seg_id": "seg04",
+      "name": "Asset sales, pro forma, and related pricing refinements",
+      "range": [
+        "s000150",
+        "s000199"
+      ],
+      "tags": [
+        "Asset Sale",
+        "Pro Forma",
+        "Adjusted EBITDA",
+        "Pro Forma Basis"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Provides definitions and concepts (e.g., Applicable Margin, Benchmark Replacement, Total Leverage Ratio) that affect pricing interpretation, but does not present concrete rate/margin formulas or tiers."
+    },
+    {
+      "seg_id": "seg05",
+      "name": "Pricing mechanics continued and initial reference points",
+      "range": [
+        "s000200",
+        "s000249"
+      ],
+      "tags": [
+        "Benchmark Replacement",
+        "Daily Simple SOFR",
+        "Benchmark Transition Event"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Provides definitions and benchmark-transition guidance relevant to pricing interpretation (SOFR, Benchmark Replacement) but does not present actual rates, margins, or leverage tier logic."
+    },
+    {
+      "seg_id": "seg06",
+      "name": "More pricing definitions and keys to pricing surface",
+      "range": [
+        "s000250",
+        "s000299"
+      ],
+      "tags": [
+        "Benchmark Replacement",
+        "Conforming Changes",
+        "Term SOFR"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Provides definitions and adjustments (Benchmark Replacement, SOFR, adjustment logic) that feed how pricing is calculated, but does not reveal concrete margin tables or rate formulas."
+    },
+    {
+      "seg_id": "seg07",
+      "name": "Pricing mechanics integration into pricing curves",
+      "range": [
+        "s000300",
+        "s000349"
+      ],
+      "tags": [
+        "Term SOFR",
+        "Base Rate",
+        "Conforming Changes"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Describes how pricing adjustments are triggered by benchmark changes and notes on rate determinations (e.g., SOFR/Base Rate) and related benchmarks, which informs how the pricing engine will operate, but it does not specify concrete margins, curves, or formulas."
+    },
+    {
+      "seg_id": "seg09",
+      "name": "Interest calculations and rate governance",
+      "range": [
+        "s000400",
+        "s000449"
+      ],
+      "tags": [
+        "Term SOFR",
+        "Benchmark Replacement",
+        "Interest Calculation"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Defines terms and governance for rate calculations (e.g., Term SOFR, Benchmark Replacement) that are essential to interpret the pricing engine, but does not itself provide the concrete margins, formulas, or fallback logic."
+    },
+    {
+      "seg_id": "seg10",
+      "name": "Additional pricing constructs and definitions",
+      "range": [
+        "s000450",
+        "s000499"
+      ],
+      "tags": [
+        "Pricing",
+        "Applicable Margin",
+        "Benchmark"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Provides definitions and constructs (Applicable Margin, Benchmark, Benchmark Replacement, Total Leverage Ratio, Benchmark Transition Event) that feed into pricing calculations; does not itself expose the exact pricing mechanics but is necessary to interpret and apply the pricing engine."
+    },
+    {
+      "seg_id": "seg11",
+      "name": "Entity structure and indebtedness constructs",
+      "range": [
+        "s000500",
+        "s000549"
+      ],
+      "tags": [
+        "Guaranty",
+        "Indebtedness",
+        "Affiliates"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Defines covenants and indebtedness framework that are necessary to interpret pricing math; mentions pricing-relevant terms (Applicable Margin, Base Rate/SOFR, Benchmark Transition, Total Leverage Ratio), but does not itself state the exact margins, rate tables, or adjustment logic."
+    },
+    {
+      "seg_id": "seg12",
+      "name": "Additional covenants and consent mechanics (preliminary)",
+      "range": [
+        "s000550",
+        "s000599"
+      ],
+      "tags": [
+        "Covenants",
+        "Consent",
+        "Conditions Precedent"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "This segment frames covenants and conditions that govern or feed the pricing framework (e.g., benchmark transition, leverage/conditions precedent) but does not spell out the exact rate/margin formulas or fallback logic."
+    },
+    {
+      "seg_id": "seg13",
+      "name": "Financial covenants framework (Total Leverage Ratio)",
+      "range": [
+        "s000600",
+        "s000649"
+      ],
+      "tags": [
+        "Total Leverage Ratio",
+        "Consolidated EBITDA",
+        "Liquidity"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Defines Total Leverage Ratio and related covenants that are used to interpret pricing mechanics, but does not present concrete pricing calculations (rates, margins, tiers)."
+    },
+    {
+      "seg_id": "seg14",
+      "name": "Surface of benchmark transition and replacement mechanics",
+      "range": [
+        "s000650",
+        "s000699"
+      ],
+      "tags": [
+        "Benchmark Replacement",
+        "Daily Simple SOFR",
+        "IOSCO Principles"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Surface-level coverage of benchmark transition/replacement informs how pricing may adjust with a transition but contains no concrete rates, margins or fallback logic."
+    },
+    {
+      "seg_id": "seg15",
+      "name": "Definitions related to counterparties and collateral structure",
+      "range": [
+        "s000700",
+        "s000749"
+      ],
+      "tags": [
+        "Collateral",
+        "Intercreditor",
+        "Lien"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Provides definitions and constructs relevant to pricing terms (Applicable Margin, Base Rate/SOFR, Benchmark Replacement, Total Leverage Ratio) and intercreditor/collateral framework required to interpret pricing, but does not present the actual pricing mechanics or tables."
+    },
+    {
+      "seg_id": "seg16",
+      "name": "Initial conditions and primary obligations framing",
+      "range": [
+        "s000750",
+        "s000799"
+      ],
+      "tags": [
+        "Closing Date",
+        "Commitments",
+        "Term Loans"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Contains covenants and references (Applicable Margin, Base Rate/SOFR, Total Leverage Ratio) that influence pricing mechanics, but lacks the actual rate/margin formulas or tiered structure."
+    },
+    {
+      "seg_id": "seg18",
+      "name": "Term SOFR definitions and adjustment modalities",
+      "range": [
+        "s000850",
+        "s000899"
+      ],
+      "tags": [
+        "Term SOFR",
+        "SOFR Adjustment",
+        "Benchmark Replacement"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Defines how SOFR is used and adjusted for pricing (benchmark replacement logic and adjustment modalities) which directly informs how the pricing engine computes rates, but it does not present explicit margins, tiers, or fee formulas."
+    },
+    {
+      "seg_id": "seg21",
+      "name": "Article II Conditions and initial credit extensions framing",
+      "range": [
+        "s001000",
+        "s001049"
+      ],
+      "tags": [
+        "Conditions Precedent",
+        "Credit Extensions",
+        "Closing Conditions"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "While segment previews pricing-related concepts (Applicable Margin, Benchmark Replacement, Total Leverage Ratio, base rate references) and sets conditions precedent framing, it does not present the concrete math or rates itself; it provides definitions and framework essential to interpreting the pricing calculations."
+    },
+    {
+      "seg_id": "seg22",
+      "name": "Continue conditions and initial surface for covenants",
+      "range": [
+        "s001050",
+        "s001099"
+      ],
+      "tags": [
+        "Conditions Precedent",
+        "Closing Mechanics"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Mentions covenants and pricing-relevant metrics (Applicable Margin, Base Rate/SOFR, Benchmark Transition Event, Total Leverage Ratio) that affect pricing calculations, but segment does not present pricing formulas or mechanics itself."
+    },
+    {
+      "seg_id": "seg23",
+      "name": "Article II \u2013 The Commitments and Credit Extensions (core definitions and borrowing mechanics)",
+      "range": [
+        "s001100",
+        "s001149"
+      ],
+      "tags": [
+        "Borrowings",
+        "Conversions",
+        "Continuations"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Provides core definitions and borrowing mechanics that underpin the pricing framework (e.g., margins and rate concepts are present in global keywords) but does not present the actual pricing formulas, tiers, or benchmark adjustment logic."
+    },
+    {
+      "seg_id": "seg24",
+      "name": "Financial covenants \u2013 Pro forma and measurement framework",
+      "range": [
+        "s001150",
+        "s001199"
+      ],
+      "tags": [
+        "Pro Forma Basis",
+        "Measurement Period",
+        "Pro Forma Effect"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Provides covenants/measurement context that informs pricing interpretation (e.g., leverage concepts, benchmark transition) but does not lay out the exact pricing mechanics."
+    },
+    {
+      "seg_id": "seg25",
+      "name": "Permitted Investments and Real Estate covenants framing",
+      "range": [
+        "s001200",
+        "s001249"
+      ],
+      "tags": [
+        "Permitted Investments",
+        "Encumbrances",
+        "Real Estate"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Offers covenants/definitions that are necessary to interpret pricing terms (e.g., leverage, liquidity checks) but does not itself specify the pricing formulas or margins."
+    },
+    {
+      "seg_id": "seg26",
+      "name": "Covenants \u2013 Affirmative covenants surface",
+      "range": [
+        "s001250",
+        "s001299"
+      ],
+      "tags": [
+        "Affirmative Covenants",
+        "Financial Statements",
+        "Notices"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Provides covenants context (financial statement delivery, notices) that affect how pricing metrics are measured/interpreted, even though it doesn\u2019t show actual rates or formulas."
+    },
+    {
+      "seg_id": "seg27",
+      "name": "Covenants \u2013 Additional affirmative mechanics",
+      "range": [
+        "s001300",
+        "s001349"
+      ],
+      "tags": [
+        "Reporting",
+        "Collateral",
+        "Insurance"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Provides covenants/definitions that influence how pricing is interpreted (e.g., leverage/benchmark references) but does not present the actual pricing mechanics or formulas."
+    },
+    {
+      "seg_id": "seg30",
+      "name": "Affirmative covenants \u2013 regulatory and reporting obligations",
+      "range": [
+        "s001450",
+        "s001499"
+      ],
+      "tags": [
+        "Regulatory",
+        "Reporting",
+        "Platform"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Contains covenants and reporting requirements that influence how pricing terms are applied and trigger adjustments, but it does not reveal the actual pricing mechanics (rates, margins, or adjustment logic)."
+    },
+    {
+      "seg_id": "seg31",
+      "name": "Affirmative covenants \u2013 further operational covenants",
+      "range": [
+        "s001500",
+        "s001549"
+      ],
+      "tags": [
+        "Taxes",
+        "Solvency",
+        "Insurance",
+        "Compliance"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Covenants related to leverage and liquidity can influence pricing mechanics, but the segment does not provide explicit pricing formulas, margins, or thresholds."
+    },
+    {
+      "seg_id": "seg32",
+      "name": "Affirmative covenants \u2013 post-closing collateral actions",
+      "range": [
+        "s001550",
+        "s001599"
+      ],
+      "tags": [
+        "Post-Closing",
+        "Collateral",
+        "Further Assurances"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "The segment points to covenants and collateral actions that can influence pricing metrics (e.g., leverage, margin benchmarks, liquidity), providing context needed to interpret pricing, but it does not present explicit pricing mechanics."
+    },
+    {
+      "seg_id": "seg33",
+      "name": "Affirmative covenants \u2013 Board materials and information sharing",
+      "range": [
+        "s001600",
+        "s001649"
+      ],
+      "tags": [
+        "Board Materials",
+        "Information Sharing",
+        "Platform"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Segment centers on information-sharing covenants; while it mentions pricing-relevant metrics (Total Leverage Ratio, Benchmark Transition Event), it does not present the actual pricing mechanics or thresholds, providing only contextual support needed to interpret pricing."
+    },
+    {
+      "seg_id": "seg36",
+      "name": "Negative covenants \u2013 Liens and investments",
+      "range": [
+        "s001750",
+        "s001799"
+      ],
+      "tags": [
+        "Liens",
+        "Investments",
+        "Indebtedness",
+        "Fundamental Changes"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Provides covenants (liens, investments, indebtedness) that define the measurement context and constraints influencing pricing (e.g., leverage/ liquidity thresholds) but does not present explicit pricing mechanics (rates, margins, fallback logic)."
+    },
+    {
+      "seg_id": "seg37",
+      "name": "Negative covenants \u2013 dispositions and restricted payments",
+      "range": [
+        "s001800",
+        "s001849"
+      ],
+      "tags": [
+        "Dispositions",
+        "Restricted Payments",
+        "Financing Covenants"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Covenants around dispositions and restricted payments affect leverage and liquidity metrics that drive pricing, providing necessary context for interpreting the pricing framework, though the segment does not in itself state specific rates or formulas."
+    },
+    {
+      "seg_id": "seg38",
+      "name": "Negative covenants \u2013 financial covenants and transactional limits",
+      "range": [
+        "s001850",
+        "s001899"
+      ],
+      "tags": [
+        "Permitted Indebtedness",
+        " acquisitions",
+        "Financial Covenants"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Covenants like Total Leverage Ratio and Permitted Indebtedness influence the pricing framework and are needed to interpret pricing, but the segment does not present actual rates, margins, or benchmark adjustment logic."
+    },
+    {
+      "seg_id": "seg39",
+      "name": "Events of Default and remedies framework",
+      "range": [
+        "s001900",
+        "s001949"
+      ],
+      "tags": [
+        "Events of Default",
+        "Remedies",
+        "Acceleration"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Provides covenants and default-related context that can influence pricing calculations (e.g., triggers, covenants that can affect margin or eligibility), but does not itself specify pricing mechanics such as margins, leverage grids, or benchmark adjustments."
+    },
+    {
+      "seg_id": "seg40",
+      "name": "Events of Default \u2013 remedies application and priority of payments",
+      "range": [
+        "s001950",
+        "s001999"
+      ],
+      "tags": [
+        "Application of Funds",
+        "Waterfall",
+        "Priority of Payments"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Gives remedies, waterfall, and default-related covenants context that influence pricing risk interpretation, but it does not expose core pricing mechanics (margins, leverage tiers, benchmark fallback/adjustment)."
+    },
+    {
+      "seg_id": "seg45",
+      "name": "Regulatory compliance and sanctions framework",
+      "range": [
+        "s002200",
+        "s002249"
+      ],
+      "tags": [
+        "Sanctions",
+        "Anti-Corruption",
+        "AML",
+        "OFAC"
+      ],
+      "score": 0.5,
+      "verdict": "include",
+      "rationale": "Provides covenants/representations and compliance-related conditions that can influence pricing risk and triggers, but does not contain concrete pricing mechanics (rates/margins, benchmark logic, or fee formulas)."
+    },
+    {
+      "seg_id": "seg28",
+      "name": "Affirmative covenants \u2013 collateral and control provisions",
+      "range": [
+        "s001350",
+        "s001399"
+      ],
+      "tags": [
+        "Perfection",
+        "Control Agreements",
+        "Liens"
+      ],
+      "score": 0.0,
+      "verdict": "skip",
+      "rationale": "No pricing mechanics or math exposed; segment only notes collateral/perfection covenants, not rates, margins, or leverage thresholds."
+    },
+    {
+      "seg_id": "seg29",
+      "name": "Affirmative covenants \u2013 governance and compliance",
+      "range": [
+        "s001400",
+        "s001449"
+      ],
+      "tags": [
+        "Compliance",
+        "ERISA",
+        "Environmental",
+        "Insurance"
+      ],
+      "score": 0.0,
+      "verdict": "skip",
+      "rationale": "Segment covers governance/compliance covenants; no concrete pricing terms, margins, benchmarks, or adjustment logic are disclosed."
+    },
+    {
+      "seg_id": "seg34",
+      "name": "Affirmative covenants \u2013 information regarding collateral and real property",
+      "range": [
+        "s001650",
+        "s001699"
+      ],
+      "tags": [
+        "Collateral Info",
+        "Notices",
+        "Post-Closing Actions"
+      ],
+      "score": 0.0,
+      "verdict": "skip",
+      "rationale": "Segment describes collateral covenants and post-closing actions; it doesn't contain pricing mechanics (rates, margins, leverage grids, or benchmark adjustment logic) and thus does not illuminate the pricing the company will face."
+    },
+    {
+      "seg_id": "seg35",
+      "name": "Affirmative covenants \u2013 miscellaneous and procedural",
+      "range": [
+        "s001700",
+        "s001749"
+      ],
+      "tags": [
+        "Miscellaneous",
+        "Procedures",
+        "Information Platform"
+      ],
+      "score": 0.0,
+      "verdict": "skip",
+      "rationale": "Segment covers covenants and governance only; no concrete pricing mechanics (rates, margins, benchmark adjustments, fees) are presented."
+    },
+    {
+      "seg_id": "seg41",
+      "name": "Agent obligations, proofs, and general agency framework",
+      "range": [
+        "s002000",
+        "s002049"
+      ],
+      "tags": [
+        "Agent",
+        "Proofs of Claim",
+        "Agency"
+      ],
+      "score": 0.0,
+      "verdict": "skip",
+      "rationale": "No pricing mechanics exposed; segment discusses agent obligations and enforcement rather than rate, margin, benchmark fallback, or fee formulas."
+    },
+    {
+      "seg_id": "seg42",
+      "name": "Notices, electronic communications, and platform disclosures",
+      "range": [
+        "s002050",
+        "s002099"
+      ],
+      "tags": [
+        "Notices",
+        "Electronic Communications",
+        "Platform"
+      ],
+      "score": 0.0,
+      "verdict": "skip",
+      "rationale": "Segment concerns notices and platform disclosures; it does not include pricing mechanics (rates, margins, benchmark fallback, fees) or related covenants that determine pricing."
+    },
+    {
+      "seg_id": "seg43",
+      "name": "Lender relations, assignments, and participations",
+      "range": [
+        "s002100",
+        "s002149"
+      ],
+      "tags": [
+        "Assignments",
+        "Participations",
+        "Lenders"
+      ],
+      "score": 0.0,
+      "verdict": "skip",
+      "rationale": "Does not reveal pricing mechanics (rates/margins, leverage tiers, benchmark fallback) \u2014 only covers assignments and lender relations."
+    },
+    {
+      "seg_id": "seg44",
+      "name": "Governing law, jurisdiction, and waiver of jury trial",
+      "range": [
+        "s002150",
+        "s002199"
+      ],
+      "tags": [
+        "Governing Law",
+        "Jurisdiction",
+        "Jury Trial Waiver"
+      ],
+      "score": 0.0,
+      "verdict": "skip",
+      "rationale": "Governing law/venue provisions do not reveal or alter pricing mechanics (rates, margins, benchmarks, leverage, fees); they provide legal context rather than pricing terms."
+    },
+    {
+      "seg_id": "seg46",
+      "name": "Patriot Act notices and due diligence",
+      "range": [
+        "s002250",
+        "s002299"
+      ],
+      "tags": [
+        "Patriot Act",
+        "Due Diligence",
+        "KYC"
+      ],
+      "score": 0.0,
+      "verdict": "skip",
+      "rationale": "No pricing mechanics or definitions; segment covers compliance due diligence rather than pricing terms."
+    },
+    {
+      "seg_id": "seg47",
+      "name": "Foreign assets controls and time of the essence",
+      "range": [
+        "s002300",
+        "s002349"
+      ],
+      "tags": [
+        "FATCA",
+        "Foreign Assets Control",
+        "Time is of the Essence"
+      ],
+      "score": 0.0,
+      "verdict": "skip",
+      "rationale": "Segment covers regulatory controls and timing obligations; no pricing mechanics (rates, spreads, benchmarks, leverage tiers, fees) are disclosed."
+    },
+    {
+      "seg_id": "seg48",
+      "name": "Public disclosures and press releases",
+      "range": [
+        "s002350",
+        "s002399"
+      ],
+      "tags": [
+        "Public Disclosures",
+        "Press Releases",
+        "Advertising"
+      ],
+      "score": 0.0,
+      "verdict": "skip",
+      "rationale": "Segment covers communications disclosures; it does not reveal pricing mechanics, margins, benchmark fallback logic, fees, or other pricing formulas."
+    },
+    {
+      "seg_id": "seg49",
+      "name": "Signature pages and execution of agreement",
+      "range": [
+        "s002400",
+        "s002421"
+      ],
+      "tags": [
+        "Signatures",
+        "Execution",
+        "Credit Agreement"
+      ],
+      "score": 0.0,
+      "verdict": "skip",
+      "rationale": "This segment only covers signature execution; it does not include pricing mechanics (rates, margins, benchmarks, fees) or related definitions/covenants necessary to interpret pricing."
+    }
+  ]
+}

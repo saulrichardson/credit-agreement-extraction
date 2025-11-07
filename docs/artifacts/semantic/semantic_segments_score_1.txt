@@ -1,0 +1,223 @@
+===== seg08 | Interest rate framework and calculation conventions | range s000350–s000399 | score=1.0 =====
+Rationale: Provides core pricing mechanics: base rate construction, Floor, and SOFR adjustments (pricing rate formation), enabling understanding of how interest is computed and adjusted.
+Summary: Definitions and mechanics for interest, including Floor, SOFR adjustments, and base rate construction.
+Tags: Interest, Floor, SOFR Adjustment, Base Rate
+
+⟦s000350⟧ (xi) the amount of cash taxes (including penalties and interest) paid or tax reserves set aside or payable (without duplication) in such period to the extent they exceed the amount of tax expense deducted in determining Consolidated Net Income for such period;
+⟦s000351⟧ (xii) cash expenditures in respect of Swap Contracts during such period to the extent not deducted in arriving at such Consolidated Net Income; and
+⟦s000352⟧ (xiii) cash payments during such period in respect of non-cash items expensed in a prior period but not reducing Excess Cash Flow as calculated for such prior period.
+⟦s000353⟧ “ Excess Licensing Proceeds ” has the meaning specified in the defined term “Asset Sale”.
+⟦s000354⟧ “ Excess Net Proceeds ” means the sum of Excess Asset Sale Proceeds plus Excess Licensing Proceeds.
+⟦s000355⟧ - 19 -
+⟦s000356⟧ “ Excluded Equity Issuance ” means an issuance of (a) Equity Interests by the Borrower to management, officers, directors or employees of a Loan Party under any employee stock option or stock purchase plan or other employee benefits plan in existence from time to time, (b) Equity Interests by a wholly-owned Subsidiary of Borrower to Borrower or another wholly-owned Subsidiary of Borrower constituting an Investment permitted hereunder, and (c) Equity Interests by a Foreign Subsidiary of such Foreign Subsidiary to qualify directors where required pursuant to applicable Law, in each instance, with respect to the ownership of Equity Interests of Foreign Subsidiaries.
+⟦s000357⟧ “ Excluded Subsidiary ” shall mean any Subsidiary that is (a) prohibited by applicable Law, rule or regulation from guaranteeing the Obligations or would require governmental (including regulatory) consent, approval, license or authorization to provide a guarantee unless such consent, approval or licensor authorization has been received (but in the case of such guaranty being prohibited due to a contractual obligation, such contractual obligation shall have been in place at the Closing Date or at the time such Subsidiary became a Restricted Subsidiary and is not created in contemplation of or in connection with such Person becoming a Restricted Subsidiary), (b) a joint venture, to the extent a guaranty is prohibited by such joint venture’s organizational documents, (c) an Immaterial Subsidiary, (d) excluded to the extent the Agent and the Borrower mutually determine the cost, burden, difficulty and/or consequence (including adverse tax consequence) of obtaining a guaranty or security interest with respect thereto outweigh the benefit to the Lenders, (e) other than Electing Foreign Guarantors, any CFC, a FSCHO or a Foreign Subsidiary (direct or indirect) of the Borrower or a Domestic Subsidiary, in each case with respect to which a guarantee could reasonably be expected to result in material adverse Tax consequences or (f) any Subsidiary of an entity described in the foregoing clause (e) above.
+⟦s000358⟧ The parties hereto agree that each of Lands’ End (HK) Limited and Lands’ End Canada Outfitters are Excluded Subsidiaries.
+⟦s000359⟧ “ Excluded Taxes ” means any of the following Taxes imposed on or with respect to any Recipient or required to be withheld or deducted from a payment to a Recipient, (a) Taxes imposed on or measured by net income (however denominated), franchise Taxes, and branch profits Taxes, in each case, (i) imposed as a result of such Recipient being organized under the laws of, or having its principal office or, in the case of any Lender, its Lending Office located in, the jurisdiction imposing such Tax (or any political subdivision thereof) or (ii) that are Other Connection Taxes, (b) U.
+⟦s000360⟧ S.
+⟦s000361⟧ federal withholding Taxes imposed on amounts payable to or for the account of such Recipient with respect to an applicable interest in a Loan or Commitment pursuant to a law in effect on the date on which (i) such Recipient acquires such interest in the Loan or Commitment (other than pursuant to an assignment request by the Borrower under Sections 3.
+⟦s000362⟧ 6 and 10.
+⟦s000363⟧ 14 ) or (ii) in the case of a Lender, such Lender changes its Lending Office, except in each case to the extent that, pursuant to Section 3.
+⟦s000364⟧ 1 , amounts with respect to such Taxes were payable either to such Lender’s assignor immediately before such Lender acquired such interest or to such Lender immediately before it changed its Lending Office, (c) Taxes attributable to such Recipient’s failure to comply with Section 3.
+⟦s000365⟧ 1(e) and (d) any Taxes imposed pursuant to FATCA.
+⟦s000366⟧ “ Executive Order ” has the meaning set forth in Section 10.
+⟦s000367⟧ 19 .
+⟦s000368⟧ “ Existing BAML Indebtedness ” means Indebtedness owed to Bank of America, N.
+⟦s000369⟧ A.
+⟦s000370⟧ with respect to certain cash management obligations and credit card services in an aggregate amount not to exceed $2,000,000.
+⟦s000371⟧ “ Existing Term Loan Agreement ” means that certain Term Loan Credit Agreement, dated as of September 9, 2020, among, Lands’ End, Inc., Fortress Credit Corp. and the other lenders party thereto, as amended, restated, amended and restated, supplemented or otherwise modified prior to the Closing Date.
+⟦s000372⟧ “ Existing Term Loan Facility ” means the term loan facility pursuant to the Existing Term Loan Credit Agreement.
+⟦s000373⟧ - 20 -
+⟦s000374⟧ “ Extraordinary Receipt ” means any cash received in the aggregate in any Fiscal Year in excess of $750,000 by or paid to or for the account of any Person consisting of (i) federal income tax refunds (other than any (a) tax refunds accrued by the Borrower related to corrections in its tax return for open periods prior to the Closing Date or (b) returned amounts from estimated tax payments previously made to the extent that Federal Income Tax law required a prepayment of tax for a tax year in excess of the Borrower's actual tax liabilty as shown on its tax return for said period), (ii) pension plan reversions, (iii) indemnity payments, (iv) proceeds of insurance (except to the extent received in connection with a Casualty Event), (v) any purchase price adjustments in connection with any purchase agreement (excluding any working capital adjustments made pursuant to any purchase agreement), or (vi) judgments, proceeds of settlements or other consideration of any kind in connection with any cause of action.
+⟦s000375⟧ “ FATCA ” means Sections 1471 through 1474 of the Code, as of the date of this Agreement (or any amended or successor version that is substantively comparable and not materially more onerous to comply with) and any current or future regulations or official interpretations thereof and any agreements entered into pursuant to Section 1471(b)(1) of the Code and any fiscal or regulatory legislation, rules or practices adopted pursuant to any intergovernmental agreement, treaty or convention among Governmental Authorities and implementing such Sections of the Code.
+⟦s000376⟧ “ FCPA ” means the Foreign Corrupt Practices Act of 1977, as amended, and the rules and regulations thereunder.
+⟦s000377⟧ “ Federal Funds Rate ” means, for any day, a fluctuating interest rate per annum equal to: (a) the highest rate on overnight federal funds transactions with members of the Federal Reserve System arranged by federal funds brokers, as published for such day (or, if such day is not a Business Day, for the next succeeding Business Day) by the Federal Reserve Bank of New York online at https://www.federalreserve.gov/monetarypolicy/openmarket.htm; or (b) if such rate is not so published for any day which is a Business Day, the highest of the quotations for such day on such transactions received by the Agent out of three (3) federal funds brokers of recognized standing reasonably selected by it.
+⟦s000378⟧ “ Federal Reserve Bank of New York’s Website ” means the website of the Federal Reserve Bank of New York at http://www.newyorkfed.org, or any successor source.
+⟦s000379⟧ “ Fee Letter ” means the letter agreement dated as of the date hereof among the Borrower and the Agent, as amended and in effect from time to time.
+⟦s000380⟧ “ Financed Capital Expenditures ” shall mean Capital Expenditures made with the proceeds of Indebtedness (other than from revolving borrowings).
+⟦s000381⟧ “ Fiscal Month ” means any of the monthly accounting periods of the Loan Parties ending on any of the dates set forth on Schedule 1.
+⟦s000382⟧ 1(a) , as such Fiscal Months may be amended in accordance with the provisions of Section 7.
+⟦s000383⟧ 13 hereof.
+⟦s000384⟧ “ Fiscal Quarter ” means any of the quarterly accounting periods of the Loan Parties ending on any of the dates set forth on Schedule 1.
+⟦s000385⟧ 1(b) , as such Fiscal Quarters may be amended in accordance with the provisions of Section 7.
+⟦s000386⟧ 13 hereof.
+⟦s000387⟧ “ Fiscal Year ” means any of the annual accounting periods of the Loan Parties ending on any of the dates set forth on Schedule 1.
+⟦s000388⟧ 1(c) that correspond to the end of any Fiscal Year of the Loan Parties, as such Fiscal Year may be amended in accordance with the provisions of Section 7.
+⟦s000389⟧ 13 hereof.
+⟦s000390⟧ - 21 -
+⟦s000391⟧ “ Flood Insurance Laws ” means, collectively, (i) the National Flood Insurance Act of 1968 as now or hereafter in effect or any successor statute thereto, (ii) the Flood Disaster Protection Act of 1973 as now or hereafter in effect or any successor statue thereto, (iii) the National Flood Insurance Reform Act of 1994 as now or hereafter in effect or any successor statute thereto, (iv) the Flood Insurance Reform Act of 2004 as now or hereafter in effect or any successor statute thereto and (v) the Biggert-Waters Flood Insurance Reform Act of 2012 as now or hereafter in effect or any successor statute thereto.
+⟦s000392⟧ “ Floor ” means a rate of interest equal to 2.
+⟦s000393⟧ 00% per annum.
+⟦s000394⟧ “ Foreign Asset Control Regulations ” has the meaning set forth in Section 10.
+⟦s000395⟧ 19 .
+⟦s000396⟧ “ Foreign Lender ” means any Lender that is organized under the laws of a jurisdiction other than that in which the Borrower is resident for tax purposes.
+⟦s000397⟧ For purposes of this definition, the United States, each State thereof and the District of Columbia shall be deemed to constitute a single jurisdiction.
+⟦s000398⟧ “ Foreign Plan ” means any Plan not subject to ERISA by reason of Section 4(b)(4) of ERISA.
+⟦s000399⟧ “ Foreign Subsidiary ” means as to any Person, any Subsidiary of such Person that is not a Domestic Subsidiary.
+
+===== seg17 | Term Loan mechanics and borrowing typology | range s000800–s000849 | score=1.0 =====
+Rationale: Describes core term loan pricing mechanics (SOFR/Base Rate determination, determination days, adjustments) and references to margins/benchmark transition, which directly feed the pricing calculation.
+Summary: Detailed Term SOFR and Base Rate mechanics, including determination days and adjustments.
+Tags: SOFR, Base Rate, Interest Period
+
+⟦s000800⟧ “ Term SOFR ” means,
+⟦s000801⟧ (a) for any calculation with respect to a SOFR Loan, the Term SOFR Reference Rate for a tenor comparable to the applicable Interest Period on the day (such day, the “ Periodic Term SOFR Determination Day ”) that is two (2) U.
+⟦s000802⟧ S.
+⟦s000803⟧ Government Securities Business Days prior to the first day of such Interest Period, as such rate is published by the Term SOFR Administrator, plus (x) in respect of any one month Interest Period; 0.
+⟦s000804⟧ 11448%, and (y) in respect of any three month Interest Period, 0.
+⟦s000805⟧ 26161% (clauses (x) through (y), the “ SOFR Adjustment ”); provided , however , that if as of 5:00 p.m.
+⟦s000806⟧ (New York City time) on any Periodic Term SOFR Determination Day the Term SOFR Reference Rate for the applicable tenor has not been published by the Term SOFR Administrator and a Benchmark Replacement Date with respect to the Term SOFR Reference Rate has not occurred, then Term SOFR will be the Term SOFR Reference Rate for such tenor as published by the Term SOFR Administrator on the first preceding U.
+⟦s000807⟧ S.
+⟦s000808⟧ Government Securities Business Day for which such Term SOFR Reference Rate for such tenor was published by the Term SOFR Administrator so long as such first preceding U.
+⟦s000809⟧ S.
+⟦s000810⟧ Government Securities Business Day is not more than three (3) U.
+⟦s000811⟧ S.
+⟦s000812⟧ Government Securities Business Days prior to such Periodic Term SOFR Determination Day, and
+⟦s000813⟧ (b) for any calculation with respect to a Base Rate Loan on any day, the Term SOFR Reference Rate for a tenor of one month on the day (such day, the “ Base Rate Term SOFR Determination Day ”) that is two (2) U.
+⟦s000814⟧ S.
+⟦s000815⟧ Government Securities Business Days prior to such day, as such rate is published by the Term SOFR Administrator plus 0.
+⟦s000816⟧ 11448% (the “ Base Rate SOFR Adjustment ” and, together with the SOFR Adjustment, the “ Term SOFR Adjustment ”); provided , however, that if as of 5:00 p.m.
+⟦s000817⟧ (New York City Time) on any Base Rate Term SOFR Determination Day the Term SOFR Reference Rate for the applicable tenor has not been published by the Term SOFR Administrator and a Benchmark Replacement Date with respect to the Term SOFR Reference Rate has not occurred, then Term SOFR will be the Term SOFR Reference Rate for such tenor as published by the Term SOFR Administrator on the first preceding U.
+⟦s000818⟧ S.
+⟦s000819⟧ Government Securities Business Day for which such Term SOFR Reference Rate for such tenor was published by the Term SOFR Administrator so long as such first preceding U.
+⟦s000820⟧ S.
+⟦s000821⟧ Government Securities Business Day is not more than three (3) U.
+⟦s000822⟧ S.
+⟦s000823⟧ Government Securities Business Days prior to such Base Rate Term SOFR Determination Day;
+⟦s000824⟧ provided , further, that if Term SOFR determined as provided above (including pursuant to the proviso under clause (a) or (b) above and, for the avoidance of doubt, after giving effect to the Term SOFR Adjustment) shall ever be less than the Floor, then Term SOFR shall be deemed to be the Floor.
+⟦s000825⟧ - 47 -
+⟦s000826⟧ “ Term SOFR Adjustment ” has the meaning specified in the definition of “Term SOFR”.
+⟦s000827⟧ “ Term SOFR Administrator ” means CME Group Benchmark Administration Limited (CBA) (or a successor administrator of the Term SOFR Reference Rate selected by Agent in its reasonable discretion).
+⟦s000828⟧ “ Term SOFR Reference Rate ” means the forward-looking term rate based on SOFR.
+⟦s000829⟧ “ Total Leverage Ratio ” means, with respect to any Measurement Period, the ratio of (a) Consolidated Total Debt as of the last day of such Measurement Period to (b) Consolidated EBITDA of the Borrower for such Measurement Period.
+⟦s000830⟧ “ Total Outstandings ” means the aggregate Outstanding Amount of all Loans.
+⟦s000831⟧ “ Trading with the Enemy Act ” has the meaning set forth in Section 10.
+⟦s000832⟧ 19 .
+⟦s000833⟧ “ Transactions ” means, collectively, (a) the initial Borrowing hereunder on the Closing Date , (b) the repayment in full and termination of the Indebtedness under the Existing Term Loan Agreement and (c) the payment of the fees and expenses incurred in connection with the consummation of the foregoing.
+⟦s000834⟧ “ Type ” means, with respect to a Loan, its character as a Base Rate Loan or a SOFR Loan.
+⟦s000835⟧ “ UCC ” or “ Uniform Commercial Code ” means the Uniform Commercial Code as in effect from time to time in the State of New York; provided , however , that if a term is defined in Article 9 of the Uniform Commercial Code differently than in another Article thereof, the term shall have the meaning set forth in Article IX ; provided further that, if by reason of mandatory provisions of law, perfection, or the effect of perfection or non-perfection, of a security interest in any Collateral or the availability of any remedy hereunder is governed by the Uniform Commercial Code as in effect in a jurisdiction other than New York, “Uniform Commercial Code” means the Uniform Commercial Code as in effect in such other jurisdiction for purposes of the provisions hereof relating to such perfection or effect of perfection or non-perfection or availability of such remedy, as the case may be.
+⟦s000836⟧ “ UK Guarantor ” means Lands’ End Europe Limited.
+⟦s000837⟧ “ UK Mortgage ” means a fully executed legal mortgage in favor of the Agent granted pursuant to the relevant UK Security Agreement by the UK Guarantor creating a fixed and floating charge over the UK Property.
+⟦s000838⟧ “ UK Property ” means the freehold property being ‘land lying to the North of Pillings Road, Oakham’, registered at the UK Land Registry with title number LT295459, and referred to more commonly as Lands’ End Way, Oakham, Rutland LE15 6US.
+⟦s000839⟧ “ UK Security Agreements ” means, collectively, (a) an all asset debenture entered into by the UK Guarantor creating a first priority security interest over all or substantially all of its assets (including the UK Mortgage), (b) [reserved] and (c) a share charge granted over the Equity Interests of the UK Guarantor in connection with this Agreement.
+⟦s000840⟧ “ Unintentional Overadvance ” has the meaning provided therefor in the ABL Credit Agreement.
+⟦s000841⟧ - 48 -
+⟦s000842⟧ “ United States ” and “ U.
+⟦s000843⟧ S.
+⟦s000844⟧ ” mean the United States of America.
+⟦s000845⟧ “ U.
+⟦s000846⟧ S.
+⟦s000847⟧ Government Securities Business Day ” means any day except for (x) a Saturday, (y) a Sunday or (z) a day on which the Securities Industry and Financial Markets Association recommends that the fixed income departments of its members be closed for the entire day for purposes of trading in United States government securities.
+⟦s000848⟧ “ U.
+⟦s000849⟧ S.
+
+===== seg19 | Pricing mechanics and rate adjustments in detail | range s000900–s000949 | score=1.0 =====
+Rationale: Segment provides concrete pricing mechanics (calculation days, interest accrual, base rate/SOFR and applicable margins) and benchmark transition context directly shaping the pricing.
+Summary: Detailed Pricing mechanics including calculation days, interest accrual, and applicable rates.
+Tags: Interest Rate, Base Rate, SOFR
+
+⟦s000900⟧ 8 Limited Condition Acquisition .
+⟦s000901⟧ Solely for the purpose of (i) measuring the relevant ratios and baskets, Liens, the making of any Acquisitions or other Investments, prepayments of Specified Indebtedness, Restricted Payments or Dispositions, in each case, in connection with a Limited Condition Acquisition or (ii) determining compliance with the representations and warranties or the occurrence of any Default or Event of Default, in each case, in connection with a Limited Condition Acquisition, if the Borrower makes an LCA Election, the applicable date of determination in determining whether any such Acquisition (or similar investment) is permitted shall be deemed to be the LCA Test Date, and if, after giving effect to the Limited Condition Acquisition and the other transactions to be entered into in connection therewith as if they had occurred as of the Measurement Period, ending prior to the LCA Test Date on a Pro Forma Basis, the Borrowers could have taken such action on the relevant LCA Test Date in compliance with any such ratio or basket (other than for the purposes of calculating actual compliance (and not pro forma compliance or compliance on a Pro Forma Basis) with Section 7.
+⟦s000902⟧ 15 ), such ratio or basket shall be deemed to have been complied with; .
+⟦s000903⟧ If the Borrower has made an LCA Election for any Limited Condition Acquisition, then in connection with any subsequent calculation of any ratio or basket on or following the relevant LCA Test Date and prior to the earlier of (i) the date on which such Limited Condition Acquisition is consummated, (ii) the date that the definitive agreement for such Limited Condition Acquisition is terminated or expires without consummation of such Limited Condition Acquisition or (iii) 120 days after the relevant LCA Test Date, any such ratio or basket shall be calculated and tested on a Pro Forma Basis assuming such Limited Condition Acquisition and other pro forma events in connection therewith (including any incurrence of Indebtedness and the use of proceeds thereof) have
+⟦s000904⟧ - 51 -
+⟦s000905⟧ been consummated until such time as the applicable Limited Condition Acquisition has actually closed or the definitive agreement with respect thereto has been terminated.
+⟦s000906⟧ The consummation of any Limited Condition Acquisition shall be subject to the absence of a Default or Event of Default under Sections 8.
+⟦s000907⟧ 1(a) or (f) .
+⟦s000908⟧ 1.
+⟦s000909⟧ 9 German Terms .
+⟦s000910⟧ In this Agreement, where it relates to a person incorporated in or organized under the laws of Germany, a reference to:
+⟦s000911⟧ (a) a “custodian”, “liquidator”, “trustee”, “trustee in bankruptcy”, “compulsory manager”, “receiver”, (provisional, interim or permanent) or “manager”, “examiner”, “supervisor”, “assignee”, “sequestrator” or “administrator” includes an insolvency administrator ( Insolvenzverwalter ), a preliminary insolvency administrator ( vorläufiger Insolvenzverwalter ) or a custodian ( Sachwalter );
+⟦s000912⟧ (b) a “winding up”, “administration” or “dissolution” includes insolvency proceedings ( Insolvenzverfahren );
+⟦s000913⟧ (c) a person being “unable to pay its debts” includes that person being in a state of illiquidity ( Zahlungsunfähigkeit ) under § 17 of the German Insolvency Code ( Insolvenzordnung );
+⟦s000914⟧ (d) a person being “insolvent” means that person being in a state of illiquidity ( Zahlungsunfähigkeit ) under § 17 of the German Insolvency Code ( Insolvenzordnung ), ( Insolvenzordnung ) or being over-indebted ( überschuldet ) under § 19 of the German Insolvency Code ( Insolvenzordnung );
+⟦s000915⟧ (e) committing an “act of bankruptcy” includes the filing for the commencement of insolvency proceedings ( Eröffnung des Insolvenzverfahrens ) and the filing for debtor in possession proceedings ( Eigenverwaltung );
+⟦s000916⟧ (f) commencement of “bankruptcy” or “insolvency” includes the opening of insolvency proceedings ( Eröffnung des Insolvenzverfahrens ) and the dismissal of insolvency proceedings due to lack of funds ( Abweisung mangels Masse );
+⟦s000917⟧ (g) in relation to any Collateral or other security rights or security assets governed by German law or located in Germany “trust”, “trustee” or “on trust” shall be construed as “ Treuhand ”, “ Treuhänder ” or “ treuhänderisch ”;
+⟦s000918⟧ (h) “by laws” or “constitutional documents” includes reference to articles of association ( Satzung ) or partnership agreement ( Gesellschaftsvertrag ) and rules of procedure ( Geschäftsordnung ); and
+⟦s000919⟧ (i) a “director” or “officer” includes any statutory legal representative(s) ( organschaftlicher Vertreter ) of a person, including, a managing director ( Geschäftsführer ) or member of the board of directors ( Vorstand ) or an authorized representative ( Prokurist ).
+⟦s000920⟧ 1.
+⟦s000921⟧ 10 European Blocking Statutes .
+⟦s000922⟧ Notwithstanding anything to the contrary in this Agreement or any other Loan Document, no representation, undertaking or other obligation shall:
+⟦s000923⟧ (a) be given by a Sanctions Restricted Credit Party; or
+⟦s000924⟧ (b) apply for the benefit of a Sanctions Restricted Lender,
+⟦s000925⟧ - 52 -
+⟦s000926⟧ to the extent that this would result in any violation by or expose of such entity or any directors, officer or employee thereof to any liability under:
+⟦s000927⟧ (i) EU Regulation (EC) 2271/96;
+⟦s000928⟧ (ii) § 7 of the German Außenwirtschaftsverordnung (in connection with the German Außenwirtschaftsgesetz ); or
+⟦s000929⟧ (iii) any similar applicable anti-boycott law, regulation or statute in force from time to time that is applicable to such entity.
+⟦s000930⟧ (c) For the purpose of this Section 1.
+⟦s000931⟧ 09 :
+⟦s000932⟧ (i) “ Sanctions Restricted Credit Party ” means a Credit Party in respect of which the Borrower notifies the Administrative Agent that a Sanctions Provision would result in a violation of, a conflict with or liability under:
+⟦s000933⟧ (1) EU Regulation (EC) 2271/96;
+⟦s000934⟧ (2) § 7 of the German Außenwirtschaftsverordnung (in connection with the German Außenwirtschaftsgesetz ); or
+⟦s000935⟧ (3) any similar applicable anti-boycott law, regulation or statute in force from time to time that is applicable to such entity.
+⟦s000936⟧ (ii) “ Sanctions Restricted Lender ” means a Lender that notifies the Administrative Agent that a Sanctions Provision would result in a violation of, a conflict with or liability under:
+⟦s000937⟧ (1) EU Regulation (EC) 2271/96;
+⟦s000938⟧ (2) § 7 of the German Außenwirtschaftsverordnung (in connection with the German Außenwirtschaftsgesetz ); or
+⟦s000939⟧ (3) any similar applicable anti-boycott law, regulation or statute in force from time to time that is applicable to such entity.
+⟦s000940⟧ (iii) “ Sanctions Provision ” means Section 5.
+⟦s000941⟧ 26 ( OFAC/Sanctions; Anti-Corruption Laws; Anti-Money Laundering Laws ), Section 6.
+⟦s000942⟧ 8 ( Compliance with laws ), Section 6.
+⟦s000943⟧ 20 ( OFAC/Sanctions; Anti-Corruption Laws; Anti-Money Laundering Laws ) a Section 7.
+⟦s000944⟧ 20 ( Use of Proceeds ).
+⟦s000945⟧ Article II The Commitments and Credit Extensions
+⟦s000946⟧ 2.
+⟦s000947⟧ 1 The Loans .
+⟦s000948⟧ Subject to the terms and conditions set forth herein, each Lender severally agrees to make a single loan in Dollars (each such loan, a “ Term Loan ”) to the Borrower on the Closing Date, in an amount not to exceed the amount of such Lender’s Term Loan Commitment.
+⟦s000949⟧ Amounts borrowed under this Section 2.
+
+===== seg20 | Pricing mechanics and payment timing groundwork | range s000950–s000999 | score=1.0 =====
+Rationale: Segments describe rate computation norms and include references to base rate/SOFR, applicable margin, and benchmark transition logic, constituting core pricing mechanics required to understand pricing.
+Summary: Further pricing and payment timing groundwork including rate computation norms.
+Tags: Interest Payment Dates, Calculation Basis, Payment Timing
+
+⟦s000950⟧ 1 and repaid or prepaid may not be reborrowed.
+⟦s000951⟧ Term Loans may be Base Rate Loans or SOFR Loans as further provided herein.
+⟦s000952⟧ - 53 -
+⟦s000953⟧ 2.
+⟦s000954⟧ 2 Borrowings, Conversions and Continuations of Loans .
+⟦s000955⟧ (a) The Borrowing shall be either Base Rate Loans or SOFR Loans as the Borrower may request subject to and in accordance with this Section 2.
+⟦s000956⟧ 2 .
+⟦s000957⟧ Subject to the other provisions of this Section 2.
+⟦s000958⟧ 2 , Borrowings of more than one Type may be incurred at the same time.
+⟦s000959⟧ (b) The Borrowing, each Conversion of Loans from one Type to the other, and each continuation of SOFR Loans shall be made upon the Borrower’s irrevocable prior written Committed Loan Notice to the Agent, appropriately completed and signed by a Responsible Officer of the Borrower.
+⟦s000960⟧ Each such notice must be received by the Agent not later than (i) 12:00 p.m.
+⟦s000961⟧ three Business Days prior to the requested date of any Borrowing of, Conversion to or continuation of SOFR Loans or of any Conversion of SOFR Loans to Base Rate Loans, and (ii) 12:00 p.m.
+⟦s000962⟧ three Business Day prior to the requested date of any Borrowing of Base Rate Loans.
+⟦s000963⟧ Each Borrowing of, Conversion to or continuation of SOFR Loans shall be in a principal amount of $5,000,000 or a whole multiple of $1,000,000 in excess thereof.
+⟦s000964⟧ Each Borrowing of or Conversion to Base Rate Loans shall be in minimum amounts of $500,000 or a whole multiple of $100,000 in excess thereof.
+⟦s000965⟧ Each Committed Loan Notice shall specify (i) whether the Borrower is requesting a Borrowing, a Conversion of Loans from one Type to the other, or a continuation of SOFR Loans, (ii) the requested date of the Borrowing, Conversion or continuation, as the case may be (which shall be a Business Day), (iii) the principal amount of Loans to be borrowed, Converted or continued, (iv) the Type of Loans to be borrowed or to which existing Loans are to be Converted, and (v) if applicable, the duration of the Interest Period with respect thereto.
+⟦s000966⟧ If the Borrower fails to specify a Type of Loan in a Committed Loan Notice or if the Borrower fails to give a timely notice requesting a Conversion or continuation, then the applicable Loans shall be made as, or Converted to, Base Rate Loans.
+⟦s000967⟧ Any such automatic Conversion to Base Rate Loans shall be effective as of the last day of the Interest Period then in effect with respect to the applicable SOFR Loans.
+⟦s000968⟧ If the Borrower requests a Borrowing of, Conversion to, or continuation of SOFR Loans in any such Committed Loan Notice, but fails to specify an Interest Period, it will be deemed to have specified an Interest Period of one month.
+⟦s000969⟧ (c) Following receipt of a Committed Loan Notice, the Agent shall notify each Lender of the amount of its Applicable Percentage of the Loans, and if no timely notice of a Conversion or continuation is provided by the Borrower, the Agent shall notify each Lender of the details of any automatic Conversion to Base Rate Loans described in Section 2.
+⟦s000970⟧ 2(b) .
+⟦s000971⟧ In the case of a Borrowing, each Lender shall make the amount of its Loan available to the Agent in immediately available funds at the Agent’s Office not later than 1:00 p.m.
+⟦s000972⟧ on the Business Day specified in the applicable Committed Loan Notice.
+⟦s000973⟧ Upon satisfaction of the applicable conditions set forth in Section 4.
+⟦s000974⟧ 1 , the Agent shall make all funds so received available to the Borrower in like funds as received by the Agent either by (i) crediting the account of the Borrower on the books of the Agent with the amount of such funds or (ii) wire transferring such funds, in each case in accordance with instructions provided to (and reasonably acceptable to) the Agent by the Borrower.
+⟦s000975⟧ (d) [Reserved].
+⟦s000976⟧ (e) Except as otherwise provided herein, a SOFR Loan may be continued or Converted only on the last day of an Interest Period for such SOFR Loan.
+⟦s000977⟧ During the existence of a Default or an Event of Default, no Loans may be requested as, Converted to or continued as SOFR Loans without the consent of the Required Lenders.
+⟦s000978⟧ (f) The Agent shall promptly notify the Borrower and the Lenders of the interest rate applicable to any Interest Period for SOFR Loans upon determination of such interest rate.
+⟦s000979⟧ At any time that Base Rate Loans are outstanding, the Agent shall notify the Borrower and the Lenders of any change
+⟦s000980⟧ - 54 -
+⟦s000981⟧ in the Prime Rate used in determining the Base Rate promptly following the public announcement of such change.
+⟦s000982⟧ (g) After giving effect to all Borrowings, all Conversions of Loans from one Type to the other, and all continuations of Loans as the same Type, there shall not be more than six (6) Interest Periods in effect with respect to SOFR Loans.
+⟦s000983⟧ 2.
+⟦s000984⟧ 3 [Reserved] .
+⟦s000985⟧ 2.
+⟦s000986⟧ 4 [Reserved] .
+⟦s000987⟧ 2.
+⟦s000988⟧ 5 Prepayments .
+⟦s000989⟧ (a) Optional Prepayments .
+⟦s000990⟧ (i) the Borrower may, upon irrevocable notice from the Borrower to the Agent, at any time or from time to time voluntarily prepay any Borrowing of any Loans in whole or in part subject to the payment of the Applicable Prepayment Premium; provided that (i) such notice must be received by the Agent not later than 12:00 p.m.
+⟦s000991⟧ three Business Days prior to any date of prepayment of any Loans; and (ii)(A) any prepayment of SOFR Loans shall be in a principal amount of $5,000,000 or a whole multiple of $1,000,000 in excess thereof and (B) any prepayment of Base Rate Loans shall be in a principal amount of $500,000 or a whole multiple of $100,000 in excess thereof, or, in each case, if less, the entire principal amount thereof then outstanding.
+⟦s000992⟧ Each such notice shall specify the date and amount of such prepayment and the Type(s) of Loans to be prepaid and, if SOFR Loans, the Interest Period(s) of such Loans.
+⟦s000993⟧ The Agent will promptly notify each Lender of its receipt of each such notice, and of the amount of such Lender’s Applicable Percentage of such prepayment.
+⟦s000994⟧ If such notice is given by the Borrower, the Borrower shall make such prepayment and the payment amount specified in such notice shall be due and payable on the date specified therein (except that any such notice may be conditioned on the receipt of net proceeds from any refinancing indebtedness or the consummation of a Change of Control that results in a refinancing and payment in full of the Obligations).
+⟦s000995⟧ Any prepayment of the Loan shall be accompanied by all accrued interest on the amount prepaid plus the Applicable Prepayment Premium, together with any additional amounts required pursuant to Section 3.
+⟦s000996⟧ 5 .
+⟦s000997⟧ Each such prepayment shall be applied to the principal installments of the Loans as directed by the Borrower (it being understood and agreed that if the Borrower does not so direct at the time of such prepayment, such prepayment shall be applied against the scheduled repayments of Loans under Section 2.
+⟦s000998⟧ 7 in direct order of maturity) and shall be paid to the Lenders in accordance with their respective Applicable Percentages.
+⟦s000999⟧ (b) Mandatory Prepayments .

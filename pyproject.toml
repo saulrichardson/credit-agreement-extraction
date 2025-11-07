@@ -20,10 +20,12 @@ tabulate = ">=0.9"
 requests = ">=2.31"
 fastapi = ">=0.111"
 uvicorn = ">=0.30"
+openai = ">=2.6"
 
 [tool.poetry.group.dev.dependencies]
 black = ">=24.0"
 ruff = ">=0.5"
+pytest = ">=8.0"
 
 [tool.poetry.scripts]
 edgar-pipeline = "edgar_filing_pipeline.cli:main"

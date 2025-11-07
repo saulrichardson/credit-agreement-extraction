@@ -1,0 +1,740 @@
+⟦s000001⟧ The information in this preliminary pricing supplement is not complete and may be changed.
+⟦s000002⟧ This preliminary pricing supplement is not an offer to sell nor does it seek an offer to buy these securities in any jurisdiction where the offer or sale is not permitted.
+⟦s000003⟧ Subject to completion dated January 2, 2020
+⟦t01r01c01⟧ January    , 2020 | January    , 2020: January , 2020
+⟦t01r01c02⟧ January    , 2020 | Registration Statement
+ Nos. 333-222672 and 333-222672-01; Rule 424(b)(2): Registration Statement Nos. 333-222672 and 333-222672-01; Rule 424(b)(2)
+⟦s000004⟧ JPMorgan Chase Financial Company LLC Structured Investments Auto Callable Contingent Interest Notes Linked to the Least Performing of the Russell 2000 ® Index, the S&P 500 ® Index and the EURO STOXX 50 ® Index due July 30, 2021 Fully and Unconditionally Guaranteed by JPMorgan Chase & Co. ● The notes are designed for investors who seek a Contingent Interest Payment with respect to each monthly Interest Review Date for which the closing level of each of the Russell 2000 ® Index, the S&P 500 ® Index and the EURO STOXX 50 ® Index, which we refer to as the Indices, is greater than or equal to 70.
+⟦s000005⟧ 00% of its Initial Value, which we refer to as an Interest Barrier.
+⟦s000006⟧ ● The notes will be automatically called if the closing level of each Index on any quarterly Autocall Review Date is greater than or equal to its Initial Value.
+⟦s000007⟧ ● The earliest date on which an automatic call may be initiated is July 28, 2020.
+⟦s000008⟧ ● Investors in the notes should be willing to accept the risk of losing some or all of their principal and the risk that no Contingent Interest Payment may be made with respect to some or all Interest Review Dates.
+⟦s000009⟧ ● Investors should also be willing to forgo fixed interest and dividend payments, in exchange for the opportunity to receive Contingent Interest Payments.
+⟦s000010⟧ ● The notes are unsecured and unsubordinated obligations of JPMorgan Chase Financial Company LLC, which we refer to as JPMorgan Financial, the payment on which is fully and unconditionally guaranteed by JPMorgan Chase & Co. Any payment on the notes is subject to the credit risk of JPMorgan Financial, as issuer of the notes, and the credit risk of JPMorgan Chase & Co., as guarantor of the notes.
+⟦s000011⟧ ● Payments on the notes are not linked to a basket composed of the Indices.
+⟦s000012⟧ Payments on the notes are linked to the performance of each of the Indices individually, as described below.
+⟦s000013⟧ ● Minimum denominations of $1,000 and integral multiples thereof ● The notes are expected to price on or about January 28, 2020 and are expected to settle on or about January 31, 2020.
+⟦s000014⟧ ● CUSIP: 48132HA36
+⟦s000015⟧ Investing in the notes involves a number of risks.
+⟦s000016⟧ See “Risk Factors” beginning on page PS-10 of the accompanying product supplement, “Risk Factors” beginning on page US-1 of the accompanying underlying supplement and “Selected Risk Considerations” beginning on page PS-5 of this pricing supplement.
+⟦s000017⟧ Neither the Securities and Exchange Commission (the “SEC”) nor any state securities commission has approved or disapproved of the notes or passed upon the accuracy or the adequacy of this pricing supplement or the accompanying product supplement, underlying supplement, prospectus supplement and prospectus.
+⟦s000018⟧ Any representation to the contrary is a criminal offense.
+⟦t02r01c02⟧ Price to Public (1): Price to Public (1)
+⟦t02r01c03⟧ Fees and Commissions (2): Fees and Commissions (2)
+⟦t02r01c04⟧ Proceeds to Issuer: Proceeds to Issuer
+⟦t02r02c01⟧ Per note: Per note
+⟦t02r02c02⟧ Per note | Price to Public (1): $1,000
+⟦t02r02c03⟧ Per note | Fees and Commissions (2): $
+⟦t02r02c04⟧ Per note | Proceeds to Issuer: $
+⟦t02r03c01⟧ Total: Total
+⟦t02r03c02⟧ Total | Price to Public (1): $
+⟦t02r03c03⟧ Total | Fees and Commissions (2): $
+⟦t02r03c04⟧ Total | Proceeds to Issuer: $
+⟦t02r04c01⟧ (1) See “Supplemental Use
+ of Proceeds” in this pricing supplement for information about the components of the price to public of the notes. 
+ (2) J.P. Morgan Securities LLC,
+ which we refer to as JPMS, acting as agent for JPMorgan Financial, will pay all of the selling commissions it receives from us
+ to other affiliated or unaffiliated dealers. In no event will these selling commissions exceed $21.25 per $1,000 principal amount
+ note. See “Plan of Distribution (Conflicts of Interest)” in the accompanying product supplement.: (1) See “Supplemental Use of Proceeds” in this pricing supplement for information about the components of the price to public of the notes. (2) J.P. Morgan Securities LLC, which we refer to as JPMS, acting as agent for JPMorgan Financial, will pay all of the selling commissions it receives from us to other affiliated or unaffiliated dealers. In no event will these selling commissions exceed $21.25 per $1,000 principal amount note. See “Plan of Distribution (Conflicts of Interest)” in the accompanying product supplement.
+⟦s000019⟧ If the notes priced today, the estimated value of the notes would be approximately $955.
+⟦s000020⟧ 90 per $1,000 principal amount note.
+⟦s000021⟧ The estimated value of the notes, when the terms of the notes are set, will be provided in the pricing supplement and will not be less than $940.
+⟦s000022⟧ 00 per $1,000 principal amount note.
+⟦s000023⟧ See “The Estimated Value of the Notes” in this pricing supplement for additional information.
+⟦s000024⟧ The notes are not bank deposits, are not insured by the Federal Deposit Insurance Corporation or any other governmental agency and are not obligations of, or guaranteed by, a bank.
+⟦s000025⟧ Pricing supplement to product supplement no. 4-I dated April 5, 2018, underlying supplement no. 1-I dated April 5, 2018 and the prospectus and prospectus supplement, each dated April 5, 2018
+⟦s000026⟧ Field: Page; Sequence: 1
+⟦s000027⟧ Field: /Page
+⟦s000028⟧ Key Terms
+⟦t03r01c01⟧ Issuer: JPMorgan
+ Chase Financial Company LLC, an indirect, wholly owned finance subsidiary of JPMorgan Chase & Co. 
+ Guarantor: JPMorgan
+ Chase & Co. 
+ Indices: The
+ Russell 2000 ® Index
+ (Bloomberg ticker: RTY), the S&P 500 ® Index
+ (Bloomberg ticker: SPX) and the EURO STOXX 50 ® Index
+ (Bloomberg ticker: SX5E) (each an “Index” and collectively, the “Indices”) 
+ Contingent Interest Payments: If
+ the notes have not been automatically called and the closing level of each Index on any Interest Review Date is greater than or
+ equal to its Interest Barrier, you will receive on the applicable Interest Payment Date for each $1,000 principal amount note a
+ Contingent Interest Payment equal to between $5.4167 and $7.0833 (equivalent to a Contingent Interest Rate of between 6.50% and
+ 8.50% per annum, payable at a rate of between 0.54167% and 0.70833% per month) (to be provided in the pricing supplement). 
+ If the closing level of
+ any Index on any Interest Review Date is less than its Interest Barrier, no Contingent Interest Payment will be made with respect
+ to that Interest Review Date. 
+ Contingent Interest Rate: Between
+ 6.50% and 8.50% per annum, payable at a rate of between 0.54167% and 0.70833% per month (to be provided in the pricing supplement) 
+ Interest Barrier/Trigger Value: With
+ respect to each Index, 70.00% of its Initial Value 
+ Pricing Date: On
+ or about January 28, 2020 
+ Original Issue Date (Settlement Date): 
+ On or about January 31, 2020 
+ Interest Review Dates*: February
+ 25, 2020, March 26, 2020, April 27, 2020, May 26, 2020, June 25, 2020, July 28, 2020, August 26, 2020, September 25, 2020, October
+ 27, 2020, November 24, 2020, December 28, 2020, January 26, 2021, February 23, 2021, March 26, 2021, April 27, 2021, May 25, 2021,
+ June 25, 2021 and July 27, 2021 (the “final Review Date”) 
+ 
+ Autocall Review Dates*: July
+ 28, 2020, October 27, 2020, January 26, 2021 and April 27, 2021 
+ Interest Payment Dates*: February
+ 28, 2020, March 31, 2020, April 30, 2020, May 29, 2020, June 30, 2020, July 31, 2020, August 31, 2020, September 30, 2020, October
+ 30, 2020, November 30, 2020, December 31, 2020, January 29, 2021, February 26, 2021, March 31, 2021, April 30, 2021, May 28, 2021,
+ June 30, 2021 and the Maturity Date 
+ Maturity Date*: July
+ 30, 2021 
+ Call Settlement Date*: If
+ the notes are automatically called on any Autocall Review Date, the first Interest Payment Date immediately following that Autocall
+ Review Date 
+ * Subject to postponement in the event of a market disruption
+ event and as described under “General Terms of Notes — Postponement of a Determination Date — Notes Linked to
+ Multiple Underlyings” and “General Terms of Notes — Postponement of a Payment Date” in the accompanying
+ product supplement | Issuer: JPMorgan
+ Chase Financial Company LLC, an indirect, wholly owned finance subsidiary of JPMorgan Chase & Co. 
+ Guarantor: JPMorgan
+ Chase & Co. 
+ Indices: The
+ Russell 2000 ® Index
+ (Bloomberg ticker: RTY), the S&P 500 ® Index
+ (Bloomberg ticker: SPX) and the EURO STOXX 50 ® Index
+ (Bloomberg ticker: SX5E) (each an “Index” and collectively, the “Indices”) 
+ Contingent Interest Payments: If
+ the notes have not been automatically called and the closing level of each Index on any Interest Review Date is greater than or
+ equal to its Interest Barrier, you will receive on the applicable Interest Payment Date for each $1,000 principal amount note a
+ Contingent Interest Payment equal to between $5.4167 and $7.0833 (equivalent to a Contingent Interest Rate of between 6.50% and
+ 8.50% per annum, payable at a rate of between 0.54167% and 0.70833% per month) (to be provided in the pricing supplement). 
+ If the closing level of
+ any Index on any Interest Review Date is less than its Interest Barrier, no Contingent Interest Payment will be made with respect
+ to that Interest Review Date. 
+ Contingent Interest Rate: Between
+ 6.50% and 8.50% per annum, payable at a rate of between 0.54167% and 0.70833% per month (to be provided in the pricing supplement) 
+ Interest Barrier/Trigger Value: With
+ respect to each Index, 70.00% of its Initial Value 
+ Pricing Date: On
+ or about January 28, 2020 
+ Original Issue Date (Settlement Date): 
+ On or about January 31, 2020 
+ Interest Review Dates*: February
+ 25, 2020, March 26, 2020, April 27, 2020, May 26, 2020, June 25, 2020, July 28, 2020, August 26, 2020, September 25, 2020, October
+ 27, 2020, November 24, 2020, December 28, 2020, January 26, 2021, February 23, 2021, March 26, 2021, April 27, 2021, May 25, 2021,
+ June 25, 2021 and July 27, 2021 (the “final Review Date”) 
+ 
+ Autocall Review Dates*: July
+ 28, 2020, October 27, 2020, January 26, 2021 and April 27, 2021 
+ Interest Payment Dates*: February
+ 28, 2020, March 31, 2020, April 30, 2020, May 29, 2020, June 30, 2020, July 31, 2020, August 31, 2020, September 30, 2020, October
+ 30, 2020, November 30, 2020, December 31, 2020, January 29, 2021, February 26, 2021, March 31, 2021, April 30, 2021, May 28, 2021,
+ June 30, 2021 and the Maturity Date 
+ Maturity Date*: July
+ 30, 2021 
+ Call Settlement Date*: If
+ the notes are automatically called on any Autocall Review Date, the first Interest Payment Date immediately following that Autocall
+ Review Date 
+ * Subject to postponement in the event of a market disruption
+ event and as described under “General Terms of Notes — Postponement of a Determination Date — Notes Linked to
+ Multiple Underlyings” and “General Terms of Notes — Postponement of a Payment Date” in the accompanying
+ product supplement: Issuer: JPMorgan Chase Financial Company LLC, an indirect, wholly owned finance subsidiary of JPMorgan Chase & Co. Guarantor: JPMorgan Chase & Co. Indices: The Russell 2000 ® Index (Bloomberg ticker: RTY), the S&P 500 ® Index (Bloomberg ticker: SPX) and the EURO STOXX 50 ® Index (Bloomberg ticker: SX5E) (each an “Index” and collectively, the “Indices”) Contingent Interest Payments: If the notes have not been automatically called and the closing level of each Index on any Interest Review Date is greater than or equal to its Interest Barrier, you will receive on the applicable Interest Payment Date for each $1,000 principal amount note a Contingent Interest Payment equal to between $5.4167 and $7.0833 (equivalent to a Contingent Interest Rate of between 6.50% and 8.50% per annum, payable at a rate of between 0.54167% and 0.70833% per month) (to be provided in the pricing supplement). If the closing level of any Index on any Interest Review Date is less than its Interest Barrier, no Contingent Interest Payment will be made with respect to that Interest Review Date. Contingent Interest Rate: Between 6.50% and 8.50% per annum, payable at a rate of between 0.54167% and 0.70833% per month (to be provided in the pricing supplement) Interest Barrier/Trigger Value: With respect to each Index, 70.00% of its Initial Value Pricing Date: On or about January 28, 2020 Original Issue Date (Settlement Date): On or about January 31, 2020 Interest Review Dates*: February 25, 2020, March 26, 2020, April 27, 2020, May 26, 2020, June 25, 2020, July 28, 2020, August 26, 2020, September 25, 2020, October 27, 2020, November 24, 2020, December 28, 2020, January 26, 2021, February 23, 2021, March 26, 2021, April 27, 2021, May 25, 2021, June 25, 2021 and July 27, 2021 (the “final Review Date”) Autocall Review Dates*: July 28, 2020, October 27, 2020, January 26, 2021 and April 27, 2021 Interest Payment Dates*: February 28, 2020, March 31, 2020, April 30, 2020, May 29, 2020, June 30, 2020, July 31, 2020, August 31, 2020, September 30, 2020, October 30, 2020, November 30, 2020, December 31, 2020, January 29, 2021, February 26, 2021, March 31, 2021, April 30, 2021, May 28, 2021, June 30, 2021 and the Maturity Date Maturity Date*: July 30, 2021 Call Settlement Date*: If the notes are automatically called on any Autocall Review Date, the first Interest Payment Date immediately following that Autocall Review Date * Subject to postponement in the event of a market disruption event and as described under “General Terms of Notes — Postponement of a Determination Date — Notes Linked to Multiple Underlyings” and “General Terms of Notes — Postponement of a Payment Date” in the accompanying product supplement
+⟦t03r01c03⟧ Issuer: JPMorgan
+ Chase Financial Company LLC, an indirect, wholly owned finance subsidiary of JPMorgan Chase & Co. 
+ Guarantor: JPMorgan
+ Chase & Co. 
+ Indices: The
+ Russell 2000 ® Index
+ (Bloomberg ticker: RTY), the S&P 500 ® Index
+ (Bloomberg ticker: SPX) and the EURO STOXX 50 ® Index
+ (Bloomberg ticker: SX5E) (each an “Index” and collectively, the “Indices”) 
+ Contingent Interest Payments: If
+ the notes have not been automatically called and the closing level of each Index on any Interest Review Date is greater than or
+ equal to its Interest Barrier, you will receive on the applicable Interest Payment Date for each $1,000 principal amount note a
+ Contingent Interest Payment equal to between $5.4167 and $7.0833 (equivalent to a Contingent Interest Rate of between 6.50% and
+ 8.50% per annum, payable at a rate of between 0.54167% and 0.70833% per month) (to be provided in the pricing supplement). 
+ If the closing level of
+ any Index on any Interest Review Date is less than its Interest Barrier, no Contingent Interest Payment will be made with respect
+ to that Interest Review Date. 
+ Contingent Interest Rate: Between
+ 6.50% and 8.50% per annum, payable at a rate of between 0.54167% and 0.70833% per month (to be provided in the pricing supplement) 
+ Interest Barrier/Trigger Value: With
+ respect to each Index, 70.00% of its Initial Value 
+ Pricing Date: On
+ or about January 28, 2020 
+ Original Issue Date (Settlement Date): 
+ On or about January 31, 2020 
+ Interest Review Dates*: February
+ 25, 2020, March 26, 2020, April 27, 2020, May 26, 2020, June 25, 2020, July 28, 2020, August 26, 2020, September 25, 2020, October
+ 27, 2020, November 24, 2020, December 28, 2020, January 26, 2021, February 23, 2021, March 26, 2021, April 27, 2021, May 25, 2021,
+ June 25, 2021 and July 27, 2021 (the “final Review Date”) 
+ 
+ Autocall Review Dates*: July
+ 28, 2020, October 27, 2020, January 26, 2021 and April 27, 2021 
+ Interest Payment Dates*: February
+ 28, 2020, March 31, 2020, April 30, 2020, May 29, 2020, June 30, 2020, July 31, 2020, August 31, 2020, September 30, 2020, October
+ 30, 2020, November 30, 2020, December 31, 2020, January 29, 2021, February 26, 2021, March 31, 2021, April 30, 2021, May 28, 2021,
+ June 30, 2021 and the Maturity Date 
+ Maturity Date*: July
+ 30, 2021 
+ Call Settlement Date*: If
+ the notes are automatically called on any Autocall Review Date, the first Interest Payment Date immediately following that Autocall
+ Review Date 
+ * Subject to postponement in the event of a market disruption
+ event and as described under “General Terms of Notes — Postponement of a Determination Date — Notes Linked to
+ Multiple Underlyings” and “General Terms of Notes — Postponement of a Payment Date” in the accompanying
+ product supplement | Least Performing Index: The
+ Index with the Least Performing Index Return 
+ Least Performing Index Return: The
+ lowest of the Index Returns of the Indices 
+ Index Return: With
+ respect to each Index, 
+ (Final
+ Value – Initial Value) 
+ Initial Value 
+ Initial Value: With
+ respect to each Index , the closing level of that Index on the Pricing Date 
+ Final Value: With
+ respect to each Index , the closing level of that Index on the final Review Date 
+ Trigger Event: A
+ Trigger Event occurs if, on any day during the Monitoring Period, the closing level of any Index is less than its Trigger Value 
+ Monitoring Period: The
+ period from but excluding the Pricing Date to and including the final Review Date 
+ Automatic Call: If
+ the closing level of each Index on any Autocall Review Date is greater than or equal to its Initial Value, the notes will be automatically
+ called for a cash payment, for each $1,000 principal amount note, equal to (a) $1,000 plus (b) the Contingent Interest Payment
+ applicable to the Interest Review Date corresponding to that Autocall Review Date, payable on the applicable Call Settlement Date.
+ No further payments will be made on the notes. 
+ Payment at Maturity: 
+ If the
+ notes have not been automatically called and (i) the Final Value of each Index is greater than or equal to its Initial Value or
+ (ii) a Trigger Event has not occurred, you will receive a cash payment at maturity, for each $1,000 principal amount note, equal
+ to (a) $1,000 plus (b) the Contingent Interest Payment applicable to the final Review Date. 
+ If the
+ notes have not been automatically called and (i) the Final Value of any Index is less than its Initial Value and (ii) a Trigger
+ Event has occurred, your payment at maturity per $1,000 principal amount note, in addition to any Contingent Interest Payment,
+ will be calculated as follows: 
+ $1,000
+ + ($1,000 × Least Performing Index Return) 
+ If the notes have not been
+ automatically called and (i) the Final Value of any Index is less than its Initial Value and (ii) a Trigger Event has occurred,
+ you will lose some or all of your principal amount at maturity.: Least Performing Index: The Index with the Least Performing Index Return Least Performing Index Return: The lowest of the Index Returns of the Indices Index Return: With respect to each Index, (Final Value – Initial Value) Initial Value Initial Value: With respect to each Index , the closing level of that Index on the Pricing Date Final Value: With respect to each Index , the closing level of that Index on the final Review Date Trigger Event: A Trigger Event occurs if, on any day during the Monitoring Period, the closing level of any Index is less than its Trigger Value Monitoring Period: The period from but excluding the Pricing Date to and including the final Review Date Automatic Call: If the closing level of each Index on any Autocall Review Date is greater than or equal to its Initial Value, the notes will be automatically called for a cash payment, for each $1,000 principal amount note, equal to (a) $1,000 plus (b) the Contingent Interest Payment applicable to the Interest Review Date corresponding to that Autocall Review Date, payable on the applicable Call Settlement Date. No further payments will be made on the notes. Payment at Maturity: If the notes have not been automatically called and (i) the Final Value of each Index is greater than or equal to its Initial Value or (ii) a Trigger Event has not occurred, you will receive a cash payment at maturity, for each $1,000 principal amount note, equal to (a) $1,000 plus (b) the Contingent Interest Payment applicable to the final Review Date. If the notes have not been automatically called and (i) the Final Value of any Index is less than its Initial Value and (ii) a Trigger Event has occurred, your payment at maturity per $1,000 principal amount note, in addition to any Contingent Interest Payment, will be calculated as follows: $1,000 + ($1,000 × Least Performing Index Return) If the notes have not been automatically called and (i) the Final Value of any Index is less than its Initial Value and (ii) a Trigger Event has occurred, you will lose some or all of your principal amount at maturity.
+⟦s000029⟧ Field: Page; Sequence: 2
+⟦s000030⟧ PS-1| Structured Investments Auto Callable Contingent Interest Notes Linked to the Least Performing of the Russell 2000 ® Index, the S&P 500 ® Index and the EURO STOXX 50 ® Index
+⟦s000031⟧ Field: /Page
+⟦s000032⟧ How the Notes Work
+⟦s000033⟧ Payments in Connection with Interest Review Dates Preceding the Final Review Date
+⟦s000034⟧ Payment at Maturity If the Notes Have Not Been Automatically Called
+⟦s000035⟧ Field: Page; Sequence: 3
+⟦s000036⟧ PS-2| Structured Investments Auto Callable Contingent Interest Notes Linked to the Least Performing of the Russell 2000 ® Index, the S&P 500 ® Index and the EURO STOXX 50 ® Index
+⟦s000037⟧ Field: /Page
+⟦s000038⟧ Total Contingent Interest Payments
+⟦s000039⟧ The table below illustrates the hypothetical total Contingent Interest Payments per $1,000 principal amount note over the term of the notes based on a hypothetical Contingent Interest Rate of 6.
+⟦s000040⟧ 50% per annum, depending on how many Contingent Interest Payments are made prior to automatic call or maturity.
+⟦s000041⟧ The actual Contingent Interest Rate will be provided in the pricing supplement and will be between 6.
+⟦s000042⟧ 50% and 8.
+⟦s000043⟧ 50% per annum.
+⟦t04r01c01⟧ Number of Contingent Interest Payments | Number of Contingent Interest Payments: Number of Contingent Interest Payments
+⟦t04r01c02⟧ Number of Contingent Interest Payments | Total Contingent Interest Payments: Total Contingent Interest Payments
+⟦t04r02c01⟧ 18 | Number of Contingent Interest Payments: 18
+⟦t04r02c02⟧ 18 | Total Contingent Interest Payments: $97.5000
+⟦t04r03c01⟧ 17 | Number of Contingent Interest Payments: 17
+⟦t04r03c02⟧ 17 | Total Contingent Interest Payments: $92.0833
+⟦t04r04c01⟧ 16 | Number of Contingent Interest Payments: 16
+⟦t04r04c02⟧ 16 | Total Contingent Interest Payments: $86.6667
+⟦t04r05c01⟧ 15 | Number of Contingent Interest Payments: 15
+⟦t04r05c02⟧ 15 | Total Contingent Interest Payments: $81.2500
+⟦t04r06c01⟧ 14 | Number of Contingent Interest Payments: 14
+⟦t04r06c02⟧ 14 | Total Contingent Interest Payments: $75.8333
+⟦t04r07c01⟧ 13 | Number of Contingent Interest Payments: 13
+⟦t04r07c02⟧ 13 | Total Contingent Interest Payments: $70.4167
+⟦t04r08c01⟧ 12 | Number of Contingent Interest Payments: 12
+⟦t04r08c02⟧ 12 | Total Contingent Interest Payments: $65.0000
+⟦t04r09c01⟧ 11 | Number of Contingent Interest Payments: 11
+⟦t04r09c02⟧ 11 | Total Contingent Interest Payments: $59.5833
+⟦t04r10c01⟧ 10 | Number of Contingent Interest Payments: 10
+⟦t04r10c02⟧ 10 | Total Contingent Interest Payments: $54.1667
+⟦t04r11c01⟧ 9 | Number of Contingent Interest Payments: 9
+⟦t04r11c02⟧ 9 | Total Contingent Interest Payments: $48.7500
+⟦t04r12c01⟧ 8 | Number of Contingent Interest Payments: 8
+⟦t04r12c02⟧ 8 | Total Contingent Interest Payments: $43.3333
+⟦t04r13c01⟧ 7 | Number of Contingent Interest Payments: 7
+⟦t04r13c02⟧ 7 | Total Contingent Interest Payments: $37.9167
+⟦t04r14c01⟧ 6 | Number of Contingent Interest Payments: 6
+⟦t04r14c02⟧ 6 | Total Contingent Interest Payments: $32.5000
+⟦t04r15c01⟧ 5 | Number of Contingent Interest Payments: 5
+⟦t04r15c02⟧ 5 | Total Contingent Interest Payments: $27.0833
+⟦t04r16c01⟧ 4 | Number of Contingent Interest Payments: 4
+⟦t04r16c02⟧ 4 | Total Contingent Interest Payments: $21.6667
+⟦t04r17c01⟧ 3 | Number of Contingent Interest Payments: 3
+⟦t04r17c02⟧ 3 | Total Contingent Interest Payments: $16.2500
+⟦t04r18c01⟧ 2 | Number of Contingent Interest Payments: 2
+⟦t04r18c02⟧ 2 | Total Contingent Interest Payments: $10.8333
+⟦t04r19c01⟧ 1 | Number of Contingent Interest Payments: 1
+⟦t04r19c02⟧ 1 | Total Contingent Interest Payments: $5.4167
+⟦t04r20c01⟧ 0 | Number of Contingent Interest Payments: 0
+⟦t04r20c02⟧ 0 | Total Contingent Interest Payments: $0.0000
+⟦s000044⟧ Hypothetical Payout Examples
+⟦s000045⟧ The following examples illustrate payments on the notes linked to three hypothetical Indices, assuming a range of performances for the hypothetical Least Performing Index on the Interest Review Dates and the Autocall Review Dates.
+⟦s000046⟧ Each hypothetical payment set forth below assumes that the closing level of each Index that is not the Least Performing Index on (i) each Autocall Review Date is greater than or equal to its Initial Value and (ii) on each Interest Review Date is greater than or equal to its Interest Barrier (and therefore its Trigger Value).
+⟦s000047⟧ In addition, the hypothetical payments set forth below assume the following:
+⟦t05r01c02⟧ ●: ●
+⟦t05r01c03⟧ an Initial Value for the Least Performing Index of 100.00;: an Initial Value for the Least Performing Index of 100.00;
+⟦t06r01c02⟧ ●: ●
+⟦t06r01c03⟧ an Interest Barrier and a Trigger Value for the Least Performing Index of 70.00 (equal to 70.00% of its hypothetical Initial
+Value); and: an Interest Barrier and a Trigger Value for the Least Performing Index of 70.00 (equal to 70.00% of its hypothetical Initial Value); and
+⟦t07r01c02⟧ ●: ●
+⟦t07r01c03⟧ a Contingent Interest Rate of 6.50% per annum (payable at a rate of 0.54167% per month).: a Contingent Interest Rate of 6.50% per annum (payable at a rate of 0.54167% per month).
+⟦s000048⟧ The hypothetical Initial Value of the Least Performing Index of 100.
+⟦s000049⟧ 00 has been chosen for illustrative purposes only and may not represent a likely actual Initial Value of any Index.
+⟦s000050⟧ The actual Initial Value of each Index will be the closing level of that Index on the Pricing Date and will be provided in the pricing supplement.
+⟦s000051⟧ For historical data regarding the actual closing levels of each Index , please see the historical information set forth under “The Indices” in this pricing supplement.
+⟦s000052⟧ Each hypothetical payment set forth below is for illustrative purposes only and may not be the actual payment applicable to a purchaser of the notes.
+⟦s000053⟧ The numbers appearing in the following examples have been rounded for ease of analysis.
+⟦s000054⟧ Field: Page; Sequence: 4
+⟦s000055⟧ PS-3| Structured Investments Auto Callable Contingent Interest Notes Linked to the Least Performing of the Russell 2000 ® Index, the S&P 500 ® Index and the EURO STOXX 50 ® Index
+⟦s000056⟧ Field: /Page
+⟦s000057⟧ Example 1 — Notes are automatically called on the first Autocall Review Date.
+⟦t08r01c01⟧ Date | Date: Date
+⟦t08r01c02⟧ Date | Closing Level of Least Performing Index: Closing Level of Least Performing Index
+⟦t08r01c03⟧ Date | Payment (per $1,000 principal amount note): Payment (per $1,000 principal amount note)
+⟦t08r02c01⟧ First Interest Review Date | Date: First Interest Review Date
+⟦t08r02c02⟧ First Interest Review Date | Closing Level of Least Performing Index: 105.00
+⟦t08r02c03⟧ First Interest Review Date | Payment (per $1,000 principal amount note): $5.4167
+⟦t08r03c01⟧ Second Interest Review Date | Date: Second Interest Review Date
+⟦t08r03c02⟧ Second Interest Review Date | Closing Level of Least Performing Index: 110.00
+⟦t08r03c03⟧ Second Interest Review Date | Payment (per $1,000 principal amount note): $5.4167
+⟦t08r04c01⟧ Third through Fifth Interest Review Dates | Date: Third through Fifth Interest Review Dates
+⟦t08r04c02⟧ Third through Fifth Interest Review Dates | Closing Level of Least Performing Index: Greater than Interest Barrier
+⟦t08r04c03⟧ Third through Fifth Interest Review Dates | Payment (per $1,000 principal amount note): $5.4167
+⟦t08r05c01⟧ Sixth Interest Review Date (first Autocall Review Date) | Date: Sixth Interest Review Date (first Autocall Review Date)
+⟦t08r05c02⟧ Sixth Interest Review Date (first Autocall Review Date) | Closing Level of Least Performing Index: 110.00
+⟦t08r05c03⟧ Sixth Interest Review Date (first Autocall Review Date) | Payment (per $1,000 principal amount note): $1,005.4167
+⟦t08r06c02⟧ Closing Level of Least Performing Index: Total Payment
+⟦t08r06c03⟧ Payment (per $1,000 principal amount note): $1,032.50 (3.25% return)
+⟦s000058⟧ Because the closing level of each Index on the first Autocall Review Date, which is also the sixth Interest Review Date, is greater than or equal to its Initial Value, the notes will be automatically called for a cash payment, for each $1,000 principal amount note, of $1,005.
+⟦s000059⟧ 4167 (or $1,000 plus the Contingent Interest Payment applicable to the sixth Interest Review Date), payable on the applicable Call Settlement Date.
+⟦s000060⟧ When added to the Contingent Interest Payments received with respect to the prior Interest Review Dates, the total amount paid, for each $1,000 principal amount note, is $1,032.
+⟦s000061⟧ 50.
+⟦s000062⟧ No further payments will be made on the notes.
+⟦s000063⟧ Example 2 — Notes have NOT been automatically called, the Final Value of the Least Performing Index is greater than or equal to its Initial Value and a Trigger Event has occurred.
+⟦t09r01c01⟧ Date | Date: Date
+⟦t09r01c02⟧ Date | Closing Level of Least Performing Index: Closing Level of Least Performing Index
+⟦t09r01c03⟧ Date | Payment (per $1,000 principal amount note): Payment (per $1,000 principal amount note)
+⟦t09r02c01⟧ First Interest Review Date | Date: First Interest Review Date
+⟦t09r02c02⟧ First Interest Review Date | Closing Level of Least Performing Index: 95.00
+⟦t09r02c03⟧ First Interest Review Date | Payment (per $1,000 principal amount note): $5.4167
+⟦t09r03c01⟧ Second Interest Review Date | Date: Second Interest Review Date
+⟦t09r03c02⟧ Second Interest Review Date | Closing Level of Least Performing Index: 85.00
+⟦t09r03c03⟧ Second Interest Review Date | Payment (per $1,000 principal amount note): $5.4167
+⟦t09r04c01⟧ Third through Seventeenth Interest Review Dates | Date: Third through Seventeenth Interest Review Dates
+⟦t09r04c02⟧ Third through Seventeenth Interest Review Dates | Closing Level of Least Performing Index: Less than Interest Barrier
+⟦t09r04c03⟧ Third through Seventeenth Interest Review Dates | Payment (per $1,000 principal amount note): $0
+⟦t09r05c01⟧ Final Review Date | Date: Final Review Date
+⟦t09r05c02⟧ Final Review Date | Closing Level of Least Performing Index: 105.00
+⟦t09r05c03⟧ Final Review Date | Payment (per $1,000 principal amount note): $1,005.4167
+⟦t09r06c02⟧ Closing Level of Least Performing Index: Total Payment
+⟦t09r06c03⟧ Payment (per $1,000 principal amount note): $1,016.25 (1.625% return)
+⟦s000064⟧ Because the notes have not been automatically called and the Final Value of the Least Performing Index is greater than or equal to its Initial Value (and, therefore, its Interest Barrier), even though a Trigger Event has occurred, the payment at maturity, for each $1,000 principal amount note, will be $1,005.
+⟦s000065⟧ 4167 (or $1,000 plus the Contingent Interest Payment applicable to the final Review Date).
+⟦s000066⟧ When added to the Contingent Interest Payments received with respect to the prior Interest Review Dates, the total amount paid, for each $1,000 principal amount note, is $1,016.
+⟦s000067⟧ 25.
+⟦s000068⟧ Field: Page; Sequence: 5
+⟦s000069⟧ PS-4| Structured Investments Auto Callable Contingent Interest Notes Linked to the Least Performing of the Russell 2000 ® Index, the S&P 500 ® Index and the EURO STOXX 50 ® Index
+⟦s000070⟧ Field: /Page
+⟦s000071⟧ Example 3 — Notes have NOT been automatically called, the Final Value of the Least Performing Index is less than its Initial Value and a Trigger Event has NOT occurred.
+⟦t10r01c01⟧ Date | Date: Date
+⟦t10r01c02⟧ Date | Closing Level of Least Performing Index: Closing Level of Least Performing Index
+⟦t10r01c03⟧ Date | Payment (per $1,000 principal amount note): Payment (per $1,000 principal amount note)
+⟦t10r02c01⟧ First Interest Review Date | Date: First Interest Review Date
+⟦t10r02c02⟧ First Interest Review Date | Closing Level of Least Performing Index: 95.00
+⟦t10r02c03⟧ First Interest Review Date | Payment (per $1,000 principal amount note): $5.4167
+⟦t10r03c01⟧ Second Interest Review Date | Date: Second Interest Review Date
+⟦t10r03c02⟧ Second Interest Review Date | Closing Level of Least Performing Index: 95.00
+⟦t10r03c03⟧ Second Interest Review Date | Payment (per $1,000 principal amount note): $5.4167
+⟦t10r04c01⟧ Third through Seventeenth Interest Review Dates | Date: Third through Seventeenth Interest Review Dates
+⟦t10r04c02⟧ Third through Seventeenth Interest Review Dates | Closing Level of Least Performing Index: Greater than Interest Barrier
+⟦t10r04c03⟧ Third through Seventeenth Interest Review Dates | Payment (per $1,000 principal amount note): $5.4167
+⟦t10r05c01⟧ Final Review Date | Date: Final Review Date
+⟦t10r05c02⟧ Final Review Date | Closing Level of Least Performing Index: 70.00
+⟦t10r05c03⟧ Final Review Date | Payment (per $1,000 principal amount note): $1,005.4167
+⟦t10r06c02⟧ Closing Level of Least Performing Index: Total Payment
+⟦t10r06c03⟧ Payment (per $1,000 principal amount note): $1,097.50 (9.75% return)
+⟦s000072⟧ Because the notes have not been automatically called, the Final Value of the Least Performing Index is greater than or equal to its Interest Barrier and a Trigger Event has not occurred, even though the Final Value of the Least Performing Index is less than its Initial Value, the payment at maturity, for each $1,000 principal amount note, will be $1,005.
+⟦s000073⟧ 4167 (or $1,000 plus the Contingent Interest Payment applicable to the final Review Date).
+⟦s000074⟧ When added to the Contingent Interest Payments received with respect to the prior Interest Review Dates, the total amount paid, for each $1,000 principal amount note, is $1,097.
+⟦s000075⟧ 50.
+⟦s000076⟧ Example 4 — Notes have NOT been automatically called, the Final Value of the Least Performing Index is less than its Initial Value and its Interest Barrier and a Trigger Event has occurred.
+⟦t11r01c01⟧ Date | Date: Date
+⟦t11r01c02⟧ Date | Closing Level of Least Performing Index: Closing Level of Least Performing Index
+⟦t11r01c03⟧ Date | Payment (per $1,000 principal amount note): Payment (per $1,000 principal amount note)
+⟦t11r02c01⟧ First Interest Review Date | Date: First Interest Review Date
+⟦t11r02c02⟧ First Interest Review Date | Closing Level of Least Performing Index: 40.00
+⟦t11r02c03⟧ First Interest Review Date | Payment (per $1,000 principal amount note): $0
+⟦t11r03c01⟧ Second Interest Review Date | Date: Second Interest Review Date
+⟦t11r03c02⟧ Second Interest Review Date | Closing Level of Least Performing Index: 45.00
+⟦t11r03c03⟧ Second Interest Review Date | Payment (per $1,000 principal amount note): $0
+⟦t11r04c01⟧ Third through Seventeenth Interest Review Dates | Date: Third through Seventeenth Interest Review Dates
+⟦t11r04c02⟧ Third through Seventeenth Interest Review Dates | Closing Level of Least Performing Index: Less than Interest Barrier
+⟦t11r04c03⟧ Third through Seventeenth Interest Review Dates | Payment (per $1,000 principal amount note): $0
+⟦t11r05c01⟧ Final Review Date | Date: Final Review Date
+⟦t11r05c02⟧ Final Review Date | Closing Level of Least Performing Index: 60.00
+⟦t11r05c03⟧ Final Review Date | Payment (per $1,000 principal amount note): $600.00
+⟦t11r06c02⟧ Closing Level of Least Performing Index: Total Payment
+⟦t11r06c03⟧ Payment (per $1,000 principal amount note): $600.00 (-40.00% return)
+⟦s000077⟧ Because the notes have not been automatically called, the Final Value of the Least Performing Index is less than its Initial Value and its Interest Barrier, a Trigger Event has occurred and the Least Performing Index Return is -40.
+⟦s000078⟧ 00%, the payment at maturity will be $600.
+⟦s000079⟧ 00 per $1,000 principal amount note, calculated as follows:
+⟦s000080⟧ $1,000 + [$1,000 × (-40.
+⟦s000081⟧ 00%)] = $600.
+⟦s000082⟧ 00
+⟦s000083⟧ The hypothetical returns and hypothetical payments on the notes shown above apply only if you hold the notes for their entire term or until automatically called.
+⟦s000084⟧ These hypotheticals do not reflect the fees or expenses that would be associated with any sale in the secondary market.
+⟦s000085⟧ If these fees and expenses were included, the hypothetical returns and hypothetical payments shown above would likely be lower.
+⟦s000086⟧ Selected Risk Considerations
+⟦s000087⟧ An investment in the notes involves significant risks.
+⟦s000088⟧ These risks are explained in more detail in the “Risk Factors” sections of the accompanying product supplement and underlying supplement.
+⟦t12r01c02⟧ ●: ●
+⟦t12r01c03⟧ YOUR INVESTMENT IN THE NOTES MAY RESULT IN A LOSS — 
+The notes do not guarantee any return of principal. If the notes have not been automatically called and (i) the Final Value of
+any Index is less than its Initial Value and (ii) a Trigger Event has occurred, you will lose 1% of the principal amount of your
+notes for every 1% that the Final Value of the Least Performing Index is less than its Initial Value. Accordingly, under these
+circumstances, you will lose some or all of your principal amount at maturity.: YOUR INVESTMENT IN THE NOTES MAY RESULT IN A LOSS — The notes do not guarantee any return of principal. If the notes have not been automatically called and (i) the Final Value of any Index is less than its Initial Value and (ii) a Trigger Event has occurred, you will lose 1% of the principal amount of your notes for every 1% that the Final Value of the Least Performing Index is less than its Initial Value. Accordingly, under these circumstances, you will lose some or all of your principal amount at maturity.
+⟦t13r01c02⟧ ●: ●
+⟦t13r01c03⟧ THE NOTES DO NOT GUARANTEE THE PAYMENT OF INTEREST AND MAY NOT PAY ANY INTEREST AT ALL — 
+If the notes have not been automatically called, we will make a Contingent Interest Payment with respect to an Interest Review
+Date only if the closing level of each Index on that Interest Review Date is greater than or equal to its Interest Barrier. If
+the closing level of any Index on that Interest Review Date is less than its Interest Barrier, no Contingent Interest Payment will
+be made with respect to that Interest Review Date. Accordingly, if the closing level of any Index on each Interest Review Date
+is less than its Interest Barrier, you will not receive any interest payments over the term of the notes.: THE NOTES DO NOT GUARANTEE THE PAYMENT OF INTEREST AND MAY NOT PAY ANY INTEREST AT ALL — If the notes have not been automatically called, we will make a Contingent Interest Payment with respect to an Interest Review Date only if the closing level of each Index on that Interest Review Date is greater than or equal to its Interest Barrier. If the closing level of any Index on that Interest Review Date is less than its Interest Barrier, no Contingent Interest Payment will be made with respect to that Interest Review Date. Accordingly, if the closing level of any Index on each Interest Review Date is less than its Interest Barrier, you will not receive any interest payments over the term of the notes.
+⟦s000089⟧ Field: Page; Sequence: 6
+⟦s000090⟧ PS-5| Structured Investments Auto Callable Contingent Interest Notes Linked to the Least Performing of the Russell 2000 ® Index, the S&P 500 ® Index and the EURO STOXX 50 ® Index
+⟦s000091⟧ Field: /Page
+⟦t14r01c02⟧ ●: ●
+⟦t14r01c03⟧ CREDIT RISKS OF JPMORGAN FINANCIAL AND JPMORGAN CHASE & CO. — 
+Investors are dependent on our and JPMorgan Chase & Co.’s ability to pay all amounts due on the notes. Any actual or
+potential change in our or JPMorgan Chase & Co.’s creditworthiness or credit spreads, as determined by the market for
+taking that credit risk, is likely to adversely affect the value of the notes. If we and JPMorgan Chase & Co. were to default
+on our payment obligations, you may not receive any amounts owed to you under the notes and you could lose your entire investment.: CREDIT RISKS OF JPMORGAN FINANCIAL AND JPMORGAN CHASE & CO. — Investors are dependent on our and JPMorgan Chase & Co.’s ability to pay all amounts due on the notes. Any actual or potential change in our or JPMorgan Chase & Co.’s creditworthiness or credit spreads, as determined by the market for taking that credit risk, is likely to adversely affect the value of the notes. If we and JPMorgan Chase & Co. were to default on our payment obligations, you may not receive any amounts owed to you under the notes and you could lose your entire investment.
+⟦t15r01c02⟧ ●: ●
+⟦t15r01c03⟧ AS A FINANCE SUBSIDIARY, JPMORGAN FINANCIAL HAS NO INDEPENDENT OPERATIONS AND HAS LIMITED ASSETS — 
+As a finance subsidiary of JPMorgan Chase & Co., we have no independent operations beyond the issuance and administration of
+our securities. Aside from the initial capital contribution from JPMorgan Chase & Co., substantially all of our assets relate
+to obligations of our affiliates to make payments under loans made by us or other intercompany agreements. As a result, we are
+dependent upon payments from our affiliates to meet our obligations under the notes. If these affiliates do not make payments to
+us and we fail to make payments on the notes, you may have to seek payment under the related guarantee by JPMorgan Chase &
+Co., and that guarantee will rank pari passu with all other unsecured and unsubordinated obligations of JPMorgan Chase &
+Co.: AS A FINANCE SUBSIDIARY, JPMORGAN FINANCIAL HAS NO INDEPENDENT OPERATIONS AND HAS LIMITED ASSETS — As a finance subsidiary of JPMorgan Chase & Co., we have no independent operations beyond the issuance and administration of our securities. Aside from the initial capital contribution from JPMorgan Chase & Co., substantially all of our assets relate to obligations of our affiliates to make payments under loans made by us or other intercompany agreements. As a result, we are dependent upon payments from our affiliates to meet our obligations under the notes. If these affiliates do not make payments to us and we fail to make payments on the notes, you may have to seek payment under the related guarantee by JPMorgan Chase & Co., and that guarantee will rank pari passu with all other unsecured and unsubordinated obligations of JPMorgan Chase & Co.
+⟦t16r01c02⟧ ●: ●
+⟦t16r01c03⟧ THE APPRECIATION POTENTIAL OF THE NOTES IS LIMITED TO THE SUM OF ANY CONTINGENT INTEREST PAYMENTS THAT MAY BE PAID OVER
+THE TERM OF THE NOTES, 
+regardless of any appreciation of any Index, which may be significant. You will not participate in any appreciation of any Index.: THE APPRECIATION POTENTIAL OF THE NOTES IS LIMITED TO THE SUM OF ANY CONTINGENT INTEREST PAYMENTS THAT MAY BE PAID OVER THE TERM OF THE NOTES, regardless of any appreciation of any Index, which may be significant. You will not participate in any appreciation of any Index.
+⟦t17r01c02⟧ ●: ●
+⟦t17r01c03⟧ POTENTIAL CONFLICTS — 
+We and our affiliates play a variety of roles in connection with the notes. In performing these duties, our and JPMorgan Chase & Co.’s economic interests are potentially adverse to your interests as an investor in the notes. It is possible that
+hedging or trading activities of ours or our affiliates in connection with the notes could result in substantial returns for us
+or our affiliates while the value of the notes declines. Please refer to “Risk Factors — Risks Relating to Conflicts
+of Interest” in the accompanying product supplement.: POTENTIAL CONFLICTS — We and our affiliates play a variety of roles in connection with the notes. In performing these duties, our and JPMorgan Chase & Co.’s economic interests are potentially adverse to your interests as an investor in the notes. It is possible that hedging or trading activities of ours or our affiliates in connection with the notes could result in substantial returns for us or our affiliates while the value of the notes declines. Please refer to “Risk Factors — Risks Relating to Conflicts of Interest” in the accompanying product supplement.
+⟦t18r01c02⟧ ●: ●
+⟦t18r01c03⟧ JPMORGAN CHASE & CO. IS CURRENTLY ONE OF THE COMPANIES THAT MAKE UP THE S&P 500 ® INDEX, 
+but JPMorgan Chase & Co. will not have any obligation to consider your interests in taking any corporate action that might
+affect the level of the S&P 500 ® Index.: JPMORGAN CHASE & CO. IS CURRENTLY ONE OF THE COMPANIES THAT MAKE UP THE S&P 500 ® INDEX, but JPMorgan Chase & Co. will not have any obligation to consider your interests in taking any corporate action that might affect the level of the S&P 500 ® Index.
+⟦t19r01c02⟧ ●: ●
+⟦t19r01c03⟧ NON-U.S. SECURITIES RISK WITH RESPECT TO THE EURO STOXX 50 ® INDEX — 
+The equity securities included in the EURO STOXX 50 ® Index have been issued by non-U.S. companies. Investments
+in securities linked to the value of such non-U.S. equity securities involve risks associated with the securities markets in the
+home countries of the issuers of those non-U.S. equity securities. Also, there is generally less publicly available information
+about companies in some of these jurisdictions than there is about U.S. companies that are subject to the reporting requirements
+of the SEC.: NON-U.S. SECURITIES RISK WITH RESPECT TO THE EURO STOXX 50 ® INDEX — The equity securities included in the EURO STOXX 50 ® Index have been issued by non-U.S. companies. Investments in securities linked to the value of such non-U.S. equity securities involve risks associated with the securities markets in the home countries of the issuers of those non-U.S. equity securities. Also, there is generally less publicly available information about companies in some of these jurisdictions than there is about U.S. companies that are subject to the reporting requirements of the SEC.
+⟦t20r01c02⟧ ●: ●
+⟦t20r01c03⟧ AN INVESTMENT IN THE NOTES IS SUBJECT TO RISKS ASSOCIATED WITH SMALL CAPITALIZATION STOCKS WITH RESPECT TO THE RUSSELL 2000 ® 
+ INDEX — 
+Small capitalization companies may be less able to withstand adverse economic, market, trade and competitive conditions relative
+to larger companies. Small capitalization companies are less likely to pay dividends on their stocks, and the presence of a dividend
+payment could be a factor that limits downward stock price pressure under adverse market conditions.: AN INVESTMENT IN THE NOTES IS SUBJECT TO RISKS ASSOCIATED WITH SMALL CAPITALIZATION STOCKS WITH RESPECT TO THE RUSSELL 2000 ® INDEX — Small capitalization companies may be less able to withstand adverse economic, market, trade and competitive conditions relative to larger companies. Small capitalization companies are less likely to pay dividends on their stocks, and the presence of a dividend payment could be a factor that limits downward stock price pressure under adverse market conditions.
+⟦t21r01c02⟧ ●: ●
+⟦t21r01c03⟧ NO DIRECT EXPOSURE TO FLUCTUATIONS IN FOREIGN EXCHANGE RATES WITH RESPECT TO THE EURO STOXX 50 ® INDEX
+— 
+The value of your notes will not be adjusted for exchange rate fluctuations between the U.S. dollar and the currencies upon which
+the equity securities included in the EURO STOXX 50 ® Index are based, although any currency fluctuations could affect
+the performance of the EURO STOXX 50 ® Index.: NO DIRECT EXPOSURE TO FLUCTUATIONS IN FOREIGN EXCHANGE RATES WITH RESPECT TO THE EURO STOXX 50 ® INDEX — The value of your notes will not be adjusted for exchange rate fluctuations between the U.S. dollar and the currencies upon which the equity securities included in the EURO STOXX 50 ® Index are based, although any currency fluctuations could affect the performance of the EURO STOXX 50 ® Index.
+⟦t22r01c02⟧ ●: ●
+⟦t22r01c03⟧ YOU ARE EXPOSED TO THE RISK OF DECLINE IN THE LEVEL OF EACH INDEX— 
+Payments on the notes are not linked to a basket composed of the Indices and are contingent upon the performance of each individual
+Index. Poor performance by any of the Indices over the term of the notes may result in the notes not being automatically called
+on an Autocall Review Date, may negatively affect whether you will receive a Contingent Interest Payment on any Interest Payment
+Date and your payment at maturity and will not be offset or mitigated by positive performance by any other Index.: YOU ARE EXPOSED TO THE RISK OF DECLINE IN THE LEVEL OF EACH INDEX— Payments on the notes are not linked to a basket composed of the Indices and are contingent upon the performance of each individual Index. Poor performance by any of the Indices over the term of the notes may result in the notes not being automatically called on an Autocall Review Date, may negatively affect whether you will receive a Contingent Interest Payment on any Interest Payment Date and your payment at maturity and will not be offset or mitigated by positive performance by any other Index.
+⟦t23r01c02⟧ ●: ●
+⟦t23r01c03⟧ YOUR PAYMENT AT MATURITY WILL BE DETERMINED BY THE LEAST PERFORMING INDEX.: YOUR PAYMENT AT MATURITY WILL BE DETERMINED BY THE LEAST PERFORMING INDEX.
+⟦t24r01c02⟧ ●: ●
+⟦t24r01c03⟧ THE BENEFIT PROVIDED BY THE TRIGGER VALUE MAY TERMINATE ON ANY DAY DURING THE MONITORING PERIOD— 
+If, on any day during the Monitoring Period, the closing level of any Index is less than its Trigger Value ( i.e., a Trigger
+Event occurs) and the notes have not been automatically called, the benefit provided by the Trigger Value will terminate and you
+will be fully exposed to any depreciation of the Least 
+Performing Index. You will be subject to this potential loss of principal even if that Index subsequently recovers such that the
+closing level of that Index is greater than or equal to its Trigger Value.: THE BENEFIT PROVIDED BY THE TRIGGER VALUE MAY TERMINATE ON ANY DAY DURING THE MONITORING PERIOD— If, on any day during the Monitoring Period, the closing level of any Index is less than its Trigger Value ( i.e., a Trigger Event occurs) and the notes have not been automatically called, the benefit provided by the Trigger Value will terminate and you will be fully exposed to any depreciation of the Least Performing Index. You will be subject to this potential loss of principal even if that Index subsequently recovers such that the closing level of that Index is greater than or equal to its Trigger Value.
+⟦t25r01c02⟧ ●: ●
+⟦t25r01c03⟧ THE AUTOMATIC CALL FEATURE MAY FORCE A POTENTIAL EARLY EXIT — 
+If your notes are automatically called, the term of the notes may be reduced to as short as approximately six months and you will
+not receive any Contingent Interest Payments after the applicable Call Settlement Date. There is no guarantee that you would be
+able to reinvest the proceeds from an investment in the notes at a comparable return and/or with a comparable interest rate for
+a similar level of risk. Even in cases where the notes are called before maturity, you are not entitled to any fees and commissions
+described on the front cover of this pricing supplement.: THE AUTOMATIC CALL FEATURE MAY FORCE A POTENTIAL EARLY EXIT — If your notes are automatically called, the term of the notes may be reduced to as short as approximately six months and you will not receive any Contingent Interest Payments after the applicable Call Settlement Date. There is no guarantee that you would be able to reinvest the proceeds from an investment in the notes at a comparable return and/or with a comparable interest rate for a similar level of risk. Even in cases where the notes are called before maturity, you are not entitled to any fees and commissions described on the front cover of this pricing supplement.
+⟦t26r01c02⟧ ●: ●
+⟦t26r01c03⟧ YOU WILL NOT RECEIVE DIVIDENDS ON THE SECURITIES INCLUDED IN ANY INDEX OR HAVE ANY RIGHTS WITH RESPECT TO THOSE SECURITIES.: YOU WILL NOT RECEIVE DIVIDENDS ON THE SECURITIES INCLUDED IN ANY INDEX OR HAVE ANY RIGHTS WITH RESPECT TO THOSE SECURITIES.
+⟦t27r01c02⟧ ●: ●
+⟦t27r01c03⟧ THE RISK OF THE CLOSING LEVEL OF AN INDEX FALLING BELOW ITS INTEREST BARRIER OR TRIGGER VALUE IS GREATER IF THE LEVEL OF
+THAT INDEX IS VOLATILE.: THE RISK OF THE CLOSING LEVEL OF AN INDEX FALLING BELOW ITS INTEREST BARRIER OR TRIGGER VALUE IS GREATER IF THE LEVEL OF THAT INDEX IS VOLATILE.
+⟦s000092⟧ Field: Page; Sequence: 7
+⟦s000093⟧ PS-6| Structured Investments Auto Callable Contingent Interest Notes Linked to the Least Performing of the Russell 2000 ® Index, the S&P 500 ® Index and the EURO STOXX 50 ® Index
+⟦s000094⟧ Field: /Page
+⟦t28r01c02⟧ ●: ●
+⟦t28r01c03⟧ LACK OF LIQUIDITY— 
+The notes will not be listed on any securities exchange. Accordingly, the price at which you may be able to trade your notes is
+likely to depend on the price, if any, at which JPMS is willing to buy the notes. You may not be able to sell your notes. The notes
+are not designed to be short-term trading instruments. Accordingly, you should be able and willing to hold your notes to maturity.: LACK OF LIQUIDITY— The notes will not be listed on any securities exchange. Accordingly, the price at which you may be able to trade your notes is likely to depend on the price, if any, at which JPMS is willing to buy the notes. You may not be able to sell your notes. The notes are not designed to be short-term trading instruments. Accordingly, you should be able and willing to hold your notes to maturity.
+⟦t29r01c02⟧ ●: ●
+⟦t29r01c03⟧ THE FINAL TERMS AND VALUATION OF THE NOTES WILL BE PROVIDED IN THE PRICING SUPPLEMENT — 
+You should consider your potential investment in the notes based on the minimums for the estimated value of the notes and the Contingent
+Interest Rate.: THE FINAL TERMS AND VALUATION OF THE NOTES WILL BE PROVIDED IN THE PRICING SUPPLEMENT — You should consider your potential investment in the notes based on the minimums for the estimated value of the notes and the Contingent Interest Rate.
+⟦t30r01c02⟧ ●: ●
+⟦t30r01c03⟧ THE TAX DISCLOSURE IS SUBJECT TO CONFIRMATION — 
+The information set forth under “Tax Treatment” in this pricing supplement remains subject to confirmation by our special
+tax counsel following the pricing of the notes. If that information cannot be confirmed by our tax counsel, you may be asked to
+accept revisions to that information in connection with your purchase. Under these circumstances, if you decline to accept revisions
+to that information, your purchase of the notes will be canceled.: THE TAX DISCLOSURE IS SUBJECT TO CONFIRMATION — The information set forth under “Tax Treatment” in this pricing supplement remains subject to confirmation by our special tax counsel following the pricing of the notes. If that information cannot be confirmed by our tax counsel, you may be asked to accept revisions to that information in connection with your purchase. Under these circumstances, if you decline to accept revisions to that information, your purchase of the notes will be canceled.
+⟦t31r01c02⟧ ●: ●
+⟦t31r01c03⟧ THE ESTIMATED VALUE OF THE NOTES WILL BE LOWER THAN THE ORIGINAL ISSUE PRICE (PRICE TO PUBLIC) OF THE NOTES — 
+The estimated value of the notes is only an estimate determined by reference to several factors. The original issue price of the
+notes will exceed the estimated value of the notes because costs associated with selling, structuring and hedging the notes are
+included in the original issue price of the notes. These costs include the selling commissions, the projected profits, if any,
+that our affiliates expect to realize for assuming risks inherent in hedging our obligations under the notes and the estimated
+cost of hedging our obligations under the notes. See “The Estimated Value of the Notes” in this pricing supplement.: THE ESTIMATED VALUE OF THE NOTES WILL BE LOWER THAN THE ORIGINAL ISSUE PRICE (PRICE TO PUBLIC) OF THE NOTES — The estimated value of the notes is only an estimate determined by reference to several factors. The original issue price of the notes will exceed the estimated value of the notes because costs associated with selling, structuring and hedging the notes are included in the original issue price of the notes. These costs include the selling commissions, the projected profits, if any, that our affiliates expect to realize for assuming risks inherent in hedging our obligations under the notes and the estimated cost of hedging our obligations under the notes. See “The Estimated Value of the Notes” in this pricing supplement.
+⟦t32r01c02⟧ ●: ●
+⟦t32r01c03⟧ THE ESTIMATED VALUE OF THE NOTES DOES NOT REPRESENT FUTURE VALUES OF THE NOTES AND MAY DIFFER FROM OTHERS’ ESTIMATES
+— 
+See “The Estimated Value of the Notes” in this pricing supplement.: THE ESTIMATED VALUE OF THE NOTES DOES NOT REPRESENT FUTURE VALUES OF THE NOTES AND MAY DIFFER FROM OTHERS’ ESTIMATES — See “The Estimated Value of the Notes” in this pricing supplement.
+⟦t33r01c02⟧ ●: ●
+⟦t33r01c03⟧ THE ESTIMATED VALUE OF THE NOTES IS DERIVED BY REFERENCE TO AN INTERNAL FUNDING RATE — 
+The internal funding rate used in the determination of the estimated value of the notes may differ from the market-implied funding
+rate for vanilla fixed income instruments of a similar maturity issued by JPMorgan Chase & Co. or its affiliates. Any difference
+may be based on, among other things, our and our affiliates’ view of the funding value of the notes as well as the higher
+issuance, operational and ongoing liability management costs of the notes in comparison to those costs for the conventional fixed
+income instruments of JPMorgan Chase & Co. This internal funding rate is based on certain market inputs and assumptions, which
+may prove to be incorrect, and is intended to approximate the prevailing market replacement funding rate for the notes. The use
+of an internal funding rate and any potential changes to that rate may have an adverse effect on the terms of the notes and any
+secondary market prices of the notes. See “The Estimated Value of the Notes” in this pricing supplement.: THE ESTIMATED VALUE OF THE NOTES IS DERIVED BY REFERENCE TO AN INTERNAL FUNDING RATE — The internal funding rate used in the determination of the estimated value of the notes may differ from the market-implied funding rate for vanilla fixed income instruments of a similar maturity issued by JPMorgan Chase & Co. or its affiliates. Any difference may be based on, among other things, our and our affiliates’ view of the funding value of the notes as well as the higher issuance, operational and ongoing liability management costs of the notes in comparison to those costs for the conventional fixed income instruments of JPMorgan Chase & Co. This internal funding rate is based on certain market inputs and assumptions, which may prove to be incorrect, and is intended to approximate the prevailing market replacement funding rate for the notes. The use of an internal funding rate and any potential changes to that rate may have an adverse effect on the terms of the notes and any secondary market prices of the notes. See “The Estimated Value of the Notes” in this pricing supplement.
+⟦t34r01c02⟧ ●: ●
+⟦t34r01c03⟧ THE VALUE OF THE NOTES AS PUBLISHED BY JPMS (AND WHICH MAY BE REFLECTED ON CUSTOMER ACCOUNT STATEMENTS) MAY BE HIGHER THAN
+THE THEN-CURRENT ESTIMATED VALUE OF THE NOTES FOR A LIMITED TIME PERIOD — 
+We generally expect that some of the costs included in the original issue price of the notes will be partially paid back to you
+in connection with any repurchases of your notes by JPMS in an amount that will decline to zero over an initial predetermined period.
+See “Secondary Market Prices of the Notes” in this pricing supplement for additional information relating to this initial
+period. Accordingly, the estimated value of your notes during this initial period may be lower than the value of the notes as published
+by JPMS (and which may be shown on your customer account statements).: THE VALUE OF THE NOTES AS PUBLISHED BY JPMS (AND WHICH MAY BE REFLECTED ON CUSTOMER ACCOUNT STATEMENTS) MAY BE HIGHER THAN THE THEN-CURRENT ESTIMATED VALUE OF THE NOTES FOR A LIMITED TIME PERIOD — We generally expect that some of the costs included in the original issue price of the notes will be partially paid back to you in connection with any repurchases of your notes by JPMS in an amount that will decline to zero over an initial predetermined period. See “Secondary Market Prices of the Notes” in this pricing supplement for additional information relating to this initial period. Accordingly, the estimated value of your notes during this initial period may be lower than the value of the notes as published by JPMS (and which may be shown on your customer account statements).
+⟦t35r01c02⟧ ●: ●
+⟦t35r01c03⟧ SECONDARY MARKET PRICES OF THE NOTES WILL LIKELY BE LOWER THAN THE ORIGINAL ISSUE PRICE OF THE NOTES — 
+Any secondary market prices of the notes will likely be lower than the original issue price of the notes because, among other things,
+secondary market prices take into account our internal secondary market funding rates for structured debt issuances and, also,
+because secondary market prices may exclude selling commissions, projected hedging profits, if any, and estimated hedging costs
+that are included in the original issue price of the notes. As a result, the price, if any, at which JPMS will be willing to buy
+the notes from you in secondary market transactions, if at all, is likely to be lower than the original issue price. Any sale by
+you prior to the Maturity Date could result in a substantial loss to you.: SECONDARY MARKET PRICES OF THE NOTES WILL LIKELY BE LOWER THAN THE ORIGINAL ISSUE PRICE OF THE NOTES — Any secondary market prices of the notes will likely be lower than the original issue price of the notes because, among other things, secondary market prices take into account our internal secondary market funding rates for structured debt issuances and, also, because secondary market prices may exclude selling commissions, projected hedging profits, if any, and estimated hedging costs that are included in the original issue price of the notes. As a result, the price, if any, at which JPMS will be willing to buy the notes from you in secondary market transactions, if at all, is likely to be lower than the original issue price. Any sale by you prior to the Maturity Date could result in a substantial loss to you.
+⟦t36r01c02⟧ ●: ●
+⟦t36r01c03⟧ SECONDARY MARKET PRICES OF THE NOTES WILL BE IMPACTED BY MANY ECONOMIC AND MARKET FACTORS — 
+The secondary market price of the notes during their term will be impacted by a number of economic and market factors, which may
+either offset or magnify each other, aside from the selling commissions, projected hedging profits, if any, estimated hedging costs
+and the levels of the Indices. Additionally, independent pricing vendors and/or third party broker-dealers may publish a price
+for the notes, which may also be reflected on customer account statements. This price may be different (higher or lower) than the
+price of the notes, if any, at which JPMS may be willing to purchase your notes in the secondary market. See “Risk Factors
+— Risks Relating to the Estimated Value and Secondary Market Prices of the Notes — Secondary market prices of the notes
+will be impacted by many economic and market factors” in the accompanying product supplement.: SECONDARY MARKET PRICES OF THE NOTES WILL BE IMPACTED BY MANY ECONOMIC AND MARKET FACTORS — The secondary market price of the notes during their term will be impacted by a number of economic and market factors, which may either offset or magnify each other, aside from the selling commissions, projected hedging profits, if any, estimated hedging costs and the levels of the Indices. Additionally, independent pricing vendors and/or third party broker-dealers may publish a price for the notes, which may also be reflected on customer account statements. This price may be different (higher or lower) than the price of the notes, if any, at which JPMS may be willing to purchase your notes in the secondary market. See “Risk Factors — Risks Relating to the Estimated Value and Secondary Market Prices of the Notes — Secondary market prices of the notes will be impacted by many economic and market factors” in the accompanying product supplement.
+⟦s000095⟧ Field: Page; Sequence: 8
+⟦s000096⟧ PS-7| Structured Investments Auto Callable Contingent Interest Notes Linked to the Least Performing of the Russell 2000 ® Index, the S&P 500 ® Index and the EURO STOXX 50 ® Index
+⟦s000097⟧ Field: /Page
+⟦s000098⟧ The Indices
+⟦s000099⟧ The Russell 2000 ® Index consists of the middle 2,000 companies included in the Russell 3000E ™ Index and, as a result of the index calculation methodology, consists of the smallest 2,000 companies included in the Russell 3000 ® Index.
+⟦s000100⟧ The Russell 2000 ® Index is designed to track the performance of the small capitalization segment of the U.
+⟦s000101⟧ S.
+⟦s000102⟧ equity market.
+⟦s000103⟧ For additional information about the Russell 2000 ® Index, see “Equity Index Descriptions — The Russell Indices” in the accompanying underlying supplement.
+⟦s000104⟧ The S&P 500 ® Index consists of stocks of 500 companies selected to provide a performance benchmark for the U.
+⟦s000105⟧ S.
+⟦s000106⟧ equity markets.
+⟦s000107⟧ For additional information about the S&P 500 ® Index, see “Equity Index Descriptions — The S&P U.
+⟦s000108⟧ S.
+⟦s000109⟧ Indices” in the accompanying underlying supplement.
+⟦s000110⟧ The EURO STOXX 50 ® Index consists of 50 component stocks of market sector leaders from within the Eurozone.
+⟦s000111⟧ The EURO STOXX 50 ® Index and STOXX are the intellectual property (including registered trademarks) of STOXX Limited, Zurich, Switzerland and/or its licensors (the “Licensors”), which are used under license.
+⟦s000112⟧ The notes based on the EURO STOXX 50 ® Index are in no way sponsored, endorsed, sold or promoted by STOXX Limited and its Licensors and neither STOXX Limited nor any of its Licensors shall have any liability with respect thereto.
+⟦s000113⟧ For additional information about the EURO STOXX 50 ® Index, see “Equity Index Descriptions — The EURO STOXX 50 ® Index” in the accompanying underlying supplement.
+⟦s000114⟧ Historical Information
+⟦s000115⟧ The following graphs set forth the historical performance of each Index based on the weekly historical closing levels from January 2, 2015 through December 27, 2019.
+⟦s000116⟧ The closing level of the Russell 2000 ® Index on December 31, 2019 was 1,668.
+⟦s000117⟧ 469.
+⟦s000118⟧ The closing level of the S&P 500 ® Index on December 31, 2019 was 3,230.
+⟦s000119⟧ 78.
+⟦s000120⟧ The closing level of the EURO STOXX 50 ® Index on December 31, 2019 was 3,745.
+⟦s000121⟧ 15.
+⟦s000122⟧ We obtained the closing levels above and below from the Bloomberg Professional ® service (“Bloomberg”), without independent verification.
+⟦s000123⟧ The historical closing levels of each Index should not be taken as an indication of future performance, and no assurance can be given as to the closing level of any Index on the Pricing Date, any Interest Review Date, any Autocall Review Date or any day during the Monitoring Period.
+⟦s000124⟧ There can be no assurance that the performance of the Indices will result in the return of any of your principal amount or the payment of any interest.
+⟦t37r01c01⟧ Historical Performance
+ of the Russell 2000 ® Index 
+   
+ 
+ Source: Bloomberg | Historical Performance
+ of the Russell 2000 ® Index 
+   
+ 
+ Source: Bloomberg: Historical Performance of the Russell 2000 ® Index Source: Bloomberg
+⟦s000125⟧ Field: Page; Sequence: 9
+⟦s000126⟧ PS-8| Structured Investments Auto Callable Contingent Interest Notes Linked to the Least Performing of the Russell 2000 ® Index, the S&P 500 ® Index and the EURO STOXX 50 ® Index
+⟦s000127⟧ Field: /Page
+⟦t38r01c01⟧ Historical Performance
+ of the S&P 500 ® Index 
+   
+ 
+ Source: Bloomberg | Historical Performance
+ of the S&P 500 ® Index 
+   
+ 
+ Source: Bloomberg: Historical Performance of the S&P 500 ® Index Source: Bloomberg
+⟦t39r01c01⟧ Historical Performance
+ of the EURO STOXX 50 ® Index 
+   
+ 
+ Source: Bloomberg | Historical Performance
+ of the EURO STOXX 50 ® Index 
+   
+ 
+ Source: Bloomberg: Historical Performance of the EURO STOXX 50 ® Index Source: Bloomberg
+⟦s000128⟧ Field: Page; Sequence: 10
+⟦s000129⟧ PS-9| Structured Investments Auto Callable Contingent Interest Notes Linked to the Least Performing of the Russell 2000 ® Index, the S&P 500 ® Index and the EURO STOXX 50 ® Index
+⟦s000130⟧ Field: /Page
+⟦s000131⟧ Tax Treatment
+⟦s000132⟧ You should review carefully the section entitled “Material U.
+⟦s000133⟧ S.
+⟦s000134⟧ Federal Income Tax Consequences” in the accompanying product supplement no. 4-I.
+⟦s000135⟧ In determining our reporting responsibilities we intend to treat (i) the notes for U.
+⟦s000136⟧ S.
+⟦s000137⟧ federal income tax purposes as prepaid forward contracts with associated contingent coupons and (ii) any Contingent Interest Payments as ordinary income, as described in the section entitled “Material U.
+⟦s000138⟧ S.
+⟦s000139⟧ Federal Income Tax Consequences — Tax Consequences to U.
+⟦s000140⟧ S.
+⟦s000141⟧ Holders — Notes Treated as Prepaid Forward Contracts with Associated Contingent Coupons” in the accompanying product supplement.
+⟦s000142⟧ We expect to ask our special tax counsel to advise us that this is a reasonable treatment, although there are other reasonable treatments that the IRS or a court may adopt, in which case the timing and character of any income or loss on the notes could be materially affected.
+⟦s000143⟧ In addition, in 2007 Treasury and the IRS released a notice requesting comments on the U.
+⟦s000144⟧ S.
+⟦s000145⟧ federal income tax treatment of “prepaid forward contracts” and similar instruments.
+⟦s000146⟧ The notice focuses in particular on whether to require investors in these instruments to accrue income over the term of their investment.
+⟦s000147⟧ It also asks for comments on a number of related topics, including the character of income or loss with respect to these instruments and the relevance of factors such as the nature of the underlying property to which the instruments are linked.
+⟦s000148⟧ While the notice requests comments on appropriate transition rules and effective dates, any Treasury regulations or other guidance promulgated after consideration of these issues could materially affect the tax consequences of an investment in the notes, possibly with retroactive effect.
+⟦s000149⟧ The discussions above and in the accompanying product supplement do not address the consequences to taxpayers subject to special tax accounting rules under Section 451(b) of the Code.
+⟦s000150⟧ You should consult your tax adviser regarding the U.
+⟦s000151⟧ S.
+⟦s000152⟧ federal income tax consequences of an investment in the notes, including possible alternative treatments and the issues presented by the notice described above.
+⟦s000153⟧ Non-U.
+⟦s000154⟧ S.
+⟦s000155⟧ Holders — Tax Considerations .
+⟦s000156⟧ The U.
+⟦s000157⟧ S.
+⟦s000158⟧ federal income tax treatment of Contingent Interest Payments is uncertain, and although we believe it is reasonable to take a position that Contingent Interest Payments are not subject to U.
+⟦s000159⟧ S.
+⟦s000160⟧ withholding tax (at least if an applicable Form W-8 is provided), a withholding agent may nonetheless withhold on these payments (generally at a rate of 30%, subject to the possible reduction of that rate under an applicable income tax treaty), unless income from your notes is effectively connected with your conduct of a trade or business in the United States (and, if an applicable treaty so requires, attributable to a permanent establishment in the United States).
+⟦s000161⟧ If you are not a United States person, you are urged to consult your tax adviser regarding the U.
+⟦s000162⟧ S.
+⟦s000163⟧ federal income tax consequences of an investment in the notes in light of your particular circumstances.
+⟦s000164⟧ Section 871(m) of the Code and Treasury regulations promulgated thereunder (“Section 871(m)”) generally impose a 30% withholding tax (unless an income tax treaty applies) on dividend equivalents paid or deemed paid to Non-U.
+⟦s000165⟧ S.
+⟦s000166⟧ Holders with respect to certain financial instruments linked to U.
+⟦s000167⟧ S.
+⟦s000168⟧ equities or indices that include U.
+⟦s000169⟧ S.
+⟦s000170⟧ equities.
+⟦s000171⟧ Section 871(m) provides certain exceptions to this withholding regime, including for instruments linked to certain broad-based indices that meet requirements set forth in the applicable Treasury regulations (such an index, a “Qualified Index”).
+⟦s000172⟧ Additionally, a recent IRS notice excludes from the scope of Section 871(m) instruments issued prior to January 1, 2023 that do not have a delta of one with respect to underlying securities that could pay U.
+⟦s000173⟧ S.
+⟦s000174⟧ -source dividends for U.
+⟦s000175⟧ S.
+⟦s000176⟧ federal income tax purposes (each an “Underlying Security”).
+⟦s000177⟧ Based on certain determinations made by us, we expect that Section 871(m) will not apply to the notes with regard to Non-U.
+⟦s000178⟧ S.
+⟦s000179⟧ Holders.
+⟦s000180⟧ Our determination is not binding on the IRS, and the IRS may disagree with this determination.
+⟦s000181⟧ Section 871(m) is complex and its application may depend on your particular circumstances, including whether you enter into other transactions with respect to an Underlying Security.
+⟦s000182⟧ If necessary, further information regarding the potential application of Section 871(m) will be provided in the pricing supplement for the notes.
+⟦s000183⟧ You should consult your tax adviser regarding the potential application of Section 871(m) to the notes.
+⟦s000184⟧ FATCA .
+⟦s000185⟧ Withholding under legislation commonly referred to as “FATCA” could apply to payments with respect to the notes that are treated as U.
+⟦s000186⟧ S.
+⟦s000187⟧ -source “fixed or determinable annual or periodical” income (“FDAP Income”) for U.
+⟦s000188⟧ S.
+⟦s000189⟧ federal income tax purposes (such as interest, if the notes are recharacterized, in whole or in part, as debt instruments, or Contingent Interest Payments if they are otherwise treated as FDAP Income).
+⟦s000190⟧ If the notes are recharacterized, in whole or in part, as debt instruments, withholding could also apply to payments of gross proceeds of a taxable disposition, including an early redemption or redemption at maturity, although under recently proposed regulations (the preamble to which specifies that taxpayers are permitted to rely on them pending finalization), no withholding will apply to payments of gross proceeds (other than any amount treated as FDAP Income).
+⟦s000191⟧ You should consult your tax adviser regarding the potential application of FATCA to the notes.
+⟦s000192⟧ In the event of any withholding on the notes, we will not be required to pay any additional amounts with respect to amounts so withheld.
+⟦s000193⟧ Field: Page; Sequence: 11
+⟦s000194⟧ PS-10| Structured Investments Auto Callable Contingent Interest Notes Linked to the Least Performing of the Russell 2000 ® Index, the S&P 500 ® Index and the EURO STOXX 50 ® Index
+⟦s000195⟧ Field: /Page
+⟦s000196⟧ The Estimated Value of the Notes
+⟦s000197⟧ The estimated value of the notes set forth on the cover of this pricing supplement is equal to the sum of the values of the following hypothetical components: (1) a fixed-income debt component with the same maturity as the notes, valued using the internal funding rate described below, and (2) the derivative or derivatives underlying the economic terms of the notes.
+⟦s000198⟧ The estimated value of the notes does not represent a minimum price at which JPMS would be willing to buy your notes in any secondary market (if any exists) at any time.
+⟦s000199⟧ The internal funding rate used in the determination of the estimated value of the notes may differ from the market-implied funding rate for vanilla fixed income instruments of a similar maturity issued by JPMorgan Chase & Co. or its affiliates.
+⟦s000200⟧ Any difference may be based on, among other things, our and our affiliates’ view of the funding value of the notes as well as the higher issuance, operational and ongoing liability management costs of the notes in comparison to those costs for the conventional fixed income instruments of JPMorgan Chase & Co. This internal funding rate is based on certain market inputs and assumptions, which may prove to be incorrect, and is intended to approximate the prevailing market replacement funding rate for the notes.
+⟦s000201⟧ The use of an internal funding rate and any potential changes to that rate may have an adverse effect on the terms of the notes and any secondary market prices of the notes.
+⟦s000202⟧ For additional information, see “Selected Risk Considerations — The Estimated Value of the Notes Is Derived by Reference to an Internal Funding Rate” in this pricing supplement.
+⟦s000203⟧ The value of the derivative or derivatives underlying the economic terms of the notes is derived from internal pricing models of our affiliates.
+⟦s000204⟧ These models are dependent on inputs such as the traded market prices of comparable derivative instruments and on various other inputs, some of which are market-observable, and which can include volatility, dividend rates, interest rates and other factors, as well as assumptions about future market events and/or environments.
+⟦s000205⟧ Accordingly, the estimated value of the notes is determined when the terms of the notes are set based on market conditions and other relevant factors and assumptions existing at that time.
+⟦s000206⟧ The estimated value of the notes does not represent future values of the notes and may differ from others’ estimates.
+⟦s000207⟧ Different pricing models and assumptions could provide valuations for the notes that are greater than or less than the estimated value of the notes.
+⟦s000208⟧ In addition, market conditions and other relevant factors in the future may change, and any assumptions may prove to be incorrect.
+⟦s000209⟧ On future dates, the value of the notes could change significantly based on, among other things, changes in market conditions, our or JPMorgan Chase & Co.’s creditworthiness, interest rate movements and other relevant factors, which may impact the price, if any, at which JPMS would be willing to buy notes from you in secondary market transactions.
+⟦s000210⟧ The estimated value of the notes will be lower than the original issue price of the notes because costs associated with selling, structuring and hedging the notes are included in the original issue price of the notes.
+⟦s000211⟧ These costs include the selling commissions paid to JPMS and other affiliated or unaffiliated dealers, the projected profits, if any, that our affiliates expect to realize for assuming risks inherent in hedging our obligations under the notes and the estimated cost of hedging our obligations under the notes.
+⟦s000212⟧ Because hedging our obligations entails risk and may be influenced by market forces beyond our control, this hedging may result in a profit that is more or less than expected, or it may result in a loss.
+⟦s000213⟧ A portion of the profits, if any, realized in hedging our obligations under the notes may be allowed to other affiliated or unaffiliated dealers, and we or one or more of our affiliates will retain any remaining hedging profits.
+⟦s000214⟧ See “Selected Risk Considerations — The Estimated Value of the Notes Will Be Lower Than the Original Issue Price (Price to Public) of the Notes” in this pricing supplement.
+⟦s000215⟧ Secondary Market Prices of the Notes
+⟦s000216⟧ For information about factors that will impact any secondary market prices of the notes, see “Risk Factors — Risks Relating to the Estimated Value and Secondary Market Prices of the Notes — Secondary market prices of the notes will be impacted by many economic and market factors” in the accompanying product supplement.
+⟦s000217⟧ In addition, we generally expect that some of the costs included in the original issue price of the notes will be partially paid back to you in connection with any repurchases of your notes by JPMS in an amount that will decline to zero over an initial predetermined period.
+⟦s000218⟧ These costs can include selling commissions, projected hedging profits, if any, and, in some circumstances, estimated hedging costs and our internal secondary market funding rates for structured debt issuances.
+⟦s000219⟧ This initial predetermined time period is intended to be the shorter of six months and one-half of the stated term of the notes.
+⟦s000220⟧ The length of any such initial period reflects the structure of the notes, whether our affiliates expect to earn a profit in connection with our hedging activities, the estimated costs of hedging the notes and when these costs are incurred, as determined by our affiliates.
+⟦s000221⟧ See “Selected Risk Considerations — The Value of the Notes as Published by JPMS (and Which May Be Reflected on Customer Account Statements) May Be Higher Than the Then-Current Estimated Value of the Notes for a Limited Time Period” in this pricing supplement.
+⟦s000222⟧ Field: Page; Sequence: 12
+⟦s000223⟧ PS-11| Structured Investments Auto Callable Contingent Interest Notes Linked to the Least Performing of the Russell 2000 ® Index, the S&P 500 ® Index and the EURO STOXX 50 ® Index
+⟦s000224⟧ Field: /Page
+⟦s000225⟧ Supplemental Use of Proceeds
+⟦s000226⟧ The notes are offered to meet investor demand for products that reflect the risk-return profile and market exposure provided by the notes.
+⟦s000227⟧ See “How the Notes Work” and “Hypothetical Payout Examples” in this pricing supplement for an illustration of the risk-return profile of the notes and “The Indices” in this pricing supplement for a description of the market exposure provided by the notes.
+⟦s000228⟧ The original issue price of the notes is equal to the estimated value of the notes plus the selling commissions paid to JPMS and other affiliated or unaffiliated dealers, plus (minus) the projected profits (losses) that our affiliates expect to realize for assuming risks inherent in hedging our obligations under the notes, plus the estimated cost of hedging our obligations under the notes.
+⟦s000229⟧ Supplemental Plan of Distribution
+⟦s000230⟧ We expect that delivery of the notes will be made against payment for the notes on or about the Original Issue Date set forth on the front cover of this pricing supplement, which will be the third business day following the Pricing Date of the notes (this settlement cycle being referred to as “T+3”).
+⟦s000231⟧ Under Rule 15c6-1 of the Securities Exchange Act of 1934, as amended, trades in the secondary market generally are required to settle in two business days, unless the parties to that trade expressly agree otherwise.
+⟦s000232⟧ Accordingly, purchasers who wish to trade notes on any date prior to two business days before delivery will be required to specify an alternate settlement cycle at the time of any such trade to prevent a failed settlement and should consult their own advisors.
+⟦s000233⟧ Additional Terms Specific to the Notes
+⟦s000234⟧ You may revoke your offer to purchase the notes at any time prior to the time at which we accept such offer by notifying the applicable agent.
+⟦s000235⟧ We reserve the right to change the terms of, or reject any offer to purchase, the notes prior to their issuance.
+⟦s000236⟧ In the event of any changes to the terms of the notes, we will notify you and you will be asked to accept such changes in connection with your purchase.
+⟦s000237⟧ You may also choose to reject such changes, in which case we may reject your offer to purchase.
+⟦s000238⟧ You should read this pricing supplement together with the accompanying prospectus, as supplemented by the accompanying prospectus supplement relating to our Series A medium-term notes of which these notes are a part, and the more detailed information contained in the accompanying product supplement and the accompanying underlying supplement.
+⟦s000239⟧ This pricing supplement, together with the documents listed below, contains the terms of the notes and supersedes all other prior or contemporaneous oral statements as well as any other written materials including preliminary or indicative pricing terms, correspondence, trade ideas, structures for implementation, sample structures, fact sheets, brochures or other educational materials of ours.
+⟦s000240⟧ You should carefully consider, among other things, the matters set forth in the “Risk Factors” sections of the accompanying product supplement and the accompanying underlying supplement, as the notes involve risks not associated with conventional debt securities.
+⟦s000241⟧ We urge you to consult your investment, legal, tax, accounting and other advisers before you invest in the notes.
+⟦s000242⟧ You may access these documents on the SEC website at www.sec.gov as follows (or if such address has changed, by reviewing our filings for the relevant date on the SEC website):
+⟦t40r01c02⟧ ●: ●
+⟦t40r01c03⟧ Product supplement no. 4-I dated April 5, 2018: 
+ http://www.sec.gov/Archives/edgar/data/19617/000095010318004519/dp87528_424b2-ps4i.pdf: Product supplement no. 4-I dated April 5, 2018: http://www.sec.gov/Archives/edgar/data/19617/000095010318004519/dp87528_424b2-ps4i.pdf
+⟦t41r01c02⟧ ●: ●
+⟦t41r01c03⟧ Underlying supplement no. 1-I dated April 5, 2018: 
+ http://www.sec.gov/Archives/edgar/data/19617/000095010318004514/crt_dp87766-424b2.pdf: Underlying supplement no. 1-I dated April 5, 2018: http://www.sec.gov/Archives/edgar/data/19617/000095010318004514/crt_dp87766-424b2.pdf
+⟦t42r01c02⟧ ●: ●
+⟦t42r01c03⟧ Prospectus supplement and prospectus, each dated April 5, 2018: 
+ http://www.sec.gov/Archives/edgar/data/19617/000095010318004508/dp87767_424b2-ps.pdf: Prospectus supplement and prospectus, each dated April 5, 2018: http://www.sec.gov/Archives/edgar/data/19617/000095010318004508/dp87767_424b2-ps.pdf
+⟦s000243⟧ Our Central Index Key, or CIK, on the SEC website is 1665650, and JPMorgan Chase & Co.’s CIK is 19617.
+⟦s000244⟧ As used in this pricing supplement, “we,” “us” and “our” refer to JPMorgan Financial.
+⟦t43r01c01⟧ PS-12| Structured Investments 
+ Auto Callable Contingent Interest Notes Linked
+ to the Least Performing of the Russell 2000 ® Index, the S&P 500 ® Index and the EURO STOXX 50 ® 
+ Index | PS-12| Structured Investments 
+ Auto Callable Contingent Interest Notes Linked
+ to the Least Performing of the Russell 2000 ® Index, the S&P 500 ® Index and the EURO STOXX 50 ® 
+ Index: PS-12| Structured Investments Auto Callable Contingent Interest Notes Linked to the Least Performing of the Russell 2000 ® Index, the S&P 500 ® Index and the EURO STOXX 50 ® Index
