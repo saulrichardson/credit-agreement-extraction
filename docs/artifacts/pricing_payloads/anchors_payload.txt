@@ -1,0 +1,30 @@
+PROMPT_FILE: prompts/extraction_structured.txt
+
+---DOCUMENT---
+⟦s000126⟧ “ Applicable Margin ” means the applicable rate per annum set forth below, based on the Total Leverage Ratio as of the last day of each Measurement Period:
+
+⟦s000127⟧ ```markdown
+| Pricing level | Total Leverage Ratio | Base Rate Loans | SOFR Loans |
+| --- | --- | --- | --- |
+| I | ≥ 2.75 to 1.00 | 7.25% | 8.25% |
+| II | < 2.75 to 1.00 and ≥ 2.25 to 1.00 | 7.00% | 8.00% |
+| III | < 2.25 to 1.00 | 6.75% | 7.75% |
+```
+
+⟦s000128⟧ From the Closing Date until the date the Borrower delivers the financial statements, certificates and/or other information required to be delivered under Sections 6.
+
+⟦s000129⟧ 1(b) and 6.
+
+⟦s000130⟧ 2(a) for the Fiscal Quarter ending May 3, 2024, the Applicable Margin shall be conclusively presumed to equal the Applicable Margin specified in “Tier I” of the pricing table set forth above.
+
+⟦s000131⟧ Thereafter, the Applicable Margin shall be adjusted quarterly upon delivery to Administrative Agent of the financial statements for Fiscal Quarter required to be delivered pursuant to Section 6.
+
+⟦s000132⟧ 1(b) hereof accompanied by a Compliance Certificate with a written calculation of the Total Leverage Ratio.
+
+⟦s000133⟧ If such calculation indicates that the Applicable Margin shall increase or decrease, then on the first Business Day following the date of delivery of such financial statements and a Compliance Certificate with such written calculation, the Applicable Margin shall be adjusted in accordance therewith.
+
+⟦s000134⟧ If the Borrower shall fail to deliver the financial statements, certificates and/or other information required to be delivered under Sections 6.
+
+⟦s000135⟧ 1 and 6.
+
+⟦s000136⟧ 2 by the dates required pursuant to such sections, the Applicable Margin shall be conclusively presumed to equal the Applicable Margin specified in “Tier I” of the pricing table set forth above until the date of delivery of such financial statements, certificates and/or other information, at which time the rate will be adjusted based upon the Total Leverage Ratio calculated pursuant to such financial statements.
