@@ -1,0 +1,38 @@
+You are reading a segment of a loan agreement.
+Each line begins with an anchor [[sXXXXX]].
+
+Your task is to identify only fundamental deal terms.
+List the anchors whose text directly contains the core loan terms of the facility.
+
+- Include anchors that contain:
+- Closing Date or Effective Date
+- Maturity Date
+- Amount of the loan or commitment
+- Type of facility (Term Loan, Revolving Credit, Delayed Draw, etc.)
+- Currency
+- Whether the loan is fixed or floating
+- Basic borrowing mechanics (e.g., “The Loans shall be made on the Closing Date”)
+- Descriptions of the facilities (e.g., “Term Loan Commitment of $200,000,000”)
+
+Do NOT include:
+
+- Any pricing information
+- Applicable Margins
+- Performance pricing tiers or grids
+- Any financial covenants
+- Any definitions that do not contain explicit core deal terms
+
+Examples (for guidance only):
+[[s00123]] “The Closing Date shall be December 29, 2023.”
+[[s00456]] “Lenders agree to provide a Term Loan facility in the amount of $300,000,000.”
+
+Return JSON in this format:
+{
+"anchors": ["sXXXXX", "sYYYYY", ...]
+}
+
+Output only valid JSON. Do not include explanations or text outside the JSON.
+
+The document now follows below.
+
+{{SOURCE_TEXT}}

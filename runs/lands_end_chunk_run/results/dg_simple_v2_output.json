@@ -1,0 +1,97 @@
+{
+  "issuer": "Lands' End, Inc.",
+  "agreement": {
+    "title": "Term Loan Credit Agreement",
+    "section_refs": ["s000005", "s000127"],
+    "currency": "USD",
+    "as_of_date": "2023-12-29"
+  },
+  "metrics": [
+    {
+      "name": "TotalLeverageRatio",
+      "definition": "Total debt divided by EBITDA proxy",
+      "formula": "(dlttq + dd1q + npq) / oibdpq",
+      "units": "ratio",
+      "requires_non_compustat": false,
+      "compustat_mapping": ["dlttq", "dd1q", "npq", "oibdpq"],
+      "notes": [
+        "Total debt proxy = long-term debt (dlttq) + long-term debt due in one year (dd1q) + notes payable (npq)",
+        "EBITDA proxy = oibdpq"
+      ],
+      "source_refs": ["s000127 Pricing level grid (Term Loan Pricing Table)"]
+    }
+  ],
+  "tier_schemes": [
+    {
+      "scheme_id": "TotalLeverage_Margins",
+      "classification": "financial_metrics",
+      "tiers": [
+        {
+          "tier_id": "TierI",
+          "display": "Tier I: Total Leverage Ratio >= 2.75x",
+          "conditions": [
+            { "metric": "TotalLeverageRatio", "op": ">=", "value": 2.75 }
+          ]
+          ,
+          "source_refs": ["s000127 Pricing level grid (Term Loan Pricing Table)"]
+        },
+        {
+          "tier_id": "TierII",
+          "display": "Tier II: 2.25x <= Total Leverage Ratio < 2.75x",
+          "conditions": [
+            { "metric": "TotalLeverageRatio", "op": ">=", "value": 2.25 },
+            { "metric": "TotalLeverageRatio", "op": "<", "value": 2.75 }
+          ],
+          "source_refs": ["s000127 Pricing level grid (Term Loan Pricing Table)"]
+        },
+        {
+          "tier_id": "TierIII",
+          "display": "Tier III: Total Leverage Ratio < 2.25x",
+          "conditions": [
+            { "metric": "TotalLeverageRatio", "op": "<", "value": 2.25 }
+          ],
+          "source_refs": ["s000127 Pricing level grid (Term Loan Pricing Table)"]
+        }
+      ],
+      "source_refs": ["s000127 Pricing level grid (Term Loan Pricing Table)"]
+    }
+  ],
+  "facilities": [
+    {
+      "facility_id": "TermLoanFacility1",
+      "committed_amount": 260000000,
+      "currency": "USD",
+      "maturity_date": "2028-12-29",
+      "rate_type": "floating",
+      "rates": [
+        {
+          "rate_id": "BaseRateLoansMargin",
+          "type": "margin",
+          "base_rate": "Base Rate",
+          "base_rate_type": "prime",
+          "units": "bps",
+          "tier_scheme_ref": "TotalLeverage_Margins",
+          "by_level": [
+            { "tier_id": "TierI", "bps": 725 },
+            { "tier_id": "TierII", "bps": 700 },
+            { "tier_id": "TierIII", "bps": 675 }
+          ]
+        },
+        {
+          "rate_id": "SOFRLoansMargin",
+          "type": "margin",
+          "base_rate": "Term SOFR",
+          "base_rate_type": "sofr",
+          "units": "bps",
+          "tier_scheme_ref": "TotalLeverage_Margins",
+          "by_level": [
+            { "tier_id": "TierI", "bps": 825 },
+            { "tier_id": "TierII", "bps": 800 },
+            { "tier_id": "TierIII", "bps": 775 }
+          ]
+        }
+      ],
+      "notes": ["Pricing grid based on Total Leverage Ratio tiers from s000127"]
+    }
+  ]
+}

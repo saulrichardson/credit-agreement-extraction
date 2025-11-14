@@ -1,0 +1,112 @@
+⟦s000005⟧ Dated as of December 29, 2023
+
+⟦s000088⟧ This TERM LOAN CREDIT AGREEMENT is entered into as of December 29, 2023, among LANDS’ END, INC. , a Delaware corporation (the “ Borrower ”), each Person from time to time party hereto as a lender (collectively, the “ Lenders ” and individually, a “ Lender ”) and BLUE TORCH FINANCE LLC , as administrative agent and collateral agent.
+
+⟦s000091⟧ The proceeds of the Loans made on the Closing Date will be used for working capital and other general corporate purposes of the Loan Parties and to refinance Indebtedness under the Existing Term Loan Agreement.
+
+⟦s000948⟧ Subject to the terms and conditions set forth herein, each Lender severally agrees to make a single loan in Dollars (each such loan, a “ Term Loan ”) to the Borrower on the Closing Date, in an amount not to exceed the amount of such Lender’s Term Loan Commitment.
+
+⟦s000951⟧ Term Loans may be Base Rate Loans or SOFR Loans as further provided herein.
+
+⟦s000220⟧ “ Closing Date ” means the first date all the conditions precedent in Section 4.
+
+⟦s000301⟧ “ Dollars ” and “ $ ” mean lawful money of the United States.
+
+⟦s000495⟧ “ Maturity Date ” means with respect to any Term Loans, the date that is five years after the Closing Date; provided that if any such day is not a Business Day, the Maturity Date shall be the Business Day immediately preceding such day.
+
+⟦s000797⟧ As of the Closing Date, the aggregate principal amount of the Term Loan Commitments is $260,000,000.
+
+⟦s000127⟧ ```markdown
+| Pricing level | Total Leverage Ratio | Base Rate Loans | SOFR Loans |
+| --- | --- | --- | --- |
+| I | ≥ 2.75 to 1.00 | 7.25% | 8.25% |
+| II | < 2.75 to 1.00 and ≥ 2.25 to 1.00 | 7.00% | 8.00% |
+| III | < 2.25 to 1.00 | 6.75% | 7.75% |
+```
+
+⟦s000139⟧ “ Applicable Prepayment Premium ” shall mean, with respect to any prepayments of the principal of the Loan in connection with a Prepayment Event occurring prior to the fourth anniversary of the Closing Date, a premium equal to: (a) on any date on or prior to the date that is twelve (12) months after the Closing Date, payment of all interest that would have accrued on the Loans (assuming no change in Term SOFR, and if a Default exists at the time of calculation, assuming that the Default Rate applies) until the date that is twelve (12) months after the Closing Date, plus a premium of three percent (3.
+
+⟦s000140⟧ 00%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended, (b) after the date that is twelve (12) months after the Closing Date but on or prior to the date that is twenty-four (24) months after the Closing Date (or if such date is not a Business Day, the previous Business Day), two percent (2.
+
+⟦s000141⟧ 00%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended, (c) after the date that is twenty-four (24) months after the Closing Date but on or prior to the date that is thirty-six (36) months after the Closing Date (or if such date is not a Business Day, the previous Business Day), one percent (1.
+
+⟦s000142⟧ 00%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended and (d) after the date that is thirty-six (36) months after the Closing Date (or if such date is not a Business Day, the previous Business Day) but on or prior to the date that is forty-eight (48) months after the Closing Date, one-half percent (0.
+
+⟦s000143⟧ 50%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended, in each case, including such prepayment, repayment, refinancing or amendment in connection with (u) a Change of Control, (v) an acceleration of the Loan as a result of the occurrence of an Event of Default, (w) foreclosure and sale of, or collection of, the Collateral in connection with the exercise of remedies by the Agent and Lenders following an Event of Default, (x) sale of the Collateral in any Insolvency Proceeding of any Loan Party, (y) the restructure, reorganization, or compromise of the Loan by the confirmation of a plan of reorganization or any other plan of compromise, restructure, or arrangement in any Insolvency Proceeding of any Loan Party or any of its Subsidiaries, or (z) the termination of this Agreement for any reason (other than in connection with a repayment in full of the Obligations that would not otherwise constitute a Prepayment Event).
+
+⟦s000157⟧ “ Base Rate ” means for any day a floating rate equal to the greater of (i) the Prime Rate in effect on such date (or, if The Wall Street Journal ceases quoting a Prime Rate of the type described, either (A) the per annum rate quoted as the base rate on such corporate loans in a different national publication as reasonably selected by the Agent or (B) the highest per annum rate of interest published by the Federal Reserve Board in Federal Reserve statistical release H.
+
+⟦s000158⟧ 15 (519) entitled “ Selected Interest Rates ” as the bank prime loan rate or its equivalent), (ii) the Federal Funds Rate in effect on such day, provided that the Federal Funds Rate shall not be less 0.
+
+⟦s000159⟧ 00 %, plus ½ of 1%, and (iii) Term SOFR for a one-month tenor in effect on such day (or if such day is not a Business Day, the immediately preceding Business Day) (taking into account the Floor) plus one percent (1.
+
+⟦s000160⟧ 00%) per annum; provided , further , that if at any time Term SOFR is not available, Base Rate shall be calculated without reference to clause (c) above.
+
+⟦s000287⟧ “ Default Rate ” means (a) when used with respect to Loans, an interest rate equal to the interest rate (including the Applicable Margin) otherwise applicable to such Loan plus two percent (2.
+
+⟦s000288⟧ 00%) per annum, and (b) with respect to all other Obligations, an interest rate equal to the Base Rate, plus the Applicable Margin, plus two percent (2.
+
+⟦s000289⟧ 00%) per annum.
+
+⟦s000392⟧ “ Floor ” means a rate of interest equal to 2.
+
+⟦s000393⟧ 00% per annum.
+
+⟦s000497⟧ “ Maximum ABL Principal Amount ” means, as of any date of determination, (a) one hundred and ten percent (110%) of $275,000,000, minus (b) permanent reductions of revolving loan commitments under the ABL Loan Documents after the date hereof; provided that such commitment reductions are accompanied by principal payments to the extent such principal payments are required pursuant to the ABL Credit Agreement as in effect as of the date hereof (but excluding any permanent reductions made in connection with a Refinancing permitted under Section 7.
+
+⟦s000499⟧ 12 hereof), whether or not the same are added to the principal amount of the ABL Obligations and including the same as would accrue and become due but for the commencement of an Insolvency Proceeding, whether or not allowed in any such Insolvency Proceeding plus (d) in connection with an ABL DIP Financing (as defined in the ABL Intercreditor Agreement), $20,625,000.
+
+⟦s001100⟧ The Borrower shall pay to the Agent an upfront fee in Dollars on the Closing Date in an amount equal to 3.
+
+⟦s001003⟧ 2(a) for each Fiscal Year of the Borrower, commencing with the first full Fiscal Year of the Borrower commencing after the Closing Date, the Borrower shall cause to be prepaid an aggregate principal amount of Loans equal to (A) 75% (such percentage as it may be reduced as described below, the “ ECF Percentage ”) of Excess Cash Flow, if any, for the Fiscal Year covered by such financial statements, minus (B) the sum of all voluntary prepayments of (i) Loans during such Fiscal Year and (ii) loans under the ABL Facility (to the extent accompanied by a permanent reduction in the associated commitments thereof) made during such Fiscal Year, in each case, to the extent such prepayments are not funded with the proceeds of Indebtedness; provided that (x) the ECF Percentage shall be 50% if the Total Leverage Ratio as of the last day of the Fiscal Year covered by such financial statements (calculated giving Pro Forma Effect to any Specified Transaction occurring on or prior to such last day of such Fiscal Year)
+
+⟦s001005⟧ was less than or equal to 3.
+
+⟦s001767⟧ ```markdown
+| Measurement Period ending | Total Leverage Ratio |
+| --- | --- |
+| May 3, 2024 | 5.50:1.00 |
+| August 2, 2024 | 5.50:1.00 |
+| November 1, 2024 | 6.00:1.00 |
+| January 31, 2025 | 5.25:1.00 |
+| May 2, 2025 | 5.25:1.00 |
+```
+
+⟦s001768⟧ - 94 -
+
+⟦s001769⟧ ```markdown
+| Measurement Period ending | Total Leverage Ratio |
+| --- | --- |
+| August 1, 2025 | 5.25:1.00 |
+| October 31, 2025 | 5.75:1.00 |
+| January 30, 2026 | 5.00:1.00 |
+| May 1, 2026 | 5.00:1.00 |
+| July 31, 2026 | 5.00:1.00 |
+| October 30, 2026 | 5.50:1.00 |
+| January 29, 2027 | 4.75:1.00 |
+| April 30, 2027 | 4.75:1.00 |
+| July 30, 2027 | 4.75:1.00 |
+| October 29, 2027 | 5.25:1.00 |
+| January 28, 2028 | 4.50:1.00 |
+| April 28, 2028 | 4.50:1.00 |
+| July 28, 2028 | 4.50:1.00 |
+| October 27, 2028 | 5.00:1.00 |
+| February 2, 2029 | 4.25:1.00 |
+```
+
+⟦s000584⟧ 0 % of such consideration in the form of cash or Permitted Cash Equivalents ( provided , however , that for the purposes of this clause (p)(ii), the following shall be deemed to be cash: (A) the assumption by the transferee of Indebtedness or other liabilities contingent or otherwise of the Borrower or any of its Restricted Subsidiaries (other than Subordinated Debt) and the valid release of the Borrower or such Restricted Subsidiary, by all applicable creditors in writing, from all liability on such Indebtedness or other liability in connection with such Disposition, (B) securities, notes or other obligations received by the Borrower or any of its Restricted Subsidiaries from the transferee that are converted by such Borrower or any of its Restricted Subsidiaries into cash or cash equivalents within 180 days following the closing of such Disposition (which amounts constitute Net Proceeds when received), and (C) Indebtedness of any Restricted Subsidiary that is no longer a Restricted Subsidiary as a result of such Disposition, to the extent that the Borrower and each other Restricted Subsidiary are released from any Guarantee of payment of such Indebtedness in connection with such Disposition) and (iii) the aggregate amount of consideration for such Dispositions during the term of this Agreement shall not exceed $20,000,000;
+
+⟦s000801⟧ (a) for any calculation with respect to a SOFR Loan, the Term SOFR Reference Rate for a tenor comparable to the applicable Interest Period on the day (such day, the “ Periodic Term SOFR Determination Day ”) that is two (2) U.
+
+⟦s000803⟧ Government Securities Business Days prior to the first day of such Interest Period, as such rate is published by the Term SOFR Administrator, plus (x) in respect of any one month Interest Period; 0.
+
+⟦s000804⟧ 11448%, and (y) in respect of any three month Interest Period, 0.
+
+⟦s001765⟧ (a) Maximum Total Leverage Ratio .
+
+⟦s001766⟧ Permit the Total Leverage Ratio, as of the last day of each Measurement Period ending the last day of the Fiscal Quarter ending closest to the date set forth in the table below, to be greater than the level under the heading “Total Leverage Ratio”:
+
+⟦s001770⟧ (b) Minimum Liquidity .
+
+⟦s001771⟧ Permit Liquidity, as of the last Business Day of each Fiscal Month, to be less than $50,000,000.
+

@@ -1,0 +1,31 @@
+You are reading a segment of a loan agreement.
+Each line begins with an anchor [[sXXXXX]].
+
+Your task is to classify anchors into three categories. For each category, list only the anchors whose text directly contains the relevant information.
+
+(1) Fundamental information:
+Include anchors that contain core deal terms such as the active/closing date, maturity date, loan facilities, committed amounts, currencies, fixed vs. floating rate type, borrowing mechanics, loan types, and other basic structural information about the credit facility.
+Do NOT include any pricing tiers, performance pricing grids, or covenants.
+
+(2) Pricing-related information:
+List every anchor whose text includes a numeric interest rate, margin, spread, base rate definition containing numeric components, or any percentage from a performance pricing grid.
+Include all anchors that are part of such a table or grid if any line in it contains a number.
+Ignore definitions of terms or formulas that do not themselves contain numeric pricing.
+
+(3) Financial covenant–related information:
+List anchors that contain numeric or formula-based financial maintenance tests (for example, leverage ratios, fixed charge coverage ratios, minimum liquidity, maximum capex, minimum EBITDA, etc.).
+Ignore covenants that are purely operational or qualitative and contain no numeric or financial-ratio requirement.
+
+Return your output as JSON only, in this format:
+
+{
+"fundamental_anchors": ["sXXXXX", "sYYYYY", ...],
+"pricing_anchors": ["sAAAAA", "sBBBBB", ...],
+"financial_covenant_anchors": ["sCCCCC", "sDDDDD", ...]
+}
+
+Output only valid JSON. Do not include explanations or any text outside the JSON.
+
+The document now follows below.
+
+{{SOURCE_TEXT}}

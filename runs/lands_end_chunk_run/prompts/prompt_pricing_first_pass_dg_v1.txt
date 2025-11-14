@@ -1,0 +1,44 @@
+You are reading a segment of a loan agreement.
+Each line begins with an anchor [[sXXXXX]].
+
+List every anchor whose text contains numeric pricing information.
+
+- Include anchors that contain:
+- Interest rates
+- Applicable Margins
+- Spreads
+- Performance pricing grids
+- Pricing levels or pricing tiers
+- Any percentage or numeric rate used to determine interest
+- Base Rate formulas containing numeric components
+- Default Rate percentages
+- Prepayment premiums or call protection percentages
+
+Do NOT include:
+
+- Definitions of terms that contain no numbers
+- Text that only describes how variables are defined
+- Any covenants that do not directly impact loan pricing or margins
+
+Examples (for guidance only):
+[[s00234]] “Applicable Margin for SOFR Loans is 8.25%.”
+[[s00235]] “Pricing Level I: 7.25% for Base Rate Loans.”
+[[s00236]] “Prepayment Premium: 3.00%.”
+
+You must also indicate whether the loan agreement contains performance pricing, meaning any pricing levels or grids that vary with financial ratios, performance measures, total leverage ratios, or similar metrics.
+
+Return JSON in this format:
+{
+"anchors": ["sXXXXX", "sYYYYY", ...],
+"has_performance_pricing": true
+}
+
+If no performance pricing is found, return:
+{
+"anchors": [...],
+"has_performance_pricing": false
+}
+
+Output only valid JSON. Do not include explanations or text outside the JSON.
+
+The document now follows below.
