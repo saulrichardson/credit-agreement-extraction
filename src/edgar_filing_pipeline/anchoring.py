@@ -523,12 +523,14 @@ class CanonicalDocumentBuilder:
             char = text[i]
             if char in {".", "?", "!"}:
                 next_char = text[i + 1] if i + 1 < length else ""
+                next_non_space = self._next_non_space_char(text, i + 1)
                 snippet = text[start : i + 1]
                 if snippet:
                     token = snippet.split()[-1].lower()
                     if token in ABBREVIATIONS:
-                        i += 1
-                        continue
+                        if next_non_space and (next_non_space.isalnum() or next_non_space == "_"):
+                            i += 1
+                            continue
                 if next_char and next_char.islower():
                     i += 1
                     continue
@@ -545,6 +547,15 @@ class CanonicalDocumentBuilder:
                 local_start = base_offset + start + (len(text[start:]) - len(text[start:].lstrip()))
                 sentences.append((local_start, base_offset + len(text)))
         return sentences
+
+    def _next_non_space_char(self, text: str, index: int) -> str:
+        length = len(text)
+        while index < length:
+            ch = text[index]
+            if not ch.isspace():
+                return ch
+            index += 1
+        return ""
 
     def _process_table(
         self,

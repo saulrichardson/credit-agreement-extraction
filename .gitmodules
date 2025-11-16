@@ -1,0 +1,3 @@
+[submodule "src/gateway"]
+	path = src/gateway
+	url = git@github.com:saulrichardson/agent-gateway.git

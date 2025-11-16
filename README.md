@@ -33,6 +33,7 @@ Quick start (Poetry)
 
 ```bash
 cd credit-agreement-extraction
+git submodule update --init --recursive  # pulls in the shared gateway implementation
 
 # install dependencies and create .venv/
 make install
@@ -55,6 +56,16 @@ You can also run the entire workflow in one go:
 ```bash
 make pipeline TAR_ROOT=/path/to/daily_filings MANIFEST_OUT=manifest.parquet EXTRACT_DIR=./html_segments NORMALIZED_OUT=./normalized.parquet
 ```
+
+Shared gateway submodule
+------------------------
+
+The gateway service now lives in the standalone `agent-gateway` repository and is
+vendored here as `src/gateway` via a Git submodule. Run `git submodule update
+--init --recursive` after cloning (or pulling) to ensure the CLI target
+`gateway-server` remains available. Updates to the shared gateway can be rolled
+forward by checking out the desired commit inside `src/gateway` and committing
+the submodule pointer in this repository.
 
 Anchoring individual filings
 ----------------------------

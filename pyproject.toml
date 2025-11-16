@@ -7,7 +7,7 @@ authors = ["EDGAR Pipeline"]
 license = "MIT"
 packages = [
   { include = "edgar_filing_pipeline", from = "src" },
-  { include = "gateway", from = "src" }
+  { include = "gateway", from = "src/gateway/src" }
 ]
 
 [tool.poetry.dependencies]
@@ -21,6 +21,9 @@ requests = ">=2.31"
 fastapi = ">=0.111"
 uvicorn = ">=0.30"
 openai = ">=2.6"
+httpx = ">=0.28"
+pydantic-settings = ">=2.4"
+structlog = ">=24.3"
 
 [tool.poetry.group.dev.dependencies]
 black = ">=24.0"
@@ -29,7 +32,7 @@ pytest = ">=8.0"
 
 [tool.poetry.scripts]
 edgar-pipeline = "edgar_filing_pipeline.cli:main"
-gateway-server = "gateway.cli:main"
+gateway-server = "gateway.edgar.cli:main"
 
 [build-system]
 requires = ["poetry-core>=1.9.0"]

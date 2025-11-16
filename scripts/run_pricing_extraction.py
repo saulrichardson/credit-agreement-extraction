@@ -5,12 +5,16 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 import sys
 from pathlib import Path
-from typing import Iterable, Sequence
+from typing import Iterable
 
 from openai import OpenAI
+from edgar_filing_pipeline.prompt_view import (
+    load_prompt_view,
+    render_anchor_snippets,
+    slice_by_anchor_range,
+)
 
 DEFAULT_PROMPT_PATH = Path("prompts/extraction.txt")
 DEFAULT_PROMPT_VIEW = Path("docs/artifacts/semantic/prompt_view.txt")
@@ -19,46 +23,6 @@ DEFAULT_CHUNK_SCORES = Path("docs/artifacts/chunking/chunk_scores.txt")
 DEFAULT_ANCHOR_JSON = Path("docs/artifacts/anchor_screen/prompt_view_pricing_anchors.json")
 DEFAULT_OUTPUT_DIR = Path("docs/artifacts/pricing_extraction")
 DEFAULT_PAYLOAD_DIR = Path("docs/artifacts/pricing_payloads")
-
-ANCHOR_RE = re.compile(r"\s*⟦([^⟧]+)⟧")
-
-
-def load_prompt_lines(prompt_view: Path) -> tuple[list[str], dict[str, int], dict[int, int]]:
-    lines = prompt_view.read_text(encoding="utf-8").splitlines()
-    anchor_to_idx: dict[str, int] = {}
-    sorted_positions: list[int] = []
-    for idx, line in enumerate(lines):
-        match = ANCHOR_RE.match(line)
-        if match:
-            anchor_id = match.group(1)
-            anchor_to_idx[anchor_id] = idx
-            sorted_positions.append(idx)
-    next_index: dict[int, int] = {}
-    sorted_positions.sort()
-    for i, current_idx in enumerate(sorted_positions):
-        if i + 1 < len(sorted_positions):
-            next_index[current_idx] = sorted_positions[i + 1]
-    if sorted_positions:
-        next_index.setdefault(sorted_positions[-1], len(lines))
-    return lines, anchor_to_idx, next_index
-
-
-def slice_by_range(
-    lines: Sequence[str],
-    anchor_map: dict[str, int],
-    start_id: str,
-    end_id: str,
-) -> str:
-    if start_id not in anchor_map or end_id not in anchor_map:
-        missing = start_id if start_id not in anchor_map else end_id
-        raise KeyError(f"Anchor {missing} not found in prompt view")
-    start_idx = anchor_map[start_id]
-    end_idx = anchor_map[end_id]
-    if end_idx < start_idx:
-        start_idx, end_idx = end_idx, start_idx
-    snippet = lines[start_idx : end_idx + 1]
-    return "\n".join(snippet).strip()
-
 
 def gather_ranges_from_scores(scores_path: Path) -> list[tuple[str, str]]:
     data = json.loads(scores_path.read_text())
@@ -71,36 +35,58 @@ def gather_ranges_from_scores(scores_path: Path) -> list[tuple[str, str]]:
     return ranges
 
 
-def gather_anchor_ids(anchor_json: Path) -> list[str]:
+def gather_anchor_ids_from_json(anchor_json: Path) -> list[str]:
     data = json.loads(anchor_json.read_text())
     anchors = data.get("anchors", [])
     return [anchor for anchor in anchors if isinstance(anchor, str)]
 
 
+def gather_anchor_ids_from_first_pass(result_path: Path, groups: Iterable[str]) -> list[str]:
+    data = json.loads(result_path.read_text())
+    seen: set[str] = set()
+    ordered: list[str] = []
+    for group in groups:
+        values = data.get(group)
+        if not isinstance(values, list):
+            continue
+        for anchor in values:
+            if isinstance(anchor, str) and anchor not in seen:
+                seen.add(anchor)
+                ordered.append(anchor)
+    return ordered
+
+
 def build_document(mode: str, args: argparse.Namespace) -> str:
-    lines, anchor_map, next_anchor_idx = load_prompt_lines(args.prompt_view)
+    prompt_view = load_prompt_view(args.prompt_view)
     snippets: list[str] = []
     if mode == "semantic":
         for start_id, end_id in gather_ranges_from_scores(args.semantic_scores):
             try:
-                snippets.append(slice_by_range(lines, anchor_map, start_id, end_id))
+                snippets.append(slice_by_anchor_range(prompt_view, start_id, end_id))
             except KeyError as exc:  # noqa: PERF203
                 print(f"[semantic] Skipping range {start_id}-{end_id}: {exc}", file=sys.stderr)
     elif mode == "chunk":
         for start_id, end_id in gather_ranges_from_scores(args.chunk_scores):
             try:
-                snippets.append(slice_by_range(lines, anchor_map, start_id, end_id))
+                snippets.append(slice_by_anchor_range(prompt_view, start_id, end_id))
             except KeyError as exc:  # noqa: PERF203
                 print(f"[chunk] Skipping range {start_id}-{end_id}: {exc}", file=sys.stderr)
     elif mode == "anchors":
-        ordered_ids = gather_anchor_ids(args.anchor_json)
-        for anchor_id in ordered_ids:
-            if anchor_id not in anchor_map:
-                print(f"[anchors] Anchor {anchor_id} missing from prompt view", file=sys.stderr)
-                continue
-            idx = anchor_map[anchor_id]
-            end_idx = next_anchor_idx.get(idx, len(lines))
-            snippets.append("\n".join(lines[idx:end_idx]))
+        if args.first_pass_result:
+            ordered_ids = gather_anchor_ids_from_first_pass(
+                args.first_pass_result,
+                args.pricing_anchor_groups,
+            )
+        else:
+            ordered_ids = gather_anchor_ids_from_json(args.anchor_json)
+        anchor_snippets, missing = render_anchor_snippets(
+            prompt_view,
+            ordered_ids,
+            bandwidth=max(0, args.anchor_bandwidth),
+        )
+        for anchor_id in missing:
+            print(f"[anchors] Anchor {anchor_id} missing from prompt view", file=sys.stderr)
+        snippets.extend(anchor_snippets)
     else:  # pragma: no cover - defensive
         raise ValueError(f"Unknown mode {mode}")
 
@@ -141,8 +127,35 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--semantic-scores", dest="semantic_scores", type=Path, default=DEFAULT_SEMANTIC_SCORES)
     parser.add_argument("--chunk-scores", dest="chunk_scores", type=Path, default=DEFAULT_CHUNK_SCORES)
     parser.add_argument("--anchor-json", dest="anchor_json", type=Path, default=DEFAULT_ANCHOR_JSON)
+    parser.add_argument(
+        "--first-pass-result",
+        dest="first_pass_result",
+        type=Path,
+        help="Optional JSON classification output; when present, pricing anchors are derived from the listed groups.",
+    )
+    parser.add_argument(
+        "--pricing-anchor-groups",
+        dest="pricing_anchor_groups",
+        default="fundamental_anchors,pricing_anchors",
+        help="Comma-separated JSON keys to pull from --first-pass-result for pricing context.",
+    )
+    parser.add_argument(
+        "--anchor-bandwidth",
+        dest="anchor_bandwidth",
+        type=int,
+        default=1,
+        help="Number of neighbouring anchors to include on each side when materialising anchor snippets.",
+    )
     parser.add_argument("--output", type=Path, default=None, help="Optional output JSON path")
-    return parser.parse_args()
+    args = parser.parse_args()
+    args.pricing_anchor_groups = [
+        group.strip()
+        for group in str(args.pricing_anchor_groups).split(",")
+        if group.strip()
+    ]
+    if args.first_pass_result and not args.pricing_anchor_groups:
+        raise SystemExit("At least one pricing anchor group must be specified when using --first-pass-result.")
+    return args
 
 
 def main() -> None:
