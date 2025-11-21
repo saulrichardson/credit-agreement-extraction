@@ -8,10 +8,10 @@ set -euo pipefail
 #   ./scripts/run_manual_agents.sh Agent12          # run just Agent12 sequentially
 #   ./scripts/run_manual_agents.sh -P 4 Agent01 Agent05 Agent09   # run selected in parallel
 #
-# Expects instruction files at instructions/manual_agents/AgentXX.txt.
+# Expects instruction files at scratch/instructions/manual_agents/AgentXX.txt.
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-INSTR_DIR="$ROOT/instructions/manual_agents"
+INSTR_DIR="$ROOT/scratch/instructions/manual_agents"
 LOG_DIR="$ROOT/logs/manual_agents"
 FLAGS=(--json --skip-git-repo-check --full-auto --sandbox danger-full-access)
 FLAGS_STR="--json --skip-git-repo-check --full-auto --sandbox danger-full-access"
@@ -37,17 +37,22 @@ while [[ "$#" -gt 0 ]]; do
 done
 
 run_file() {
-  local path="$1"
+  local arg="$1"
+  local path="$arg"
+  if [[ "$arg" != /* && "$arg" != *"/"* ]]; then
+    path="$INSTR_DIR/${arg%.txt}.txt"
+  fi
   if [[ ! -f "$path" ]]; then
     echo "Missing instruction file: $path" >&2
     return 1
   fi
-  local base
+  local base ts
   base="$(basename "$path" .txt)"
-  local log="$LOG_DIR/${base}.jsonl"
+  ts="$(date +%Y%m%dT%H%M%S)"
+  local log="$LOG_DIR/${base}_${ts}.jsonl"
   echo "Running codex exec for $(basename "$path") -> $log"
   # Capture full JSON event stream; Codex writes events to stdout in JSONL.
-  codex exec "${FLAGS[@]}" "$(cat "$path")" | tee "$log"
+  codex exec "${FLAGS[@]}" "$(cat "$path")" > "$log"
 }
 
 if [[ "$#" -eq 0 ]]; then
@@ -59,45 +64,55 @@ if [[ "$#" -eq 0 ]]; then
   fi
   if [[ "$PARALLEL" -gt 0 ]]; then
     printf '%s\0' "${files[@]}" | xargs -0 -P "$PARALLEL" -n1 bash -c '
-      path="$1"
-      ROOT="'"$ROOT"'"
+      arg="${1:-}"
+      INSTR_DIR="'"$INSTR_DIR"'"
       LOG_DIR="'"$LOG_DIR"'"
       FLAGS_STR="'"$FLAGS_STR"'"
-      base=$(basename "$path" .txt)
-      log="$LOG_DIR/${base}.jsonl"
-      echo "Running codex exec for $(basename "$path") -> $log"
-      codex exec $FLAGS_STR "$(cat "$path")" | tee "$log"
-    ' bash
-  else
-    for file in "${files[@]}"; do
-      run_file "$file"
-    done
-  fi
-else
-  # remaining args are agent names
-  files=()
-  for agent in "$@"; do
-    base="${agent%.txt}"
-    files+=("$INSTR_DIR/${base}.txt")
-  done
-  if [[ "$PARALLEL" -gt 0 ]]; then
-    printf '%s\0' "${files[@]}" | xargs -0 -P "$PARALLEL" -n1 bash -c '
-      path="$1"
-      ROOT="'"$ROOT"'"
-      LOG_DIR="'"$LOG_DIR"'"
-      FLAGS_STR="'"$FLAGS_STR"'"
+      path="$arg"
+      if [[ "$arg" != /* && "$arg" != *"/*"* ]]; then
+        path="$INSTR_DIR/${arg%.txt}.txt"
+      fi
       if [[ ! -f "$path" ]]; then
         echo "Missing instruction file: $path" >&2
         exit 1
       fi
       base=$(basename "$path" .txt)
-      log="$LOG_DIR/${base}.jsonl"
+      ts="$(date +%Y%m%dT%H%M%S)"
+      log="$LOG_DIR/${base}_${ts}.jsonl"
       echo "Running codex exec for $(basename "$path") -> $log"
-      codex exec $FLAGS_STR "$(cat "$path")" | tee "$log"
+      codex exec $FLAGS_STR "$(cat "$path")" > "$log"
     ' bash
   else
-    for path in "${files[@]}"; do
-      run_file "$path"
+    for arg in "${files[@]}"; do
+      run_file "$arg"
+    done
+  fi
+else
+  # remaining args are agent names or explicit paths
+  files=("$@")
+  if [[ "$PARALLEL" -gt 0 ]]; then
+    printf '%s\0' "${files[@]}" | xargs -0 -P "$PARALLEL" -n1 bash -c '
+      arg="${1:-}"
+      INSTR_DIR="'"$INSTR_DIR"'"
+      LOG_DIR="'"$LOG_DIR"'"
+      FLAGS_STR="'"$FLAGS_STR"'"
+      path="$arg"
+      if [[ "$arg" != /* && "$arg" != *"/*"* ]]; then
+        path="$INSTR_DIR/${arg%.txt}.txt"
+      fi
+      if [[ ! -f "$path" ]]; then
+        echo "Missing instruction file: $path" >&2
+        exit 1
+      fi
+      base=$(basename "$path" .txt)
+      ts="$(date +%Y%m%dT%H%M%S)"
+      log="$LOG_DIR/${base}_${ts}.jsonl"
+      echo "Running codex exec for $(basename "$path") -> $log"
+      codex exec $FLAGS_STR "$(cat "$path")" > "$log"
+    ' bash
+  else
+    for arg in "${files[@]}"; do
+      run_file "$arg"
     done
   fi
 fi

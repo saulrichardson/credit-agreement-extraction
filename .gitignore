@@ -20,3 +20,5 @@ output/**/*.xls*
 # Scratch & logs
 scratch/
 logs/
+runs/
+tmp/
