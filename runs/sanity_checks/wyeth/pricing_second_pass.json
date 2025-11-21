@@ -1,0 +1,163 @@
+{
+  "issuer": "Wyeth",
+  "agreement": {
+    "title": "Credit Agreement dated March 3, 2003",
+    "section_refs": [
+      "1. Definitions",
+      "2. The committed rate loans; the bid loans; amount and terms",
+      "3. Representations and warranties",
+      "6. Events of Default",
+      "7. Administrative Agent"
+    ],
+    "currency": "USD",
+    "as_of_date": "2003-03-03"
+  },
+  "metrics": [
+    {
+      "name": "IndexDebtRatingScore",
+      "definition": "Ordinal index of debt ratings (Level 1=A/A2, etc.)",
+      "units": "ordinal_score",
+      "requires_non_compustat": true
+    }
+  ],
+  "tier_schemes": [
+    {
+      "scheme_id": "RatingsGrid",
+      "classification": "ratings_based",
+      "tiers": [
+        {
+          "tier_id": "T1",
+          "display": "Category A",
+          "conditions": [
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": "<=",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "tier_id": "T2",
+          "display": "Category B",
+          "conditions": [
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": ">",
+              "value": 1
+            },
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": "<=",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "tier_id": "T3",
+          "display": "Category C",
+          "conditions": [
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": ">",
+              "value": 2
+            },
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": "<=",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "tier_id": "T4",
+          "display": "Category D",
+          "conditions": [
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": ">",
+              "value": 3
+            },
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": "<=",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "tier_id": "T5",
+          "display": "Category E",
+          "conditions": [
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": ">",
+              "value": 4
+            },
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": "<=",
+              "value": 5
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "[[s000114]]",
+        "[[s000012]]",
+        "[[s000013]]"
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "facility_id": "364DayCreditFacility",
+      "committed_amount": 1350000000,
+      "currency": "USD",
+      "maturity_date": "2004-03-02",
+      "rate_type": "floating",
+      "rates": [
+        {
+          "rate_id": "ApplicableMargin_SOFR",
+          "type": "margin",
+          "base_rate": "Term SOFR",
+          "base_rate_type": "sofr",
+          "units": "bps",
+          "tier_scheme_ref": "RatingsGrid",
+          "by_level": [
+            {"tier_id": "T1", "bps": 100},
+            {"tier_id": "T2", "bps": 125},
+            {"tier_id": "T3", "bps": 150},
+            {"tier_id": "T4", "bps": 175},
+            {"tier_id": "T5", "bps": 200}
+          ],
+          "overrides": {
+            "floor": 0,
+            "cap": null,
+            "trigger": "Rating downgrade or downgrade to Category B or worse"
+          }
+        },
+        {
+          "rate_id": "CommitmentFee",
+          "type": "fee",
+          "fee_basis": "undrawn",
+          "calculation_basis": "per_annum",
+          "units": "bps",
+          "tier_scheme_ref": "RatingsGrid",
+          "by_level": [
+            {"tier_id": "T1", "bps": 25},
+            {"tier_id": "T2", "bps": 30},
+            {"tier_id": "T3", "bps": 35},
+            {"tier_id": "T4", "bps": 40},
+            {"tier_id": "T5", "bps": 45}
+          ]
+        }
+      ],
+      "source_refs": [
+        "[[s000012]]",
+        "[[s000013]]",
+        "[[s000063]]",
+        "[[s000114]]"
+      ]
+    }
+  ]
+}

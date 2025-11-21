@@ -1,0 +1,146 @@
+{
+  "issuer": "ADESA California, Inc.",
+  "agreement": {
+    "title": "Term Loan Agreement",
+    "section_refs": [
+      "Section 2.9 Fees",
+      "Section 2.4 Interest elections",
+      "Section 2.8 Interest",
+      "Section 3.1 Conditions to effectiveness",
+      "Section 6.1 Financial covenants"
+    ],
+    "currency": "USD",
+    "as_of_date": "2003-06-30"
+  },
+  "metrics": [
+    {
+      "name": "IndexDebtRatingScore",
+      "definition": "Ordinal score representing Moody's and S&P ratings for the index debt; 1 = highest rating (Level 1: A/A2 or better), 2 = Level 2 (A-/A3), 3 = Level 3 (BBB+/Baa1), 4 = Level 4 (BBB/Baa2), 5 = Level 5 (BB+/Ba1 or lower).",
+      "units": "ordinal_score",
+      "requires_non_compustat": true,
+      "notes": [
+        "Level 1 corresponds to A/A2 or better",
+        "Level 2 corresponds to A-/A3",
+        "Level 3 corresponds to BBB+/Baa1",
+        "Level 4 corresponds to BBB/Baa2",
+        "Level 5 corresponds to BB+/Ba1 or lower"
+      ],
+      "source_refs": [
+        "s000011"
+      ]
+    }
+  ],
+  "tier_schemes": [
+    {
+      "scheme_id": "RatingsBasedIndexDebtTier",
+      "classification": "ratings_based",
+      "tiers": [
+        {
+          "tier_id": "category_1",
+          "display": "Category 1 (Highest rating)",
+          "conditions": [
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": "==",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "tier_id": "category_2",
+          "display": "Category 2",
+          "conditions": [
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": "==",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "tier_id": "category_3",
+          "display": "Category 3",
+          "conditions": [
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": "==",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "tier_id": "category_4",
+          "display": "Category 4",
+          "conditions": [
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": "==",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "tier_id": "category_5",
+          "display": "Category 5",
+          "conditions": [
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": "==",
+              "value": 5
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "s000011"
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "facility_id": "TERM_LOAN_1",
+      "committed_amount": 45000000,
+      "currency": "USD",
+      "maturity_date": "2006-07-30",
+      "rate_type": "floating",
+      "rates": [
+        {
+          "rate_id": "BaseRateMargin_Ratings",
+          "type": "margin",
+          "base_rate": "Base Rate",
+          "base_rate_type": "prime",
+          "units": "bps",
+          "tier_scheme_ref": "RatingsBasedIndexDebtTier",
+          "by_level": [
+            { "tier_id": "category_1", "bps": 0 },
+            { "tier_id": "category_2", "bps": 0 },
+            { "tier_id": "category_3", "bps": 25 },
+            { "tier_id": "category_4", "bps": 75 },
+            { "tier_id": "category_5", "bps": 125 }
+          ],
+          "source_refs": [
+            "s000011"
+          ]
+        },
+        {
+          "rate_id": "LiborMargin_Ratings",
+          "type": "margin",
+          "base_rate": "LIBOR",
+          "base_rate_type": "libor",
+          "units": "bps",
+          "tier_scheme_ref": "RatingsBasedIndexDebtTier",
+          "by_level": [
+            { "tier_id": "category_1", "bps": 87.5 },
+            { "tier_id": "category_2", "bps": 100 },
+            { "tier_id": "category_3", "bps": 137.5 },
+            { "tier_id": "category_4", "bps": 187.5 },
+            { "tier_id": "category_5", "bps": 225 }
+          ],
+          "source_refs": [
+            "s000011"
+          ]
+        }
+      ]
+    }
+  ]
+}

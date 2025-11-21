@@ -1,0 +1,70 @@
+Exhibit 10.4
+FIRST AMENDMENT TO CREDIT AGREEMENT
+This FIRST AMENDMENT TO CREDIT AGREEMENT (this " Amendment "), dated as of December 22, 2022, is by and between EDUCATIONAL DEVELOPMENT CORPORATION, a Delaware corporation (the " Borrower ") and BOKF, NA DBA BANK OF OKLAHOMA (the “ Lender ”).
+RECITALS:
+A.    The Borrower and the Lender have previously entered into that certain Credit Agreement dated as of August 9, 2022 (the " Existing Credit Agreement "; the Existing Credit Agreement, as amended by this Amendment, is referred to herein as the “ Credit Agreement ”).
+B.    The Borrower and the Lender desire to amend the Existing Credit Agreement as herein provided.
+NOW, THEREFORE, in consideration of the premises herein contained and other good and valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties hereto agree as follows:
+ARTICLE I 
+ 
+ Definitions
+Section 1.1      Definitions . All terms used herein which are defined in the Credit Agreement shall have the same meanings when used herein, unless the context hereof otherwise requires or provides. In addition, all references in the Loan Documents to the "Agreement" and the "Credit Agreement" shall mean the Credit Agreement, as amended by this Amendment, as the same shall hereafter be amended from time to time.
+ARTICLE II 
+ 
+ Amendments to Existing Credit Agreement
+Section 2.1     Section 1.01 of the Existing Credit Agreement is hereby amended by amending and restating the definition of Fixed Charge Coverage Ratio as follows:
+“ Fixed Charge Coverage Ratio ” means the ratio, determined as of the end of each fiscal quarter of the Borrower for the twelve fiscal month period then ended, of (a) EBITDAR minus all Restricted Payments (other than any Restricted Payments made during the period from the Effective Date up to and including November 30, 2022), to (b) Fixed Charges, all calculated for the Borrower and its Subsidiaries on a consolidated basis in accordance with GAAP.”
+Section 2.2     Section 5.01 of the Existing Credit Agreement is hereby amended by inserting the following new Section 5.01(l):
+First Amendment to Credit Agreement – Page 1
+“(l) within 30 days after the end of each calendar month (commencing with the month ending December 31, 2022), Borrower’s consolidated and, if applicable, consolidating balance sheet and related statements of operations, all certified by a Responsible Officer of the Borrower as presenting fairly in all material respects the financial condition and results of operations of the Borrower and its consolidated Subsidiaries on a consolidated basis in accordance with GAAP consistently applied, and otherwise in a form and in detail reasonably satisfactory to Lender.”
+Section 2.3     Section 6.04(l) of Existing Credit Agreement is hereby amended and restated in its entirety to read as follows:
+“(l) Subject to Section 5.14, Permitted Acquisitions; provided that, notwithstanding anything to the contrary contained in this Agreement, from and following the date of that certain First Amendment to Credit Agreement by and between Lender and Borrower, the Borrower shall not be permitted to make any Permitted Acquisitions without the prior written consent of the Lender.”
+Section 2.4     Section 6.08(a) of the Existing Credit Agreement is hereby amended and restated in its entirety to read as follows:
+“(a) Without the Lender’s prior written consent, no Loan Party will, nor will it permit any Subsidiary to, declare or make, or agree to declare or make, directly or indirectly, any Restricted Payment, or incur any obligation (contingent or otherwise) to do so, except (i) Borrower may declare and pay dividends with respect to its common stock payable solely in additional shares of its common stock; (ii) Subsidiaries may declare and pay dividends ratably with respect to their Equity Interests; and (iii) [reserved];”
+ARTICLE III 
+ 
+ Ratifications
+Section 3. 1     Ratifications by Borrower . The terms and provisions set forth in this Amendment shall modify and supersede all inconsistent terms and provisions set forth in the Existing Credit Agreement and the other Loan Documents, and except as expressly modified and superseded by this Amendment, the terms and provisions of the Existing Credit Agreement and the other Loan Documents are ratified and confirmed and shall continue in full force and effect. The Borrower and the Lender agree that each of the Credit Agreement, as amended hereby, and the other Loan Documents to which each is a party shall continue to be legal, valid, binding and enforceable in accordance with its respective terms. This Amendment is a "Loan Document" as referred to in the Credit Agreement and the provisions relating to Loan Documents in the Credit Agreement are incorporated herein by reference, the same as if set forth verbatim in this Amendment.
+Section 3.2      Representations and Warranties of the Borrower . Borrower hereby represents and warrants to the Lender that (a) the execution, delivery and performance of this Amendment and any and all other Loan Documents executed and/or delivered by Borrower in
+First Amendment to Credit Agreement – Page 2
+connection herewith have been authorized by all requisite action on the part of Borrower and will not violate any organizational document of Borrower, (b) the representations and warranties contained in the Loan Documents, as amended hereby, are true and correct in all material respects on and as of the date hereof as though made on and as of the date hereof, except to the extent such representations and warranties speak to a specific date, and (c) no Default or Event of Default exists.
+ARTICLE IV 
+ 
+ Conditions Precedent
+Section 4.1      Conditions Precedent . The effectiveness of this Amendment is subject to the satisfaction of the following conditions precedent:
+(a)     Amendment and Other Documents . Lender shall have received:
+(i)    this Amendment duly executed by the Borrower; and
+(ii)    such other documents, instruments and agreements as Lender may require.
+(b)     No Default . No Default or Event of Default shall exist.
+(c)     Representations and Warranties . All of the representations and warranties contained in the Credit Agreement, as amended hereby, shall be true and correct in all material respects on and as of the date of this Amendment with the same force and effect as if such representations and warranties had been made on and as of such date, except to the extent such representations and warranties speak to a specific date.
+(d)     Other Fees and Expenses . The Lender shall have received payment of all reasonable and documented out‑of‑pocket fees and expenses (including reasonable attorneys' fees and expenses) incurred by Lender in connection with the preparation, negotiation and execution of this Amendment and the other Loan Documents.
+ARTICLE V
+Miscellaneous
+Section 5.1      Survival of Representations and Warranties . All representations and warranties made in this Amendment or any other document executed in connection herewith shall survive the execution and delivery of this Amendment, and no investigation by the Lender or any closing shall affect the representations and warranties or the right of the Lender to rely upon them.
+Section 5.2      Reference to Agreement . Each of the Credit Agreement, the other Loan Documents and any and all other agreements, documents, or instruments now or hereafter executed and delivered pursuant to the terms hereof or pursuant to the terms of the Credit Agreement, as amended hereby, and the other Loan Documents are hereby amended so that any reference in such
+First Amendment to Credit Agreement – Page 3
+documents to the Credit Agreement shall mean a reference to the Credit Agreement as amended hereby.
+Section 5.3      Expenses of Lender . As provided in the Credit Agreement, Borrower agrees to pay on demand all reasonable costs and expenses incurred by Lender in connection with the preparation, negotiation, and execution of this Amendment and any other documents executed pursuant hereto and any and all amendments, modifications, and supplements thereto, including without limitation the costs and reasonable fees of Lender’s legal counsel, and all costs and expenses incurred by Lender in connection with the enforcement or preservation of any rights under the Credit Agreement, as amended hereby, or any other document executed in connection therewith, including without limitation the costs and reasonable fees of Lender’s legal counsel.
+Section 5.4      Severability . Any provision of this Amendment held by a court of competent jurisdiction to be invalid or unenforceable shall not impair or invalidate the remainder of this Amendment and the effect thereof shall be confined to the provision so held to be invalid or unenforceable.
+Section 5.5      Applicable Law . This Amendment and all other documents executed pursuant hereto shall be governed by and construed in accordance with the laws of the State of Oklahoma.
+Section 5.6      Successors and Assigns . This Amendment is binding upon and shall inure to the benefit of the Lender, Borrower and their respective successors and assigns, except Borrower may not assign or transfer any of its rights or obligations hereunder without the prior written consent of the Lender.
+Section 5.7      Counterparts . This Amendment may be executed in any number of counterparts and by different parties on separate counterparts, each of which shall be an original and all of which taken together shall constitute one and the same agreement. Delivery of an executed counterpart of a signature page to this Amendment by facsimile or as an attachment to an electronic mail message in .pdf, .jpeg, .TIFF or similar electronic format shall be effective as delivery of a manually executed counterpart of this Amendment for all purposes. The words “execution,” “signed,” “signature,” “delivery,” and words of like import in or relating to this Amendment and any other Loan Document to be signed in connection with this Amendment, the other Loan Documents and the transactions contemplated hereby and thereby shall be deemed to include Electronic Signatures, deliveries or the keeping of records in electronic form, each of which shall be of the same legal effect, validity or enforceability as manually executed signature, physical delivery thereof or the use of a paper-based recordkeeping system, as the case may be, to the extent and as provided for in any applicable law, including the Federal Electronic Signatures in Global and National Commerce Act, the New York State Electronic Signatures and Records Act, or any other similar state laws based on the Uniform Electronic Transactions Act; provided that nothing herein shall require the Lender to accept electronic signatures in any form or format without its prior written consent. For the purposes hereof, “Electronic Signatures” means an electronic sound, symbol, or process attached to, or associated with, a contract or other record and adopted by a Person with the intent to sign, authenticate or accept such contract or record. Each of the parties hereto represents and warrants to the other parties hereto that it has the corporate capacity and authority to execute the Amendment through electronic means and there are no
+First Amendment to Credit Agreement – Page 4
+restrictions for doing so in that party’s constitutive documents. Without limiting the generality of the foregoing, Borrower hereby (i) agrees that, for all purposes, including without limitation, in connection with any workout, restructuring, enforcement of remedies, bankruptcy proceedings or litigation among the Lender and Borrower, electronic images of this Amendment or any other Loan Document (in each case, including with respect to any signature pages thereto) shall have the same legal effect, validity and enforceability as any paper original, and (ii) waives any argument, defense or right to contest the validity or enforceability of any Loan Document based solely on the lack of paper original copies of such Loan Document, including with respect to any signature pages thereto. Any party sending an executed counterpart of a signature page to this Amendment by facsimile, pdf, tiff, Electronic Signature or any other electronic means shall also send the original thereof to Lender within five (5) days following Lender’s request therefor, but failure to do so shall not affect the validity, enforceability, or binding effect of this Amendment.
+Section 5.8      Headings . The headings, captions, and arrangements used in this Amendment are for convenience only and shall not affect the interpretation of this Amendment.
+Section 5.9      ENTIRE AGREEMENT . THIS AMENDMENT AND THE OTHER LOAN DOCUMENTS EXECUTED AND DELIVERED IN CONNECTION WITH THIS AMENDMENT AND THE OTHER LOAN DOCUMENTS REPRESENT THE FINAL AGREEMENT AMONG THE PARTIES HERETO AND MAY NOT BE CONTRADICTED OR VARIED BY EVIDENCE OF PRIOR, CONTEMPORANEOUS OR SUBSEQUENT ORAL AGREEMENTS OR DISCUSSIONS OF THE PARTIES HERETO. THERE ARE NO UNWRITTEN ORAL AGREEMENTS AMONG THE PARTIES HERETO.
+[ Signature Pages Follow ]
+First Amendment to Credit Agreement – Page 5
+Executed as of the date first written above.
+| BORROWER : |
+| --- |
+| EDUCATIONAL DEVELOPMENT CORPORATION ,   a Delaware corporation |
+| By:       /s/ Craig White |
+| Name: Craig White |
+| Title: President & Chief Executive Officer |
+| LENDER : |
+| --- |
+| BOKF, NA DBA BANK OF OKLAHOMA ,   a Delaware corporation |
+| By:      /s/ Spenser Boan |
+| Name: Spenser Boan   Title: Vice President |
+First Amendment to Credit Agreement –Signature Page

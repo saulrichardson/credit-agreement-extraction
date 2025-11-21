@@ -13,7 +13,7 @@ List the anchors whose text directly contains the core loan terms of the facilit
 - Whether the loan is fixed or floating
 - Basic borrowing mechanics (e.g., “The Loans shall be made on the Closing Date”)
 - Descriptions of the facilities (e.g., “Term Loan Commitment of $200,000,000”)
-- Names of the Lenders, Administrative Agent, or Collateral Agent as stated in the agreement
+- Explicit names of the Borrower, each Lender, the Administrative Agent, or the Collateral Agent as spelled out in the agreement (capture the anchor even if the sentence is mostly ceremonial)
 
 Do NOT include:
 

@@ -1,0 +1,175 @@
+{
+  "issuer": "Connecticut Light and Power Company et al.",
+  "agreement": {
+    "title": "Credit Agreement dated November 10, 2003",
+    "section_refs": [
+      "Exhibit s000001 pricing grid",
+      "Section 1.01 - Definitions",
+      "Section 2.01 - Commitments",
+      "Section 2.02 - Fees",
+      "Section 3.05 - Interest"
+    ],
+    "currency": "USD",
+    "as_of_date": "2003-11-10"
+  },
+  "metrics": [
+    {
+      "name": "IndexDebtRatingScore",
+      "definition": "Non-Compustat ordinal rating index derived from external credit ratings (S&P/Moodys) used to determine pricing tiers.",
+      "formula": "Not derived from Compustat; rating-based tier determined by external ratings.",
+      "units": "rating_index",
+      "requires_non_compustat": true,
+      "compustat_mapping": [],
+      "notes": [
+        "Level I corresponds to S&P A- or higher and Moody's A3 or higher",
+        "Level II corresponds to S&P BBB+ and Moody's baa1",
+        "Level III corresponds to S&P BBB and Moody's baa2",
+        "Level IV corresponds to S&P BBB- and Moody's baa3",
+        "Level V corresponds to S&P BB+ or lower and Moody's Ba1 or lower"
+      ],
+      "source_refs": [
+        "s000010",
+        "s000006"
+      ]
+    }
+  ],
+  "tier_schemes": [
+    {
+      "scheme_id": "RatingBasedIndexScheme",
+      "classification": "ratings_based",
+      "tiers": [
+        {
+          "tier_id": "level_i",
+          "display": "Level I",
+          "conditions": [
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": "==",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "tier_id": "level_ii",
+          "display": "Level II",
+          "conditions": [
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": "==",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "tier_id": "level_iii",
+          "display": "Level III",
+          "conditions": [
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": "==",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "tier_id": "level_iv",
+          "display": "Level IV",
+          "conditions": [
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": "==",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "tier_id": "level_v",
+          "display": "Level V",
+          "conditions": [
+            {
+              "metric": "IndexDebtRatingScore",
+              "op": "==",
+              "value": 5
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "s000010",
+        "s000006"
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "facility_id": "MainCreditFacilityUSD",
+      "committed_amount": 300000000,
+      "currency": "USD",
+      "maturity_date": "2004-11-08",
+      "rate_type": "floating",
+      "rates": [
+        {
+          "rate_id": "FacilityFeeRate",
+          "type": "fee",
+          "tier_scheme_ref": "RatingBasedIndexScheme",
+          "by_level": [
+            { "tier_id": "level_i", "bps": 10 },
+            { "tier_id": "level_ii", "bps": 12.5 },
+            { "tier_id": "level_iii", "bps": 15 },
+            { "tier_id": "level_iv", "bps": 20 },
+            { "tier_id": "level_v", "bps": 50 }
+          ],
+          "fee_basis": "total_commitments",
+          "calculation_basis": "per_annum",
+          "units": "bps",
+          "tier_scheme_ref": "RatingBasedIndexScheme",
+          "source_refs": [
+            "s000006",
+            "s000010"
+          ]
+        },
+        {
+          "rate_id": "EurodollarMargin",
+          "type": "margin",
+          "tier_scheme_ref": "RatingBasedIndexScheme",
+          "base_rate": "Term SOFR",
+          "base_rate_type": "sofr",
+          "units": "bps",
+          "by_level": [
+            { "tier_id": "level_i", "bps": 60 },
+            { "tier_id": "level_ii", "bps": 75 },
+            { "tier_id": "level_iii", "bps": 85 },
+            { "tier_id": "level_iv", "bps": 105 },
+            { "tier_id": "level_v", "bps": 150 }
+          ],
+          "source_refs": [
+            "s000008",
+            "s000010"
+          ]
+        },
+        {
+          "rate_id": "BaseRateMargin",
+          "type": "margin",
+          "tier_scheme_ref": "RatingBasedIndexScheme",
+          "base_rate": "Base Rate",
+          "base_rate_type": "prime",
+          "units": "bps",
+          "by_level": [
+            { "tier_id": "level_i", "bps": 0 },
+            { "tier_id": "level_ii", "bps": 0 },
+            { "tier_id": "level_iii", "bps": 0 },
+            { "tier_id": "level_iv", "bps": 5 },
+            { "tier_id": "level_v", "bps": 50 }
+          ],
+          "source_refs": [
+            "s000008",
+            "s000010"
+          ]
+        }
+      ],
+      "notes": [
+        "Pricing grid based on external rating levels (IndexDebtRatingScore) as specified in the Applicable Facility Fee Rate and Applicable Margin tables."
+      ]
+    }
+  ]
+}

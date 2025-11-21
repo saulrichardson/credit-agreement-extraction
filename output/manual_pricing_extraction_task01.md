@@ -1,0 +1,62 @@
+# Manual Performance-Pricing Extraction – Task 01
+
+## Extracted Pricing Data (Minimal Columns)
+
+| accession            | table_reference                                      | tier_label       | metric_name                                             | value_percent   | snippet_context                                                                                                                 |
+|:---------------------|:-----------------------------------------------------|:-----------------|:--------------------------------------------------------|:----------------|:--------------------------------------------------------------------------------------------------------------------------------|
+| 0001731122-23-000003 | Definition of “Unused Fee Rate” (Article 1)          | I                | Unused Fee Rate                                         | 0.250%          | Unused Fee Rate grid (0001731122-23-000003/EX-10.1.html:4768-4790) — Outstanding credit exposure ≤ 50.0%                        |
+| 0001731122-23-000003 | Definition of “Unused Fee Rate” (Article 1)          | II               | Unused Fee Rate                                         | 0.150%          | Unused Fee Rate grid (0001731122-23-000003/EX-10.1.html:4768-4790) — Outstanding credit exposure > 50.0%                        |
+| 0001193125-23-000306 | Applicable Margin – Fixed Charge Coverage Ratio grid | I                | Base Rate Margin                                        | 0.250%          | Applicable Margin table (0001193125-23-000306/EX-10.1.html:2665-2721) — Fixed Charge Coverage Ratio > 2.25:1.00                 |
+| 0001193125-23-000306 | Applicable Margin – Fixed Charge Coverage Ratio grid | I                | Non-Base Rate Margin                                    | 1.250%          | Applicable Margin table (0001193125-23-000306/EX-10.1.html:2665-2721) — Fixed Charge Coverage Ratio > 2.25:1.00                 |
+| 0001193125-23-000306 | Applicable Margin – Fixed Charge Coverage Ratio grid | II               | Base Rate Margin                                        | 0.500%          | Applicable Margin table (0001193125-23-000306/EX-10.1.html:2665-2721) — Fixed Charge Coverage Ratio < 2.25:1.00 and > 1.50:1.00 |
+| 0001193125-23-000306 | Applicable Margin – Fixed Charge Coverage Ratio grid | II               | Non-Base Rate Margin                                    | 1.500%          | Applicable Margin table (0001193125-23-000306/EX-10.1.html:2665-2721) — Fixed Charge Coverage Ratio < 2.25:1.00 and > 1.50:1.00 |
+| 0001193125-23-000306 | Applicable Margin – Fixed Charge Coverage Ratio grid | III              | Base Rate Margin                                        | 0.750%          | Applicable Margin table (0001193125-23-000306/EX-10.1.html:2665-2721) — Fixed Charge Coverage Ratio < 1.50:1.00                 |
+| 0001193125-23-000306 | Applicable Margin – Fixed Charge Coverage Ratio grid | III              | Non-Base Rate Margin                                    | 1.750%          | Applicable Margin table (0001193125-23-000306/EX-10.1.html:2665-2721) — Fixed Charge Coverage Ratio < 1.50:1.00                 |
+| 0001140361-23-000046 | Applicable Margin – Base Status grid                 | Level I Status   | Term Benchmark Loans, RFR Loans, and Money Market Loans | 0.700%          | Applicable Margin – Base Status grid (0001140361-23-000046/EX-10.1.html:1411-1480)                                              |
+| 0001140361-23-000046 | Applicable Margin – Base Status grid                 | Level II Status  | Term Benchmark Loans, RFR Loans, and Money Market Loans | 0.725%          | Applicable Margin – Base Status grid (0001140361-23-000046/EX-10.1.html:1411-1480)                                              |
+| 0001140361-23-000046 | Applicable Margin – Base Status grid                 | Level III Status | Term Benchmark Loans, RFR Loans, and Money Market Loans | 0.775%          | Applicable Margin – Base Status grid (0001140361-23-000046/EX-10.1.html:1411-1480)                                              |
+| 0001140361-23-000046 | Applicable Margin – Base Status grid                 | Level IV Status  | Term Benchmark Loans, RFR Loans, and Money Market Loans | 0.850%          | Applicable Margin – Base Status grid (0001140361-23-000046/EX-10.1.html:1411-1480)                                              |
+| 0001140361-23-000046 | Applicable Margin – Base Status grid                 | Level V Status   | Term Benchmark Loans, RFR Loans, and Money Market Loans | 1.050%          | Applicable Margin – Base Status grid (0001140361-23-000046/EX-10.1.html:1411-1480)                                              |
+| 0001140361-23-000046 | Applicable Margin – Base Status grid                 | Level VI Status  | Term Benchmark Loans, RFR Loans, and Money Market Loans | 1.400%          | Applicable Margin – Base Status grid (0001140361-23-000046/EX-10.1.html:1411-1480)                                              |
+| 0001140361-23-000046 | Applicable Margin – Base Status grid                 | Level I Status   | ABR Loans and Canadian Prime Rate Loans                 | 0.000%          | Applicable Margin – Base Status grid (0001140361-23-000046/EX-10.1.html:1411-1480)                                              |
+| 0001140361-23-000046 | Applicable Margin – Base Status grid                 | Level II Status  | ABR Loans and Canadian Prime Rate Loans                 | 0.000%          | Applicable Margin – Base Status grid (0001140361-23-000046/EX-10.1.html:1411-1480)                                              |
+| 0001140361-23-000046 | Applicable Margin – Base Status grid                 | Level III Status | ABR Loans and Canadian Prime Rate Loans                 | 0.000%          | Applicable Margin – Base Status grid (0001140361-23-000046/EX-10.1.html:1411-1480)                                              |
+| 0001140361-23-000046 | Applicable Margin – Base Status grid                 | Level IV Status  | ABR Loans and Canadian Prime Rate Loans                 | 0.000%          | Applicable Margin – Base Status grid (0001140361-23-000046/EX-10.1.html:1411-1480)                                              |
+| 0001140361-23-000046 | Applicable Margin – Base Status grid                 | Level V Status   | ABR Loans and Canadian Prime Rate Loans                 | 0.050%          | Applicable Margin – Base Status grid (0001140361-23-000046/EX-10.1.html:1411-1480)                                              |
+| 0001140361-23-000046 | Applicable Margin – Base Status grid                 | Level VI Status  | ABR Loans and Canadian Prime Rate Loans                 | 0.400%          | Applicable Margin – Base Status grid (0001140361-23-000046/EX-10.1.html:1411-1480)                                              |
+| 0001140361-23-000046 | Facility Fee Rate grid                               | Level I Status   | Facility Fee Rate                                       | 0.100%          | Facility Fee Rate definition (0001140361-23-000046/EX-10.1.html:2025-2073)                                                      |
+| 0001140361-23-000046 | Facility Fee Rate grid                               | Level II Status  | Facility Fee Rate                                       | 0.125%          | Facility Fee Rate definition (0001140361-23-000046/EX-10.1.html:2025-2073)                                                      |
+| 0001140361-23-000046 | Facility Fee Rate grid                               | Level III Status | Facility Fee Rate                                       | 0.150%          | Facility Fee Rate definition (0001140361-23-000046/EX-10.1.html:2025-2073)                                                      |
+| 0001140361-23-000046 | Facility Fee Rate grid                               | Level IV Status  | Facility Fee Rate                                       | 0.200%          | Facility Fee Rate definition (0001140361-23-000046/EX-10.1.html:2025-2073)                                                      |
+| 0001140361-23-000046 | Facility Fee Rate grid                               | Level V Status   | Facility Fee Rate                                       | 0.250%          | Facility Fee Rate definition (0001140361-23-000046/EX-10.1.html:2025-2073)                                                      |
+| 0001140361-23-000046 | Facility Fee Rate grid                               | Level VI Status  | Facility Fee Rate                                       | 0.300%          | Facility Fee Rate definition (0001140361-23-000046/EX-10.1.html:2025-2073)                                                      |
+| 0001140361-23-000046 | L/C Fee Rate – Base Status grid                      | Level I Status   | L/C Fee Rate                                            | 0.700%          | L/C Fee Rate – Base Status grid (0001140361-23-000046/EX-10.1.html:2282-2332)                                                   |
+| 0001140361-23-000046 | L/C Fee Rate – Base Status grid                      | Level II Status  | L/C Fee Rate                                            | 0.725%          | L/C Fee Rate – Base Status grid (0001140361-23-000046/EX-10.1.html:2282-2332)                                                   |
+| 0001140361-23-000046 | L/C Fee Rate – Base Status grid                      | Level III Status | L/C Fee Rate                                            | 0.775%          | L/C Fee Rate – Base Status grid (0001140361-23-000046/EX-10.1.html:2282-2332)                                                   |
+| 0001140361-23-000046 | L/C Fee Rate – Base Status grid                      | Level IV Status  | L/C Fee Rate                                            | 0.850%          | L/C Fee Rate – Base Status grid (0001140361-23-000046/EX-10.1.html:2282-2332)                                                   |
+| 0001140361-23-000046 | L/C Fee Rate – Base Status grid                      | Level V Status   | L/C Fee Rate                                            | 1.050%          | L/C Fee Rate – Base Status grid (0001140361-23-000046/EX-10.1.html:2282-2332)                                                   |
+| 0001140361-23-000046 | L/C Fee Rate – Base Status grid                      | Level VI Status  | L/C Fee Rate                                            | 1.400%          | L/C Fee Rate – Base Status grid (0001140361-23-000046/EX-10.1.html:2282-2332)                                                   |
+
+## Accession Narratives
+
+### 0001731122-23-000003 – Landsea Homes / Western Alliance Bank
+- Source: `scratch/20230103/0001731122-23-000003/EX-10.1.html` (Sixth Amendment Agreement dated 2022-12-29).
+- Located definition of “Unused Fee Rate” at Article 1 (`lines 4763-4790`); grid ties fee to outstanding credit exposure of commitments (Pricing Level I ≤50% at 0.25%, Level II >50% at 0.15%). No other tiers or footnotes adjust this fee.
+
+### 0001140361-23-000046 – Kimco Realty OP / JPMorgan (Amendment No. 3)
+- Source: `scratch/20230103/0001140361-23-000046/EX-10.1.html`.
+- Applicable Margin base Status grid at `lines 1411-1480` (Term Benchmark/RFR/Money Market vs. ABR/Canadian Prime).
+- Facility Fee Rate grid at `lines 2025-2073`.
+- L/C Fee Rate base grid at `lines 2282-2332` (level-based letter of credit fee spreads).
+- Note: Exhibit also contains an optional Sustainability Metric grid and related 1 bp adjustments (`lines 1485-1560` and `2335-2389`); excluded here per “core pricing only” scope.
+
+### 0001193125-23-000306 – NOW Inc. / Wells Fargo (Second Amendment)
+- Source: `scratch/20230103/0001193125-23-000306/EX-10.1.html` (Second Amendment dated 2022-12-29).
+- “Applicable Margin” Fixed Charge Coverage Ratio grid at `lines 2665-2721` (Levels I–III for Base Rate and Non-Base Rate Loans). `Lines 2723-2727` set the reset to Level III if the quarterly compliance certificate is late until delivered.
+- No separate commitment fee grid in this amendment; pricing tiers are limited to this table.
+
+### Accessions Without Pricing Tables (documented for traceability)
+- 0001193125-23-000804: Only XBRL exhibits (`EX-101.SCH/LAB/PRE`); no EX-10 present in `…/000804.nc`.
+- 0001287032-23-000003: Only XBRL exhibits (`EX-101.SCH/DEF/LAB/PRE`); no EX-10 in `…/000003.nc`.
+- 0001193125-23-000686: Credit agreement sets fixed margins (1.95% SOFR, 0.95% Reference Rate at `lines 1951-1953`) with no tiered grid.
+- 0001861449-23-000002: Amendment No. 8 (`EX-10.9.html:73-90`) defines “Applicable Margin means 7.50% per annum” only; no grid.

@@ -1,0 +1,70 @@
+# Searches for wyeth
+
+## term: total debt
+
+(no matches)
+
+
+## term: leverage
+
+(no matches)
+
+
+## term: ebitda
+
+(no matches)
+
+
+## term: coverage
+
+(no matches)
+
+
+## term: utilization
+
+(no matches)
+
+
+## term: rating
+
+0013: ⟦s000013⟧ "applicable margin": for any day, (x) in the case of alternate base rate loans, the rate per annum that is the higher of (i) 0% and (ii) 1.25% less than the applicable margin for eurodollar loans at such time and (y) in the case of eurodollar loans, the rate per annum set forth below opposite the rating period then in effect, provided that (1) during a significant usage period, the applicable margin for all such loans shall be increased by .
+0015: ⟦s000015⟧ 500%: eurodollar rating rate period margin ----------------------------------------- ------------------------- category a period .
+0028: ⟦s000028⟧ "category a period": subject to the category rules, at any time that either (i) the s&p credit rating is a or better and the short-term ratings are tier i or (ii) the moody's credit rating is a2 or better and the short-term ratings are tier i.
+0029: ⟦s000029⟧ "category b period": subject to the category rules, at any time that either (i) the s&p credit rating is a- or better or (ii) the moody's credit rating is a3 or better and in either case a category a period is not then in effect.
+0030: ⟦s000030⟧ "category c period": subject to the category rules, at any time that either (i) the s&p credit rating is bbb+ or (ii) the moody's credit rating is baa1.
+0031: ⟦s000031⟧ "category d period": subject to the category rules, at any time that either (i) the s&p credit rating is bbb or (ii) the moody's credit rating is baa2.
+0032: ⟦s000032⟧ "category e period": subject to the category rules, at any time that either (i) the s&p credit rating is bbb- or lower or (ii) the moody's credit rating is baa3 or lower.
+0033: ⟦s000033⟧ "category rules": the rating period applicable at any time shall be: (a) except as provided in clause (b), (c) and (d) below, the highest rating period for which the company meets either of the criteria set forth for such rating period, (b) except as provided in clauses (c) and (d) below, if the credit ratings differ by two or more rating period levels, the rating period which is one rating period above the rating period in which the lower credit ratings falls, (c) if one of the credit ratings falls in a category e period and the other credit rating falls in a higher rating period, a category e period and (d) if either s&p or moody's fails to have outstanding at the time a credit rating due to the failure by the company to provide requested information to, or otherwise to fully cooperate with, such rating agency in establishing a credit rating, a category e period. if the rating system of moody's, s&p and/or fitch shall change, or if any such rating agency shall cease to be in the business of rating corporate debt obligations, or if both moody's and s&p shall fail to have outstanding a credit rating (other than by reason of the circumstances referred to in clause (d) of the preceding sentence), the company and the lenders shall negotiate in good faith to amend this definition to reflect such changed rating system or the unavailability of ratings from such rating agency and, pending the effectiveness of any such amendment, the applicable rating period shall be determined by reference to the ratings most recently in effect prior to such change or cessation.
+0051: ⟦s000051⟧ "credit ratings": at any time, the then moody's credit rating and the then s&p credit rating.
+0089: ⟦s000089⟧ "moody's": moody's investors service, inc. "moody's credit rating": at any time, the rating level (it being understood that numerical modifiers and (+) (-) modifiers shall constitute rating levels) then assigned by moody's to the company's senior unsecured long-term debt.
+0099: ⟦s000099⟧ "rating period": at any time, any of the category a period, the category b period, the category c period, the category d period or the category e period as then in effect.
+0112: ⟦s000112⟧ "s&p": standard & poor's ratings services, a division of mcgraw-hill, inc. "s&p credit rating": at any time, the rating level (it being understood that numerical modifiers and (+) (-) modifiers shall constitute rating levels) then assigned by s&p to the company's senior unsecured long-term debt.
+0114: ⟦s000114⟧ "short-term ratings": at any time, the rating level then assigned by each of s&p, moody's and fitch to the company's senior unsecured short-term debt.
+0125: ⟦s000125⟧ "tier i": at any time when at least two of the short-term ratings are at or above the a-1, p-1 or f-1 levels.
+
+
+## term: category
+
+0015: ⟦s000015⟧ 500%: eurodollar rating rate period margin ----------------------------------------- ------------------------- category a period .
+0016: ⟦s000016⟧ 40% category b period .
+0017: ⟦s000017⟧ 625% category c period .
+0018: ⟦s000018⟧ 850% category d period 1.075% category e period 1.300% "base c/d rate": as defined in the definition of alternate base rate.
+0028: ⟦s000028⟧ "category a period": subject to the category rules, at any time that either (i) the s&p credit rating is a or better and the short-term ratings are tier i or (ii) the moody's credit rating is a2 or better and the short-term ratings are tier i.
+0029: ⟦s000029⟧ "category b period": subject to the category rules, at any time that either (i) the s&p credit rating is a- or better or (ii) the moody's credit rating is a3 or better and in either case a category a period is not then in effect.
+0030: ⟦s000030⟧ "category c period": subject to the category rules, at any time that either (i) the s&p credit rating is bbb+ or (ii) the moody's credit rating is baa1.
+0031: ⟦s000031⟧ "category d period": subject to the category rules, at any time that either (i) the s&p credit rating is bbb or (ii) the moody's credit rating is baa2.
+0032: ⟦s000032⟧ "category e period": subject to the category rules, at any time that either (i) the s&p credit rating is bbb- or lower or (ii) the moody's credit rating is baa3 or lower.
+0033: ⟦s000033⟧ "category rules": the rating period applicable at any time shall be: (a) except as provided in clause (b), (c) and (d) below, the highest rating period for which the company meets either of the criteria set forth for such rating period, (b) except as provided in clauses (c) and (d) below, if the credit ratings differ by two or more rating period levels, the rating period which is one rating period above the rating period in which the lower credit ratings falls, (c) if one of the credit ratings falls in a category e period and the other credit rating falls in a higher rating period, a category e period and (d) if either s&p or moody's fails to have outstanding at the time a credit rating due to the failure by the company to provide requested information to, or otherwise to fully cooperate with, such rating agency in establishing a credit rating, a category e period. if the rating system of moody's, s&p and/or fitch shall change, or if any such rating agency shall cease to be in the business of rating corporate debt obligations, or if both moody's and s&p shall fail to have outstanding a credit rating (other than by reason of the circumstances referred to in clause (d) of the preceding sentence), the company and the lenders shall negotiate in good faith to amend this definition to reflect such changed rating system or the unavailability of ratings from such rating agency and, pending the effectiveness of any such amendment, the applicable rating period shall be determined by reference to the ratings most recently in effect prior to such change or cessation.
+0063: ⟦s000063⟧ "facility fee percentage": a percentage equal to at any time (i) during a category a period, .
+0064: ⟦s000064⟧ 100%, (ii) during a category b period, .
+0065: ⟦s000065⟧ 125%, (iii) during a category c period, .
+0066: ⟦s000066⟧ 150%, (iv) during a category d period, .
+0067: ⟦s000067⟧ 175% and (v) during a category e period, .
+0099: ⟦s000099⟧ "rating period": at any time, any of the category a period, the category b period, the category c period, the category d period or the category e period as then in effect.
+0190: ⟦s000190⟧ (b) in addition to amounts which may become payable from time to time pursuant to paragraph (a) of this subsection, the company agrees to pay to each lender which requests compensation under this paragraph (b) (by notice to the company), on the last day of each interest period with respect to any eurodollar loan made by such lender, so long as such lender shall be required to maintain reserves against "eurocurrency liabilities" under regulation d of the board of governors of the federal reserve system (or, so long as such lender may be required by such board of governors or by any other governmental authority to maintain reserves against any other category of liabilities which includes deposits by reference to which the interest rate on eurodollar loans is determined as provided in this agreement or against any category of extensions of credit or other assets of such lender which includes any eurodollar loans), an additional amount (determined by such lender and notified to the company) representing such lender's calculation or, if an accurate calculation is impracticable, reasonable estimate (using such reasonable means of allocation as such lender shall determine) of the actual costs, if any, incurred by such lender during such interest period as a result of the applicability of the foregoing reserves to such eurodollar loans, which amount in any event shall not exceed the product of the following for each day of such interest period: (i) the principal amount of the eurodollar loans made by such lender to which such interest period relates outstanding on such day; and (ii) the difference between (x) a fraction (expressed as a decimal) the numerator of which is the eurodollar rate (expressed as a decimal) applicable to such eurodollar loan and the denominator of which is one minus the maximum rate (expressed as a decimal) at which such reserve requirements are imposed by such board of governors or other governmental authority on such date minus (y) such numerator; and (iii) a fraction the numerator of which is one and the denominator of which is 360.
+
+
+## term: grid
+
+(no matches)
+

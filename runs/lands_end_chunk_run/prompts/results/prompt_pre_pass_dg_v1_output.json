@@ -1,89 +1,11 @@
 {
-  "doc_info": {
-    "title_guess": "TERM LOAN CREDIT AGREEMENT (Execution Version)",
-    "issuer_guess": "LANDS’ END, INC.",
-    "currency_guess": "USD"
-  },
-  "is_credit_agreement": true,
-  "credit_agreement_confidence": 0.92,
-  "has_performance_pricing": true,
-  "detected_base_rates": [
-    "Term SOFR",
-    "Prime Rate",
-    "Base Rate"
-  ],
-  "detected_metrics": [
-    "Total Leverage Ratio",
-    "Consolidated EBITDA",
-    "Excess Cash Flow",
-    "Minimum Liquidity"
-  ],
-  "has_financial_covenants": true,
-  "financial_covenant_candidates": [
-    {
-      "covenant_type_guess": "maintenance",
-      "metrics_mentioned": [
-        "Total Leverage Ratio"
-      ],
-      "pages": [],
-      "section_ref_guess": "7.15",
-      "raw_snippet": "7.15 Financial Covenants The Maximum Total Leverage Ratio is set with a series of measurement periods and targets. The following table illustrates the targets: | Measurement Period ending | Total Leverage Ratio | May 3, 2024 | 5.50:1.00 | August 2, 2024 | 5.50:1.00 | November 1, 2024 | 6.00:1.00 | January 31, 2025 | 5.25:1.00 | May 2, 2025 | 5.25:1.00 | ... | February 2, 2029 | 4.25:1.00 |",
-      "confidence": 0.65
-    },
-    {
-      "covenant_type_guess": "maintenance",
-      "metrics_mentioned": [
-        "Minimum Liquidity"
-      ],
-      "pages": [],
-      "section_ref_guess": "7.1",
-      "raw_snippet": "7.1 Minimum Liquidity Permits Liquidity, as of the last Business Day of each Fiscal Month, to be less than $50,000,000.",
-      "confidence": 0.65
-    }
-  ],
-  "facility_summaries": [
-    {
-      "facility_name": "Term Loan Facility",
-      "committed_amount_text": "$260,000,000",
-      "currency_guess": "USD",
-      "maturity_text": "five years after the Closing Date",
-      "rate_type_guess": "floating",
-      "pages": [],
-      "confidence": 0.90
-    }
-  ],
-  "candidates": [
-    {
-      "type": "pricing_grid_table",
-      "pages": [],
-      "section_ref_guess": "Article I - Applicable Margin",
-      "scheme_hint": "grid_lookup",
-      "keywords": [
-        "Applicable Margin",
-        "Total Leverage Ratio",
-        "Tier I",
-        "Tier II",
-        "Tier III",
-        "SOFR",
-        "Base Rate"
-      ],
-      "raw_snippet": "Pricing level | Total Leverage Ratio | Base Rate Loans | SOFR Loans | --- | --- | --- | --- | I | ≥ 2.75 to 1.00 | 7.25% | 8.25% | II | < 2.75 to 1.00 and ≥ 2.25 to 1.00 | 7.00% | 8.00% | III | < 2.25 to 1.00 | 6.75% | 7.75% |",
-      "confidence": 0.90
-    },
-    {
-      "type": "base_rate_definition",
-      "pages": [],
-      "section_ref_guess": "Article I Definitions",
-      "scheme_hint": "single_metric",
-      "keywords": [
-        "Base Rate",
-        "Prime Rate",
-        "Federal Funds Rate",
-        "Term SOFR",
-        "Floor"
-      ],
-      "raw_snippet": "\"Base Rate\" means for any day a floating rate equal to the greater of (i) the Prime Rate in effect on such date (or ...), (ii) the Federal Funds Rate in effect on such day, plus 1/2 of 1%, and (iii) Term SOFR for a one-month tenor in effect on such day (or if such day is not a Business Day, the immediately preceding Business Day) (taking into account the Floor) plus 1% per annum; provided, further, that if at any time Term SOFR is not available, Base Rate shall be calculated without reference to clause (c) above.",
-      "confidence": 0.60
-    }
-  ]
+  "is_credit_agreement": false,
+  "credit_agreement_confidence": 0.15,
+  "has_performance_pricing": false,
+  "detected_base_rates": [],
+  "detected_metrics": [],
+  "has_financial_covenants": false,
+  "financial_covenant_candidates": [],
+  "facility_summaries": [],
+  "candidates": []
 }

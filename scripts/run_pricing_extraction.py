@@ -16,6 +16,8 @@ from edgar_filing_pipeline.prompt_view import (
     slice_by_anchor_range,
 )
 
+DEFAULT_FIRST_PASS_GROUPS: tuple[str, ...] = ("fundamental_anchors", "pricing_anchors")
+
 DEFAULT_PROMPT_PATH = Path("prompts/extraction.txt")
 DEFAULT_PROMPT_VIEW = Path("docs/artifacts/semantic/prompt_view.txt")
 DEFAULT_SEMANTIC_SCORES = Path("docs/artifacts/semantic/semantic_scores.txt")
@@ -136,25 +138,53 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--pricing-anchor-groups",
         dest="pricing_anchor_groups",
-        default="fundamental_anchors,pricing_anchors",
-        help="Comma-separated JSON keys to pull from --first-pass-result for pricing context.",
+        default=",".join(DEFAULT_FIRST_PASS_GROUPS),
+        help=(
+            "Comma-separated JSON keys to pull from --first-pass-result for pricing context "
+            "(default: fundamental_anchors,pricing_anchors)."
+        ),
+    )
+    parser.add_argument(
+        "--include-covenant-anchors",
+        action="store_true",
+        help="When set, include financial_covenant_anchors when merging first-pass results.",
     )
     parser.add_argument(
         "--anchor-bandwidth",
         dest="anchor_bandwidth",
         type=int,
-        default=1,
-        help="Number of neighbouring anchors to include on each side when materialising anchor snippets.",
+        default=2,
+        help=(
+            "Number of neighbouring anchors to include on each side when materialising anchor snippets "
+            "(default: 2)."
+        ),
     )
     parser.add_argument("--output", type=Path, default=None, help="Optional output JSON path")
     args = parser.parse_args()
-    args.pricing_anchor_groups = [
+    raw_groups = [
         group.strip()
         for group in str(args.pricing_anchor_groups).split(",")
         if group.strip()
     ]
+    deduped_groups: list[str] = []
+    for group in raw_groups:
+        if group not in deduped_groups:
+            deduped_groups.append(group)
+
+    if args.include_covenant_anchors:
+        if "financial_covenant_anchors" not in deduped_groups:
+            deduped_groups.append("financial_covenant_anchors")
+    else:
+        if "financial_covenant_anchors" in deduped_groups:
+            deduped_groups = [
+                group for group in deduped_groups if group != "financial_covenant_anchors"
+            ]
+
+    args.pricing_anchor_groups = deduped_groups
     if args.first_pass_result and not args.pricing_anchor_groups:
-        raise SystemExit("At least one pricing anchor group must be specified when using --first-pass-result.")
+        raise SystemExit(
+            "At least one pricing anchor group must be specified when using --first-pass-result."
+        )
     return args
 
 

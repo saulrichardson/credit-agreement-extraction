@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import json
 import os
-import re
 import time
 from dataclasses import dataclass
 from pathlib import Path
@@ -82,15 +81,17 @@ class SupportMapper:
         raise RuntimeError(f"Support mapping failed for claim {claim.index}: {last_error}")
 
 
-CLAUSE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+(?=[A-Z0-9])")
+from .text_segments import sentence_boundaries
 
 
 def split_prose(text: str) -> List[Claim]:
-    sentences = []
-    for idx, chunk in enumerate(CLAUSE_SPLIT_RE.split(text.strip()), start=1):
-        stripped = chunk.strip()
-        if stripped:
-            sentences.append(Claim(text=stripped, index=idx))
+    if not text.strip():
+        return []
+    sentences: List[Claim] = []
+    for idx, (start, end) in enumerate(sentence_boundaries(text), start=1):
+        chunk = text[start:end].strip()
+        if chunk:
+            sentences.append(Claim(text=chunk, index=idx))
     return sentences
 
 

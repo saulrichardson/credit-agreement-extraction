@@ -8,3 +8,15 @@ __pycache__/
 *.egg-info/
 data/
 .env
+
+# OS junk
+.DS_Store
+**/.DS_Store
+
+# Generated outputs
+output/**/*.csv
+output/**/*.xls*
+
+# Scratch & logs
+scratch/
+logs/

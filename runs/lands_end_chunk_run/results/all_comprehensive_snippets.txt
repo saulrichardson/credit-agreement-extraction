@@ -1,0 +1,144 @@
+### Fundamental Anchors
+
+⟦s000003⟧ Execution Version
+⟦s000004⟧ TERM LOAN CREDIT AGREEMENT
+⟦s000005⟧ Dated as of December 29, 2023
+⟦s000006⟧ among
+⟦s000007⟧ LANDS’ END, INC.
+
+⟦s000086⟧ The registrant agrees to furnish supplementally a copy of all omitted exhibits and schedules to the Securities and Exchange Commission upon request.
+⟦s000087⟧ - v -
+⟦s000088⟧ TERM LOAN CREDIT AGREEMENT
+⟦s000089⟧ This TERM LOAN CREDIT AGREEMENT is entered into as of December 29, 2023, among LANDS’ END, INC.
+⟦s000090⟧ , a Delaware corporation (the “ Borrower ”), each Person from time to time party hereto as a lender (collectively, the “ Lenders ” and individually, a “ Lender ”) and BLUE TORCH FINANCE LLC , as administrative agent and collateral agent.
+⟦s000091⟧ W I T N E S S E T H:
+⟦s000092⟧ The Borrower has requested that the Lenders provide a term loan credit facility, and the Lenders have indicated their willingness to lend on the terms and conditions set forth herein.
+⟦s000093⟧ The proceeds of the Loans made on the Closing Date will be used for working capital and other general corporate purposes of the Loan Parties and to refinance Indebtedness under the Existing Term Loan Agreement.
+
+⟦s000218⟧ (b) during any period of 12 consecutive months, a majority of the members of the board of directors or other equivalent governing body of the Borrower cease to be composed of individuals (i) who were members of that board or equivalent governing body on the first day of such period, (ii) whose election or nomination to that board or equivalent governing body was approved by individuals referred to in clause (i) above constituting at the time of such election or nomination at least a majority of that board or equivalent governing body or by a Permitted Holder or (iii) whose election or nomination to that board or other equivalent governing body was approved by individuals referred to in clauses (i) and (ii) above constituting at the time of such election or nomination at least a majority of that board or equivalent governing body or by a Permitted Holder; or
+⟦s000219⟧ (c) any “change in control” or similar event as defined in the ABL Facility or any document governing Material Indebtedness of any Loan Party; or
+⟦s000220⟧ (d) other than in the case of any Permitted Disposition or transaction permitted by Section 7.
+⟦s000221⟧ 4 , the Borrower fails at any time to own, directly or indirectly, 100% of the Equity Interests of the other Loan Parties.
+⟦s000222⟧ “ Closing Date ” means the first date all the conditions precedent in Section 4.
+
+⟦s000493⟧ “ Material Indebtedness ” means Indebtedness (other than the Obligations) of the Loan Parties in an aggregate principal amount exceeding $10,000,000.
+⟦s000494⟧ Notwithstanding the foregoing, any Indebtedness incurred under clause (j) of the definition of “Permitted Indebtedness” shall at all times be deemed Material Indebtedness hereunder.
+⟦s000495⟧ For purposes of determining the amount of Material Indebtedness at any time, (a) the amount of the obligations in respect of any Swap Contract at such time shall be calculated at the Swap Termination Value thereof, (b) undrawn and committed amounts shall be included, and (c) all amounts owing to all creditors under any combined or syndicated credit arrangement shall be included.
+⟦s000496⟧ “ Material Real Estate ” means any piece of Real Estate located in the United States or the United Kingdom that is owned, respectively, in fee or on a freehold basis by a Loan Party having a fair market value in excess of $3,500,000 as reasonably determined, in good faith, by the Borrower and reasonably acceptable to the Agent.
+⟦s000497⟧ For the avoidance of doubt, Material Real Estate shall not include any leased Store.
+⟦s000498⟧ “ Maturity Date ” means with respect to any Term Loans, the date that is five years after the Closing Date; provided that if any such day is not a Business Day, the Maturity Date shall be the Business Day immediately preceding such day.
+⟦s000499⟧ - 27 -
+⟦s000500⟧ “ Maximum ABL Principal Amount ” means, as of any date of determination, (a) one hundred and ten percent (110%) of $275,000,000, minus (b) permanent reductions of revolving loan commitments under the ABL Loan Documents after the date hereof; provided that such commitment reductions are accompanied by principal payments to the extent such principal payments are required pursuant to the ABL Credit Agreement as in effect as of the date hereof (but excluding any permanent reductions made in connection with a Refinancing permitted under Section 7.
+⟦s000501⟧ 12 hereof) plus (c) interest, fees, costs, expenses, indemnities, and such other similar amounts payable pursuant to the terms of the ABL Loan Documents as in effect as of the date hereof (or as amended in accordance with Section 7.
+
+⟦s000795⟧ “ Term Loan ” has the meaning specified in Section 2.
+⟦s000796⟧ 1 .
+⟦s000797⟧ - 46 -
+⟦s000798⟧ “ Term Loan Commitment ” means, as to each Lender, its obligation to make Term Loans to the Borrower pursuant to Section 2.
+⟦s000799⟧ 1 in an aggregate principal amount not to exceed the amount set forth opposite such Lender’s name on Schedule 2.
+
+⟦s000946⟧ 8 ( Compliance with laws ), Section 6.
+⟦s000947⟧ 20 ( OFAC/Sanctions; Anti-Corruption Laws; Anti-Money Laundering Laws ) a Section 7.
+⟦s000948⟧ 20 ( Use of Proceeds ).
+⟦s000949⟧ Article II The Commitments and Credit Extensions
+⟦s000950⟧ 2.
+⟦s000951⟧ 1 The Loans .
+⟦s000952⟧ Subject to the terms and conditions set forth herein, each Lender severally agrees to make a single loan in Dollars (each such loan, a “ Term Loan ”) to the Borrower on the Closing Date, in an amount not to exceed the amount of such Lender’s Term Loan Commitment.
+⟦s000953⟧ Amounts borrowed under this Section 2.
+
+### Pricing Anchors
+
+⟦s000125⟧ Bribery Act of 2010, as amended, and all other applicable laws and regulations or ordinances concerning or relating to bribery or corruption.
+⟦s000126⟧ “ Anti-Money Laundering Laws ” means the applicable laws or regulations that relates to money laundering or any financial record keeping and reporting requirements related thereto.
+⟦s000127⟧ “ Applicable Lenders ” means the Required Lenders, all affected Lenders, or all Lenders, as the context may require.
+⟦s000128⟧ “ Applicable Margin ” means the applicable rate per annum set forth below, based on the Total Leverage Ratio as of the last day of each Measurement Period:
+⟦s000129⟧ ```markdown
+| Pricing level | Total Leverage Ratio | Base Rate Loans | SOFR Loans |
+| --- | --- | --- | --- |
+| I | ≥ 2.75 to 1.00 | 7.25% | 8.25% |
+| II | < 2.75 to 1.00 and ≥ 2.25 to 1.00 | 7.00% | 8.00% |
+| III | < 2.25 to 1.00 | 6.75% | 7.75% |
+```
+
+⟦s000137⟧ 1 and 6.
+⟦s000138⟧ 2 by the dates required pursuant to such sections, the Applicable Margin shall be conclusively presumed to equal the Applicable Margin specified in “Tier I” of the pricing table set forth above until the date of delivery of such financial statements, certificates and/or other information, at which time the rate will be adjusted based upon the Total Leverage Ratio calculated pursuant to such financial statements.
+⟦s000139⟧ “ Applicable Percentage ” means, at any time (a) with respect to any Lender with a Commitment, the percentage equal to a fraction the numerator of which is the amount of such Lender’s Commitment at such time and the denominator of which is the aggregate amount of all Commitments of all Lenders, and (b) with respect to the Loans, a percentage equal to a fraction the numerator of which is such Lender’s Outstanding Amount of the Loans and the denominator of which is the aggregate Outstanding Amount of all Loans.
+⟦s000140⟧ - 3 -
+⟦s000141⟧ “ Applicable Prepayment Premium ” shall mean, with respect to any prepayments of the principal of the Loan in connection with a Prepayment Event occurring prior to the fourth anniversary of the Closing Date, a premium equal to: (a) on any date on or prior to the date that is twelve (12) months after the Closing Date, payment of all interest that would have accrued on the Loans (assuming no change in Term SOFR, and if a Default exists at the time of calculation, assuming that the Default Rate applies) until the date that is twelve (12) months after the Closing Date, plus a premium of three percent (3.
+⟦s000142⟧ 00%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended, (b) after the date that is twelve (12) months after the Closing Date but on or prior to the date that is twenty-four (24) months after the Closing Date (or if such date is not a Business Day, the previous Business Day), two percent (2.
+⟦s000143⟧ 00%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended, (c) after the date that is twenty-four (24) months after the Closing Date but on or prior to the date that is thirty-six (36) months after the Closing Date (or if such date is not a Business Day, the previous Business Day), one percent (1.
+⟦s000144⟧ 00%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended and (d) after the date that is thirty-six (36) months after the Closing Date (or if such date is not a Business Day, the previous Business Day) but on or prior to the date that is forty-eight (48) months after the Closing Date, one-half percent (0.
+⟦s000145⟧ 50%) of the principal amount of the Loan so prepaid, repaid, refinanced or amended, in each case, including such prepayment, repayment, refinancing or amendment in connection with (u) a Change of Control, (v) an acceleration of the Loan as a result of the occurrence of an Event of Default, (w) foreclosure and sale of, or collection of, the Collateral in connection with the exercise of remedies by the Agent and Lenders following an Event of Default, (x) sale of the Collateral in any Insolvency Proceeding of any Loan Party, (y) the restructure, reorganization, or compromise of the Loan by the confirmation of a plan of reorganization or any other plan of compromise, restructure, or arrangement in any Insolvency Proceeding of any Loan Party or any of its Subsidiaries, or (z) the termination of this Agreement for any reason (other than in connection with a repayment in full of the Obligations that would not otherwise constitute a Prepayment Event).
+
+⟦s000155⟧ “ Available Tenor ” means, as of any date of determination and with respect to the then-current Benchmark, as applicable, (x) if any such Benchmark is a term rate, any tenor for such Benchmark (or component thereof) that is or may be used for determining the length of an Interest Period pursuant to this Agreement or (y) otherwise, any payment period for interest calculated with reference to such Benchmark (or component thereof) that is or may be used for determining any frequency of making payments of interests calculated with reference to such Benchmark, in each case, as of such date and not including, for the avoidance of doubt, any tenor for such Benchmark that is then-removed from the definition of “Interest Period” pursuant to clause (e) of Section 2.
+⟦s000156⟧ 14 .
+⟦s000157⟧ “ Bail-In Action ” means the exercise of any Write-Down and Conversion Powers by the applicable EEA Resolution Authority in respect of any liability of an EEA Financial Institution.
+⟦s000158⟧ “ Bail-In Legislation ” means, with respect to any EEA Member Country implementing Article 55 of Directive 2014/59/EU of the European Parliament and of the Council of the European Union, the implementing law for such EEA Member Country from time to time that is described in the EU Bail-In Legislation Schedule.
+⟦s000159⟧ “ Base Rate ” means for any day a floating rate equal to the greater of (i) the Prime Rate in effect on such date (or, if The Wall Street Journal ceases quoting a Prime Rate of the type described, either (A) the per annum rate quoted as the base rate on such corporate loans in a different national publication as reasonably selected by the Agent or (B) the highest per annum rate of interest published by the Federal Reserve Board in Federal Reserve statistical release H.
+⟦s000160⟧ 15 (519) entitled “ Selected Interest Rates ” as the bank prime loan rate or its equivalent), (ii) the Federal Funds Rate in effect on such day, provided that the Federal Funds Rate shall not be less 0.
+⟦s000161⟧ 00 %, plus ½ of 1%, and (iii) Term SOFR for a one-month tenor in effect on such day (or if such day is not a Business Day, the immediately preceding Business Day) (taking into account the Floor) plus one percent (1.
+⟦s000162⟧ 00%) per annum; provided , further , that if at any time Term SOFR is not available, Base Rate shall be calculated without reference to clause (c) above.
+
+⟦s000285⟧ “ Debtor Relief Laws ” means the Bankruptcy Code of the United States, and all other liquidation, conservatorship, bankruptcy, assignment for the benefit of creditors, moratorium, rearrangement, receivership, insolvency, reorganization, or similar debtor relief Laws of the United States or other applicable jurisdictions from time to time in effect and affecting the rights of creditors generally.
+⟦s000286⟧ “ Declined Proceeds ” has the meaning specified in Section 2.
+⟦s000287⟧ 5(b)(v) .
+⟦s000288⟧ “ Default ” means any event or condition that constitutes an Event of Default or that, with the giving of any notice, the passage of time, or both, would be an Event of Default.
+⟦s000289⟧ “ Default Rate ” means (a) when used with respect to Loans, an interest rate equal to the interest rate (including the Applicable Margin) otherwise applicable to such Loan plus two percent (2.
+⟦s000290⟧ 00%) per annum, and (b) with respect to all other Obligations, an interest rate equal to the Base Rate, plus the Applicable Margin, plus two percent (2.
+⟦s000291⟧ 00%) per annum.
+
+⟦s000390⟧ “ Fiscal Year ” means any of the annual accounting periods of the Loan Parties ending on any of the dates set forth on Schedule 1.
+⟦s000391⟧ 1(c) that correspond to the end of any Fiscal Year of the Loan Parties, as such Fiscal Year may be amended in accordance with the provisions of Section 7.
+⟦s000392⟧ 13 hereof.
+⟦s000393⟧ - 21 -
+⟦s000394⟧ “ Flood Insurance Laws ” means, collectively, (i) the National Flood Insurance Act of 1968 as now or hereafter in effect or any successor statute thereto, (ii) the Flood Disaster Protection Act of 1973 as now or hereafter in effect or any successor statue thereto, (iii) the National Flood Insurance Reform Act of 1994 as now or hereafter in effect or any successor statute thereto, (iv) the Flood Insurance Reform Act of 2004 as now or hereafter in effect or any successor statute thereto and (v) the Biggert-Waters Flood Insurance Reform Act of 2012 as now or hereafter in effect or any successor statute thereto.
+⟦s000395⟧ “ Floor ” means a rate of interest equal to 2.
+
+⟦s000799⟧ 1 in an aggregate principal amount not to exceed the amount set forth opposite such Lender’s name on Schedule 2.
+⟦s000800⟧ 1 or in the Assignment and Assumption pursuant to which such Lender becomes a party hereto, as applicable, as such amount may be adjusted from time to time in accordance with this Agreement.
+⟦s000801⟧ As of the Closing Date, the aggregate principal amount of the Term Loan Commitments is $260,000,000.
+⟦s000802⟧ “ Term Loan Priority Account ” has the meaning assigned to such term in the ABL Intercreditor Agreement.
+⟦s000803⟧ “ Term Priority Collateral ” has the meaning assigned to such term in the ABL Intercreditor Agreement.
+⟦s000804⟧ “ Term SOFR ” means,
+⟦s000805⟧ (a) for any calculation with respect to a SOFR Loan, the Term SOFR Reference Rate for a tenor comparable to the applicable Interest Period on the day (such day, the “ Periodic Term SOFR Determination Day ”) that is two (2) U.
+⟦s000806⟧ S.
+
+⟦s001001⟧ Each such prepayment shall be applied to the principal installments of the Loans as directed by the Borrower (it being understood and agreed that if the Borrower does not so direct at the time of such prepayment, such prepayment shall be applied against the scheduled repayments of Loans under Section 2.
+⟦s001002⟧ 7 in direct order of maturity) and shall be paid to the Lenders in accordance with their respective Applicable Percentages.
+⟦s001003⟧ (b) Mandatory Prepayments .
+⟦s001004⟧ (i) Excess Cash Flow .
+⟦s001005⟧ Within five (5) Business Days after financial statements have been delivered pursuant to Section 6.
+⟦s001006⟧ 1(a) and the related Compliance Certificate has been delivered pursuant to Section 6.
+⟦s001007⟧ 2(a) for each Fiscal Year of the Borrower, commencing with the first full Fiscal Year of the Borrower commencing after the Closing Date, the Borrower shall cause to be prepaid an aggregate principal amount of Loans equal to (A) 75% (such percentage as it may be reduced as described below, the “ ECF Percentage ”) of Excess Cash Flow, if any, for the Fiscal Year covered by such financial statements, minus (B) the sum of all voluntary prepayments of (i) Loans during such Fiscal Year and (ii) loans under the ABL Facility (to the extent accompanied by a permanent reduction in the associated commitments thereof) made during such Fiscal Year, in each case, to the extent such prepayments are not funded with the proceeds of Indebtedness; provided that (x) the ECF Percentage shall be 50% if the Total Leverage Ratio as of the last day of the Fiscal Year covered by such financial statements (calculated giving Pro Forma Effect to any Specified Transaction occurring on or prior to such last day of such Fiscal Year)
+
+⟦s001098⟧ (c) Except as provided in Section 2.
+⟦s001099⟧ 8(b) , interest on each Loan shall be due and payable in arrears in cash on each Interest Payment Date applicable thereto and at such other times as may be specified herein.
+⟦s001100⟧ Interest hereunder shall be due and payable in accordance with the terms hereof before and after judgment, and before and after the commencement of any proceeding under any Debtor Relief Law.
+⟦s001101⟧ 2.
+⟦s001102⟧ 9 Fees .
+
+### Financial Covenant Anchors
+
+⟦s000582⟧ (l) any surrender or waiver of contract rights or the settlement, release, recovery on or surrender of contract, tort or other claims of any kind to the extent that any of the foregoing could not reasonably be expected to have a Material Adverse Effect;
+⟦s000583⟧ (m) Dispositions of cash and Permitted Cash Equivalents in the ordinary course of business;
+⟦s000584⟧ (n) sales of Inventory determined by the management of the applicable Loan Party not to be saleable in the ordinary course of business of such Loan Party or any of the Loan Parties;
+⟦s000585⟧ (o) Dispositions of asset pursuant to condemnation proceedings;
+⟦s000586⟧ (p) Other Dispositions, excluding licensing, so long as no Default or Event of Default then exists or would arise as a result of such transaction; provided that (i) such Disposition shall be for fair market value as reasonably determined by the Borrower in good faith, (ii) the Borrower or any of its Restricted Subsidiaries shall receive not less than 75.
+
+⟦s001765⟧ 13 Fiscal Year .
+⟦s001766⟧ Change the Fiscal Year of any Loan Party, except as required by GAAP or to coincide with the calendar year; provided, however, that the Borrower may, upon written notice to the Agent, change its Fiscal Year to any other fiscal year reasonably acceptable to the Agent, in which case the Borrower and the Agent will, and are hereby authorized by the Lenders to, make any adjustments to this Agreement that are necessary to reflect such change in Fiscal Year.
+⟦s001767⟧ 7.
+⟦s001768⟧ 14 Reserved .
+⟦s001769⟧ 7.
+⟦s001770⟧ 15 Financial Covenants .
+⟦s001771⟧ (a) Maximum Total Leverage Ratio .
+⟦s001772⟧ Permit the Total Leverage Ratio, as of the last day of each Measurement Period ending the last day of the Fiscal Quarter ending closest to the date set forth in the table below, to be greater than the level under the heading “Total Leverage Ratio”:
+⟦s001773⟧ ```markdown
+| Measurement Period ending | Total Leverage Ratio |
+| --- | --- |
+| May 3, 2024 | 5.50:1.00 |
+| August 2, 2024 | 5.50:1.00 |
+| November 1, 2024 | 6.00:1.00 |
+| January 31, 2025 | 5.25:1.00 |
+| May 2, 2025 | 5.25:1.00 |
+```

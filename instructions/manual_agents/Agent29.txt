@@ -1,0 +1,30 @@
+Assignment: Manual Performance-Pricing Extraction (Core Pricing Only)
+
+1) Scope
+- Work only in your assigned tarball: data/daily_filings/2015/QTR1/20150107.nc.tar.gz. Treat every accession as unvetted; do not reuse prior CSV/XLSX.
+- Exclude the already-covered accessions in 20230103/20230104 tarballs (0001731122-23-000003, 0001193125-23-000306, 0001140361-23-000046, 0000950170-23-000122, 0001819974-23-000003, 0001140361-23-000246) and any other accession inside those two tarballs if encountered elsewhere.
+
+2) Process
+- Extract the tarball; for each accession inside, locate the EX-10 and view as HTML/text.
+- Manually search for pricing cues: "Applicable Margin", "Pricing Level", "Schedule 1.1", "Applicable Rate", "Eurodollar/SOFR/Base Rate", "Commitment Fee", "Ratings Grid", "Leverage Ratio".
+- Confirm it’s a true performance-pricing grid (tiers vs. margins/fees). Skip TOCs, lender lists, fixed-rate/narrative term sheets, sustainability/ESG side tables, and pre/post one-off amendment fragments unless they’re the only pricing grid.
+
+3) Extraction
+- Capture the exact table heading/section reference (e.g., "Schedule 1.1 – Applicable Rates").
+- For every tier, record the tier label verbatim and every metric column; convert bps → %.
+- Note footnotes/quirks (late certificate = highest level; utilization step-ups; ratings overrides).
+- Focus on the core grid (applicable margin/commitment/LC/unused).
+
+4) Output
+- Files: output/manual_pricing_extraction_agent29.md and output/manual_pricing_extraction_agent29.xlsx.
+- Table columns (both files): accession, table_reference, tier_label, metric_name, value_percent, snippet_context.
+- Snippet/context: include path+line ref into scratch/extracted_ex10/<accession>_EX-10.html (e.g., ...:#L1234).
+- In the Markdown, add a brief narrative per accession (how found, confirm pricing grid, quirks/footnotes). If no grid: "No pricing table; [reason]".
+
+5) Quality
+- Accuracy first; every value must trace to the exhibit.
+- If ambiguous, err on "no pricing grid" and document why.
+- Keep scratch artifacts separate so we can trace your work.
+
+- Aim to capture ~3 solid pricing grids if available; if fewer exist or confidence is low, that is fine—be exhaustive in checking EX-10s, and note “No pricing table; [reason]” when applicable.
+Assigned tarball: data/daily_filings/2015/QTR1/20150107.nc.tar.gz

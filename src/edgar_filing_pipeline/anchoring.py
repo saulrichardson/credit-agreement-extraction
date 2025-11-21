@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Iterable, List, Optional
 
 from bs4 import BeautifulSoup, NavigableString, Tag
+from .text_segments import sentence_boundaries
 
 BLOCK_LEVEL_TAGS = {
     "p",
@@ -32,36 +33,6 @@ BLOCK_LEVEL_TAGS = {
     "br",
     "hr",
     "pre",
-}
-
-ABBREVIATIONS = {
-    "mr.",
-    "mrs.",
-    "ms.",
-    "dr.",
-    "prof.",
-    "sr.",
-    "jr.",
-    "inc.",
-    "ltd.",
-    "co.",
-    "corp.",
-    "u.s.",
-    "u.k.",
-    "no.",
-    "fig.",
-    "art.",
-    "sec.",
-    "ch.",
-    "dept.",
-    "assn.",
-    "bros.",
-    "st.",
-    "viz.",
-    "vs.",
-    "etc.",
-    "i.e.",
-    "e.g.",
 }
 
 ANCHOR_KIND_SENTENCE = "s"
@@ -514,48 +485,13 @@ class CanonicalDocumentBuilder:
             start_offset = base_offset + (len(text) - len(stripped))
             return [(start_offset, base_offset + len(text))]
 
-        sentences: list[tuple[int, int]] = []
-        start = 0
-        i = 0
-        length = len(text)
-
-        while i < length:
-            char = text[i]
-            if char in {".", "?", "!"}:
-                next_char = text[i + 1] if i + 1 < length else ""
-                next_non_space = self._next_non_space_char(text, i + 1)
-                snippet = text[start : i + 1]
-                if snippet:
-                    token = snippet.split()[-1].lower()
-                    if token in ABBREVIATIONS:
-                        if next_non_space and (next_non_space.isalnum() or next_non_space == "_"):
-                            i += 1
-                            continue
-                if next_char and next_char.islower():
-                    i += 1
-                    continue
-                end = i + 1
-                trimmed = text[start:end].strip()
-                if trimmed:
-                    sentences.append((base_offset + start + (len(text[start:]) - len(text[start:].lstrip())), base_offset + end))
-                start = end
-            i += 1
-
-        if start < length:
-            remaining = text[start:].strip()
-            if remaining:
-                local_start = base_offset + start + (len(text[start:]) - len(text[start:].lstrip()))
-                sentences.append((local_start, base_offset + len(text)))
-        return sentences
-
-    def _next_non_space_char(self, text: str, index: int) -> str:
-        length = len(text)
-        while index < length:
-            ch = text[index]
-            if not ch.isspace():
-                return ch
-            index += 1
-        return ""
+        spans = sentence_boundaries(text)
+        results: list[tuple[int, int]] = []
+        for local_start, local_end in spans:
+            snippet = text[local_start:local_end]
+            if snippet and snippet.strip():
+                results.append((base_offset + local_start, base_offset + local_end))
+        return results
 
     def _process_table(
         self,

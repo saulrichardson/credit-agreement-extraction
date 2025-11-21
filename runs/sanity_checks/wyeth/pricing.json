@@ -1,0 +1,115 @@
+{
+  "issuer": "Wyeth",
+  "agreement": {
+    "title": "Credit Agreement for 364-day Facility",
+    "section_refs": [
+      "Section 2.4 Fees",
+      "Pricing Grid - Category A-E Periods",
+      "Section 2.8 Rates",
+      "Section 2.9 Conversion",
+      "General Provisions"
+    ],
+    "currency": "USD",
+    "as_of_date": "2003-03-03"
+  },
+  "metrics": [
+    {
+      "name": "TotalDebtToEBITDA",
+      "definition": "Total debt (long-term debt, current portion and notes payable) divided by EBITDA proxy (Operating income before depreciation, oibdpq).",
+      "formula": "(dlttq + dd1q + dlcq + npq) / oibdpq",
+      "units": "ratio",
+      "requires_non_compustat": false,
+      "compustat_mapping": ["dlttq", "dd1q", "dlcq", "npq", "oibdpq"],
+      "notes": ["Metric derived from Compustat for grid-based financial_metrics tiering."],
+      "source_refs": ["Pricing grid table: financial_metrics-based pricing (Category A-E)."]
+    }
+  ],
+  "tier_schemes": [
+    {
+      "scheme_id": "PricingFinancialMetricsGrid",
+      "classification": "financial_metrics",
+      "tiers": [
+        {
+          "tier_id": "A",
+          "display": "Category A - Lowest leverage",
+          "conditions": [
+            { "metric": "TotalDebtToEBITDA", "op": "<=", "value": 2.0 }
+          ]
+        },
+        {
+          "tier_id": "B",
+          "display": "Category B",
+          "conditions": [
+            { "metric": "TotalDebtToEBITDA", "op": ">", "value": 2.0 },
+            { "metric": "TotalDebtToEBITDA", "op": "<=", "value": 3.0 }
+          ]
+        },
+        {
+          "tier_id": "C",
+          "display": "Category C",
+          "conditions": [
+            { "metric": "TotalDebtToEBITDA", "op": ">", "value": 3.0 },
+            { "metric": "TotalDebtToEBITDA", "op": "<=", "value": 4.0 }
+          ]
+        },
+        {
+          "tier_id": "D",
+          "display": "Category D",
+          "conditions": [
+            { "metric": "TotalDebtToEBITDA", "op": ">", "value": 4.0 },
+            { "metric": "TotalDebtToEBITDA", "op": "<=", "value": 5.0 }
+          ]
+        },
+        {
+          "tier_id": "E",
+          "display": "Category E - Highest leverage",
+          "conditions": [
+            { "metric": "TotalDebtToEBITDA", "op": ">", "value": 5.0 }
+          ]
+        }
+      ],
+      "source_refs": ["Pricing grid: Category A-E thresholds based on TotalDebtToEBITDA."]
+    }
+  ],
+  "facilities": [
+    {
+      "facility_id": "Facility1",
+      "committed_amount": 1350000000,
+      "currency": "USD",
+      "maturity_date": "2004-03-03",
+      "rate_type": "floating",
+      "rates": [
+        {
+          "rate_id": "LIBORMargin",
+          "type": "margin",
+          "tier_scheme_ref": "PricingFinancialMetricsGrid",
+          "by_level": [
+            { "tier_id": "A", "bps": 75 },
+            { "tier_id": "B", "bps": 100 },
+            { "tier_id": "C", "bps": 125 },
+            { "tier_id": "D", "bps": 150 },
+            { "tier_id": "E", "bps": 175 }
+          ],
+          "base_rate": "Eurodollar Rate",
+          "base_rate_type": "libor",
+          "units": "bps"
+        },
+        {
+          "rate_id": "FacilityFee",
+          "type": "fee",
+          "tier_scheme_ref": "PricingFinancialMetricsGrid",
+          "by_level": [
+            { "tier_id": "A", "bps": 100 },
+            { "tier_id": "B", "bps": 125 },
+            { "tier_id": "C", "bps": 150 },
+            { "tier_id": "D", "bps": 175 },
+            { "tier_id": "E", "bps": 200 }
+          ],
+          "fee_basis": "total_commitments",
+          "calculation_basis": "per_period",
+          "units": "bps"
+        }
+      ]
+    }
+  ]
+}

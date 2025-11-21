@@ -1,0 +1,160 @@
+Field: Rule-Page
+Field: /Rule-Page
+Exhibit 10.2
+EXECUTION VERSION
+PARENT GUARANTEE
+PARENT GUARANTEE, dated as of January 1, 2023 (as amended, supplemented or otherwise modified
+ from time to time, this “ Parent Guarantee ”), made by KIMCO REALTY CORPORATION (“ Ultimate Parent ”), in favor of JPMORGAN CHASE BANK, N.A., as Administrative Agent (in such capacity, the “ Administrative Agent ”) for the Lenders
+ party to the Amended and Restated Credit Agreement (the “ Lenders ”), dated as of February 27, 2020 (as the same has been and may be amended, supplemented or otherwise modified from time to time, the “ Credit Agreement ”), among KRC Interim
+ Corp. (formerly known as Kimco Realty Corporation, “ Kimco ”), the Subsidiaries of Kimco from time to time party thereto (collectively, the “ Subsidiary Borrowers ”; together with Kimco, the “ Borrowers ”), the Lenders, the Issuing
+ Lenders party thereto, the Administrative Agent, and the other agents party thereto.
+W I T N E S S E T H:
+WHEREAS, pursuant to the Credit Agreement, the Lenders and the Issuing Lenders, as the case
+ may be, have severally agreed to make Revolving Credit Loans to, and to issue or participate in Letters of Credit for the account of, the Borrowers, and may make Competitive Loans to Kimco, upon the terms and subject to the conditions set forth
+ therein (the “ Extensions of Credit ”);
+WHEREAS, Ultimate Parent owns directly or indirectly all or a portion of the issued and
+ outstanding Capital Stock of Kimco;
+WHEREAS, the Borrowers and the Ultimate Parent are engaged in related businesses, and the
+ Ultimate Parent will derive substantial direct and indirect benefit from the making of and/or the availability of the Extensions of Credit;
+NOW, THEREFORE, in consideration of the premises and to induce the Administrative Agent, the
+ Issuing Lenders and the Lenders to enter into the Credit Agreement and to induce the Lenders and the Issuing Lenders, as the case may be, to make their respective Revolving Credit Loans and Competitive Loans to, and to issue or participate in Letters
+ of Credit for the account of, the Borrowers under the Credit Agreement, the Ultimate Parent hereby agrees with the Administrative Agent, for the ratable benefit of the Lender Parties, as follows:
+1.             Defined Terms . (a) Unless otherwise defined herein, terms defined in the
+ Credit Agreement and used herein shall have the meanings given to them in the Credit Agreement.
+(b)          The words “hereof,” “herein” and “hereunder” and words of similar import when used
+ in this Parent Guarantee shall refer to this Parent Guarantee as a whole and not to any particular provision of this Parent Guarantee, and section references are to this Parent Guarantee unless otherwise specified.
+(c)          The meanings given to terms defined herein shall be equally applicable to both the
+ singular and plural forms of such terms.
+2.             Guarantee . In order to induce the Lenders to make Extensions of Credit,
+ Ultimate Parent hereby irrevocably and unconditionally guarantees to the Administrative Agent for the benefit of the Lender Parties and the Administrative Agent, as a primary obligor and not merely as a surety, the due and punctual payment of all
+ Obligations of Kimco and each of the Subsidiary Borrowers (collectively, the “Guaranteed Obligations”). Ultimate Parent agrees that the Guaranteed Obligations may be extended or renewed, in whole or in part, without notice to or further assent from
+ it, and that it will remain bound upon its guarantee notwithstanding any extension or renewal of any Guaranteed Obligations. Each and every default in payment or performance on any Guaranteed Obligation shall give rise to a separate cause of action
+ hereunder, and separate suits may be brought hereunder as each cause of action arises.
+3.              Guaranteed Obligations Not Waived. To the fullest extent permitted by
+ applicable law, Ultimate Parent waives presentment to, demand of payment from and protest to Kimco or any Subsidiary Borrower or to any other guarantor of any of the Guaranteed Obligations, and also waives notice of acceptance of its guarantee and
+ notice of protest for nonpayment. To the fullest extent permitted by applicable law, the obligations of Ultimate Parent hereunder shall not be affected by (a) the failure of any Lender Party to assert any claim or demand or to enforce or exercise any
+ right or remedy against the applicable Borrower or any other Loan Party under the provisions of the Loan Documents or otherwise; (b) any rescission, waiver, amendment or modification of, or any release from any of the terms or provisions of any Loan
+ Document or any other agreement; (c) the failure or delay of any Lender Party for any reason whatsoever to exercise any right or remedy against any other guarantor of the Obligations; (d) the failure of any Lender Party to assert any claim or demand
+ or to enforce any remedy under any Loan Document, any guarantee or any other agreement or instrument; (e) any default, failure or delay, willful or otherwise, in the performance of any Guaranteed Obligations; (f) any change in the corporate existence
+ or structure of any Borrower; (g) the existence of any claims or set-off rights that Ultimate Parent may have; (h) any law, regulation, decree or order of any jurisdiction or any event affecting any term of a guaranteed obligation; or (i) any other
+ act, omission or delay to do any other act which may or might in any manner or to any extent vary the risk of Ultimate Parent or otherwise operate as a discharge or exoneration of Ultimate Parent as a matter of law or equity or which would impair or
+ eliminate any right of Ultimate Parent to subrogation.
+4.              Guarantee of Payment. Ultimate Parent agrees that its guarantee hereunder
+ constitutes a guarantee of payment when due and not of collection, that such guarantee may be enforced at any time and from time to time, on one or more occasions, during the continuance of any Event of Default, without any prior demand or
+ enforcement in respect of any Guaranteed Obligations, and that Ultimate Parent waives any right to require that any resort be had by any Lender Party to any other Guarantor or other guarantee, or to any security held for payment of any Guaranteed
+ Obligations. The solicitation of, or the delivery by Ultimate Parent of, any confirmation or reaffirmation of this Parent Guarantee under any circumstance shall not give rise to any inference as to the continued effectiveness of this Parent Guarantee
+ in any other circumstance in which the confirmation or reaffirmation hereof has not been solicited or has not been delivered (whether or not solicited), and the obligations of Ultimate Parent hereunder shall continue in effect as herein provided
+ notwithstanding any solicitation or delivery of any confirmation or reaffirmation hereof, or any failure to solicit or to deliver any such confirmation or reaffirmation, under any circumstances. This is a continuing guaranty of the payment of all
+ Guaranteed Obligations.
+5.              No Discharge or Diminishment of Guarantee. The obligations of Ultimate
+ Parent under this Parent Guarantee shall not be subject to any reduction, limitation, impairment or termination for any reason (other than the payment in full in cash of the Guaranteed Obligations), including any claim of waiver, release, surrender,
+ amendment, modification, alteration or compromise of any of the Guaranteed Obligations or of any collateral security or guarantee or other accommodation in respect thereof, and shall not be subject to any defense or setoff, counterclaim, recoupment
+ or termination whatsoever by reason of the invalidity, illegality or unenforceability of the Guaranteed Obligations or any Loan Document or any provision thereof (or of this Parent Guarantee or any provision hereof) or otherwise. Without limiting the
+ generality of the foregoing, the obligations of Ultimate Parent under this Parent Guarantee shall not be discharged or impaired or otherwise affected by any change of location, form or jurisdiction of Kimco, any Subsidiary Borrower or any other
+ Person, any merger, consolidation or amalgamation of Kimco, any Subsidiary Borrower or any other Person into or with any other Person, any sale, lease or transfer of any of the assets of Kimco, any Subsidiary Borrower or any other Person to any other
+ Person, any other change of form, structure, or status under any law in respect of Kimco or any Subsidiary Borrower or any other Person, or any other occurrence, circumstance, happening or event whatsoever, whether similar or dissimilar to the
+ foregoing, whether foreseen or unforeseen, that might otherwise constitute a legal or equitable defense, release, exoneration, or discharge or that might otherwise limit recourse against Kimco or any Subsidiary Borrower or Ultimate Parent or any
+ other Person. The obligations of Ultimate Parent under this Parent Guarantee shall extend to all Guaranteed Obligations without limitation of amount, and Ultimate Parent agrees that it shall be obligated to honor its guarantee hereunder whether or
+ not any other Guarantor (i) has been called to honor its guarantee, (ii) has failed to honor its guarantee in whole or in part, or (iii) has been released for any reason whatsoever from its obligations under its guarantee.
+2
+6.             Defenses Waived; Maturity of Guaranteed Obligations. To the fullest extent
+ permitted by applicable law, Ultimate Parent waives any defense based on or arising out of any defense of Kimco, any Subsidiary Borrower or any other guarantor or the unenforceability of the Guaranteed Obligations or any part thereof from any cause,
+ or the cessation from any cause of the liability of Kimco or any Subsidiary Borrower, other than the final payment in full in cash of the Guaranteed Obligations. The Lender Parties may, at their election, compromise or adjust any part of the
+ Guaranteed Obligations, make any other accommodation with Kimco or any Subsidiary Borrower or any other Person (including any other Guarantor) or exercise any other right or remedy available to them against Kimco, such Subsidiary Borrower or any
+ other Person (including any other Guarantor), without affecting or impairing in any way the liability of the Ultimate Parent hereunder except to the extent the Guaranteed Obligations have been fully and finally paid in cash. To the fullest extent
+ permitted by applicable law, Ultimate Parent waives any defense arising out of any such election even though such election operates, pursuant to applicable law, to impair or to extinguish any right of reimbursement or subrogation or other right or
+ remedy of Ultimate Parent against Kimco or any Subsidiary Borrower or any other Person, as the case may be, or any security. Ultimate Parent agrees that, as between Ultimate Parent, on the one hand, and the Lender Parties, on the other hand, (i) the
+ maturity of the Guaranteed Obligations guaranteed hereby may be accelerated for the purposes of Ultimate Parent’s guarantee herein, notwithstanding any stay, injunction or other prohibition preventing such acceleration as to Kimco or any Subsidiary
+ Borrower in respect of the Guaranteed Obligations guaranteed hereby (other than any notices and cure periods expressly granted to Kimco or any Subsidiary Borrower in the Credit Agreement or any other Loan Document evidencing or securing the
+ Guaranteed Obligations) and (ii) in the event of any such acceleration of such Guaranteed Obligations, such Guaranteed Obligations (whether or not due and payable) shall forthwith become due and payable in full by Ultimate Parent for purposes of this
+ Parent Guarantee.
+7.              Agreement to Pay; Subordination. In furtherance of the foregoing and not
+ in limitation of any other right that any Lender Party has at law or in equity against Ultimate Parent by virtue hereof, upon the failure of Kimco or any Subsidiary Borrower to pay (after the giving of any required notice and the expiration of any
+ cure period expressly granted to Kimco or such Subsidiary Borrower in the Credit Agreement or any other Loan Document evidencing any Guaranteed Obligation) any Guaranteed Obligation when and as the same shall become due, whether at maturity, upon
+ mandatory prepayment, by acceleration, after notice of prepayment or otherwise, Ultimate Parent hereby promises to and will forthwith pay, or cause to be paid, to the Administrative Agent for the benefit of the Lender Parties, in cash the amount of
+ such unpaid Guaranteed Obligation. Upon payment by Ultimate Parent of any sums as provided above, all rights of Ultimate Parent against Kimco or the applicable Subsidiary Borrower or any other Person arising as a result thereof by way of right of
+ subrogation, contribution, reimbursement, indemnity or otherwise shall in all respects be subordinate and junior in right of payment to the prior payment in full in cash of all the Guaranteed Obligations. In addition, any indebtedness of Kimco or any
+ Subsidiary Borrower now or hereafter held by Ultimate Parent is hereby subordinated in right of payment to the prior payment in full in cash of the Guaranteed Obligations. If any amount shall erroneously be paid to Ultimate Parent on account of (i)
+ such subrogation, contribution, reimbursement, indemnity or similar right or (ii) any such indebtedness of Kimco or any Subsidiary Borrower, such amount shall be held in trust for the benefit of the Lender Parties and shall forthwith be paid to the
+ Administrative Agent to be credited against the payment of the Guaranteed Obligations, whether matured or unmatured.
+3
+8.              Reinstatement.  Ultimate Parent further agrees that its obligations
+ hereunder shall continue to be effective or be reinstated, as the case may be, if at any time payment, or any part thereof, of any Guaranteed Obligation is rescinded or must otherwise be restored by any Lender Party upon the bankruptcy or
+ reorganization of Kimco, any Subsidiary Borrower or otherwise. Nothing shall discharge or satisfy the liability of Ultimate Parent hereunder except the full performance and payment in full in cash of the Guaranteed Obligations.
+9.              Information . Ultimate Parent assumes all responsibility for being and
+ keeping itself informed of Kimco’s and the Subsidiary Borrowers’ financial condition and assets, and of all other circumstances bearing upon the nature, scope and extent of the risks that Ultimate Parent assumes and incurs hereunder, and agrees that
+ neither the Administrative Agent nor any other Lender Party will have any duty to advise Ultimate Parent of information now or hereafter known to it or any of them regarding any of the foregoing.
+10.            Payments . Ultimate Parent hereby agrees that payments hereunder will be
+ paid to the Administrative Agent without set-off or counterclaim, in the currency of the applicable Obligation, at the office of the Administrative Agent located at 10 South Dearborn St., 7 th Floor, Chicago, Illinois 60603 or to such other office as the Administrative Agent may hereafter specify by notice to the Ultimate Parent.
+11.            Authority of Agent . Ultimate Parent acknowledges that the rights and
+ responsibilities of the Administrative Agent under this Parent Guarantee with respect to any action taken by the Administrative Agent or the exercise or non-exercise by the Administrative Agent of any option, right, request, judgment or other right
+ or remedy provided for herein or resulting or arising out of this Parent Guarantee shall, as between the Administrative Agent, the Issuing Lenders and the Lenders, be governed by the Credit Agreement and by such other agreements with respect thereto
+ as may exist from time to time among them, but, as between the Administrative Agent and Ultimate Parent, the Administrative Agent shall be conclusively presumed to be acting as agent for the Issuing Lenders and the Lenders with full and valid
+ authority so to act or refrain from acting, and Ultimate Parent shall be under no obligation, or entitlement, to make any inquiry respecting such authority.
+12.            Notices . All notices, requests and demands pursuant hereto shall be made
+ in accordance with Section 10.2 of the Credit Agreement; provided that any such notice, request or demand to or upon Ultimate Parent shall be addressed to Ultimate Parent at the notice address set forth under its signature below.
+13.            Counterparts . This Parent Guarantee may be executed by Ultimate Parent on
+ any number of separate counterparts, each of which shall constitute an original, but all of which when taken together shall be deemed to constitute one and the same instrument. A set of the counterparts of this Parent Guarantee signed by Ultimate
+ Parent shall be lodged with the Administrative Agent. Delivery of an executed counterpart of a signature page of this Parent Guarantee by any electronic means that reproduces an image of the actual executed signature page shall be effective as
+ delivery of a manually executed counterpart of this Parent Guarantee. The words “execution,” “signed,” “signature,” “delivery,” and words of like import in this Parent Guarantee shall be deemed to include Electronic Signatures, deliveries or the
+ keeping of records in electronic form, each of which shall be of the same legal effect, validity or enforceability as a manually executed signature, physical delivery thereof or the use of a paper-based recordkeeping system, as the case may be, to
+ the extent and as provided for in any applicable law, including the Federal Electronic Signatures in Global and National Commerce Act, the New York State Electronic Signatures and Records Act, or any other similar state laws based on the Uniform
+ Electronic Transactions Act.
+4
+14.            Severability . Any provision of this Parent Guarantee which is prohibited
+ or unenforceable in any jurisdiction shall, as to such jurisdiction, be ineffective to the extent of such prohibition or unenforceability without invalidating the remaining provisions hereof, and any such prohibition or unenforceability in any
+ jurisdiction shall not invalidate or render unenforceable such provision in any other jurisdiction.
+15.            Integration . This Parent Guarantee represents the entire agreement of
+ Ultimate Parent with respect to the subject matter hereof and there are no promises, undertakings, representations or warranties by the Administrative Agent, the Issuing Lenders or any Lender relative to subject matter hereof not expressly set forth
+ or referred to herein or in the other Loan Documents.
+16.            Amendments in Writing; No Novation; No Waiver; Cumulative Remedies . (a)
+ None of the terms or provisions of this Parent Guarantee may be waived, amended, supplemented or otherwise modified except by a written instrument executed by Ultimate Parent and the Administrative Agent in accordance with Section 10.1 of the Credit
+ Agreement.
+(b)           Neither the Administrative Agent, nor the Issuing Lenders, nor any Lender shall
+ by any act (except by a written instrument pursuant to Section 16(a) hereof), delay, indulgence, omission or otherwise be deemed to have waived any right or remedy hereunder or to have acquiesced in any Default or Event of Default or in any breach of
+ any of the terms and conditions hereof. No failure to exercise, nor any delay in exercising, on the part of the Administrative Agent, the Issuing Lenders or any Lender, any right, power or privilege hereunder shall operate as a waiver thereof. No
+ single or partial exercise of any right, power or privilege hereunder shall preclude any other or further exercise thereof or the exercise of any other right, power or privilege. A waiver by the Administrative Agent, the Issuing Lenders or any Lender
+ of any right or remedy hereunder on any one occasion shall not be construed as a bar to any right or remedy which the Administrative Agent, the Issuing Lenders or such Lender would otherwise have on any future occasion.
+(c)            The rights and remedies herein provided are cumulative, may be exercised singly
+ or concurrently and are not exclusive of any other rights or remedies provided by law.
+17.            Section Headings . The section headings used in this Parent Guarantee are
+ for convenience of reference only and are not to affect the construction hereof or be taken into consideration in the interpretation hereof.
+18.            Successors and Assigns . This Parent Guarantee shall be binding upon the
+ respective successors and assigns of Ultimate Parent and shall inure to the benefit of the Administrative Agent, the Issuing Lenders and the Lenders and their respective successors and assigns.
+19.            Governing Law . This Parent Guarantee shall be governed by, and construed
+ and interpreted in accordance with, the laws of the State of New York.
+20.            Submission To Jurisdiction; Waivers . Ultimate Parent (and by its
+ acceptance of the benefits hereof, each Lender Party) hereby irrevocably and unconditionally:
+(a)            submits for itself and its property in any legal action or proceeding relating
+ to this Parent Guarantee and the other Loan Documents to which it is a party, or for recognition and enforcement of any judgment in respect thereof, to the exclusive jurisdiction of the United States District Court for the Southern District of New
+ York sitting in the Borough of Manhattan (or if such court lacks subject matter jurisdiction, the Supreme Court of the State of New York sitting in the Borough of Manhattan), and any appellate court from any thereof;
+5
+(b)           consents that any such action or proceeding may be brought in such courts and
+ waives any objection that it may now or hereafter have to the venue of any such action or proceeding in any such court or that such action or proceeding was brought in an inconvenient court and agrees not to plead or claim the same;
+(c)           agrees that service of process in any such action or proceeding may be effected
+ by mailing a copy thereof by registered or certified mail (or any substantially similar form of mail), postage prepaid, to its address set forth under its signature below;
+(d)           agrees that nothing herein shall affect the right to effect service of process in
+ any other manner permitted by law or shall limit the right to sue in any other jurisdiction; and
+(e)           waives, to the maximum extent not prohibited by law, any right it may have to
+ claim or recover in any legal action or proceeding in connection with this Parent Guarantee any special, exemplary, punitive or consequential damages.
+21.            WAIVERS OF JURY TRIAL . ULTIMATE PARENT (AND BY ITS ACCEPTANCE OF THE
+ BENEFITS HEREOF, EACH LENDER PARTY) HEREBY IRREVOCABLY AND UNCONDITIONALLY WAIVES TRIAL BY JURY IN ANY LEGAL ACTION OR PROCEEDING RELATING TO THIS AGREEMENT OR ANY OTHER LOAN DOCUMENT AND FOR ANY COUNTERCLAIM THEREIN.
+[Execution Pages Follow]
+6
+IN WITNESS WHEREOF, each of the undersigned has caused this Parent Guarantee to be duly
+ executed and delivered by its duly authorized officer as of the day and year first above written.
+| Column 1 | Kimco Realty Corporation | Column 3 |
+| --- | --- | --- |
+|  | By: | /s/ Glenn G. Cohen |
+|  | Name:   Glenn G. Cohen |  |
+|  | Title:     Executive Vice President, Chief Financial Officer and Treasurer |  |
+|  | Address for Notices for Ultimate Parent: |  |
+|  | Kimco Realty Corporation |  |
+|  | 500 North Broadway, Suite 201 |  |
+|  | Jericho, New York 11753 |  |
+|  | Attn: Glenn G. Cohen |  |
+|  | Tel: [   ] |  |
+|  | Fax: [   ] |  |
+[Signature Page to Parent Guarantee]
+Field: Rule-Page
+Field: /Rule-Page
