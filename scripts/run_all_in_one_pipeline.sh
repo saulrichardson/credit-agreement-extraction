@@ -13,7 +13,7 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 ANCHORS_DIR="$ROOT/scratch/prompt_views"
-PROMPT_FILE="$ROOT/prompts/prompt_all_comprehensive_v2.txt"
+PROMPT_FILE="$ROOT/scratch/prompts/prompt_all_comprehensive_v2.txt"
 WORKERS="${WORKERS:-6}"
 BANDWIDTH="${BANDWIDTH:-4}"
 

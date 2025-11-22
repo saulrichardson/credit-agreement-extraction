@@ -15,7 +15,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 WORKERS="${WORKERS:-6}"
 run_id="${1:-${RUN_ID:-}}"
-PROMPT="$ROOT/prompts/dg_v3.txt"
+PROMPT="$ROOT/scratch/prompts/dg_v3.txt"
 
 if [[ -z "$run_id" ]]; then
   # pick most recent directory under runs/ (directories only, by mtime)
