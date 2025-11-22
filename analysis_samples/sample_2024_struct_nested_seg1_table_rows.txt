@@ -1,9 +1,0 @@
-=== Table 1 ===
-Row 1: 
-Row 2: Citigroup Global Markets Holdings Inc. | December 28, 2023 Medium-Term Senior Notes, Series N Pricing Supplement No. 2023- USNCH19963 Filed Pursuant to Rule 424(b)(2) Registration Statement Nos. 333-270327 and 333-270327-01
-
-=== Table 2 ===
-Row 1: ■ | The securities offered by this pricing supplement are unsecured debt securities issued by Citigroup Global Markets Holdings Inc. and guaranteed by Citigroup Inc. The securities offer the potential for periodic contingent coupon payments at an annualized rate that, if all are paid, would produce a yield that is generally higher than the yield on our conventional debt securities of the same maturity. In exchange for this higher potential yield, you must be willing to accept the risks that (i) your actual yield may be lower than the yield on our conventional debt securities of the same maturity because you may not receive one or more, or any, contingent coupon payments, and (ii) the value of what you receive at maturity may be significantly less than the stated principal amount of your securities, and may be zero. Each of these risks will depend on the performance of the underlying specified below.
-
-=== Table 3 ===
-Row 1: ■ | We have the right to call the securities for mandatory redemption on any potential redemption date specified below. Although you will have downside exposure to the underlying, you will not receive dividends with respect to the underlying or participate in any appreciation of the underlying.
