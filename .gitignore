@@ -3,8 +3,6 @@
 __pycache__/
 /build/
 /dist/
-/edgar_filing_pipeline.egg-info/
-
 *.egg-info/
 data/
 *.nc
@@ -14,14 +12,10 @@ data/
 .DS_Store
 **/.DS_Store
 
-# Generated outputs
-output/**/*.csv
-output/**/*.xls*
-
-# Scratch & logs
-scratch/
-logs/
+# Generated outputs / artifacts
 runs/
 tmp/
-tests/
-prompts/
+logs/
+
+# Dev caches
+.pytest_cache/

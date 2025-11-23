@@ -1,29 +1,21 @@
 [tool.poetry]
-name = "credit-agreement-extraction"
+name = "credit-agreement-pipeline"
 version = "0.1.0"
-description = "Utilities for extracting and analysing EDGAR filings plus the agent gateway."
-readme = "README.md"
-authors = ["EDGAR Pipeline"]
+description = "Structured, run-scoped pipeline for EX-10 performance-pricing extraction."
+authors = ["Saul (owner)"]
 license = "MIT"
-packages = [
-  { include = "edgar_filing_pipeline", from = "src" },
-  { include = "gateway", from = "src/gateway/src" }
-]
+readme = "README.md"
+packages = [{ include = "pipeline", from = "src" }]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<4.0"
-beautifulsoup4 = ">=4.12"
-lxml = ">=5.2"
 pandas = ">=2.2"
 pyarrow = ">=14.0"
-tabulate = ">=0.9"
-requests = ">=2.31"
-fastapi = ">=0.111"
-uvicorn = ">=0.30"
-openai = ">=2.6"
-httpx = ">=0.28"
-pydantic-settings = ">=2.4"
-structlog = ">=24.3"
+rich = ">=13.7"
+click = ">=8.1"
+beautifulsoup4 = ">=4.12"
+lxml = ">=5.2"
+PyYAML = ">=6.0"
 
 [tool.poetry.group.dev.dependencies]
 black = ">=24.0"
@@ -31,8 +23,7 @@ ruff = ">=0.5"
 pytest = ">=8.0"
 
 [tool.poetry.scripts]
-edgar-pipeline = "edgar_filing_pipeline.cli:main"
-gateway-server = "gateway.edgar.cli:main"
+pipeline = "pipeline.run:main"
 
 [build-system]
 requires = ["poetry-core>=1.9.0"]
