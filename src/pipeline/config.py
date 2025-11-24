@@ -30,6 +30,15 @@ class Paths:
 
     @property
     def prompt_views_dir(self) -> Path:
+        # Deprecated alias; prefer normalized_dir. Kept for compatibility with older code.
+        return self.normalized_dir
+
+    @property
+    def normalized_dir(self) -> Path:
+        return self.run_dir / "normalized"
+
+    @property
+    def legacy_prompt_views_dir(self) -> Path:
         return self.run_dir / "prompt_views"
 
     @property

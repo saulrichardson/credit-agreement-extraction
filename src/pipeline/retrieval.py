@@ -4,7 +4,7 @@ import json
 from typing import Iterable, Dict, Any
 
 from .config import Paths
-from .utils import assert_exists
+from .utils import assert_exists, prompt_view_path
 
 
 def _window(text: str, start: int, end: int, bandwidth_chars: int) -> Dict[str, Any]:
@@ -21,7 +21,7 @@ def render_snippets(paths: Paths, item_ids: Iterable[str], bandwidth: int = 400)
             paths.indexing_dir / f"{item_id}_anchors.json",
             message=f"Missing anchor JSON for {item_id}: run indexing first.",
         )
-        pv = assert_exists(paths.prompt_views_dir / item_id / "prompt_view.txt")
+        pv = prompt_view_path(paths, item_id)
 
         text = pv.read_text()
         anchors_doc = json.loads(anchor_json.read_text())

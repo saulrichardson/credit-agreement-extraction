@@ -3,7 +3,7 @@
 This repo provides a minimal, deterministic pipeline to extract EX‑10 exhibits from SEC daily tarballs, build prompt views, run anchor indexing, render snippets, and perform structured extraction — all scoped to a single `run_id` folder.
 
 ## Key ideas
-- **Run-scoped artifacts only:** Everything lives under `runs/<run_id>/` (ingest → prompt_views → indexing → retrieval → structured → validation → deliverables). No global scratch.
+- **Run-scoped artifacts only:** Everything lives under `runs/<run_id>/` (ingest → normalized → indexing → retrieval → structured → validation → deliverables). No global scratch.
 - **Fail fast:** Missing inputs or empty filters raise errors.
 - **Explicit filters:** Ingest uses a JSON/YAML filter spec (accession/cik/glob/date) to avoid pulling whole tarballs.
 - **No hidden magic:** Prompts are explicit files in `prompts/`; pipelines take paths as args.
@@ -32,7 +32,7 @@ pipeline structured --run-id demo --prompt prompts/dg_v3.txt
 ```
 runs/<run_id>/
   ingest/         # extracted EX‑10 HTML
-  prompt_views/   # prompt_view.txt + anchors.tsv + canonical.txt
+  normalized/     # prompt_view.txt + anchors.tsv + canonical.txt
   indexing/       # anchor JSON
   retrieval/      # snippets
   structured/     # structured JSON

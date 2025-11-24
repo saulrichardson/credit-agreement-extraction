@@ -5,6 +5,8 @@ from pathlib import Path
 import re
 from typing import List, Dict, Any
 
+from .config import Paths
+
 
 def load_manifest(path: Path) -> Dict:
     if not path.exists():
@@ -46,3 +48,16 @@ def assert_exists(path: Path, message: str | None = None) -> Path:
     if not path.exists():
         raise FileNotFoundError(message or f"Missing required file: {path}")
     return path
+
+
+def prompt_view_path(paths: Paths, item_id: str) -> Path:
+    """Return the prompt_view.txt path, checking new normalized/ then legacy prompt_views/."""
+    preferred = paths.normalized_dir / item_id / "prompt_view.txt"
+    if preferred.exists():
+        return preferred
+    legacy = paths.legacy_prompt_views_dir / item_id / "prompt_view.txt"
+    if legacy.exists():
+        return legacy
+    raise FileNotFoundError(
+        f"Missing prompt_view for {item_id}: checked {preferred} and {legacy}"
+    )

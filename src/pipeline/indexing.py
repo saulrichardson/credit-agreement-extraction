@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Iterable
 
 from .config import Paths, prompt_hash, update_manifest
-from .utils import assert_exists
+from .utils import assert_exists, prompt_view_path
 
 
 class IndexingNotImplemented(RuntimeError):
@@ -19,7 +19,7 @@ def run_indexing(paths: Paths, item_ids: Iterable[str], prompt_path: Path) -> No
     prompt_digest = prompt_hash(prompt_path)
 
     for item_id in item_ids:
-        pv = assert_exists(paths.prompt_views_dir / item_id / "prompt_view.txt")
+        pv = prompt_view_path(paths, item_id)
         raise IndexingNotImplemented("Indexing not implemented. Plug in your LLM/gateway call here.")
 
     manifest_path = paths.manifest_path

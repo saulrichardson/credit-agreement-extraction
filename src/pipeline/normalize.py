@@ -222,7 +222,7 @@ def _split_non_table(segment: str, anchors: List[Tuple[int, int, str, str]], anc
 
 
 def build_prompt_views(paths: Paths, manifest: Dict) -> None:
-    pv_root = paths.prompt_views_dir
+    pv_root = paths.normalized_dir
     pv_root.mkdir(parents=True, exist_ok=True)
 
     items = manifest_items(manifest)
@@ -251,5 +251,7 @@ def build_prompt_views(paths: Paths, manifest: Dict) -> None:
         prompt_view_paths[item_id] = str(out_dir / "prompt_view.txt")
 
     manifest_path = paths.manifest_path
+    manifest["normalized"] = prompt_view_paths
+    # keep legacy key for backward compatibility
     manifest["prompt_views"] = prompt_view_paths
     record_manifest(manifest_path, manifest)
