@@ -70,23 +70,18 @@ class RunConfig:
 
 @dataclass
 class FilterSpec:
-    accession_in: Optional[List[str]] = None
-    cik_in: Optional[List[str]] = None
-    exhibit_glob: Optional[str] = None
-    form_in: Optional[List[str]] = None
-    date_from: Optional[str] = None
-    date_to: Optional[str] = None
+    # Single, user-supplied Python callable to decide if a document should be kept.
+    # Path format: "module:function". The callable signature must be (submission_dict, document_dict) -> bool.
+    # submission_dict keys: accession, cik, form_type, filing_date, documents[*].
+    # document_dict keys: type, filename, sequence, content, (plus any SGML fields).
+    doc_filter_path: str
 
     @classmethod
     def from_mapping(cls, mapping: Dict) -> "FilterSpec":
-        return cls(
-            accession_in=mapping.get("accession_in"),
-            cik_in=mapping.get("cik_in"),
-            exhibit_glob=mapping.get("exhibit_glob"),
-            form_in=mapping.get("form_in"),
-            date_from=mapping.get("date_from"),
-            date_to=mapping.get("date_to"),
-        )
+        path = mapping.get("doc_filter_path")
+        if not path:
+            raise ValueError("doc_filter_path is required (module:function)")
+        return cls(doc_filter_path=path)
 
 
 def record_manifest(path: Path, payload: Dict) -> None:
@@ -94,6 +89,15 @@ def record_manifest(path: Path, payload: Dict) -> None:
     path.write_text(json.dumps(payload, indent=2))
 
 
+def update_manifest(path: Path, **fields: Dict) -> Dict:
+    """Load, merge, and persist manifest atomically."""
+    if not path.exists():
+        raise FileNotFoundError(f"Manifest not found: {path}")
+    manifest = json.loads(path.read_text())
+    manifest.update(fields)
+    record_manifest(path, manifest)
+    return manifest
+
+
 def prompt_hash(prompt_path: Path) -> str:
     return _hash_file(prompt_path)
-
