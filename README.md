@@ -1,17 +1,17 @@
-# EDGAR LLM Pipeline
+# EDGAR LLM QA Pipeline
 
-Run-scoped pipeline for turning SEC EDGAR daily tarballs into LLM-ready chunks and outputs. Filters decide which filings/exhibits to pull; the same flow works for any type.
+Purpose-built for getting accurate, verifiable answers from LLMs over SEC EDGAR filings. Every run is isolated, reproducible, and leaves an evidence trail (anchors → snippets → outputs) so answers can be checked.
 
-## What it does
-- Ingest filtered filings from .nc tarballs.
-- Normalize HTML to text, split into anchors, and produce snippets.
-- Hand off to your LLM for indexing and QA/extraction (pluggable hooks).
+## Design principles
+- **Evidence first:** Normalize filings, mark anchors, and keep surrounding snippets so every answer has a provenance trail.
+- **Deterministic runs:** All artifacts stay under `runs/<run_id>/`; inputs and prompts are recorded in the manifest.
+- **Precise targeting:** Filters (accession/cik/form/exhibit/date) decide what to ingest—no uncontrolled crawling.
+- **Pluggable LLM steps:** Indexing and QA/extraction are clear hook points for your LLM or gateway.
 
 ## Run it
 ```bash
 poetry install
 
-# end-to-end
 pipeline all --run-id demo \
   --tarball data/20230103.nc.tar.gz \
   --filters filters.yaml \
@@ -25,12 +25,12 @@ runs/<run_id>/
   ingest/       # extracted filing HTML
   normalized/   # canonical text, anchors, prompt_view.txt
   indexing/     # anchor JSON (LLM-produced)
-  retrieval/    # snippets
+  retrieval/    # evidence snippets
   llm_qa/       # LLM QA / extraction outputs
-  validation/   # optional QA outputs
+  validation/   # optional QA checks
   deliverables/ # final rollups
   manifest.json # filters, prompts, accessions, paths
 ```
 
 ## Status
-LLM calls are stubbed—wire your client into `pipeline/indexing.py` and `pipeline/structured.py` (llm_qa stage). Errors surface early to avoid silent failures.
+LLM calls are stubbed; plug your client into `pipeline/indexing.py` and `pipeline/structured.py` (llm_qa stage). Errors surface early to avoid silent failures.
