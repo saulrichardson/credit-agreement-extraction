@@ -1,12 +1,12 @@
-# Credit Agreement Pipeline (clean run-scoped build)
+# EDGAR LLM Pipeline (run-scoped)
 
-This repo provides a minimal, deterministic pipeline to extract EX‑10 exhibits from SEC daily tarballs, build prompt views, run anchor indexing, render snippets, and perform structured extraction — all scoped to a single `run_id` folder.
+Run-scoped, deterministic pipeline to pull SEC EDGAR filings from daily tarballs, normalize them, carve out anchors/snippets, and drive LLM-based QA/extraction. Works for any filing/exhibit type the filters select—EX‑10 is just a default example.
 
 ## Key ideas
-- **Run-scoped artifacts only:** Everything lives under `runs/<run_id>/` (ingest → normalized → indexing → retrieval → llm_qa → validation → deliverables). No global scratch.
-- **Fail fast:** Missing inputs or empty filters raise errors.
-- **Explicit filters:** Ingest uses a JSON/YAML filter spec (accession/cik/glob/date) to avoid pulling whole tarballs.
-- **No hidden magic:** Prompts are explicit files in `prompts/`; pipelines take paths as args.
+- **Run-scoped artifacts:** `runs/<run_id>/` holds the full chain (ingest → normalized → indexing → retrieval → llm_qa → validation → deliverables). No shared scratch.
+- **Deterministic + fail-fast:** Required inputs must exist; empty filters raise early errors.
+- **Explicit targeting:** Ingest uses a JSON/YAML filter spec (accession/cik/form/exhibit glob/date) so you only process what you ask for.
+- **LLM pluggable points:** Prompts live in `prompts/`; indexing and llm_qa stages are clear integration hooks for your gateway/LLM.
 
 ## Quick start
 ```bash
@@ -24,17 +24,17 @@ pipeline index --run-id demo --prompt prompts/prompt_all_comprehensive_v2.txt
 # Render snippets
 pipeline retrieve --run-id demo --bandwidth 4
 
-# Structured extraction
+# LLM QA / extraction
 pipeline structured --run-id demo --prompt prompts/dg_v3.txt
 ```
 
 ## Layout
 ```
 runs/<run_id>/
-  ingest/         # extracted EX‑10 HTML
+  ingest/         # extracted filing HTML
   normalized/     # prompt_view.txt + anchors.tsv + canonical.txt
-  indexing/       # anchor JSON
-  retrieval/      # snippets
+  indexing/       # anchor JSON (LLM-produced)
+  retrieval/      # snippets around anchors
   llm_qa/         # LLM QA / extraction outputs
   validation/     # QA outputs (optional)
   deliverables/   # final rollups
@@ -42,4 +42,4 @@ runs/<run_id>/
 ```
 
 ## Status
-This is a clean scaffolding. Gateway/LLM calls are stubbed for now; integration should be wired into `pipeline/indexing.py` and `pipeline/structured.py` where indicated. The code fails if required inputs are missing to avoid silent degradation.
+This is a clean scaffolding. Gateway/LLM calls are stubbed; wire your client into `pipeline/indexing.py` and `pipeline/structured.py` (`llm_qa` stage). The code fails fast when required inputs are missing to avoid silent degradation.
