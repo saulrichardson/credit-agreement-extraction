@@ -51,6 +51,10 @@ class Paths:
 
     @property
     def structured_dir(self) -> Path:
+        return self.run_dir / "llm_qa"
+
+    @property
+    def legacy_structured_dir(self) -> Path:
         return self.run_dir / "structured"
 
     @property
