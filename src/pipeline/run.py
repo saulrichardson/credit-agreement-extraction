@@ -31,10 +31,13 @@ def _load_accessions_and_filters(filters_path: Optional[str], accessions_file: O
 
     if not accessions_file and not filters_path:
         raise click.UsageError("Provide either accessions-file or filters to avoid scanning everything.")
-    if not filters_path:
-        raise click.UsageError("filters file is required; provide doc_filter_path in it (module:function)")
 
-    spec = load_filter_spec(Path(filters_path))
+    if filters_path:
+        spec = load_filter_spec(Path(filters_path))
+    else:
+        # Default to accepting all documents when no filter is supplied.
+        spec = FilterSpec(doc_filter_path="pipeline.filters:keep_all")
+
     doc_filter = load_doc_filter(spec)
     return accessions, spec, doc_filter
 
@@ -47,7 +50,13 @@ def cli():
 @cli.command()
 @click.option("--run-id", required=True, help="Run identifier (creates runs/<run_id>/)")
 @click.option("--tarball", multiple=True, type=click.Path(exists=True, dir_okay=False), required=True)
-@click.option("--filters", "filters_path", type=click.Path(exists=True, dir_okay=False), required=False)
+@click.option(
+    "--filters",
+    "filters_path",
+    type=click.Path(exists=True, dir_okay=False),
+    required=False,
+    help="Filter spec (JSON/YAML with doc_filter_path). Defaults to keep_all when omitted.",
+)
 @click.option("--accessions-file", type=click.Path(exists=True, dir_okay=False), required=False)
 @click.option("--base-dir", default=".", show_default=True)
 def ingest(run_id: str, tarball, filters_path: Optional[str], accessions_file: Optional[str], base_dir: str):
@@ -136,7 +145,13 @@ def validate(run_id: str, base_dir: str):
 @click.option("--prompt-structured", type=click.Path(exists=True, dir_okay=False), required=True)
 @click.option("--bandwidth", default=400, show_default=True, type=int)
 @click.option("--base-dir", default=".", show_default=True)
-@click.option("--filters", "filters_path", type=click.Path(exists=True, dir_okay=False), required=False)
+@click.option(
+    "--filters",
+    "filters_path",
+    type=click.Path(exists=True, dir_okay=False),
+    required=False,
+    help="Filter spec (JSON/YAML with doc_filter_path). Defaults to keep_all when omitted.",
+)
 def all(
     run_id: str,
     tarball,

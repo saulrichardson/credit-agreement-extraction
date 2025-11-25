@@ -16,6 +16,7 @@ data/
 runs/
 tmp/
 logs/
+scratch/
 
 # Dev caches
 .pytest_cache/

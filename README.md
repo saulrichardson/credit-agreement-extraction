@@ -14,9 +14,12 @@ poetry install
 
 pipeline all --run-id demo \
   --tarball data/20230103.nc.tar.gz \
-  --filters filters.yaml \
   --prompt-index prompts/prompt_all_comprehensive_v2.txt \
   --prompt-structured prompts/dg_v3.txt
+
+# Filters
+- By default, the pipeline accepts every document in the whitelisted filings (`keep_all`).
+- Provide `--filters path/to/spec.json` (JSON/YAML with `doc_filter_path: "module:function"`) to restrict exhibits, e.g., to EX-10 only.
 ```
 
 ## Artifacts

@@ -27,6 +27,11 @@ def serialize_filter_spec(spec: FilterSpec) -> Dict:
     return {k: v for k, v in asdict(spec).items() if v is not None}
 
 
+def keep_all(submission: Dict[str, Any], document: Dict[str, Any]) -> bool:
+    """Accept every document; used as the default when no filter is provided."""
+    return True
+
+
 def load_doc_filter(spec: FilterSpec) -> Callable[[Dict[str, Any], Dict[str, Any]], bool]:
     if ":" not in spec.doc_filter_path:
         raise ValueError("doc_filter_path must be 'module:function'")

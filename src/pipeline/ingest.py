@@ -10,8 +10,11 @@ from .utils import safe_item_id
 
 
 def _member_matches_accessions(member_name: str, accessions: List[str]) -> Tuple[bool, str | None]:
+    def _norm(s: str) -> str:
+        return s.replace("-", "").replace("_", "")
+
     for acc in accessions:
-        if acc.replace("-", "") in member_name:
+        if _norm(acc) in _norm(member_name):
             return True, acc
     return False, None
 

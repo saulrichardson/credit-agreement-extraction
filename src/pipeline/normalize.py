@@ -101,7 +101,12 @@ def _canonicalize_html(html_path: Path) -> str:
             if cells:
                 rows.append(cells)
         if not rows:
-            table.replace_with("")
+            # Fallback: preserve raw table text instead of dropping it (e.g., EDGAR ASCII tables without <tr>/<td>)
+            raw_text = table.get_text("\n", strip=True)
+            if raw_text.strip():
+                table.replace_with(soup.new_string(f"\n[[TABLE]]\n{raw_text}\n[[/TABLE]]\n"))
+            else:
+                table.decompose()
             continue
         ncols = max(len(r) for r in rows)
         normalized_rows = [r + [""] * (ncols - len(r)) for r in rows]
