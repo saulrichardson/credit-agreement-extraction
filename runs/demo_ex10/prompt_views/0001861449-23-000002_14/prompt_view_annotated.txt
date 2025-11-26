@@ -1,0 +1,164 @@
+[[A0001]]
+a1011-birdxthirdaremeagu
+
+[[A0002]]
+EXECUTION VERSION 1 THIRD AMENDED AND RESTATED EMEA GUARANTY AND PLEDGE AGREEMENT This THIRD AMENDED AND RESTATED EMEA GUARANTY AND PLEDGE AGREEMENT (the “EMEA Guaranty”), dated as of December 30, 2022, made by Bird Rides International Holding, Inc. (the “EMEA Guarantor”), is made in favor of MidCap Financial Trust, as Administrative Agent) (the “Administrative Agent”) and the Lenders (the “Lenders” collectively with the Administrative Agent and the other Secured Parties, the “Beneficiaries”) under the Credit Agreement (as defined below). RECITALS 1. Bird US Opco, LLC as Borrower (the “Borrower”), Bird US Holdco, LLC, as Guarantor (the “Holdco Guarantor”), and the Beneficiaries have entered into the Loan and Security Agreement dated as of April 27, 2021 (as amended, supplemented or modified from time to time, the “Credit Agreement”). Capitalized terms used herein and not otherwise defined herein shall have the meanings assigned to them in the Credit Agreement. 2. In connection with Amendment No. 8 to Loan and Security Agreement, dated as of the date hereof, by and among the Borrower, the Holdco Guarantor, and the Administrative Agent (the “Eighth Amendment”), which amends the Credit Agreement, the Borrower is required to provide the Beneficiaries with an amended guarantee duly executed by the EMEA Guarantor, and this EMEA Guaranty is being delivered in satisfaction of such requirement. 3. The EMEA Guarantor derives substantial direct and indirect benefits from the extensions of credit contemplated by the Credit Agreement. 4. The EMEA Guarantor previously entered into that certain Second Amended and Restated EMEA Guaranty and Pledge Agreement dated as of October 7, 2022 in favor of the Beneficiaries under the Credit Agreement (the “Existing EMEA Guaranty”), and desires to amend and restate the Existing EMEA Guaranty.
+
+[[A0003]]
+GUARANTEE As an inducement to the Beneficiaries to extend credit to the Borrower in respect of the Loans and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the EMEA Guarantor agrees as follows: 1. Guarantee.
+
+[[A0004]]
+The EMEA Guarantor hereby unconditionally guarantees (as primary obligor and not merely as surety) to each Beneficiary and its successors and permitted assigns the punctual and complete payment of all amounts due and payable and performance of all other obligations in respect of the Loans (now or hereafter arising, by acceleration or otherwise) by the Borrower under the Credit Agreement (the “Guaranteed Obligations”) without regard to any defense of any kind which the EMEA Guarantor may have or assert, and without abatement, suspension, deferment or diminution of any event or condition whatsoever.
+
+[[A0005]]
+2 2. Guarantee Absolute and Unconditional.
+
+[[A0006]]
+The EMEA Guarantor hereby agrees that its obligations shall be absolute, irrevocable and unconditional and, without limiting the generality of the foregoing, shall not be released, discharged or otherwise affected by: (a) any failure or delay to enforce the provisions of the Credit Agreement; (b) the perfection, release or extent of any Collateral or EMEA Guarantor Collateral or any failure to realize on any Collateral or EMEA Guarantor Collateral; (c) any waiver, modification or consent to departure from, or amendment of the Credit Agreement; (d) the invalidity, illegality or unenforceability of the Credit Agreement or the Guaranteed Obligations; (e) any change in the corporate existence, structure or ownership of the Borrower or the EMEA Guarantor; or (f) any other circumstances (other than payment in full) which may otherwise constitute a legal or equitable discharge of a surety or guarantor.
+
+[[A0007]]
+This EMEA Guaranty constitutes a guarantee of payment when due and not of collection.
+
+[[A0008]]
+The Beneficiaries have no duty or responsibility whatsoever to the EMEA Guarantor and make no representation or warranty in respect of the management and maintenance of the Guaranteed Obligations or any collateral therefor. 3. Parallel Debt.
+
+[[A0009]]
+For the purpose of taking and ensuring the continuing validity and enforceability of the security created under the EMEA Dutch Pledge, the EMEA Guarantor hereby agrees and covenants with the Administrative Agent that it shall pay to the Administrative Agent an amount equal to, and in the currency of, any sums owing by it to a Secured Party under any Transaction Document (the “Principal Obligations”) as and when the same fall due for payment under the relevant Transaction Document (the “Parallel Debt”). The Parallel Debt will become due and payable as and when one or more of the Principal Obligations of the EMEA Guarantor becomes due and payable.
+
+[[A0010]]
+Notwithstanding anything to the contrary in any Transaction Document, the Administrative Agent shall have its own independent right to demand payment of the Parallel Debt by the Secured Parties and the Administrative Agent acts in its own name and not as a trustee, and its claims in respect of the Parallel Debt shall not be held on trust.
+
+[[A0011]]
+The rights of the Secured Parties to receive payment of the Principal Obligations are several from the rights of the Administrative Agent to receive payment of the Parallel Debt; provided that the payment by the EMEA Guarantor of its Parallel Debt to the Administrative Agent in accordance with this paragraph and the immediately preceding paragraph shall be a good discharge of the corresponding Principal Obligations and the payment by the EMEA Guarantor of its corresponding Principal Obligations in accordance with the Transaction Documents shall be a good discharge of the relevant Parallel Debt.
+
+[[A0012]]
+In the event of a good discharge of the Principal Obligations, the Administrative Agent and the Secured Parties shall not be entitled any more to demand payment of the corresponding Parallel Debt and such
+
+[[A0013]]
+3 Parallel Debt shall cease to exist.
+
+[[A0014]]
+The amount of the Parallel Debt of the EMEA Guarantor shall at all times be equal to the amount of its Principal Obligations.
+
+[[A0015]]
+This shall apply accordingly in the event of a good discharge of the Parallel Debt to the corresponding Principal Obligations.
+
+[[A0016]]
+Despite the foregoing, any payment under the Loan Documents shall be made to the Administrative Agent, unless expressly stated otherwise in the Transaction Documents (save for this paragraph and the immediately preceding paragraph) or unless the Administrative Agent directs such payment to be made to the Administrative Agent. 4. Waiver by Guarantor.
+
+[[A0017]]
+The EMEA Guarantor agrees that the Beneficiaries may at any time and from time to time, either before or after the maturity thereof, without notice to or further consent of the EMEA Guarantor, extend the time of payment of, exchange or surrender any collateral for, or renew any of the Guaranteed Obligations, and may also make any agreement with Borrower for the extension, renewal, payment, compromise, discharge or release thereof, in whole or in part, for any modification of the terms thereof or of any agreement between any of the Beneficiaries and Borrower without in any way impairing or affecting this EMEA Guaranty.
+
+[[A0018]]
+The EMEA Guarantor hereby waives notice of acceptance of this EMEA Guaranty, diligence, acceleration, presentment, notice of default or demand of payment to or upon the Borrower or the EMEA Guarantor, filing of claims with a court in the event of merger or bankruptcy of the Borrower, any right or requirement to proceed first against the Borrower, any protest or notice with respect to the Credit Agreement or the obligations created or evidenced thereby and all demands whatsoever, any exchange, sale or surrender of, or realization on, any other guarantee or any collateral, and any and all other notices and surety defenses (other than payment in full) whatsoever.
+
+[[A0019]]
+The Beneficiaries shall not be obligated to file any claim relating to the Guaranteed Obligations in the event that Borrower becomes subject to a bankruptcy, reorganization or similar proceeding, and the failure of the Beneficiaries to so file shall not affect the EMEA Guarantor’s obligations hereunder. 5. Reinstatement in Certain Instances.
+
+[[A0020]]
+The EMEA Guarantor further agrees that if any payment or delivery of any of the Guaranteed Obligations is subsequently rescinded or is subsequently recovered from or repaid by the recipient thereof, in whole or in part, in any bankruptcy, reorganization, insolvency or similar proceedings instituted by or against the Borrower, or otherwise, the EMEA Guarantor’s obligations hereunder with respect to such Guaranteed Obligation shall be reinstated at such time to the same extent as though the payment or delivery so recovered or repaid had not been originally made. 6. Security Interest. (a) As security for the performance by the EMEA Guarantor of all the terms, covenants and agreements on the part of the EMEA Guarantor to be performed under this EMEA Guaranty and any other Transaction Document, including all Guaranteed Obligations, the EMEA Guarantor hereby grants to the Administrative Agent for its benefit and the ratable benefit of the Secured Parties, a continuing security interest in, all of the EMEA Guarantor’s right, title and interest in, to and under all of the following, whether now or hereafter owned, existing or arising (collectively, the “EMEA Guarantor Collateral”): (i) sixty-five percent (65%) of the Equity Interests of Bird Rides Europe B.V. and (ii) all proceeds of, and all amounts received or receivable under any or all of, the foregoing.
+
+[[A0021]]
+The Administrative Agent (for the benefit of the Secured Parties) shall have, with respect to all
+
+[[A0022]]
+4 the EMEA Guarantor Collateral, and in addition to all the other rights and remedies available to the Administrative Agent (for the benefit of the Secured Parties), all the rights and remedies of a secured party under any applicable UCC. (b) The EMEA Guarantor authorizes the Administrative Agent to perfect the Administrative Agent’s security interest in the EMEA Guarantor Collateral, by filing or authorizing the filing of, at the expense of the EMEA Guarantor, a UCC-1 financing statement naming the Administrative Agent as secured party and describing the EMEA Guarantor Collateral in a manner that the Administrative Agent reasonably determines is necessary or advisable to perfect the security interest granted hereunder. (c) At any time or from time to time upon the request of the Administrative Agent, the EMEA Guarantor will, at its expense, promptly execute, acknowledge and deliver such further documents and do such other acts and things as the Administrative Agent reasonably determines is necessary or advisable to perfect the security interest granted hereunder. (d) Upon the Borrower’s obligation to repay the Loans becoming immediately due and payable, the Administrative Agent and the other Secured Parties shall have, in addition to the rights and remedies which they may have under this EMEA Guaranty and the other Transaction Documents, all other rights and remedies provided after default under the UCC and under other Applicable Law, which rights and remedies shall be cumulative.
+
+[[A0023]]
+Any proceeds from liquidation of the EMEA Guarantor Collateral shall be applied in the order of priority set forth in Section 4.01 of the Credit Agreement. (e) Immediately upon the earlier to occur of (i) (A) the Borrower having made voluntary prepayments of the Loans pursuant to Section 2.02(e) of the Credit Agreement in an amount equal to or in excess of $5,000,000 in the aggregate after the closing of the Eighth Amendment (excluding, for the avoidance of doubt, any prepayments required in connection with the closing of the Eighth Amendment and any other repayments of principal of the Loans) and (B) on the date of each such prepayment, Bird Rides, Inc. and its consolidated subsidiaries having Liquidity (as defined in the Scooter Lease and calculated pro forma for the voluntary prepayments referred to in clause (a)) in an amount of not less than 90% of the amount of liquidity for the calendar quarter in which such prepayment occurs that is reflected in the pro forma 2023-2024 forecast provided by Bird Rides, Inc. (or any of its Affiliates) to the Administrative Agent on December 15, 2022 (the “Forecast”), as certified by Bird Rides, Inc. to the Administrative Agent in a certificate (which certificate shall provide the amount of Liquidity on the date of such prepayment and a calculation showing that such Liquidity is not less than 90% of the amount of liquidity for the applicable calendar quarter reflected in the Forecast), or (ii) the satisfaction in full of the Guaranteed Obligations (other than unasserted or contingent indemnification claims) and the occurrence of the outstanding principal amount of the Loans being permanently reduced to $0, the EMEA Guarantor Collateral shall be automatically released from the lien created hereby, and this EMEA Guaranty and all obligations (other than those expressly stated to survive such termination) of the EMEA Guarantor shall terminate, all without delivery of any instrument or performance of any act by any party, and all rights to the EMEA Guarantor Collateral shall revert to the EMEA Guarantor; provided, however,
+
+[[A0024]]
+5 that promptly following written request therefor by the EMEA Guarantor delivered to the Administrative Agent following any such termination, and at the expense of the EMEA Guarantor, the Administrative Agent shall execute and deliver to and authorize the filing by the EMEA Guarantor of UCC-3 termination statements or amendment statements and such other documents as the EMEA Guarantor shall reasonably request to evidence such termination. 7. Representations and Warranties.
+
+[[A0025]]
+The EMEA Guarantor hereby represents and warrants to the Beneficiaries that: (a) The EMEA Guarantor (i) is a corporation duly organized, validly existing and in good standing under the laws of the State of Delaware, (ii) has full power and authority to own its properties and assets and to carry on its business as now being conducted and as presently contemplated, and (iii) has full power and authority to execute, deliver and perform its obligations under this EMEA Guaranty. (b) The execution, delivery and performance by the EMEA Guarantor of its obligations under this EMEA Guaranty will not (i) violate or conflict with (x) any provision of law, order, judgment or decree of any court or other agency or government, (y) any provision of its constitutional documents, or (z) any agreement or other instrument to which the EMEA Guarantor is a party or is bound; (ii) result in a breach of, or constitute (with due notice or lapse of time or both) a default under any contractual provision to which it is bound; or (iii) result in the creation or imposition of any lien, charge or encumbrance of any nature whatsoever upon any of the property or assets of the EMEA Guarantor pursuant to any indenture, agreement or instrument (other than pursuant to this EMEA Guaranty), except in the case of each of the foregoing clauses (i) through (iii) to the extent that any such conflict, breach, default, lien, charge, encumbrance, or violation as applicable, could not reasonably be expected to have a Material Adverse Effect. (c) Except where the failure to obtain or make such consent, approval or authorization could not reasonably be expected to have a Material Adverse Effect, all consents, approvals, or authorizations from any Governmental Authority that are required to be obtained in connection with or as a condition to the execution, delivery or performance of this EMEA Guaranty have been obtained or made and are in full force and effect. (d) The EMEA Guarantor is Solvent. (e) The EMEA Guarantor is not contemplating either a filing of a petition under any state or federal bankruptcy law, or the liquidating of all or a major portion of its property; and the EMEA Guarantor has no knowledge of any person contemplating the filing of such petition against it. (f) Perfection Representations. (i) This EMEA Guaranty creates a valid and continuing security interest (as defined in the applicable UCC) in the EMEA Guarantor’s right, title and interest in, to and under the EMEA Guarantor Collateral which (A) security interest is
+
+[[A0026]]
+6 enforceable against creditors of and purchasers from the EMEA Guarantor, (B) security interest will be perfected upon filing of a financing statement in the EMEA Guarantor’s location (within the meaning of Section 9-307 of the UCC) naming the EMEA Guarantor as debtor and the Administrative Agent as secured party and describing the EMEA Guarantor Collateral and (C) will be free of all Adverse Claims in such EMEA Guarantor Collateral, except for Permitted Liens. (ii) The EMEA Guarantor owns and has good and marketable title to the EMEA Guarantor Collateral free and clear of any Adverse Claim of any Person other than Liens permitted to exist under the Credit Agreement. (iii) All appropriate financing statements, financing statement amendments and continuation statements have been prepared by the Administrative Agent to be filed in the proper filing office in the appropriate jurisdictions under Applicable Law in order to perfect (and continue the perfection of) the grant by the EMEA Guarantor of a security interest in the EMEA Guarantor Collateral to the Administrative Agent pursuant to this Agreement. (iv) Other than the security interest granted to the Administrative Agent pursuant to this EMEA Guaranty, the EMEA Guarantor has not pledged, assigned, sold, granted a security interest in, or otherwise conveyed any of the EMEA Guarantor Collateral except as permitted by the Transaction Documents.
+
+[[A0027]]
+The EMEA Guarantor has not authorized the filing of and, except as otherwise notified to the Administrative Agent in writing, is not aware of any financing statements filed against the EMEA Guarantor that include a description of collateral covering the EMEA Guarantor Collateral other than any financing statement (i) in favor of the Administrative Agent or (ii) that has been terminated.
+
+[[A0028]]
+The EMEA Guarantor is not aware of any judgment lien, ERISA lien or tax lien filings against the EMEA Guarantor that are not permitted by this Agreement and the other Transaction Documents. (v) Notwithstanding any other provision of this Agreement or any other Transaction Document, the representations contained in this Section 7(f) shall be continuing and remain in full force and effect until the Final Payout Date. 8. [Reserved]. 9. Subrogation.
+
+[[A0029]]
+The EMEA Guarantor shall be subrogated to all rights of the Beneficiaries against the Borrower in respect of any amounts paid or deliveries made by the EMEA Guarantor pursuant to the provisions of this EMEA Guaranty, provided, however, that the EMEA Guarantor shall not be entitled to enforce, or to receive any payments arising out of or based upon, such right of subrogation until payment in full of all of the Guaranteed Obligations. 10.
+
+[[A0030]]
+Expenses of Enforcement.
+
+[[A0031]]
+The EMEA Guarantor further agrees to pay all reasonable and documented out-of-pocket costs and expenses, including reasonable attorneys’ fees, which are incurred by any of the Beneficiaries in any effort to collect or enforce any provision of this EMEA Guaranty.
+
+[[A0032]]
+7 11. Set-Off.
+
+[[A0033]]
+Upon the Guaranteed Obligations becoming due and payable (by acceleration or otherwise) under the Credit Agreement or any other applicable Transaction Document, each Beneficiary is hereby authorized to setoff, appropriate and apply (without presentment, demand, protest or other notice which are hereby expressly waived) any deposits and any other indebtedness held or owing by such Beneficiary (including by any branches or agencies of such Beneficiary) to, or for the account of, the EMEA Guarantor against amounts owing by the EMEA Guarantor hereunder (even if contingent or unmatured); provided that such Beneficiary shall notify the EMEA Guarantor promptly following such setoff. 12.
+
+[[A0034]]
+Counterclaim/Setoff and Taxes.
+
+[[A0035]]
+All payments and deliveries hereunder shall be made by the EMEA Guarantor (a) without set-off, counterclaim or deduction; and (b) without ,deduction for Taxes, except as required by Applicable Law.
+
+[[A0036]]
+If any Applicable Law (as determined in the good faith discretion of the EMEA Guarantor) requires the deduction or withholding of any Tax from any such payment by the EMEA Guarantor, then the EMEA Guarantor shall be entitled to make such deduction or withholding and shall timely pay the full amount deducted or withheld to the relevant Governmental Authority in accordance with Applicable Law and if any such withholding or deduction is in respect of any Indemnified Taxes, then the EMEA Guarantor shall pay such additional amount or amounts as is necessary to ensure that the net amount actually received by the Beneficiaries will equal the full amount the Beneficiaries would have received had no such withholding or deduction of Indemnified Taxes been required (including, without limitation, such withholdings and deductions applicable to additional sums payable under this Section 10). After payment of any Tax by the EMEA Guarantor to a Governmental Authority pursuant to this Section 10, the EMEA Guarantor shall promptly forward to the Beneficiaries the original or a certified copy of an official receipt, a copy of the return reporting such payment, or other documentation reasonably satisfactory to the Beneficiaries evidencing such payment to such authority. 13.
+
+[[A0037]]
+Governing Law; Submission to Jurisdiction.
+
+[[A0038]]
+THIS EMEA GUARANTY AND, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ALL MATTERS ARISING OUT OF OR RELATING IN ANY WAY TO THIS EMEA GUARANTY SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAWS OF THE STATE OF NEW YORK (INCLUDING SECTIONS 5-1401 AND 5-1402 OF THE GENERAL OBLIGATIONS LAW OF THE STATE OF NEW YORK, BUT WITHOUT REGARD TO ANY OTHER CONFLICTS OF LAW PROVISIONS THEREOF, EXCEPT TO THE EXTENT THAT THE PERFECTION, THE EFFECT OF PERFECTION OR PRIORITY OF THE INTERESTS OF ADMINISTRATIVE AGENT OR ANY LENDER IN THE COLLATERAL IS GOVERNED BY THE LAWS OF A JURISDICTION OTHER THAN THE STATE OF NEW YORK). With respect to any suit, action or proceedings relating to this EMEA Guaranty (“Proceedings”), the EMEA Guarantor irrevocably: (a) submits to the exclusive jurisdiction of the courts of the State of New York and the United States District Court located in the Borough of Manhattan in New York City and irrevocably agrees to designate any Proceedings brought in the courts of the State of New York as “commercial” on the Request for Judicial Intervention seeking assignment to the Commercial Division of the Supreme Court; and (b) waives any objection which it may have at any time to the laying of venue of any Proceedings brought in any such court, waives any claim that such Proceedings have been brought in an inconvenient forum and further waives the right to object, with respect to such Proceedings that such court does not have any jurisdiction over the EMEA Guarantor.
+
+[[A0039]]
+Nothing in this EMEA Guaranty precludes the Beneficiaries from bringing
+
+[[A0040]]
+8 Proceedings in any other jurisdiction in order to enforce any judgment obtained in any Proceedings referred to in the preceding sentence. 14.
+
+[[A0041]]
+Waiver of Jury Trial.
+
+[[A0042]]
+EACH PARTY HERETO HEREBY WAIVES, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, TRIAL BY JURY IN ANY JUDICIAL PROCEEDING INVOLVING, DIRECTLY OR INDIRECTLY, ANY MATTER (WHETHER SOUNDING IN TORT, CONTRACT OR OTHERWISE) IN ANY WAY ARISING OUT OF, RELATED TO, OR CONNECTED WITH THIS AGREEMENT OR ANY OTHER TRANSACTION DOCUMENT. 15.
+
+[[A0043]]
+Successor and Assigns.
+
+[[A0044]]
+This EMEA Guaranty shall continue in full force and effect and be binding upon the EMEA Guarantor and the successors and permitted assigns of the EMEA Guarantor, provided, however, that the EMEA Guarantor may not assign or otherwise transfer this EMEA Guaranty or any obligations hereunder without the prior written consent of the Beneficiaries and any such assignment or transfer without such consent shall be void.
+
+[[A0045]]
+The Beneficiaries may, concurrently with any assignment of their rights and obligations in accordance with the Credit Agreement, assign this EMEA Guaranty or any rights or powers hereunder, with any or all of the underlying liabilities or obligations, the payment of which is guaranteed hereunder. 16.
+
+[[A0046]]
+Entire Agreement; Amendments and Waivers.
+
+[[A0047]]
+This EMEA Guaranty supersedes any prior negotiations, discussions, or communications between the Beneficiaries and the EMEA Guarantor and constitutes the entire agreement between the Beneficiaries and the EMEA Guarantor with respect to the Credit Agreement and this EMEA Guaranty.
+
+[[A0048]]
+No provision of this EMEA Guaranty may be amended, modified or waived without the prior written consent of the Beneficiaries. 17. Notices.
+
+[[A0049]]
+All notices or other communications to the EMEA Guarantor and the Beneficiaries shall be delivered pursuant to the requirements set forth in Section 14.02 of the Credit Agreement. 18.
+
+[[A0050]]
+Amendment and Restatement.
+
+[[A0051]]
+This EMEA Guaranty is an amendment and restatement, and not in extinguishment, of the Existing EMEA Guaranty.
+
+[[A0052]]
+Nothing contained herein shall be construed as a release or other discharge of the EMEA Guarantor’s obligations under the Existing EMEA Guaranty, all of which obligations are hereby ratified and confirmed in all respects and shall continue hereunder, and the EMEA Guarantor hereby ratifies the security interests granted by it under the Existing EMEA Guaranty. [SIGNATURE PAGE TO FOLLOW.]
+
+[[A0053]]
+[Signature Page to Third Amended and Restated EMEA Guaranty and Pledge Agreement] IN WITNESS WHEREOF, the EMEA Guarantor has caused this Third Amended and Restated EMEA Guaranty to be executed by one of its duly authorized representatives or officers.
+
+[[A0054]]
+BIRD RIDES INTERNATIONAL HOLDING, INC. By: /s/ Shane Torchiana Name: Shane Torchiana Title: President and Chief Executive Officer
+
+[[A0055]]
+[Signature Page to Third Amended and Restated EMEA Guaranty and Pledge Agreement] Acknowledged and Agreed: MIDCAP FINANCIAL TRUST, as the Administrative Agent By: Apollo Capital Management, L.P., its Investment Manager By: Apollo Capital Management GP, LLC, its General Partner By: /s/ Maurice Amsellem Name: Maurice Amsellem Title: Authorized Signatory

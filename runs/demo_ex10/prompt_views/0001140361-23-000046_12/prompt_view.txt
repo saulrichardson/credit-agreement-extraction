@@ -1,0 +1,772 @@
+Exhibit 10.8
+
+KIMCO REALTY CORPORATION
+
+AMENDED AND RESTATED 2020 EQUITY PARTICIPATION PLAN
+
+(Amended and Restated Effective: December 14, 2022)
+
+Article 1.
+
+PURPOSE
+
+The purpose of the Amended and Restated Kimco Realty Corporation 2020 Equity Participation Plan (the “ Plan ”) is to promote the success and enhance the value of Kimco Realty Corporation (the “ Company ”) and the Partnership by linking the individual interests of the Eligible Individuals to those of Company stockholders and by providing such Eligible Individuals with an incentive for outstanding performance to generate superior returns to Company stockholders. The Plan is further intended to provide flexibility to the Company, the Partnership and their respective subsidiaries in its ability to motivate, attract, and retain the services of Eligible Individuals upon whose judgment, interest, and special effort the successful conduct of the Company’s and the Partnership’s operation is largely dependent. Effective as of December 14, 2022 (the “ Effective Date ”), this Plan amends and restates, in its entirety, the Kimco Realty Corporation 2020 Equity Incentive Plan.
+
+Article 2.
+
+DEFINITIONS AND CONSTRUCTION
+
+Wherever the following terms are used in the Plan they shall have the meanings specified below, unless the context clearly indicates otherwise. The singular pronoun shall include the plural where the context so indicates.
+
+2.1          “ Administrator ” shall mean the entity that conducts the general administration of the Plan as provided in Article 11. With reference to the duties of the Committee under the Plan which have been delegated to one or more persons pursuant to Section 11.6, or as to which the Board has assumed, the term “ Administrator ” shall refer to such person(s) unless the Committee or the Board has revoked such delegation or the Board has terminated the assumption of such duties.
+
+2.2          “ Affiliate ” shall mean (a) the Partnership, (b) any Subsidiary; and (c) any domestic eligible entity that is disregarded, under Treasury Regulation Section 301.7701-3, as an entity separate from either (i) the Company, (ii) the Partnership or (ii) any Subsidiary.
+
+2.3          “ Applicable Accounting Standards ” shall mean Generally Accepted Accounting Principles in the United States, International Financial Reporting Standards or such other accounting principles or standards as may apply to the Company’s financial statements under United States federal securities laws from time to time.
+
+2.4          “ Award ” shall mean an Option, a Restricted Stock award, a Restricted Stock Unit award, a Performance Award, a Dividend Equivalents award, a Deferred Stock award, a Stock Payment award, a Stock Appreciation Right or a LTIP Unit, which may be awarded or granted under the Plan (collectively, “ Awards ”).
+
+2.5          “ Award Agreement ” shall mean any written notice, agreement, terms and conditions, contract or other instrument or document evidencing an Award, including through electronic medium, which shall contain such terms and conditions with respect to an Award as the Administrator shall determine consistent with the Plan.
+
+2.6          “ Award Limit ” shall mean with respect to Awards that shall be payable in Shares or in cash, as the case may be, the respective limits set forth in Section 3.3 and Section 3.4.
+
+2.7          “ Board ” shall mean the Board of Directors of the Company.
+
+1
+
+2.8          “ Change in Control ” shall mean (a) a transaction or series of transactions resulting in more than 50% of the voting stock of the Company being held by a Person or Group (as defined in Rule 13d-5 under the Exchange Act) that does not include the Company or the Partnership; (b) the date on which a majority of the members of the Board is replaced during any twelve-month period by directors whose appointment or election is not endorsed by a majority of the members of the Board before the date of the appointment or election; (c) the consummation by the Company of a sale or other disposition of all or substantially all of the assets of the Company, in any single transaction or series of related transactions, to a Person (as defined in Rule 13d-5 under the Exchange Act) who is not an affiliate of the Company or an entity in which the shareholders of the Company immediately prior to such transaction do not control more than 50% of the voting power immediately following the transaction; (d) a merger, consolidation, reorganization or business combination of the Company into another entity which is not an affiliate of the Company or an entity in which the shareholders of the Company immediately prior to such transaction do not control more than 50% of the voting power immediately following the transaction; or (e) the approval by the Company’s stockholders of a liquidation or dissolution of the Company; provided , that the transaction or event described in (a), (b), (c), (d) or (e) constitutes a “change in control event” as defined in Section 1.409A-3(i)(5) of the Department of Treasury Regulations.
+
+2.9          “ Code ” shall mean the Internal Revenue Code of 1986, as amended from time to time, together with the regulations and official guidance promulgated thereunder.
+
+2.10        “ Committee ” shall mean the Compensation Committee of the Board, or another committee or subcommittee of the Board, appointed as provided in Section 11.1.
+
+2.11        “ Common Stock ” shall mean the common stock of the Company, par value $0.01 per share.
+
+2.12        “ Company ” shall mean Kimco Realty Corporation, a Maryland corporation.
+
+2.13        “ Consultant ” shall mean any consultant or adviser that is not an Employee, in each case, that can be granted an Award that is eligible to be registered on a Form S-8 Registration Statement.
+
+2.14        “ Deferred Stock ” shall mean a right to receive Shares, pursuant to a deferred compensation arrangement or otherwise, awarded under Section 8.4.
+
+2.15        “ Director ” shall mean a member of the Board, as constituted from time to time.
+
+2.16        “ Dividend Equivalent ” shall mean a right to receive the equivalent value (in cash or Shares) of dividends paid on Shares, awarded under Section 8.2.
+
+2.17        “ DRO ” shall mean a domestic relations order as defined by the Code or Title I of the Employee Retirement Income Security Act of 1974, as amended from time to time, or the rules thereunder.
+
+2.18        “ Eligible Individual ” shall mean any person who is an Employee, a Consultant or a Non-Employee Director, as determined by the Committee.
+
+2.19        “ Employee ” shall mean any officer or other employee (as determined in accordance with Section 3401(c) of the Code and the Treasury Regulations thereunder) of the Company, of the Partnership, of Kimco Realty Services, Inc., or of any Subsidiary.
+
+2.20        “ Equity Restructuring ” shall mean a nonreciprocal transaction between the Company and its stockholders, such as a stock dividend, stock split, spin-off, rights offering or recapitalization through a large, nonrecurring cash dividend, that affects the number or kind of shares of Common Stock (or other securities of the Company) or the share price of Common Stock (or other securities) and causes a change in the per share value of the Common Stock underlying outstanding Awards.
+
+2.21        “ Exchange Act ” shall mean the Securities Exchange Act of 1934, as amended from time to time.
+
+2.22        “ Fair Market Value ” shall mean, as of any given date, the value of a Share determined as follows:
+
+- If the Common Stock is listed on any (i) established
+securities exchange (such as the New York Stock Exchange, the NASDAQ Global Market and the NASDAQ Global Select Market), (ii) national market system or (iii) automated quotation system on which the Shares are listed, quoted or traded, its Fair Market
+Value shall be the closing sales price for a share of Common Stock as quoted on such exchange or system for such date or, if there is no closing sales price for a share of Common Stock on the date in question, the closing sales price for a share of
+Common Stock on the last preceding date for which such quotation exists, as reported in
+The Wall Street Journal
+or such other source as the Administrator deems reliable;
+
+2
+
+- If the Common Stock is not listed on an established
+securities exchange, national market system or automated quotation system, but the Common Stock is regularly quoted by a recognized securities dealer, its Fair Market Value shall be the mean of the high bid and low asked prices for such date or, if
+there are no high bid and low asked prices for a share of Common Stock on such date, the high bid and low asked prices for a share of Common Stock on the last preceding date for which such information exists, as reported in
+The Wall Street Journal
+or
+
+such other source as the Administrator deems reliable; or
+
+- If the Common Stock is neither listed on an established
+securities exchange, national market system or automated quotation system nor regularly quoted by a recognized securities dealer, its Fair Market Value shall be established by the Administrator in good faith.
+
+2.23        “
+Full Value Award
+” shall mean any Award other than
+- an Option, (ii) a Stock Appreciation Right or (iii) any other Award for which the Holder pays the intrinsic value existing as of the date of grant (whether directly or by foregoing a right to receive a payment from the Company or any Affiliate).
+
+2.24        “ Greater Than 10% Stockholder ” shall mean an individual then owning (within the meaning of Section 424(d) of the Code) more than 10% of the total combined voting power of all classes of stock of the Company or any Affiliate corporation (as defined in Section 424(f) of the Code) or parent corporation thereof (as defined in Section 424(e) of the Code).
+
+2.25        “ Holder ” shall mean an Eligible Individual who has been granted an Award.
+
+2.26        “ Incentive Stock Option ” shall mean an Option that is intended to qualify as an incentive stock option and conforms to the applicable provisions of Section 422 of the Code.
+
+2.27        “ LTIP Unit ” shall mean, to the extent authorized by the Operating Agreement, a unit of the Partnership that is granted pursuant to Section 8.6 hereof and is intended to constitute a “profits interest” within the meaning of the Code.
+
+2.28        “ Non-Employee Director ” shall mean a Director of the Company who is not an Employee.
+
+2.29        “ Non-Qualified Stock Option”   shall mean an Option that is not an Incentive Stock Option. “ Option ” shall mean a right to purchase Shares at a specified exercise price, granted under Article 5. An Option shall be either a Non-Qualified Stock Option or an Incentive Stock Option; provided , however , that Options granted to Non-Employee Directors and Consultants shall only be Non-Qualified Stock Options.
+
+2.31        “ Operating Agreement ” shall mean the Limited Liability Company Agreement of the Partnership, as it may be amended, modified and/or restated from time to time.
+
+2.32        “ Parent ” shall mean any entity (other than the Company), whether domestic or foreign, in an unbroken chain of entities ending with the Company if each of the entities other than the Company beneficially owns, at the time of the determination, securities or interests representing more than fifty percent (50%) of the total combined voting power of all classes of securities or interests in one of the other entities in such chain.
+
+2.33        “ Participant ” shall mean an Eligible Individual who has been granted an Award pursuant to the Plan.
+
+2.34        “ Partnership ” shall mean Kimco Realty OP, LLC.
+
+3
+
+2.35        “ Performance Award ” shall mean a Performance Share award or a cash bonus award, stock bonus award, performance award or incentive award that is paid in cash, Shares or a combination of both, awarded under Section 8.1.
+
+2.36        “ Performance Criteria ” shall mean the criteria (and adjustments) that the Committee selects for an Award for purposes of establishing the Performance Goal or Performance Goals for a Performance Period, determined as follows:
+
+- The Performance Criteria that shall be used to establish
+Performance Goals may include, but are not limited to, the following: (i) net earnings (either before or after one or more of the following: (A) interest, (B) taxes, (C) depreciation and (D) amortization); (ii) gross or net sales or revenue; (iii)
+net income (either before or after taxes); (iv) adjusted net income; (v) operating earnings, income or profit; (vi) cash flow (including, but not limited to, operating cash flow and free cash flow); (vii) return on assets; (viii) return on capital or
+invested capital; (ix) return on stockholders’ equity; (x) total stockholder return; (xi) return on sales; (xii) gross or net profit or operating margin; (xiii) costs, cost reduction or savings; (xiv) funds from operations; (xv) expenses; (xvi)
+working capital; (xvii) earnings per share; (xviii) adjusted earnings per share; (xix) price per share of Common Stock or appreciation in the fair market value of Common Stock; (xx) regulatory body approval for commercialization of a product; (xxi)
+implementation or completion of critical projects; (xxii) market share; and (xxiii) economic value, any of which may be measured either in absolute terms or as compared to any incremental increase or decrease or as compared to results of a peer group
+or to market performance indicators or indices;
+provided
+, that, to the extent applicable, each of the business criteria described in this subsection (a) shall be determined in accordance with Applicable Accounting Standards.
+
+- The Administrator may, in its sole discretion, provide that
+one or more adjustments shall be made to one or more of the Performance Goals. Such adjustments may include one or more of the following: (i) items related to a change in accounting principle; (ii) items relating to financing activities;
+- expenses for restructuring or productivity initiatives; (iv) other non-operating items; (v) items related to acquisitions; (vi) items attributable to the business operations of any entity acquired by the Company or the Partnership during the
+Performance Period; (vii) items related to the disposal of a business or segment of a business; (viii) items related to discontinued operations that do not qualify as a segment of a business under Applicable Accounting Standards; (ix) items
+attributable to any stock dividend, stock split, combination or exchange of stock occurring during the Performance Period; (x) any other items of significant income or expense which are determined to be appropriate adjustments; (xi) items relating to
+unusual or extraordinary corporate transactions, events or developments, (xii) items related to amortization of acquired intangible assets; (xiii) items that are outside the scope of the Company’s or the Partnership’s core, on-going business
+activities; (xiv) items related to acquired in-process research and development; (xv) items relating to changes in tax laws; (xvi) items relating to major licensing or partnership arrangements; (xvii) items relating to asset impairment charges;
+- items relating to gains or losses for litigation, arbitration and contractual settlements; (xix) items relating to any other unusual or nonrecurring events or changes in applicable laws, accounting principles or business conditions; (xx)
+items related to changes in Applicable Accounting Standards; or (xxi) items reflecting adjustments to funds from operations with respect to straight-line rental income as reported in the Company’s Exchange Act reports.
+
+2.37        “ Performance Goals ” shall mean, for a Performance Period, one or more goals established by the Administrator for the Performance Period based upon one or more Performance Criteria. Depending on the Performance Criteria used to establish such Performance Goals, the Performance Goals may be expressed in terms of overall Company performance or the performance of the Partnership, a Subsidiary, division, business unit, or an individual. The achievement of each Performance Goal may be determined in accordance with Applicable Accounting Standards.
+
+2.38        “ Performance Period ” shall mean one or more periods of time, which may be of varying and overlapping durations, as the Administrator may select, over which the attainment of one or more Performance Goals will be measured for the purpose of determining a Holder’s right to, and the payment of, a Performance Award.
+
+2.39        “ Performance Shares ” shall mean the right to receive shares of Common Stock and/or Restricted Stock awarded under Section 8.1(c).
+
+4
+
+2.40        “ Permitted Transferee ” shall mean, with respect to a Holder, any “family member” of the Holder, as defined under the instructions to use of the Form S-8 Registration Statement under the Securities Act, after taking into account any state, federal, local or foreign tax and securities laws applicable to transferable Awards.
+
+2.41        “ Plan ” shall mean this Amended and Restated Kimco Realty Corporation 2020 Equity Participation Plan, as it may be amended or restated from time to time.
+
+2.42        “ Program ” shall mean any program adopted by the Administrator pursuant to the Plan containing the terms and conditions intended to govern a specified type of Award granted under the Plan and pursuant to which such type of Award may be granted under the Plan.
+
+2.44        “ REIT ” shall mean a real estate investment trust within the meaning of Sections 856 through 860 of the Code.
+
+2.44        “ Restricted Stock ” shall mean Common Stock awarded under Article 7 that is subject to certain restrictions and may be subject to risk of forfeiture or repurchase.
+
+2.45        “ Restricted Stock Units ” shall mean the right to receive Shares awarded under Section 8.5.
+
+2.46        “ Retirement ” of a Holder shall mean his Termination of Service on or after his sixty-fifth (65th) birthday or his completion of thirty (30) full (not necessarily consecutive) years of employment, consultancy or directorship, as the case may be, with the Company or any Affiliate.
+
+2.47        “ Securities Act ” shall mean the Securities Act of 1933, as amended.
+
+2.48        “ Shares ” shall mean shares of Common Stock.
+
+2.49        “ Stock Appreciation Right ” shall mean a stock appreciation right granted under Article 9.
+
+2.50        “ Stock Payment ” shall mean (a) a payment in the form of Shares, or (b) an option or other right to purchase Shares, as part of a bonus, deferred compensation or other arrangement, awarded under Section 8.3.
+
+2.51        “ Subsidiary ” shall mean any entity (other than the Company or Partnership, as applicable), whether domestic or foreign, in an unbroken chain of entities beginning with the Company or the Partnership (as applicable) if each of the entities other than the last entity in the unbroken chain beneficially owns, at the time of the determination, securities or interests representing more than fifty percent (50%) of the total combined voting power of all classes of securities or interests in one of the other entities in such chain.
+
+2.52        “ Substitute Award ” shall mean an Award granted under the Plan upon the assumption of, or in substitution for, outstanding equity awards previously granted by a company or other entity in connection with a corporate transaction, such as a merger, combination, consolidation or acquisition of property or stock; provided , however , that in no event shall the term “ Substitute Award ” be construed to refer to an award made in connection with the cancellation and repricing of an Option or Stock Appreciation Right.
+
+2.53        “ Termination of Service ” shall mean,
+
+- As to a Consultant, the time when the engagement of a
+Holder as a Consultant to the Company or an Affiliate is terminated for any reason, with or without cause, including, without limitation, by resignation, discharge, death or Retirement, but excluding terminations where the Consultant simultaneously
+commences or remains in employment or service with the Company or any Affiliate.
+
+- As to a Non-Employee Director, the time when a Holder who
+is a Non-Employee Director ceases to be a Director for any reason, including, without limitation, a termination by resignation, failure to be elected, death or Retirement, but excluding terminations where the Holder simultaneously commences or
+remains in employment or service with the Company or any Affiliate.
+
+5
+
+- As to an Employee, the time when the employee-employer
+relationship between a Holder and the Company or any Affiliate is terminated for any reason, including, without limitation, a termination by resignation, discharge, death, disability or Retirement; but excluding terminations where the Holder
+simultaneously commences or remains in employment or service with the Company or any Affiliate.
+
+The Administrator, in its sole discretion, shall determine the effect of all matters and questions relating to Terminations of Service, including, without limitation, the question of whether a Termination of Service resulted from a discharge for cause and all questions of whether particular leaves of absence constitute a Termination of Service; provided , however , that, with respect to Incentive Stock Options, unless the Administrator otherwise provides in the terms of the Program, the Award Agreement or otherwise, a leave of absence, change in status from an employee to an independent contractor or other change in the employee-employer relationship shall constitute a Termination of Service only if, and to the extent that, such leave of absence, change in status or other change interrupts employment for the purposes of Section 422(a)(2) of the Code and the then applicable regulations and revenue rulings under said Section. For purposes of the Plan, a Holder’s employee-employer relationship or consultancy relations shall be deemed to be terminated in the event that the Affiliate employing or contracting with such Holder ceases to remain an Affiliate following any merger, sale of stock or other corporate transaction or event (including, without limitation, a spin-off).
+
+Article 3.
+
+SHARES SUBJECT TO THE PLAN
+
+3.1 Number of Shares .
+
+- Subject to Section 12.2 and Section 3.1(b), the aggregate
+number of Shares which may be issued or transferred pursuant to Awards under the Plan shall be 10,000,000 Shares. Subject to Section 12.2 hereof, each LTIP Unit issued pursuant to an Award shall count as one Share for purposes of calculating the
+aggregate number of Shares available for issuance under the Plan as set forth in this Section 3.1(a) and for purposes of calculating the Individual Award Limit set forth in Section 3.3 hereof.
+
+- If any Shares subject to an Award are forfeited or expire or
+such Award is settled for cash (in whole or in part), the Shares subject to such Award shall, to the extent of such forfeiture, expiration or cash settlement, again be available for future grants of Awards under the Plan. Notwithstanding anything to
+the contrary contained herein, the following Shares shall not be added to the Shares authorized for grant under Section 3.1(a) and will not be available for future grants of Awards: (i) Shares tendered by a Holder or withheld by the Company in
+payment of the exercise price of an Option; (ii) Shares tendered by the Holder or withheld by the Company to satisfy any tax withholding obligation with respect to an Award; (iii) Shares subject to a Stock Appreciation Right that are not issued in
+connection with the stock settlement of the Stock Appreciation Right on exercise thereof; and (iv) Shares purchased on the open market with the cash proceeds from the exercise of Options. Any Shares repurchased by the Company under Section 7.4 at the
+same price paid by the Holder, or a lower price (as adjusted for corporate events), so that such shares are returned to the Company will again be available for Awards. The payment of Dividend Equivalents in cash in conjunction with any outstanding
+Awards shall not be counted against the shares available for issuance under the Plan. Notwithstanding the provisions of this Section 3.1(b), no Shares may again be optioned, granted or awarded if such action would cause an Incentive Stock Option to
+fail to qualify as an incentive stock option under Section 422 of the Code.
+
+- Substitute Awards shall not reduce the Shares authorized for
+grant under the Plan. Additionally, in the event that a company acquired by the Company or any Affiliate or with which the Company or any Affiliate combines has shares available under a pre-existing plan approved by stockholders and not adopted in
+contemplation of such acquisition or combination, the shares available for grant pursuant to the terms of such pre-existing plan (as adjusted, to the extent appropriate, using the exchange ratio or other adjustment or valuation ratio or formula used
+in such acquisition or combination to determine the consideration payable to the holders of common stock of the entities party to such acquisition or combination) may be used for Awards under the Plan and shall not reduce the Shares authorized for
+grant under the Plan;
+provided
+that Awards using such available shares shall not be made after the date awards or grants could have been made under the terms of the pre-existing plan, absent the acquisition or combination, and shall only be
+made to individuals who were not employed by or providing services to the Company or its Affiliates immediately prior to such acquisition or combination.
+
+6
+
+3.2 Stock Distributed . Any Shares distributed pursuant to an Award may consist, in whole or in part, of authorized and unissued Common Stock, treasury Common Stock or Common Stock purchased on the open market.
+
+3.3 Limitation on Number of Shares Subject to Awards . Notwithstanding any provision in the Plan to the contrary, and subject to Section 12.2, the maximum aggregate number of Shares with respect to one or more Awards that may be granted to any one person during any calendar year shall be 750,000 and the maximum amount payable in cash during any calendar year to any one person with respect to one or more Awards that do not relate to Shares and are payable in cash shall be $2,000,000.
+
+3.4 Non-Employee Director Compensation . Notwithstanding any provision to the contrary in the Plan, the Committee may establish compensation for Non-Employee Directors from time to time, subject to the limitations in the Plan. The Committee will from time to time determine the terms, conditions and amounts of all such Non-Employee Director compensation in its discretion and pursuant to the exercise of its business judgment, taking into account such factors, circumstances and considerations as it shall deem relevant from time to time, provided that the sum of any cash compensation, or other compensation, and the value (determined as of the grant date in accordance with Financial Accounting Standards Board Accounting Standards Codification Topic 718, or any successor thereto) of Awards granted to a Non-Employee Director as compensation for services as a Non-Employee Director during any fiscal year of the Company may not exceed $500,000. The Committee may make exceptions to this limit for individual Non-Employee Directors in extraordinary circumstances, as the Committee may determine in its discretion, provided that the Non-Employee Director receiving such additional compensation may not participate in the decision to award such compensation or in other contemporaneous compensation decisions involving Non-Employee Directors.
+
+Article 4.
+
+GRANTING OF AWARDS
+
+4.1 Participation . The Administrator may, from time to time, select from among all Eligible Individuals, those to whom an Award shall be granted and shall determine the nature and amount of each Award, which shall not be inconsistent with the requirements of the Plan. No Eligible Individual shall have any right to be granted an Award pursuant to the Plan.
+
+4.2 Award Agreement . Each Award shall be evidenced by an Award Agreement. Award Agreements evidencing Incentive Stock Options shall contain such terms and conditions as may be necessary to meet the applicable provisions of Section 422 of the Code.
+
+4.3 Limitations Applicable to Section 16 Persons . Notwithstanding any other provision of the Plan, the Plan, and any Award granted or awarded to any individual who is then subject to Section 16 of the Exchange Act, shall be subject to any additional limitations set forth in any applicable exemptive rule under Section 16 of the Exchange Act (including Rule 16b-3 of the Exchange Act and any amendments thereto) that are requirements for the application of such exemptive rule. To the extent permitted by applicable law, the Plan and Awards granted or awarded hereunder shall be deemed amended to the extent necessary to conform to such applicable exemptive rule.
+
+4.4 At-Will Employment . Nothing in the Plan or in any Program or Award Agreement hereunder shall confer upon any Holder any right to continue in the employ of, or as a Director or Consultant for, the Company or any Affiliate, or shall interfere with or restrict in any way the rights of the Company and any Affiliate, which rights are hereby expressly reserved, to discharge any Holder at any time for any reason whatsoever, with or without cause, and with or without notice, or to terminate or change all other terms and conditions of employment or engagement, except to the extent expressly provided otherwise in a written agreement between the Holder and the Company or any Affiliate.
+
+7
+
+4.5 Foreign Holders . Notwithstanding any provision of the Plan to the contrary, in order to comply with the laws in other countries in which the Company and its Affiliates operate or have Employees, Non-Employee Directors or Consultants, or in order to comply with the requirements of any foreign securities exchange, the Administrator, in its sole discretion, shall have the power and authority to (a) determine which Subsidiaries shall be covered by the Plan; (b) determine which Eligible Individuals outside the United States are eligible to participate in the Plan; (c) modify the terms and conditions of any Award granted to Eligible Individuals outside the United States to comply with applicable foreign laws or listing requirements of any such foreign securities exchange; (d) establish subplans and modify exercise procedures and other terms and procedures, to the extent such actions may be necessary or advisable (any such subplans and/or modifications shall be attached to the Plan as appendices); provided , however , that no such subplans and/or modifications shall increase the share limitations contained in Sections 3.1, 3.3 and 3.4; and (e) take any action, before or after an Award is made, that it deems advisable to obtain approval or comply with any necessary local governmental regulatory exemptions or approvals or listing requirements of any such foreign securities exchange. Notwithstanding the foregoing, the Administrator may not take any actions hereunder, and no Awards shall be granted, that would violate the Code, the Exchange Act, the Securities Act, any other securities law or governing statute, the rules of the securities exchange or automated quotation system on which the Shares are listed, quoted or traded or any other applicable law.
+
+4.6 Stand-Alone and Tandem Awards . Awards granted pursuant to the Plan may, in the sole discretion of the Administrator, be granted either alone, in addition to, or in tandem with, any other Award granted pursuant to the Plan. Awards granted in addition to or in tandem with other Awards may be granted either at the same time as or at a different time from the grant of such other Awards.
+
+Article 5.
+
+GRANTING OF OPTIONS
+
+5.1 Granting of Options to Eligible Individuals . The Administrator is authorized to grant Options to Eligible Individuals from time to time, in its sole discretion, on such terms and conditions as it may determine which shall not be inconsistent with the Plan.
+
+5.2 Qualification of Incentive Stock Options . No Incentive Stock Option shall be granted to any person who is not an Employee of the Company or any “subsidiary corporation” of the Company (as defined in Section 424(f) of the Code). No person who qualifies as a Greater Than 10% Stockholder may be granted an Incentive Stock Option unless such Incentive Stock Option conforms to the applicable provisions of Section 422 of the Code. Any Incentive Stock Option granted under the Plan may be modified by the Administrator, with the consent of the Holder, to disqualify such Option from treatment as an “incentive stock option” under Section 422 of the Code. To the extent that the aggregate fair market value of stock with respect to which “incentive stock options” (within the meaning of Section 422 of the Code, but without regard to Section 422(d) of the Code) are exercisable for the first time by a Holder during any calendar year under the Plan, and all other plans of the Company and any Affiliate or parent corporation thereof (each as defined in Section 424(f) and (e) of the Code, respectively), exceeds $100,000, the Options shall be treated as Non-Qualified Stock Options to the extent required by Section 422 of the Code. The rule set forth in the preceding sentence shall be applied by taking Options and other “incentive stock options” into account in the order in which they were granted and the Fair Market Value of stock shall be determined as of the time the respective options were granted.
+
+5.3 Option Exercise Price . The exercise price per Share subject to each Option shall be set by the Administrator, but shall not be less than 100% of the Fair Market Value of a Share on the date the Option is granted (or, as to Incentive Stock Options, on the date the Option is modified, extended or renewed for purposes of Section 424(h) of the Code). In addition, in the case of Incentive Stock Options granted to a Greater Than 10% Stockholder, such price shall not be less than 110% of the Fair Market Value of a Share on the date the Option is granted (or the date the Option is modified, extended or renewed for purposes of Section 424(h) of the Code).
+
+5.4 Option Term . The term of each Option shall be set by the Administrator in its sole discretion; provided , however , that no Option may be exercised to any extent by anyone after the first to occur of the following events:
+
+- In the case of an Incentive Stock Option, (i) the expiration
+of ten years from the date the Option was granted, or (ii) in the case of a Greater Than 10% Stockholder, the expiration of five years from the date the Incentive Stock Option was granted;
+
+- In the case of a Non-Qualified Stock Option, the expiration
+of ten years and one day from the date the Non-Qualified Stock Option was granted;
+
+8
+
+- Except (i) in the case of any Holder who is disabled (within
+the meaning of Section 22(e)(3) of the Code) or (ii) as otherwise determined by the Administrator in its discretion either pursuant to the terms of an applicable Award Agreement or by action of the Administrator taken at the time of the Holder’s
+Termination of Services, the expiration of three months from the date of the Holder’s Termination of Services for any reason other than such Holder’s death (unless the Holder dies within said three-month period) or Retirement;
+
+- In the case of a Holder who is disabled (within the meaning
+of Section 22(e)(3) of the Code), the expiration of one year from the date of the Holder’s Termination of Services for any reason other than such Holder’s death (unless the Holder dies within said one-year period) or Retirement;
+
+- The expiration of one year from the date of the Holder’s
+death; or
+
+- In the case of the Holder’s Retirement, the earlier of (i)
+the date the Holder engages in any activity in competition with the Company or Affiliate, or which is inimical, contrary or harmful to the interests of the Company or Affiliate, or (ii) the expiration of the term of the Option in accordance with
+clause (a) or (b) above.
+
+Except as limited by the requirements of Section 409A or Section 422 of the Code and regulations and rulings thereunder, the Administrator may extend the term of any outstanding Option, and may extend the time period during which vested Options may be exercised, in connection with any Termination of Service of the Holder, in each case, to the extent that such extension does not constitute a repricing or a cash buyout under Section 10.6, and may amend any other term or condition of such Option relating to such a Termination of Service.
+
+5.5 Option Vesting .
+
+- The period during which the right to exercise, in whole or
+in part, an Option vests in the Holder shall be set by the Administrator and the Administrator may determine that an Option may not be exercised in whole or in part for a specified period after it is granted. Such vesting may be based on service with
+the Company or any Affiliate, any of the Performance Criteria, or any other criteria selected by the Administrator. After grant of an Option, in connection with or following a Holder’s Termination of Service, the Administrator may, in its sole
+discretion and subject to whatever terms and conditions it selects, accelerate the period during which an Option vests.
+
+- No portion of an Option which is unexercisable at a
+Holder’s Termination of Service shall thereafter become exercisable, except as may be otherwise provided by the Administrator either in the Program, the Award Agreement or by action of the Administrator following the grant of the Option.
+
+5.6 Substitute Awards . Notwithstanding the foregoing provisions of this Article 5 to the contrary, in the case of an Option that is a Substitute Award, the price per share of the shares subject to such Option may be less than the Fair Market Value per share on the date of grant; provided , that the excess of (a) the aggregate Fair Market Value (as of the date such Substitute Award is granted) of the shares subject to the Substitute Award, over (b) the aggregate exercise price thereof does not exceed the excess of (x) the aggregate fair market value (as of the time immediately preceding the transaction giving rise to the Substitute Award, such fair market value to be determined by the Administrator) of the shares of the predecessor entity that were subject to the grant assumed or substituted for by the Company, over (y) the aggregate exercise price of such shares.
+
+5.7 Substitution of Stock Appreciation Rights . The Administrator may provide in the applicable Program or the Award Agreement evidencing the grant of an Option that the Administrator, in its sole discretion, shall have the right to substitute a Stock Appreciation Right for such Option at any time prior to or upon exercise of such Option; provided , that such Stock Appreciation Right shall be exercisable with respect to the same number of Shares for which such substituted Option would have been exercisable, and shall also have the same exercise price and remaining term as the substituted Option.
+
+9
+
+Article 6.
+
+EXERCISE OF OPTIONS
+
+6.1 Partial Exercise . An exercisable Option may be exercised in whole or in part. An Option may be exercisable with respect to fractional shares, provided that the Administrator may require that, by the terms of the Option, a partial exercise must be with respect to a minimum number of shares.
+
+6.2 Manner of Exercise . All or a portion of an exercisable Option shall be deemed exercised upon delivery of all of the following to the Secretary of the Company, or such other person or entity designated by the Administrator, or his, her or its office, as applicable:
+
+- A written or electronic notice complying with the applicable
+rules established by the Administrator stating that the Option, or a portion thereof, is exercised. The notice shall be signed by the Holder or other person then entitled to exercise the Option or such portion of the Option;
+
+- Such representations and documents as the Administrator, in
+its sole discretion, deems necessary or advisable to effect compliance with all applicable provisions of the Securities Act and any other federal, state or foreign securities laws or regulations, the rules of any securities exchange or automated
+quotation system on which the Shares are listed, quoted or traded or any other applicable law. The Administrator may, in its sole discretion, also take whatever additional actions it deems appropriate to effect such compliance including, without
+limitation, placing legends on share certificates and issuing stop-transfer notices to agents and registrars;
+
+- In the event that the Option shall be exercised pursuant to
+Section 10.3 by any person or persons other than the Holder, appropriate proof of the right of such person or persons to exercise the Option, as determined in the sole discretion of the Administrator; and
+
+- Full payment of the exercise price and applicable
+withholding taxes to the stock administrator of the Company for the shares with respect to which the Option, or portion thereof, is exercised, in a manner permitted by Section 10.1 and 10.2.
+
+6.3 Notification Regarding Disposition . The Holder shall give the Company prompt written or electronic notice of any disposition of shares of Common Stock acquired by exercise of an Incentive Stock Option which occurs within (a) two years from the date of granting (including the date the Option is modified, extended or renewed for purposes of Section 424(h) of the Code) such Option to such Holder, or (b) one year after the transfer of such shares to such Holder.
+
+Article 7.
+
+AWARD OF RESTRICTED STOCK
+
+7.1 Award of Restricted Stock .
+
+- The Administrator is authorized to grant Restricted Stock
+to Eligible Individuals, and shall determine the terms and conditions, including the restrictions applicable to each award of Restricted Stock, which terms and conditions shall not be inconsistent with the Plan, and may impose such conditions on the
+issuance of such Restricted Stock as it deems appropriate.
+
+- The Administrator shall establish the purchase price, if
+any, and form of payment for Restricted Stock;
+provided
+,
+however
+, that if a purchase price is charged, such purchase price shall be no less than the par value of the Shares to be purchased, unless otherwise permitted by applicable state
+law. In all cases, legal consideration shall be required for each issuance of Restricted Stock.
+
+7.2 Rights as Stockholders . Subject to Section 7.4, upon issuance of Restricted Stock, the Holder shall have, unless otherwise provided by the Administrator, all the rights of a stockholder with respect to said shares, subject to the restrictions in the applicable Program or in each individual Award Agreement, including the right to receive all dividends and other distributions paid or made with respect to the shares; provided , however , that, in the sole discretion of the Administrator, any extraordinary distributions with respect to the Shares shall be subject to the restrictions set forth in Section 7.3.
+
+10
+
+7.3 Restrictions . All shares of Restricted Stock (including any shares received by Holders thereof with respect to shares of Restricted Stock as a result of stock dividends, stock splits or any other form of recapitalization) shall, in the terms of the applicable Program or in each individual Award Agreement, be subject to such restrictions and vesting requirements as the Administrator shall provide. Such restrictions may include, without limitation, restrictions concerning voting rights and transferability and such restrictions may lapse separately or in combination at such times and pursuant to such circumstances or based on such criteria as selected by the Administrator, including, without limitation, criteria based on the Holder’s duration of employment, directorship or consultancy with the Company or Affiliate, the Performance Criteria, Company performance, individual performance or other criteria selected by the Administrator. By action taken after the Restricted Stock is issued, the Administrator may, on such terms and conditions as it may determine to be appropriate, accelerate the vesting of such Restricted Stock by removing any or all of the restrictions imposed by the terms of the Program or the Award Agreement in the event of a Change in Control or the applicable Holder’s Retirement, death or disability. Restricted Stock may not be sold or encumbered until all restrictions are terminated or expire. Except as otherwise provided by any written agreement between the Company and any applicable Holder, a Holder’s rights in unvested Restricted Stock shall lapse, and such Restricted Stock shall be surrendered to the Company without consideration, upon the Holder’s Termination of Services with the Company.
+
+7.4 Repurchase or Forfeiture of Restricted Stock . If no price was paid by the Holder for the Restricted Stock, upon a Termination of Service the Holder’s rights in unvested Restricted Stock then subject to restrictions shall lapse, and such Restricted Stock shall be surrendered to the Company and cancelled without consideration. If a price was paid by the Holder for the Restricted Stock, upon a Termination of Service the Company shall have the right to repurchase from the Holder the unvested Restricted Stock then subject to restrictions at a cash price per share equal to the price paid by the Holder for such Restricted Stock or such other amount as may be specified in the Program or the Award Agreement. The Administrator in its sole discretion may provide that in the event of certain events, including a Change in Control, the Holder’s death, Retirement or disability or any other specified Termination of Service or any other event, the Holder’s rights in unvested Restricted Stock shall not lapse, such Restricted Stock shall vest and, if applicable, the Company shall not have a right of repurchase.
+
+7.5 Certificates for Restricted Stock . Restricted Stock granted pursuant to the Plan may be evidenced in such manner as the Administrator shall determine. Certificates or book entries evidencing shares of Restricted Stock must include an appropriate legend referring to the terms, conditions, and restrictions applicable to such Restricted Stock, and the Company may, in its sole discretion, retain physical possession of any stock certificate until such time as all applicable restrictions lapse.
+
+7.6 Section 83(b) Election . If a Holder makes an election under Section 83(b) of the Code to be taxed with respect to the Restricted Stock as of the date of transfer of the Restricted Stock rather than as of the date or dates upon which the Holder would otherwise be taxable under Section 83(a) of the Code, the Holder shall be required to deliver a copy of such election to the Company promptly after filing such election with the Internal Revenue Service.
+
+Article 8.
+
+AWARD OF PERFORMANCE AWARDS, DIVIDEND EQUIVALENTS, DEFERRED STOCK, STOCK PAYMENTS, RESTRICTED STOCK UNITS, LTIP U nits
+
+8.1 Performance Awards .
+
+- The Administrator is authorized to grant Performance Awards
+(including Performance Share Awards) to any Eligible Individual. The value of Performance Awards may be linked to any one or more of the Performance Criteria or other specific criteria determined by the Administrator, in each case on a specified date
+or dates or over any period or periods determined by the Administrator. Performance Awards may be paid in cash, Shares (including shares of Restricted Stock), or both, as determined by the Administrator.
+
+11
+
+- Without limiting Section 8.1(a), the Administrator may grant
+Performance Awards to any Eligible Individual in the form of a cash bonus payable upon the attainment of objective Performance Goals, or such other criteria, whether or not objective, which are established by the Administrator, in each case on a
+specified date or dates or over any period or periods determined by the Administrator.
+
+- The Administrator is authorized to grant Performance Share
+Awards to any Eligible Individual. The number and terms and conditions of Performance Shares shall be determined by the Administrator. The Administrator shall specify the date or dates on which the Performance Shares shall become vested and shall
+determine to what extent such Performance Shares have vested, based upon such conditions to vesting as it deems appropriate, including conditions based on one or more Performance Criteria or other specific criteria, including total stockholder return
+of the Company relative to the range of total return to stockholders of the constituent companies in a specific peer group of the Company, in each case on a specified date or dates or over any period or periods, as determined by the Administrator.
+The Performance Shares shall be payable in shares of Common Stock and/or Restricted Stock. To the extent Performance Shares are payable in shares of Restricted Stock, the Administrator shall, subject to the terms and provisions with respect to
+Restricted Stock set forth in Article 7, specify the conditions and dates upon which the shares of Restricted Stock underlying the Performance Shares shall be issued and the conditions and dates upon which such shares of Restricted Stock shall become
+vested and nonforfeitable, which dates shall not be earlier than the date as of which the Performance Shares vest.
+
+8.2 Dividend Equivalents .
+
+- Dividend Equivalents may be granted by the Administrator
+based on dividends declared on the Common Stock, to be credited as of dividend payment dates during the period between the date an Award is granted to a Holder and the date such Award vests, is exercised, is distributed or expires, as determined by
+the Administrator. Such Dividend Equivalents shall be converted to cash or additional shares of Common Stock by such formula and at such time and subject to such limitations as may be determined by the Administrator. In addition, Dividend Equivalents
+with respect to an Award with performance-based vesting that are based on dividends paid prior to the vesting of such Award shall only be paid out to the Holder to the extent that the performance-based vesting conditions are subsequently satisfied
+and the Award vests.
+
+- Notwithstanding the foregoing, no Dividend Equivalents shall
+be payable with respect to Options or Stock Appreciation Rights.
+
+8.3 Stock Payments . The Administrator is authorized to make Stock Payments to any Eligible Individual. The number or value of shares of any Stock Payment shall be determined by the Administrator and may be based upon one or more Performance Criteria or any other specific criteria, including service to the Company or any Affiliate, determined by the Administrator. Unless otherwise provided by the Administrator, shares underlying a Stock Payment which is subject to a vesting schedule or other conditions or criteria set by the Administrator will not be issued until those conditions have been satisfied. Unless otherwise provided by the Administrator, a Holder of a Stock Payment shall have no rights as a Company stockholder with respect to such Stock Payment until such time as the Stock Payment has vested and the Shares underlying the Award have been issued to the Holder. Stock Payments may, but are not required to, be made in lieu of base salary, bonus, fees or other cash compensation otherwise payable to such Eligible Individual, pursuant to such policies and procedures as may be established by the Administrator.
+
+8.4 Deferred Stock . The Administrator is authorized to grant Deferred Stock to any Eligible Individual. The number of shares of Deferred Stock shall be determined by the Administrator and may be based upon one or more Performance Criteria or any other specific criteria, including service to the Company or any Affiliate, as the Administrator determines, in each case on a specified date or dates or over any period or periods determined by the Administrator. Unless otherwise provided by the Administrator, shares underlying a Deferred Stock award which is subject to a vesting schedule or other conditions or criteria set by the Administrator will not be issued until those conditions have been satisfied. Unless otherwise provided by the Administrator, a Holder of Deferred Stock shall have no rights as a Company stockholder with respect to such Deferred Stock until such time as the Award has vested and the Shares underlying the Award have been issued to the Holder. Awards of Deferred Stock may, but are not required to, be made in lieu of base salary, bonus, fees or other cash compensation otherwise payable to such Eligible Individual, pursuant to such policies and procedures as may be established by the Administrator.
+
+12
+
+8.5 Restricted Stock Units . The Administrator is authorized to grant Restricted Stock Units to any Eligible Individual. The number and terms and conditions of Restricted Stock Units shall be determined by the Administrator. The Administrator shall specify the date or dates on which the Restricted Stock Units shall become fully vested and nonforfeitable, and may specify such conditions to vesting as it deems appropriate, including conditions based on one or more Performance Criteria or other specific criteria, including service to the Company or any Affiliate, in each case on a specified date or dates or over any period or periods, as determined by the Administrator. The Administrator shall specify, or permit the Holder to elect, the conditions and dates upon which the Shares underlying the Restricted Stock Units which shall be issued, which dates shall not be earlier than the date as of which the Restricted Stock Units vest and become nonforfeitable and which conditions and dates shall be subject to compliance with Section 409A of the Code. Restricted Stock Units may be paid in cash, Shares, or both, as determined by the Administrator. On the distribution dates, the Company shall issue to the Holder one unrestricted, fully transferable Share (or the Fair Market Value of one such Share in cash) for each vested and nonforfeitable Restricted Stock Unit.
+
+8.6 LTIP Units . The Administrator is authorized to grant LTIP Units in such amount and subject to such terms and conditions as may be determined by the Administrator; provided, however, that LTIP Units may only be issued to a Participant for the performance of services to or for the benefit of the Partnership (a) in the Participant’s capacity as a partner of the Partnership, (b) in anticipation of the Participant becoming a partner of the Partnership, or (c) as otherwise determined by the Administrator, provided that the LTIP Units are intended to constitute “profits interests” within the meaning of the Code, including, to the extent applicable, Revenue Procedure 93-27, 1993-2 C.B. 343 and Revenue Procedure 2001-43, 2001-2 C.B. 191. The Administrator shall specify the conditions and dates upon which the LTIP Units shall vest and become nonforfeitable. LTIP Units shall be subject to the terms and conditions of the Operating Agreement and such other restrictions, including restrictions on transferability, as the Administrator may impose. These restrictions may lapse separately or in combination at such times, pursuant to such circumstances, in such installments, or otherwise, as the Administrator determines at the time of the grant of the Award or thereafter.
+
+8.7 Term . To the extent applicable, the term of an Award described in this Article 8 shall be set by the Administrator in its sole discretion.
+
+8.8 Exercise or Purchase Price . The Administrator may establish the exercise or purchase price of an Award described in this Article 8; provided , however , that value of the consideration shall not be less than the par value of a Share, unless otherwise permitted by applicable law.
+
+8.9 Exercise upon Termination of Service . An Award described in this Article 8 is exercisable or distributable only while the Holder is an Employee, Director or Consultant, as applicable. The Administrator, however, in its sole discretion may provide that an Award described in this Article 8 may be exercised or distributed subsequent to a Termination of Service in certain events, including a Change in Control, the Holder’s death, Retirement or disability or any other specified Termination of Service.
+
+Article 9.
+
+AWARD OF STOCK APPRECIATION RIGHTS
+
+9.1 Grant of Stock Appreciation Rights .
+
+- The Administrator is authorized to grant Stock Appreciation
+Rights to Eligible Individuals from time to time, in its sole discretion, on such terms and conditions as it may determine consistent with the Plan.
+
+13
+
+- A Stock Appreciation Right shall entitle the Holder (or
+other person entitled to exercise the Stock Appreciation Right pursuant to the Plan) to exercise all or a specified portion of the Stock Appreciation Right (to the extent then exercisable pursuant to its terms) and to receive from the Company an
+amount determined by multiplying the difference obtained by subtracting the exercise price per share of the Stock Appreciation Right from the Fair Market Value on the date of exercise of the Stock Appreciation Right by the number of Shares with
+respect to which the Stock Appreciation Right shall have been exercised, subject to any limitations the Administrator may impose. Except as described in (c) below, the exercise price per Share subject to each Stock Appreciation Right shall be set by
+the Administrator, but shall not be less than 100% of the Fair Market Value on the date the Stock Appreciation Right is granted.
+
+- Notwithstanding the foregoing provisions of Section 9.1(b)
+to the contrary, in the case of a Stock Appreciation Right that is a Substitute Award, the price per share of the shares subject to such Stock Appreciation Right may be less than 100% of the Fair Market Value per share on the date of grant;
+provided
+,
+that the excess of (a) the aggregate Fair Market Value (as of the date such Substitute Award is granted) of the shares subject to the Substitute Award, over (b) the aggregate exercise price thereof does not exceed the excess of (x) the aggregate fair
+market value (as of the time immediately preceding the transaction giving rise to the Substitute Award, such fair market value to be determined by the Administrator) of the shares of the predecessor entity that were subject to the grant assumed or
+substituted for by the Company, over (y) the aggregate exercise price of such shares.
+
+9.2 Stock Appreciation Right Vesting .
+
+- The period during which the right to exercise, in whole or
+in part, a Stock Appreciation Right vests in the Holder shall be set by the Administrator and the Administrator may determine that a Stock Appreciation Right may not be exercised in whole or in part for a specified period after it is granted. Such
+vesting may be based on service with the Company or any Affiliate, or any other criteria selected by the Administrator. After grant of a Stock Appreciation Right, in connection with or following a Holder’s Termination of Service, the Administrator
+may, in its sole discretion and subject to whatever terms and conditions it selects, accelerate the period during which a Stock Appreciation Right vests.
+
+- No portion of a Stock Appreciation Right which is
+unexercisable at Termination of Service shall thereafter become exercisable, except as may be otherwise provided by the Administrator either in the applicable Program or Award Agreement or by action of the Administrator following the grant of the
+Stock Appreciation Right.
+
+9.3 Manner of Exercise . All or a portion of an exercisable Stock Appreciation Right shall be deemed exercised upon delivery of all of the following to the stock administrator of the Company, or such other person or entity designated by the Administrator, or his, her or its office, as applicable:
+
+- A written or electronic notice complying with the applicable
+rules established by the Administrator stating that the Stock Appreciation Right, or a portion thereof, is exercised. The notice shall be signed by the Holder or other person then entitled to exercise the Stock Appreciation Right or such portion of
+the Stock Appreciation Right;
+
+- Such representations and documents as the Administrator, in
+its sole discretion, deems necessary or advisable to effect compliance with all applicable provisions of the Securities Act and any other federal, state or foreign securities laws or regulations. The Administrator may, in its sole discretion, also
+take whatever additional actions it deems appropriate to effect such compliance; and
+
+- In the event that the Stock Appreciation Right shall be
+exercised pursuant to this Section 9.3 by any person or persons other than the Holder, appropriate proof of the right of such person or persons to exercise the Stock Appreciation Right.
+
+9.4 Stock Appreciation Right Term . The term of each Stock Appreciation Right shall be set by the Administrator in its sole discretion; provided , however , that the term shall not be more than ten (10) years from the date the Stock Appreciation Right is granted. The Administrator shall determine the time period, including the time period following a Termination of Service, during which the Holder has the right to exercise the vested Stock Appreciation Rights, which time period may not extend beyond the expiration date of the Stock Appreciation Right term. Except as limited by the requirements of Section 409A of the Code and regulations and rulings thereunder, the Administrator may extend the term of any outstanding Stock Appreciation Right, and may extend the time period during which vested Stock Appreciation Rights may be exercised, in connection with any Termination of Service of the Holder, in each case, to the extent that such extension does not constitute a repricing or cash buyout under Section 10.6, and may amend any other term or condition of such Stock Appreciation Right relating to such a Termination of Service.
+
+14
+
+9.5 Payment . Payment of the amounts payable with respect to Stock Appreciation Rights pursuant to this Article 9 shall be in cash, Shares (based on its Fair Market Value as of the date the Stock Appreciation Right is exercised), or a combination of both, as determined by the Administrator.
+
+Article 10.
+
+ADDITIONAL TERMS OF AWARDS
+
+10.1
+Payment
+. The Administrator shall determine the
+methods by which payments by any Holder with respect to any Awards granted under the Plan shall be made, including, without limitation, (a) cash or check, (b) Shares (including, in the case of payment of the exercise price of an Award, Shares
+issuable pursuant to the exercise of the Award) or Shares held for such period of time as may be required by the Administrator in order to avoid adverse accounting consequences, in each case, having a Fair Market Value on the date of delivery equal
+to the aggregate payments required, (c) delivery of a written or electronic notice that the Holder has placed a market sell order with a broker with respect to Shares then issuable upon exercise or vesting of an Award, and that the broker has been
+directed to pay a sufficient portion of the net proceeds of the sale to the Company in satisfaction of the aggregate payments required;
+provided
+,
+that payment of such proceeds is then made to the Company upon settlement of such sale, or
+- other form of legal consideration acceptable to the Administrator. The Administrator shall also determine the methods by which Shares shall be delivered or deemed to be delivered to Holders. Notwithstanding any other provision of the Plan to the
+contrary, no Holder who is a Director or an “executive officer” of the Company within the meaning of Section 13(k) of the Exchange Act shall be permitted to make payment with respect to any Awards granted under the Plan, or continue any extension of
+credit with respect to such payment with a loan from the Company or a loan arranged by the Company in violation of Section 13(k) of the Exchange Act.
+
+10.2 Tax Withholding . The Company or any Affiliate shall have the authority and the right to deduct or withhold, or require a Holder to remit to the Company or any Affiliate, an amount sufficient to satisfy federal, state, local and foreign taxes (including the Holder’s FICA or employment tax obligation) required by law to be withheld with respect to any taxable event concerning a Holder arising as a result of the Plan. The Administrator may in its sole discretion and in satisfaction of the foregoing requirement allow a Holder to elect to have the Company or Affiliate withhold Shares otherwise issuable under an Award (or allow the surrender of Shares). The number of Shares which may be so withheld or surrendered shall be limited to the number of shares which have a fair market value on the date of withholding or repurchase equal to the aggregate amount of such liabilities based on the maximum statutory withholding rates (or such lower rate as may be determined by the Company or, with respect to any person who is subject to the reporting requirements of Section 16(a) of the Exchange Act, the Committee, after considering any accounting consequences or costs) for federal, state, local and foreign income tax and payroll tax purposes that are applicable to such supplemental taxable income. The Administrator shall determine the fair market value of the Shares, consistent with applicable provisions of the Code, for tax withholding obligations due in connection with a broker-assisted cashless Option or Stock Appreciation Right exercise involving the sale of shares to pay the Option or Stock Appreciation Right exercise price or any tax withholding obligation.
+
+10.3 Transferability of Awards .
+
+- Except as otherwise provided in Section 10.3(b):
+
+- No Award under the Plan may be sold, pledged, assigned or
+transferred in any manner other than by will or the laws of descent and distribution or, subject to the consent of the Administrator, pursuant to a DRO, unless and until such Award has been exercised, or the shares underlying such Award have been
+issued, and all restrictions applicable to such shares have lapsed;
+
+15
+
+- No Award or interest or right therein shall be liable for
+the debts, contracts or engagements of the Holder or the Holder’s successors in interest or shall be subject to disposition by transfer, alienation, anticipation, pledge, hypothecation, encumbrance, assignment or any other means whether such
+disposition be voluntary or involuntary or by operation of law by judgment, levy, attachment, garnishment or any other legal or equitable proceedings (including bankruptcy), and any attempted disposition thereof shall be null and void and of no
+effect, except to the extent that such disposition is permitted by the preceding sentence; and
+
+- During the lifetime of the Holder, only the Holder may
+exercise an Award (or any portion thereof) granted to the Holder under the Plan, unless it has been disposed of pursuant to a DRO; after the death of the Holder, any exercisable portion of an Award may, prior to the time when such portion becomes
+unexercisable under the Plan or the applicable Program or Award Agreement, be exercised by the Holder’s personal representative or by any person empowered to do so under the deceased Holder’s will or under the then applicable laws of descent and
+distribution.
+
+- Notwithstanding Section 10.3(a), the Administrator, in its
+sole discretion, may determine to permit a Holder to transfer an Award other than an Incentive Stock Option to any one or more Permitted Transferees, subject to the following terms and conditions:
+
+- An Award transferred to a Permitted Transferee shall not
+be assignable or transferable by the Permitted Transferee other than by will or the laws of descent and distribution;
+
+- An Award transferred to a Permitted Transferee shall
+continue to be subject to all the terms and conditions of the Award as applicable to the original Holder (other than the ability to further transfer the Award); and
+
+- The Holder and the Permitted Transferee shall execute any
+and all documents requested by the Administrator, including, without limitation documents to (A) confirm the status of the transferee as a Permitted Transferee, (B) satisfy any requirements for an exemption for the transfer under applicable federal,
+state and foreign securities laws and (C) evidence the transfer.
+
+- Notwithstanding Section 10.3(a), a Holder may, in the manner
+determined by the Administrator, designate a beneficiary to exercise the rights of the Holder and to receive any distribution with respect to any Award upon the Holder’s death. A beneficiary, legal guardian, legal representative, or other person
+claiming any rights pursuant to the Plan is subject to all terms and conditions of the Plan and any Program or Award Agreement applicable to the Holder, except to the extent the Plan, the Program and the Award Agreement otherwise provide, and to any
+additional restrictions deemed necessary or appropriate by the Administrator. If the Holder is married and resides in a community property state, a designation of a person other than the Holder’s spouse as his or her beneficiary with respect to more
+than 50% of the Holder’s interest in the Award shall not be effective without the prior written or electronic consent of the Holder’s spouse. If no beneficiary has been designated or survives the Holder, payment shall be made to the person entitled
+thereto pursuant to the Holder’s will or the laws of descent and distribution. Subject to the foregoing, a beneficiary designation may be changed or revoked by a Holder at any time;
+provided
+, that such change or revocation is filed with the
+Administrator prior to the Holder’s death.
+
+10.4 Conditions to Issuance of Shares .
+
+- Notwithstanding anything herein to the contrary, the Company
+shall not be required to issue or deliver any certificates or make any book entries evidencing Shares pursuant to the exercise of any Award, unless and until the Board or the Committee has determined, with advice of counsel, that the issuance of such
+shares is in compliance with all applicable laws, regulations of governmental authorities and, if applicable, the requirements of any exchange on which the Shares are listed or traded, and the Shares are covered by an effective registration statement
+or applicable exemption from registration. In addition to the terms and conditions provided herein, the Board or the Committee may require that a Holder make such reasonable covenants, agreements, and representations as the Board or the Committee, in
+its discretion, deems advisable in order to comply with any such laws, regulations, or requirements.
+
+16
+
+- All Share certificates delivered pursuant to the Plan and
+all shares issued pursuant to book entry procedures are subject to any stop-transfer orders and other restrictions as the Administrator deems necessary or advisable to comply with federal, state, or foreign securities or other laws, rules and
+regulations and the rules of any securities exchange or automated quotation system on which the Shares are listed, quoted, or traded. The Administrator may place legends on any Share certificate or book entry to reference restrictions applicable to
+the Shares.
+
+- The Administrator shall have the right to require any Holder
+to comply with any timing or other restrictions with respect to the settlement, distribution or exercise of any Award, including a window-period limitation, as may be imposed in the sole discretion of the Administrator.
+
+- Fractional Shares may be issued, provided that the
+Administrator may determine, in its sole discretion, whether cash shall be given in lieu of fractional shares or whether such fractional shares shall be eliminated by rounding down.
+
+- Notwithstanding any other provision of the Plan, unless
+otherwise determined by the Administrator or required by any applicable law, rule or regulation, the Company shall not deliver to any Holder certificates evidencing Shares issued in connection with any Award and instead such Shares shall be recorded
+in the books of the Company (or, as applicable, its transfer agent or stock plan administrator).
+
+10.5 Forfeiture Provisions . Pursuant to its general authority to determine the terms and conditions applicable to Awards under the Plan, the Administrator shall have the right to provide, in the terms of Awards made under the Plan, or to require a Holder to agree by separate written or electronic instrument, that (a) (i) any proceeds, gains or other economic benefit actually or constructively received by the Holder upon any receipt or exercise of the Award, or upon the receipt or resale of any Shares underlying the Award, must be paid to the Company, and (ii) the Award shall terminate and any unexercised portion of the Award (whether or not vested) shall be forfeited, if (b) (i) a Termination of Service occurs prior to a specified date, or within a specified time period following receipt or exercise of the Award, or (ii) the Holder at any time, or during a specified time period, engages in any activity in competition with the Company or any Affiliate, or which is inimical, contrary or harmful to the interests of the Company or any Affiliate, as further defined by the Administrator or (iii) the Holder incurs a Termination of Service for “cause” (as such term is defined in the sole discretion of the Administrator, or as set forth in a written agreement relating to such Award between the Company and the Holder).
+
+10.6 Prohibition on Repricing . Subject to Section 12.2, the Administrator shall not, without the approval of the stockholders of the Company, (a) authorize the amendment of any outstanding Option or Stock Appreciation Right to reduce its price per share, or (b) cancel any Option or Stock Appreciation Right in exchange for cash or another Award when the Option or Stock Appreciation Right price per share exceeds the Fair Market Value of the underlying Shares. Subject to Section 12.2, the Administrator shall have the authority, without the approval of the stockholders of the Company, to amend any outstanding award to increase the price per share or to cancel and replace an Award with the grant of an Award having a price per share that is greater than or equal to the price per share of the original Award.
+
+10.7 Award Vesting Limitations . Awards (including Options and Full Value Awards) made to Eligible Individuals shall become vested over a period of not less than three years (which shall be measured from the commencement of the applicable performance period), and no portion of any Award shall become vested prior to the first anniversary of the date of grant; provided , however , that, notwithstanding the foregoing, (a) the Administrator may lapse or waive such vesting restrictions upon the Holder’s death, disability, Retirement, or Termination of Service without “cause” (as such term is defined in the sole discretion of the Administrator, or as set forth in a written agreement relating to such Award between the Company and the Holder) and (b) Awards (including Options and Full Value Awards) that result in the issuance of an aggregate of up to 5% of the shares of Stock available pursuant to Section 3.1(a) may be granted to any one or more Holders without respect to such minimum vesting provisions.
+
+17
+
+Article 11.
+
+ADMINISTRATION
+
+11.1 Administrator . The Compensation Committee (or another committee or a subcommittee of the Board assuming the functions of the Committee under the Plan) shall administer the Plan (except as otherwise permitted herein) and, unless otherwise determined by the Board, shall consist solely of two or more Non-Employee Directors appointed by and holding office at the pleasure of the Board, each of whom is intended to qualify as both a “non-employee director” as defined by Rule 16b-3 of the Exchange Act or any successor rule and an “independent director” under the rules of any securities exchange or automated quotation system on which the Shares are listed, quoted or traded; provided , that any action taken by the Committee shall be valid and effective, whether or not members of the Committee at the time of such action are later determined not to have satisfied the requirements for membership set forth in this Section 11.1 or otherwise provided in any charter of the Committee. Except as may otherwise be provided in any charter of the Committee, appointment of Committee members shall be effective upon acceptance of appointment. Committee members may resign at any time by delivering written or electronic notice to the Board. Vacancies in the Committee may only be filled by the Board. Notwithstanding the foregoing, (a) the full Board, acting by a majority of its members in office, shall conduct the general administration of the Plan with respect to Awards granted to Non-Employee Directors and (b) the Board or Committee may delegate its authority hereunder to the extent permitted by Section 11.6.
+
+11.2 Duties and Powers of Committee . It shall be the duty of the Committee to conduct the general administration of the Plan in accordance with its provisions. The Committee shall have the power to interpret the Plan, the Program and the Award Agreement, and to adopt such rules for the administration, interpretation and application of the Plan as are not inconsistent therewith, to interpret, amend or revoke any such rules and to amend any Program or Award Agreement; provided , that the rights or obligations of the Holder of the Award that is the subject of any such Program or Award Agreement are not affected adversely by such amendment, unless the consent of the Holder is obtained or such amendment is otherwise permitted under Section 12.10. Any such grant or award under the Plan need not be the same with respect to each Holder. Any such interpretations and rules with respect to Incentive Stock Options shall be consistent with the provisions of Section 422 of the Code. In its sole discretion, the Board may at any time and from time to time exercise any and all rights and duties of the Committee under the Plan except with respect to matters which under Rule 16b-3 under the Exchange Act or any successor rule, or any regulations or rules issued thereunder, or the rules of any securities exchange or automated quotation system on which the Shares are listed, quoted or traded are required to be determined in the sole discretion of the Committee.
+
+11.3 Action by the Committee . Unless otherwise established by the Board or in any charter of the Committee, a majority of the Committee shall constitute a quorum and the acts of a majority of the members present at any meeting at which a quorum is present, and acts approved in writing by all members of the Committee in lieu of a meeting, shall be deemed the acts of the Committee. Each member of the Committee is entitled to, in good faith, rely or act upon any report or other information furnished to that member by any officer or other employee of the Company or any Affiliate, the Company’s independent certified public accountants, or any executive compensation consultant or other professional retained by the Company to assist in the administration of the Plan.
+
+11.4 Authority of Administrator . Subject to any specific designation in the Plan, the Administrator has the exclusive power, authority and sole discretion to:
+
+- Designate Eligible Individuals to receive Awards;
+
+- Determine the type or types of Awards to be granted to each
+Eligible Individual;
+
+- Determine the number of Awards to be granted and the number
+of Shares to which an Award will relate;
+
+- Determine the terms and conditions of any Award granted
+pursuant to the Plan, including, but not limited to, the exercise price, grant price, or purchase price, any performance criteria, any restrictions or limitations on the Award, any schedule for vesting, lapse of forfeiture restrictions or
+restrictions on the exercisability of an Award, and accelerations or waivers thereof, and any provisions related to non-competition and recapture of gain on an Award, based in each case on such considerations as the Administrator in its sole
+discretion determines;
+
+18
+
+- Determine whether, to what extent, and pursuant to what
+circumstances an Award may be settled in, or the exercise price of an Award may be paid in cash, Shares, other Awards, or other property, or an Award may be canceled, forfeited, or surrendered;
+
+- Prescribe the form of each Award Agreement, which need not
+be identical for each Holder;
+
+- Determine as between the Company, the Partnership and any
+other Subsidiary which entity will make payments with respect to an Award, consistent with applicable securities laws and other Applicable Law;
+
+- Decide all other matters that must be determined in
+connection with an Award;
+
+- Establish, adopt, or revise any rules and regulations as it
+may deem necessary or advisable to administer the Plan;
+
+- Interpret the terms of, and any matter arising pursuant to,
+the Plan, any Program or any Award Agreement; and
+
+- Make all other decisions and determinations that may be
+required pursuant to the Plan or as the Administrator deems necessary or advisable to administer the Plan.
+
+11.5 Decisions Binding . The Administrator’s interpretation of the Plan, any Awards granted pursuant to the Plan, any Program, any Award Agreement and all decisions and determinations by the Administrator with respect to the Plan are final, binding, and conclusive on all parties.
+
+11.6 Delegation of Authority . To the extent permitted by applicable law or the rules of any securities exchange or automated quotation system on which the Shares are listed, quoted or traded, the Board or Committee may from time to time delegate to a committee of one or more members of the Board or one or more officers of the Company or any of its Affiliates the authority to grant or amend Awards or to take other administrative actions pursuant to Article 11; provided , however , that in no event shall an officer of the Company (or an Affiliate) be delegated the authority to grant awards to, or amend awards held by, (a) individuals who are subject to Section 16 of the Exchange Act, or (b) officers of the Company or any of its Affiliates (or Directors) to whom authority to grant or amend Awards has been delegated hereunder; provided further , that any delegation of administrative authority shall only be permitted to the extent it is permissible under applicable securities laws or the rules of any securities exchange or automated quotation system on which the Shares are listed, quoted or traded. Any delegation hereunder shall be subject to the restrictions and limits that the Board or Committee specifies at the time of such delegation, and the Board may at any time rescind the authority so delegated or appoint a new delegatee. At all times, the delegatee appointed under this Section 11.6 shall serve in such capacity at the pleasure of the Board and the Committee.
+
+Article 12.
+
+MISCELLANEOUS PROVISIONS
+
+12.1 Term; Amendment, Suspension or Termination of the Plan .
+
+- The Plan shall become effective as of the Effective Date.
+
+- Except as otherwise provided in this Section 12.1, the Plan
+may be wholly or partially amended or otherwise modified, suspended or terminated at any time or from time to time by the Board or the Committee. However, without approval of the Company’s stockholders given within twelve (12) months before or after
+the action by the Administrator, no action of the Administrator may, except as provided in Section 12.2, (i) increase the limits imposed in Section 3.1 on the maximum number of shares which may be issued under the Plan, or (ii) reduce the price per
+share of any outstanding Option or Stock Appreciation Right granted under the Plan, or (iii) cancel any Option or Stock Appreciation Right in exchange for cash or another Award when the Option or Stock Appreciation Right price per share exceeds the
+Fair Market Value of the underlying Shares. Except as provided in Section 12.10, no amendment, suspension or termination of the Plan shall, without the consent of the Holder, impair any rights or obligations under any Award theretofore granted or
+awarded, unless the Award itself otherwise expressly so provides. No Awards may be granted or awarded during any period of suspension or after termination of the Plan, and in no event may any Award be granted under the Plan after the tenth (10th)
+anniversary of April 28, 2020.
+
+19
+
+12.2 Changes in Common Stock or Assets of the Company, Acquisition or Liquidation of the Company and Other Corporate Events.
+
+- In the event of any stock dividend, stock split, combination
+or exchange of shares, consummation of a merger, consolidation or other distribution (other than normal cash dividends) of Company assets to stockholders, or any other change affecting the Common Stock or other securities of the Company or the share
+price of the Common Stock or other securities of the Company other than an Equity Restructuring, the Administrator shall make equitable adjustments, if any, to reflect such change with respect to (i) the aggregate number and kind of shares that may
+be issued under the Plan (including, but not limited to, adjustments of the limitations in Section 3.1 on the maximum number and kind of shares which may be issued under the Plan, and adjustments of the Award Limit, and adjustments of the manner in
+which shares subject to Full Value Awards will be counted); (ii) the number and kind of shares of Common Stock (or other securities or property) subject to outstanding Awards; (iii) the terms and conditions of any outstanding Awards (including,
+without limitation, any applicable performance targets or criteria with respect thereto); and (iv) the grant or exercise price per share for any outstanding Awards under the Plan.
+
+- In the event of any transaction or event described in
+Section 12.2(a) or any unusual or nonrecurring transactions or events affecting the Company, any Affiliate of the Company, or the financial statements of the Company or any Affiliate, or of changes in applicable laws, regulations or accounting
+principles, the Administrator, in its sole discretion, and on such terms and conditions as it deems appropriate, either by the terms of the Award or by action taken prior to the occurrence of such transaction or event and either automatically or upon
+the Holder’s request, is hereby authorized to take any one or more of the following actions whenever the Administrator determines that such action is appropriate in order to prevent dilution or enlargement of the benefits or potential benefits
+intended to be made available under the Plan or with respect to any Award under the Plan, to facilitate such transactions or events or to give effect to such changes in laws, regulations or principles:
+
+- To provide for either (A) termination of any such Award
+in exchange for an amount of cash, if any, equal to the amount that would have been attained upon the exercise of such Award or realization of the Holder’s rights (and, for the avoidance of doubt, if as of the date of the occurrence of the
+transaction or event described in this Section 12.2 the Administrator determines in good faith that no amount would have been attained upon the exercise of such Award or realization of the Holder’s rights, then such Award may be terminated by the
+Company without payment) or (B) the replacement of such Award with other rights or property selected by the Administrator in its sole discretion having an aggregate value not exceeding the amount that could have been attained upon the exercise of
+such Award or realization of the Holder’s rights had such Award been currently exercisable or payable or fully vested;
+
+- To provide that such Award be assumed by the successor or
+survivor corporation, or a parent or subsidiary thereof, or shall be substituted for by similar options, rights or awards covering the stock of the successor or survivor corporation, or a parent or subsidiary thereof, with appropriate adjustments as
+to the number and kind of shares and prices;
+
+- To make adjustments in the number and type of shares of
+the Company’s stock (or other securities or property) subject to outstanding Awards, and in the number and kind of outstanding Restricted Stock or Deferred Stock and/or in the terms and conditions of (including the grant or exercise price), and the
+criteria included in, outstanding Awards and Awards which may be granted in the future;
+
+20
+
+- To provide that such Award shall be exercisable or payable
+or fully vested with respect to all shares covered thereby, notwithstanding anything to the contrary in the Plan or the applicable Program or Award Agreement; and
+
+- To provide that the Award cannot vest, be exercised or
+become payable after such event.
+
+- In connection with the occurrence of any Equity
+Restructuring, and notwithstanding anything to the contrary in Sections 12.2(a) and 12.2(b):
+
+- The number and type of securities subject to each
+outstanding Award and the exercise price or grant price thereof, if applicable, shall be equitably adjusted; and/or
+
+- The Administrator shall make such equitable adjustments,
+if any, as the Administrator in its discretion may deem appropriate to reflect such Equity Restructuring with respect to the aggregate number and kind of shares that may be issued under the Plan (including, but not limited to, adjustments of the
+limitations in Section 3.1 on the maximum number and kind of shares which may be issued under the Plan, and adjustments of the Award Limit, and adjustments of the manner in which shares subject to Full Value Awards will be counted). The adjustments
+provided under this Section 12.2(c) shall be nondiscretionary and shall be final and binding on the affected Holder and the Company.
+
+- In the event an Award is assumed or an equivalent Award
+substituted in connection with a Change in Control, and a Holder has a Termination of Service by the Company without “cause” (as such term is defined in the sole discretion of the Administrator, or as set forth in a written agreement relating to such
+Award between the Company (or an Affiliate) and the Holder) upon or within twelve (12) months following the Change in Control, then such Holder shall be fully vested in such assumed or substituted Award.
+
+- In the event that the successor corporation in a Change in
+Control refuses to assume or substitute for the Award, the Administrator shall cause any or all of such Awards to become fully exercisable immediately prior to the consummation of such transaction and all forfeiture restrictions on any or all of such
+Awards to lapse, provided that, to the extent that the vesting of any such Award is subject to the satisfaction of specified performance goals, such Award shall vest at either (as the Administrator may determine) (i) the target level of performance,
+pro-rated based on the period elapsed between the beginning of the applicable performance period and the date of the Change in Control, or (ii) the actual performance level as of the date of the Change in Control (as determined by the Administrator)
+with respect to all open performance period. If an Award is exercisable in lieu of assumption or substitution in the event of a Change in Control, the Administrator shall notify the Holder that the Award shall be fully exercisable for a period of
+fifteen (15) days from the date of such notice, contingent upon the occurrence of the Change in Control, and the Award shall terminate upon the expiration of such period.
+
+- For purposes of this Section 12.2, an Award shall be
+considered assumed if, following the Change in Control, the Award confers the right to purchase or receive, for each share of Common Stock subject to the Award immediately prior to the Change in Control, the consideration (whether stock, cash, or
+other securities or property) received in the Change in Control by holders of Common Stock for each share held on the effective date of the transaction (and if holders were offered a choice of consideration, the type of consideration chosen by the
+holders of a majority of the outstanding shares);
+provided
+,
+however
+, that if such consideration received in the Change in Control was not solely common stock of the successor corporation or its parent, the Administrator may, with the
+consent of the successor corporation, provide for the consideration to be received upon the exercise of the Award, for each share of Common Stock subject to an Award, to be solely common stock of the successor corporation or its parent equal in fair
+market value to the per share consideration received by holders of Common Stock in the Change in Control.
+
+- The Administrator may, in its sole discretion, include such
+further provisions and limitations in any Award, agreement or certificate, as it may deem equitable and in the best interests of the Company that are not inconsistent with the provisions of the Plan.
+
+21
+
+- No adjustment or action described in this Section 12.2 or in
+any other provision of the Plan shall be authorized to the extent that such adjustment or action would cause the Plan or an Award to violate Section 422(b)(1) of the Code or other applicable law. Furthermore, no such adjustment or action shall be
+authorized to the extent such adjustment or action would result in short-swing profits liability under Section 16 or violate the exemptive conditions of Rule 16b-3 unless the Administrator determines that the Award is not to comply with such
+exemptive conditions.
+
+- The existence of the Plan, the Program, the Award Agreement
+and the Awards granted hereunder shall not affect or restrict in any way the right or power of the Company, its Affiliates or the stockholders of the Company to make or authorize any adjustment, recapitalization, reorganization or other change in the
+Company’s or such Affiliate’s capital structure or its business, any merger or consolidation of the Company or any Affiliate, any issue of stock or of options, warrants or rights to purchase stock or of bonds, debentures, preferred or prior
+preference stocks whose rights are superior to or affect the Common Stock or the rights thereof or which are convertible into or exchangeable for Common Stock, or the dissolution or liquidation of the Company or any Affiliate, or any sale or transfer
+of all or any part of its assets or business, or any other corporate act or proceeding, whether of a similar character or otherwise.
+
+- In the event of any pending stock dividend, stock split,
+combination or exchange of shares, merger, consolidation or other distribution (other than normal cash dividends) of Company assets to stockholders, or any other change affecting the shares of Common Stock or the share price of the Common Stock
+including any Equity Restructuring, for reasons of administrative convenience, the Company in its sole discretion may refuse to permit the exercise of any Award during a period of thirty (30) days prior to the consummation of any such transaction.
+
+12.3 Approval of Plan by Stockholders . The Plan will be submitted for the approval of the Company’s stockholders within twelve (12) months after the date this Plan is approved by the Board.
+
+12.4 No Stockholders Rights . Except as otherwise provided herein, a Holder shall have none of the rights of a stockholder with respect to shares of Common Stock covered by any Award until the Holder becomes the record owner of such shares of Common Stock.
+
+12.5 Paperless Administration . In the event that the Company establishes, for itself or using the services of a third party, an automated system for the documentation, granting or exercise of Awards, such as a system using an internet website or interactive voice response, then the paperless documentation, granting or exercise of Awards by a Holder may be permitted through the use of such an automated system.
+
+12.6 Effect of Plan upon Other Compensation Plans . The adoption of the Plan shall not affect any other compensation or incentive plans in effect for the Company or any Affiliate. Nothing in the Plan shall be construed to limit the right of the Company or any Affiliate to (a) establish any other forms of incentives or compensation for Employees, Directors or Consultants of the Company or any Affiliate or (b) grant or assume options or other rights or awards otherwise than under the Plan in connection with any proper corporate purpose including without limitation, the grant or assumption of options in connection with the acquisition by purchase, lease, merger, consolidation or otherwise, of the business, stock or assets of any corporation, partnership, limited liability company, firm or association.
+
+12.7 Compliance with Laws . The Plan, the granting and vesting of Awards under the Plan and the issuance and delivery of Shares and LTIP Units and the payment of money under the Plan or under Awards granted or awarded hereunder are subject to compliance with all applicable federal, state, local and foreign laws, rules and regulations (including but not limited to state, federal and foreign securities law and margin requirements), the rules of any securities exchange or automated quotation system on which the Shares are listed, quoted or traded, and to such approvals by any listing, regulatory or governmental authority as may, in the opinion of counsel for the Company, be necessary or advisable in connection therewith. Any securities delivered under the Plan shall be subject to such restrictions, and the person acquiring such securities shall, if requested by the Company, provide such assurances and representations to the Company as the Company may deem necessary or desirable to assure compliance with all applicable legal requirements. To the extent permitted by applicable law, the Plan and Awards granted or awarded hereunder shall be deemed amended to the extent necessary to conform to such laws, rules and regulations.
+
+22
+
+12.8 Titles and Headings, References to Sections of the Code or Exchange Act . The titles and headings of the Sections in the Plan are for convenience of reference only and, in the event of any conflict, the text of the Plan, rather than such titles or headings, shall control. References to sections of the Code or the Exchange Act shall include any amendment or successor thereto.
+
+12.9 Governing Law . The Plan and any agreements hereunder shall be administered, interpreted and enforced under the internal laws of the State of Maryland without regard to conflicts of laws thereof.
+
+12.10 Section 409A . To the extent that the Administrator determines that any Award granted under the Plan is subject to Section 409A of the Code, the Program pursuant to which such Award is granted and the Award Agreement evidencing such Award shall incorporate the terms and conditions required by Section 409A of the Code. To the extent applicable, the Plan, the Program and any Award Agreements shall be interpreted in accordance with Section 409A of the Code and Department of Treasury regulations and other interpretive guidance issued thereunder. Notwithstanding any provision of the Plan to the contrary, in the event that the Administrator determines that any Award may be subject to Section 409A of the Code and related Department of Treasury guidance, the Administrator may adopt such amendments to the Plan and the applicable Program and Award Agreement or adopt other policies and procedures (including amendments, policies and procedures with retroactive effect), or take any other actions, that the Administrator determines are necessary or appropriate to (a) exempt the Award from Section 409A of the Code and/or preserve the intended tax treatment of the benefits provided with respect to the Award, or (b) comply with the requirements of Section 409A of the Code and related Department of Treasury guidance and thereby avoid the application of any penalty taxes under such Section.
+
+12.11 No Rights to Awards . No Eligible Individual or other person shall have any claim to be granted any Award pursuant to the Plan, and none of the Company, any Affiliate or the Administrator is obligated to treat Eligible Individuals, Holders or any other persons uniformly.
+
+12.12 Unfunded Status of Awards . The Plan is intended to be an “unfunded” plan for incentive compensation. With respect to any payments not yet made to a Holder pursuant to an Award, nothing contained in the Plan or any Program or Award Agreement shall give the Holder any rights that are greater than those of a general creditor of the Company or any Affiliate.
+
+12.13 Indemnification . To the extent allowable pursuant to applicable law, each member of the Committee or of the Board shall be indemnified and held harmless by the Company from any loss, cost, liability, or expense that may be imposed upon or reasonably incurred by such member in connection with or resulting from any claim, action, suit, or proceeding to which he or she may be a party or in which he or she may be involved by reason of any action or failure to act pursuant to the Plan and against and from any and all amounts paid by him or her in satisfaction of judgment in such action, suit, or proceeding against him or her; provided , that he or she gives the Company an opportunity, at its own expense, to handle and defend the same before he or she undertakes to handle and defend it on his or her own behalf. The foregoing right of indemnification shall not be exclusive of any other rights of indemnification to which such persons may be entitled pursuant to the Company’s Certificate of Incorporation or Bylaws, as a matter of law, or otherwise, or any power that the Company may have to indemnify them or hold them harmless.
+
+12.14 Relationship to Other Benefits . No payment pursuant to the Plan shall be taken into account in determining any benefits under any pension, retirement, savings, profit sharing, group insurance, welfare or other benefit plan of the Company or any Affiliate except to the extent otherwise expressly provided in writing in such other plan or an agreement thereunder.
+
+12.15 Expenses . The expenses of administering the Plan shall be borne by the Company and its Subsidiaries.
+
+23
+
+12.16 Claw-Back Provisions . All Awards (including any proceeds, gains or other economic benefit the Holder actually or constructively receives upon receipt or exercise of any Award or the receipt or resale of any shares of Common Stock underlying the Award) will be subject to any Company claw-back policy, including any claw-back policy adopted to comply with applicable laws (including the Dodd-Frank Wall Street Reform and Consumer Protection Act and any rules or regulations promulgated thereunder) as set forth in such claw-back policy or the Award Agreement.
+
+12.17 Grant of Awards to Certain Eligible Individuals . The Company may provide through the establishment of a formal written policy (which shall be deemed a part of this Plan) or otherwise for the method by which Common Stock or other securities of the Company may be issued and by which such Common Stock or other securities and/or payment therefor may be exchanged or contributed among such entities, or may be returned upon any forfeiture of Common Stock or other securities by the Eligible Individual.
+
+12.18 REIT Status . The Plan shall be interpreted and construed in a manner consistent with the Company’s status as a REIT. No Award shall be granted or awarded, and with respect to any Award granted under the Plan, such Award shall not vest, be exercisable or be settled:
+
+- to the extent that the grant, vesting, exercise or settlement of
+such Award could cause the Participant or any other person to be in violation of any provision of Section 4(b) of the Company’s charter; or
+
+- if, in the discretion of the Administrator, the grant, vesting,
+exercise or settlement of such award could impair the Company’s status as a REIT.
+
+24
+
+I hereby certify that the foregoing Plan was duly adopted by the Board of Directors of Kimco Realty Corporation on December 14, 2022.
+
+Executed as of this __ day of _______, 2022.
+
+[[TABLE]]
+| | KIMCO REALTY CORPORATION |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | By: | | |
+| --- | --- | --- | --- |
+| | | Name: | |
+| | | Title: | |
+[[/TABLE]]
+
+25

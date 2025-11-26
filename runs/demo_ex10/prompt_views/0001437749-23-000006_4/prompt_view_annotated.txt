@@ -1,0 +1,412 @@
+[[A0001]]
+ex_459739.htm
+
+[[A0002]]
+Exhibit 10.3
+
+[[A0003]]
+CABLE ONE, INC.
+
+[[A0004]]
+2022 OMNIBUS INCENTIVE COMPENSATION PLAN
+
+[[A0005]]
+RESTRICTED STOCK UNIT AWARD AGREEMENT
+
+[[A0006]]
+(PERFORMANCE-BASED)
+
+[[A0007]]
+RESTRICTED STOCK UNIT AWARD AGREEMENT, between Cable One, Inc. (the “ Company ”), a Delaware corporation, and [NAME].
+
+[[A0008]]
+This Restricted Stock Unit Award Agreement (the “ Award Agreement ”) sets forth the terms and conditions of an award of [NUMBER] performance-based restricted stock units (the “ Award ”), each with respect to one share of the Company’s common stock, $0.01 par value per share (each a “ Share ”), representing the maximum number of Shares subject to this Award (the “ RSUs ”).
+
+[[A0009]]
+These RSUs are being granted to you under the Cable One, Inc. 2022 Omnibus Incentive Compensation Plan (the “ Plan ”) as of [DATE] (the “ Grant Date ”) and, subject to the terms of this Award Agreement and the Plan, this Award provides you with an unfunded and unsecured opportunity to earn, a number of Shares that is between 0% and 100% of the maximum number of RSUs subject to the Award, with such number of earned Shares to be determined by the Committee as set forth in Section 3 of this Award Agreement.
+
+[[A0010]]
+THIS AWARD IS SUBJECT TO ALL TERMS AND CONDITIONS OF THE PLAN AND THIS AWARD AGREEMENT, INCLUDING THE DISPUTE RESOLUTION PROVISIONS SET FORTH IN SECTION 11 OF THIS AWARD AGREEMENT AND THE RESTRICTIVE COVENANT, CLAWBACK AND RECOUPMENT PROVISIONS SET FORTH IN SECTION 5 OF THIS AWARD AGREEMENT AND IN THE CLAWBACK POLICY.
+
+[[A0011]]
+BY ELECTRONICALLY ACCEPTING THIS AWARD AGREEMENT IN ACCORDANCE WITH THE PROVISIONS OF SECTION 17, YOU WILL HAVE CONFIRMED YOUR ACCEPTANCE OF THE TERMS AND CONDITIONS OF THIS AWARD AGREEMENT AND THE CLAWBACK POLICY.
+
+[[A0012]]
+SECTION 1. The Plan.
+
+[[A0013]]
+This Award is made pursuant to the Plan, all the terms of which are hereby incorporated in this Award Agreement.
+
+[[A0014]]
+In the event of any conflict between the terms of the Plan and the terms of this Award Agreement, the terms of the Plan shall govern.
+
+[[A0015]]
+SECTION 2. Definitions.
+
+[[A0016]]
+Capitalized terms used in this Award Agreement that are not defined in this Award Agreement have the meanings as used or defined in the Plan.
+
+[[A0017]]
+As used in this Award Agreement, the following terms have the meanings set forth below:
+
+[[A0018]]
+“ Business Day ” means a day that is not a Saturday, a Sunday or a day on which banking institutions are legally permitted to be closed in the City of New York.
+
+[[A0019]]
+2
+
+[[A0020]]
+“ Cause ” shall mean the occurrence of any of the following events: (a) your fraud, misappropriation, dishonesty, theft, embezzlement or intentional misuse of Company funds or property; (b) your failure to substantially perform your duties to the Company; (c) your conviction of, or entry of a plea of guilty or nolo contendere to, a felony or a crime involving moral turpitude; (d) any willful act, or failure to act, by you in bad faith to the material detriment of the Company; (e) your material noncompliance with Company policies and guidelines, including misconduct, or the grossly negligent failure to supervise an employee who engaged in misconduct, that resulted in a material violation of Company policies and guidelines for which there was a significant negative impact on the Company’s financial or operating results, market capitalization, Share price or reputation; or (f) your material breach of any term of this Award Agreement or any agreement between you and the Company; provided that in cases where the Company, in its sole discretion, determines that a cure opportunity is appropriate, you shall first be provided a 15-day cure period.
+
+[[A0021]]
+If, subsequent to your termination of employment with the Company or one of its Affiliates for any reason other than for Cause, the Company determines in good faith that your employment could have been terminated by the Company or applicable Affiliate for Cause, then, at the election of the Company, your employment will be deemed to have been terminated for Cause as of the date the events giving rise to Cause occurred.
+
+[[A0022]]
+“ Clawback Policy ” means the Clawback Policy of the Company adopted by the Board effective January 1, 2019, as may be amended from time to time.
+
+[[A0023]]
+“ Disability ” means your absence from employment due to a physical or mental condition, illness or injury for a period of 180 consecutive Business Days.
+
+[[A0024]]
+“ Determination Date ” means the date as soon as reasonably practicable following the Performance Period, but in no event later than March 15 of the year following the end of the Performance Period, as determined by the Committee, on which the Committee determines whether the Performance Goal has been achieved.
+
+[[A0025]]
+“ Good Reason ” means the occurrence, without your written consent, of any of the following events or circumstances: (a) a material reduction in your annual base salary or target bonus opportunity; (b) a material diminution in your title, duties or responsibilities; (c) a relocation of your principal work location by more than 50 miles; or (d) any material breach of this Award Agreement by the Company; provided that Good Reason shall not exist unless you give the Company notice specifically detailing the event you believe gives rise to Good Reason within 60 days of the date you have knowledge of such event.
+
+[[A0026]]
+In cases where cure is possible, the Company shall be provided a 90-day cure period after such notice is given in accordance with Section 12 of this Award Agreement; if such circumstances are not cured by the expiration of such cure period, you may resign for Good Reason within three months following the end of the cure period, but if such circumstances are cured within the cure period or if you do not resign for Good Reason within three months following the end of the cure period, such circumstances will not be deemed to constitute Good Reason.
+
+[[A0027]]
+“ Performance Goal ” means the applicable goal or goals set forth in the Appendix .
+
+[[A0028]]
+3
+
+[[A0029]]
+“ Performance Period ” means the period beginning on January 1, 2023 and ending on December 31, 2025.
+
+[[A0030]]
+“ Pro-Ration Fraction ” means a fraction, (a) the numerator of which is the number of days elapsed from the Grant Date through the date of termination of employment and (b) the denominator of which is the number of days from the Grant Date through the last day of the Performance Period.
+
+[[A0031]]
+“ Restrictive Covenants ” means the restrictive covenants set forth in the appendix of the Clawback Policy, which are incorporated herein by reference.
+
+[[A0032]]
+“ Section 409A ” means Section 409A of the Code and the regulations and other interpretive guidance promulgated thereunder, as in effect from time to time.
+
+[[A0033]]
+“ Target Shares ” means [NUMBER] RSUs.
+
+[[A0034]]
+SECTION 3.
+Vesting.
+(a)
+Performance-Based Vesting.
+- On the Determination Date, the Committee shall determine whether the Performance Goal has been achieved for the Performance Period, and shall specify the level of any such achievement (the “
+Performance Factor
+”) (and, accordingly, the number of RSUs subject to this Award), based on the scoring and adjustment provisions set forth in the
+Appendix
+. If the Performance Factor is less than 250%, then the number of RSUs that exceeds the Performance Factor shall be immediately forfeited on the Determination Date, and only the number of Shares correlating to the Performance Factor shall be deemed outstanding and shall be considered RSUs for purposes of this Award Agreement.
+
+[[A0035]]
+Except as otherwise determined by the Committee in its sole discretion or as otherwise provided in this Section 3, vesting of the RSUs is contingent on the achievement of the Performance Goal within the Performance Period and your continued employment with the Company or an Affiliate through the Determination Date.
+
+[[A0036]]
+Except as otherwise provided in Section 3(a)(ii) – (iv), if your employment with the Company or an Affiliate terminates at any time before the Determination Date, the RSUs shall be immediately forfeited as of the date of termination and you will not be entitled to any further payments or benefits with respect to such forfeited RSUs.
+
+[[A0037]]
+(ii)
+Termination Without Cause or for Good Reason.
+
+[[A0038]]
+In the event that your employment is terminated by the Company without Cause or by you for Good Reason anytime on or after the first anniversary of the Grant Date, except as otherwise set forth in Section 3(a)(iv)(A), then a portion of your RSUs determined by multiplying the RSUs outstanding prior to such termination by the applicable Pro-Ration Fraction and rounding down to the nearest whole Share (such portion, the “
+Remaining RSUs
+”) shall be treated as follows: (A) if such termination occurs before the Determination Date on which the Committee determines that the Performance Goal has been achieved, then the Remaining RSUs shall no longer be subject to the service requirements, but shall remain outstanding and you shall be eligible to vest in a number of RSUs on the Determination Date, determined by multiplying the Remaining RSUs by the Performance Factor, and (B) if such termination occurs on or after the Determination Date, then the Remaining RSUs (which, for the avoidance of doubt, shall be determined after application of the Performance Factor and the Pro-Ration Fraction and rounded down to the nearest whole Share) shall immediately vest.
+
+[[A0039]]
+All RSUs other than the Remaining RSUs (which, for the avoidance of doubt, shall be determined after application of the Performance Factor) shall be forfeited immediately upon such termination of employment and you will not be entitled to any further payments or benefits with respect to such forfeited RSUs.
+
+[[A0040]]
+For the avoidance of doubt, if such termination of employment occurs before the first anniversary of the Grant Date, or if the Committee does not determine on the Determination Date that the Performance Goal has been achieved, then all then outstanding RSUs (including any Remaining RSUs) shall be immediately forfeited as of the date of termination or the Determination Date, as applicable, and you will not be entitled to any further payments or benefits with respect to such forfeited RSUs.
+
+[[A0041]]
+4
+
+[[A0042]]
+(iii)
+Death or Disability.
+
+[[A0043]]
+In the event that your employment is terminated due to death or Disability on or after the first anniversary of the Grant Date, the service and performance requirements shall no longer apply and you or your estate or applicable beneficiary, as the case may be, shall immediately vest in a portion of your RSUs determined by multiplying the Target Shares or, if the Determination Date has occurred as of the termination date, the product of the Target Shares and the Performance Factor, by the applicable Pro-Ration Fraction (rounded up to the nearest whole Share). Any RSUs that do not vest pursuant to this Section 3(a)(iii) will be immediately forfeited as of the date of termination or the Determination Date, as applicable, and you will not be entitled to any further payments or benefits with respect to such forfeited RSUs.
+
+[[A0044]]
+(iv)
+Change of Control.
+
+[[A0045]]
+- Except as otherwise provided in this Section 3(a)(iv)(A) or in Section 3(a)(iv)(B) below, following a Change of Control, the unvested RSUs outstanding as of such Change of Control shall no longer be subject to the performance requirements (if any) but shall remain outstanding and subject to service requirements through the Determination Date;
+provided
+that, (x) if such Change of Control occurs prior to the Determination Date, the RSUs outstanding shall be deemed to be equal to the Target Shares and all RSUs other than the Target Shares shall be forfeited immediately upon such Change in Control and (y) if such Change of Control occurs on or after the Determination Date, the RSUs outstanding shall be determined after application of the Performance Factor;
+provided
+
+[[A0046]]
+further
+that in the event that your employment terminates on or after a Change of Control but before the Determination Date under any of the circumstances described in Section 3(a)(ii) above, (I) if such date of termination is also within 18 months following such Change of Control, your date of termination of employment shall be deemed to be the Determination Date, and all RSUs then outstanding shall immediately vest and (II) if such date of termination is after the date that is 18 months following such Change of Control, then upon your date of termination, a portion of your then outstanding RSUs shall immediately vest, determined in a manner consistent with the pro-ration provided in Section 3(a)(ii).
+
+[[A0047]]
+Furthermore, in the event that your employment terminates under any of the circumstances described in Section 3(a)(ii) above before the Determination Date and before a Change of Control, upon a Change of Control that occurs prior to the Determination Date, the date of such Change of Control shall be deemed to be the Determination Date for purposes of your Remaining RSUs and the Performance Factor will be deemed to be 100%.
+
+[[A0048]]
+5
+
+[[A0049]]
+- Notwithstanding the foregoing, in the event of a Change of Control before the Determination Date, unless (I) the unvested but outstanding RSUs remain outstanding following such Change of Control in accordance with Section 3(a)(iv)(A) above and (II) the material terms and conditions of such RSUs as in effect immediately prior to the Change of Control are preserved following the Change of Control (including with respect to the vesting schedules), the date of the Change of Control shall be deemed to be the Determination Date for purposes of (x) the Target Shares, if such Change a Control occurs prior to the Determination Date, and all RSUs other than the Target Shares shall be forfeited immediately upon such Change of Control and (y) the then outstanding RSUs (which, for the avoidance of doubt, shall be determined after application of the Performance Factor), if such Change in Control occurs on or after the Determination Date.
+
+[[A0050]]
+SECTION 4. Settlement.
+
+[[A0051]]
+Subject to Section 3, 5, and 8 of this Award Agreement, the Company shall deliver or cause to be delivered to you one or more unlegended, freely-transferable stock certificates or book entry credits in respect of the Shares underlying the RSUs subject to this Award and any accrued cash dividends related thereto within 30 days following the Determination Date.
+
+[[A0052]]
+SECTION 5.
+Forfeiture of RSUs.
+- Unless the Committee determines otherwise, and except as otherwise provided in Section 3, if your employment terminates prior to the Determination Date, your rights with respect to the RSUs shall immediately terminate, and you will be entitled to no further payments or benefits with respect thereto.
+
+[[A0053]]
+Furthermore, unless the Committee determines otherwise, and except as otherwise provided in Section 3, if the Committee determines on the Determination Date that the Performance Goal has not been achieved, your rights with respect to the RSUs shall immediately terminate, and you will be entitled to no further payments or benefits with respect thereto.
+
+[[A0054]]
+- Notwithstanding anything to the contrary in this Award Agreement, in the event that you incur a termination of employment by the Company without Cause or due to Disability or by you for Good Reason, in order for the RSUs that would be Remaining RSUs to be treated as provided in Section 3(a)(ii) or (iii), you must sign a customary release of claims in favor of the Company and its Affiliates that is acceptable to the Company, and such release must become effective and irrevocable on or before the 65th day following your termination of employment.
+
+[[A0055]]
+In the event you do not sign such release or revoke such release before it becomes effective, you will forfeit all rights to any unvested RSUs or Remaining RSUs, as applicable.
+
+[[A0056]]
+In addition, in the event that (i) you violate the Restrictive Covenants, (ii) you engage in any conduct constituting Cause, (iii) a “Forfeiture Event” (as defined in the Clawback Policy) with respect to you occurs or (iv) you otherwise violate the Clawback Policy or any other recoupment or clawback policy adopted by the Company, as may be amended from time to time, to the extent necessary to address the requirements of applicable law (including Section 954 of the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010, as codified in Section 10D of the Exchange Act, Section 304 of the Sarbanes-Oxley Act of 2002 or any other applicable law), all outstanding vested or unvested RSUs and Remaining RSUs, as applicable, shall be forfeited and canceled.
+
+[[A0057]]
+In addition, you acknowledge and agree that this Award, including all RSUs or Remaining RSUs, as applicable, and any dividend amounts paid pursuant to Section 6 or, following the Determination Date, in respect of Shares related to this Award and any other “Incentive Compensation” (as defined in the Clawback Policy) granted, paid, delivered, awarded or otherwise provided to you are subject to all terms and conditions of the Clawback Policy or any other recoupment or clawback policy adopted by the Company, as may be amended from time to time.
+
+[[A0058]]
+Furthermore, in the event that your employment is terminated for Cause, you will forfeit all outstanding Remaining RSUs.
+
+[[A0059]]
+For the avoidance of doubt, to the extent permitted by applicable law, this Section 5(b) will cease to be effective as a basis for forfeiture, clawback or recoupment of any portion of this Award from and after a Change of Control.
+
+[[A0060]]
+6
+
+[[A0061]]
+SECTION 6. Voting Rights; Dividends.
+
+[[A0062]]
+Prior to the date on which Shares are delivered to you in settlement of the RSUs pursuant to this Award Agreement, you shall not have any rights of a stockholder with respect to the Shares underlying the RSUs (including any voting rights or rights with respect to dividends). Instead, if the Company declares and pays (or sets a record date with respect to) ordinary cash dividends on Shares on or after the Grant Date and prior to the settlement of the RSUs, subject to Section 5 above and 8 below, an amount equal to the ordinary cash dividends that would have been payable to you on the RSUs then outstanding (which, for the avoidance of doubt, shall be determined after application of the Performance Factor in respect of any dividends declared, paid or for which a record date has been set on or after the Determination Date) as if those Shares had been issued and outstanding as of the applicable dividend payment dates shall be held by the Company or an escrow agent that is designated by the Company and shall be paid (less any taxes required to be withheld) at the time the corresponding RSUs are paid (it being understood that the provisions of this sentence shall not apply to any extraordinary dividends or distributions). For the avoidance of doubt, dividends shall not be payable with respect to any RSUs that do not vest in accordance with their terms.
+
+[[A0063]]
+SECTION 7. Non-Transferability of RSUs.
+
+[[A0064]]
+Unless otherwise provided by the Committee in its discretion or transferred pursuant to a qualified domestic relations order as defined in the Code or Title I of the Employee Retirement Income Security Act of 1974, as amended, this Award and the RSUs may not be sold, assigned, alienated, transferred, pledged, attached or otherwise encumbered except as provided in Section 10(a) of the Plan.
+
+[[A0065]]
+Any purported sale, assignment, alienation, transfer, pledge, attachment or other encumbrance of the Award or any RSUs in violation of the provisions of this Section 7 and Section 10(a) of the Plan shall be void.
+
+[[A0066]]
+SECTION 8.
+Withholding, Consents and Legends.
+(a)
+Withholding.
+
+[[A0067]]
+The delivery of Shares pursuant to Section 4 of this Award Agreement is conditioned on satisfaction of any applicable withholding taxes in accordance with this Section 8(a) and Section 10(d) of the Plan.
+
+[[A0068]]
+In the event that there is withholding tax liability in connection with the vesting or settlement of RSUs and any accrued dividends related thereto, you may satisfy, in whole or in part, any withholding tax liability: (i) by cash payment of an amount equal to such withholding liability; or (ii) by having the Company withhold a number of Shares you would otherwise be entitled to receive upon settlement of the RSUs having a fair value equal to such withholding tax liability in accordance with the Company’s share withholding procedures.
+
+[[A0069]]
+7
+
+[[A0070]]
+(b)
+Consents.
+
+[[A0071]]
+Your rights in respect of the RSUs are conditioned on the receipt to the full satisfaction of the Committee of any required consents that the Committee may determine to be necessary or advisable (including your consenting to the Company’s supplying to any third-party recordkeeper of the Plan such personal information as the Committee deems advisable to administer the Plan).
+
+[[A0072]]
+SECTION 9. Successors and Assigns of the Company.
+
+[[A0073]]
+The terms and conditions of this Award Agreement shall be binding upon and shall inure to the benefit of the Company and its successors and assigns.
+
+[[A0074]]
+SECTION 10.
+
+[[A0075]]
+Committee Discretion.
+
+[[A0076]]
+Subject to the terms of the Plan and this Award Agreement, the Committee shall have discretion with respect to any actions to be taken or determinations to be made in connection with this Award Agreement, and its determinations shall be final, binding and conclusive.
+
+[[A0077]]
+SECTION 11.
+
+[[A0078]]
+Dispute Resolution.
+(a)
+Jurisdiction and Venue.
+- This Award Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to principles of conflict of laws that could cause the application of the law of any jurisdiction other than the State of Delaware.
+
+[[A0079]]
+- Subject to the provisions of Section 11(a)(iii), any controversy or claim between you and the Company or its Affiliates arising out of or relating to or concerning the provisions of any Award Agreement or the Plan shall be finally settled by arbitration in Phoenix, Arizona, before, and in accordance with the rules then obtaining of the American Arbitration Association (the “
+AAA
+”) in accordance with the commercial arbitration rules of the AAA.
+
+[[A0080]]
+- In addition to its right to submit any dispute or controversy to arbitration, the Company or one of its Affiliates may bring an action or special proceeding in a state or Federal court of competent jurisdiction sitting in Phoenix, Arizona, whether or not an arbitration proceeding has theretofore been or is ever initiated, for the purpose of temporarily, preliminarily or permanently enforcing the provisions of the Plan, the Restrictive Covenants, or to enforce an arbitration award, and, for the purposes of this Section 11(a)(iii), you (A) expressly consent to the application of Section 11(a)(iv) to any such action or proceeding, (B) agree that proof shall not be required that monetary damages for breach of the provisions of the Restrictive Covenants or this Award Agreement would be difficult to calculate and that remedies at law would be inadequate, and (C) irrevocably appoint the General Counsel of the Company as your agent for service of process in connection with any such action or proceeding, who shall promptly advise you of any such service of process by notifying you at the last address on file in the Company’s records.
+
+[[A0081]]
+8
+
+[[A0082]]
+- You and the Company hereby irrevocably submit to the exclusive jurisdiction of any state or Federal court located in Phoenix, Arizona, over any suit, action or proceeding arising out of, relating to or in connection with this Award Agreement or the Plan that is not otherwise required to be arbitrated or resolved in accordance with the provisions of Section 11(a)(ii). This includes any suit, action or proceeding to compel arbitration or to enforce an arbitration award.
+
+[[A0083]]
+You and the Company acknowledge that the forum designated by this Section 11(a)(iv) has a reasonable relation to this Award Agreement, and to your relationship to the Company.
+
+[[A0084]]
+Notwithstanding the foregoing, nothing herein shall preclude you or the Company from bringing any action or proceeding in any other court for the purpose of enforcing the provisions of Sections 11(a)(i), 11(a)(ii) or this Section 11(a)(iv). The agreement of you and the Company as to forum is independent of the law that may be applied in the action, and you and the Company agree to such forum even if the forum may under applicable law choose to apply nonforum law.
+
+[[A0085]]
+You and the Company hereby waive, to the fullest extent permitted by applicable law, any objection which you or the Company now or hereafter may have to personal jurisdiction or to the laying of venue of any such suit, action or proceeding in any court referred to in this Section 11(a)(iv). You and the Company undertake not to commence any action arising out of, or relating to or in connection with this Award Agreement in any forum other than a forum described in this Section 11(a)(iv), or, to the extent applicable, Section 11(a)(ii). You and the Company agree that, to the fullest extent permitted by applicable law, a final and nonappealable judgment in any such suit, action or proceeding in any such court shall be conclusive and binding upon you and the Company.
+
+[[A0086]]
+- You and the Company acknowledge that this Award Agreement evidences a transaction involving interstate commerce.
+
+[[A0087]]
+Notwithstanding anything to the contrary in this Award Agreement, including Section 11(a)(i) with respect to governing law, any arbitration conducted pursuant to the terms of this Award Agreement shall be governed by the Federal Arbitration Act (9 U.S.C. §§ 1-16), as amended, modified or supplemented from time to time (the “
+FAA
+”). For the avoidance of doubt, any issue concerning the extent to which any controversy or claim arising out of or relating to or concerning the provisions of any Award Agreement or the Plan is subject to arbitration, or concerning the applicability, interpretation or enforceability of the procedures set forth in this Section 11, including any contention that all or part of these procedures are invalid or unenforceable, shall be governed by the FAA and resolved by the arbitrator(s) named through the procedures set forth in Section 11(a)(ii).
+
+[[A0088]]
+(b)
+Waiver of Jury Trial.
+
+[[A0089]]
+You and the Company hereby waive, to the fullest extent permitted by applicable law, any right either of you may have to a trial by jury in respect to any litigation directly or indirectly arising out of, under or in connection with this Award Agreement or the Plan.
+
+[[A0090]]
+(c)
+Confidentiality.
+
+[[A0091]]
+You hereby agree to keep confidential the existence of, and any information concerning, a dispute described in this Section 11, except that you may disclose information concerning such dispute to the court that is considering such dispute or to your legal counsel (provided that such counsel agrees not to disclose any such information other than as necessary to the prosecution or defense of the dispute).
+
+[[A0092]]
+(d)
+General.
+
+[[A0093]]
+This Award Agreement is not intended to, and shall be interpreted in a manner that does not, limit or restrict you from exercising any legally protected whistleblower rights (including pursuant to Rule 21F under the Securities Exchange Act of 1934).
+
+[[A0094]]
+9
+
+[[A0095]]
+SECTION 12. Notice.
+
+[[A0096]]
+All notices, requests, demands and other communications required or permitted to be given under the terms of this Award Agreement shall be in writing and shall be deemed to have been duly given when delivered by hand or overnight courier or three Business Days after they have been mailed by U.S. registered mail, return receipt requested, postage prepaid, addressed to the other party as set forth below:
+
+[[A0097]]
+[[TABLE]]
+| If to the Company: | Cable One, Inc. 210 E. Earll Drive Phoenix, AZ 85012 Attn: General Counsel |
+| --- | --- |
+| If to you: | To your address as most recently supplied to the Company and set forth in the Company’s records |
+[[/TABLE]]
+
+[[A0098]]
+The parties may change the address to which notices under this Award Agreement shall be sent by providing written notice to the other in the manner specified above.
+
+[[A0099]]
+SECTION 13.
+
+[[A0100]]
+Headings and Construction.
+
+[[A0101]]
+Headings are given to the Sections and subsections of this Award Agreement solely as a convenience to facilitate reference.
+
+[[A0102]]
+Such headings shall not be deemed in any way material or relevant to the construction or interpretation of this Award Agreement or any provision thereof.
+
+[[A0103]]
+Whenever the words “include”, “includes” or “including” are used in this Award Agreement, they shall be deemed to be followed by the words “but not limited to”.
+
+[[A0104]]
+SECTION 14.
+
+[[A0105]]
+Amendment of this Award Agreement.
+
+[[A0106]]
+The Committee may waive any conditions or rights under, amend any terms of, or alter, suspend, discontinue, cancel or terminate this Award Agreement prospectively or retroactively; provided , however , that any such waiver, amendment, alteration, suspension, discontinuance, cancelation or termination that would materially and adversely impair your rights under this Award Agreement shall not to that extent be effective without your consent (it being understood, notwithstanding the foregoing proviso, that this Award Agreement and the RSUs shall be subject to the provisions of Section 5(b) of the Plan).
+
+[[A0107]]
+SECTION 15.
+
+[[A0108]]
+Section 409A.
+- It is intended that the provisions of this Award Agreement comply with Section 409A, and all provisions of this Award Agreement shall be construed and interpreted in a manner consistent with the requirements for avoiding taxes or penalties under Section 409A.
+
+[[A0109]]
+- Neither you nor any of your creditors or beneficiaries shall have the right to subject any deferred compensation (within the meaning of Section 409A) payable under this Award Agreement to any anticipation, alienation, sale, transfer, assignment, pledge, encumbrance, attachment or garnishment.
+
+[[A0110]]
+Except as permitted under Section 409A, any deferred compensation (within the meaning of Section 409A) payable to you or for your benefit under this Award Agreement may not be reduced by, or offset against, any amount owing by you to the Company or any of its Affiliates.
+
+[[A0111]]
+10
+
+[[A0112]]
+- If, at the time of your separation from service (within the meaning of Section 409A), (i) you shall be a specified employee (within the meaning of Section 409A and using the identification methodology selected by the Company from time to time) and (ii) the Company shall make a good faith determination that an amount payable hereunder constitutes deferred compensation (within the meaning of Section 409A) the payment of which is required to be delayed pursuant to the six-month delay rule set forth in Section 409A in order to avoid taxes or penalties under Section 409A, then the Company shall not pay such amount on the otherwise scheduled payment date but shall instead pay it, without interest, on the first business day after such six-month period.
+
+[[A0113]]
+- Notwithstanding any provision of this Award Agreement to the contrary, in light of the uncertainty with respect to the proper application of Section 409A, the Company reserves the right to make amendments to this Award Agreement as the Company deems necessary or desirable to avoid the imposition of taxes or penalties under Section 409A.
+
+[[A0114]]
+In any case, you shall be solely responsible and liable for the satisfaction of all taxes and penalties that may be imposed on you or for your account in connection with this Award Agreement (including any taxes and penalties under Section 409A), and neither the Company nor any of its Affiliates shall have any obligation to indemnify or otherwise hold you harmless from any or all of such taxes or penalties.
+
+[[A0115]]
+SECTION 16.
+
+[[A0116]]
+Severability.
+
+[[A0117]]
+If any provision of this Award Agreement is held by a court of competent jurisdiction to be illegal, void or unenforceable, such provision shall have no effect; however, the remaining provisions shall be enforced to the maximum extent possible.
+
+[[A0118]]
+Further, if a court should determine that any portion of this Award Agreement is overbroad or unreasonable, such provision shall be given effect to the maximum extent possible by narrowing or enforcing in part that aspect of the provision found overbroad or unreasonable.
+
+[[A0119]]
+SECTION 17.
+
+[[A0120]]
+Electronic Delivery and Acceptance . The Company may deliver any documents related to current or future participation in the Plan (including any notice given pursuant to Section 12) by electronic means.
+
+[[A0121]]
+You hereby consent to receive such documents by electronic delivery, and agree to participate in the Plan and be bound by the terms and conditions of this Award Agreement, through an on-line or electronic system established and maintained by the Company or a third party designated by the Company.
+
+[[A0122]]
+Your electronic acceptance is required and this Award will be cancelled if you fail to comply with the Company’s acceptance requirement within one year of the Grant Date.
+
+[[A0123]]
+Appendix
+
+[[A0124]]
+Performance Goal with Respect to the RSUs
+
+[[A0125]]
+A-1

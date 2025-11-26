@@ -1,0 +1,543 @@
+[[A0001]]
+Exhibit 10.1
+
+[[A0002]]
+Date: December 31, 2022
+
+[[A0003]]
+ConnectM Technology Solutions, Inc.
+
+[[A0004]]
+2 Mount Royal Avenue, Suite 550
+
+[[A0005]]
+Marlborough, MA 01752
+
+[[A0006]]
+Attention: Bhaskar Panigrahi, CEO
+
+[[A0007]]
+Monterey Capital Acquisition Corporation
+
+[[A0008]]
+419 Webster Street
+
+[[A0009]]
+Monterey, CA 93940
+
+[[A0010]]
+Attention: Bala Padmakumar, CEO
+
+[[A0011]]
+Re: Sponsor Support Agreement
+
+[[A0012]]
+Ladies and Gentlemen:
+
+[[A0013]]
+This letter (this “ Support Agreement ”) is being delivered by Monterrey Acquisition Sponsor, LLC, a Delaware limited liability company ( the “ Sponsor ”) and certain other holders of Parent Class B Common Stock identified on the signature page hereto (the “ Class B Stockholders ”), to Monterey Capital Acquisition Corporation, a Delaware corporation (“ Parent ”) and ConnectM Technology Solutions, Inc., a Delaware corporation (the “ Company ”), in accordance with that certain Agreement and Plan of Merger (the “ Merger Agreement ”), dated as of the date hereof, by and among Parent, the Company, and Chronos Merger Sub, Inc., a Delaware corporation and wholly-owned subsidiary of Parent (“ Merger Sub ”). The Sponsor, Parent, and the Company shall be referred to herein from time to time collectively as the “ Parties ”. Capitalized terms used but not otherwise defined herein shall have the respective meanings ascribed to such terms in the Merger Agreement.
+
+[[A0014]]
+As used herein, the term “ Section ” shall, unless otherwise specified, refer to the specified Section of this Support Agreement.
+
+[[A0015]]
+The Sponsor and the Class B Stockholders are currently the record owners and Beneficial Owners of an aggregate of 1,700,000 shares (the “ Sponsor Shares ”) of Parent Class B Common Stock to be converted into the right to receive that number of shares of Parent Class A Common Stock by virtue of the Merger.
+
+[[A0016]]
+In order to induce the Company to enter into the Merger Agreement and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the Sponsor and the Class B Stockholders hereby agree with Parent as follows:
+
+[[A0017]]
+[[TABLE]]
+| | 1. | Voting
+ Agreements . For so long as this Support Agreement is in effect, the Sponsor and the Class
+ B Stockholders, in their capacity as stockholders of Parent, covenant and agree that, at
+ any meeting of Parent’s stockholders related to the transactions contemplated by the
+ Merger Agreement (the “ Transactions ”), whether annual or special and whether
+ or not an adjourned or postponed meeting, and however called, and in connection with any
+ action by written consent of Parent’s stockholders related to the Transactions (all
+ such meetings or consents collectively referred to herein as the “ Meeting ”),
+ the Sponsor and the Class B Stockholders shall, subject to and in accordance with Section 7.2
+ (Parent Stockholder Meeting) of the Merger Agreement: |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0018]]
+[[TABLE]]
+| | a. | when
+ the Meeting is held, appear at the Meeting or otherwise cause the Sponsor Shares to be counted
+ as present thereat for the purpose of establishing a quorum; |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0019]]
+[[TABLE]]
+| | b. | vote
+ (or execute and return an action by written consent), or cause to be voted at the Meeting
+ (or validly execute and return and cause such consent to be granted with respect to), all
+ of the Sponsor Shares in favor of each of the proposals relating to the Transactions and
+ any other matters necessary or reasonably requested by Parent for consummation of the Merger
+ and the Transactions; and |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0020]]
+[[TABLE]]
+| | c. | vote (or execute and return an action
+ by written consent), or cause to be voted at the Meeting (or validly execute and return and
+ cause such consent to be granted with respect to), all of the Sponsor Shares against any
+ action that would reasonably be expected to (x) impede, interfere with, delay, postpone or
+ adversely affect the Merger or any of the Transactions, (y) result in a breach of any covenant,
+ representation or warranty or other obligation or agreement of Parent or Merger Sub under
+ the Merger Agreement, or (z) result in a breach of any covenant, representation or warranty
+ or other obligation or agreement of the Sponsor contained in this Support Agreement; and |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0021]]
+[[TABLE]]
+| | d. | not commit or agree to take any action inconsistent with the foregoing. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0022]]
+[[TABLE]]
+| | 2. | Stop Transfers;
+ Certificates . The Sponsor and the Class B Stockholders agree that, except for Transfers
+ of Sponsor Shares permitted by this Support Agreement, they shall not request that Parent
+ register the Transfer (book entry or otherwise) of any Sponsor Shares. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0023]]
+[[TABLE]]
+| | 3. | Registration Rights Agreement . At the
+ Closing, the Sponsor and Holders (as defined therein) shall deliver to the Company a duly
+ executed copy of the Registration Rights Agreement in substantially the form attached as
+ Exhibit I to the Merger Agreement. In the event less than all of the holders of Parent Class
+ B Common Stock enter into the Registration Rights Agreement such that the Registration Rights
+ Agreement shall not be effective, the Sponsor and the Class B Stockholders agree to waive
+ their rights under the cutback provisions of the Original RRA (as defined in the Registration
+ Rights Agreement) in Sections 2.1.4 and 2.2.2 thereof to the extent application of such provisions
+ would result in the Sponsor and Class B Stockholders being treated more favorably with respect
+ to any registration statement than any stockholders of the Company (as of immediately prior
+ to the Effective Time) having a right to include Parent securities in such registration statement. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0024]]
+[[TABLE]]
+| | 4. | Remedies .
+ The Sponsor and the Class B Stockholders hereby agree and acknowledge that (a) Parent and
+ the Company would be irreparably injured in the event of a breach by the Sponsor or any of
+ the Stockholders of their respective obligations under this Support Agreement, (b) monetary
+ damages would not be an adequate remedy for such breach, and (c) the non-breaching party
+ shall be entitled to injunctive relief, in addition to any other remedy that such Party may
+ have in law or in equity, in the event of such breach or threatened breach, without the need
+ to post a bond or other collateral security. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0025]]
+[[TABLE]]
+| | 5. | Transfer Restrictions . In addition to
+ and without limiting the Sponsor Lock-Up Agreement, the Sponsor and each Class B Stockholder
+ agrees that it shall not sell, assign or otherwise Transfer any Sponsor Shares; provided , however , that the foregoing shall not
+ apply to any Transfer to any members or partners of the Sponsor or
+ its Affiliates, any Affiliates of the Sponsor ,
+ or any employees of such affiliates; provided ,
+ that any transferee of any such Transfer must enter into a written agreement agreeing to
+ be bound by this Support Agreement prior to the occurrence of such Transfer . |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0026]]
+[[TABLE]]
+| | 6. | Anti-Dilution Waiver : Notwithstanding
+ anything to the contrary in any other agreement or contract to which a Sponsor is bound,
+ the Sponsor (for itself and for its successors, heirs and assigns) and the Class B Stockholders,
+ collectively holding at least a majority of the Parent Class B Common Stock, hereby (but
+ subject to the consummation of the Merger) irrevocably and unconditionally waive, to the
+ fullest extent permitted by applicable Laws and Parent’s Governing Documents (including
+ Section 4.3(b) of the Amended and Restated Certificate of Incorporation of Parent), and agree
+ not to exercise, assert or perfect, any rights to adjustment or other anti-dilution protections
+ with respect to the rate at which shares of Parent Class B Common Stock convert into shares
+ of Parent Class A Common Stock in connection with the Transactions. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0027]]
+[[TABLE]]
+| | 7. | Additional Shares . During the period
+ commencing on the date hereof and ending on the earlier to occur of (a) the Effective Time;
+ and (b) the termination of the Merger Agreement in
+ accordance with its terms, in the event that, (i) any shares of Parent Common Stock, Parent
+ Public Warrant or other equity securities of Parent (such Parent Common Stock, Parent Warrants
+ or other equity securities of Parent, collectively the “New Securities”) are
+ issued to the Sponsor or a Class B Stockholder pursuant to any stock split, stock dividend,
+ combination or reclassification, or through merger, consolidation, reorganization, recapitalization
+ or business combination, or by any other means, (ii) the Sponsor or a Class B Stockholder
+ purchases or otherwise acquires Beneficial Ownership of New Securities, or (iii) the Sponsor
+ or a Class B Stockholders acquires the right to vote or share in the voting of any New Securities,
+ then such New Securities acquired or purchased by the Sponsor or the Class B Stockholder,
+ as applicable, shall be subject to the terms of Sections 1 , 2 and 4 to the same extent as if they constituted Sponsor Shares as of the date hereof. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0028]]
+2
+
+[[A0029]]
+[[TABLE]]
+| | 8. | Entire
+ Agreement; Amendment . This Support Agreement, the Merger Agreement and the other agreements
+ referenced herein constitute the entire agreement and understanding of the Parties hereto
+ in respect of the subject matter hereof and supersede all prior understandings, agreements
+ or representations by or among the Parties hereto, written or oral, to the extent they relate
+ in any way to the subject matter hereof or the transactions contemplated hereby. This Support
+ Agreement may not be changed, amended, modified or waived (other than to correct a typographical
+ error) as to any particular provision, except by a written instrument executed by all Parties
+ hereto. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0030]]
+[[TABLE]]
+| | 9. | Assignment .
+ No Party hereto may, except as set forth herein, assign either this Support Agreement or
+ any of its rights, interests, or obligations hereunder without the prior written consent
+ of the other Parties. Any purported assignment in violation of this paragraph shall be void
+ and ineffectual and shall not operate to transfer or assign any interest or title to the
+ purported assignee. This Support Agreement shall be binding on the Sponsor and its successors,
+ heirs, personal representatives and assigns and permitted transferees. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0031]]
+[[TABLE]]
+| | 10. | Incorporation
+ by Reference . Article X (No Survival) and Sections 11.2 (Counterparts), 11.3 (Governing Law), 11.4 (Forum; Waiver of Jury Trial), 11.6 (Notice), 11.11 (Severability) and 11.12 (Interpretation and Construction),
+ of the Merger Agreement are incorporated herein by reference and shall apply to this Agreement, mutatis mutandis . |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0032]]
+[[TABLE]]
+| | 11. | Termination . This Support Agreement shall automatically terminate,
+ without any notice or other action by any Party, upon the earlier of (a) the Effective Time;
+ and (b) the termination of the Merger Agreement prior to the Effective Time in accordance
+ with its terms.  Upon termination of this Support Agreement as provided in the immediately
+ preceding sentence, none of the Parties shall have any further obligations or liability under,
+ or with respect to, this Support Agreement.  Notwithstanding the foregoing or anything
+ to the contrary in this Support Agreement, the termination of this Support Agreement pursuant
+ to Section 13(b) shall not affect any
+ liability on the part of any Party for a Willful Breach of any covenant or agreement set
+ forth in this Support Agreement prior to such termination or fraud. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0033]]
+[[TABLE]]
+| | 12. | Sponsor
+ Representations : The Sponsor and each of the Class B Stockholders, jointly and severally,
+ represents and warrants to Parent, as of the date hereof and as of the Closing Date, that: |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0034]]
+[[TABLE]]
+| | a. | it has
+ full right and power, without violating any agreement to which it is bound, to enter into
+ this Support Agreement; |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0035]]
+[[TABLE]]
+| | b. | in the
+ case of the Sponsor, it is duly organized, validly existing and in good standing under the
+ Laws of the jurisdiction in which it is organized, and the execution, delivery and performance
+ of this Support Agreement and the consummation of the transactions contemplated hereby are
+ within the Sponsor’s limited liability company powers and have been duly authorized
+ by all necessary limited liability company actions on the part of the Sponsor; |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0036]]
+[[TABLE]]
+| | c. | this
+ Support Agreement has been duly executed and delivered by the Sponsor or the Class B Stockholder,
+ as applicable, and, assuming due authorization, execution and delivery by the other Parties
+ to this Support Agreement, this Support Agreement constitutes a legally valid and binding
+ obligation of the Sponsor or the Class B Stockholder, as applicable, enforceable against
+ the Sponsor in accordance with the terms hereof (except for the Bankruptcy and Equity Exception); |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0037]]
+[[TABLE]]
+| | d. | the
+ execution and delivery of this Support Agreement by the Sponsor and the Class B Stockholders
+ does not, and the performance by the Sponsor and the Class B Stockholders of their obligations
+ hereunder will not, (i) conflict with or result in a violation of the organizational documents
+ of the Sponsor, (ii) require any consent or approval from any third party that has not been
+ given or other action that has not been taken by any third party, in each case, to the extent
+ such consent, approval or other action would prevent, enjoin or materially delay the performance
+ by the Sponsor or the Class B Stockholders of its obligations under this Support Agreement
+ or (iii) violate any Law applicable to the Sponsor or the Class B Stockholders; |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0038]]
+3
+
+[[A0039]]
+[[TABLE]]
+| | e. | the Sponsor and the Class B Stockholders
+ have not entered into, and shall not enter into, any agreement that would prevent the Sponsor
+ and the Class B Stockholders from performing any of its, his or her obligations hereunder; |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0040]]
+[[TABLE]]
+| | f. | there are no Proceedings pending against
+ the Sponsor or the Class B Stockholders or, to the knowledge of the Sponsor or the Class
+ B Stockholders, threatened against the Sponsor or the Class B Stockholders, before any arbitrator
+ or any Governmental Entity, which in any manner challenges or seeks to prevent, or enjoin
+ the performance by the Sponsor or the Class B Stockholders of its, his or her obligations
+ under this Support Agreement; |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0041]]
+[[TABLE]]
+| | g. | the
+ Sponsor and the Class B Stockholders have good title to the Sponsor Shares, free and clear
+ of any Liens, and the Sponsor and the Class B Stockholders have the sole power to vote or
+ cause to be voted such Sponsor Shares; and |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0042]]
+[[TABLE]]
+| | h. | the
+ Sponsor Shares identified in Paragraph 2 of this Support Agreement are the only voting securities
+ of the Parent Beneficially Owned by the Sponsor and the Class B Stockholders as of the date
+ hereof, and none of such Sponsor Shares are subject to any proxy, voting trust or other agreement
+ or arrangement with respect to the voting of such Sponsor Shares that is inconsistent with
+ the Sponsor’s and the Class B Stockholders’ obligations pursuant to this Support
+ Agreement. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0043]]
+[[TABLE]]
+| | 13. | Adjustment
+ for Stock Split . If, and as often as, there are any changes in the Parent Common Stock
+ or the Sponsor Shares by way of stock split, stock dividend, combination or reclassification,
+ or through merger, consolidation, reorganization, recapitalization or business combination,
+ or by any other means, equitable adjustment shall be made to the provisions of this Support
+ Agreement as may be required so that the rights, privileges, duties and obligations hereunder
+ shall continue with respect to the Sponsor, the Class B Stockholders, the Parent, and the
+ Sponsor Shares as so changed. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0044]]
+[[TABLE]]
+| | 14. | No Recourse . 
+ Each Party agrees that (a) this Support Agreement may only be enforced against, and any action
+ for breach of this Support Agreement may only be made against, the Parties and any transferee
+ of Sponsor Shares (any such transferee, a “ Sponsor Transferee ”), and no
+ claims of any nature whatsoever (whether in tort, contract or otherwise) arising under or
+ relating to this Support Agreement, the negotiation hereof or its subject matter, or the
+ transactions contemplated hereby shall be asserted against any non-party Affiliate of the
+ Sponsor or of any Sponsor Transferee, and (b) none of the Sponsor’s non-party Affiliates
+ (unless such Affiliate is a Sponsor Transferee) shall have any liability arising out of or
+ relating to this Support Agreement, the negotiation hereof or its subject matter, or the
+ transactions contemplated hereby, including with respect to any claim (whether in tort, contract
+ or otherwise) for breach of this Support Agreement or in respect of any written or oral representations
+ made or alleged to be made in connection herewith, as expressly provided herein, or for any
+ actual or alleged inaccuracies, misstatements or omissions with respect to any information
+ or materials of any kind furnished in connection with this Support Agreement, the negotiation
+ hereof or the transactions contemplated hereby. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0045]]
+[[TABLE]]
+| | 15. | No Third
+ Party Beneficiaries .  This Support Agreement
+ shall be for the sole benefit of the Parties and their respective successors and permitted
+ assigns and is not intended, nor shall be construed, to give any Person, other than the Parties
+ and their respective successors and assigns, any legal or equitable right, benefit or remedy
+ of any nature whatsoever in connection with the matters governed by this Support Agreement. 
+ Nothing in this Support Agreement, expressed or implied, is intended to or shall constitute
+ the Parties, partners or participants in a joint venture . |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0046]]
+[[TABLE]]
+| | 16. | Further Actions . Each of the Parties
+ hereto agrees to execute and deliver hereafter any further document, agreement or instrument
+ of assignment, transfer or conveyance as may be necessary or desirable to effectuate the
+ purposes hereof and as may be reasonably requested in writing by another Party hereto. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0047]]
+[[TABLE]]
+| | 17. | Definitions . As used herein, (i) “ Beneficially
+ Own ” shall have the meaning ascribed to it in Section 13(d) of the Exchange Act,
+- “ Transfer shall mean the (a) sale of, offer to sell, contract or agreement
+ to sell, hypothecate, pledge, grant of any option to purchase or otherwise dispose of or
+ agreement to dispose of, directly or indirectly, or establishment or increase of a put equivalent
+ position or liquidation with respect to or decrease of a call equivalent position within
+ the meaning of Section 16 of the Exchange Act, and the rules and regulations promulgated
+ thereunder with respect to, any security, (b) entry into any swap or other arrangement that
+ transfers to another, in whole or in part, any of the economic consequences of ownership
+ of any security, whether any such transaction is to be settled by delivery of such securities,
+ in cash or otherwise, or (c) public announcement of any intention to effect any transaction
+ specified in clause (a) or (b), other than a Registration Statement filed pursuant to the
+ Merger Agreement. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0048]]
+[remainder of page intentionally left blank]
+
+[[A0049]]
+4
+
+[[A0050]]
+If the above correctly reflects our understanding and agreement with respect to the foregoing matters, please so confirm by signing in the space below and returning this letter agreement to us.
+
+[[A0051]]
+Sincerely,
+
+[[A0052]]
+SPONSOR:
+
+[[A0053]]
+MONTERREY ACQUISITION SPONSOR, LLC
+
+[[A0054]]
+[[TABLE]]
+| By: | /s/ Bala Padmakumar | |
+| --- | --- | --- |
+| | Name:     Bala Padmakumar | |
+| | Title:       Chief Executive Officer | |
+[[/TABLE]]
+
+[[A0055]]
+Notice Address:
+
+[[A0056]]
+419 Webster Street
+
+[[A0057]]
+Monterey, CA 93940
+
+[[A0058]]
+Attention: Bala Padmakumar
+
+[[A0059]]
+E-mail:      bala@padmakumar.com
+
+[[A0060]]
+CLASS B STOCKHOLDERS:
+
+[[A0061]]
+[[TABLE]]
+| /s/ Leela Gray | |
+| --- | --- |
+| Leela Gray | |
+[[/TABLE]]
+
+[[A0062]]
+Notice Address:
+
+[[A0063]]
+7710 Woodmont Ave, #911
+
+[[A0064]]
+Bethesda, MD 20814
+
+[[A0065]]
+Email: leelagray@gmail.com
+
+[[A0066]]
+[[TABLE]]
+| /s/ Kathy Cuocolo | |
+| --- | --- |
+| Kathy Cuocolo | |
+[[/TABLE]]
+
+[[A0067]]
+Notice Address:
+
+[[A0068]]
+243 Caterina Heights
+
+[[A0069]]
+Concord, MA 01742
+
+[[A0070]]
+Email: kathy.cuocolo@gmail.com
+
+[[A0071]]
+[[TABLE]]
+| /s/ Stephen Markscheid | |
+| --- | --- |
+| Stephen Markscheid | |
+[[/TABLE]]
+
+[[A0072]]
+Notice Address:
+
+[[A0073]]
+419 Washington Avenue
+
+[[A0074]]
+Willmette, IL 60091
+
+[[A0075]]
+Email: smarkscheid@gmail.com
+
+[[A0076]]
+Signature Page to
+
+[[A0077]]
+Sponsor Support Agreement
+
+[[A0078]]
+Accepted and Agreed:
+
+[[A0079]]
+CONNECTM TECHNOLOGY SOLUTIONS, INC.
+
+[[A0080]]
+[[TABLE]]
+| By: | /s/ Bhaskar Panigrahi | |
+| --- | --- | --- |
+| | Name:     Bhaskar Panigrahi | |
+| | Title:       Chief Executive Officer | |
+[[/TABLE]]
+
+[[A0081]]
+MONTEREY CAPITAL ACQUISITION CORPORATION
+
+[[A0082]]
+[[TABLE]]
+| By: | /s/ Bala Padmakumar | |
+| --- | --- | --- |
+| | Name:    Bala Padmakumar | |
+| | Title:      Chief Executive Officer | |
+[[/TABLE]]
+
+[[A0083]]
+Signature Page to
+
+[[A0084]]
+Sponsor Support Agreement

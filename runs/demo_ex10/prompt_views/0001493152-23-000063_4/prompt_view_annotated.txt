@@ -1,0 +1,699 @@
+[[A0001]]
+Exhibit 10.165
+
+[[A0002]]
+NEITHER THIS SECURITY NOR THE SECURITIES AS TO WHICH THIS SECURITY MAY BE EXERCISED HAVE BEEN REGISTERED WITH THE SECURITIES AND EXCHANGE COMMISSION OR THE SECURITIES COMMISSION OF ANY STATE IN RELIANCE UPON AN EXEMPTION FROM REGISTRATION UNDER THE SECURITIES ACT OF 1933, AS AMENDED (THE “SECURITIES ACT”), AND, ACCORDINGLY, MAY NOT BE OFFERED OR SOLD EXCEPT PURSUANT TO AN EFFECTIVE REGISTRATION STATEMENT UNDER THE SECURITIES ACT OR PURSUANT TO AN AVAILABLE EXEMPTION FROM, OR IN A TRANSACTION NOT SUBJECT TO, THE REGISTRATION REQUIREMENTS OF THE SECURITIES ACT AND IN ACCORDANCE WITH APPLICABLE STATE SECURITIES LAWS AS EVIDENCED BY A LEGAL OPINION OF COUNSEL TO THE TRANSFEROR TO SUCH EFFECT, THE SUBSTANCE OF WHICH SHALL BE REASONABLY ACCEPTABLE TO THE COMPANY.
+
+[[A0003]]
+THIS SECURITY AND THE SECURITIES ISSUABLE UPON EXERCISE OF THIS SECURITY MAY BE PLEDGED IN CONNECTION WITH A BONA FIDE MARGIN ACCOUNT OR OTHER LOAN SECURED BY SUCH SECURITIES.
+
+[[A0004]]
+COMMON STOCK PURCHASE WARRANT
+
+[[A0005]]
+CLEAN ENERGY TECHNOLOGIES, INC.
+
+[[A0006]]
+Warrant Shares: 1,537,500
+
+[[A0007]]
+Date of Issuance: December 26, 2022 (“ Issuance Date ”)
+
+[[A0008]]
+This COMMON STOCK PURCHASE WARRANT (the “ Warrant ”) certifies that, for value received (in connection with the issuance of the promissory note in the principal amount of $123,000.00 to the Holder (as defined below) of even date) (the “Note”), Mast Hill Fund, L.P., a Delaware limited partnership (including any permitted and registered assigns, the “ Holder ”), is entitled, upon the terms and subject to the limitations on exercise and the conditions hereinafter set forth, at any time on or after the date of issuance hereof, to purchase from CLEAN ENERGY TECHNOLOGIES, INC., a Nevada corporation (the “ Company ”), 1,537,500 shares of Common Stock (the “ Warrant Shares ”) (whereby such number may be adjusted from time to time pursuant to the terms and conditions of this Warrant) at the Exercise Price per share then in effect.
+
+[[A0009]]
+This Warrant is issued by the Company as of the date hereof in connection with that certain securities purchase agreement dated December 26, 2022, by and among the Company and the Holder (the “ Purchase Agreement ”).
+
+[[A0010]]
+Capitalized terms used in this Warrant shall have the meanings set forth in the Purchase Agreement unless otherwise defined in the body of this Warrant or in Section 12 below.
+
+[[A0011]]
+For purposes of this Warrant, the term “Exercise Price” shall mean $0.04 per share, provided, however, that if the Company consummates an Uplist Offering (as defined in this Warrant) on or before the date that is one hundred eighty (180) calendar days after the Issuance Date, then the Exercise Price shall equal 120% of the offering price per share of Common Stock (or unit, if units are offered in the Uplist Offering) at which the Uplist Offering is made (the “Uplist Exercise Price”) (for the avoidance of doubt, if a unit includes more than one share of the Common Stock in the Uplist Offering, the Uplist Exercise Price shall mean 120% of the unit price divided by the number of shares of Common Stock contained in a unit), subject to adjustment as provided in this Warrant (including but not limited to cashless exercise and Section 2(b) of this Warrant). “Uplist Offering” shall mean an offering of Common Stock (or units consisting of Common Stock and warrants to purchase Common Stock) that results in the immediate listing for trading of the Common Stock on the NYSE American, the Nasdaq Capital Market, the Nasdaq Global Market, the Nasdaq Global Select Market, the New York Stock Exchange, or any other national securities exchange (or any successors to any of the foregoing). For purposes of this Warrant, the term “Exercise Period” shall mean the period commencing on the earlier of (i) the date that is one hundred eighty-one (181) calendar days after the Issuance Date or (ii) the date that the Company consummates an Uplist Offering, and ending on 5:00 p.m. eastern standard time on the five-year anniversary thereof.
+
+[[A0012]]
+[[TABLE]]
+| 1 |
+| --- |
+[[/TABLE]]
+
+[[A0013]]
+1. EXERCISE OF WARRANT .
+
+[[A0014]]
+(a)
+Mechanics
+of Exercise
+. Subject to the terms and conditions hereof, the rights represented by this Warrant may be exercised in whole or in part
+at any time or times during the Exercise Period by delivery of a written notice, in the form attached hereto as
+Exhibit A
+(the
+“
+Exercise Notice
+”), of the Holder’s election to exercise this Warrant.
+
+[[A0015]]
+The Holder shall not be required to deliver
+the original Warrant in order to effect an exercise hereunder.
+
+[[A0016]]
+Partial exercises of this Warrant resulting in purchases of a portion
+of the total number of Warrant Shares available hereunder shall have the effect of lowering the outstanding number of Warrant Shares
+purchasable hereunder in an amount equal to the applicable number of Warrant Shares purchased.
+
+[[A0017]]
+On or before the third Trading Day (the
+“
+Warrant Share Delivery Date
+”) following the date on which the Holder sent the Exercise Notice to the Company or the
+Company’s transfer agent, and upon receipt by the Company of payment to the Company of an amount equal to the applicable Exercise
+Price multiplied by the number of Warrant Shares as to which all or a portion of this Warrant is being exercised (the “
+Aggregate
+Exercise Price
+” and together with the Exercise Notice, the “
+Exercise Delivery Documents
+”) in cash or by
+wire transfer of immediately available funds (or by cashless exercise, in which case there shall be no Aggregate Exercise Price provided),
+the Company shall (or direct its transfer agent to) issue and deliver by overnight courier to the address as specified in the Exercise
+Notice, a certificate, registered in the Company’s share register in the name of the Holder or its designee, for the number of
+shares of Common Stock to which the Holder is entitled pursuant to such exercise (or deliver such shares of Common Stock in electronic
+format if requested by the Holder). Upon delivery of the Exercise Delivery Documents, the Holder shall be deemed for all corporate purposes
+to have become the holder of record of the Warrant Shares with respect to which this Warrant has been exercised, irrespective of the
+date of delivery of the certificates evidencing such Warrant Shares.
+
+[[A0018]]
+If this Warrant is submitted in connection with any exercise and
+the number of Warrant Shares represented by this Warrant submitted for exercise is greater than the number of Warrant Shares being acquired
+upon an exercise, then the Company shall as soon as practicable and in no event later than three business days after any exercise and
+at its own expense, issue a new Warrant (in accordance with Section 6) representing the right to purchase the number of Warrant Shares
+purchasable immediately prior to such exercise under this Warrant, less the number of Warrant Shares with respect to which this Warrant
+is exercised.
+
+[[A0019]]
+If the Company fails to cause its transfer agent to issue to the Holder the respective shares of Common Stock by the respective Warrant Share Delivery Date, then the Holder will have the right to rescind such exercise in Holder’s sole discretion in addition to all other rights and remedies at law, under this Warrant, or otherwise, and such failure shall also be deemed an event of default under the Note, a material breach under this Warrant, and a material breach under the Purchase Agreement.
+
+[[A0020]]
+If
+- the date of the Exercise Notice is on or after the date that is one hundred eighty-one (181) calendar days after the Issuance Date
+and (ii) the Market Price of one share of Common Stock is greater than the Exercise Price, then, unless there is an effective non-stale
+registration statement of the Company which contains a prospectus that complies with Section 5(b) and Section 10 of the Securities Act
+of 1933 at the time of exercise and covers the Holder’s immediate resale of all of the Warrant Shares at prevailing market prices
+(and not fixed prices) without any limitation, the Holder may elect to receive Warrant Shares pursuant to a cashless exercise, in lieu
+of a cash exercise, equal to the value of this Warrant determined in the manner described below (or of any portion thereof remaining
+unexercised) by surrender of this Warrant and an Exercise Notice, in which event the Company shall issue to Holder a number of Common
+Stock computed using the following formula:
+
+[[A0021]]
+X = Y (A-B)
+
+[[A0022]]
+A
+
+[[A0023]]
+[[TABLE]]
+| Where | X
+ = | the
+ number of Shares to be issued to Holder. |
+| --- | --- | --- |
+| | | |
+| | Y
+ = | the
+ number of Warrant Shares that the Holder elects to purchase under this Warrant (at the date
+ of such calculation). |
+| | | |
+| | A
+ = | the
+ Market Price (at the date of such calculation). |
+| | | |
+| | B
+ = | Exercise
+ Price (as adjusted to the date of such calculation). |
+[[/TABLE]]
+
+[[A0024]]
+[[TABLE]]
+| 2 |
+| --- |
+[[/TABLE]]
+
+[[A0025]]
+(b)
+No
+Fractional Shares
+. No fractional shares shall be issued upon the exercise of this Warrant as a consequence of any adjustment pursuant
+hereto.
+
+[[A0026]]
+All Warrant Shares (including fractions) issuable upon exercise of this Warrant may be aggregated for purposes of determining
+whether the exercise would result in the issuance of any fractional share.
+
+[[A0027]]
+If, after aggregation, the exercise would result in the issuance
+of a fractional share, the Company shall, in lieu of issuance of any fractional share, pay the Holder otherwise entitled to such fraction
+a sum in cash equal to the product resulting from multiplying the then-current fair market value of a Warrant Share by such fraction.
+
+[[A0028]]
+(c)
+Holder’s
+Exercise Limitations
+. Notwithstanding anything to the contrary contained herein, the Company shall not effect any exercise of this
+Warrant, and a Holder shall not have the right to exercise any portion of this Warrant, pursuant to Section 1 or otherwise, to the extent
+that after giving effect to such issuance after exercise as set forth on the applicable Exercise Notice, the Holder (together with the
+Holder’s affiliates (the “Affiliates”), and any other Persons acting as a group together with the Holder or any of
+the Holder’s Affiliates (such Persons, “Attribution Parties”)), would beneficially own in excess of the Beneficial
+Ownership Limitation (as defined below). For purposes of the foregoing sentence, the number of shares of Common Stock beneficially owned
+by the Holder and Attribution Parties shall include the number of shares of Common Stock issuable upon exercise of this Warrant with
+respect to which such determination is being made, but shall exclude the number of shares of Common Stock which would be issuable upon
+- exercise of the remaining, nonexercised portion of this Warrant beneficially owned by the Holder or any of its Affiliates or Attribution
+Parties and (ii) exercise or conversion of the unexercised or nonconverted portion of any other securities of the Company (including,
+without limitation, any other Common Stock Equivalents) subject to a limitation on conversion or exercise analogous to the limitation
+contained herein beneficially owned by the Holder or any of its Affiliates or Attribution Parties.
+
+[[A0029]]
+Except as set forth in the preceding
+sentence, for purposes of this Section 1(c), beneficial ownership shall be calculated in accordance with Section 13(d) of the Exchange
+Act and the rules and regulations promulgated thereunder, it being acknowledged by the Holder that the Holder is solely responsible for
+any schedules required to be filed in accordance therewith.
+
+[[A0030]]
+In addition, a determination as to any group status as contemplated above
+shall be determined in accordance with Section 13(d) of the Exchange Act and the rules and regulations promulgated thereunder.
+
+[[A0031]]
+For purposes
+of this Section 1(c), in determining the number of outstanding shares of Common Stock, a Holder may rely on the number of outstanding
+shares of Common Stock as reflected in (A) the Company’s most recent periodic or annual report filed with the Commission, as the
+case may be, (B) a more recent public announcement by the Company or (C) a more recent written notice by the Company or the Company’s
+transfer agent setting forth the number of shares of Common Stock outstanding.
+
+[[A0032]]
+Upon the written or oral request of a Holder, the Company
+shall within two Trading Days confirm orally and in writing to the Holder the number of shares of Common Stock then outstanding.
+
+[[A0033]]
+In any
+case, the number of outstanding shares of Common Stock shall be determined after giving effect to the conversion or exercise of securities
+of the Company, including this Warrant, by the Holder or its Affiliates or Attribution Parties since the date as of which such number
+of outstanding shares of Common Stock was reported.
+
+[[A0034]]
+The “Beneficial Ownership Limitation” shall be 4.99% of the number of
+shares of the Common Stock outstanding at the time of the respective calculation hereunder.
+
+[[A0035]]
+The limitations contained in this paragraph
+shall apply to a successor holder of this Warrant.
+
+[[A0036]]
+[[TABLE]]
+| 3 |
+| --- |
+[[/TABLE]]
+
+[[A0037]]
+(d)
+Compensation
+for Buy-In on Failure to Timely Deliver Warrant Shares Upon Exercise
+. In addition to any other rights available to the Holder, if
+the Company fails to cause the Company’s transfer agent to transmit to the Holder the Warrant Shares in accordance with the provisions
+of this Warrant (including but not limited to Section 1(a) above pursuant to an exercise on or before the respective Warrant Share Delivery
+Date, and if after such date the Holder is required by its broker to purchase (in an open market transaction or otherwise) or the Holder’s
+brokerage firm otherwise purchases, shares of Common Stock to deliver in satisfaction of a sale by the Holder of the Warrant Shares which
+the Holder anticipated receiving upon such exercise (a “Buy-In”), then the Company shall (A) pay in cash to the Holder, within
+one (1) business day of Holder’s request, the amount, if any, by which (x) the Holder’s total purchase price (including brokerage
+commissions, if any) for the shares of Common Stock so purchased exceeds (y) the product of (1) the number of Warrant Shares that the
+Company was required to deliver to the Holder in connection with the exercise at issue times (2) the price at which the sell order giving
+rise to such purchase obligation was executed, and (B) at the option of the Holder, either reinstate the portion of the Warrant and equivalent
+number of Warrant Shares for which such exercise was not honored (in which case such exercise shall be deemed rescinded) or deliver to
+the Holder within one (1) business day of Holder’s request the number of shares of Common Stock that would have been issued had
+the Company timely complied with its exercise and delivery obligations hereunder.
+
+[[A0038]]
+For example, if the Holder purchases, or effectuates
+a cashless exercise hereunder for, Common Stock having a total purchase price of $11,000 to cover a Buy-In with respect to an attempted
+exercise of shares of Common Stock with an aggregate sale price giving rise to such purchase obligation of $10,000, under clause (A)
+of the immediately preceding sentence, the Company shall be required to pay the Holder $1,000.
+
+[[A0039]]
+The Holder shall provide the Company written
+notice indicating the amounts payable to the Holder in respect of the Buy-In and, upon request of the Company, evidence of the amount
+of such loss.
+
+[[A0040]]
+Nothing herein shall limit a Holder’s right to pursue any other remedies available to it hereunder, at law or in
+equity including, without limitation, a decree of specific performance and/or injunctive relief with respect to the Company’s failure
+to timely deliver shares of Common Stock upon exercise of the Warrant as required pursuant to the terms hereof.
+
+[[A0041]]
+2. ADJUSTMENTS . The Exercise Price and the number of Warrant Shares shall be adjusted from time to time as follows:
+
+[[A0042]]
+(a)
+Distribution
+of Assets
+.
+
+[[A0043]]
+If the Company shall declare or make any dividend or other distribution of its assets (or rights to acquire its assets)
+to holders of shares of Common Stock, by way of return of capital or otherwise (including without limitation any distribution of cash,
+stock or other securities, property or options by way of a dividend, spin off, reclassification, corporate rearrangement or other similar
+transaction) (a “
+Distribution
+”), at any time after the issuance of this Warrant, then, in each such case:
+
+[[A0044]]
+- any
+Exercise Price in effect immediately prior to the close of business on the record date fixed for the determination of holders of shares
+of Common Stock entitled to receive the Distribution shall be reduced, effective as of the close of business on such record date, to
+a price determined by multiplying such Exercise Price by a fraction (i) the numerator of which shall be the Closing Sale Price of the
+shares of Common Stock on the Trading Day immediately preceding such record date minus the value of the Distribution (as determined in
+good faith by the Company’s Board of Directors) applicable to one share of Common Stock, and (ii) the denominator of which shall
+be the Closing Sale Price of the shares of Common Stock on the Trading Day immediately preceding such record date; and
+
+[[A0045]]
+- the
+number of Warrant Shares shall be increased to a number of shares equal to the number of shares of Common Stock obtainable immediately
+prior to the close of business on the record date fixed for the determination of holders of shares of Common Stock entitled to receive
+the Distribution multiplied by the reciprocal of the fraction set forth in the immediately preceding clause (i); provided, however, that
+in the event that the Distribution is of shares of common stock of a company (other than the Company) whose common stock is traded on
+a national securities exchange or a national automated quotation system (“
+Other Shares of Common Stock
+”), then the
+Holder may elect to receive a warrant to purchase Other Shares of Common Stock in lieu of an increase in the number of Warrant Shares,
+the terms of which shall be identical to those of this Warrant, except that such warrant shall be exercisable into the number of shares
+of Other Shares of Common Stock that would have been payable to the Holder pursuant to the Distribution had the Holder exercised this
+Warrant immediately prior to such record date and with an aggregate exercise price equal to the product of the amount by which the exercise
+price of this Warrant was decreased with respect to the Distribution pursuant to the terms of the immediately preceding clause (i) and
+the number of Warrant Shares calculated in accordance with the first part of this clause (ii).
+
+[[A0046]]
+[[TABLE]]
+| 4 |
+| --- |
+[[/TABLE]]
+
+[[A0047]]
+(b)
+Anti-Dilution
+Adjustments to Exercise Price
+. Except with respect to an Exempt Issuance (as defined in this Warrant), if the Company or any Subsidiary
+thereof, as applicable, at any time while this Warrant is outstanding, shall sell or grant any option to purchase, or sell or grant any
+right to reprice, or otherwise dispose of or issue (or announce any offer, sale, grant or any option to purchase or other disposition)
+any Common Stock or securities (including but not limited to Common Stock Equivalents) entitling any person or entity (for purposes of
+clarification, including but not limited to the Holder pursuant to (i) any other security of the Company currently held by Holder, (ii)
+any other security of the Company issued to Holder on or after the Issuance Date (including but not limited to the Note), or (iii) any
+other agreement entered into between the Company and Holder) to acquire shares of Common Stock (upon conversion, exercise or otherwise),
+at an effective price per share less than the then Exercise Price (such lower price, the “Base Share Price” and such issuances
+collectively, a “Dilutive Issuance”) (if the holder of the Common Stock or Common Stock Equivalents so issued shall at any
+time, whether by operation of purchase price adjustments, elimination of an applicable floor price for any reason in the future (including
+but not limited to the passage of time or satisfaction of certain condition(s)), reset provisions, floating conversion, exercise or exchange
+prices or otherwise, or due to warrants, options or rights per share which are issued in connection with such issuance, be entitled or
+potentially entitled to receive shares of Common Stock at an effective price per share which is less than the Exercise Price at any time
+while such Common Stock or Common Stock Equivalents are in existence, such issuance shall be deemed to have occurred for less than the
+Exercise Price on such date of the Dilutive Issuance (regardless of whether the Common Stock or Common Stock Equivalents are (i) subsequently
+redeemed or retired by the Company after the date of the Dilutive Issuance or (ii) actually converted or exercised at such Base Share
+Price), then the Exercise Price shall be reduced at the option of the Holder and only reduced to equal the Base Share Price.
+
+[[A0048]]
+Such adjustment
+shall be made whenever such Common Stock or Common Stock Equivalents are issued, regardless of whether the Common Stock or Common Stock
+Equivalents are (i) subsequently redeemed or retired by the Company after the date of the Dilutive Issuance or (ii) actually converted
+or exercised at such Base Share Price by the holder thereof (for the avoidance of doubt, the Holder may utilize the Base Share Price
+even if the Company did not actually issue shares of its common stock at the Base Share Price under the respective Common stock Equivalents).
+The Company shall notify the Holder in writing, no later than the Trading Day following the issuance of any Common Stock or Common Stock
+Equivalents subject to this Section 2(b), indicating therein the applicable issuance price, or applicable reset price, exchange price,
+conversion price and other pricing terms (such notice the “Dilutive Issuance Notice”). For purposes of clarification, regardless
+of whether (i) the Company provides a Dilutive Issuance Notice pursuant to this Section 2(b) upon the occurrence of any Dilutive Issuance
+or (ii) the Holder accurately refers to the Base Share Price in the Exercise Notice, the Holder is entitled to utilize the Base Share
+Price at all times on and after the date of such Dilutive Issuance.
+
+[[A0049]]
+Notwithstanding the foregoing, the Holder may only enforce its rights
+under this Section 2(b) after the date that is one hundred eighty (180) calendar days after the Issuance Date, provided, however, that
+at such time the Holder may enforce its rights to all adjustments under this Section 2(b) that apply even if the Dilutive Issuance occurred
+prior to the date that is one hundred eighty (180) calendar days after the Issuance Date.
+
+[[A0050]]
+Notwithstanding the foregoing, no adjustment
+shall occur under this Section 2(b) with respect to the Uplist Offering. “Exempt Issuance” shall mean the issuance of Common
+Stock to Megawell USA Technology Investment Fund I LLC (“Megawell”), pursuant to that certain credit agreement and promissory
+note dated December 31, 2016, so long as (i) Calvin Pang remains both the managing director of Megawell and the chief financial officer
+of the Company and (ii) Megawell’s sale of the Common Stock is subject to the restrictions on affiliates provided for in Rule 144(e).
+
+[[A0051]]
+(c)
+Subdivision
+or Combination of Common Stock
+. If the Company at any time on or after the Issuance Date subdivides (by any stock split, stock dividend,
+recapitalization or otherwise) one or more classes of its outstanding shares of Common Stock into a greater number of shares, the Exercise
+Price in effect immediately prior to such subdivision will be proportionately reduced and the number of Warrant Shares will be proportionately
+increased.
+
+[[A0052]]
+If the Company at any time on or after the Issuance Date combines (by combination, reverse stock split or otherwise) one or
+more classes of its outstanding shares of Common Stock into a smaller number of shares, the Exercise Price in effect immediately prior
+to such combination will be proportionately increased and the number of Warrant Shares will be proportionately decreased.
+
+[[A0053]]
+Any adjustment
+under this Section 2(c) shall become effective at the close of business on the date the subdivision or combination becomes effective.
+
+[[A0054]]
+Each such adjustment of the Exercise Price shall be calculated to the nearest one-hundredth of a cent.
+
+[[A0055]]
+Such adjustment shall be made
+successively whenever any event covered by this Section 2(c) shall occur.
+
+[[A0056]]
+[[TABLE]]
+| 5 |
+| --- |
+[[/TABLE]]
+
+[[A0057]]
+3. FUNDAMENTAL TRANSACTIONS . If, at any time while this Warrant is outstanding, (i) the Company effects any merger of the Company with or into another entity and the Company is not the surviving entity (such surviving entity, the “ Successor Entity ”), (ii) the Company effects any sale of all or substantially all of its assets in one or a series of related transactions, (iii) any tender offer or exchange offer (whether by the Company or by another individual or entity, and approved by the Company) is completed pursuant to which holders of Common Stock are permitted to tender or exchange their shares of Common Stock for other securities, cash or property and the holders of at least 50% of the Common Stock accept such offer, or (iv) the Company effects any reclassification of the Common Stock or any compulsory share exchange pursuant to which the Common Stock is effectively converted into or exchanged for other securities, cash or property (other than as a result of a subdivision or combination of shares of Common Stock) (in any such case, a “ Fundamental Transaction ”), then, upon any subsequent exercise of this Warrant, the Holder shall have the right to receive the number of shares of Common Stock of the Successor Entity or of the Company and any additional consideration (the “ Alternate Consideration ”) receivable upon or as a result of such reorganization, reclassification, merger, consolidation or disposition of assets by a holder of the number of shares of Common Stock for which this Warrant is exercisable immediately prior to such event (disregarding any limitation on exercise contained herein solely for the purpose of such determination). For purposes of any such exercise, the determination of the Exercise Price shall be appropriately adjusted to apply to such Alternate Consideration based on the amount of Alternate Consideration issuable in respect of one share of Common Stock in such Fundamental Transaction, and the Company shall apportion the Exercise Price among the Alternate Consideration in a reasonable manner reflecting the relative value of any different components of the Alternate Consideration.
+
+[[A0058]]
+If holders of Common Stock are given any choice as to the securities, cash or property to be received in a Fundamental Transaction, then the Holder shall be given the same choice as to the Alternate Consideration it receives upon any exercise of this Warrant following such Fundamental Transaction.
+
+[[A0059]]
+To the extent necessary to effectuate the foregoing provisions, any Successor Entity in such Fundamental Transaction shall issue to the Holder a new warrant consistent with the foregoing provisions and evidencing the Holder’s right to exercise such warrant into Alternate Consideration.
+
+[[A0060]]
+4. NON-CIRCUMVENTION . The Company covenants and agrees that it will not, by amendment of its certificate of incorporation, bylaws or through any reorganization, transfer of assets, consolidation, merger, scheme of arrangement, dissolution, issue or sale of securities, or any other voluntary action, avoid or seek to avoid the observance or performance of any of the terms of this Warrant, and will at all times in good faith carry out all the provisions of this Warrant and take all action as may be required to protect the rights of the Holder.
+
+[[A0061]]
+Without limiting the generality of the foregoing, the Company (i) shall not increase the par value of any shares of Common Stock receivable upon the exercise of this Warrant above the Exercise Price then in effect, (ii) shall take all such actions as may be necessary or appropriate in order that the Company may validly and legally issue fully paid and non-assessable shares of Common Stock upon the exercise of this Warrant, and (iii) shall, for so long as this Warrant is outstanding, have authorized and reserved, free from preemptive rights, two (2) times the number of shares of Common Stock into which the Warrants are then exercisable into to provide for the exercise of the rights represented by this Warrant (without regard to any limitations on exercise).
+
+[[A0062]]
+5. WARRANT HOLDER NOT DEEMED A STOCKHOLDER . Except as otherwise specifically provided herein, this Warrant, in and of itself, shall not entitle the Holder to any voting rights or other rights as a stockholder of the Company.
+
+[[A0063]]
+In addition, nothing contained in this Warrant shall be construed as imposing any liabilities on the Holder to purchase any securities (upon exercise of this Warrant or otherwise) or as a stockholder of the Company, whether such liabilities are asserted by the Company or by creditors of the Company.
+
+[[A0064]]
+6. REISSUANCE .
+
+[[A0065]]
+(a)
+Lost,
+Stolen or Mutilated Warrant
+. If this Warrant is lost, stolen, mutilated or destroyed, the Company will, on such terms as to indemnity
+or otherwise as it may reasonably impose (which shall, in the case of a mutilated Warrant, include the surrender thereof), issue a new
+Warrant of like denomination and tenor as this Warrant so lost, stolen, mutilated or destroyed.
+
+[[A0066]]
+[[TABLE]]
+| 6 |
+| --- |
+[[/TABLE]]
+
+[[A0067]]
+(b)
+Issuance
+of New Warrants
+. Whenever the Company is required to issue a new Warrant pursuant to the terms of this Warrant, such new Warrant
+shall be of like tenor with this Warrant, and shall have an issuance date, as indicated on the face of such new Warrant which is the
+same as the Issuance Date.
+
+[[A0068]]
+7. TRANSFER . This Warrant shall be binding upon the Company and its successors and assigns, and shall inure to be the benefit of the Holder and its successors and assigns.
+
+[[A0069]]
+Notwithstanding anything to the contrary herein, the rights, interests or obligations of the Company hereunder may not be assigned, by operation of law or otherwise, in whole or in part, by the Company without the prior signed written consent of the Holder, which consent may be withheld at the sole discretion of the Holder (any such assignment or transfer shall be null and void if the Company does not obtain the prior signed written consent of the Holder). This Warrant or any of the severable rights and obligations inuring to the benefit of or to be performed by Holder hereunder may be assigned by Holder to a third party, in whole or in part, without the need to obtain the Company’s consent thereto.
+
+[[A0070]]
+8. NOTICES . Whenever notice is required to be given under this Warrant, unless otherwise provided herein, such notice shall be given in accordance with the notice provisions contained in the Purchase Agreement.
+
+[[A0071]]
+The Company shall provide the Holder with prompt written notice (i) immediately upon any adjustment of the Exercise Price, setting forth in reasonable detail, the calculation of such adjustment and (ii) at least 20 days prior to the date on which the Company closes its books or takes a record (A) with respect to any dividend or distribution upon the shares of Common Stock, (B) with respect to any grants, issuances or sales of any stock or other securities directly or indirectly convertible into or exercisable or exchangeable for shares of Common Stock or other property, pro rata to the holders of shares of Common Stock or (C) for determining rights to vote with respect to any Fundamental Transaction, dissolution or liquidation, provided in each case that such information shall be made known to the public prior to or in conjunction with such notice being provided to the Holder.
+
+[[A0072]]
+9. AMENDMENT AND WAIVER . The terms of this Warrant may be amended or waived (either generally or in a particular instance and either retroactively or prospectively) only with the written consent of the Company and the Holder.
+
+[[A0073]]
+10.
+
+[[A0074]]
+GOVERNING LAW AND VENUE . This Warrant shall be governed by and construed in accordance with the laws of the State of Nevada without regard to principles of conflicts of laws.
+
+[[A0075]]
+Any action brought by either party against the other concerning the transactions contemplated by this Warrant shall be brought only in the state courts located in the State of Nevada or federal courts located in the State of Nevada.
+
+[[A0076]]
+The parties to this Warrant hereby irrevocably waive any objection to jurisdiction and venue of any action instituted hereunder and shall not assert any defense based on lack of jurisdiction or venue or based upon forum non conveniens . EACH PARTY HEREBY IRREVOCABLY WAIVES ANY RIGHT IT MAY HAVE TO, AND AGREES NOT TO REQUEST, A JURY TRIAL FOR THE ADJUDICATION OF ANY DISPUTE HEREUNDER OR UNDER ANY OTHER TRANSACTION DOCUMENT ENTERED INTO IN CONNECTION WITH OR ARISING OUT OF THIS WARRANT OR ANY TRANSACTION CONTEMPLATED HEREBY OR THEREBY . The prevailing party shall be entitled to recover from the other party its reasonable attorney’s fees and costs.
+
+[[A0077]]
+In the event that any provision of this Warrant or any other agreement delivered in connection herewith is invalid or unenforceable under any applicable statute or rule of law, then such provision shall be deemed inoperative to the extent that it may conflict therewith and shall be deemed modified to conform with such statute or rule of law.
+
+[[A0078]]
+Any such provision which may prove invalid or unenforceable under any law shall not affect the validity or enforceability of any other provision of any agreement.
+
+[[A0079]]
+Each party hereby irrevocably waives personal service of process and consents to process being served in any suit, action or proceeding in connection with this Warrant or any other transaction document entered into in connection with this Warrant by mailing a copy thereof via registered or certified mail or overnight delivery (with evidence of delivery) to such party at the address in effect for notices to it under the Purchase Agreement and agrees that such service shall constitute good and sufficient service of process and notice thereof.
+
+[[A0080]]
+Nothing contained herein shall be deemed to limit in any way any right to serve process in any other manner permitted by law.
+
+[[A0081]]
+[[TABLE]]
+| 7 |
+| --- |
+[[/TABLE]]
+
+[[A0082]]
+11.
+
+[[A0083]]
+ACCEPTANCE . Receipt of this Warrant by the Holder shall constitute acceptance of and agreement to all of the terms and conditions contained herein.
+
+[[A0084]]
+12.
+
+[[A0085]]
+CERTAIN DEFINITIONS . For purposes of this Warrant, the following terms shall have the following meanings:
+
+[[A0086]]
+- [Intentionally Omitted].
+
+[[A0087]]
+- “
+Closing
+Sale Price
+” means, for any security as of any date, (i) the last closing trade price for such security on the Principal Market,
+as reported by Quotestream or other similar quotation service provider designated by the Holder, or, if the Principal Market begins to
+operate on an extended hours basis and does not designate the closing trade price, then the last trade price of such security prior to
+4:00 p.m., New York time, as reported by Quotestream or other similar quotation service provider designated by the Holder, or (ii) if
+the foregoing does not apply, the last trade price of such security in the over-the-counter market for such security as reported by Quotestream
+or other similar quotation service provider designated by the Holder, or (iii) if no last trade price is reported for such security by
+Quotestream or other similar quotation service provider designated by the Holder, the average of the bid and ask prices of any market
+makers for such security as reported by Quotestream or other similar quotation service provider designated by the Holder.
+
+[[A0088]]
+If the Closing
+Sale Price cannot be calculated for a security on a particular date on any of the foregoing bases, the Closing Sale Price of such security
+on such date shall be the fair market value as mutually determined by the Company and the Holder.
+
+[[A0089]]
+All such determinations to be appropriately
+adjusted for any stock dividend, stock split, stock combination or other similar transaction during the applicable calculation period.
+
+[[A0090]]
+- “
+Common
+Stock
+” means the Company’s common stock, par value $0.001, and any other class of securities into which such securities
+may hereafter be reclassified or changed.
+
+[[A0091]]
+- “
+Common
+Stock Equivalents
+” means any securities of the Company that would entitle the holder thereof to acquire at any time Common
+Stock, including without limitation any debt, preferred stock, rights, options, warrants or other instrument that is at any time convertible
+into or exercisable or exchangeable for, or otherwise entitles the holder thereof to receive, Common Stock.
+
+[[A0092]]
+- [Intentionally Omitted].
+
+[[A0093]]
+- “
+Person
+”
+and “
+Persons
+” means an individual, a limited liability company, a partnership, a joint venture, a corporation, a trust,
+an unincorporated organization, any other entity and any governmental entity or any department or agency thereof.
+
+[[A0094]]
+- “
+Principal
+Market
+” means the principal securities exchange or trading market where such Common Stock is listed or quoted, including but
+not limited to any tier of the OTC Markets, any tier of the NASDAQ Stock Market (including NASDAQ Capital Market), or the NYSE American,
+or any successor to such markets.
+
+[[A0095]]
+- “
+Market
+Price
+” means the highest traded price of the Common Stock during the one hundred and fifty Trading Days prior to the date of
+the respective Exercise Notice.
+
+[[A0096]]
+- “
+Trading
+Day
+” means any day on which the Common Stock is listed or quoted on its Principal Market, provided, however, that if the Common
+Stock is not then listed or quoted on any Principal Market, then any calendar day.
+
+[[A0097]]
+* * * * * * *
+
+[[A0098]]
+[[TABLE]]
+| 8 |
+| --- |
+[[/TABLE]]
+
+[[A0099]]
+IN WITNESS WHEREOF, the Company has caused this Warrant to be duly executed as of the Issuance Date set forth above.
+
+[[A0100]]
+[[TABLE]]
+| | CLEAN
+ ENERGY TECHNOLOGIES, INC. | |
+| --- | --- | --- |
+| | | |
+| | | |
+| | Name: | Kambiz
+ Mahdi |
+| | Title: | Chief
+ Executive Officer |
+[[/TABLE]]
+
+[[A0101]]
+[[TABLE]]
+| |
+| --- |
+[[/TABLE]]
+
+[[A0102]]
+EXHIBIT A
+
+[[A0103]]
+EXERCISE NOTICE
+
+[[A0104]]
+(To be executed by the registered holder to exercise this Common Stock Purchase Warrant)
+
+[[A0105]]
+THE UNDERSIGNED holder hereby exercises the right to purchase __________ of the shares of Common Stock (“Warrant Shares”) of CLEAN ENERGY TECHNOLOGIES, INC., a Nevada corporation (the “Company”), evidenced by the attached copy of the Common Stock Purchase Warrant (the “Warrant”). Capitalized terms used herein and not otherwise defined shall have the respective meanings set forth in the Warrant.
+
+[[A0106]]
+[[TABLE]]
+| 1. | Form
+ of Exercise Price . The Holder intends that payment of the Exercise Price shall be made
+ as (check one): |
+| --- | --- |
+[[/TABLE]]
+
+[[A0107]]
+[[TABLE]]
+| | ☐ | a
+ cash exercise with respect to Warrant Shares; or |
+| --- | --- | --- |
+| | | |
+| | ☐ | by
+ cashless exercise pursuant to the Warrant. |
+[[/TABLE]]
+
+[[A0108]]
+[[TABLE]]
+| 2. | Payment
+ of Exercise Price . If cash exercise is selected above, the holder shall pay the applicable
+ Aggregate Exercise Price in the sum of $ _______________ to the Company in accordance with the
+ terms of the Warrant. |
+| --- | --- |
+[[/TABLE]]
+
+[[A0109]]
+[[TABLE]]
+| 3. | Delivery
+of Warrant Shares . The Company shall deliver to the holder ________________Warrant Shares in accordance with the terms of the Warrant. |
+| --- | --- |
+[[/TABLE]]
+
+[[A0110]]
+[[TABLE]]
+| Date: | | | |
+| --- | --- | --- | --- |
+[[/TABLE]]
+
+[[A0111]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+| | (Print Name of Registered Holder) | |
+| | | |
+| | By: | |
+| | Name: | |
+| | Title: | |
+[[/TABLE]]
+
+[[A0112]]
+[[TABLE]]
+| |
+| --- |
+[[/TABLE]]
+
+[[A0113]]
+EXHIBIT B
+
+[[A0114]]
+ASSIGNMENT OF WARRANT
+
+[[A0115]]
+(To be signed only upon authorized transfer of the Warrant)
+
+[[A0116]]
+FOR VALUE RECEIVED, the undersigned hereby sells, assigns, and transfers unto ________________________
+
+[[A0117]]
+the right to purchase _____________shares of common stock of CLEAN ENERGY TECHNOLOGIES, INC., to which the within Common Stock Purchase Warrant relates and appoints ____, as attorney-in-fact, to transfer said right on the books of CLEAN ENERGY TECHNOLOGIES, INC. with full power of substitution and re-substitution in the premises.
+
+[[A0118]]
+By accepting such transfer, the transferee has agreed to be bound in all respects by the terms and conditions of the within Warrant.
+
+[[A0119]]
+[[TABLE]]
+| Dated: | | | |
+| --- | --- | --- | --- |
+| | | | |
+| | | | |
+| | | | (Signature)
+ * |
+| | | | |
+| | | | |
+| | | | (Name) |
+| | | | |
+| | | | |
+| | | | (Address) |
+| | | | |
+| | | | |
+| | | | (Social
+ Security or Tax Identification No.) |
+[[/TABLE]]
+
+[[A0120]]
+* The signature on this Assignment of Warrant must correspond to the name as written upon the face of the Common Stock Purchase Warrant in every particular without alteration or enlargement or any change whatsoever.
+
+[[A0121]]
+When signing on behalf of a corporation, partnership, trust or other entity, please indicate your position(s) and title(s) with such entity.
+
+[[A0122]]
+[[TABLE]]
+| |
+| --- |
+[[/TABLE]]

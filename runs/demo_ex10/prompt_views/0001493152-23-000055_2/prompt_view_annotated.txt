@@ -1,0 +1,270 @@
+[[A0001]]
+Exhibit 10.1
+
+[[A0002]]
+Restricted Stock Award and Issuance Agreement
+
+[[A0003]]
+This Restricted Stock Award and Issuance Agreement (this “ Agreement ”) is made and entered into as of December 30, 2022 by and between Clearday, Inc., a Delaware corporation (the “ Company ”), and James T. Walesa (the “ Holder ”).
+
+[[A0004]]
+WHEREAS , the Holder is the Chief Executive Officer of the Company;
+
+[[A0005]]
+WHEREAS , the Holder has advanced cash amounts to fund the operations of the Company and its subsidiaries and is owed amounts as guarantee fees (collectively, the “ Holder Payable Amount ”);
+
+[[A0006]]
+WHEREAS , the Holder has agreed to convert $1,000,000 of the Holder Payable Amount to shares of common stock of the Company, par value $0.001 per share (“ Common Stock ”) at a price per share of $0.67551 (the “ Issuance Price ”), which is a price that is greater than the closing price per share of Common Stock on December 30, 2022 or the 20 day volume weighted average price of the Common Stock on such date;
+
+[[A0007]]
+WHEREAS , the Holder has received less than $100,000 cash compensation from the Company;
+
+[[A0008]]
+WHEREAS , the Holder is not subject to any employment agreement;
+
+[[A0009]]
+WHEREAS , the Board of Directors of the Company, including the Compensation Committee of the Company have determined that it is in the best interests of the Company to provide $200,000 of compensation to the Holder in the form of common stock (such shares being referred to as “ Restricted Securities ”), at the Issuance Price, subject to any Transaction Adjustment (as defined below) which amount is in lieu of cash compensation during 2022 to the Holder;
+
+[[A0010]]
+WHEREAS , the Company is engaged in negotiations of certain transactions such as the sale of robots and a significant investment in the Company, but there is no assurance that any such transaction will be consummated on acceptable terms or at all;
+
+[[A0011]]
+WHEREAS , the Holder has agreed to protect the Company by agreeing to transfer and assign shares of Common Stock to the Company in the event that during January 2023 there is an increase of the price per share of Common Stock to a price that is more than the Issuance Price after any material announcement by the Company, as provided below; and
+
+[[A0012]]
+NOW, THEREFORE , the parties hereto, intending to be legally bound, agree as follows:
+
+[[A0013]]
+1. Conversion of Obligations to Common Stock .
+
+[[A0014]]
+As of the date of this Agreement, the Holder agrees to convert and exchange $1,000,000 of the Holder Payable Amount to shares of Common Stock at a price per share equal to the Issuance Price, subject to adjustment as provided in Section 4. Such amount will reduce the accrued liabilities of the Company as of the date of this Agreement.
+
+[[A0015]]
+[[TABLE]]
+| |
+| --- |
+[[/TABLE]]
+
+[[A0016]]
+[[TABLE]]
+| |
+| --- |
+[[/TABLE]]
+
+[[A0017]]
+2. Issuance of Common Stock as Compensation .
+
+[[A0018]]
+As of the date of this Agreement, the Company agrees and shall issue as compensation $200,000 of Common Stock at a price per share equal to the Issuance Price, subject to adjustment as provided in Section 4.
+
+[[A0019]]
+3. Status of the Common Stock .
+
+[[A0020]]
+The shares of Common Stock issued under the terms of Section 1and Section 2 have been duly authorized by the Board of Directors and the Compensation Committee of the Company, are fully paid as of the date of this Agreement, duly issued and non-assessable and “restricted” securities as defined under the Securities Act of 1933, as amended (the “ Securities Act ”).
+
+[[A0021]]
+4. Adjustment to Shares of Common Stock .
+
+[[A0022]]
+4.1.
+
+[[A0023]]
+The Company has been engaged and continues to engage in the negotiations of certain transactions that, if there is an agreement for any such transaction, would be subject to disclosure under the rules and regulations under the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”), including by the filing of a Form 8-K by the Company with the Securities and Exchange Commission (the “ Commission ”), although there is no assurance that any such transaction would be consummated or agreement entered into on terms that are acceptable to the Company or at all (any such transaction or entering in any such agreement, being a “ Specified Transaction ”).
+
+[[A0024]]
+4.2.
+
+[[A0025]]
+In the event that there is a Specified Transaction, then the Holder will promptly transfer and assign such number of shares of Common Stock that are issued under the terms of Section 1and Section 2 of this Agreement after any Specified Transaction so that after such transfer and assignment, the Holder will hold a number of shares of Common Stock equal to $1,200,000 divided by the closing price per share of Common Stock on the date that is one full trading day after the date that the Company makes a filing with the Commission with respect to any Specified Transaction, and such shares of Common Stock that are so transferred and assigned shall be cancelled by the Company
+
+[[A0026]]
+4.3. By way of example if there is a filing with the Commission at 8am EST on January 17, 2023 regarding a Transaction that Adjusts the Issuance Price and the closing price per share of Common Stock on January 17, 2023 is $0.844, then the Holder will transfer 355,288 shares of Common Stock to the Company for cancellation and the Holder will hold 1,421,148 shares of Common Stock and not the 1,776,436 shares of Common Stock that are issued under Section 1and Section 2 of this Agreement, which will cause an adjustment of the Issuance Price from $0.675.
+
+[[A0027]]
+to such closing price of $0.844.
+
+[[A0028]]
+4.4. Notwithstanding any provision of this Agreement to the contrary, the adjustments in this Section 4 shall only be applicable to a Specified Transaction that (i) occurs on or prior to January 31, 2023; and (ii) results in a closing price per share of Common Stock that is greater than the Issuance Price (or the Issuance Price as then adjusted).
+
+[[A0029]]
+[[TABLE]]
+| 2 |
+| --- |
+[[/TABLE]]
+
+[[A0030]]
+[[TABLE]]
+| |
+| --- |
+[[/TABLE]]
+
+[[A0031]]
+5.
+
+[[A0032]]
+No Right to Continued Service . This Agreement shall not confer upon the Holder any right to be retained as a Holder of the Company or in any other capacity.
+
+[[A0033]]
+Further, nothing in this Agreement shall be construed to limit the discretion of the Company to terminate the Holder’s continuous service at any time.
+
+[[A0034]]
+6.
+
+[[A0035]]
+Tax Liability and Withholding .
+
+[[A0036]]
+6.1. As a condition to the issuance of any Restricted Securities, the Company may withhold, or require the Holder to pay or reimburse the Company for, any taxes which the Company determines are required to be withheld under federal, state or local law.
+
+[[A0037]]
+6.2.
+
+[[A0038]]
+Notwithstanding
+any action the Company takes with respect to any or all income tax, social insurance, payroll tax, or other tax-related withholding (“
+Tax-Related
+Items
+”), the ultimate liability for all Tax-Related Items is and remains the Holder’s responsibility and the Company
+- makes no representation or undertakings regarding the treatment of any Tax-Related Items in connection with the grant of the Restricted
+Securities or the subsequent sale of any shares and (b) does not commit to structure the Restricted Securities to reduce or eliminate
+the Holder’s liability for Tax-Related Items.
+
+[[A0039]]
+7.
+
+[[A0040]]
+Compliance with Law . The issuance and transfer of shares of Common Stock shall be subject to compliance by the Company and the Holder with all applicable requirements of federal and state securities laws and with all applicable requirements of any stock exchange on which the Company’s shares of Common Stock may be listed.
+
+[[A0041]]
+No shares of Common Stock shall be issued or transferred unless and until any then applicable requirements of state and federal laws and regulatory agencies have been fully complied with to the satisfaction of the Company and its counsel.
+
+[[A0042]]
+The Holder understands that the Company is under no obligation to register the shares of Common Stock with the Commission, any state securities commission or any stock exchange to effect such compliance.
+
+[[A0043]]
+8.
+
+[[A0044]]
+Legends .
+
+[[A0045]]
+A legend may be placed on any certificate(s) or other document(s) delivered to the Holder indicating restrictions on transferability of the shares of Restricted Securities pursuant to this Agreement or any other restrictions that the Board may deem advisable under the rules, regulations and other requirements of the Securities and Exchange Commission, any applicable federal or state securities laws or any stock exchange on which the shares of Common Stock are then listed or quoted.
+
+[[A0046]]
+9.
+
+[[A0047]]
+Notices . Any notice required to be delivered to the Company under this Agreement shall be in writing and addressed to the CEO of the Company at the Company’s principal corporate offices.
+
+[[A0048]]
+Any notice required to be delivered to the Holder under this Agreement shall be in writing and addressed to the Holder at the Holder’s address as shown in the records of the Company.
+
+[[A0049]]
+Either party may designate another address in writing (or by such other method approved by the Company) from time to time.
+
+[[A0050]]
+10.
+
+[[A0051]]
+Governing Law . This Agreement will be construed and interpreted in accordance with the laws of the State of Delaware without regard to conflict of law principles.
+
+[[A0052]]
+11.
+
+[[A0053]]
+Successors and Assigns . The Company may assign any of its rights under this Agreement.
+
+[[A0054]]
+This Agreement will be binding upon and inure to the benefit of the successors and assigns of the Company.
+
+[[A0055]]
+Subject to the restrictions on transfer set forth herein, this Agreement will be binding upon the Holder and the Holder’s beneficiaries, executors, administrators and the person(s) to whom the Restricted Securities may be transferred by will or the laws of descent or distribution.
+
+[[A0056]]
+[[TABLE]]
+| 3 |
+| --- |
+[[/TABLE]]
+
+[[A0057]]
+[[TABLE]]
+| |
+| --- |
+[[/TABLE]]
+
+[[A0058]]
+12.
+
+[[A0059]]
+Severability . The invalidity or unenforceability of any provision of this Agreement shall not affect the validity or enforceability of any other provision of this Agreement, and each provision of this Agreement shall be severable and enforceable to the extent permitted by law.
+
+[[A0060]]
+13.
+
+[[A0061]]
+Amendment . This Agreement may be amended only with the consent of the Holder and the Company.
+
+[[A0062]]
+14.
+
+[[A0063]]
+Counterparts . This Agreement may be executed in counterparts, each of which shall be deemed an original but all of which together will constitute one and the same instrument.
+
+[[A0064]]
+Counterpart signature pages to this Agreement transmitted by facsimile, by electronic mail in portable document format (.pdf), or by any other electronic means intended to preserve the original graphic and pictorial appearance of a document, will have the same effect as physical delivery of the paper document bearing an original signature.
+
+[[A0065]]
+15.
+
+[[A0066]]
+Acceptance . The Holder has read and understands the terms and provisions thereof, and accepts the Restricted Securities subject to all of the terms and conditions of this Agreement.
+
+[[A0067]]
+The Holder acknowledges that there may be adverse tax consequences upon the grant or vesting of the Restricted Securities or disposition of the shares and that the Holder has been advised to consult a tax advisor prior to such grant, vesting or disposition.
+
+[[A0068]]
+[signature page follows]
+
+[[A0069]]
+[[TABLE]]
+| 4 |
+| --- |
+[[/TABLE]]
+
+[[A0070]]
+[[TABLE]]
+| |
+| --- |
+[[/TABLE]]
+
+[[A0071]]
+IN WITNESS WHEREOF, the parties hereto have executed this Agreement as of the date first above written.
+
+[[A0072]]
+[[TABLE]]
+| | Clearday,
+ Inc. | |
+| --- | --- | --- |
+| | | |
+| | By: | /s/
+ BJ Parrish |
+| | Name: | BJ
+ Parrish |
+| | Title: | Chief
+ Operating Officer |
+| | | |
+| | Holder | |
+| | | |
+| | /s/
+ James T. Walesa | |
+| | James
+ T. Walesa | |
+[[/TABLE]]
+
+[[A0073]]
+[[TABLE]]
+| 5 |
+| --- |
+[[/TABLE]]

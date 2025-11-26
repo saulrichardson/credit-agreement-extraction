@@ -1,0 +1,525 @@
+Exhibit 10.1
+
+THE SECURITIES OFFERED HEREBY HAVE NOT BEEN REGISTERED UNDER THE SECURITIES ACT OF 1933, AS AMENDED (THE “SECURITIES ACT”), OR REGISTERED OR QUALIFIED UNDER THE SECURITIES LAWS OF ANY STATE OR FOREIGN JURISDICTION OR APPROVED OR DISAPPROVED BY THE UNITED STATES SECURITIES AND EXCHANGE COMMISSION (THE “SEC”) OR ANY STATE SECURITIES COMMISSION OR OTHER REGULATORY AUTHORITY OF ANY JURISDICTION, NOR HAS THE SEC OR ANY SUCH STATE SECURITIES COMMISSION OR REGULATORY AUTHORITY PASSED UPON THE MERITS OF THIS OFFERING, NOR IS IT INTENDED THAT THEY WILL. ANY REPRESENTATION TO THE CONTRARY IS A CRIMINAL OFFENSE.
+
+该协议下股票没有按美国 1933 年证券法(“证券法”) 进行注册，或者在任何其他外国或州管辖地进行注册或资格审核，或从美国证监会 SEC 或任何其他州证监会或管辖机构获得批准或反对。美国证监会或各州证监会或管辖机构并没有对此股票发行的内容进行审核通过也不会做出此行为。任何相反的陈述构成刑事犯罪。
+
+SECURITIES PURCHASE AGREEMENT
+
+股票购买协议
+
+This
+
+SECURITIES PURCHASE AGREEMENT (this “ Agreement ”) dated December __, 2022 is entered by and between Happiness Development Group Limited, an exempt limited liability company established under laws of Cayman Islands (the “ Company ”), and the persons listed on the signature page(s) of this Agreement (the “ Investors ”). The Investors and the Company are sometimes herein referred to each as a “Party,” and collectively as the “Parties.”
+
+此股票购买协议，于2022年12月__ 日，由 Happiness Development Group Limited（“公司”）, 设立公司，与签名页所列的投资者（“投资者”）之间共同签署。投资者和公司在此协议中，分别以“合同单方”单称其中一方，或双方以“合同方”相称。
+
+RECITALS
+
+前言
+
+WHEREAS , the Company is offering and the Investors desire to purchase an aggregate of 3,000,000 Class A ordinary shares, par value $0.01 each (the “ Shares ”) for US$6,000,000, or $2.00 per Share;
+
+鉴于，公司有意提供而投资者有意购买总共 3,000,000 A类普通股（“该股票“），票面值为$0.01美元，购买价格总额为6,000,000 美元，每股出售价格为2.00美元；
+
+WHEREAS , subject to the terms and conditions set forth in this Agreement and pursuant to Section 4(a)(2) of the Securities Act and/or Rule 506 promulgated thereunder, the Company desires to issue and sell to the Investor, and the Investor, severally and not jointly with other Investors, desires to purchase from the Company, securities of the Company as more fully described in this Agreement;
+
+鉴于，受制于本协议的条款和条件并根据证券法案第 4(a)(2) 条和/或根据证券法案颁布的第 506 规则，公司希望发行并向投资人销售本协议下文中更详细描述的公司证券，而投资人各自而非与其他投资人共同地希望从公司购买该公司证券；；
+
+WHEREAS , each Investor, severally and not jointly, wishes to purchase, and the Company wishes to sell, upon the terms and conditions stated in this Agreement, that aggregate number of Shares set forth opposite each Investor’s name on Exhibit A hereto;
+
+鉴于，根据此协议规定，投资者，单独地而非共同地，有意向购买，而公司有意向出售按该协议附表A所列明的各投资者购买股票数进行交易。
+
+WHEREAS , each Investor shall pay US$2.00 hereunder for each of the Shares, with an aggregate amount to be paid for all Shares of $6,000,000 (the “ Purchase Price ”); and
+
+鉴于，每位投资者应按每股 2.00
+
+美元的价格交易，共应支付股票购买总价为 6,000,000
+
+美元（“股票购买价格”）。
+
+WHEREAS , the Company has made available to the Investors through the SEC EDGAR system, true and complete copies of the Company’s most recent Annual Report on Form 20-F for the fiscal year ended March 31, 2022 and all other reports filed by the Company pursuant to the Securities and Exchange Act of 1934, as amended (the “ Exchange Act ”) prior to the date hereof (collectively, the “ SEC Documents ”).
+
+鉴于，公司已经通过证监会 EDGAR 申报系统向投资者提供了真实和完整的公司截至2022年3月31日的年度财务报表 20-F，以及根据美国1934 证券交易法及交易法及其修改案所规定的其他申报报表（总称“证监会文本”）。
+
+NOW, THEREFORE , in consideration of the mutual promises and covenants contained herein, the receipt and sufficiency of which are hereby acknowledged, the parties hereto agree as follows:
+
+据此，在双方相互承诺对价，及双方确认获得并满足该对价要求前提下，合同双方达成以下协议：
+
+SECTION 1. SALE OF COMMON STOCK
+
+第一节．普通股出售
+
+1.1 Authorization . The Company has authorized the sale and issuance of Shares to the Investors in the amounts set forth opposite each Investor’s name on Exhibit A hereto of an aggregate of Shares.
+
+1.1
+
+授权 。该公司已授权发行出售该股票，并按照附表A的股票购买投资者名单及股票数进行交易。
+
+1.2 Sale and Issuance of the Securities . Subject to the terms and conditions set forth in this Agreement, the Company will issue and sell to the Investors and the Investors will buy from the Company the Shares at a per share purchase price of $       .
+
+1.2
+
+股票发行和出售 。限于该协议的规定，按每股$ 美元价格，公司将向投资者出售而投资者将向公司购买该股票。
+
+1.3 Use of Proceeds . $3,000,000 of the proceeds from the issuance of the Shares will be used by the Company for its payment under a certain collaboration agreement with DMG Tech Investment Ltd. , dated as of December 28, 2022, by and between the Company and DMG Tech Investment Ltd.  The remaining net proceeds from the issuance of the Shares will be used by the Company solely for general corporate purposes.
+
+1.3 收益的使用 。本公司将使用发行股份所得款项中的 3,000,000 美元支付本公司与 DMG Tech Investment Ltd. 于2022年12月28日签订的合作协议的款项。发行股份所得其余净收益将由公司仅用于一般公司用途。
+
+2
+
+SECTION 2. CLOSING DATE; DELIVERY.
+
+第 2 节．交割；递交。
+
+2.1 Closing Date . Subject to the satisfaction or waiver of the conditions set forth in Sections 6 and 7 , the Closing of the purchase and sale of the Shares shall take place at the offices of the Company at No. 11, Dongjiao East Road, Shuangxi, Shunchang, Nanping City, Fujian Province, People’s Republic of China, at 4:00 p.m. local time, on December __, 2022, or at such other location, date, and time as may be agreed upon between the Investors and the Company (such closing being called the “ Closing ” and such date and time being called the “ Closing Date ”) but in any event not later than December    , 2022, so long as all of the conditions of Sections 6 and 7 have been satisfied (or otherwise waived in accordance with this Agreement).
+
+2.1 交割日 。限于满足或豁免第6和第7条规定的交割条件，该股票的出售和购买交割的时间为 2022 年 12 月__日，当地时间下午4点，地点为公司办公室 ，或，公司和投资者可以双方另协商决定其他的交割时间和地点。（该交割行为简称为“交割”，交割时间日期简称为“交割日”）。如第6条和第7条规定的交割条件已满足或被豁免，交割日不应晚于2022年12月 日。
+
+2.2 Delivery and Payment . At the Closing, the Company will deliver, or cause its transfer agent and registrar to deliver, to the Investors, through book-entry delivery with appropriate restrictive legends, registered in each Investor’s name, representing the number of Shares to be purchased by each Investor at the Closing, against payment by the Purchase Price by the Investors, by wire transfer per the Company’s instructions. The Company shall not be obligated to issue and sell any Shares unless and until it receives the entirety of the Purchase Price.
+
+2.2 递交和支付 。在交割时，公司将给投资者递交，或通过其委托注册中介向投资者递交，印有相应的限制转让标记的股票凭证，登记在相应的投资者名下，作为相应的购买股票购买交割凭证。投资者应按公司指示通过银行电汇向公司支付股票购买的价款。公司在收到购票总价款前，没有义务发行或出售股票。
+
+SECTION 3. REPRESENTATIONS AND WARRANTIES OF THE COMPANY.
+
+第 3 节．公司的陈述和保证。
+
+Except as disclosed in the SEC Documents and as otherwise stated to the contrary herein, the Company hereby represents and warrants to the Investors, as of the date hereof and as of the Closing Date, as follows:
+
+除在证监会文本的披露之外，以及在此协议中表明澄清的其他事实之外，公司对投资者做出以下陈述和保证，以此协议日期和交割日为准：
+
+3.1 Organization and Standing; Certificate Of Incorporation and Bylaws . The Company is an exempt limited liability company duly organized and validly existing in good standing under the laws of Cayman Island. The Company has requisite corporate power and authority to own its assets and to carry on its business as now conducted and proposed to be conducted and is duly qualified as a foreign corporation in each jurisdiction in which such qualification is necessary. Copies of the Certificate of Incorporation and Amended and Restated Memorandum and Articles of Association of the Company have been provided to Investors. Said copies remain true, correct and complete and reflect all amendments as of the Closing.
+
+3.1
+
+公司组织和设立；公司注册文本和章程 。公司是在特拉华州法律规定下成立的公司，并持有有效的运营资格。公司具备相应的权力和授权去拥有其资产及做出该交易的相关商业行为。公司在任何需要外地公司资格许可的管辖地都具备相应的注册资格。公司的注册文本以及公司章程已经提供给投资者，并且此提供的文本在交割日截至属于真实，准确和完整的。
+
+3
+
+3.2 Authority . The Company has full power and authority to enter into, execute and deliver this Agreement and each agreement, certificate, document and instrument to be executed and delivered by the Company pursuant to this Agreement and to perform its obligations hereunder. The execution and delivery by the Company of this Agreement and any agreements, certificates, documents and instruments to be executed and delivered by the Company pursuant to this Agreement, and the performance by the Company of its obligations hereunder, have been duly authorized by all requisite actions on its part.
+
+3.2
+
+权力 。公司具备完全权力来签署和提交此协议，以及任何为履行此协议所需的其他相关协议和证书文本的签署和递交。公司已经获得所需授权来签署和提交此协议，以及任何为履行此协议所需的其他相关协议和证书文本的签署和递交，以及履行该协议下相关的公司义务。
+
+3.3 Valid Agreement . This Agreement has been duly executed and delivered by the Company and constitutes the legal, valid and binding obligation of the Company, enforceable against the Company in accordance with its terms, except (i) as limited by applicable bankruptcy, insolvency, reorganization, moratorium, and other laws of general application affecting enforcement of creditors’ rights generally, and (ii) as limited by laws relating to the availability of specific performance, injunctive relief, or other equitable remedies.
+
+3.3 有效性协议 。此协议由公司有效地签署和递交，并构成公司法律规定下的有效力和有约束力的义务，可以根据相关条款对公司具备执行力，除非受以下限制 1）破产法，资不抵债，重组，政府官文强制性规定，或者其他有关债权人权力的相关法律要求；以及 2）法律对强制执行，不当得利等衡平法补偿原则的合法限制。
+
+3.4 Due Issuance of the Shares . Shares have been duly authorized and, when issued and delivered to and paid for by the Investors pursuant to this Agreement, will be validly issued, fully paid and non-assessable and free and clear of all encumbrances and restrictions (other than those created by the Investor), except for restrictions arising under the Securities Act or created by virtue of this Agreement and upon delivery and entry into the register of members of the Company will transfer to the Investors good and valid title to its Shares.
+
+3.4
+
+股票的正当发行。 该股票已经正当程序被授权发行，并在收到投资者支付对价后，其股票发行具备有效性以及不增缴性，除了美国证券法相关规定的限制以及该协议的限制外，不受其他任何法律负担和限制（除非由投资者造成的）。递交和送达该公司成员登记文本后，相应的股票的有效股权将转让给投资者。
+
+4
+
+3.5 Noncontravention . Neither the execution and the delivery of this Agreement, nor the consummation of the transactions contemplated hereby, will (i) violate any provision of the organizational documents of the Company or violate any constitution, statute, regulation, rule, injunction, judgment, order, decree, ruling, charge, or other restriction of any government, governmental entity or court to which the Company is subject, or (ii) conflict with, result in a breach of, constitute a default under, result in the acceleration of or creation of an encumbrance under, or create in any party the right to accelerate, terminate, modify, or cancel, any agreement, contract, lease, license, instrument, or other arrangement to which the Company is a party or by which the Company is bound or to which any of the Company’s assets are subject. There is no action, suit or proceeding, pending or threatened against the Company that questions the validity of this Agreement or the right of the Company to enter into this Agreement or to consummate the transactions contemplated hereby.
+
+3.5 非冲突性 。该签署和递交此协议的行为，或对此交易的完成，均不会 i）违反公司组织和相关文本的条款，或公司所受限制的任何宪法，成文法，法规，法则，禁制令，判决，裁决，裁判，裁定，控诉和政府及政府部门的相关限制，或公司所在管辖地法庭的限制；或 ii)与公司现有限制性合同条款产生冲突，导致违约，或构成违约，或产生加速限制性条件，或授予任何一方权力来加速，终止，修改，或取消任何协议，合同，租约，授权，凭证，或者公司属于合同方或者公司受限制或者公司资产受限制的其他安排。
+
+3.6 Consents and Approvals . Neither the execution and delivery by the Company of this Agreement, nor the consummation by the Company of any of the transactions contemplated hereby, nor the performance by the Company of this Agreement in accordance with its terms requires the consent, approval, order or authorization of, or registration with, or the giving of notice to, any governmental or public body or authority or any third party, except such as have been or will have been obtained, made or given on or prior to the Closing Date.
+
+3.6 同意和批准 。公司的签署和递交该协议，或者公司对此交易的行为或其相关义务的履行，除了已经获得或将在交割日前获得相应授权外，均不需要从任何政府或权力机构或第三方获得其他批准，同意、授权或者注册或给与通知。
+
+3.7 Delivery of SEC Documents; Business . The Company has made available to the Investors through the SEC’s EDGAR system, true and complete copies of the Company’s SEC Documents. The Company is engaged in all material respects only in the business described in the SEC Documents and the SEC Documents contain a complete and accurate description of the business of the Company in all material respects.
+
+3.7
+
+证监会文本的递交，业务 。公司以及通过证监会的EDGAR系统给投资者提供了真实的完成的相关公司证监会文本。公司在实质上仅从事证监会文本里披露的业务，且证监会文本对公司业务的披露在实质上是完整和正确的表述。
+
+5
+
+3.8 Capitalization . The authorized capital stock of the Company consists of 350,000,000 Class A Ordinary Shares with a par value of US$0.01 each, 100,000,000 Class B Ordinary Shares with a par value of US$0.01 each, and 50,000,000 Preferred Shares with a par value of US$0.01 each, of which 3,330,730 Class A Ordinary Shares and 612,255 Class B Ordinary Shares are outstanding prior to the Closing. There are no outstanding options, warrants, rights (including conversion or preemptive rights and rights of first refusal or similar rights), or agreements, orally or in writing, to purchase or acquire from the Company any shares of Common Stock, or any securities convertible into or exchangeable for shares of Common Stock. No person, other than the Investors pursuant to this Agreement, has any right to purchase any portion of the Shares covered by this Agreement. All issued and outstanding shares of Common Stock of the Company have been duly authorized and validly issued, are fully paid and nonassessable, and have been offered, issued, sold and delivered by the Company in compliance with applicable federal and state securities laws. The Company holds no Common Stock in its treasury.
+
+3.8 注资 。公司授权发行的股票为350,000,000 普通A股，票面值为$0.01美元, 100,000,000 普通B股，票面值为 $0.01 美元以及 50,000,000 优先股，票面值为 $0.01 美元, 其中在本次交割前已发行 3,330,730 普通A股和 612,255 普通B股。公司没有其他已发行的行权，认股证，权力（包括转换权或优先行权，优先拒绝权等权利），或协议，口头或书面，从公司购买任何普通股票，或其他可转换或兑换公司股票的凭证。除此协议的投资者外，其他人无权利购买此协议规定的股票。所有已发行的普通股已经获得公司合法有效授权，并已经完全支付相应对价，不增缴性，且按相适用的美国联邦和州证券法来由公司进行合法发行和出售、递交。公司目前没有持库存股。
+
+3.9 Litigation . Except as set forth in the Company’s SEC Documents, there is no action, suit, proceeding nor investigation pending or, to the Company’s knowledge, currently threatened against the Company that (i) if adversely determined would reasonably be expected to have a Material Adverse Effect or (ii) would be required to be disclosed in the Company’s Annual Report on Form 20-F under the requirements of Item 103 of Regulation S-K. The foregoing includes, without limitation, any action, suit, proceeding or investigation, pending or threatened, that questions the validity of this Agreement or the right of the Company to enter into this Agreement and perform its obligations hereunder. The Company is not subject to any injunction, judgment, decree or order of any court, regulatory body, arbitral panel, administrative agency or other government body.
+
+3.9
+
+诉讼。 除公司的证监会文本披露以外，公司没有其他正在进行的，或据公司所知，正在受威胁的 （i）如不利决定作出将会合理地认为对公司产生实质性负面影响的，或(ii)将会被要求在公司的20-F年报里根据S-K条例的103条需要披露的诉讼，案件或调查。以上包括但不限于，正在进行的或被威胁的，挑战该协议的有效性和公司签署此协议的权力或履行相关义务的起诉，诉讼，法律程序或调查。公司目前没有受限制于任何法庭，仲裁庭，行政机构或其他政府部门的禁制令，裁判，或其他任何裁定或决定。
+
+6
+
+3.10 Investment Company . The Company is not an “investment company” or an “affiliated person” of, or “promoter” or “principal underwriter” for an investment company, within the meaning of the Investment Company Act of 1940 and will not be deemed an “investment company” as a result of the transactions contemplated by this Agreement.
+
+3.10 投资公司 。公司不属于，也不会因进行此协议的交易而被定义为 1940 年投资公司法案定义下的“投资公司”或投资公司的“关联人”或“发起人”或“主要承销商”。
+
+3.11 Finders and Brokers . The Company has not employed any broker, finder or investment banker or incurred any liability for any brokerage fees, commissions, finders’ fees or similar fees in connection with the transactions contemplated by this Agreement.
+
+3.11 中间人和中介 。就此协议规定的交易，公司没有雇佣任何中介，中间人或投资银行，或产生任何其他中介费，提成费，中间人费用或类似费用。
+
+3.22
+
+Subsequent Closings/No Integration . The Company has not made any prior offering nor sold any securities in any prior offering that would be integrated pursuant to Rule 502(a) with the sale of the Shares and the transactions contemplated by this Agreement.
+
+3.22 之后的交割/无整合。公司未根据规则 502(a) 与股份出售和本协议拟进行的交易整合的任何先前发售中未进行任何先前发售或出售任何证券，而本公司未采取合理措施验证此类证券的购买者是否为合格投资者。
+
+SECTION 4. REPRESENTATIONS AND WARRANTIES OF THE INVESTORS.
+
+第 4 节．投资者陈述和保证。
+
+The Investors, severally and not jointly, hereby represent and warrant to the Company, as of the date hereof and as of the Closing Date, as follows:
+
+投资者，单独地而非共同地，就签字日和交割日截至，对公司做出以下陈述和保证：
+
+4.1 Business and Financial Experience . Each Investor, either alone or together with its representatives, has such knowledge, sophistication and experience in business and financial matters so as to be capable of evaluating the merits and risks of the prospective investment in the Shares, and has so evaluated the merits and risks of such investment.
+
+4.1 商业和财务经验。
+
+投资人单独或与其代表人一起，拥有足够的商业和金融知识、复杂度和经验以评估对此股票未来投资的实质和风险，并已按此做出评估。
+
+4.2 Purchase for Own Account . Each Investor (a) is purchasing the Shares for its own account (not as a nominee or agent) for investment purposes only and not with an intent or view to, or for, resale, distribution, or fractionalization thereof, in whole or in part, (b) has no present arrangement or intention to sell or distribute the Shares, or to grant participation in the Shares, and (c) does not have any contract, undertaking, agreement, or arrangement with any person to sell, transfer, or grant participation to such person, or to any third person, with respect to any of the Shares.
+
+4.2 自主购买 。每个投资者 a）均为自己购买该股票份额（而非代持或受托人）以换取投资回报，而非意向去转售，派发，分销部分或全部股票份额，b) 目前没有安排或意向去转售、派发，或授权参与认股该股票，并 c) 没有与其他人进行合同，承诺，协议或安排来出售，转售，或授权参与认股该股票。
+
+7
+
+4.3 Lack of Liquidity . The Investor acknowledges that the purchase of the Shares involves a high degree of risk and further acknowledges that it can bear the economic risk of the purchase of the Shares, including the total loss of its investment. The Investor has no present need for liquidity in connection with its purchase of the Shares.4.3 缺乏流动性。 投资者承认购买股份涉及高风险，并进一步承认其可以承担购买股份的经济风险，包括其投资的全部损失。投资者目前不需要与购买股份相关的流动资金。
+
+4.4 Not an Underwriter . Each Investor is not an underwriter or dealer in the Shares and the Investor is not participating, pursuant to a contractual agreement, in a distribution of the Shares.
+
+4.4 非承销商 。各投资者均不属于承销商或股票中介，且投资者并不是在按某种合同协议来参与分销股票。
+
+4.5 Investment Intent; Blue Sky . Each Investor is acquiring the Shares for investment for such Investor’s own account, not as a nominee or agent, and not with a view to or for resale in connection with any distribution thereof. Each Investor understands that the issuance of the Shares has not been, and will not be, registered under the Securities Act by reason of a specific exemption from the registration provisions of the Securities Act, the availability of which depends upon, among other things, the bona fide nature of the Investor’s true and correct state of domicile, upon which the Company may rely for the purpose of complying with applicable Blue Sky laws.
+
+4.5
+
+投资意向；蓝天法 。各投资人对购买该股票均为自己账户，而非代持或受托人，且不是意向于分销转售。各投资人了解，因其依赖于证券法相关规定下豁免注册的要求，该股票的发行没有也不会按证券法要求注册。该豁免情形将决定于，包括其他因素，投资人的真实和准确的居住地，公司将依赖此陈述来满足蓝天法的法规要求。
+
+4.6 Restricted Shares .
+
+4.6 限制性股票。
+
+- The Investor understands
+that the Shares have not been, and will not be, registered under the Securities Act, by reason of a specific exemption from the registration
+provisions of the Securities Act which depends upon, among other things, the bona fide nature of the investment intent and the accuracy
+of the Investor’s representations as expressed herein. The Investor understands that the Shares are “restricted securities”
+under applicable U.S. federal and state securities laws and that, pursuant to these laws, the Investor must hold the Shares indefinitely
+unless they are registered with the SEC and qualified by state authorities, or an exemption from such registration and qualification requirements
+is available. The Investor acknowledges that the Company has no obligation to register or qualify the Shares for resale. The Investor
+further acknowledges that if an exemption from registration or qualification is available, it may be conditioned on various requirements
+including, but not limited to, the time and manner of sale, the holding period for the Shares, and on requirements relating to the Company
+which are outside of the Investor’s control, and which the Company is under no obligation and may not be able to satisfy. The Investor
+understands that this offering is not intended to be part of the public offering, and that the Investor will not be able to rely on the
+protection of Section 11 of the Securities Act.
+
+- 投资者理解，该股份尚未、且不会根据证券法进行注册，这是因为根据证券法注册要求下的特定豁免的规定，这取决于（除其他外）此处善意表达的投资意向和投资者陈述的准确性。投资者理解，根据适用的美国联邦和州证券法，股份是“限制性证券”，并且根据这些法律，投资者必须无限期持有股份，除非它们已在美国证券交易委员会登记并获得州当局的资格，或可依赖于证券法注册的豁免条款。投资者承认，公司没有义务登记或限定股份进行转售。投资者进一步承认，如果可以豁免注册或资格，该豁免可能要满足不在投资者的控制范围内的各种条件，包括但不限于出售的时间和方式、股份的持有期限以及与公司有关的要求，公司没有义务也可能无法满足。投资者明白，本次发行无意成为公开发行的一部分，投资者将无法依赖《证券法》第
+11 条的保护。
+
+8
+
+- S
+uch
+Investor understands that the Shares must be held indefinitely unless such Shares are registered under the Securities Act or an exemption
+from registration is available. Such Investor acknowledges that such Investor is familiar with Rule 144 and Rule 144A, of the rules and
+regulations of the Commission, as amended, promulgated pursuant to the Securities Act (“
+Rule 144
+”), and that
+such person has been advised that Rule 144 and Rule 144A, as applicable, permits resales only under certain circumstances. Such Investor
+understands that to the extent that Rule 144 or Rule 144A is not available, such Investor will be unable to sell any Shares without either
+registration under the Securities Act or the existence of another exemption from such registration requirement.
+
+（2）投资者理解，除非此类股份已根据证券法进行注册或可获得豁免注册，否则必须无限期持有这些股份。该投资者承认，该投资者熟悉根据证券法（“第 144 条”）颁布的经修订的委员会规则和条例的第 144 条和第 144A 条，并且该人已被告知第 144 条规则 144A（如适用）仅在特定情况下允许转售。此类投资者理解，在规则 144 或规则 144A 不可用的情况下，此类投资者将无法在未根据证券法进行注册或存在其他豁免注册要求的情况下出售任何股份。
+
+(3)
+
+The Investor understands that no United States federal or state agency or any other government or governmental agency has passed upon or made any recommendation or endorsement of the Shares.
+
+- 投资者了解，美国联邦或州机构或任何其他政府或政府机构均未对股份作出任何推荐或认可。
+
+- The Investor hereby acknowledges
+that upon the issuance thereof, and until such time as the same is no longer required under the applicable securities laws and regulations,
+any certificates representing the Shares and the underlying securities may bear a restrictive legend pursuant to applicable laws and may
+include language substantially similar to the below:
+
+（4）投资者特此承认，在股票发行后，直到适用的证券法律和法规不再要求之前，任何代表股份和相关证券的证书都可能根据适用法律带有限制性图例，并且可能包括与以下内容基本相似的语言：
+
+“THE SECURITIES REFERENCED HEREIN HAVE NOT BEEN REGISTERED UNDER THE SECURITIES ACT OF 1933, AND HAVE BEEN ACQUIRED FOR INVESTMENT AND NOT WITH A VIEW TO, OR IN CONNECTION WITH, THE SALE OR DISTRIBUTION THEREOF. NO SUCH SALE OR DISTRIBUTION MAY BE EFFECTED WITHOUT AN EFFECTIVE REGISTRATION STATEMENT RELATED THERETO OR AN OPINION OF COUNSEL IN A FORM SATISFACTORY TO THE COMPANY THAT SUCH REGISTRATION IS NOT REQUIRED UNDER THE SECURITIES ACT OF 1933.”
+
+“此处提及的证券尚未根据 1933 年《证券法》进行注册，并且已被收购用于投资，而不是为了出售或分配这些证券，或与之相关的目的。如果没有与之相关的有效注册声明或法律意见以公司满意的形式表示根据 1933 年证券法不需要进行此类注册，则不得进行此类销售或分发。”
+
+9
+
+4.7 Access To Company Information . Each Investor, in making the decision to purchase the Shares, has relied solely upon independent investigations made by it and/or its representatives, if any. Each Investor has had an opportunity to review and discuss the Company’s business, management, and financial affairs with the Company’s management. Each Investor understands that such discussions, as well as any written information issued by the Company, were intended to describe the material aspects of the Company’s business. Each Investor has also had an opportunity to review all materials provided to them by the Company in connection with this Agreement and to ask questions of the officers of the Company. Each Investor acknowledges that it understands that the Company publishes periodic reports under the Securities Exchange Act of 1934 on the website of the U.S. Securities and Exchange Commission (the “ SEC ”), which can be accessed at www.sec.gov. Such Investor has read the Company’s periodic reports available online and acknowledges that such information is sufficient for the Investor to evaluate the risks of investing in the Shares. The Investor is not relying on any disclosures concerning the Company made by the Company or any officer, employee or agent of the Company, other than those contained in the public reports filed by the Company with the SEC.
+
+4.7 公司信息的获得 。各投资者在做出购买单位的决定时，完全依赖于其和/或其代表（如果有）进行的独立调查。各投资者已有机会和公司管理层来审阅及讨论公司的业务，管理层及财务信息。各投资者明白此讨论以及公司出具的任何相关书面确认，旨在描述公司的主要实质性业务。各投资者有机会审阅公司提供的与此协议相关的资料并向公司高管提出相关问题。每个投资者承认，其了解公司根据 1934 年证券交易法在美国证券交易委员会 （“SEC”）网站上发布定期报告，该网站可在 www.sec.gov 上访问。此类投资者已阅读公司在线提供的定期报告，并承认此类信息足以让投资者评估投资股份的风险。除公司向美国证券交易委员会提交的公开报告中包含的信息外，投资者不依赖公司或公司任何高级职员、雇员或代理人就公司作出的任何披露。
+
+4.12 Independent Review . Each Investor in making the decision to purchase the Shares subscribed for: (a) has received, read and is familiar with this Agreement; (b) has, prior to any sale, been given access and the opportunity to ask any and all questions it had, and to receive answers from the Company or any person acting on its behalf concerning the Company, its business plan, management and current financial condition, and/or the terms and conditions of the offer and sale of the Shares, and the Investor has received complete and satisfactory answers to any such inquiries; (c) has relied solely upon the information contained within this Agreement or upon information obtained in its own investigation; (d) understands that the attorneys, accountants or other professionals who have been employed to perform services on the Company’s behalf have NOT been employed to represent the interests of the Investor, and represents that it has consulted with and is relying on its own counsel or advisors for independent legal, accounting, financial and tax advice concerning this investment in the Company, including but not limited to advice as to the legality of any resale of the Shares, tax or other consequences of such investment in the Company, and the suitability of the investment for the Investor; (e) acknowledges that the books and records of the Company have been available for inspection upon reasonable notice and during reasonable business hours at the Company’s principal place of business and that the appropriate officers of the Company have been available to answer any questions concerning this investment; and (f) acknowledges that the purchase of the Shares involves a high degree of risk and further acknowledges that it can bear the economic risk of the purchase of the Shares, including the total loss of its investment.
+
+4.12 独立审核。 各投资者在决定购买该股票时，a) 已经获得，审阅，并理解该协议内容; b) 在交易前已被提供公司信息，并且有机会询问有关公司业务计划，管理层和财务状况及有关该股票交易的条件相关问题，得到公司或任何代表公司的个人的答复，且投资者已得到完整满意的回复；c) 仅依赖此协议提供的信息或通过自我调查得到的信息；d) 明白律师，会计师或其他聘请来代表公司提供服务的专业人士并不是被聘请来代表投资者的利益，并陈述确认其已经就此股票交易进行咨询并依赖其自己的律师或顾问来做出独立的法律，会计，财务和税收意见，包括但不限于有关股票的转售性，税收以及该投资的影响，以及该投资者进行该投资的适当性；e) 确认公司的账本已经在合理通知前提下在公司主要运营地和工作时间被提供予以审查，且公司的管理层对该交易的相关问题提供回复; 且 f) 确认该股票的购买涉及高风险并进一步确认购买股票所涉及的经济风险，包括全部失去投资资产。
+
+10
+
+4.13 Authorization . All action on the part of each Investor necessary for the authorization, execution, delivery, and performance of this Agreement by the Investor, the purchase of and payment for the Shares and the performance of all of such Investor’s obligations under this Agreement has been taken or will be taken prior to the Closing. This Agreement, when executed and delivered by each Investor, shall constitute the valid and binding obligation of each Investor, enforceable in accordance with its terms, subject to laws of general application relating to bankruptcy, insolvency, and the relief of debtors and rules of law governing specific performance, injunctive relief, or other equitable remedies. The execution of this Agreement and consummation by Investors of the transactions on their part contemplated herein will not breach or violate any order or judgment of any court or governmental agency or any contract or agreement to which any of the Investors is a party or may be bound.
+
+4.13
+
+授权。 各投资者已经或将会在交割前取得所需的任何决议来授权，签署，递交及履行该协议，并支付该股票对价及履行该投资者在此协议下的相关义务。此协议被签署和送达投资者后，将构成有效的具备约束力的法律文本，其条款具备法律的执行力，受限制于破产法或者其他衡平法赔偿原则。该协议的签署和交易的完成不会使得投资者对任何法庭判令或政府部门决定，或者对该投资者所签署或被约束的其他合同或协议构成违约或者违反行为。
+
+4.14 Brokers or Finders . The Company has not and will not incur, directly or indirectly, as a result of any action taken by any Investor, any liability for brokerage or finders’ fees or agents’ commissions or any similar charges in connection with this Agreement or the transactions contemplated hereby.
+
+4.14 中介或中间人 。公司没有也不会，直接或间接地，因投资者任何行为就此协议交易产生任何中介和中间人费用，代理提成费或类似费用的责任。
+
+4.15 No Violations, Etc . None of the Investors has had a criminal conviction; been the subject of any regulatory enforcement action or any civil order or judgment involving financial fraud or wrongdoing; or been denied or had revoked any license or permit involving securities or any financial business.
+
+4.15 无违法性 。各投资者没有被判处刑事犯罪，或成为任何法律执行的对象或其他涉及金融诈骗或违法行为的民事决定或判决的对象，或被宣告拒绝或没收任何和证券或金融业务相关的执照。
+
+4.16 Ability to Bear Risk . Investor understands and agrees that purchase of the Shares is a high-risk investment and Investor is able to afford and bear an investment in a speculative venture having the risks and objectives of the Company, including a risk of total loss of such investment. Investor must bear the substantial economic risks of the investment in the Shares indefinitely because none of the Shares may be sold, hypothecated or otherwise disposed of unless subsequently registered under the Securities Act and applicable state securities laws or an exemption from such registration(s) are available. The Investor represents that it is able to bear the economic risk of an investment in the Shares and is able to afford a complete loss of such investment.
+
+4.16 风险承担能力 。投资人理解并同意对此股票的购买是具有高风险的投资，投资人有能力支付并承担在具有本公司风险和目标的投机性企业中的投资，包括该投资完全损失的风险。投资人必须无限期地承担在本股票中投资的相当的经济风险，因为除非之后本股票按照证券法案或州证券法进行注册或适用于这些注册相关的豁免条款存在，股票无法被销售、抵押或以其他形式处置。投资人表示有能力承担于此股票中的投资并有能力负担此投资的完全损失。
+
+4.17
+
+No General Solicitation . The Investor is not purchasing the Shares as a result of any advertisement, article, notice or other communication regarding the Shares published in any newspaper, magazine or similar media or broadcast over television or radio or presented at any seminar or any other general solicitation or general advertisement
+
+4.17
+
+无一般劝诱 。投资人购买此股票并不是因为任何在任何报纸、杂志或其他媒体上发表的或在电视或广播上播放的或在任何会议上陈述的广告、文章、通知或其他关于此股票的信息或其他一般劝诱或一般广告。
+
+11
+
+4.18 Exculpation Among Investors . Investor acknowledges that it is not relying upon any Person, other than the Company and its officers and directors, in making its investment or decision to invest in the Company. Investor agrees that Investor is not liable to any other Investors participated in this Offering for any action heretofore taken or omitted to be taken by any of them in connection with the purchase of the Shares.
+
+4.18 投资人间免责 。投资人知晓其在对公司进行投资或作投资决定时并未依赖于公司或其管理人员和董事之外的任何主体。投资人同意投资人并不对任何其他参与此邀约购买的投资人在购买此股票时的相关作为或不作为负责。
+
+4.19 The Company may complete additional financings, including project financing, in the future in order to develop the business of the Company and to fund its ongoing development; there is no assurance that such financings or project financings will be available and, if available, on reasonable terms; failure to obtain sufficient additional funds by way of debt or equity financings or through joint ventures will prevent the continued development of the business of the Company and any such future financings may have a dilutive effect on current security holders, including the Investor;
+
+公司可能在将来为了发展公司业务和为其正在进行的发展提供资金而进行额外融资，包括项目融资；不保证这样的融资或项目融资将会存在，如果存在，会有合理的条款；如无法通过债券或股票融资或共同投资的方式获得足够的额外资金，将会妨碍公司业务的持续发展，另外任何这样的未来融资可能会对现在的证券所有者产生稀释效应，包括投资人。
+
+4.20 General . Such Investor understands that the Shares are being offered and sold in reliance on a transactional exemption from the registration requirements of federal and state securities laws and the Company is relying upon the truth and accuracy of the representations, warranties, agreements, acknowledgments and understandings of such Investor set forth herein in order to determine the applicability of such exemptions and the suitability of such Investor to acquire the Shares.
+
+4.20 综述 。投资人理解此股票的邀约和销售是依据联邦和州的证券法中的交易豁免条款，公司在决定这样的豁免条款是否适用于投资人对此股票的购买时，是依据投资人提供的陈述、保证、协议、承诺和理解的真实性和准确性。
+
+SECTION 5. INDEMNIFICATION .
+
+第 5 节．赔偿条款。
+
+Each Investor, severally and not jointly, agrees to indemnify and hold the Company and any person, if any, who controls the Company, within the meaning of Section 15 of the Securities Act, and the Company’s officers, managers, members, directors, agents, attorneys, and affiliates harmless from and against all damages, losses, costs and expenses, including reasonable attorneys’ fees and expenses reasonably incurred in the investigation or preparation in defense of any litigation commenced or threatened or any claim whatsoever, which they may incur by reason of the failure by such Investor to comply with the terms and conditions of this Agreement, or by reason of any misrepresentation or breach of any warranty or covenant made by such Investor herein, or in any document provided by such Investor to the Company in connection with the Investor’s investment in the Company. Each Investor further agrees that the provisions of this Section will survive (a) the sale, transfer or any attempted sale or transfer of all or a portion of the Ordinary Shares and (b) the death of the Investor.
+
+各投资者，单独地而非共同地，同意对公司及公司的控制人（按证券法的15条规定），公司的高管，经理，成员，董事，代理人，律师以及相关人士，对其投资者由于在此交易中没有遵守此协议，或因为投资者的陈述或保证或投资者提供给公司的文本有误或违约而造成的损失，提供免责和赔偿。各投资者进一步同意此章节的条款将在以下情形依然存活有效 （a）出售，转移或意图出售转移其部分或所有的股票，及（b) 投资者身亡。
+
+12
+
+SECTION 6. CONDITIONS TO CLOSING OF THE INVESTORS.
+
+第 6 节．投资者交割条件。
+
+The Investors’ obligation to purchase the Shares is, unless waived in writing by such Investor, subject to the fulfillment as of the Closing Date of the following conditions:
+
+投资者购买该股票的义务，除非投资者以书面形式豁免，将受制于满足以下的交割条件：
+
+6.1 Representations and Warranties Correct . The representations and warranties made by the Company in Section 3 hereof shall be true and correct in all material respects as of the Closing Date.
+
+6.1 陈述和保证的准确性 。公司在第三节的陈述和保证必须在实质上是真实准确的，以交割日为准。
+
+6.2 Covenants . All covenants, agreements and conditions contained in this Agreement to be performed or complied with by the Company have been performed or complied with in all material respects.
+
+6.2 承诺。 截至交割日为止，公司必须已实质上满足该协议所规定的承诺，协定，及条件。
+
+6.3 No Material Event . The Investors shall not have discovered any material error in, misstatement of or omission to disclose any material fact relating to the Company.
+
+6.3 无重大事件。 投资者并没有发现公司有关的实质性错误，误导，或缺漏披露某重大事实。
+
+SECTION 7. CONDITIONS TO CLOSING OF THE COMPANY.
+
+第 7 节．公司交割条件。
+
+The Company’s obligation to issue and sell the Shares is, unless waived in writing by the Company, subject to the fulfillment as of the Closing Date of the following conditions:
+
+公司出售该股票的义务，除非公司以书面形式豁免，将受制于满足以下的交割条件：
+
+7.1 Representations and Warranties Correct . The representations and warranties made by the Investors in Section 4 hereof shall be true and correct in all material respects as of the Closing Date.
+
+7.1 陈述和保证的准确性。投资者在第四节的陈述和保证必须在实质上是真实准确的，以交割日为准。
+
+7.2 Covenants . All covenants, agreements, and conditions contained in this Agreement to be performed or complied with by the Investors on or prior to the Closing Date shall have been performed or complied with in all material respects.
+
+7.2 承诺 。截至交割日为止，投资者必须已实质上满足该协议所规定的承诺，协定，及条件。
+
+13
+
+SECTION 8. ADDITIONAL COVENANTS.
+
+第 8 节．额外承诺。
+
+8.1 Material Non-Public Information . The Company has not provided to the Investor any material non-public information or other information which, according to applicable law, rule or regulation, was required to have been disclosed publicly by the Company but which has not been so disclosed, other than (i) with respect to the transactions contemplated by this Agreement, or (ii) pursuant to a non-disclosure or confidentiality agreement signed by the Investor.
+
+8.1
+重大非公开信息。根据相关适用法的规定，公司没有向购买人批露任何应当首先向公众批露而未批露的内部信息，但不包括
+- 与本协议中的交易相关的信息，或 (ii)
+根据购买人签署的不公开或内部保密协议而批露的信息。
+
+8.2 Confidential Information . The Investor agrees that such Investor and its employees, agents and representatives will keep confidential and will not disclose, divulge or use (other than for purposes of monitoring its investment in the Company) any confidential information which such Investor may obtain from the Company pursuant to financial statements, reports and other materials submitted by the Company to such Investor pursuant to this Agreement, unless such information is known to the public through no fault of such Investor or his or its employees or representatives; provided, however, that a Investor may disclose such information (i) to its attorneys, accountants and other professionals in connection with their representation of such Investor in connection with such Investor’s investment in the Company, (ii) to any prospective permitted transferee of the Shares, so long as the prospective transferee agrees to be bound by the provisions of this Section 8.2, or (iii) to any general partner or affiliate of such Investor.
+
+8.2 保密信息。投资者同意其对于公司根据本协议和其他交易文件提供给投资者、投资者员工、代理事代理的财务报表、报告或其他材料中的内部信息会保密、不披露、不泄露或使用，除非该内部信息非因投资者的过错而为公众所知悉，但是投资者可以披露以下(i)向投资者的律师、会计和其他专业人士披露其向公司的投资；(ii) 只要未来的股票受让人受本协议第8.2条约束，可以向未来受让人披露；或(iii)向投资者的一般合伙人或关联人披露。
+
+8.3 Transfer Restrictions . Each Investor covenants that the Shares will only be disposed of pursuant to an effective registration statement under, and in compliance with the requirements of, the Securities Act or pursuant to an available exemption from the registration requirements of the Securities Act, and in compliance with any applicable state securities laws.
+
+8.3 转移限制。各投资者承诺，此股票仅能依赖生效的注册文书且遵守证券法的相关规定，或通过证券法规定的某种豁免条件且遵守相应的州证券法才能进行处置。
+
+14
+
+SECTION 9. MISCELLANEOUS.
+
+第 9 节．其他条款。
+
+9.1 Governing Law . This Agreement shall be governed by and construed and enforced in accordance with the internal laws of the State of New York without giving effect to conflict of law provisions.
+
+9.1 适用法律。 此协议应当受美国纽约州的法律所管辖，而不是有关冲突法效力所限制。
+
+9.2 Entire Agreement; Amendment . This Agreement, and any other documents delivered pursuant hereto, including exhibits or schedules hereto, constitute the full and entire understanding and agreement among the parties with regard to the subject hereof and no party shall be liable or bound to any other party in any manner by any warranties, representations or covenants except as specifically set forth herein or therein. Except as expressly provided herein, neither this Agreement nor any term hereof may be amended, waived, discharged or terminated other than by a written instrument signed by the Company and the Investors holding a majority of the Shares.
+
+9.2 合同的完整性，修改案。 此协议或任何其他与该协议相关的文本，包括附件和附表，构成合同双方认知的完整的法律文本。除该协议确认的内容外，任何一方不被其他保证，陈述或承诺所约束。 除合同明确规定外，任何对此协议或其条款的任何修改，豁免释放或终止，必须以书面形式由公司和持有过半股票数的投资者确认。
+
+9.3 Notices, Etc . All notices and other communications required or permitted hereunder shall be in writing and shall be mailed by registered or certified mail, postage prepaid, or otherwise delivered by electronic mail, facsimile transmission, by hand or by messenger or overnight express, addressed:
+
+9.3 通知 。所有该协议规定的通知和沟通必须以书面形式通过邮递注册信或签收确认函形式，附带已支付邮戳，或通过电子邮件形式，传真，或亲自或通过投递人送达或隔日送达，地址为：
+
+[[TABLE]]
+| | (a) | if to any Investors, to be delivered to the address set forth on their signature page. |
+| --- | --- | --- |
+[[/TABLE]]
+
+如给投资者，送达至其签字页列明的地址。
+
+[[TABLE]]
+| | (b) | if to the Company, to: |
+| --- | --- | --- |
+[[/TABLE]]
+
+Happiness Development Group Limited
+
+No. 11, Dongjiao East Road, Shuangxi, Shunchang, Nanping City
+
+Fujian Province, People’s Republic of China
+
+Attn: Xuezhu Wang, Chief Executive Officer
+
+Email: snow@fjxfl.com
+
+With a copy to
+
+Hunter Taubman Fischer & Li LLC
+
+48 Wall Street, Suite 1100
+
+New York, NY 10005
+
+Attn: Joan Wu, Esq.
+
+Email: Jwu@htflawyers.com
+
+如送达公司：
+
+Each such notice or other communication shall for all purposes of this Agreement be treated as effective or having been given when received if delivered personally, if sent by electronic mail or facsimile, the first business day after the date of confirmation that the electronic mail or facsimile, as applicable, has been successfully transmitted to the email address or facsimile number, as applicable, for the party notified, or, if sent by mail, at the earlier of its receipt and seventy-two (72) hours after the same has been deposited in a regularly maintained receptacle for the deposit of the United States mail, addressed and mailed as aforesaid.
+
+所有通知和沟通如亲自递送将于送达个人完成时视为送达生效；若通过电邮或传真，在确认邮件和传真已经成功发送准确地址的下一个工作日视为送达生效；如通过邮件递送，将会以投递邮件后的72小时或其实际收到邮件的日期，两者之更早者视为送达。
+
+15
+
+9.4 Delays or Omissions . Except as expressly provided herein, no delay or omission to exercise any right, power or remedy accruing to any party, upon any breach or default of another party under this Agreement, shall impair any such right, power, or remedy of such party nor shall it be construed to be a waiver of any such breach or default, or an acquiescence therein, or of any similar breach or default thereafter occurring; nor shall nay waiver of any single breach or default be deemed a waiver of any other breach or default theretofore or thereafter occurring. Any waiver, permit, consent, or approval of any kind or character on the part of any party of any breach or default under this Agreement, or any waiver on the part of any party of any provisions or conditions of this Agreement, must be in writing and shall be effective only to the extent specifically set forth in such writing. All remedies, either under this Agreement or by law or otherwise afforded to any party, shall be cumulative and not alternative.
+
+9.4 延误或不作为。 除了该协议另有规定外，就某合同方在此协议下的违约行为，任何对行使协议规定的权利或索赔的延误或不作为，将不应影响该合同方的合同权利和理赔权，亦不应被解释为对该违约行为及后续的违约行为的豁免。任何豁免，批准，同意或批准此违约方的违约行为，或任何对合同方履行协议的条件的豁免，均需以书面形式确认，并仅对书面确认内容具备效力。按照该协议和相关法律所获得的赔偿应是可累积的，而不是取代性的。
+
+9.5 Expenses . Each party will pay all of their expenses, including without limitation, counsel or other professional fees and disbursements but excluding any brokerage or finders’ fees or agents’ commissions or any similar charges, reasonably incurred in connection with the negotiation and preparation of this Agreement and the transactions contemplated herein.
+
+9.5 费用 。各合同方将对其与该协议的谈判起草和签署等负责各自的开销，包括但不限于，法务或其他专业人士费用或开销，但不包括任何中介或中间人费用或中介提成类似费用。
+
+9.6 Counterparts and Translation . This Agreement may be executed in any number of counterparts, each of which shall be an original, and all of which together shall constitute one instrument. The English version of this Agreement shall be controlling in all respects and shall prevail in case of any inconsistencies with translated versions, if any. Any other language versions of this Agreement are provided for convenience only.
+
+9.6 合同副本及翻译 。此协议可以多件副本来签署，而每个副本均为原件，且全部的副本整体将构成同一法律文本。此协议的英文版本在各方面均具有决定性，如有和其他翻译版本存在不一致内容，以英文版本为准。此协议的任何其他语言的译本仅基于方便审阅的目的而提供。
+
+9.7 Severability . In the event that any provision of this Agreement becomes or is declared by a court of competent jurisdiction to be illegal, unenforceable or void, this Agreement shall continue in full force and effect without said provision, which shall be replaced with an enforceable provision closest in intent and economic effect as the severed provision; provided that no such severability shall be effective if it materially changes the economic benefit of this Agreement to any party.
+
+9.7
+
+可分割性。 如此协议的某条款因某种原因被具备管辖权的法庭认定为不合法，无执行力，或无效，此协议的其他条款部分仍应具备法律效力，而针对该无效条款以在意图和经济利益上最接近的条款来取代该无效条款，除非该条款的分割性将导致对协议的任何一方造成实质性的经济利益的改变。
+
+9.8 Title and Subtitles . The titles and subtitles used in this Agreement are used for convenience only and are not to be considered in construing or interpreting this Agreement.
+
+9.8 标题和副标。 此协议的标题和副标是基于方便性，而并非作为诠释或解读该协议的基础。
+
+16
+
+9.9 Knowledge Convention . For all purposes of this Agreement, the term “knowledge” means, with respect to an individual, that such individual is actually aware of a particular fact or other matter, with no obligation to conduct any inquiry or other investigation to determine the accuracy of such fact or other matter. A person other than an individual shall be deemed to have knowledge of a particular fact or other matter if the officers, directors or other management personnel of such person had knowledge of such fact or other matter.
+
+9.9 认知规则 。此协议下的有关“认知”，是指某个人的认知，且该个人对某事实或事项具备实际性的认知，无需经过进一步询问或其他调查来确认其事实或事项的准确性。如某法人的公司官员，董事或管理层成员具备对事实或事项的实际认知，则表示该法人本身具备对此事实或事项的认知。
+
+9.10 Survival of Warranties . The representations and warranties of the Company and the Investors contained in or made pursuant to this Agreement shall survive execution and delivery of this Agreement and the Closing for a period of two (2) years and shall in no way be affected by any investigation of the subject matter thereof made by or on behalf of the Investors or the Company.
+
+9.10 保证的存活期。 公司及投资者在本协议相关的陈述和保证将于该协议的签署送达及交割的两年内具备存活性，将不会因公司或投资者或其代表对某事项的调查而影响。
+
+9.11 Successors and Assigns . Except as otherwise expressly provided herein, the provisions hereof shall inure to the benefit of, and be binding upon, the successors, assigns, heirs, executors and administrators of the parties hereto, as the case may be.
+
+9.11 继承者和转让方。 除此协议其他规定除外，该协议的权利义务对合同方的利益继承者，转让方，继承人，执行者和管理人具备同等效力。
+
+9.12 Further Assurances . Each party hereto agrees to do all acts and things, and to make, execute and deliver such written instruments, as shall from time to time be reasonably required to carry out the terms and provisions of this Agreement.
+
+9.12 进一步确认。 各合同方同意，如有合理需要，会进一步配合、签署和送达相关法律文书来履行该协议规定的相关法律义务。
+
+[ Signatures on Following Page ]
+
+【以下为签字页】
+
+17
+
+IN WITNESS WHEREOF, the parties hereto have executed this Securities Purchase Agreement as of the day and year first above written.
+
+经见证，各合同方于以上列明日期签署该股票购买协议。
+
+[[TABLE]]
+| Happiness Development Group Limited | | |
+| --- | --- | --- |
+| | | |
+| By: | | |
+| Name: | Xuezhu Wang | |
+| Title: | Chief Executive Officer | |
+[[/TABLE]]
+
+INVESTOR SIGNATURE PAGE
+
+投资者签字页
+
+[[TABLE]]
+| Date 日期: _________, 2022 | Name of Investor 投资者: | | |
+| --- | --- | --- | --- |
+| | | | |
+| | __________________________________ | | |
+| | [Entity Name (if any) 公司名称（如有） | | |
+| | | | |
+| | By: | | |
+| | | Name （姓名）: | |
+| | | Title （职位）: | |
+| | | | |
+| | Address 地址:
+ ______________________________ | | |
+| | State of Principal
+ Residence （州）: ______________ | | |
+| | State of Incorporation/Organization：__________________ | | |
+| | 公司成立州: ____________________ | | |
+| | EIN/Social Security Number: __________________ | | |
+| | 公司税号/社会安全号
+ __________________________ | | |
+| | Telephone No .电话: _________________________ | | |
+| | Facsimile No. 传真: __________________________ | | |
+| | Email Address 电邮: _________________________ | | |
+| | | | |
+| | [  ] U.S. Person (Check if applicable) | | |
+| | 美国人（如适用请勾选） | | |
+[[/TABLE]]
+
+[[TABLE]]
+| Delivery Instructions (if different than above): | |
+| --- | --- |
+| | |
+| 递送地址（如和以上地址不同）: ____________________ | |
+| c/o 收件人: ______________________________ | |
+| Address 地址: ___________________________ | |
+| Telephone No.电话: ____________________ | |
+| Facsimile No. 传真 : ___________________ | |
+| Other Special Instructions: | |
+| 其他指示:
+ ___________________________ | |
+[[/TABLE]]

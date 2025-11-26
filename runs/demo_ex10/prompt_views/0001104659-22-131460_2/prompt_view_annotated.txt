@@ -1,0 +1,342 @@
+[[A0001]]
+Exhibit 10.1
+
+[[A0002]]
+MARKMORE SUPPORT AGREEMENT
+
+[[A0003]]
+This VOTING AGREEMENT (this “ Agreement ”), is entered into as of December 30, 2022 (the “ Effective Date ”), by and among Markmore Energy (Labuan) Limited, a Malaysia limited liability company (“ Markmore ”), Liberty Onshore Energy B.V., a Dutch private limited liability company (“ PubCo ”), and Liberty Resources Acquisition Corp., a Delaware corporation (“ Liberty ”).
+
+[[A0004]]
+Terms used but not defined in this Agreement shall have the meanings ascribed to them in the Business Combination Agreement (as defined below).
+
+[[A0005]]
+WHEREAS, on December 15, 2022, Liberty, PubCo, and Markmore, and other parties entered into that certain Business Combination Agreement (the “ Business Combination Agreement ”);
+
+[[A0006]]
+WHEREAS, under the Business Combination Agreements Markmore and PubCo agreed to enter into this Agreement; and
+
+[[A0007]]
+WHEREAS, in accordance with the Business Combination Agreement, Markmore and PubCo is executing and delivering this Agreement to Liberty.
+
+[[A0008]]
+NOW, THEREFORE, in consideration of the foregoing and of the mutual covenants and agreements contained herein, and intending to be legally bound hereby, Markmore, PubCo, and Liberty hereby agree as follows:
+
+[[A0009]]
+1.
+
+[[A0010]]
+Markmore’s Agreement to Vote .
+
+[[A0011]]
+[[TABLE]]
+| | a. | Markmore agrees, solely in its capacity as the controlling shareholder, of PubCo to approve by written
+resolution all of its Markmore Shares in favor of the approval of the Share Exchange. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0012]]
+[[TABLE]]
+| | b. | Markmore agrees (and agrees to execute such documents or certificates evidencing such agreement as Liberty
+may reasonably request in connection therewith) to approve, solely in its capacity as the sole shareholder of PubCo (prior to the Share
+Exchange) and as the controlling shareholder of PubCo (after the Share Exchange), at PubCo’s general meeting for the PubCo Restructuring,
+the PubCo Reorganization, and the Merger. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0013]]
+[[TABLE]]
+| | c. | Markmore agrees, solely in its capacity as the controlling shareholder, of PubCo to vote and to cause
+PubCo to vote in its capacity as the controlling equity interest holder in HoldCo and Merger Sub, in favor of the Share Exchange, Merger,
+and any other matter reasonably necessary to the consummation of the transactions contemplated by the Business Combination Agreement and
+considered and voted upon by the interest holders of Markmore and PubCo. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0014]]
+[[TABLE]]
+| | d. | Markmore agrees that it will cause each of the Markmore Shareholders to execute and deliver a Lock-Up
+Agreement to PubCo in accordance with the Business Combination Agreement. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0015]]
+2.
+
+[[A0016]]
+Transfer of Shares .
+
+[[A0017]]
+Markmore agrees that it shall not, directly or indirectly, except as otherwise contemplated pursuant to the Business Combination Agreement, (a) sell, assign, transfer (including by operation of law), redeem, lien, pledge, distribute, dispose of or otherwise encumber any of the shares or otherwise agree to do any of the foregoing (unless the transferee agrees to be bound by this Agreement), (b) deposit any shares into a voting trust, enter into a voting agreement or arrangement or grant any proxy or power of attorney with respect thereto that is inconsistent with this Agreement, (c) enter into any contract, option or other arrangement or undertaking with respect to the direct or indirect acquisition or sale, assignment, transfer (including by operation of law), redemption or other disposition of any shares (unless the transferee agrees to be bound by this Agreement) or (d) take any action that would have the effect of preventing or disabling Markmore from performing its obligations hereunder.
+
+[[A0018]]
+3.
+
+[[A0019]]
+Waiver .
+
+[[A0020]]
+Markmore hereby waives (and agrees to execute such documents or certificates evidencing such waiver as Liberty may reasonably request) any adjustment to the conversion ratio set forth in the certificate of incorporation (whether resulting from the transactions contemplated hereby, by the Business Combination Agreement or by any other transaction consummated in connection with the transactions contemplated hereby and thereby).
+
+[[A0021]]
+4.
+
+[[A0022]]
+Representations and Warranties . Markmore represents and warrants for and on behalf of itself to Liberty as follows:
+
+[[A0023]]
+[[TABLE]]
+| | a. | The
+ execution, delivery and performance by Markmore of this Agreement and the consummation by
+ Markmore of the transactions contemplated hereby do not and will not (i) conflict with
+ or violate any law or order applicable to Markmore, (ii) require any consent, approval or
+ authorization of, declaration, filing or registration with, or notice to, any person or entity,
+- result in the creation of any lien on any shares (other than pursuant to this Agreement
+ or transfer restrictions under applicable securities laws or the organizational documents
+ of Markmore) or (iv) conflict with or result in a breach of or constitute a default under
+ any provision of Markmore’s Organizational Documents. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0024]]
+[[TABLE]]
+| | b. | Markmore
+ owns of record and has good, valid and marketable title to the shares free and clear of any
+ lien (other than pursuant to this Agreement or transfer restrictions under applicable securities
+ laws or the organizational documents of Markmore) and has the sole power (as currently in
+ effect) to vote and has the full right, power and authority to sell, transfer and deliver
+ such shares. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0025]]
+[[TABLE]]
+| | c. | Markmore
+ has the power, authority and capacity to execute, deliver and perform this Agreement, and
+ this Agreement has been duly authorized, executed and delivered by Markmore. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0026]]
+5. Termination . This Agreement and the obligations of Markmore under this Agreement shall automatically terminate upon the earliest of: (a) the termination of the Business Combination Agreement in accordance with its terms; or (b) the mutual agreement of Markmore and Liberty.
+
+[[A0027]]
+Upon termination or expiration of this Agreement, no party shall have any further obligations or liabilities under this Agreement; provided, however, such termination or expiration shall not relieve any party from liability for any willful breach of this Agreement occurring prior to its termination.
+
+[[A0028]]
+6.
+
+[[A0029]]
+Miscellaneous .
+
+[[A0030]]
+[[TABLE]]
+| | a. | Except as otherwise provided herein or in the Business Combination Agreement, all costs and expenses incurred
+in connection with this Agreement and the transactions contemplated hereby shall be paid by the party incurring such costs and expenses,
+whether or not the transactions contemplated hereby are consummated. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0031]]
+[[TABLE]]
+| | b. | All notices, requests, claims, demands and other communications hereunder shall be in writing and shall
+be given (and shall be deemed to have been duly given upon receipt) by delivery in person, by telecopy or e-mail or by registered or certified
+mail (postage prepaid, return receipt requested) to the respective parties at the following addresses (or at such other address for a
+party as shall be specified in a notice given in accordance with this Section : |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0032]]
+If to Liberty, to:
+
+[[A0033]]
+Liberty Resources Acquisition Corp.
+
+[[A0034]]
+Suite 500, 78 SW 7 th Street
+
+[[A0035]]
+Miami, Florida 33130
+
+[[A0036]]
+Attn: Dato’ Maznah Binti Abdul Jalil
+
+[[A0037]]
+E-mail: jalilmash@yahoo.com
+
+[[A0038]]
+with a copy (which shall not constitute notice) to:
+
+[[A0039]]
+Nelson Mullins Riley & Scarborough LLP
+
+[[A0040]]
+101 Constitution Ave NW, Suite 900
+
+[[A0041]]
+Washington, DC 20001
+
+[[A0042]]
+Attention: Andy Tucker
+
+[[A0043]]
+Telephone: (202) 689-2987
+
+[[A0044]]
+E-mail: andy.tucker@nelsonmullins.com
+
+[[A0045]]
+If to Markmore, to:
+
+[[A0046]]
+Markmore Energy Labuan Limited
+
+[[A0047]]
+No. 43, The Boulevard, Mid Valley City, Lingkaran Syed Putra, 59200, Kuala Lumpur, Malaysia
+
+[[A0048]]
+Email: abutalib@atsz.com .my
+
+[[A0049]]
+If to PubCo, to:
+
+[[A0050]]
+Liberty Onshore Energy B.V.
+
+[[A0051]]
+c/o Markmore Energy Labuan Limited
+
+[[A0052]]
+No. 43, The Boulevard, Mid Valley City, Lingkaran Syed Putra, 59200, Kuala Lumpur, Malaysia
+
+[[A0053]]
+Email: abutalib@atsz.com .my
+
+[[A0054]]
+[[TABLE]]
+| | c. | If any term or other provision of this Agreement is invalid, illegal or incapable of being enforced by
+any rule of law, or public policy, all other conditions and provisions of this Agreement shall nevertheless remain in full force and effect
+so long as the economic or legal substance of the transactions contemplated hereby is not affected in any manner materially adverse to
+any party. Upon such determination that any term or other provision is invalid, illegal or incapable of being enforced, the parties hereto
+shall negotiate in good faith to modify this Agreement so as to affect the original intent of the parties as closely as possible in a
+mutually acceptable manner in order that the transactions contemplated hereby be consummated as originally contemplated to the fullest
+extent possible. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0055]]
+[[TABLE]]
+| | d. | This Agreement and the Business Combination Agreement constitute the entire agreement among the parties
+with respect to the subject matter hereof and supersede all prior agreements and undertakings, both written and oral, among the parties,
+or any of them, with respect to the subject matter hereof. This Agreement shall not be assigned (whether pursuant to a merger, by operation
+of law or otherwise). This Agreement may not be amended or modified in any respect, except by a written agreement executed by all of the
+parties hereto. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0056]]
+[[TABLE]]
+| | e. | This Agreement shall be binding upon and inure solely to the benefit of each party hereto, and nothing
+in this Agreement, express or implied, is intended to or shall confer upon any other person any right, benefit or remedy of any nature
+whatsoever under or by reason of this Agreement. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0057]]
+[[TABLE]]
+| | f. | The parties hereto agree that irreparable damage may occur in the event any provision of this Agreement
+was not performed in accordance with the terms hereof and that the parties shall be entitled to specific performance of the terms hereof,
+in addition to any other remedy at law or in equity. Each of the parties agrees that it shall not oppose the granting of an injunction,
+specific performance and other equitable relief when expressly available pursuant to the terms of this Agreement on the basis that the
+other parties have an adequate remedy at law or an award of specific performance is not an appropriate remedy for any reason at law or
+equity. Any party seeking an injunction or injunctions to prevent breaches or threatened breaches of, or to enforce compliance with this
+Agreement when expressly available pursuant to the terms of this Agreement shall not be required to provide any bond or other security
+in connection with any such order. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0058]]
+[[TABLE]]
+| | g. | This Agreement and any dispute or controversy arising out of or relating to this Agreement shall be governed
+by and construed in accordance with the laws of the State of New York, without regard to the conflict of law principles thereof. All actions
+arising out of or relating to this Agreement shall be heard and determined exclusively in any federal court located in the Southern District
+of New York, New York (or in any appellate courts thereof) (the “ Specified Courts ”). Each party hereto hereby
+- submits to the exclusive jurisdiction of any Specified Court for the purpose of any action arising out of or relating to this Agreement
+brought by any party hereto and (ii) irrevocably waives, and agrees not to assert by way of motion, defense or otherwise, in any such
+action, any claim that it is not subject personally to the jurisdiction of the above-named courts, that its property is exempt or immune
+from attachment or execution, that the action is brought in an inconvenient forum, that the venue of the action is improper, or that this
+Agreement or the transactions contemplated hereby may not be enforced in or by any Specified Court. Each party agrees that a final judgment
+in any action shall be conclusive and may be enforced in other jurisdictions by suit on the judgment or in any other manner provided by
+Law. Each party irrevocably consents to the service of the summons and complaint and any other process in any other action or proceeding
+relating to the transactions contemplated by this Agreement, on behalf of itself, or its property, by personal delivery of copies of such
+process to such party at the applicable address set forth in Section 6(b) . Nothing in this Section 6(g ) shall affect the
+right of any party to serve legal process in any other manner permitted by applicable law. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0059]]
+[[TABLE]]
+| | h. | This Agreement may be executed and delivered (including by portable document format (pdf) transmission)
+in one or more counterparts, and by the different parties hereto in separate counterparts, each of which when executed shall be deemed
+to be an original but all of which taken together shall constitute one and the same agreement. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0060]]
+[[TABLE]]
+| | i. | Without further consideration, each party shall use commercially reasonable efforts to execute and deliver
+or cause to be executed and delivered such additional documents and instruments and take all such further action as may be reasonably
+necessary or desirable to consummate the transactions contemplated by this Agreement. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0061]]
+[[TABLE]]
+| | j. | Each of the parties hereto hereby waives to the fullest extent permitted by applicable law any right it
+may have to a trial by jury with respect to any litigation directly or indirectly arising out of, under or in connection with this Agreement.
+Each of the parties hereto (i) certifies that no representative, agent or attorney of any other party has represented, expressly or otherwise,
+that such other party would not, in the event of litigation, seek to enforce that foregoing waiver and (ii) acknowledges that it and the
+other parties hereto have been induced to enter into this Agreement and the transactions contemplated hereby, as applicable, by, among
+other things, the mutual waivers and certifications in this Paragraph (j). |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0062]]
+[Signature pages follow]
+
+[[A0063]]
+IN WITNESS WHEREOF, the parties hereto have hereunto caused this Markmore Support Agreement to be duly executed as of the date hereof.
+
+[[A0064]]
+[[TABLE]]
+| LIBERTY | | |
+| --- | --- | --- |
+| | | |
+| LIBERTY RESOURCES ACQUISITION CORP. | | |
+| | | |
+| By: | /s/ Dato’ Maznah Binti Abdul Jalil | |
+| Name: | Dato’ Maznah Binti Abdul Jalil | |
+| Title: | Chief Executive Officer | |
+| | | |
+| MARKMORE | | |
+| | | |
+| MARKMORE ENERGY (LABUAN) LIMITED | | |
+| | | |
+| By: | /s/ Tan Sri Halim Saad | |
+| Name: | Tan Sri Halim Saad | |
+| Title: | Executive Chairman | |
+[[/TABLE]]
+
+[[A0065]]
+[[TABLE]]
+| PUBCO | | | | |
+| --- | --- | --- | --- | --- |
+| | | | | |
+| LIBERTY ONSHORE ENERGY B.V. , | | | | |
+| | | | | |
+| | By: | Markmore Energy (Labuan) Limited, its Manager | | |
+| | | | | |
+| | | By: | /s/ Abu Talib bin Abdul Rahman | |
+| | | Name: | Abu Talib bin Abdul Rahman | |
+| | | Title: | Director | |
+[[/TABLE]]

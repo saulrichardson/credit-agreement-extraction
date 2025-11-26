@@ -1,0 +1,568 @@
+Exhibit 10.2
+
+CONVERTIBLE PROMISSORY NOTE
+
+December 30, 2022	U.S. $3,230,000.00
+
+FOR VALUE RECEIVED, CN Energy Group. Inc. , a British Virgin Islands company (“ Borrower ”), promises to pay to Streeterville Capital, LLC , a Utah limited liability company, or its successors or assigns (“ Lender ”), $3,230,000.00 and any interest, fees, charges, and late fees accrued hereunder on the date that is twelve (12) months after the Purchase Price Date (the “ Maturity Date ”) in accordance with the terms set forth herein and to pay interest on the Outstanding Balance at the rate of seven percent (7%) per annum from the Purchase Price Date until the same is paid in full. All interest calculations hereunder shall be computed on the basis of a 360-day year comprised of twelve (12) thirty (30) day months, simple interest and shall be payable in accordance with the terms of this Note. This Convertible Promissory Note (this “ Note ”) is issued and made effective as of December 30, 2022 (the “ Effective Date ”). This Note is issued pursuant to that certain Securities Purchase Agreement dated December 30, 2022, as the same may be amended from time to time, by and between Borrower and Lender (the “ Purchase Agreement ”). Certain capitalized terms used herein are defined in Attachment 1 attached hereto and incorporated herein by this reference.
+
+This Note carries an OID of $210,000.00. In addition, Borrower agrees to pay $20,000.00 to Lender to cover Lender’s legal fees, accounting costs, due diligence, monitoring and other transaction costs incurred in connection with the purchase and sale of this Note (the “ Transaction Expense Amount ”). All of the OID and the Transaction Expense Amount is fully earned as of the Effective Date and is included in the initial principal balance. The purchase price for this Note shall be $3,000,000.00 (the “ Purchase Price ”), computed as follows: $3,230,000.00 original principal balance, less the OID, less the Transaction Expense Amount. The Purchase Price shall be payable by Lender by wire transfer of immediately available funds.
+
+1. Payment; Prepayment
+
+1.1.
+
+Payment . All payments owing hereunder shall be in lawful money of the United States of America or Conversion Shares (as defined below), as provided for herein, and delivered to Lender at the address or bank account furnished to Borrower for that purpose. All payments shall be applied first to (a) costs of collection, if any, then to (b) fees and charges, if any, then to (c) accrued and unpaid interest, and thereafter, to (d) principal.
+
+1.2.
+
+Prepayment
+. So long as no Event of Default (as defined below) has occurred, Borrower shall have the right, exercisable on
+not less than five (5) Trading Days prior written notice to Lender to prepay the Outstanding Balance (less such portion of the Outstanding
+Balance for which Borrower has received a Conversion Notice (as defined below) from Lender where the applicable Conversion Shares have
+not yet been delivered) of this Note, in part or in full, in accordance with this Section 1.2. Any notice of prepayment hereunder (an
+“
+Optional Prepayment Notice
+”) shall be delivered to Lender at its registered address or through email and shall state:
+- that Borrower is exercising its right to prepay this Note, and (ii) the date of prepayment, which shall be not less than five (5)
+Trading Days from the date of the Optional Prepayment Notice. On the date fixed for prepayment (the “
+Optional Prepayment Date
+”),
+Borrower shall make payment of the Optional Prepayment Amount (as defined below) to or upon the order of Lender as may be specified by
+Lender in writing to Borrower. For the avoidance of doubt, Lender shall be entitled to exercise its Conversion (as defined below) rights
+until the Optional Prepayment Date. If Borrower exercises its right to prepay this Note, Borrower shall make payment to Lender of an amount
+in cash equal to 105% multiplied by the then Outstanding Balance of this Note being repaid (the “
+Optional Prepayment Amount
+”).
+In the event Borrower delivers the Optional Prepayment Amount to Lender prior to the Optional Prepayment Date, the Optional Prepayment
+Amount shall not be deemed to have been paid to Lender until the Optional Prepayment Date. In the event Borrower delivers the Optional
+Prepayment Amount without an Optional Prepayment Notice, then the Optional Prepayment Date will be deemed to be the date that is five
+- Trading Days from the date that the Optional Prepayment Amount was delivered to Lender and Lender shall be entitled to exercise its
+conversion rights set forth herein during such five (5) Trading Day period. In addition, if Borrower delivers an Optional Prepayment Notice
+and fails to pay the Optional Prepayment Amount due to Lender within five (5) Trading Days following the Optional Prepayment Date, Borrower
+shall forever forfeit its right to prepay this Note.
+
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+2. Security . This Note is unsecured.
+
+3. Lender Optional Conversion .
+
+3.1.
+
+Lender Conversions . Lender has the right at any time after the date that is sixty (60) days from the Purchase Price Date until the Outstanding Balance has been paid in full, at its election, to convert (“ Lender Conversion ”) all or any portion of the Outstanding Balance into shares (“ Lender Conversion Shares ”) of fully paid and non-assessable Class A Ordinary Shares, no par value (the “ Class A Ordinary Shares ”), of Borrower as per the following conversion formula: the amount being converted (the “ Conversion Amount ”) divided by the Lender Conversion Price (as defined below). Conversion notices in the form attached hereto as Exhibit A (each, a “ Lender Conversion Notice ”) may be effectively delivered to Borrower by any method set forth in the “Notices” Section of the Purchase Agreement, and all Lender Conversions shall be cashless and not require further payment from Lender. Borrower shall deliver the Lender Conversion Shares from any Lender Conversion to Lender in accordance with Section 9 below. Any Lender Conversion Shares delivered prior to the date that is six (6) months from the Purchase Price Date must be registered pursuant an effective registration statement.
+
+3.2.
+
+Lender Conversion Price . Subject to adjustment as set forth in this Note, the price at which Lender has the right to convert all or any portion of the Outstanding Balance into Class A Ordinary Shares is $2.00 per share (the “ Lender Conversion Price ”).
+
+4. Trigger Events, Defaults and Remedies .
+
+4.1.
+
+Trigger Events
+. The following are trigger events under this Note (each, a “
+Trigger Event
+”): (a) Borrower
+fails to deliver any Conversion Shares (as defined below) in accordance with the terms hereof; (b) Borrower fails to pay any principal,
+interest, fees, charges, or any other amount when due and payable hereunder; (c) a receiver, trustee or other similar official shall be
+appointed over Borrower or a material part of its assets and such appointment shall remain uncontested for twenty (20) days or shall not
+be dismissed or discharged within sixty (60) days; (d) Borrower becomes insolvent or generally fails to pay, or admits in writing its
+inability to pay, its debts as they become due, subject to applicable grace periods, if any; (e) Borrower makes a general assignment for
+the benefit of creditors; (f) Borrower files a petition for relief under any bankruptcy, insolvency or similar law (domestic or foreign);
+- an involuntary bankruptcy proceeding is commenced or filed against Borrower; (h) the occurrence of a Fundamental Transaction without
+Lender’s prior written consent; (i) Borrower fails to observe or perform any covenant set forth in Section 4 of the Purchase Agreement
+(other than Section 4(vii) of the Purchase Agreement); (j) Borrower fails to maintain the Share Reserve (as defined in the Purchase Agreement);
+- Borrower defaults or otherwise fails to observe or perform any covenant, obligation, condition or agreement of Borrower contained
+herein or in any other Transaction Document (as defined in the Purchase Agreement), in any material respect, other than those specifically
+set forth in this Section 4.1 and Section 4 of the Purchase Agreement; (l) any representation, warranty or other statement made or furnished
+by or on behalf of Borrower to Lender herein, in any Transaction Document, or otherwise in connection with the issuance of this Note is
+false, incorrect, incomplete or misleading in any material respect when made or furnished; (m) Borrower effectuates a reverse split of
+its Class A Ordinary Shares without twenty (20) Trading Days prior written notice to Lender, unless the reverse split is required to maintain
+compliance with the minimum bid price requirements of the principal market; (n) any money judgment, writ or similar process is entered
+or filed against Borrower or any subsidiary of Borrower or any of its property or other assets for more than $500,000.00, and shall remain
+unvacated, unbonded or unstayed for a period of ninety (90) calendar days unless otherwise consented to by Lender; (o) Borrower fails
+to be DWAC Eligible; or (p) Borrower breaches any material covenant or other material term or condition contained in any Other Agreements.
+
+[[TABLE]]
+| | 2 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+4.2.
+
+Trigger Event Remedies . At any time following the occurrence of any Trigger Event, Lender may, at its option, increase the Outstanding Balance by applying the Trigger Effect.
+
+4.3.
+
+Defaults . At any time following the occurrence of a Trigger Event, Lender may, at its option, send written notice to Borrower demanding that Borrower cure the Trigger Event within ten (10) Trading Days following the date of such written notice. If Borrower fails to cure the Trigger Event within the required ten (10) Trading Day cure period, the Trigger Event will automatically become an event of default hereunder (each, an “ Event of Default ”).
+
+4.4.
+
+Default Remedies . At any time and from time to time following the occurrence of any Event of Default, Lender may accelerate this Note by written notice to Borrower, with the Outstanding Balance becoming immediately due and payable in cash at the Mandatory Default Amount.). Notwithstanding the foregoing, upon the occurrence of any Trigger Event described in clauses 4.1(c) – 4.1(g), an Event of Default will be deemed to have occurred and the Outstanding Balance as of the date of the occurrence of such Trigger Event shall become immediately and automatically due and payable in cash at the Mandatory Default Amount, without any written notice required by Lender for the Trigger Event to become an Event of Default. At any time following the occurrence of any Event of Default, upon written notice given by Lender to Borrower, interest shall accrue on the Outstanding Balance beginning on the date the applicable Event of Default occurred at an interest rate equal to the lesser of fifteen percent (15%) per annum or the maximum rate permitted under applicable law (“ Default Interest ”). For the avoidance of doubt, Lender may continue making Conversions at any time following a Trigger Event or an Event of Default until such time as the Note is paid in full. In connection with acceleration described herein, Lender need not provide, and Borrower hereby waives, any presentment, demand, protest or other notice of any kind, and Lender may immediately and without expiration of any grace period enforce any and all of its rights and remedies hereunder and all other remedies available to it under applicable law. Such acceleration may be rescinded and annulled by Lender at any time prior to payment hereunder and Lender shall have all rights as a holder of the Note until such time, if any, that Lender receives full payment pursuant to this Section 4.4. No such rescission or annulment shall affect any subsequent Trigger Event or Event of Default or impair any right consequent thereon. Nothing herein shall limit Lender’s right to pursue any other remedies available to it at law or in equity including, without limitation, a decree of specific performance and/or injunctive relief with respect to Borrower’s failure to timely deliver Conversion Shares upon Conversion of the Note as required pursuant to the terms hereof.
+
+5. Unconditional Obligation; No Offset . Borrower acknowledges that this Note is an unconditional, valid, binding and enforceable obligation of Borrower not subject to offset, deduction or counterclaim of any kind. Borrower hereby waives any rights of offset it now has or may have hereafter against Lender, its successors and assigns, and agrees to make the payments or Conversions called for herein in accordance with the terms of this Note.
+
+6. Waiver . No waiver of any provision of this Note shall be effective unless it is in the form of a writing signed by the party granting the waiver. No waiver of any provision or consent to any prohibited action shall constitute a waiver of any other provision or consent to any other prohibited action, whether or not similar. No waiver or consent shall constitute a continuing waiver or consent or commit a party to provide a waiver or consent in the future except to the extent specifically set forth in writing.
+
+[[TABLE]]
+| | 3 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+7. Rights Upon Issuance of Securities .
+
+7.1.
+
+Subsequent Equity Sales . If Borrower or any subsidiary thereof, as applicable, at any time this Note is outstanding, shall sell, issue or grant any Class A Ordinary Shares, option to purchase Class A Ordinary Shares, right to reprice, preferred shares convertible into Class A Ordinary Shares, debt, warrants, options or other instruments or securities which are convertible into or exercisable or exchangeable for Class A Ordinary Shares to Lender or any third party (collectively, the “ Equity Securities ”), including without limitation any Deemed Issuance, at an effective price per share less than the then effective Lender Conversion Price (such issuance is referred to herein as a “ Dilutive Issuance ”), then, the Lender Conversion Price shall be automatically reduced and only reduced to equal such lower effective price per share, provided that the Lender Conversion Price shall in no event be less than the Floor Price. If the holder of any Equity Securities so issued shall at any time, whether by operation of purchase price adjustments, reset provisions, floating conversion, exercise or exchange prices or otherwise, or due to warrants, options, or rights per share which are issued in connection with such Dilutive Issuance, be entitled to receive Class A Ordinary Shares at an effective price per share that is less than the Lender Conversion Price, such issuance shall be deemed to have occurred for less than the Lender Conversion Price on the date of such Dilutive Issuance, and the then effective Lender Conversion Price shall be reduced and only reduced to equal such lower effective price per share. Such adjustments described above to the Lender Conversion Price shall be permanent (subject to additional adjustments under this section), and shall be made whenever such Equity Securities are issued. Borrower shall notify Lender, in writing, no later than the Trading Day following the issuance of any Equity Securities subject to this Section 7.1, indicating therein the applicable issuance price, or applicable reset price, exchange price, conversion price, or other pricing terms (such notice, the “ Dilutive Issuance Notice ”). For purposes of clarity, whether or not Borrower provides a Dilutive Issuance Notice pursuant to this Section 7.1, upon the occurrence of any Dilutive Issuance, on the date of such Dilutive Issuance the Lender Conversion Price shall be lowered to equal the applicable effective price per share regardless of whether Borrower or Lender accurately refers to such lower effective price per share in any subsequent Installment Notice or Lender Conversion Notice.
+
+7.2.
+
+Adjustment of Lender Conversion Price upon Subdivision or Combination of Class A Ordinary Shares . Without limiting any provision hereof, if Borrower at any time on or after the Effective Date subdivides (by any stock split, stock dividend, recapitalization or otherwise) one or more classes of its outstanding Class A Ordinary Shares into a greater number of shares, the Lender Conversion Price in effect immediately prior to such subdivision will be proportionately reduced. Without limiting any provision hereof, if Borrower at any time on or after the Effective Date combines (by combination, reverse stock split or otherwise) one or more classes of its outstanding Class A Ordinary Shares into a smaller number of shares, the Lender Conversion Price in effect immediately prior to such combination will be proportionately increased. Any adjustment pursuant to this Section 7.2 shall become effective immediately after the effective date of such subdivision or combination. If any event requiring an adjustment under this Section 7.2 occurs during the period that a Redemption Conversion Price is calculated hereunder, then the calculation of such Redemption Conversion Price shall be adjusted appropriately to reflect such event.
+
+7.3.
+
+Other Events . In the event that Borrower (or any subsidiary) shall take any action to which the provisions hereof are not strictly applicable, or, if applicable, would not operate to protect Lender from dilution or if any event occurs of the type contemplated by the provisions of this Section 7 but not expressly provided for by such provisions (including, without limitation, the granting of stock appreciation rights, phantom stock rights or other rights with equity features), then Borrower’s board of directors shall in good faith determine and implement an appropriate adjustment in the Lender Conversion Price so as to protect the rights of Lender, provided that no such adjustment pursuant to this Section 7.3 will increase the Lender Conversion Price as otherwise determined pursuant to this Section 7, provided further that if Lender does not accept such adjustments as appropriately protecting its interests hereunder against such dilution, then Borrower’s board of directors and Lender shall agree, in good faith, upon an independent investment bank of nationally recognized standing to make such appropriate adjustments, whose determination shall be final and binding and whose fees and expenses shall be borne by Borrower.
+
+[[TABLE]]
+| | 4 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+8. Borrower Redemptions .
+
+8.1.
+
+Redemption Conversion Price . Subject to the adjustments set forth herein, the conversion price for each Redemption Conversion (the “ Redemption Conversion Price ”) shall be the lesser of (a) the Lender Conversion Price, and (b) the Market Price.
+
+8.2.
+
+Redemptions . Beginning on the date that is sixty (60) days from the Purchase Price Date (“ Redemption Start Date ”), Lender shall have the right, exercisable at any time in its sole and absolute discretion, to redeem all or any portion of the Note (such amount, the “ Redemption Amount ”), subject to the Maximum Monthly Redemption Amount, by providing Borrower with a notice substantially in the form attached hereto as Exhibit B (each, a “ Redemption Notice ”, and each date on which Lender delivers a Redemption Notice, a “ Redemption Date ”). For the avoidance of doubt, Lender may submit to Borrower one (1) or more Redemption Notices in any given calendar month; provided that the aggregate Redemption Amounts in such calendar month do not exceed the Maximum Monthly Redemption Amount. Payments of each Redemption Amount may be made (a) in cash, or (b) by converting such Redemption Amount into Class A Ordinary Shares (“ Redemption Conversion Shares ”, and together with the Lender Conversion Shares, the “ Conversion Shares ”) in accordance with this Section 8.2 (each, a “ Redemption Conversion ”) per the following formula: the number of Redemption Conversion Shares equals the portion of the applicable Redemption Amount being converted divided by the Redemption Conversion Price, or (c) by any combination of the foregoing, so long as the cash is delivered to Lender on the third (3 rd ) Trading Day immediately following the applicable Redemption Date and the Redemption Conversion Shares are delivered to Lender on or before the applicable Delivery Date (as defined below). Notwithstanding the foregoing, Borrower will not be entitled to elect a Redemption Conversion with respect to any portion of any applicable Redemption Amount and shall be required to pay the Redemption Amount in cash, if on the applicable Redemption Date there is an Equity Conditions Failure, and such failure is not waived in writing by Lender. Notwithstanding that failure to repay this Note in full by the Maturity Date is a Trigger Event, the Redemption Dates shall continue after the Maturity Date pursuant to this Section 8.2 until the Outstanding Balance is repaid in full. At the end of each month following the Redemption Start Date, if Borrower has not reduced the Outstanding Balance by at least the Maximum Monthly Redemption Amount, then by the fifth (5 th ) day of the following month, Borrower must pay in cash the difference between the Maximum Monthly Redemption Amount and the amount actually redeemed in such month or the Outstanding Balance will automatically increase by one percent (1%). In the event Borrower is contractually restricted from issuing Redemption Conversion Shares to Lender, Borrower shall have the right to defer all redemption payments that Lender could otherwise elect to make during any calendar month on three (3) separate occasions by providing written notice to Lender at least three (3) Trading Days prior to the first day of each such calendar month for which it wishes to defer redemptions for that month. In the event Borrower elects to exercise its deferral right, the Outstanding Balance shall automatically be increased by one percent (1%) for each time Borrower exercises the deferral right.
+
+8.3.
+
+Allocation of Redemption Amounts . Following its receipt of a Redemption Notice, Borrower may either ratify Lender’s proposed allocation in the applicable Redemption Notice or elect to change the allocation by written notice to Lender by email or fax within twenty-four (24) hours of its receipt of such Redemption Notice, so long as the sum of the cash payments and the amount of Redemption Conversions equal the applicable Redemption Amount. If Borrower fails to notify Lender of its election to change the allocation prior to the deadline set forth in the previous sentence, it shall be deemed to have ratified and accepted the allocation set forth in the applicable Redemption Notice prepared by Lender. Borrower acknowledges and agrees that the amounts and calculations set forth thereon are subject to correction or adjustment because of error, mistake, or any adjustment resulting from a Trigger Event or other adjustment permitted under the Transaction Documents (an “ Adjustment ”). Furthermore, no error or mistake in the preparation of such notices, or failure to apply any Adjustment that could have been applied prior to the preparation of a Redemption Notice may be deemed a waiver of Lender’s right to enforce the terms of any Note, even if such error, mistake, or failure to include an Adjustment arises from Lender’s own calculation. Borrower shall deliver the Redemption Conversion Shares from any Redemption Conversion to Lender in accordance with Section 9 below on or before each applicable Delivery Date.
+
+[[TABLE]]
+| | 5 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+9. Method of Conversion Share Delivery . On or before the close of business on the third (3 rd ) Trading Day following each Redemption Date or the third (3 rd ) Trading Day following the date of delivery of a Lender Conversion Notice, as applicable (the “ Delivery Date ”), Borrower shall, provided it is DWAC Eligible at such time and such Conversion Shares are eligible for delivery via DWAC, deliver or cause its transfer agent to deliver the applicable Conversion Shares electronically via DWAC to the account designated by Lender in the applicable Lender Conversion Notice or Redemption Notice. If Borrower is not DWAC Eligible or such Conversion Shares are not eligible for delivery via DWAC, it shall deliver to Lender or its broker (as designated in the Lender Conversion Notice or Redemption Notice), via reputable overnight courier, a certificate representing the number of Class A Ordinary Shares equal to the number of Conversion Shares to which Lender shall be entitled, registered in the name of Lender or its designee. For the avoidance of doubt, Borrower has not met its obligation to deliver Conversion Shares by the Delivery Date unless Lender or its broker, as applicable, has actually received the certificate representing the applicable Conversion Shares no later than the close of business on the relevant Delivery Date pursuant to the terms set forth above.
+
+10. Conversion Delays . If Borrower fails to deliver Conversion Shares in accordance with the timeframe stated in Section 9, Lender may at any time prior to receiving the applicable Conversion Shares rescind in whole or in part such Conversion, with a corresponding increase to the Outstanding Balance (any returned amount will tack back to the Purchase Price Date for purposes of determining the holding period under Rule 144). In addition, for each Conversion, in the event that Conversion Shares are not delivered by the Delivery Date, a late fee equal to 2% of the applicable Conversion Share Value rounded to the nearest multiple of $100.00 but with a floor of $500.00 per day (but in any event the cumulative amount of such late fees for each Conversion shall not exceed 150% of the applicable Conversion Share Value) will be assessed for each day after the Delivery Date until Conversion Share delivery is made; and such late fees will be added to the Outstanding Balance (such fees, the “ Conversion Delay Late Fees ”).
+
+11. Ownership Limitation . Notwithstanding anything to the contrary contained in this Note or the other Transaction Documents, Borrower shall not effect any conversion of this Note to the extent that after giving effect to such conversion would cause Lender (together with its affiliates) to beneficially own a number of shares exceeding 4.99% of the number of Class A Ordinary Shares outstanding on such date (including for such purpose the Class A Ordinary Shares issuable upon such issuance) (the “ Maximum Percentage ”). For purposes of this section, beneficial ownership of Class A Ordinary Shares will be determined pursuant to Section 13(d) of the 1934 Act. Notwithstanding the forgoing, the term “4.99%” above shall be replaced with “9.99%” at such time as the Market Capitalization is less than $10,000,000.00. Notwithstanding any other provision contained herein, if the term “4.99%” is replaced with “9.99%” pursuant to the preceding sentence, such increase to “9.99%” shall remain at 9.99% until increased, decreased or waived by Lender as set forth below. By written notice to Borrower, Lender may increase, decrease or waive the Maximum Percentage as to itself but any such waiver will not be effective until the 61 st day after delivery thereof. The foregoing 61-day notice requirement is enforceable, unconditional and non-waivable and shall apply to all affiliates and assigns of Lender.
+
+12. Opinion of Counsel . In the event that an opinion of counsel is needed for any matter related to this Note, Lender has the right to have any such opinion provided by its counsel.
+
+[[TABLE]]
+| | 6 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+13. Governing Law; Venue . This Note shall be construed and enforced in accordance with, and all questions concerning the construction, validity, interpretation and performance of this Note shall be governed by, the internal laws of the State of Utah, without giving effect to any choice of law or conflict of law provision or rule (whether of the State of Utah or any other jurisdiction) that would cause the application of the laws of any jurisdiction other than the State of Utah. The provisions set forth in the Purchase Agreement to determine the proper venue for any disputes are incorporated herein by this reference.
+
+14. Arbitration of Disputes . By its issuance or acceptance of this Note, each party agrees to be bound by the Arbitration Provisions (as defined in the Purchase Agreement) set forth as an exhibit to the Purchase Agreement.
+
+15. Cancellation . After repayment or conversion of the entire Outstanding Balance, this Note shall be deemed paid in full, shall automatically be deemed canceled, and shall not be reissued.
+
+16. Amendments . The prior written consent of both parties hereto shall be required for any change or amendment to this Note.
+
+17. Assignments . Borrower may not assign this Note without the prior written consent of Lender. This Note and any Class A Ordinary Shares issued upon conversion of this Note may be offered, sold, assigned or transferred by Lender without the consent of Borrower.
+
+18. Notices . Whenever notice is required to be given under this Note, unless otherwise provided herein, such notice shall be given in accordance with the subsection of the Purchase Agreement titled “Notices.”
+
+19. Liquidated Damages . Lender and Borrower agree that in the event Borrower fails to comply with any of the terms or provisions of this Note, Lender’s damages would be uncertain and difficult (if not impossible) to accurately estimate because of the parties’ inability to predict future interest rates, future share prices, future trading volumes and other relevant factors. Accordingly, Lender and Borrower agree that any fees, balance adjustments, Default Interest or other charges assessed under this Note are not penalties but instead are intended by the parties to be, and shall be deemed, liquidated damages (under Lender’s and Borrower’s expectations that any such liquidated damages will tack back to the Purchase Price Date for purposes of determining the holding period under Rule 144).
+
+20. Severability . If any part of this Note is construed to be in violation of any law, such part shall be modified to achieve the objective of Borrower and Lender to the fullest extent permitted by law and the balance of this Note shall remain in full force and effect.
+
+[Remainder of page intentionally left blank; signature page follows]
+
+[[TABLE]]
+| | 7 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+IN WITNESS WHEREOF, Borrower has caused this Note to be duly executed as of the Effective Date.
+
+[[TABLE]]
+| | | BORROWER: | |
+| --- | --- | --- | --- |
+| | | | |
+| | | | CN Energy Group. Inc. |
+| | | | |
+| | | | |
+| | | By: | /s/ Kangbin Zheng |
+| | | | Kangbin Zheng, CEO |
+| | | | |
+| ACKNOWLEDGED, ACCEPTED AND AGREED: | | | |
+| LENDER: | | | |
+| Streeterville Capital, LLC | | | |
+| | | | |
+| | | | |
+| By: | /s/ John M. Fife | | |
+| | John M. Fife, President | | |
+[[/TABLE]]
+
+[Signature Page to Convertible Promissory Note]
+
+[[TABLE]]
+| | 8 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+ATTACHMENT 1
+
+DEFINITIONS
+
+For purposes of this Note, the following terms shall have the following meanings:
+
+A1.
+
+“ Closing Bid Price ” and “ Closing Trade Price ” means the last closing bid price and last closing trade price, respectively, for the Class A Ordinary Shares on its principal market, as reported by Bloomberg, or, if its principal market begins to operate on an extended hours basis and does not designate the closing bid price or the closing trade price (as the case may be) then the last bid price or last trade price, respectively, of the Class A Ordinary Shares prior to 4:00:00 p.m., New York time, as reported by Bloomberg, or, if its principal market is not the principal securities exchange or trading market for the Class A Ordinary Shares, the last closing bid price or last trade price, respectively, of the Class A Ordinary Shares on the principal securities exchange or trading market where the Class A Ordinary Shares is listed or traded as reported by Bloomberg, or if the foregoing do not apply, the last closing bid price or last trade price, respectively, of the Class A Ordinary Shares in the over-the-counter market on the electronic bulletin board for the Class A Ordinary Shares as reported by Bloomberg, or, if no closing bid price or last trade price, respectively, is reported for the Class A Ordinary Shares by Bloomberg, the average of the bid prices, or the ask prices, respectively, of any market makers for the Class A Ordinary Shares as reported by Nasdaq and any successor thereto. If the Closing Bid Price or the Closing Trade Price cannot be calculated for the Class A Ordinary Shares on a particular date on any of the foregoing bases, the Closing Bid Price or the Closing Trade Price (as the case may be) of the Class A Ordinary Shares on such date shall be the fair market value as mutually determined by Lender and Borrower. All such determinations shall be appropriately adjusted for any stock dividend, stock split, stock combination or other similar transaction during such period.
+
+A2.
+
+“ Conversion ” means a Lender Conversion under Section 3 or a Redemption Conversion under Section 8.
+
+A3.
+
+“ Conversion Share Value ” means the product of the number of Conversion Shares deliverable pursuant to any Conversion Notice multiplied by the Closing Trade Price of the Class A Ordinary Shares on the Delivery Date for such Conversion.
+
+A4.
+
+“ Deemed Issuance ” means an issuance of Class A Ordinary Shares that shall be deemed to have occurred on the latest possible permitted date pursuant to the terms hereof in the event Borrower fails to deliver Conversion Shares as and when required pursuant to Section 9 of this Note. For the avoidance of doubt, if Borrower has elected or is deemed under Section 8.3 to have elected to pay a Redemption Amount in Redemption Conversion Shares and fails to deliver such Redemption Conversion Shares, such failure shall be considered a Deemed Issuance hereunder even if an Equity Conditions Failure exists at that time or other relevant date of determination.
+
+A5.
+
+“ DTC ” means the Depository Trust Company or any successor thereto.
+
+A6.
+
+“ DTC/FAST Program ” means the DTC’s Fast Automated Securities Transfer program.
+
+A7.
+
+“ DWAC ” means the DTC’s Deposit/Withdrawal at Custodian system.
+
+A8.
+
+“ DWAC Eligible ” means that (a) Borrower’s Class A Ordinary Shares is eligible at DTC for full services pursuant to DTC’s operational arrangements, including without limitation transfer through DTC’s DWAC system; (b) Borrower has been approved (without revocation) by DTC’s underwriting department; (c) Borrower’s transfer agent is approved as an agent in the DTC/FAST Program; (d) the Conversion Shares are otherwise eligible for delivery via DWAC; and (e) Borrower’s transfer agent does not have a policy prohibiting or limiting delivery of the Conversion Shares via DWAC.
+
+A9.
+
+“
+Equity Conditions Failure
+” means that any of the following conditions has not been satisfied on any given Redemption
+Date: (a) with respect to the applicable date of determination all of the Redemption Conversion Shares would be (i) registered for
+trading under applicable federal and state securities laws, (ii) freely tradable under Rule 144, or (iii) without the need for registration
+under any applicable federal or state securities laws (in each case, disregarding any limitation on conversion of this Note); (b) the
+applicable Redemption Conversion Shares would be eligible for immediate resale by Lender; (c) no Trigger Event shall have occurred;
+- the average and median daily dollar volume of the Class A Ordinary Share on its principal market for the previous twenty (20) and
+two hundred (200) Trading Days shall be greater than $150,000.00; and (e) the five (5) day VWAP of the Class A Ordinary Share is greater
+than or equal to $0.10.
+
+Attachment 1 to Convertible Promissory Note, Page 1
+
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+A10.
+
+“ Floor Price ” means $0.10.
+
+A11.
+
+“ Fundamental Transaction ” means that (a) (i) Borrower or any of its subsidiaries shall, directly or indirectly, in one or more related transactions, consolidate or merge with or into (whether or not Borrower or any of its subsidiaries is the surviving corporation) any other person or entity, or (ii) Borrower or any of its subsidiaries shall, directly or indirectly, in one or more related transactions, sell, lease, license, assign, transfer, convey or otherwise dispose of all or substantially all of its respective properties or assets to any other person or entity, provided that the value of such properties or assets exceeds 25% of the total assets of Borrower and its subsidiaries on a consolidated basis, or (iii) Borrower or any of its subsidiaries shall, directly or indirectly, in one or more related transactions, allow any other person or entity to make a purchase, tender or exchange offer that is accepted by the holders of more than 50% of the outstanding shares of voting stock of Borrower (not including any shares of voting stock of Borrower held by the person or persons making or party to, or associated or affiliated with the persons or entities making or party to, such purchase, tender or exchange offer), or (iv) Borrower or any of its subsidiaries shall, directly or indirectly, in one or more related transactions, consummate a stock or share purchase agreement or other business combination (including, without limitation, a reorganization, recapitalization, spin-off or scheme of arrangement) with any other person or entity whereby such other person or entity acquires more than 50% of the outstanding shares of voting stock of Borrower (not including any shares of voting stock of Borrower held by the other persons or entities making or party to, or associated or affiliated with the other persons or entities making or party to, such stock or share purchase agreement or other business combination), or (v) Borrower or any of its subsidiaries shall, directly or indirectly, in one or more related transactions, reorganize, recapitalize or reclassify the Class A Ordinary Shares, other than an increase in the number of authorized shares of Borrower’s Class A Ordinary Shares, or (b) any “person” or “group” (as these terms are used for purposes of Sections 13(d) and 14(d) of the 1934 Act and the rules and regulations promulgated thereunder) is or shall become the “beneficial owner” (as defined in Rule 13d-3 under the 1934 Act), directly or indirectly, of 50% of the aggregate ordinary voting power represented by issued and outstanding voting stock of Borrower.
+
+A12.
+
+“ Major Trigger Event ” means any Trigger Event occurring under Sections 4.1(b) – 4.1(j).
+
+A13.
+
+“ Mandatory Default Amount ” means the Outstanding Balance following the application of the Trigger Effect.
+
+A14.
+
+“ Market Capitalization ” means a number equal to (a) the average VWAP of the Class A Ordinary Shares for the immediately preceding fifteen (15) Trading Days, multiplied by (b) the aggregate number of outstanding Class A Ordinary Shares as reported on Borrower’s most recently filed Form 10-Q or Form 10-K.
+
+A15.
+
+“ Market Price ” means 80% multiplied by the Nasdaq Minimum Price.
+
+A16.
+
+“ Maximum Monthly Redemption Amount ” means $350,000.00 per calendar month.
+
+A17.
+
+“ Minor Trigger Event ” means any Trigger Event that is not a Major Trigger Event.
+
+A18.
+
+“ Nasdaq Minimum Price ” means the lower of: (i) the Closing Price on the Trading Day immediately preceding the Redemption Date; or (ii) the average Closing Price of the Class A Ordinary Shares for the five (5) Trading Days immediately preceding the Redemption Date.
+
+A19.
+
+“ OID ” means an original issue discount.
+
+A20.
+
+“ Other Agreements ” means, collectively, (a) all existing and future agreements and instruments between, among or by Borrower (or an affiliate), on the one hand, and Lender (or an affiliate), on the other hand, and (b) any financing agreement or a material agreement that affects Borrower’s ongoing business operations.
+
+A21.
+
+“ Outstanding Balance ” means as of any date of determination, the Purchase Price, as reduced or increased, as the case may be, pursuant to the terms hereof for payment, Conversion, offset, or otherwise, plus the OID, accrued but unpaid interest, collection and enforcements costs (including attorneys’ fees) incurred by Lender, transfer, stamp, issuance and similar taxes and fees related to Conversions, and any other fees or charges (including without limitation Conversion Delay Late Fees) incurred under this Note.
+
+A22.
+
+“ Purchase Price Date ” means the date the Purchase Price is delivered by Lender to Borrower.
+
+A23.
+
+“ Trading Day ” means any day on which Borrower’s principal market is open for trading.
+
+A24.
+
+“ Trigger Effect ” means multiplying the Outstanding Balance as of the date the applicable Trigger Event occurred by (a) ten percent (10%) for each occurrence of any Major Trigger Event, or (b) five percent (5%) for each occurrence of any Minor Trigger Event, and then adding the resulting product to the Outstanding Balance as of the date the applicable Trigger Event occurred, with the sum of the foregoing then becoming the Outstanding Balance under this Note as of the date the applicable Trigger Event occurred; provided that the Trigger Effect may only be applied three (3) times hereunder with respect to Major Trigger Events and three (3) times hereunder with respect to Minor Trigger Events; and provided further that the Trigger Effect shall not apply to any Trigger Event pursuant to Section 4.1(a) hereof.
+
+Attachment 1 to Convertible Promissory Note, Page 2
+
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+A25.
+
+“ VWAP ” means the volume weighted average price of the Class A Ordinary Shares on the principal market for a particular Trading Day or set of Trading Days, as the case may be, as reported by Bloomberg.
+
+[Remainder of page intentionally left blank]
+
+Attachment 1 to Convertible Promissory Note, Page 3
+
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+EXHIBIT A
+
+Streeterville Capital, LLC
+
+303 East Wacker Drive, Suite 1040
+
+Chicago, Illinois 60601
+
+[[TABLE]]
+| CN Energy Group. Inc. | Date: |
+| --- | --- |
+[[/TABLE]]
+
+Attn: Kangbin Zheng
+
+Building 2-B, Room 206, NO. 268 Shiniu Road
+
+Liandu District, Lishui City, Zhejiang Province
+
+The PRC
+
+LENDER CONVERSION NOTICE
+
+The above-captioned Lender hereby gives notice to CN Energy Group. Inc., a British Virgin Islands company (the “ Borrower ”), pursuant to that certain Convertible Promissory Note made by Borrower in favor of Lender on December 30, 2022 (the “ Note ”), that Lender elects to convert the portion of the Note balance set forth below into fully paid and non-assessable Class A Ordinary Shares of Borrower as of the date of conversion specified below. Said conversion shall be based on the Lender Conversion Price set forth below. In the event of a conflict between this Lender Conversion Notice and the Note, the Note shall govern, or, in the alternative, at the election of Lender in its sole discretion, Lender may provide a new form of Lender Conversion Notice to conform to the Note. Capitalized terms used in this notice without definition shall have the meanings given to them in the Note.
+
+[[TABLE]]
+| | A. | Date of Conversion: ____________ |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | B. | Lender Conversion #: ____________ |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | C. | Conversion Amount: ____________ |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | D. | Lender Conversion Price: _______________ |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | E. | Lender Conversion Shares: _______________ (C divided by D) |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | F. | Remaining Outstanding Balance of Note: ____________* |
+| --- | --- | --- |
+[[/TABLE]]
+
+* Subject to adjustments for corrections, defaults, interest and other adjustments permitted by the Transaction Documents (as defined in the Purchase Agreement), the terms of which shall control in the event of any dispute between the terms of this Lender Conversion Notice and such Transaction Documents.
+
+Please transfer the Lender Conversion Shares electronically (via DWAC) to the following account :
+
+[[TABLE]]
+| Broker: | | | Address: | |
+| --- | --- | --- | --- | --- |
+| DTC#: | | | | |
+| Account #: | | | | |
+| Account Name: | | | | |
+[[/TABLE]]
+
+To the extent the Lender Conversion Shares are not able to be delivered to Lender electronically via the DWAC system, deliver all such certificated shares to Lender via reputable overnight courier after receipt of this Lender Conversion Notice (by facsimile transmission or otherwise) to:
+
+_____________________________________
+
+_____________________________________
+
+_____________________________________
+
+[Signature Page Follows]
+
+Exhibit A to Convertible Promissory Note, Page 1
+
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| Sincerely, | | |
+| --- | --- | --- |
+| | | |
+| Lender: | | |
+| | | |
+| Streeterville Capital, LLC | | |
+| | | |
+| | | |
+| By: | | |
+| | John M. Fife, President | |
+[[/TABLE]]
+
+Exhibit A to Convertible Promissory Note, Page 2
+
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+EXHIBIT B
+
+Streeterville Capital, LLC
+
+303 East Wacker Drive, Suite 1040
+
+Chicago, Illinois 60601
+
+[[TABLE]]
+| CN Energy Group. Inc. | Date: |
+| --- | --- |
+[[/TABLE]]
+
+Attn: Kangbin Zheng
+
+Building 2-B, Room 206, NO. 268 Shiniu Road
+
+Liandu District, Lishui City, Zhejiang Province
+
+The PRC
+
+REDEMPTION NOTICE
+
+The above-captioned Lender hereby gives notice to CN Energy Group. Inc., a British Virgin Islands company (the “ Borrower ”), pursuant to that certain Convertible Promissory Note made by Borrower in favor of Lender on December 30, 2022 (the “ Note ”), that Lender elects to redeem a portion of the Note in Redemption Conversion Shares or in cash as set forth below. In the event of a conflict between this Redemption Notice and the Note, the Note shall govern, or, in the alternative, at the election of Lender in its sole discretion, Lender may provide a new form of Redemption Notice to conform to the Note. Capitalized terms used in this notice without definition shall have the meanings given to them in the Note.
+
+REDEMPTION INFORMATION
+
+[[TABLE]]
+| | A. | Redemption Date: ____________, 202_ |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | B. | Redemption Amount: ____________ |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | C. | Portion of Redemption Amount to be Paid in Cash: ____________ |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | D. | Portion of Redemption Amount to be Converted into Class A Ordinary Shares: ____________ (B minus C) |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | E. | Redemption Conversion Price: _______________ (lower of (i) Lender Conversion Price in effect and (ii)
+Market Price as of Redemption Date) |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | F. | Redemption Conversion Shares: _______________ (D divided by E) |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | G. | Remaining Outstanding Balance of Note: ____________ * |
+| --- | --- | --- |
+[[/TABLE]]
+
+* Subject to adjustments for corrections, defaults, interest and other adjustments permitted by the Transaction Documents (as defined in the Purchase Agreement), the terms of which shall control in the event of any dispute between the terms of this Redemption Notice and such Transaction Documents.
+
+Please transfer the Redemption Conversion Shares, if applicable, electronically (via DWAC) to the following account :
+
+[[TABLE]]
+| Broker: | | | Address: | |
+| --- | --- | --- | --- | --- |
+| DTC#: | | | | |
+| Account #: | | | | |
+| Account Name: | | | | |
+[[/TABLE]]
+
+To the extent the Redemption Conversion Shares are not able to be delivered to Lender electronically via the DWAC system, deliver all such certificated shares to Lender via reputable overnight courier after receipt of this Redemption Notice (by facsimile transmission or otherwise) to:
+
+_____________________________________
+
+_____________________________________
+
+_____________________________________
+
+Exhibit B to Convertible Promissory Note, Page 1
+
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| Sincerely, | | |
+| --- | --- | --- |
+| | | |
+| Lender: | | |
+| | | |
+| Streeterville Capital, LLC | | |
+| | | |
+| | | |
+| By: | | |
+| | John M. Fife, President | |
+[[/TABLE]]
+
+Exhibit B to Convertible Promissory Note, Page 2
+
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]

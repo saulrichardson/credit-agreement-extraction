@@ -1,0 +1,485 @@
+{
+  "run_id": "test-sample-2-agreements",
+  "tarballs": [
+    "data/daily_filings/2023/QTR1/20230103.nc.tar.gz",
+    "data/daily_filings/2023/QTR1/20230104.nc.tar.gz",
+    "data/daily_filings/1996/QTR1/19960102.nc.tar.gz",
+    "data/daily_filings/1996/QTR1/19960105.nc.tar.gz",
+    "data/daily_filings/1996/QTR1/19960108.nc.tar.gz",
+    "data/daily_filings/1996/QTR1/19960110.nc.tar.gz",
+    "data/daily_filings/1996/QTR1/19960229.nc.tar.gz",
+    "data/daily_filings/1996/QTR1/19960307.nc.tar.gz",
+    "data/daily_filings/1996/QTR1/19960314.nc.tar.gz"
+  ],
+  "filters": {
+    "doc_filter_path": "filters_whitelist:keep_whitelist"
+  },
+  "accessions": [
+    {
+      "accession": "0001731122-23-000003",
+      "cik": "0001721386",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "e4329_ex10-1.htm",
+          "sequence": "2",
+          "path": "runs/test-sample-2-agreements/ingest/0001731122-23-000003_2.html",
+          "primary": true,
+          "item_id": "0001731122-23-000003_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001140361-23-000046",
+      "cik": "0000879101",
+      "form_type": "8-K12B",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "ny20006479x6_ex10-1.htm",
+          "sequence": "9",
+          "path": "runs/test-sample-2-agreements/ingest/0001140361-23-000046_9.html",
+          "primary": true,
+          "item_id": "0001140361-23-000046_9"
+        }
+      ]
+    },
+    {
+      "accession": "0001193125-23-000306",
+      "cik": "0001599617",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "d407158dex101.htm",
+          "sequence": "2",
+          "path": "runs/test-sample-2-agreements/ingest/0001193125-23-000306_2.html",
+          "primary": true,
+          "item_id": "0001193125-23-000306_2"
+        }
+      ]
+    },
+    {
+      "accession": "0000950170-23-000122",
+      "cik": "0001402436",
+      "form_type": "8-K",
+      "filing_date": "20230104",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "ssnc-ex10_1.htm",
+          "sequence": "2",
+          "path": "runs/test-sample-2-agreements/ingest/0000950170-23-000122_2.html",
+          "primary": true,
+          "item_id": "0000950170-23-000122_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001819974-23-000003",
+      "cik": "0001819974",
+      "form_type": "8-K",
+      "filing_date": "20230104",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "skyt-20221228xex101.htm",
+          "sequence": "2",
+          "path": "runs/test-sample-2-agreements/ingest/0001819974-23-000003_2.html",
+          "primary": true,
+          "item_id": "0001819974-23-000003_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001140361-23-000246",
+      "cik": "0001959472",
+      "form_type": "8-K",
+      "filing_date": "20230104",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "ny20006479x8_ex10-1.htm",
+          "sequence": "8",
+          "path": "runs/test-sample-2-agreements/ingest/0001140361-23-000246_8.html",
+          "primary": true,
+          "item_id": "0001140361-23-000246_8"
+        }
+      ]
+    },
+    {
+      "accession": "0000950144-96-000006",
+      "cik": "0000311099",
+      "form_type": "8-K",
+      "filing_date": "19960102",
+      "documents": [
+        {
+          "type": "EX-10",
+          "filename": "EX-10-2.html",
+          "sequence": "2",
+          "path": "runs/test-sample-2-agreements/ingest/0000950144-96-000006_2.html",
+          "primary": true,
+          "item_id": "0000950144-96-000006_2"
+        }
+      ]
+    },
+    {
+      "accession": "0000950144-96-000010",
+      "cik": "0000044471",
+      "form_type": "10-K",
+      "filing_date": "19960102",
+      "documents": [
+        {
+          "type": "EX-10.II",
+          "filename": "EX-10-7.html",
+          "sequence": "7",
+          "path": "runs/test-sample-2-agreements/ingest/0000950144-96-000010_7.html",
+          "primary": true,
+          "item_id": "0000950144-96-000010_7"
+        }
+      ]
+    },
+    {
+      "accession": "0000912057-96-000124",
+      "cik": "0000320591",
+      "form_type": "8-K",
+      "filing_date": "19960104",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "EX-10-5.html",
+          "sequence": "5",
+          "path": "runs/test-sample-2-agreements/ingest/0000912057-96-000124_5.html",
+          "primary": true,
+          "item_id": "0000912057-96-000124_5"
+        }
+      ]
+    },
+    {
+      "accession": "0000950134-96-000040",
+      "cik": "0000808240",
+      "form_type": "8-K",
+      "filing_date": "19960105",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "EX-10-2.html",
+          "sequence": "2",
+          "path": "runs/test-sample-2-agreements/ingest/0000950134-96-000040_2.html",
+          "primary": true,
+          "item_id": "0000950134-96-000040_2"
+        }
+      ]
+    },
+    {
+      "accession": "0000950152-96-000050",
+      "cik": "0000832922",
+      "form_type": "10-Q",
+      "filing_date": "19960108",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "EX-10-2.html",
+          "sequence": "2",
+          "path": "runs/test-sample-2-agreements/ingest/0000950152-96-000050_2.html",
+          "primary": true,
+          "item_id": "0000950152-96-000050_2"
+        }
+      ]
+    },
+    {
+      "accession": "0000355948-96-000003",
+      "cik": "0000355948",
+      "form_type": "10-Q",
+      "filing_date": "19960110",
+      "documents": [
+        {
+          "type": "EX-10",
+          "filename": "EX-10-2.html",
+          "sequence": "2",
+          "path": "runs/test-sample-2-agreements/ingest/0000355948-96-000003_2.html",
+          "primary": true,
+          "item_id": "0000355948-96-000003_2"
+        }
+      ]
+    },
+    {
+      "accession": "0000041850-96-000001",
+      "cik": "0000041850",
+      "form_type": "10-K",
+      "filing_date": "19960229",
+      "documents": [
+        {
+          "type": "EX-10.2",
+          "filename": "EX-10-5.html",
+          "sequence": "5",
+          "path": "runs/test-sample-2-agreements/ingest/0000041850-96-000001_5.html",
+          "primary": true,
+          "item_id": "0000041850-96-000001_5"
+        }
+      ]
+    },
+    {
+      "accession": "0000720032-96-000002",
+      "cik": "0000720032",
+      "form_type": "10-K",
+      "filing_date": "19960229",
+      "documents": [
+        {
+          "type": "EX-10",
+          "filename": "EX-10-2.html",
+          "sequence": "2",
+          "path": "runs/test-sample-2-agreements/ingest/0000720032-96-000002_2.html",
+          "primary": true,
+          "item_id": "0000720032-96-000002_2"
+        }
+      ]
+    },
+    {
+      "accession": "0000950117-96-000184",
+      "cik": "0000897708",
+      "form_type": "10-K405",
+      "filing_date": "19960307",
+      "documents": [
+        {
+          "type": "EX-10",
+          "filename": "EX-10-4.html",
+          "sequence": "4",
+          "path": "runs/test-sample-2-agreements/ingest/0000950117-96-000184_4.html",
+          "primary": true,
+          "item_id": "0000950117-96-000184_4"
+        },
+        {
+          "type": "EX-10",
+          "filename": "EX-10-5.html",
+          "sequence": "5",
+          "path": "runs/test-sample-2-agreements/ingest/0000950117-96-000184_5.html",
+          "primary": false,
+          "item_id": "0000950117-96-000184_5"
+        }
+      ]
+    },
+    {
+      "accession": "0000906318-96-000011",
+      "cik": "0000716823",
+      "form_type": "10-K",
+      "filing_date": "19960314",
+      "documents": [
+        {
+          "type": "EX-10",
+          "filename": "EX-10-6.html",
+          "sequence": "6",
+          "path": "runs/test-sample-2-agreements/ingest/0000906318-96-000011_6.html",
+          "primary": true,
+          "item_id": "0000906318-96-000011_6"
+        }
+      ]
+    },
+    {
+      "accession": "0000950134-96-000714",
+      "cik": "0000275605",
+      "form_type": "10-K",
+      "filing_date": "19960313",
+      "documents": [
+        {
+          "type": "EX-10.5.5",
+          "filename": "EX-10-4.html",
+          "sequence": "4",
+          "path": "runs/test-sample-2-agreements/ingest/0000950134-96-000714_4.html",
+          "primary": true,
+          "item_id": "0000950134-96-000714_4"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "0001731122-23-000003_2",
+      "accession": "0001731122-23-000003",
+      "sequence": "2",
+      "filename": "e4329_ex10-1.htm",
+      "path": "runs/test-sample-2-agreements/ingest/0001731122-23-000003_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001140361-23-000046_9",
+      "accession": "0001140361-23-000046",
+      "sequence": "9",
+      "filename": "ny20006479x6_ex10-1.htm",
+      "path": "runs/test-sample-2-agreements/ingest/0001140361-23-000046_9.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001193125-23-000306_2",
+      "accession": "0001193125-23-000306",
+      "sequence": "2",
+      "filename": "d407158dex101.htm",
+      "path": "runs/test-sample-2-agreements/ingest/0001193125-23-000306_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0000950170-23-000122_2",
+      "accession": "0000950170-23-000122",
+      "sequence": "2",
+      "filename": "ssnc-ex10_1.htm",
+      "path": "runs/test-sample-2-agreements/ingest/0000950170-23-000122_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001819974-23-000003_2",
+      "accession": "0001819974-23-000003",
+      "sequence": "2",
+      "filename": "skyt-20221228xex101.htm",
+      "path": "runs/test-sample-2-agreements/ingest/0001819974-23-000003_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001140361-23-000246_8",
+      "accession": "0001140361-23-000246",
+      "sequence": "8",
+      "filename": "ny20006479x8_ex10-1.htm",
+      "path": "runs/test-sample-2-agreements/ingest/0001140361-23-000246_8.html",
+      "primary": true
+    },
+    {
+      "item_id": "0000950144-96-000006_2",
+      "accession": "0000950144-96-000006",
+      "sequence": "2",
+      "filename": "EX-10-2.html",
+      "path": "runs/test-sample-2-agreements/ingest/0000950144-96-000006_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0000950144-96-000010_7",
+      "accession": "0000950144-96-000010",
+      "sequence": "7",
+      "filename": "EX-10-7.html",
+      "path": "runs/test-sample-2-agreements/ingest/0000950144-96-000010_7.html",
+      "primary": true
+    },
+    {
+      "item_id": "0000912057-96-000124_5",
+      "accession": "0000912057-96-000124",
+      "sequence": "5",
+      "filename": "EX-10-5.html",
+      "path": "runs/test-sample-2-agreements/ingest/0000912057-96-000124_5.html",
+      "primary": true
+    },
+    {
+      "item_id": "0000950134-96-000040_2",
+      "accession": "0000950134-96-000040",
+      "sequence": "2",
+      "filename": "EX-10-2.html",
+      "path": "runs/test-sample-2-agreements/ingest/0000950134-96-000040_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0000950152-96-000050_2",
+      "accession": "0000950152-96-000050",
+      "sequence": "2",
+      "filename": "EX-10-2.html",
+      "path": "runs/test-sample-2-agreements/ingest/0000950152-96-000050_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0000355948-96-000003_2",
+      "accession": "0000355948-96-000003",
+      "sequence": "2",
+      "filename": "EX-10-2.html",
+      "path": "runs/test-sample-2-agreements/ingest/0000355948-96-000003_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0000041850-96-000001_5",
+      "accession": "0000041850-96-000001",
+      "sequence": "5",
+      "filename": "EX-10-5.html",
+      "path": "runs/test-sample-2-agreements/ingest/0000041850-96-000001_5.html",
+      "primary": true
+    },
+    {
+      "item_id": "0000720032-96-000002_2",
+      "accession": "0000720032-96-000002",
+      "sequence": "2",
+      "filename": "EX-10-2.html",
+      "path": "runs/test-sample-2-agreements/ingest/0000720032-96-000002_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0000950117-96-000184_4",
+      "accession": "0000950117-96-000184",
+      "sequence": "4",
+      "filename": "EX-10-4.html",
+      "path": "runs/test-sample-2-agreements/ingest/0000950117-96-000184_4.html",
+      "primary": true
+    },
+    {
+      "item_id": "0000950117-96-000184_5",
+      "accession": "0000950117-96-000184",
+      "sequence": "5",
+      "filename": "EX-10-5.html",
+      "path": "runs/test-sample-2-agreements/ingest/0000950117-96-000184_5.html",
+      "primary": false
+    },
+    {
+      "item_id": "0000906318-96-000011_6",
+      "accession": "0000906318-96-000011",
+      "sequence": "6",
+      "filename": "EX-10-6.html",
+      "path": "runs/test-sample-2-agreements/ingest/0000906318-96-000011_6.html",
+      "primary": true
+    },
+    {
+      "item_id": "0000950134-96-000714_4",
+      "accession": "0000950134-96-000714",
+      "sequence": "4",
+      "filename": "EX-10-4.html",
+      "path": "runs/test-sample-2-agreements/ingest/0000950134-96-000714_4.html",
+      "primary": true
+    }
+  ],
+  "normalized": {
+    "0001731122-23-000003_2": "runs/test-sample-2-agreements/normalized/0001731122-23-000003_2/prompt_view.txt",
+    "0001140361-23-000046_9": "runs/test-sample-2-agreements/normalized/0001140361-23-000046_9/prompt_view.txt",
+    "0001193125-23-000306_2": "runs/test-sample-2-agreements/normalized/0001193125-23-000306_2/prompt_view.txt",
+    "0000950170-23-000122_2": "runs/test-sample-2-agreements/normalized/0000950170-23-000122_2/prompt_view.txt",
+    "0001819974-23-000003_2": "runs/test-sample-2-agreements/normalized/0001819974-23-000003_2/prompt_view.txt",
+    "0001140361-23-000246_8": "runs/test-sample-2-agreements/normalized/0001140361-23-000246_8/prompt_view.txt",
+    "0000950144-96-000006_2": "runs/test-sample-2-agreements/normalized/0000950144-96-000006_2/prompt_view.txt",
+    "0000950144-96-000010_7": "runs/test-sample-2-agreements/normalized/0000950144-96-000010_7/prompt_view.txt",
+    "0000912057-96-000124_5": "runs/test-sample-2-agreements/normalized/0000912057-96-000124_5/prompt_view.txt",
+    "0000950134-96-000040_2": "runs/test-sample-2-agreements/normalized/0000950134-96-000040_2/prompt_view.txt",
+    "0000950152-96-000050_2": "runs/test-sample-2-agreements/normalized/0000950152-96-000050_2/prompt_view.txt",
+    "0000355948-96-000003_2": "runs/test-sample-2-agreements/normalized/0000355948-96-000003_2/prompt_view.txt",
+    "0000041850-96-000001_5": "runs/test-sample-2-agreements/normalized/0000041850-96-000001_5/prompt_view.txt",
+    "0000720032-96-000002_2": "runs/test-sample-2-agreements/normalized/0000720032-96-000002_2/prompt_view.txt",
+    "0000950117-96-000184_4": "runs/test-sample-2-agreements/normalized/0000950117-96-000184_4/prompt_view.txt",
+    "0000950117-96-000184_5": "runs/test-sample-2-agreements/normalized/0000950117-96-000184_5/prompt_view.txt",
+    "0000906318-96-000011_6": "runs/test-sample-2-agreements/normalized/0000906318-96-000011_6/prompt_view.txt",
+    "0000950134-96-000714_4": "runs/test-sample-2-agreements/normalized/0000950134-96-000714_4/prompt_view.txt"
+  },
+  "prompt_views": {
+    "0001731122-23-000003_2": "runs/test-sample-2-agreements/normalized/0001731122-23-000003_2/prompt_view.txt",
+    "0001140361-23-000046_9": "runs/test-sample-2-agreements/normalized/0001140361-23-000046_9/prompt_view.txt",
+    "0001193125-23-000306_2": "runs/test-sample-2-agreements/normalized/0001193125-23-000306_2/prompt_view.txt",
+    "0000950170-23-000122_2": "runs/test-sample-2-agreements/normalized/0000950170-23-000122_2/prompt_view.txt",
+    "0001819974-23-000003_2": "runs/test-sample-2-agreements/normalized/0001819974-23-000003_2/prompt_view.txt",
+    "0001140361-23-000246_8": "runs/test-sample-2-agreements/normalized/0001140361-23-000246_8/prompt_view.txt",
+    "0000950144-96-000006_2": "runs/test-sample-2-agreements/normalized/0000950144-96-000006_2/prompt_view.txt",
+    "0000950144-96-000010_7": "runs/test-sample-2-agreements/normalized/0000950144-96-000010_7/prompt_view.txt",
+    "0000912057-96-000124_5": "runs/test-sample-2-agreements/normalized/0000912057-96-000124_5/prompt_view.txt",
+    "0000950134-96-000040_2": "runs/test-sample-2-agreements/normalized/0000950134-96-000040_2/prompt_view.txt",
+    "0000950152-96-000050_2": "runs/test-sample-2-agreements/normalized/0000950152-96-000050_2/prompt_view.txt",
+    "0000355948-96-000003_2": "runs/test-sample-2-agreements/normalized/0000355948-96-000003_2/prompt_view.txt",
+    "0000041850-96-000001_5": "runs/test-sample-2-agreements/normalized/0000041850-96-000001_5/prompt_view.txt",
+    "0000720032-96-000002_2": "runs/test-sample-2-agreements/normalized/0000720032-96-000002_2/prompt_view.txt",
+    "0000950117-96-000184_4": "runs/test-sample-2-agreements/normalized/0000950117-96-000184_4/prompt_view.txt",
+    "0000950117-96-000184_5": "runs/test-sample-2-agreements/normalized/0000950117-96-000184_5/prompt_view.txt",
+    "0000906318-96-000011_6": "runs/test-sample-2-agreements/normalized/0000906318-96-000011_6/prompt_view.txt",
+    "0000950134-96-000714_4": "runs/test-sample-2-agreements/normalized/0000950134-96-000714_4/prompt_view.txt"
+  }
+}

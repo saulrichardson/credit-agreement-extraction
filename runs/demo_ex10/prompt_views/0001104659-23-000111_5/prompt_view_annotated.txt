@@ -1,0 +1,242 @@
+[[A0001]]
+Exhibit 10.3
+
+[[A0002]]
+FORM OF LOCK-UP AGREEMENT
+
+[[A0003]]
+[[TABLE]]
+| | December 31, 2022 |
+| --- | --- |
+[[/TABLE]]
+
+[[A0004]]
+Monterey Capital Acquisition Corporation
+
+[[A0005]]
+419 Webster Street
+
+[[A0006]]
+Monterey, CA 93940
+
+[[A0007]]
+Attention: Bala Padmakumar, CEO
+
+[[A0008]]
+ConnectM Technology Solutions, Inc.
+
+[[A0009]]
+2 Mount Royal Avenue, Suite 550
+
+[[A0010]]
+Marlborough, MA 01752
+
+[[A0011]]
+Attention: Bhaskar Panigrahi, CEO
+
+[[A0012]]
+RE: Lock-up Agreement (this “ Agreement ”)
+
+[[A0013]]
+Ladies and Gentlemen:
+
+[[A0014]]
+Reference is made to that certain Agreement and Plan of Merger (the “ Merger Agreement ”), dated as of December 31, 2022, by and among Monterey Capital Acquisition Corporation, a Delaware corporation, which will be known after the consummation of the transactions contemplated by the Merger Agreement as ConnectM Technology Solutions, Inc.
+
+[[A0015]]
+(“ Parent ”), Chronos Merger Sub, Inc., a Delaware corporation (“ Merger Sub ”) and a wholly owned subsidiary of the Company, and ConnectM Technology Solutions, Inc., a Delaware corporation (the “ Company ”), pursuant to which holders of Company capital stock will receive shares of common stock, $0.0001 par value per share (“ Common Stock ”), of Parent, upon and subject to the closing (the “ Closing ”) of the transactions contemplated thereby (the “ Merger ”). Capitalized terms used herein and not otherwise defined shall have the meanings set forth in the Merger Agreement.
+
+[[A0016]]
+In connection with the Merger, and for other good and valuable consideration receipt of which is hereby acknowledged, the undersigned hereby agrees that, without the prior written consent of the Company and Parent, the undersigned will not, for the period beginning on the date of this Agreement and ending on the earlier of:
+
+[[A0017]]
+[[TABLE]]
+| | (A) | 180 days after the Closing; and |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0018]]
+[[TABLE]]
+| | (B) | subsequent to the Closing, (x) if
+ the last reported sale price of the Common Stock equals or exceeds $16.50 per share (as adjusted
+ for stock splits, stock dividends, reorganizations, recapitalizations and the like) for any
+ twenty (20) trading days within any thirty (30) consecutive trading days following the one
+ hundred fiftieth (150 th ) day commencing after the Closing or (y) the date
+ on which Parent completes a Change of Control. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0019]]
+For purposes of this Agreement, “ Change of Control ” means any transaction or series of transactions following the Closing the result of which is: (i) the acquisition by any Person or group (as defined under Section 13 of the Exchange Act) of Persons of direct or indirect beneficial ownership of securities representing 50% or more of the combined voting power of the then outstanding securities of Parent; (ii) a merger, consolidation, business combination, recapitalization, reorganization, or other similar transaction, however effected, resulting in any Person or group (as defined under Section 13 of the Exchange Act) acquiring 50% or more of the combined voting power of the then outstanding securities of Parent or the surviving or successor entity immediately after such combination; (iii) a sale of all or substantially all of the assets of Parent and its Subsidiaries, taken as a whole; provided, however, that any securities of Parent issued in a bona fide financing transaction or series of bona fide financing transactions shall be excluded from the definition of “Change of Control”.
+
+[[A0020]]
+1
+
+[[A0021]]
+(the “ Lock-up Period ”), (1) offer, sell, contract to sell, pledge, grant any option to purchase, make any short sale or otherwise dispose of or distribute any shares of Common Stock or any securities convertible into, exercisable for, exchangeable for or that represent the right to receive shares of Common Stock, whether now owned or hereinafter acquired, (including, without limitation, shares of Company capital stock) that are owned directly by the undersigned (including securities held as a custodian) or with respect to which the undersigned has beneficial ownership within the rules and regulations of the Securities and Exchange Commission (such securities, the “ Restricted Securities ”), or (2) engage in any hedging or other transaction with respect to Restricted Securities which is designed to or which reasonably could be expected to lead to or result in a sale or disposition of the Restricted Securities even if such Restricted Securities would be disposed of by someone other than the undersigned.
+
+[[A0022]]
+Such prohibited hedging or other transactions include any short sale or any purchase, sale or grant of any right (including any put or call option) with respect to any of the Restricted Securities of the undersigned, or with respect to any security that includes, relates to, or derives any significant part of its value from such Restricted Securities.
+
+[[A0023]]
+The foregoing shall not apply to:
+
+[[A0024]]
+- transfers
+of shares of Common Stock as a bona fide gift or gifts or to a trust, foundation or family partnership for the direct or indirect benefit
+of the undersigned, its members or equity holders or members of their respective immediate family, or by will or intestate succession
+upon the death of the undersigned or for bona fide estate planning purposes;
+
+[[A0025]]
+- if
+the undersigned is a corporation, partnership, limited liability company or other business entity, distributions of shares of Common
+Stock to members, partners, managers or stockholders of the undersigned or to an affiliated investment fund or other affiliated entity
+controlled or managed by the undersigned;
+
+[[A0026]]
+- if
+the undersigned is a corporation, partnership, limited liability company or other business entity, any transfer made by the undersigned
+to another corporation, partnership, limited liability company or other business entity so long as the transferee controls, is controlled
+by or is under common control with the undersigned and such transfer is not for value;
+
+[[A0027]]
+- transactions
+relating to Common Stock or other securities convertible into or exercisable or exchangeable for Common Stock acquired by the undersigned
+in open market transactions after completion of the Business Combination;
+
+[[A0028]]
+- any
+transfers made by the undersigned by operation of law, such as pursuant to a qualified domestic order or in connection with a divorce
+settlement;
+
+[[A0029]]
+- transfers
+made pursuant to an order or decree of a Governmental Entity;
+
+[[A0030]]
+- any
+transfers to a charitable foundation controlled by the undersigned, its members or stockholders or any of their respective immediate
+family;
+
+[[A0031]]
+- any
+transfers to a charitable organization;
+
+[[A0032]]
+- in
+the case of an individual, transfers made pursuant to a qualified domestic relations order;
+
+[[A0033]]
+- transfer
+to a nominee or custodian of a Person to whom a disposition or transfer would be permissible under clauses (A), (D), (E), (F),(G) or
+
+[[A0034]]
+- above.
+
+[[A0035]]
+- entering
+into a trading plan providing for the sale of the Restricted Securities by the undersigned, which trading plan meets the requirements
+of Rule 10b5-1(c) under the Exchange Act, as long as (i) such plan does not provide for, or permit, the sale of any Restricted
+Securities during the Restricted Period and (ii) no filing under Section 16(a) of the Exchange Act or other public announcement
+is voluntarily made or required regarding such plan during the Lock-up Period; and
+
+[[A0036]]
+- the
+conversion of Parent Class B Common Stock into Common Stock pursuant to the Merger, it being understood that any such shares of
+Common Stock received by the undersigned upon such conversion shall be subject to the restrictions on transfer set forth in this Agreement.
+
+[[A0037]]
+2
+
+[[A0038]]
+provided , that, in the case of any transfer or distribution pursuant to clause (A), (B), (C),(E), (F), (G), (H) or (I) each donee, distributee or transferee, as applicable, shall execute and deliver to Parent and the Company a lock-up letter in the form of this Agreement; and provided , further , that in the case of any transfer or distribution pursuant to clause (A), (B), (C), (D), (E), (F) (G), (I) or (J) (i) no filing by any party (donor, donee, transferor or transferee) under the Exchange Act or (ii) other public announcement reporting a reduction in beneficial ownership shall be required or shall be made voluntarily in connection with such transfer or distribution (other than a filing on a Form 5, Schedule 13G (or Schedule 13G/A) or Schedule 13F made after the expiration of the Lock-up Period referred to above).
+
+[[A0039]]
+For purposes of this Agreement, “immediate family” means any relationship by blood, marriage or adoption, not more remote than first cousin.
+
+[[A0040]]
+In furtherance of the foregoing, Parent and any duly appointed transfer agent for the registration or transfer of the securities described herein are hereby authorized to decline to make any transfer of securities if such transfer would constitute a violation or breach of this Agreement.
+
+[[A0041]]
+The undersigned hereby represents and warrants that the undersigned has full power and authority to enter into this Agreement.
+
+[[A0042]]
+All authority herein conferred or agreed to be conferred and any obligations of the undersigned shall be binding upon the successors, assigns, heirs or personal representatives of the undersigned.
+
+[[A0043]]
+The undersigned hereby represents and warrants that it now has and, except as contemplated by this Agreement, will have good and marketable title to its Restricted Securities, free and clear of all liens, encumbrances, and claims that could impact the ability of the undersigned to comply with the foregoing restrictions.
+
+[[A0044]]
+The undersigned agrees and consents to the entry of stop transfer instructions with Parent’s transfer agent and registrar against the transfer of any Restricted Securities during the Lock-up Period.
+
+[[A0045]]
+Notwithstanding anything to the contrary contained herein, if the Merger Agreement (other than the provisions thereof which survive termination) shall terminate or be terminated prior to the Closing, the undersigned shall be released from all obligations under this Agreement.
+
+[[A0046]]
+The undersigned understands that Parent and the Company are proceeding with the Merger in reliance upon this Agreement.
+
+[[A0047]]
+Except as otherwise provided herein, this Agreement shall terminate upon the expiration of the Lock-up Period.
+
+[[A0048]]
+This Agreement and any claim, controversy or dispute arising under or related to this Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to the conflict of laws principles thereof.
+
+[[A0049]]
+All notices, requests, instructions, claims, consents and other communications made in connection with this Agreement, shall be provided in accordance with Section 11.16 of the Merger Agreement,
+
+[[A0050]]
+mutatis mutandis , with respect to the undersigned, to the address or email address set forth on the signature page hereto.
+
+[[A0051]]
+The provisions of this Agreement may be amended, modified or waived only with the prior written consent of the Company and the holders of the Restricted Securities (each, a “ Holder ” and collectively the “ Holders ”) representing a majority of the Restricted Securities; provided that (i) no such amendment, modification or waiver that would adversely affect a Holder in a manner that is different from any other Holder shall be effective against such Holder without the prior written consent of such Holder and (ii) if any amendment, modification, waiver or release of this Agreement provides any Holder with rights superior to the rights provided to other Holders, such amendment, modification or waiver shall provide such rights to all Holders.
+
+[[A0052]]
+The failure or delay of any Person to enforce any of the provisions of this Agreement shall in no way be construed as a waiver of such provisions and shall not affect the right of such Person thereafter to enforce each and every provision of this Agreement in accordance with its terms.
+
+[[A0053]]
+A waiver or consent to or of any breach or default by any Person in the performance by that Person of his, her or its obligations under this Agreement shall not be deemed to be a consent or waiver to or of any other breach or default in the performance by that Person of the same or any other obligations of that Person under this Agreement.
+
+[[A0054]]
+The undersigned acknowledges that its obligations under this Agreement are unique, recognizes and affirms that in the event of its breach of this Agreement, money damages would be inadequate and Parent will have no adequate remedy at law, and agrees that irreparable damage might occur in the event that any of the provisions of this Agreement were not performed by the undersigned in accordance with their specific terms or were otherwise breached.
+
+[[A0055]]
+Accordingly, Parent shall be entitled to an injunction or restraining order to prevent breaches of this Agreement by the undersigned and to enforce specifically the terms and provisions hereof, without the requirement to post any bond or other security or to prove that money damages would be inadequate, this being in addition to any other right or remedy to which such party may be entitled under this Agreement, at law or in equity.
+
+[[A0056]]
+3
+
+[[A0057]]
+Article X (No Survival) and Sections 11.2 (Counterparts), 11.3 (Governing Law), 11.4 (Forum; Waiver of Jury Trial), 11.6 (Notice), 11.11 (Severability) and 11.12 (Interpretation and Construction), of the Merger Agreement are incorporated herein by reference and shall apply to this Agreement, mutatis mutandis .
+
+[[A0058]]
+4
+
+[[A0059]]
+Very truly yours,
+
+[[A0060]]
+If an individual, please sign here:
+
+[[A0061]]
+[[TABLE]]
+| | Signature: | | |
+| --- | --- | --- | --- |
+| | | | |
+| | Print Name: | | |
+[[/TABLE]]
+
+[[A0062]]
+[[TABLE]]
+| If a corporation, limited liability company, limited partnership or other legal entity,
+ please sign here: | | | | |
+| --- | --- | --- | --- | --- |
+| | | | | |
+| | Legal Name: | | | |
+| | | | | |
+| | | By: | | |
+| | | Name: | | |
+| | | Title: | | |
+[[/TABLE]]
+
+[[A0063]]
+[Signature Page to Lock-up Agreement]

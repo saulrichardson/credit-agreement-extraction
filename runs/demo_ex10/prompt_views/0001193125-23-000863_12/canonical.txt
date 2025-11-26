@@ -1,0 +1,691 @@
+EX-10.7
+
+Exhibit 10.7
+
+COVALTO LTD. 2018 S HARE P LAN A DOPTED ON M AY 30, 2018
+
+TABLE OF CONTENTS
+
+[[TABLE]]
+| | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- |
+| | | | | Page | | |
+| | | | | | | |
+| SECTION 1. ESTABLISHMENT AND PURPOSE | | | 1 | | | |
+| | | | | | | |
+| SECTION 2. ADMINISTRATION | | | 1 | | | |
+| (a) | | Committees of the Board of Directors | | | 1 | |
+| (b) | | Authority of the Board of Directors | | | 1 | |
+| | | | | | | |
+| SECTION 3. ELIGIBILITY | | | 1 | | | |
+| (a) | | General Rule | | | 1 | |
+| | | | | | | |
+| SECTION 4. SHARES SUBJECT TO PLAN | | | 2 | | | |
+| (a) | | Basic Limitation | | | 2 | |
+| (b) | | Additional Shares | | | 2 | |
+| | | | | | | |
+| SECTION 5. TERMS AND CONDITIONS OF AWARDS OR SALES | | | 2 | | | |
+| (a) | | Share Grant or Purchase Agreement | | | 2 | |
+| (b) | | Duration of Offers and Nontransferability of Rights | | | 2 | |
+| (c) | | Purchase Price | | | 2 | |
+| | | | | | | |
+| SECTION 6. TERMS AND CONDITIONS OF OPTIONS | | | 3 | | | |
+| (a) | | Share Option Agreement | | | 3 | |
+| (b) | | Number of Shares | | | 3 | |
+| (c) | | Exercise Price | | | 3 | |
+| (d) | | Vesting and Exercisability | | | 3 | |
+| (e) | | Basic Term | | | 3 | |
+| (f) | | Termination of Service (Except by Death) | | | 3 | |
+| (g) | | Leaves of Absence | | | 4 | |
+| (h) | | Death of Optionee | | | 4 | |
+| (i) | | Restrictions on Transfer of Options | | | 4 | |
+| (j) | | No Rights as a Shareholder | | | 5 | |
+| (k) | | Modification, Extension and Assumption of Options | | | 5 | |
+| (l) | | Company’s Right to Cancel Certain Options | | | 5 | |
+| | | | | | | |
+| SECTION 7. TERMS AND CONDITIONS OF RESTRICTED SHARE UNITS | | | 5 | | | |
+| (a) | | Restricted Share Unit Agreement | | | 5 | |
+| (b) | | Payment for Restricted Share Units | | | 5 | |
+| (c) | | Vesting Conditions | | | 5 | |
+| (d) | | Forfeiture | | | 6 | |
+| (e) | | Voting and Dividend Rights | | | 6 | |
+| (f) | | Form and Time of Settlement of Restricted Share Units | | | 6 | |
+| (g) | | Death of Recipient | | | 6 | |
+| (h) | | Creditors’ Rights | | | 6 | |
+| (i) | | Modification, Extension and Assumption of Restricted Share Units | | | 6 | |
+| (j) | | Restrictions on Transfer of Restricted Share Units | | | 6 | |
+[[/TABLE]]
+
+i
+
+[[TABLE]]
+| | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- |
+| SECTION 8. PAYMENT FOR SHARES | | | 7 | | | |
+| (a) | | General Rule | | | 7 | |
+| (b) | | Services Rendered | | | 7 | |
+| (c) | | Promissory Note | | | 7 | |
+| (d) | | Surrender of Shares | | | 7 | |
+| (e) | | Cashless Exercise | | | 7 | |
+| (f) | | Net Exercise | | | 7 | |
+| (g) | | Other Forms of Payment | | | 7 | |
+| | | | | | | |
+| SECTION 9. ADJUSTMENT OF SHARES | | | 8 | | | |
+| (a) | | General | | | 8 | |
+| (b) | | Corporate Transactions | | | 8 | |
+| (c) | | Dissolution or Liquidation | | | 9 | |
+| (d) | | Reservation of Rights | | | 9 | |
+| | | | | | | |
+| SECTION 10. MISCELLANEOUS PROVISIONS | | | 10 | | | |
+| (a) | | Securities Law Requirements | | | 10 | |
+| (b) | | No Retention Rights | | | 10 | |
+| (c) | | Treatment as Compensation | | | 10 | |
+| (d) | | Governing Law | | | 10 | |
+| (e) | | Conditions and Restrictions on Shares | | | 10 | |
+| (f) | | Tax Matters | | | 11 | |
+| | | | | | | |
+| SECTION 11. DURATION AND AMENDMENTS; SHAREHOLDER APPROVAL | | | 11 | | | |
+| (a) | | Term of the Plan | | | 11 | |
+| (b) | | Right to Amend or Terminate the Plan | | | 12 | |
+| (c) | | Effect of Amendment or Termination | | | 12 | |
+| (d) | | Shareholder Approval | | | 12 | |
+| | | | | | | |
+| SECTION 12. DEFINITIONS | | | 12 | | | |
+[[/TABLE]]
+
+ii
+
+C OVALTO L TD . 2018 S HARE P LAN
+
+SECTION 1. ESTABLISHMENT AND PURPOSE .
+
+The purpose of this Plan is to attract, incentivize and retain Employees, Outside Directors and Consultants through the grant of Awards. The Plan provides for the direct award or sale of Shares, the grant of Options to purchase Shares and the grant of Restricted Share Units to acquire Shares. Options granted under the Plan are NSOs which are not intended to qualify under Code Section 422. Capitalized terms are defined in Section 12.
+
+SECTION 2. ADMINISTRATION . (a)
+
+Committees of the Board of Directors . The Plan may be administered by one or more Committees. Each Committee shall consist, as required by applicable law, of one or more members of the Board of Directors who have been appointed by the Board of Directors. Each Committee shall have such authority and be responsible for such functions as the Board of Directors has assigned to it. If no Committee has been appointed, the entire Board of Directors shall administer the Plan. Any reference to the Board of Directors in the Plan or an Award Agreement shall be construed as a reference to the Committee (if any) to whom the Board of Directors has assigned a particular function.
+
+- Authority of the Board of Directors. Subject to the provisions of the Plan, the Board of Directors shall have full authority and discretion
+to take any actions it deems necessary or advisable for the administration of the Plan. Notwithstanding anything to the contrary in the Plan, with respect to the terms and conditions of awards granted to Participants outside the United States, the
+Board of Directors may vary from the provisions of the Plan to the extent it determines it necessary and appropriate to do so; provided that it may not vary from those Plan terms requiring shareholder approval pursuant to Section 11(d) below.
+All decisions, interpretations and other actions of the Board of Directors shall be final and binding on all Participants and all persons deriving their rights from a Participant.
+
+SECTION 3. ELIGIBILITY
+.
+
+- General
+Rule. Employees, Outside Directors and Consultants shall be eligible for the grant of Awards under the Plan.
+1
+
+[[TABLE]]
+| 1 | Note that special considerations apply if the Company proposes to grant awards to an Employee or Consultant of
+a Parent company. |
+| --- | --- |
+[[/TABLE]]
+
+SECTION 4. SHARES SUBJECT TO PLAN .
+
+- Basic Limitation. Not more than 5,711,071 Shares may be issued under the Plan, subject to Subsection (b) below and Section 9(a).
+2
+The Company, during the term of the Plan, shall at all times reserve and keep available sufficient Shares to satisfy the requirements of the Plan. Shares offered under the Plan may be authorized but
+unissued Shares or treasury Shares.
+
+- Additional Shares. In the event that Shares previously issued under the Plan are forfeited to or
+repurchased by the Company due to failure to vest, such Shares shall be added to the number of Shares then available for issuance under the Plan. In the event that Shares that otherwise would have been issuable under the Plan are withheld by the
+Company in payment of the Purchase Price, Exercise Price or withholding taxes, such Shares shall remain available for issuance under the Plan. In the event that an outstanding Option, Restricted Share Unit or other right for any reason expires or is
+canceled, the Shares allocable to the unexercised or unsettled portion of such Option, Restricted Share Unit or other right shall remain available for issuance under the Plan. To the extent an Award is settled in cash, the cash settlement shall not
+reduce the number of Shares remaining available for issuance under the Plan.
+
+SECTION 5.
+
+TERMS AND CONDITIONS OF AWARDS OR SALES
+.
+
+- Share Grant or Purchase Agreement. Each award of Shares under the Plan shall be evidenced by a Share Grant Agreement between the Grantee
+and the Company. Each sale of Shares under the Plan (other than upon exercise of an Option) shall be evidenced by a Share Purchase Agreement between the Purchaser and the Company. Such award or sale shall be subject to all applicable terms and
+conditions of the Plan and may be subject to any other terms and conditions which are not inconsistent with the Plan and which the Board of Directors deems appropriate for inclusion in a Share Grant Agreement or Share Purchase Agreement. The
+provisions of the various Share Grant Agreements and Share Purchase Agreements entered into under the Plan need not be identical.
+
+(b)
+Duration of Offers and Nontransferability of Rights. Any right to purchase Shares under the Plan (other than an Option) shall automatically expire if not exercised by the Purchaser within 30 days (or such other period as may be specified in the
+Award Agreement) after the grant of such right was communicated to the Purchaser by the Company. Such right is not transferable and may be exercised only by the Purchaser to whom such right was granted.
+
+- Purchase Price. The Board of Directors shall determine the Purchase Price of Shares to be offered under the Plan at its sole discretion.
+The Purchase Price shall be payable in a form described in Section 8.
+
+[[TABLE]]
+| 2 | Please refer to Exhibit A for a schedule of the initial share reserve and any subsequent increases in the
+reserve. |
+| --- | --- |
+[[/TABLE]]
+
+2
+
+SECTION 6. TERMS AND CONDITIONS OF OPTIONS .
+
+- Share Option Agreement. Each grant of an Option under the Plan shall be evidenced by a Share Option Agreement between the Optionee and the
+Company. The Option shall be subject to all applicable terms and conditions of the Plan and may be subject to any other terms and conditions that are not inconsistent with the Plan and that the Board of Directors deems appropriate for inclusion in a
+Share Option Agreement. The provisions of the various Share Option Agreements entered into under the Plan need not be identical.
+
+(b)
+Number of Shares. Each Share Option Agreement shall specify the number of Shares that are subject to the Option and shall provide for the adjustment of such number in accordance with Section 9.
+
+- Exercise Price. Each Share Option Agreement shall specify the Exercise Price, which shall be payable in a form described in Section 8.
+Subject to the remaining provisions of this Subsection (c), the Exercise Price shall be determined by the Board of Directors in its sole discretion. Except as specifically set forth in this Subsection (c), the Exercise Price of an NSO shall not be
+less than 100% of the Fair Market Value of a Share on the Date of Grant. This Subsection (c) shall not apply to an NSO granted to a person who is not a U.S. taxpayer on the Date of Grant or to an NSO that is intended either to be exempt from
+Code Section 409A as a “short-term deferral” or to comply with the requirements of Code Section 409A. In addition, this Subsection (c) shall not apply to an NSO granted pursuant to an assumption of, or substitution for, another
+share option in a manner that complies with Code Section 409A.
+
+- Vesting and Exercisability. Each Share Option Agreement shall
+specify the date when all or any installment of the Option is to become vested and exercisable. No Option shall be exercisable unless the Optionee (i) has delivered an executed copy of the Share Option Agreement to the Company or
+- otherwise agrees to be bound by the terms of the Share Option Agreement. The Board of Directors shall determine the vesting and exercisability provisions of the Share Option Agreement at its sole discretion.
+
+- Basic Term. The Share Option Agreement shall specify the term of the Option. The term shall not exceed 10 years from the Date of Grant.
+Subject to the preceding sentence, the Board of Directors at its sole discretion shall determine when an Option is to expire.
+
+(f)
+Termination of Service (Except by Death). If an Optionee’s Service terminates for any reason other than the Optionee’s death, then the Optionee’s Options shall expire on the earliest of the following dates:
+
+- The expiration date determined pursuant to Subsection (e) above;
+
+- The date three months after the termination of the Optionee’s Service for any reason other than Disability, or such
+earlier or later date as the Board of Directors may determine (but in no event earlier than 30 days after the termination of the Optionee’s Service); or
+
+3
+
+- The date six months after the termination of the Optionee’s
+Service by reason of Disability, or such later date as the Board of Directors may determine.
+
+The Optionee may exercise all or part of the Optionee’s
+Options at any time before the expiration of such Options under the preceding sentence, but only to the extent that such Options had become exercisable before the Optionee’s Service terminated (or became exercisable as a result of the
+termination) and the underlying Shares had vested before the Optionee’s Service terminated (or vested as a result of the termination). In the event that the Optionee dies after the termination of the Optionee’s Service but before the
+expiration of the Optionee’s Options, all or part of such Options may be exercised (prior to expiration) by the executors or administrators of the Optionee’s estate or by any person who has acquired such Options directly from the Optionee
+by beneficiary designation, bequest or inheritance, but only to the extent that such Options had become exercisable before the Optionee’s Service terminated (or became exercisable as a result of the termination) and the underlying Shares had
+vested before the Optionee’s Service terminated (or vested as a result of the termination). In no event will an Option, or the Shares underlying an Option, become vested and/or exercisable after termination of the Optionee’s Service unless
+the Board of Directors takes affirmative action or unless expressly provided in a written agreement between the Company and the Optionee.
+
+- Leaves of Absence. For purposes of Subsection (f) above, Service shall be deemed to continue while the Optionee is on a bona fide
+leave of absence approved by the Company in writing.
+
+- Death of Optionee. If an Optionee dies while the Optionee is in Service, then the
+Optionee’s Options shall expire on the earlier of the following dates:
+
+- The expiration date determined pursuant to
+Subsection (e) above; or
+
+- The date 12 months after the Optionee’s death, or such earlier or later date as the
+Board of Directors may determine (but in no event earlier than six months after the Optionee’s death).
+
+All or part of the Optionee’s Options
+may be exercised at any time before the expiration of such Options under the preceding sentence by the executors or administrators of the Optionee’s estate or by any person who has acquired such Options directly from the Optionee by beneficiary
+designation, bequest or inheritance, but only to the extent that such Options had become exercisable before the Optionee’s death (or became exercisable as a result of the death) and the underlying Shares had vested before the Optionee’s
+death (or vested as a result of the Optionee’s death). In no event will an Option, or the Shares underlying an Option, become vested and/or exercisable after the Optionee’s death unless the Board of Directors takes affirmative action or
+unless expressly provided in a written agreement between the Company and the Optionee.
+
+- Restrictions on Transfer of Options. An Option
+shall be transferable by the Optionee only by (i) a beneficiary designation, (ii) a will or (iii) the laws of descent and distribution, except as provided in the next sentence. If the Board of Directors so provides, in a Share Option
+Agreement or otherwise, an NSO may be transferable to the extent permitted by Rule 701 under the Securities Act.
+
+4
+
+- No Rights as a Shareholder. An Optionee, or a transferee of an Optionee, shall have no
+rights as a shareholder with respect to any Shares covered by the Optionee’s Option until such person submits a notice of exercise, pays the Exercise Price and satisfies all applicable withholding taxes pursuant to the terms of such Option.
+
+- Modification, Extension and Assumption of Options. Within the limitations of the Plan, the Board of Directors may modify, reprice,
+extend or assume outstanding Options or may accept the cancellation of outstanding options (whether granted by the Company or another issuer) in return for the grant of new Options or a different type of award for the same or a different number of
+Shares and at the same or a different Exercise Price (if applicable). The foregoing notwithstanding, no modification of an Option shall, without the consent of the Optionee, impair the Optionee’s rights or increase the Optionee’s
+obligations under such Option; provided, however, that a modification of an Option that is otherwise favorable to the Optionee (for example, providing the Optionee with additional time to exercise the Option after termination of employment or
+providing for additional forms of payment) but causes the Option to lose its
+tax-favored
+status shall not require the consent of the Optionee.
+
+(l)
+Company’s Right to Cancel Certain Options
+. Any other provision of the Plan or a Share Option Agreement notwithstanding, the
+Company shall have the right at any time to cancel an Option that was not granted in compliance with Rule 701 under the Securities Act. Prior to canceling such Option, the Company shall give the Optionee not less than 30 days’ notice in
+writing. If the Company elects to cancel such Option, it shall deliver to the Optionee consideration with an aggregate value equal to the excess of (i) the Fair Market Value of the Shares subject to such Option as of the time of the
+cancellation over (ii) the Exercise Price of such Option. The consideration may be delivered in the form of cash or cash equivalents, in the form of Shares, or a combination of both. If the consideration would be a negative amount, such Option
+may be cancelled without the delivery of any consideration.
+
+SECTION 7. TERMS AND CONDITIONS OF RESTRICTED SHARE UNITS
+
+(a)
+Restricted Share Unit Agreement
+. Each grant of Restricted Share Units under the Plan shall be evidenced by a Restricted Share Unit
+Agreement between the recipient and the Company. Such Restricted Share Units shall be subject to all applicable terms and conditions of the Plan and may be subject to any other terms and conditions that are not inconsistent with the Plan and which
+the Board of Directors deems appropriate for inclusion in a Restricted Share Unit Agreement. The provisions of the various Restricted Share Unit Agreements entered into under the Plan need not be identical.
+
+(b)
+Payment for Restricted Share Units
+. No cash consideration shall be required of the recipient in connection with the grant of
+Restricted Share Units.
+
+(c)
+Vesting Conditions
+. Each Restricted Share Unit Agreement shall specify the vesting requirements
+applicable to the Restricted Share Units subject thereto, which the Board of Directors shall determine in its sole discretion.
+
+5
+
+(d)
+Forfeiture
+. Unless a Restricted Share Unit Agreement provides otherwise, upon
+termination of the recipient’s Service and upon such other times specified in the Restricted Share Unit Agreement, any unvested Restricted Share Units shall be forfeited to the Company.
+
+(e)
+Voting and Dividend Rights
+. The holders of Restricted Share Units shall have no voting rights. Prior to settlement or forfeiture,
+any Restricted Share Unit granted under the Plan may, at the discretion of the Board of Directors, carry with it a right to dividend equivalents. Such right entitles the holder to be credited with an amount equal to all cash dividends paid on one
+Share while the Restricted Share Unit is outstanding. Dividend equivalents may be converted into additional Restricted Share Units. Settlement of dividend equivalents may be made in the form of cash, in the form of Shares, or in a combination of
+both. Prior to distribution, any dividend equivalents that are not paid shall be subject to the same conditions and restrictions as the Restricted Share Units to which they attach.
+
+(f)
+Form and Time of Settlement of Restricted Share Units
+. Settlement of vested Restricted Share Units may be made in the form of
+- cash, (ii) Shares or (iii) any combination of both, as determined by the Board of Directors. The actual number of Restricted Share Units eligible for settlement may be larger or smaller than the number included in the original award,
+based on predetermined performance factors. Vested Restricted Share Units shall be settled in such manner and at such time(s) as specified in the Restricted Share Unit Agreement. Until Restricted Share Units are settled, the number of Shares
+represented by such Restricted Share Units shall be subject to adjustment pursuant to Section 9.
+
+(g)
+Death of Recipient
+. Any
+Restricted Share Units that become distributable after the Participant’s death shall be distributed to the Participant’s estate or to any person who has acquired such Restricted Share Units directly from the recipient by beneficiary
+designation, bequest or inheritance.
+
+(h)
+Creditors’ Rights
+. A holder of Restricted Share Units shall have no rights other than
+those of a general creditor of the Company. Restricted Share Units represent an unfunded and unsecured obligation of the Company, subject to the terms and conditions of the applicable Restricted Share Unit Agreement.
+
+(i)
+Modification, Extension and Assumption of Restricted Share Units
+. Within the limitations of the Plan, the Board of Directors may
+modify, extend or assume outstanding restricted share units (whether granted by the Company or a different issuer). The foregoing notwithstanding, no modification of a Restricted Share Unit shall, without the consent of the Participant, impair the
+Participant’s rights or increase the Participant’s obligations under such Restricted Share Unit.
+
+(j)
+Restrictions on Transfer
+of Restricted Share Units
+. A Restricted Share Unit shall be transferable by the Participant only by (i) a beneficiary designation, (ii) a will or (iii) the laws of descent and distribution, except as provided in the next sentence. In
+addition, if the Board of Directors so provides, in a Restricted Share Unit Agreement or otherwise, a Restricted Share Unit shall also be transferable to the extent permitted by Rule 701 under the Securities Act.
+
+6
+
+SECTION 8. PAYMENT FOR SHARES .
+
+- General Rule. The entire Purchase Price or Exercise Price of Shares issued under the Plan shall be payable in cash or cash equivalents at
+the time when such Shares are purchased, except as otherwise provided in this Section 8. In addition, the Board of Directors in its sole discretion may also permit payment through any of the methods described in (b) through (g) below.
+
+- Services Rendered. Shares may be awarded under the Plan in consideration of services rendered to the Company, a Parent or a Subsidiary
+prior to the award.
+
+- Promissory Note. All or a portion of the Purchase Price or Exercise Price (as the case may be) of Shares issued
+under the Plan may be paid with a promissory note. The Shares shall be pledged as security for payment of the principal amount of the promissory note and interest thereon. The interest rate payable under the terms of the promissory note shall not be
+less than the minimum rate (if any) required to avoid the imputation of additional interest under the Code. Subject to the foregoing, the Board of Directors in its sole discretion shall specify the term, interest rate, recourse, amortization
+requirements (if any) and other provisions of such note.
+
+- Surrender of Shares. All or any part of the Exercise Price may be paid by
+surrendering, or attesting to the ownership of, Shares that are already owned by the Optionee. Such Shares shall be surrendered to the Company in good form for transfer and shall be valued at their Fair Market Value as of the date when the Option is
+exercised.
+
+- Cashless Exercise. All or part of the Exercise Price and any withholding taxes may be paid pursuant to a cashless exercise
+arrangement (whether through a securities broker or otherwise) established by the Company whereby Shares subject to an Option are sold and all or part of the sale proceeds are delivered to the Company.
+
+(f)
+Net Exercise
+. An Option may permit exercise through a “net exercise” arrangement pursuant to which the Company will reduce
+the number of Shares issued upon exercise by the largest whole number of Shares having an aggregate Fair Market Value (determined by the Board of Directors as of the exercise date) that does not exceed the aggregate Exercise Price or the sum of the
+aggregate Exercise Price and any withholding taxes (with the Company accepting from the Optionee payment of cash or cash equivalents to satisfy any remaining balance of the aggregate Exercise Price and, if applicable, any additional withholding
+taxes not satisfied through such reduction in Shares);
+provided
+that to the extent Shares subject to an Option are withheld in this manner, the number of Shares subject to the Option following the net exercise will be reduced by the sum of
+the number of Shares withheld and the number of Shares delivered to the Optionee as a result of the exercise.
+
+- Other Forms of Payment.
+To the extent that an Award Agreement so provides, the Purchase Price or Exercise Price of Shares issued under the Plan may be paid in any other form permitted under the Companies Laws (as revised) of the Cayman Islands.
+
+7
+
+SECTION 9. ADJUSTMENT OF SHARES .
+
+- General. In the event of a subdivision of the outstanding shares, a declaration of a dividend payable in shares in the capital of the
+Company, a combination or consolidation of the outstanding Shares into a lesser number of Shares, a reclassification, or any other increase or decrease in the number of issued Shares effected without receipt of consideration by the Company,
+proportionate adjustments shall automatically be made, as applicable, in each of (i) the number and kind of Shares available under Section 4, (ii) the number and kind of Shares covered by each outstanding Option, Award of Restricted Share
+Units and any outstanding and unexercised right to purchase Shares that has not yet expired pursuant to Section 5(b), (iii) the Exercise Price under each outstanding Option and the Purchase Price applicable to any unexercised share purchase
+right described in clause (ii) above, and (iv) any repurchase price that applies to Shares granted under the Plan pursuant to the terms of a Company repurchase right under the applicable Award Agreement. In the event of a declaration of an
+extraordinary dividend payable in a form other than Shares in an amount that has a material effect on the Fair Market Value of the Shares, a recapitalization, a
+spin-off,
+or a similar occurrence, the Board of
+Directors at its sole discretion may make appropriate adjustments in one or more of the items listed in clauses (i) through (iv) above; provided, however, that the Board of Directors shall in any event make such adjustments as may be required
+by Section 25102(o) of the California Corporations Code to the extent the Company is relying on the exemption afforded thereunder with respect to an Award. No fractional Shares shall be issued under the Plan as a result of an adjustment under
+this Section 9(a), although the Board of Directors in its sole discretion may make a cash payment in lieu of fractional Shares.
+
+(b)
+
+Corporate Transactions . In the event that the Company is a party to a merger or consolidation, or in the event of a sale of all or substantially all of the Company’s shares or assets, all Shares acquired under the Plan and all Awards outstanding on the effective date of the transaction shall be treated in the manner described in the definitive transaction agreement (or, in the event the transaction does not entail a definitive agreement to which the Company is party, in the manner determined by the Board of Directors in its capacity as administrator of the Plan, with such determination having final and binding effect on all parties), which agreement or determination need not treat all Awards (or all portions of an Award) in an identical manner. The treatment specified in the transaction agreement or as determined by the Board of Directors may include (without limitation) one or more of the following with respect to each outstanding Award:
+
+- The Company, the surviving corporation or a parent thereof may continue or assume the Award or substitute a comparable
+award for the Award (including, but not limited to, an award to acquire the same consideration paid to the holders of Shares in the transaction). For avoidance of doubt, a comparable award need not be the same type of award as the Award for which it
+is substituted, and, in the case of an Option, need not have the same
+tax-status
+(e.g., an NSO may be substituted for an ISO).
+
+8
+
+- The cancellation of the Award and a payment to the Participant with
+respect to each Share subject to the portion of the Award that is vested as of the transaction date equal to the excess of (A) the value, as determined by the Board of Directors in its absolute discretion, of the property (including cash)
+received by the holder of a Share as a result of the transaction, over (if applicable) (B) the
+per-Share
+Exercise Price of the Award (such excess, the “
+Spread
+”). Such payment shall
+be made in the form of cash, cash equivalents, or securities of the surviving corporation or its parent having a value equal to the Spread. In addition, any escrow, indemnification, holdback,
+earn-out
+or
+similar provisions in the transaction agreement may apply to such payment to the same extent and in the same manner as such provisions apply to the holders of Shares. Receipt of the payment described in this Subsection (b)(ii) may be conditioned
+upon the Participant acknowledging such escrow, indemnification, holdback,
+earn-out
+or other provisions on a form prescribed by the Company. If the Spread applicable to an Award is zero or a negative number,
+then the Award may be cancelled without making a payment to the Participant.
+
+- Even if the Spread applicable to an
+Option is a positive number, the Option may be cancelled without the payment of any consideration; provided that the Optionee shall be notified of such treatment and given an opportunity to exercise the Option (to the extent the Option is vested or
+becomes vested as of the effective date of the transaction) during a period of not less than five (5) business days preceding the effective date of the transaction, unless (A) a shorter period is required to permit a timely closing of the
+transaction and (B) such shorter period still offers the Optionee a reasonable opportunity to exercise the Option.
+
+- In the case of an Option: (A) suspension of the Optionee’s right to exercise the Option during a limited period
+of time preceding the closing of the transaction if such suspension is administratively necessary to facilitate the closing of the transaction and/or (B) termination of any right the Optionee has to exercise the Option prior to vesting in the
+Shares subject to the Option (i.e., “early exercise”), such that following the closing of the transaction the Option may only be exercised to the extent it is vested.
+
+For the avoidance of doubt, the Board of Directors has discretion to accelerate, in whole or part, the vesting and exercisability of an Award in connection
+with a corporate transaction covered by this Section 9(b).
+
+(c)
+Dissolution or Liquidation
+. To the extent not previously
+exercised or settled, Options, Restricted Share Units and other rights to purchase Shares shall terminate immediately prior to the liquidation or dissolution of the Company.
+
+(d)
+Reservation of Rights
+. Except as provided in Section 7(e) or this Section 9, a Participant shall have no rights by reason
+of (i) any subdivision or consolidation of Shares of any class, (ii) the payment of any dividend or (iii) any other increase or decrease in the number of Shares of any class. Any issuance by the Company of Shares of any class, or
+securities convertible into Shares of any class, shall not affect, and no adjustment by reason thereof shall be made with respect to, the number or Exercise Price of Shares subject to an Award. The grant of an Award pursuant to the Plan shall not
+affect in any way the right or power of the Company to make adjustments, reclassifications, reorganizations or changes of its capital or business structure, to merge or consolidate or to dissolve, liquidate, sell or transfer all or any part of its
+business or assets.
+
+9
+
+SECTION 10. MISCELLANEOUS PROVISIONS .
+
+(a)
+Securities Law Requirements
+. Shares shall not be issued under the Plan unless, in the opinion of counsel acceptable to the Board of
+Directors, the issuance and delivery of such Shares complies with (or is exempt from) all applicable requirements of law, including (without limitation) the Securities Act, the rules and regulations promulgated thereunder, state securities laws and
+regulations, and the regulations of any stock exchange or other securities market on which the Company’s securities may then be traded. The Company shall not be liable for a failure to issue Shares as a result of such requirements. Without
+limiting the foregoing, the Company may suspend the exercise of some or all outstanding Options for a period of up to 60 days in order to facilitate compliance with Securities Act Rule 701(e).
+
+(b)
+No Retention Rights
+. Nothing in the Plan or in any right or Award granted under the Plan shall confer upon the Participant any right
+to continue in Service for any period of specific duration or interfere with or otherwise restrict in any way the rights of the Company (or any Parent or Subsidiary employing or retaining the Participant) or of the Participant, which rights are
+hereby expressly reserved by each, to terminate his or her Service at any time and for any reason, with or without cause.
+
+(c)
+Treatment
+as Compensation
+. Any compensation that an individual earns or is deemed to earn under this Plan shall not be considered a part of his or her compensation for purposes of calculating contributions, accruals or benefits under any other plan or
+program that is maintained or funded by the Company, a Parent or a Subsidiary.
+
+- Governing Law. The Plan and all awards, sales and
+grants under the Plan shall be governed by, and construed in accordance with, the laws of the Cayman Islands (except its
+choice-of-law
+provisions), as such laws are
+applied to contracts entered into and performed in such jurisdiction.
+
+- Conditions and Restrictions on Shares. Shares issued under the
+Plan shall be subject to such forfeiture conditions, rights of repurchase, rights of first refusal, other transfer restrictions and such other terms and conditions as the Board of Directors may determine. Such conditions and restrictions shall be
+set forth in the applicable Award Agreement and shall apply in addition to any restrictions that may apply to holders of Shares generally. In addition, Shares issued under the Plan shall be subject to conditions and restrictions imposed either by
+applicable law or by Company policy, as adopted from time to time, designed to ensure compliance with applicable law or laws with which the Company determines in its sole discretion to comply including in order to maintain any statutory, regulatory
+or tax advantage, which (for avoidance of doubt) need not be set forth in the applicable Award Agreement.
+
+10
+
+- Tax Matters.
+
+- As a condition to the award, grant, issuance, vesting, purchase, exercise, settlement or transfer of any Award, or Shares
+issued pursuant to any Award, granted under this Plan, the Participant shall make such arrangements as the Board of Directors may require or permit for the satisfaction of any federal, state, local or foreign withholding tax obligations that may
+arise in connection with such event.
+
+- Unless otherwise expressly set forth in an Award Agreement, it is intended that
+Awards shall be exempt from Code Section 409A, and any ambiguity in the terms of an Award Agreement and the Plan shall be interpreted consistently with this intent. To the extent an Award is not exempt from Code Section 409A (any such
+award, a “
+409A Award
+”), any ambiguity in the terms of such Award and the Plan shall be interpreted in a manner that to the maximum extent permissible supports the Award’s compliance with the requirements of that statute.
+Notwithstanding anything to the contrary permitted under the Plan, in no event shall a modification of an Award not already subject to Code Section 409A, or any subsequent action taken with respect to such Award, be given effect if such
+modification or action would cause the Award to become subject to Code Section 409A unless the parties explicitly acknowledge and consent to the modification or action as one having that effect. A 409A Award shall be subject to such additional
+rules and requirements as specified by the Board of Directors from time to time in order for it to comply with the requirements of Code Section 409A. In this regard, if any amount under a 409A Award is payable upon a “separation from
+service” to an individual who is considered a “specified employee” (as each term is defined under Code Section 409A), then no such payment shall be made prior to the date that is the earlier of (i) six months and one day after
+the Participant’s separation from service or (ii) the Participant’s death, but only to the extent such delay is necessary to prevent such payment from being subject to Section 409A(a)(1). In addition, if a transaction subject to
+Section 9(b) constitutes a payment event with respect to any 409A Award, then the transaction with respect to such award must also constitute a “change in control event” as defined in Treasury Regulation
+
+Section 1.409A-3(i)(5) to the extent required by Code Section 409A.
+
+- Neither the Company nor any member of the Board of Directors shall have any liability to a Participant in the event an
+Award held by the Participant fails to achieve its intended characterization under applicable tax law.
+
+SECTION 11. DURATION AND AMENDMENTS;
+SHAREHOLDER APPROVAL
+.
+
+- Term of the Plan. The Plan, as set forth herein, shall become effective on the date of its adoption by the
+Board of Directors, subject to approval of the Company’s shareholders under Subsection (d) below. The Plan shall terminate automatically 10 years after the later of (i) the date when the Board of Directors adopted the Plan or
+- the date when the Board of Directors approved the most recent increase in the number of Shares reserved under Section 4 that was also approved by the Company’s shareholders. The Plan may be terminated on any earlier date pursuant
+to Subsection (b) below.
+
+11
+
+- Right to Amend or Terminate the Plan. Subject to Subsection (d) below, the Board of
+Directors may amend, suspend or terminate the Plan at any time and for any reason.
+
+- Effect of Amendment or Termination. No Shares shall
+be issued or sold and no Award granted under the Plan after the termination thereof, except upon exercise or settlement of an Award granted under the Plan prior to such termination. Except as expressly provided in Section 6(k) above, the
+termination of the Plan, or any amendment thereof, shall not affect any Share previously issued or any Award previously granted under the Plan.
+
+(d)
+Shareholder Approval
+. To the extent required by applicable law, the Plan will be subject to approval of the Company’s
+shareholders within 12 months of its adoption date. An amendment of the Plan will be subject to the approval of the Company’s shareholders only to the extent required by applicable laws, regulations or rules.
+
+SECTION 12. DEFINITIONS . (a) “ Award ” means any award granted under the Plan, including as an Option, an award of Restricted Share Units or the grant or sale of Shares pursuant to Section 5 of the Plan.
+
+- “
+Award Agreement
+” means a Restricted Share Unit Agreement, Share Grant Agreement, Share Option Agreement or Share Purchase
+Agreement or such other agreement evidencing an Award under the Plan.
+
+- “
+Board of Directors
+” means the Board of
+Directors of the Company, as constituted from time to time.
+
+- “
+Code
+” means the Internal Revenue Code of 1986, as
+amended.
+
+- “
+Committee
+” means a committee of the Board of Directors, as described in Section 2(a).
+
+- “
+Company
+” means Covalto Ltd., a Cayman Islands exempted company.
+
+- “
+Consultant
+” means a person, excluding Employees and Outside Directors, who performs bona fide services for the Company, a
+Parent
+3
+or a Subsidiary as a consultant or advisor and who qualifies as a consultant or advisor under Rule 701(c)(1) of the Securities Act or under Instruction A.1.(a)(1) of Form
+S-8
+under the Securities Act.
+
+3 Note that special considerations apply if the Company proposes to grant awards to consultant or advisor of a Parent company.
+
+12
+
+- “
+Date of Grant
+” means the date of grant specified in the Award
+Agreement, which date shall be the later of (i) the date on which the Board of Directors resolved to grant the Award or (ii) the first day of the Participant’s Service.
+
+- “
+Disability
+” means that the Optionee is unable to engage in any substantial gainful activity by reason of any medically
+determinable physical or mental impairment.
+
+- “
+Employee
+” means any individual who is a
+
+common-law employee of the Company, a Parent 4 or a Subsidiary.
+
+- “
+Exchange Act
+” means the Securities Exchange Act of 1934, as amended.
+
+- “
+Exercise Price
+” means the amount for which one Share may be purchased upon exercise of an Option, as specified by the
+Board of Directors in the applicable Share Option Agreement.
+
+- “
+Fair Market Value
+” means the fair market value of a
+Share, as determined by the Board of Directors in good faith. Such determination shall be conclusive and binding on all persons.
+
+(n)
+“
+Grantee
+” means a person to whom the Board of Directors has awarded Shares under the Plan.
+
+- “
+NSO
+”
+means an Option that does not qualify as an incentive stock option as described in Code Section 422(b) or 423(b).
+
+(p)
+“
+Option
+” means an NSO granted under the Plan and entitling the holder to purchase Shares.
+
+- “
+Optionee
+”
+means a person who holds an Option.
+
+- “
+Outside Director
+” means a member of the Board of Directors who is not an
+Employee.
+
+- “
+Parent
+” means any corporation (other than the Company) in an unbroken chain of corporations ending with
+the Company, if each of the corporations other than the Company owns shares possessing 50% or more of the total combined voting power of all classes of shares in one of the other corporations in such chain. A corporation that attains the status of a
+Parent on a date after the adoption of the Plan shall be considered a Parent commencing as of such date.
+
+(t)
+“
+Participant
+” means the holder of an outstanding Award.
+
+- “
+Plan
+” means this Covalto Ltd. 2018 Share
+Plan.
+
+[[TABLE]]
+| 4 | Note that special considerations apply if the Company proposes to grant awards to an Employee of a Parent
+company. |
+| --- | --- |
+[[/TABLE]]
+
+13
+
+- “
+Purchase Price
+” means the consideration for which one Share may be
+acquired under the Plan (other than upon exercise of an Option), as specified by the Board of Directors.
+
+- “
+Purchaser
+”
+means a person to whom the Board of Directors has offered the right to purchase Shares under the Plan (other than upon exercise of an Option).
+
+- “
+Restricted Share Unit
+” means a bookkeeping entry representing the equivalent of one Share, as awarded under the Plan.
+
+- “
+Restricted Share Unit Agreement
+” means the agreement between the Company and the recipient of a Restricted Share
+Unit that contains the terms, conditions and restrictions pertaining to such Restricted Share Unit.
+
+- “
+Securities Act
+”
+means the Securities Act of 1933, as amended.
+
+- “
+Service
+” means service as an Employee, Outside Director or
+Consultant. In case of any dispute as to whether and when Service has terminated, the Board of Directors shall have sole discretion to determine whether such termination has occurred and the effective date of such termination.
+
+- “
+Share
+” means one ordinary share in the capital of the Company, as adjusted in accordance with Section 9 (if
+applicable).
+
+- “
+Share Grant Agreement
+” means the agreement between the Company and a Grantee who is awarded Shares
+under the Plan that contains the terms, conditions and restrictions pertaining to the award of such Shares.
+
+- “
+Share Option
+Agreement
+” means the agreement between the Company and an Optionee that contains the terms, conditions and restrictions pertaining to the Optionee’s Option.
+
+- “
+Share Purchase Agreement
+” means the agreement between the Company and a Purchaser who purchases Shares under the Plan
+that contains the terms, conditions and restrictions pertaining to the purchase of such Shares.
+
+- “
+Subsidiary
+” means
+any corporation (other than the Company) in an unbroken chain of corporations beginning with the Company, if each of the corporations other than the last corporation in the unbroken chain owns shares possessing 50% or more of the total combined
+voting power of all classes of shares in one of the other corporations in such chain. A corporation that attains the status of a Subsidiary on a date after the adoption of the Plan shall be considered a Subsidiary commencing as of such date.
+
+14
+
+E XHIBIT A
+
+S CHEDULE OF S HARES R ESERVED FOR I SSUANCE
+
+UNDER THE P LAN
+
+[[TABLE]]
+| | | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Date of Board Approval | | Date of Shareholder Approval | | | Number of Shares Added | | | Cumulative Number of Shares | | | | |
+| 5/30/2018 | | | 5/30/2018 | | | | Not Applicable | | | | 4,105,894 | |
+| 7/15/2019 | | | 7/15/2019 | | | | 1,605,177 | | | | 5,711,071 | |
+[[/TABLE]]
+
+S UMMARY OF M ODIFICATIONS AND
+
+A MENDMENTS TO THE P LAN The following is a summary of material modifications made to the Plan (including any material deviations from the Gunderson Dettmer precedent form used to create the Plan):
+
+E-1

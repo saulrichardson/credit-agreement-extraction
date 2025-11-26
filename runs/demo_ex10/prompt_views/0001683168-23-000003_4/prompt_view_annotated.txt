@@ -1,0 +1,71 @@
+[[A0001]]
+Exhibit 10.3
+
+[[A0002]]
+Amendment #1 to
+
+[[A0003]]
+Promissory Note
+
+[[A0004]]
+This AMENDMENT (this “ AMENDMENT ”) is entered into by and between Company and Holder (each as defined below), effective as of December 30, 2022 (the “ Effective Date ”), binding on the undersigned parties as of that date.
+
+[[A0005]]
+Odyssey Health, Inc. (“ BORROWER ”) and Jonathan Lutz (“ LENDER ”) entered into that certain Promissory Note (the “ Note ”) dated September 21, 2022 in the amount of $30,000.00 (the “ Loan Amount ”). Capitalized terms not otherwise defined have the meaning set forth in the Note.
+
+[[A0006]]
+Whereas , the parties have agreed to extend the maturity date of the Note subject to the conditions contained herein.
+
+[[A0007]]
+AGREEMENT
+
+[[A0008]]
+NOW, THEREFORE , in consideration of the mutual covenants and agreements herein contained and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, and intending to be legally bound hereby, the parties hereto agree as follows:
+
+[[A0009]]
+[[TABLE]]
+| | 1. | Extension of Maturity Date . The Maturity Date of the Note is amended and extended to January
+31, 2023. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0010]]
+[[TABLE]]
+| | 2. | Effectiveness; Conflict . Except as modified hereby, the Note and terms thereof shall remain
+in full force and effect. On and after the effectiveness of this Amendment, each reference in the Notes to “this Agreement,”
+“hereunder,” “hereof,” “herein” or words of like import shall mean and be a reference to the Note,
+as amended by this Amendment. To the extent the terms of this Amendment conflict with any provision of the Note or any of the documents
+referenced therein, then the provisions of this Amendment shall control. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0011]]
+[[TABLE]]
+| | 3. | Counterparts . This Amendment may be executed by facsimile transmission and in counterparts,
+each of which shall be deemed an original, but all of which together shall constitute one and the same agreement. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0012]]
+[[TABLE]]
+| | 4. | All Other Terms . All other terms and conditions of the Note remain unchanged and in full
+force and effect. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0013]]
+IN WITNESS WHEREOF, and acknowledging acceptance and agreement of the foregoing, BORROWER, and LENDER affix their signatures hereto,
+
+[[A0014]]
+[[TABLE]]
+| Odyssey Group International, Inc. | | Jonathan Lutz |
+| --- | --- | --- |
+| | | |
+| /s/ J. Michael Redmond | | /s/ Jonathan
+ Lutz |
+| By: J. Michael Redmond | | By: Jonathan Lutz |
+| Title: President | | An Individual |
+| Dated: December 30, 2022 | | Dated: December 30, 2022 |
+| | | |
+| | | |
+[[/TABLE]]

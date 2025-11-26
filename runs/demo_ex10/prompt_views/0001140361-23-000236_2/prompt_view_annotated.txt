@@ -1,0 +1,388 @@
+[[A0001]]
+Exhibit 10.1
+
+[[A0002]]
+Execution Version
+
+[[A0003]]
+PURCHASE AGREEMENT
+
+[[A0004]]
+This PURCHASE AGREEMENT (this " Agreement ") is made and entered into effectively as of December 28, 2022 (the “ Effective Date ”), by and among VKSS Capital, LLC., a Delaware limited liability company (the “ Acquirer ”), Kernel Group Holdings Inc., a Cayman Island exempted company (“ SPAC ”), and Kernel Capital Holdings, LLC (“ Sponsor ”) (each a " Party " and, collectively, the " Parties ").
+
+[[A0005]]
+WHEREAS, SPAC is a Special Purpose Acquisition Company that closed on its initial public offering on February 2 nd , 2021, with 24 months to complete an initial business combination;
+
+[[A0006]]
+WHEREAS, as of the date of this Agreement, SPAC has not completed or announced a business combination;
+
+[[A0007]]
+WHEREAS Sponsor owns 7,187,500 shares of Class B ordinary shares of SPAC (the “ Class B Shares ”) and 8,750,000 Private Placement Warrants (the “ Warrants ”) to acquire one share of Class A ordinary shares of SPAC (the “ Class A Shares ”) (collectively, the “ SPAC Securities ”); and
+
+[[A0008]]
+WHEREAS, in accordance with the terms and conditions of this Agreement, Acquirer, or an entity designated by Acquirer, will purchase all the SPAC Securities from Sponsor for a total purchase price of $1 (one dollar) (the “ Purchase Price ”) payable at the time SPAC effects a merger, share exchange, asset acquisition, share purchase, recapitalization, reorganization or similar business combination with one or more businesses or entities (the “ Initial Business Combination ”).
+
+[[A0009]]
+NOW, THEREFORE, in consideration of the premises set forth above, which are incorporated in this Agreement as if fully set forth below, and the representations, warranties, covenants and agreement contained in this Agreement, and intending to be legally bound hereby, the Parties hereby agree as follows:
+
+[[A0010]]
+1. Purchase and Sale .
+
+[[A0011]]
+- Upon the execution of this Agreement Sponsor shall (A) transfer, deliver, and assign the SPAC Securities to Acquirer, free and clear of all liens and encumbrances; and (B) SPAC shall record such transfer.
+
+[[A0012]]
+- Upon the closing of the Initial Business Combination:
+
+[[A0013]]
+[[TABLE]]
+| | (i) | Acquirer shall pay Sponsor $1 (one dollar). |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0014]]
+[[TABLE]]
+| | (ii) | Acquirer shall convey 2,000,000 (two million) Class B Shares (the “ Closing Shares ”) to the equityholders of Sponsor as of the
+ date hereof (the “ Sponsor Equityholders ”) pro rata based on the Sponsor Equityholders’ underlying interest in Class B Shares as of the date hereof. The Closing Shares
+ shall not be subject in any respect to any forfeiture, earnout, clawback, reduction or similar restrictive provision. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0015]]
+[[TABLE]]
+| | (iii) | Without limiting Acquirer’s assumption of obligatios as set forth in paragraph (iv) below, Acquirer shall settle the outstanding obligations set forth on Exhibit A with the parties named therein.
+ Mark Gross, Rakesh Tondon, Brett Northart and Mike Newbold (the “ Initial Sponsor Founders ”) shall provide an updated Exhibit A two (2) business days prior to the
+ closing of the Initial Business Combination. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0016]]
+[[TABLE]]
+| | (iv) | Acquirer shall:  (a)  pay each of the Initial Sponsor Founders $250,000 (two hundred and fifty thousand dollars), and (b) convey to each of the Initial Sponsor Founders 125,000 (one hundred twenty
+ five thousand) thousand) Class B shares, as an advisor fee (“Advisor Fee”) for their transition support and input towards the Initial Business Combination, and such shares conveyed as part of the Advisor Fee shall not be subject in any
+ respect to any forfeiture, earnout, clawback, reduction or similar restrictive provision |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0017]]
+- The closing of the transactions contemplated herein shall take place on Dec 27, 2022, or on such earlier date as the Parties agree in writing.
+
+[[A0018]]
+2. Assumption of Obligations . In addition to the payment of the Purchase Price, Acquirer shall also assume the following obligations: (i) to cause SPAC to make all of its public company reporting requirements, (ii) and all other obligations of Sponsor related to the SPAC.
+
+[[A0019]]
+To the extent the SPAC’s duration is extended for more than two years from the date of the Prospectus, Acquirer shall purchase an extension of directors’ and officers’ insurance substantially equivalent to the existing directors’ and officers’ insurance for the duration of the SPAC, which insurance coverage terms and insurance provider shall be substantially comparable to the directors’ and officers’ insurance policy currently in effect.
+
+[[A0020]]
+3. Management; Name Change . SPAC acknowledges and agrees that Acquirer shall have the right to replace SPAC’s current directors with any such directors as Acquirer may select in its sole discretion.
+
+[[A0021]]
+Concurrently with the execution of this Agreement, SPAC’s officers shall submit resignation letters, which letters shall take effect with the execution of this Agreement.
+
+[[A0022]]
+Accordingly, at the request of Acquirer, SPAC shall take such actions as necessary to effectuate the removal and replacement of SPAC’s existing directors and officers and the existing directors and officers of SPAC shall resign from their respective positions.
+
+[[A0023]]
+Additionally, Acquirer shall use its best efforts to file a formal public vehicle name change on behalf of SPAC, and SPAC shall reasonably cooperate with Acquirer in connection therewith; provided that Acquirer shall not be obligated to solicit separate proxies to effect such name change.
+
+[[A0024]]
+4.
+
+[[A0025]]
+Liabilities .  SPAC confirms to Acquirer that it will provide a true and correct (a) copy of its balance sheet as of December 31, 2022, as soon as reasonably practicable following execution, to be set forth on Exhibit B to this Agreement , (b) list of invoices received by SPAC since December 31, 2022 shall be set forth on Exhibit C-1 to this Agreement as soon as reasonably practicable following execution, and that all invoices from September 30, 2022 through the date of this Agreement are attached as Exhibit C-2 to this Agreement (c) exhibit setting forth bank account balances for SPAC and Sponsor, respectively, and all transactions in such bank accounts since the formation of the SPAC are set forth on Exhibit D to this Agreement and (d) capitalization table of Sponsor is set forth on Exhibit E . Sponsor represents that the SPAC Securities represent all the of the outstanding securities of SPAC held by Sponsor.
+
+[[A0026]]
+5. Limitation on Transfer . Acquirer acknowledges and agrees that the SPAC Securities are subject to the limitations on transfer set forth in Section 8 of this Agreement.
+
+[[A0027]]
+6. Title . Sponsor represents and warrants to Acquirer that Sponsor has good and marketable title to the SPAC Securities free and clear of all liens and encumbrances and that, upon updating the records of ownership, Acquirer will have good and marketable title to the SPAC Securities.
+
+[[A0028]]
+7. Representations and Warranties . Each Party hereby represents and warrants to each other Party as of the Effective Date and as of the Closing that:
+
+[[A0029]]
+2
+
+[[A0030]]
+- such Party has the power and authority to execute and deliver this Agreement and to carry out its obligations hereunder;
+
+[[A0031]]
+- the execution, delivery and performance by the Party of this Agreement and the consummation of the transfer have been duly authorized by all necessary action on the part of the relevant Party, and no further approval or authorization is required on the part of such Party;
+
+[[A0032]]
+- this Agreement will be valid and binding on each Party and enforceable against such Party in accordance with its terms, except as the same may be limited by applicable bankruptcy, insolvency, reorganization, fraudulent transfer or conveyance, moratorium or similar laws affecting the enforcement of creditors rights generally and general equitable principles, regardless of whether such enforceability is considered in a proceeding at law or in equity; and
+
+[[A0033]]
+- SPAC and Sponsor have received all third-party consents to the transfer of the SPAC Securities and such consents have been shared with Acquirer.
+
+[[A0034]]
+8. Acknowledgements . Each Party acknowledges and agrees that the transfer has not been registered under the Securities Act or under any state securities laws and Acquirer represents that it:
+
+[[A0035]]
+- is acquiring the SPAC Securities pursuant to an exemption from registration under the Securities Act with no present intention to distribute them to any person in violation of the Securities Act or any applicable U.S. state securities laws;
+
+[[A0036]]
+- will not sell or otherwise dispose of any of the SPAC Securities, except in compliance with the registration requirements or exemption provisions of the Securities Act and any applicable U.S. state securities laws and in accordance with any limitations set forth in any agreements described in the Prospectus dated Feb 2 nd , 2021 relating to the initial public offering of the SPAC;
+
+[[A0037]]
+- has such knowledge and experience in financial and business matters and in investments of this type that it is capable of evaluating the merits and risks of the SPAC Securities and of making an informed investment decision, and has conducted a review of the business and affairs of SPAC that it considers sufficient and reasonable for purposes of making the transfer; and
+
+[[A0038]]
+- is an "accredited investor" (as defined by Rule 501 of the Securities Act).
+
+[[A0039]]
+9. Injunctive Relief . It is hereby understood and agreed that damages shall be an inadequate remedy in the event of a breach by any Party of any covenants or obligations herein, and that any such breach by a Party will cause the other Parties great and irreparable injury and damage.
+
+[[A0040]]
+Accordingly, the breaching Party agrees that the other Parties shall be entitled, without waiving any additional rights or remedies otherwise available to such other Parties at law or in equity or by statute, to injunctive and other equitable relief in the event of a breach or intended or threatened breach by the breaching Party of any of said covenants or obligations.
+
+[[A0041]]
+10.
+
+[[A0042]]
+Severability . In case any one or more of the provisions contained herein shall, for any reason, be held to be invalid, illegal, or unenforceable in any respect, such invalidity, illegality or unenforceability shall not affect any other provisions of this Agreement, and this Agreement shall be construed as if such provision(s) had never been contained herein, provided that such provision(s) shall be curtailed, limited or eliminated only to the extent necessary to remove the invalidity, illegality or unenforceability in the jurisdiction where such provisions have been held to be invalid, illegal, or unenforceable.
+
+[[A0043]]
+3
+
+[[A0044]]
+11.
+
+[[A0045]]
+Titles and Headings . The titles and section headings in this Agreement are included strictly for convenience purposes.
+
+[[A0046]]
+12.
+
+[[A0047]]
+No Waiver . It is understood and agreed that no failure or delay in exercising any right, power or privilege hereunder shall operate as a waiver thereof, nor shall any single or partial exercise thereof preclude any other or further exercise thereof or the exercise of any right, power or privilege hereunder.
+
+[[A0048]]
+13.
+
+[[A0049]]
+Governing Law; Submission to Jurisdiction . This Agreement shall be governed by and interpreted in accordance with the laws of the State of New York, without regard to its conflicts of laws rules.
+
+[[A0050]]
+Each Party (a) irrevocably submits to the exclusive jurisdiction of the state courts situated in the County of New York, State of New York or, to the extent such court does not have subject matter jurisdiction, the United States District Court for the Southern District of New York (collectively, the " Courts "), for purposes of any action, suit or other proceeding arising out of this Agreement; and (b) agrees not to raise any objection at any time to the laying or maintaining of the venue of any such action, suit or proceeding in any of the Courts, irrevocably waives any claim that such action, suit or other proceeding has been brought in an inconvenient forum and further irrevocably waives the right to object, with respect to such action, suit or other proceeding, that such Court does not have any jurisdiction over such Party.
+
+[[A0051]]
+Any Party may serve any process required by such Courts by way of notice.
+
+[[A0052]]
+14.
+
+[[A0053]]
+WAIVER OF JURY TRIAL . EACH OF THE PARTIES HEREBY WAIVES TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW ANY RIGHT IT MAY HAVE TO A TRIAL BY JURY WITH RESPECT TO ANY ACTION DIRECTLY OR INDIRECTLY ARISING OUT OF, UNDER OR IN CONNECTION WITH THIS AGREEMENT OR THE TRANSACTIONS CONTEMPLATED HEREBY.
+
+[[A0054]]
+EACH PARTY (A) CERTIFIES THAT NO REPRESENTATIVE OF ANY OTHER PARTY HAS REPRESENTED, EXPRESSLY OR OTHERWISE, THAT SUCH OTHER PARTY WOULD NOT, IN THE EVENT OF ANY ACTION, SEEK TO ENFORCE THAT FOREGOING WAIVER AND (B) ACKNOWLEDGES THAT IT AND THE OTHER PARTIES HAVE BEEN INDUCED TO ENTER INTO THIS AGREEMENT BY, AMONG OTHER THINGS, THE MUTUAL WAIVERS AND CERTIFICATIONS IN THIS SECTION.
+
+[[A0055]]
+15.
+
+[[A0056]]
+Entire Agreement . This Agreement contains the entire agreement between the Parties and supersedes any previous understandings, commitments or agreements, oral or written, with respect to the subject matter hereof.
+
+[[A0057]]
+No modification of this Agreement or waiver of the terms and conditions hereof shall be binding upon either Party, unless mutually approved in writing.
+
+[[A0058]]
+16.
+
+[[A0059]]
+Counterparts .  This Agreement may be executed in counterparts (delivered by email or other means of electronic transmission), each of which shall be deemed an original and which, when taken together, shall constitute one and the same document.
+
+[[A0060]]
+17.
+
+[[A0061]]
+Notices .  All notices, consents, waivers and other communications hereunder shall be in writing and shall be deemed to have been duly given when delivered (i) in person, (ii) by email or other electronic means, with affirmative confirmation of receipt, (iii) one business day after being sent, if sent by reputable, nationally recognized overnight courier service or (iv) three (3) business days after being mailed, if sent by registered or certified mail, pre-paid and return receipt requested, in each case to the applicable Party at the following addresses (or at such other address for a Party as shall be specified by like notice.
+
+[[A0062]]
+[[TABLE]]
+| | If to Acquirer : | S uren Ajjarapu | |
+| --- | --- | --- | --- |
+| | | | |
+| | | | |
+[[/TABLE]]
+
+[[A0063]]
+[[TABLE]]
+| | | Attn: | | |
+| --- | --- | --- | --- | --- |
+| | | Email: | | |
+[[/TABLE]]
+
+[[A0064]]
+4
+
+[[A0065]]
+[[TABLE]]
+| | With a copy to: | Nelson Mullins Riley & Scarborough LLP |
+| --- | --- | --- |
+| | | 101 Constitution Avenue, Suite 900 |
+| | | Washington, DC 20001 |
+| | | Attn:  Andrew M. Tucker |
+| | | Email: andy.tucker@nelsonmullins.com |
+[[/TABLE]]
+
+[[A0066]]
+[[TABLE]]
+| | If to SPAC : | KERNEL GROUP HOLDINGS, INC | | |
+| --- | --- | --- | --- | --- |
+| | | Attn:  Michael Newbold | | |
+| | | Email: | mike@downanotch.com | |
+[[/TABLE]]
+
+[[A0067]]
+[[TABLE]]
+| | With a copy to: | Brett Northart | |
+| --- | --- | --- | --- |
+[[/TABLE]]
+
+[[A0068]]
+[[TABLE]]
+| | | Email: | bnorthart@gmail.com | |
+| --- | --- | --- | --- | --- |
+[[/TABLE]]
+
+[[A0069]]
+[[TABLE]]
+| | If to Sponsor : | KERNEL CAPITAL HOLDINGS, LLC |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0070]]
+[[TABLE]]
+| | | Email: | Michael | Newbold |
+| --- | --- | --- | --- | --- |
+[[/TABLE]]
+
+[[A0071]]
+[[TABLE]]
+| mike@downanotch.com | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0072]]
+[[TABLE]]
+| | With a copy to: | Brett Northart | |
+| --- | --- | --- | --- |
+[[/TABLE]]
+
+[[A0073]]
+[[TABLE]]
+| | | Email: | bnorthart@gmail.com | |
+| --- | --- | --- | --- | --- |
+[[/TABLE]]
+
+[[A0074]]
+18.
+
+[[A0075]]
+Binding Effect; Assignment . This Agreement and all of the provisions hereof shall be binding upon and inure to the benefit of the Parties and their respective successors and permitted assigns.
+
+[[A0076]]
+This Agreement shall not be assigned by operation of law or otherwise without the prior written consent of the other Parties, and any assignment without such consent shall be null and void; provided that no such assignment shall relieve the assigning Party of its obligations hereunder.
+
+[[A0077]]
+19.
+
+[[A0078]]
+Third Parties . Nothing contained in this Agreement or in any instrument or document executed by any party in connection with the transactions contemplated hereby shall create any rights in or be deemed to have been executed for the benefit of, any person or entity that is not a Party hereto or thereto or a successor or permitted assign of such a Party.
+
+[[A0079]]
+20.
+
+[[A0080]]
+Specific Performance . Each Party acknowledges that the rights of each Party to consummate the transactions contemplated hereby are unique, recognizes and affirms that in the event of a breach of this Agreement by any Party, money damages may be inadequate and the non-breaching Parties may have not adequate remedy at law, and agree that irreparable damage would occur in the event that any of the provisions of this Agreement were not performed by an applicable Party in accordance with their specific terms or were otherwise breached.
+
+[[A0081]]
+Accordingly, each Party shall be entitled to seek an injunction or restraining order to prevent breaches of this Agreement and to seek to enforce specifically the terms and provisions hereof, without the requirement to post any bond or other security or to prove that money damages would be inadequate, this being in addition to any other right or remedy to which such Party may be entitled under this Agreement, at law or in equity.
+
+[[A0082]]
+[remainder of page intentionally left blank; signature page follows]
+
+[[A0083]]
+5
+
+[[A0084]]
+Execution Version
+
+[[A0085]]
+IN WITNESS WHEREOF, the Parties have caused this Agreement to be duly executed and delivered, all as of the Effective Date.
+
+[[A0086]]
+[[TABLE]]
+| | ACQUIRER : | |
+| --- | --- | --- |
+| | | |
+| | /s/ Surendra Ajjarapu | |
+| | VKSS Capital, LLC | |
+| | | |
+| | SPAC : | |
+| | | |
+| | KERNEL GROUP HOLDINGS, INC | |
+| | | |
+| | By: | /s/ Michael Newbold |
+| | Name:  Michael Newbold | |
+| | TitleCAO | |
+[[/TABLE]]
+
+[[A0087]]
+[[TABLE]]
+| | SPONSOR : | |
+| --- | --- | --- |
+| | | |
+| | KERNEL CAPITAL HOLDINGS, LLC | |
+| | | |
+| | By: | /s/ Mark Gross |
+| | Name:  Mark Gross | |
+| | Title:  Member and Director | |
+[[/TABLE]]
+
+[[A0088]]
+EXHIBIT B
+
+[[A0089]]
+DECEMBER 31, 2022 BALANCE SHEET
+
+[[A0090]]
+[TO BE PROVIDED POST-SIGNING]
+
+[[A0091]]
+EXHIBIT C-1
+
+[[A0092]]
+INVOICES
+
+[[A0093]]
+[TO BE PROVIDED POST-SIGNING]
+
+[[A0094]]
+EXHIBIT C-2
+
+[[A0095]]
+INVOICES POST 9-30-22
+
+[[A0096]]
+[See attached]
+
+[[A0097]]
+EXHIBIT D
+
+[[A0098]]
+BANK BALANCES
+
+[[A0099]]
+[See attached]
+
+[[A0100]]
+EXHIBIT E
+
+[[A0101]]
+CAPITALIZATION TABLE
+
+[[A0102]]
+[See attached]

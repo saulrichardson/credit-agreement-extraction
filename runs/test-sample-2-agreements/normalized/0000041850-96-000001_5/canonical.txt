@@ -1,0 +1,222 @@
+EXHIBIT 10.2
+
+AMENDMENT NO. 1
+
+This Amendment No. 1 dated as of February 26, 1996 ("Agreement") is among Global Marine Australia Inc., Global Marine Baltic Inc., Global Marine Deepwater Drilling Inc., and Global Marine Drilling Company (collectively, the "Borrowers"), Global Marine Inc. ("Guarantor"), the Subsidiary Guarantors (as defined in the Credit Agreement described below) and Societe Generale, New York Branch ("Bank").
+
+INTRODUCTION
+
+A. The Borrowers, the Guarantor and the Bank are parties to the Credit Agreement dated as of June 24, 1993, as the same may be amended, modified or supplemented from time-to-time, (the "Credit Agreement").
+
+B. The Borrowers, the Guarantor and the Bank wish to (i) extend the maturity date and (ii) make certain other amendments to the Credit Agreement.
+
+THEREFORE, the Borrowers, the Guarantor, the Subsidiary Guarantors and the Bank hereby agree as follows:
+
+Section 1. DEFINITIONS; REFERENCES. Unless otherwise defined in this Agreement, each term used in this Agreement which is defined in the Credit Agreement has the meaning assigned to such term in the Credit Agreement.
+
+Section 2. AMENDMENTS. The Credit Agreement is amended as follows:
+
+- SECTION 1.01. Section 1.01 is amended as follows:
+
+- The following new definitions are added in
+alphabetical order:
+
+"APPLICABLE MARGIN" means, at any time with respect to any Advance, the following percentages determined as a function of the Guarantor's actual or implied long-term secured senior Debt rating in effect from time-to-time and issued by S&P:
+
+ABR LIBOR CD S&P RATING MARGIN MARGIN MARGIN
+
+B+ or lower 1.0% 2.25% 2.25% BB- .75% 2.0% 2.0% BB .50% 1.75% 1.75% BB+ .25% 1.50% 1.50% BBB- or higher 0% 1.25% 1.25%
+
+PROVIDED that, if at any time an event occurs which results in there being no such S&P rating, not later than 30 days after such event occurs, a new Applicable Margin will be determined in a manner to be mutually agreed upon by the Guarantor and the Bank, and until such new Applicable Margin is agreed upon, the Applicable Margin shall be deemed to be the Applicable Margin in effect immediately prior to the date on which such event occurs; PROVIDED FURTHER THAT, if the aggregate amount of the Advances during any period is greater than $10,000,000, the Applicable Margin on Advances for each day during such period shall be increased by .15% per annum.
+
+"S & P" means Standard & Poor's Ratings Service, a division of the McGraw-Hill Companies, Inc., and any successor thereto which is a nationally recognized statistical rating organization.
+
+- The amount "$6,000,000" in the proviso contained
+in the definition of "Eligible Accounts" is deleted and
+replaced with the amount of "$10,000,000".
+
+- The date "June 24, 1996" in the definition of
+"Maturity Date" is deleted and replaced with the date
+"December 31, 1998".
+
+- SECTION 2.03. Clauses (a) and (b) of Section 2.03 are
+deleted and replaced in their entirety with the following:
+
+- COMMITMENT FEES. The Borrowers agree to pay to
+the Bank a commitment fee on the average daily amount by
+which the Commitment exceeds the sum of the outstanding
+Advances and the Letter of Credit Exposure from the date
+of this Agreement until the Maturity Date at the rate of
+.1875% per annum. The fee payable pursuant to this
+clause (a) is due quarterly in arrears on the first day
+of each January, April, July, and October commencing
+April 1, 1996 and on the Maturity Date.
+
+- LETTER OF CREDIT FEES. Each of the Borrowers
+requesting the issuance of a Letter of Credit agrees to
+pay to the Bank a fee for such Letter of Credit of .625%
+per annum on the face amount of such Letter of Credit;
+PROVIDED THAT, if the applicable Borrower shall have
+deposited with the Bank into the Cash Collateral Account
+an amount of cash equal to the Letter of Credit Exposure
+attributable to such Letter of Credit as security for
+such Letter of Credit Obligations, the fees payable
+hereunder with respect to such Letter of Credit shall be
+in an amount equal to .25% per annum. The foregoing fee
+shall be based on the maximum amount available to be
+drawn under such Letter of Credit from the date of
+issuance of the Letter of Credit until its Expiration
+Date and be payable on the date of the issuance of the
+Letter of Credit and thereafter quarterly on the first
+day of each January, April, July and October until its
+Expiration Date.
+
+- SECTION 2.06. Clauses (a), (b) and (c) of Section 2.06
+are deleted and replaced in their entirety with the following:
+
+- PRIME RATE ADVANCES. If such
+Advance is a Prime Rate Advance, a rate per
+annum equal at all times to the lesser of
+- the Adjusted Prime Rate in effect from
+time-to-time PLUS the Applicable Margin and
+- the Maximum Rate, payable in arrears on
+the last day of each calendar quarter and on
+the date such Prime Rate Advance shall be paid
+in full, PROVIDED that any amount of principal
+which is not paid when due (whether at stated
+maturity, by acceleration or otherwise) shall
+bear interest from the date on which such
+amount is due until such amount is paid in
+full, payable on demand, at a rate per annum
+equal at all times to the lesser of (i) the
+Adjusted Prime Rate in effect from
+time-to-time PLUS the Applicable Margin PLUS
+2% and (ii) the Maximum Rate.
+
+- EURODOLLAR RATE ADVANCES. If such
+Advance is a Eurodollar Rate Advance, a rate
+per annum equal at all times during the
+Interest Period for such Advance to the lesser
+of (i) the Eurodollar Rate for such Interest
+Period PLUS the Applicable Margin and (ii) the
+Maximum Rate, payable on the last day of such
+Interest Period, and, in the case of six-month
+Interest Periods, on the day which occurs
+during such Interest Period three months from
+the first day of such Interest Period;
+PROVIDED that any amount of principal which is
+not paid when due (whether at stated maturity,
+by acceleration or otherwise) shall bear
+interest from the date on which such amount is
+due until such amount is paid in full, payable
+on demand, at a rate per annum equal at all
+times to the lesser of (i) the rate required
+to be paid on such Advance immediately prior
+to the date on which such amount became due
+PLUS 2% and (ii) the Maximum Rate.
+
+- CD RATE ADVANCES. If such Advance
+is a CD Rate Advance, a rate per annum equal
+at all times during the Interest Period for
+such Advance to the lesser of (i) the CD Rate
+for such Interest Period PLUS the Applicable
+Margin and (ii) the Maximum Rate, payable on
+the last day of such Interest Period, and, in
+the case of 180-day Interest Periods, on the
+day which occurs during such Interest Period
+90 days from the first day of such Interest
+Period; PROVIDED that any amount of principal
+which is not paid when due (whether at stated
+maturity, by acceleration or otherwise) shall
+bear interest from the date on which such
+amount is due until such amount is paid in
+full, payable on demand, at a rate per annum
+equal at all times to the lesser of (i) the
+rate required to be paid on such Advance
+immediately prior to the date on which such
+amount became due PLUS 2% and (ii) the Maximum
+Rate.
+
+- EXHIBIT B-1. Exhibit B-1 to the Credit Agreement is
+deleted and replaced with the attached Exhibit B-1.
+
+- SCHEDULE 1. Schedule 1 to the Credit Agreement is
+deleted and replaced with the attached Schedule 1.
+
+Section 3. REPRESENTATIONS AND WARRANTIES. Each of the Borrowers, the Subsidiary Guarantors and the Guarantor represents and warrants that (a) the execution, delivery and performance of this Agreement are within the corporate power and authority of such Borrower, Subsidiary Guarantor or the Guarantor, as applicable, and have been duly authorized by appropriate proceedings, (b) the Liens under the Security Documents are valid and in full force and effect, and (c) this Agreement constitutes a legal, valid, and binding obligation of such Borrower, Subsidiary Guarantor or the Guarantor, as applicable, enforceable in accordance with its terms, except as limited by applicable bankruptcy, insolvency, reorganization, moratorium or similar laws affecting the rights of creditors generally and general principles of equity.
+
+Section 4. REAFFIRMATION OF GUARANTIES. Each of the Subsidiary Guarantors and the Guarantor acknowledges that the obligations of such Subsidiary Guarantors or Guarantor under its Guaranty shall continue in force from the date hereof to guarantee the payment of the Guaranteed Obligations (as defined in its Guaranty), as such Guaranteed Obligations may be amended pursuant to this Agreement or as the same may be further amended, modified or supplemented from time to time. Additionally, each of the Subsidiary Guarantors and the Guarantor (a) consents to the addition of Global Marine International Services Corporation ("GMISC") as a Borrower under the Credit Agreement (as amended by this Agreement) pursuant to the terms of the Assumption Agreement dated as of February 26, 1996 ("Assumption Agreement") among GMISC, the Borrowers, the Guarantor, the Subsidiary Guarantors and the Bank, and (b) agrees that the Guaranteed Obligations (as defined in its Guaranty) shall include the obligations of GMISC under the Credit Documents to which it is a party.
+
+Section 5. EFFECTIVENESS. The Credit Agreement shall be amended as provided in this Agreement effective on the date first set forth above when:
+
+- the Borrowers, the Guarantor, the Subsidiary
+Guarantors and the Bank shall have duly and validly
+executed originals of this Agreement and delivered them to
+the Bank;
+
+- all of the conditions to the effectiveness of the
+Assumption Agreement shall have either been satisfied or
+waived in writing by the Bank;
+
+- the Borrowers, the Subsidiary Guarantors and the
+Guarantor shall have delivered an opinion of their general
+counsel in form and substance satisfactory to the Bank;
+
+- each of the Borrowers, the Subsidiary Guarantors
+and the Guarantor shall have delivered a certificate of its
+Secretary or Assistant Secretary certifying its certificate
+of incorporation, bylaws, resolutions and incumbency and in
+form and substance satisfactory to the Bank; and
+
+- the Borrower shall have paid to the Bank a
+non-refundable facility fee of $75,000.
+
+Section 6. CHOICE OF LAW. This Agreement shall be governed by and construed and enforced in accordance with the laws of the State of New York.
+
+Section 7. COUNTERPARTS. This Agreement may be signed in any number of counterparts, each of which shall be an original.
+
+EXECUTED as of February 26, 1996.
+
+BORROWERS: GLOBAL MARINE AUSTRALIA INC.
+
+By:/S/ ROBERT E. SLEET, JR. Name: ROBERT E. SLEET, JR. Title:VICE PRESIDENT & TREAS.
+
+GLOBAL MARINE BALTIC INC.
+
+By:/S/ ROBERT E. SLEET, JR. Name: ROBERT E. SLEET, JR. Title:VICE PRESIDENT & TREAS.
+
+GLOBAL MARINE DEEPWATER DRILLING INC.
+
+By:/S/ ROBERT E. SLEET, JR. Name: ROBERT E. SLEET, JR. Title:VICE PRESIDENT & TREAS.
+
+GLOBAL MARINE DRILLING COMPANY
+
+By:/S/ ROBERT E. SLEET, JR. Name: ROBERT E. SLEET, JR. Title: TREASURER
+
+GUARANTOR:
+
+GLOBAL MARINE INC.
+
+By:/S/ ROBERT E. SLEET, JR. Name: ROBERT E. SLEET, JR. Title:VICE PRESIDENT & TREAS.
+
+SUBSIDIARY GUARANTORS: GLOBAL MARINE BISMARCK SEA INC.
+
+By:/S/ ROBERT E. SLEET, JR. Name: ROBERT E. SLEET, JR. Title:VICE PRESIDENT & TREAS.
+
+GLOBAL MARINE NORTH SEA INC.
+
+By:/S/ ROBERT E. SLEET, JR. Name: ROBERT E. SLEET, JR. Title:VICE PRESIDENT & TREAS.
+
+GLOBAL MARINE WEST AFRICA INC.
+
+By:/S/ ROBERT E. SLEET, JR. Name: ROBERT E. SLEET, JR. Title:VICE PRESIDENT & TREAS.
+
+PETDRILL INC.
+
+By:/S/ ROBERT E. SLEET, JR. Name: ROBERT E. SLEET, JR. Title:VICE PRESIDENT & TREAS.
+
+BANK:
+
+SOCIETE GENERALE, NEW YORK BRANCH
+
+By: /S/ JOHN J. WAGNER Name: JOHN J. WAGNER Title: VICE PRESIDENT

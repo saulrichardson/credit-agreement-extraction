@@ -1,0 +1,1223 @@
+[[A0001]]
+ex_453028.htm
+
+[[A0002]]
+Exhibit 10.1
+
+[[A0003]]
+UNIT PURCHASE AGREEMENT
+
+[[A0004]]
+BY AND AMONG
+
+[[A0005]]
+GUERRILLA RF, INC.
+
+[[A0006]]
+AND
+
+[[A0007]]
+EACH PURCHASER IDENTIFIED ON APPENDIX A HERETO
+
+[[A0008]]
+DISCLOSURE SCHEDULES AND EXHIBITS TO
+
+[[A0009]]
+UNIT PURCHASE AGREEMENT
+
+[[A0010]]
+Schedule 3.1(c)(iii) Conflicts
+
+[[A0011]]
+Schedule 3.1(d) Filings, Consents and Approvals
+
+[[A0012]]
+Schedule 3.1(f) Capitalization
+
+[[A0013]]
+Schedule 3.1(m) Intellectual Property
+
+[[A0014]]
+Schedule 3.1(q) Certain Fees
+
+[[A0015]]
+Exhibit A         Form of Warrant
+
+[[A0016]]
+Exhibit B         Form of Subscription Agreement
+
+[[A0017]]
+Exhibit C         Form of Registration Rights Agreement
+
+[[A0018]]
+Exhibit D         Form of Legal Opinion of Company Counsel
+
+[[A0019]]
+UNIT PURCHASE AGREEMENT
+
+[[A0020]]
+This UNIT PURCHASE AGREEMENT (this “ Agreement ”) is dated as of December 30, 2022 by and among Guerrilla RF, Inc., a Delaware corporation (the “ Company ”), and each purchaser identified on Appendix A hereto (each, including its successors and assigns, a “ Purchaser ” and collectively, the “ Purchasers ”).
+
+[[A0021]]
+WHEREAS, the Company is offering (the “ Offering ”) up to 7,692,308 units (the “ Units ”), each Unit consisting of (i) one (1) share of the Company’s common stock, par value $0.0001 per share (the “ Common Stock ”) and (ii) a warrant to purchase one-half (0.5) share of Common Stock, each full warrant shall be exercisable at a price of $2.00 per share of Common Stock for a period of two (2) years beginning six (6) months from the date of the Final Closing (as defined herein) (collectively, the “ Investor Warrants ,” and together with the Units, the Common Stock and the shares of Common Stock issuable upon exercise of the Warrants (the “ Investor Warrant Shares ”), the “ Securities ”), at a price per Unit of $1.30 (the “ Price Per Unit ”);
+
+[[A0022]]
+WHEREAS, the Units are being offered on a “ best efforts, all or none ” basis with respect to the minimum offering of $5,000,000 (the “ Minimum Offering Amount ”) and thereafter on a “ reasonable efforts ” basis for up to the maximum offering of $10,000,000 (the “ Maximum Offering Amount ”) to a limited number of “accredited investors” (as that term is defined by Rule 501(a) of Regulation D (“ Regulation D ”) promulgated by the Securities and Exchange Commission under the Securities Act of 1933, as amended (the “ Securities Act ”);
+
+[[A0023]]
+WHEREAS, the Company and each Purchaser is executing and delivering this agreement in reliance upon the exemption from securities registration afforded by Section 4(a)(2) of the Securities Act and Rule 506 of Regulation D promulgated by the SEC under the Securities Act;
+
+[[A0024]]
+WHEREAS, the Company has retained Laidlaw & Company (UK) Ltd. to act as its placement agent in connection with the sale of the Units pursuant to this Agreement (the “ Placement Agent ”);
+
+[[A0025]]
+WHEREAS, the minimum investment amount that may be purchased by a Purchaser is 10,000 Units for an aggregate minimum purchase price of $13,000.00, unless the Company and the Placement Agent waive such requirement in their sole discretion;
+
+[[A0026]]
+WHEREAS, the Company desires to issue and sell the Units to each Purchaser in one or more Closings (as defined below) as set forth herein; and
+
+[[A0027]]
+WHEREAS the subscription for the Securities will be made in accordance with and subject to the terms and conditions of the Subscription Agreement and the Company’s Confidential Private Placement Memorandum dated November 29, 2022, together with all amendments thereof and supplements and exhibits thereto and as such may be amended from time to time (the “ Memorandum ”).
+
+[[A0028]]
+NOW, THEREFORE, IN CONSIDERATION of the mutual covenants contained in this Agreement, and for other good and valuable consideration, the receipt and adequacy of which are hereby acknowledged, the Company and each Purchaser agree as follows:
+
+[[A0029]]
+ARTICLE I.
+
+[[A0030]]
+DEFINITIONS
+
+[[A0031]]
+1.1 Definitions . In addition to the terms defined elsewhere in this Agreement, the following terms have the meanings set forth in this Section 1.1:
+
+[[A0032]]
+“Action ” shall have the meaning ascribed to such term in Section 3.1(i).
+
+[[A0033]]
+“Affiliate ” means any Person that, directly or indirectly through one or more intermediaries, controls or is controlled by or is under common control with a Person, as such terms are used in and construed under Rule 405 under the Securities Act.
+
+[[A0034]]
+“Board of Directors ” means the board of directors of the Company.
+
+[[A0035]]
+“Business Day ” means any day except any Saturday, any Sunday, any day which is a federal legal holiday in the United States or any day on which banking institutions in the State of New York are authorized or required by law or other governmental action to close.
+
+[[A0036]]
+“Cap ” shall have the meaning ascribed to such term in Section 5.2.
+
+[[A0037]]
+“Closing ” means a closing of the purchase and sale of the Units pursuant to Section 2.1.
+
+[[A0038]]
+“Closing Date ” means a Trading Day on which all of the Transaction Documents have been executed and delivered by the Company and each of the Purchasers purchasing Units at the relevant Closing, and all conditions precedent to (i) the Purchasers’ obligations to pay the Subscription Amount and (ii) the Company’s obligations to deliver the Units, in each case, have been satisfied or waived, but in no event later than the third Trading Day following the relevant Closing.
+
+[[A0039]]
+“Commission ” means the United States Securities and Exchange Commission.
+
+[[A0040]]
+“Common Stock ” means the common stock of the Company, par value $0.0001 per share, and any other class of securities into which such securities may hereafter be reclassified or changed.
+
+[[A0041]]
+“ Common Stock Equivalents ” means any securities of the Company or the Subsidiaries which would entitle the holder thereof to acquire at any time Common Stock, including, without limitation, any debt, preferred stock, right, option, warrant or other instrument that is at any time convertible into or exercisable or exchangeable for, or otherwise entitles the holder thereof to receive, Common Stock.
+
+[[A0042]]
+“Company Counsel ” means Brooks, Pierce, McLendon, Humphrey & Leonard LLP, with offices located at 230 N. Elm Street, 2000 Renaissance Plaza, Greensboro, North Carolina 27401.
+
+[[A0043]]
+“Disclosure Schedules ” means the Disclosure Schedules of the Company delivered concurrently herewith.
+
+[[A0044]]
+“Effective Date ” means the earliest of the date that (a) the initial Registration Statement has been declared effective by the Commission, (b) all of the Offering Shares have been sold pursuant to Rule 144 or may be sold pursuant to Rule 144 without the requirement for the Company to be in compliance with the current public information requirements under Rule 144 and without volume or manner-of-sale restrictions or (c) following the one (1) year anniversary of the final Closing Date hereunder, provided that a holder of Offering Shares is not an Affiliate of the Company, all of the Offering Shares may be sold pursuant to an exemption from registration under Section 4(a)(1) of the Securities Act without volume or manner-of-sale restrictions or the need for the Company to provide current public information and Company counsel has delivered to such holders a written opinion that resales may then be made by such holders of the Offering Shares pursuant to such exemption which opinion shall be in form and substance reasonably acceptable to such holders.
+
+[[A0045]]
+“Exchange Act ” means the Securities Exchange Act of 1934, as amended, and the rules and regulations promulgated thereunder.
+
+[[A0046]]
+“FCPA ” means the Foreign Corrupt Practices Act of 1977, as amended.
+
+[[A0047]]
+“GAAP ” shall have the meaning ascribed to such term in Section 3.1(g).
+
+[[A0048]]
+“Indebtedness ” shall have the meaning ascribed to such term in Section 3.1(y).
+
+[[A0049]]
+“Initial Closing ” shall have the meaning ascribed to such term in Section 2.1(b).
+
+[[A0050]]
+“Initial Closing Date ” shall have the meaning ascribed to such term in Section 2.1(b).
+
+[[A0051]]
+“Intellectual Property Rights ” shall have the meaning ascribed to such term in Section 3.1(m).
+
+[[A0052]]
+“Investor Warrants ” shall have the meaning set forth in the preamble.
+
+[[A0053]]
+“Investor Warrant Shares ” shall have the meaning set forth in the preamble.
+
+[[A0054]]
+“Laidlaw ” means Laidlaw & Co (UK) Ltd.
+
+[[A0055]]
+“Liens ” means a lien, charge, pledge, security interest, encumbrance, right of first refusal, preemptive right or other restriction.
+
+[[A0056]]
+“Material Adverse Effect ” shall have the meaning assigned to such term in Section 3.1(a).
+
+[[A0057]]
+“Material Permits ” shall have the meaning ascribed to such term in Section 3.1(k).
+
+[[A0058]]
+“Memorandum ” means the Company’s Confidential Private Placement Memorandum, dated as of November 29, 2022, with respect to the Offering.
+
+[[A0059]]
+“Offering Shares ” means the shares of Common Stock included in the Units issued pursuant to this Agreement and Investor Warrant Shares.
+
+[[A0060]]
+“Person ” means an individual or corporation, partnership, trust, incorporated or unincorporated association, joint venture, limited liability company, joint stock company, government (or an agency or subdivision thereof) or other entity of any kind.
+
+[[A0061]]
+“Price Per Unit ” shall have the meaning set forth in the preamble.
+
+[[A0062]]
+“Proceeding ” means an action, claim, suit, investigation or proceeding (including, without limitation, an informal investigation or partial proceeding, such as a deposition), whether commenced or threatened.
+
+[[A0063]]
+“Purchaser Party ” shall have the meaning ascribed to such term in Section 4.9.
+
+[[A0064]]
+“Registration Rights Agreement ” means the Registration Rights Agreement, dated the date hereof, among the Company and the Purchasers, in the form of Exhibit C attached hereto.
+
+[[A0065]]
+“Registration Statement ” means a registration statement meeting the requirements set forth in the Registration Rights Agreement and covering the resale of the Offering Shares by each Purchaser as provided for in the Registration Rights Agreement.
+
+[[A0066]]
+“Required Approvals ” shall have the meaning ascribed to such term in Section 3.1(d).
+
+[[A0067]]
+“Required Minimum ” shall have the meaning ascribed to such term in Section 4.10.
+
+[[A0068]]
+“Rule 144 ” means Rule 144 promulgated by the Commission pursuant to the Securities Act, as such Rule may be amended or interpreted from time to time, or any similar rule or regulation hereafter adopted by the Commission having substantially the same purpose and effect as such Rule.
+
+[[A0069]]
+“SEC Reports ” shall have the meaning ascribed to such term in Section 3.1(g).
+
+[[A0070]]
+“Securities ” shall have the meaning set forth in the preamble.
+
+[[A0071]]
+“Securities Act ” means the Securities Act of 1933, as amended, and the rules and regulations promulgated thereunder.
+
+[[A0072]]
+“Short Sales ” means all “short sales” as defined in Rule 200 of Regulation SHO under the Exchange Act (but shall not be deemed to include the location and/or reservation of borrowable shares of Common Stock).
+
+[[A0073]]
+“Subscription Agreement ” means the Subscription Agreement, dated the date hereof, among the Company and the Purchasers, in the form of Exhibit B attached hereto.
+
+[[A0074]]
+“ Subscription Amount ” means, as to each Purchaser, the aggregate amount to be paid for the Units purchased hereunder as specified next to such Purchaser’s name on Appendix A of this Agreement under the heading “Subscription Amount”.
+
+[[A0075]]
+“Subsequent Closing Date ” shall have the meaning ascribed to such term in Section 2.1(b).
+
+[[A0076]]
+“Subsidiary ” means any direct or indirect subsidiary of the Company formed or acquired after the date hereof.
+
+[[A0077]]
+“Termination Date ” shall have the meaning ascribed to such term in Section 2.1(a).
+
+[[A0078]]
+“Trading Day ” means a day on which the principal Trading Market is open for trading; provided, that in the event that the Common Stock is not listed or quoted for trading on a Trading Market on the date in question, then Trading Day shall mean a Business Day.
+
+[[A0079]]
+“Trading Market ” means any of the following markets or exchanges on which the Common Stock is listed or quoted for trading on the date in question: the Nasdaq Capital Market, the Nasdaq Global Market, the Nasdaq Global Select Market, the New York Stock Exchange, the NYSE American, the OTC Bulletin Board, the OTCQB Marketplace or the OTCQX Marketplace (or any successors to any of the foregoing).
+
+[[A0080]]
+“Transaction Documents ” means this Agreement, the Memorandum, the Subscription Agreement, the Investor Warrants, the Registration Rights Agreement, all exhibits and schedules thereto and hereto and any other documents or agreements executed in connection with the transactions contemplated hereunder.
+
+[[A0081]]
+“Transfer Agent ” means a transfer agent for the Company’s Common Stock and the Offering Shares, if any, and any successor transfer agent of the Company.
+
+[[A0082]]
+“Units ” shall have the meaning set forth in the preamble.
+
+[[A0083]]
+ARTICLE II.
+
+[[A0084]]
+PURCHASE AND SALE
+
+[[A0085]]
+[[TABLE]]
+| | 2.1 | Closing . |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0086]]
+- The Securities will be offered for sale until the earlier of (i) the date upon which subscriptions for the Maximum Offering Amount offered hereunder have been accepted, (ii) December 30, 2022 (subject to the right of the Company and the Placement Agent to extend the offering until February 28, 2023 without further notice to investors), (iii) the date upon which the Company and the Placement Agent elect to terminate the Offering or (iv) the date upon which the Company elects to terminate the Offering (the “
+Termination Date
+”).
+
+[[A0087]]
+The Offering is being conducted on a “
+best efforts, all or none
+” basis with respect to the Minimum Offering Amount and thereafter on a “
+reasonable efforts
+” basis for up to the Maximum Offering Amount.
+
+[[A0088]]
+- On the initial Closing Date (the “
+Initial Closing Date
+”), upon the terms and subject to the conditions set forth herein, substantially concurrent with the execution and delivery of this Agreement by the parties hereto, the Company agrees to sell at the initial Closing (the “
+Initial Closing
+”), and the Purchasers, severally and not jointly, agree to purchase at the Initial Closing, the Minimum Offering Amount, and up to the Maximum Offering Amount, calculated based upon the Price Per Unit, for each Purchaser equal to such Purchaser’s Subscription Amount as set forth on
+Appendix A
+hereto.
+
+[[A0089]]
+Thereafter, on any subsequent Closing Date (each a “
+Subsequent Closing Date
+”), upon the terms and subject to the conditions set forth herein, substantially concurrent with the execution and delivery of this Agreement by the Purchasers purchasing Units on such Subsequent Closing Date, the Company agrees to sell, and each Purchaser purchasing Units at such subsequent Closing, severally and not jointly, agrees to purchase an aggregate of up to the Maximum Offering Amount, calculated as set forth above, less the amount of Units issued and sold at all previous Closings.
+
+[[A0090]]
+Each Purchaser purchasing Units on a Closing Date shall deliver to the Company such Purchaser’s Subscription Amount by wire transfer of immediately available funds in accordance with the Company’s written wire instructions, and the Company shall deliver to each Purchaser its respective Units, as determined pursuant to Section 2.2(a), and the Company and each Purchaser shall deliver the other items set forth in Section 2.2 deliverable at the Closing.
+
+[[A0091]]
+Upon satisfaction of the covenants and conditions set forth in Sections 2.2 and 2.3, a Closing shall occur at the offices of Company Counsel or such other location as the parties shall mutually agree.
+
+[[A0092]]
+- The last Closing of the Offering, occurring on or prior to the Termination Date, shall be referred to as the “Final Closing”. Any subscription documents or funds received after the Final Closing will be returned, without interest or deduction, to each applicable prospective Purchaser.
+
+[[A0093]]
+If a Closing is not held on or before the Termination Date, the Company shall cause all subscription documents and funds to be returned, without interest or deduction, to each prospective Purchaser.
+
+[[A0094]]
+Notwithstanding the foregoing, the Company in its sole discretion may elect not to sell to any Person any or all of the Units requested to be purchased hereunder, provided that the Company causes all corresponding subscription documents and funds received from such Person to be promptly returned.
+
+[[A0095]]
+- The Purchaser may revoke its subscription and obtain a return of the subscription amount paid to Signature Bank (the “
+Escrow Agent
+”) at any time before the date of the Initial Closing by providing written notice to the Placement Agent, the Company and the Escrow Agent as provided herein.
+
+[[A0096]]
+Upon receipt of a revocation notice from the Purchaser prior to the date of the Initial Closing, all amounts paid by the Purchaser shall be returned to the Purchaser, without interest or deduction.
+
+[[A0097]]
+The Purchaser may not revoke this subscription or obtain a return of the subscription amount paid to the Escrow Agent on or after the date of the Initial Closing.
+
+[[A0098]]
+Any subscription received after the Initial Closing but prior to the Termination Date shall be irrevocable.
+
+[[A0099]]
+[[TABLE]]
+| | 2.2 | Deliveries . |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0100]]
+- On or prior to each Closing Date, the Company shall deliver or cause to be delivered to each Purchaser purchasing Units on such Closing Date each of the following:
+
+[[A0101]]
+- this Agreement duly executed by the Company;
+
+[[A0102]]
+- the Subscription Agreement duly executed by the Company;
+
+[[A0103]]
+- a legal opinion of Company Counsel, substantially in the form of
+Exhibit D
+attached hereto;
+
+[[A0104]]
+[[TABLE]]
+| | (iv) | the Registration Rights Agreement duly executed by the Company; |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0105]]
+- (1) irrevocable instructions to the Transfer Agent authorizing the issuance of the shares of Common Stock included in the Units purchased by such Purchaser at such Closing and (2) a Warrant registered in such Purchaser’s name to purchase such number of Investor Warrant Shares included in the Units purchased by such Purchaser at such Closing (such Warrant certificate may be delivered within three (3) Trading Days of such Closing Date).
+
+[[A0106]]
+Within five (5) days following any Closing, the Company will deliver, unless otherwise requested by any Purchaser, one (1) certificate or book-entry security entitlement registered in such Purchaser’s name evidencing the shares of Common Stock included in the Units purchased by such Purchaser at such Closing; and
+
+[[A0107]]
+- a good standing certificate of the Company, dated within four (4) Trading Days of the Closing Date, from the State of Delaware.
+
+[[A0108]]
+- On or prior to each Closing Date, each Purchaser purchasing Units on such Closing Date shall deliver or cause to be delivered to the Company the following:
+
+[[A0109]]
+[[TABLE]]
+| | (i) | the Subscription Agreement duly executed by such Purchaser; and |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0110]]
+[[TABLE]]
+| | (ii) | such Purchaser’s Subscription Amount by wire transfer to the account specified in writing by the Company, which such Subscription Amount is a for a purchase of a minimum of 10,000 Units at an aggregate minimum purchase price of $13,000.00, unless the Company and the Placement Agent waive such requirement in their sole discretion. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0111]]
+[[TABLE]]
+| | 2.3 | Closing Conditions . |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0112]]
+- The obligations of the Company hereunder in connection with each Closing are subject to the following conditions being met:
+
+[[A0113]]
+- the accuracy in all material respects on such Closing Date of the representations and warranties of the Purchasers contained herein (unless as of a specific date therein in which case they shall be accurate in all material respects as of such date);
+
+[[A0114]]
+- all obligations, covenants and agreements of each Purchaser required to be performed at or prior to such Closing Date shall have been performed; and
+
+[[A0115]]
+- the delivery by each Purchaser of the items set forth in Section 2.2(b) of this Agreement.
+
+[[A0116]]
+- The respective obligations of the Purchasers hereunder in connection with each Closing are subject to the following conditions being met:
+
+[[A0117]]
+- the accuracy in all material respects when made and on such Closing Date of the representations and warranties of the Company contained herein (unless as of a specific date therein in which case they shall be accurate in all material respects as of such date);
+
+[[A0118]]
+- all obligations, covenants and agreements of the Company required to be performed at or prior to such Closing Date shall have been performed;
+
+[[A0119]]
+- the delivery by the Company of the items set forth in Section 2.2(a) of this Agreement;
+
+[[A0120]]
+- there shall have been no Material Adverse Effect (as defined herein) with respect to the Company since the date hereof; and
+
+[[A0121]]
+- from the date hereof to such Closing Date, trading in the Common Stock shall not have been suspended by the Commission or the Company’s principal Trading Market (except for any suspension of trading of limited duration agreed to by the Company, which suspension shall be terminated prior to the Closing), and, at any time prior to the Closing Date, trading in securities generally as reported by Bloomberg L.P.
+
+[[A0122]]
+shall not have been suspended or limited, or minimum prices shall not have been established on securities whose trades are reported by such service, or on any Trading Market, nor shall a banking moratorium have been declared either by the United States or New York State authorities nor shall there have occurred any material outbreak or escalation of hostilities or other national or international calamity of such magnitude in its effect on, or any material adverse change in, any financial market which, in each case, in the reasonable good faith judgment of such Purchaser, makes it impracticable or inadvisable to purchase the Units at such Closing.
+
+[[A0123]]
+ARTICLE III.
+
+[[A0124]]
+REPRESENTATIONS AND WARRANTIES
+
+[[A0125]]
+3.1 Representations and Warranties of the Company .
+
+[[A0126]]
+Except as set forth in the Disclosure Schedules, which Disclosure Schedules shall be deemed a part hereof and shall qualify any representation made herein only to the extent of the disclosure contained in the corresponding section of the Disclosure Schedules, or in the SEC Reports, the Company hereby makes the following representations and warranties to each Purchaser:
+
+[[A0127]]
+- Organization and Qualification . Each of the Company and its Subsidiaries is an entity duly incorporated or otherwise organized, validly existing and in good standing under the laws of the jurisdiction of its incorporation or organization, with the requisite power and authority to own and use its properties and assets and to carry on its business as currently conducted.
+
+[[A0128]]
+Neither the Company nor any Subsidiary is in violation or default of any of the provisions of its respective certificate or articles of incorporation, bylaws or other organizational or charter documents.
+
+[[A0129]]
+Each of the Company and its Subsidiaries is duly qualified to conduct business and is in good standing as a foreign corporation or other entity in each jurisdiction in which the nature of the business conducted or property owned by it makes such qualification necessary, except where the failure to be so qualified or in good standing, as the case may be, could not have or reasonably be expected to result in: (i) a material adverse effect on the legality, validity or enforceability of any Transaction Document, (ii) a material adverse effect on the results of operations, assets, business, prospects or condition (financial or otherwise) of the Company and the Subsidiaries, taken as a whole, or (iii) a material adverse effect on the Company’s ability to perform in any material respect on a timely basis its obligations under any Transaction Document (any of (i), (ii) or (iii), a “ Material Adverse Effect ”) and no Proceeding has been instituted in any such jurisdiction revoking, limiting or curtailing or seeking to revoke, limit or curtail such power and authority or qualification.
+
+[[A0130]]
+- Authorization; Enforcement . The Company has the requisite corporate power and authority to enter into and to consummate the transactions contemplated by this Agreement and each of the other Transaction Documents and otherwise to carry out its obligations hereunder and thereunder.
+
+[[A0131]]
+The execution and delivery of this Agreement and each of the other Transaction Documents by the Company and the consummation by it of the transactions contemplated hereby and thereby have been duly authorized by all necessary action on the part of the Company and no further action is required by the Company, the Board of Directors or the Company’s stockholders in connection herewith or therewith other than in connection with the Required Approvals.
+
+[[A0132]]
+This Agreement and each other Transaction Document to which it is a party has been (or upon delivery will have been) duly executed by the Company and, when delivered in accordance with the terms hereof and thereof, will constitute the valid and binding obligation of the Company enforceable against the Company in accordance with its terms, except: (i) as limited by general equitable principles and applicable bankruptcy, insolvency, reorganization, moratorium and other laws of general application affecting enforcement of creditors’ rights generally, (ii) as limited by laws relating to the availability of specific performance, injunctive relief or other equitable remedies, and (iii) insofar as indemnification and contribution provisions may be limited by applicable law.
+
+[[A0133]]
+- No Conflicts .
+
+[[A0134]]
+The execution, delivery and performance by the Company of this Agreement and the other Transaction Documents, the issuance and sale of the Securities and the consummation by it of the transactions contemplated hereby and thereby to which it is a party do not and will not: (i) conflict with or violate any provision of the Company’s or any Subsidiary’s certificate or articles of incorporation, bylaws or other organizational or charter documents, (ii) except as set forth on Schedule 3.1(c)(iii) , conflict with, or constitute a default (or an event that with notice or lapse of time or both would become a default) under, result in the creation of any Lien upon any of the properties or assets of the Company or any Subsidiary, or give to others any rights of termination, amendment, acceleration or cancellation (with or without notice, lapse of time or both) of, any agreement, credit facility, debt or other instrument (evidencing a Company or Subsidiary debt or otherwise) or other understanding to which the Company or any Subsidiary is a party or by which any property or asset of the Company or any Subsidiary is bound or affected, or (iii) subject to the Required Approvals, conflict with or result in a violation of any law, rule, regulation, order, judgment, injunction, decree or other restriction of any court or governmental authority to which the Company or a Subsidiary is subject (including federal and state securities laws and regulations), or by which any property or asset of the Company or a Subsidiary is bound or affected; except in the case of each of clauses (ii) and (iii), such as could not have or reasonably be expected to result in a Material Adverse Effect.
+
+[[A0135]]
+- Filings, Consents and Approvals .
+
+[[A0136]]
+Except as set forth on Schedule 3.1(d) , the Company is not required to obtain any consent, waiver, authorization or order of, give any notice to, or make any filing or registration with, any court or other federal, state, local or other governmental authority or other Person in connection with the execution, delivery and performance by the Company of the Transaction Documents, other than: (i) the filing with the Commission pursuant to the Registration Rights Agreement and Section 4.6, (ii) the notice and/or application(s) to the applicable Trading Market, if any, for the issuance and sale of the Offering Shares and the listing of the Offering Shares for trading thereon in the time and manner required thereby, and (iii) the filing of a Form D with the Commission and such filings as are required to be made under applicable state securities laws (collectively, the “ Required Approvals ”).
+
+[[A0137]]
+- Issuance of the Securities . The Securities are duly authorized and, when issued and paid for in accordance with the applicable Transaction Documents, will be duly and validly issued, fully paid and, if and as applicable, nonassessable, free and clear of all Liens imposed by the Company.
+
+[[A0138]]
+The Company has reserved from its duly authorized capital stock a number of shares of Common Stock for issuance of the Offering Shares at least equal to the Required Minimum on the date hereof.
+
+[[A0139]]
+- Capitalization . The capitalization of the Company is as set forth in the SEC Reports.
+
+[[A0140]]
+Except as set forth in the SEC Reports and Schedule 3.1(f) , the Company has not issued any capital stock and/or Common Stock Equivalents.
+
+[[A0141]]
+Except as set forth in the SEC Reports, no Person has any right of first refusal, preemptive right, right of participation, or any similar right to participate in the transactions contemplated by the Transaction Documents.
+
+[[A0142]]
+Except as a result of the purchase and sale of the Securities or as set forth in the SEC Reports, there are no outstanding options, warrants, scrip rights to subscribe to, calls or commitments of any character whatsoever relating to, or securities, rights or obligations convertible into or exercisable or exchangeable for, or giving any Person any right to subscribe for or acquire any shares of Common Stock, or contracts, commitments, understandings or arrangements by which the Company or any Subsidiary is or may become bound to issue additional shares of Common Stock or Common Stock Equivalents.
+
+[[A0143]]
+Except as set forth in the SEC Reports, the issuance and sale of the Securities will not obligate the Company to issue shares of Common Stock or other securities to any Person (other than the Purchasers) and will not result in a right of any holder of securities of the Company to adjust the exercise, conversion, exchange or reset price under any of such securities.
+
+[[A0144]]
+All of the outstanding shares of capital stock and other securities of the Company are duly authorized, validly issued, fully paid and nonassessable, have been issued in material compliance with all federal and state securities laws, and none of such outstanding shares was issued in violation of any preemptive rights or similar rights to subscribe for or purchase securities.
+
+[[A0145]]
+No further approval or authorization of any stockholder, the Board of Directors or others is required for the issuance and sale of the Securities.
+
+[[A0146]]
+Except for the Company’s articles of incorporation, there are no stockholders agreements, voting agreements or other similar agreements with respect to the Company’s capital stock to which the Company is a party or, to the knowledge of the Company, between or among any of the Company’s stockholders.
+
+[[A0147]]
+- Shell Company Status; SEC Reports; Financial Statements . In the last one (1) year, the Company has not been an issuer subject to Rule 144(i) under the Securities Act.
+
+[[A0148]]
+The Company has filed all reports, schedules, forms, statements and other documents required to be filed by the Company under the Securities Act and the Exchange Act, including pursuant to Section 13(a) or 15(d) thereof, for the two (2) years preceding the date hereof (or such shorter period as the Company was required by law or regulation to file such material) (the foregoing materials, including the exhibits thereto and documents incorporated by reference therein, being collectively referred to herein as the “ SEC Reports ”) on a timely basis or has received a valid extension of such time of filing and has filed any such SEC Reports prior to the expiration of any such extension.
+
+[[A0149]]
+As of their respective dates, the SEC Reports complied in all material respects with the requirements of the Securities Act and the Exchange Act, as applicable, and none of the SEC Reports, when filed, contained any untrue statement of a material fact or omitted to state a material fact required to be stated therein or necessary in order to make the statements therein, in the light of the circumstances under which they were made, not misleading.
+
+[[A0150]]
+The financial statements of the Company included in the SEC Reports comply in all material respects with applicable accounting requirements and the rules and regulations of the Commission with respect thereto as in effect at the time of filing.
+
+[[A0151]]
+Such financial statements have been prepared in accordance with generally accepted accounting principles applied on a consistent basis during the periods involved (“ GAAP ”), except as may be otherwise specified in such financial statements or the notes thereto and except that unaudited financial statements may not contain all footnotes required by GAAP, and fairly present in all material respects the financial position of the Company and its consolidated Subsidiaries as of and for the dates thereof and the results of operations and cash flows for the periods then ended, subject, in the case of unaudited statements, to normal, immaterial, year-end audit adjustments.
+
+[[A0152]]
+- Material Changes; Undisclosed Events, Liabilities or Developments . Since the date of the latest audited financial statements included within the SEC Reports, except as specifically disclosed in a subsequent SEC Report filed prior to the date hereof: (i) there has been no event, occurrence or development that has had or that could reasonably be expected to result in a Material Adverse Effect, (ii) the Company has not incurred any material liabilities (contingent or otherwise) other than (A) trade payables and accrued expenses incurred in the ordinary course of business consistent with past practice and (B) liabilities not required to be reflected in the Company’s financial statements pursuant to GAAP or disclosed in filings made with the Commission, (iii) the Company has not altered its method of accounting, (iv) the Company has not declared or made any dividend or distribution of cash or other property to its stockholders or purchased, redeemed or made any agreements to purchase or redeem any shares of its capital stock, and (v) the Company has not issued any equity securities to any officer, director or Affiliate, except pursuant to existing Company stock option plans.
+
+[[A0153]]
+Except for the issuance of the Securities contemplated by this Agreement, no event, liability, fact, circumstance, occurrence or development has occurred or exists or is reasonably expected to occur or exist with respect to the Company or its Subsidiaries or their respective businesses, properties, operations, assets or financial condition, that would be required to be disclosed by the Company under applicable securities laws at the time this representation is made or deemed made that has not been publicly disclosed at least one (1) Trading Day prior to the date that this representation is made.
+
+[[A0154]]
+- Litigation . Except as described in the Memorandum or in the SEC Reports, there is no action, suit, inquiry, notice of violation, proceeding or investigation pending or, to the knowledge of the Company, threatened against or affecting the Company, any Subsidiary or any of their respective properties before or by any court, arbitrator, governmental or administrative agency or regulatory authority (federal, state, county, local or foreign) (collectively, an “ Action ”) which (i) adversely affects or challenges the legality, validity or enforceability of any of the Transaction Documents or the Securities or (ii) could, if there were an unfavorable decision, have or reasonably be expected to result in a Material Adverse Effect.
+
+[[A0155]]
+Except as set forth in the SEC Reports, neither the Company nor any Subsidiary, nor any director or officer thereof, is or has been the subject of any Action involving a claim of violation of or liability under federal or state securities laws or a claim of breach of fiduciary duty.
+
+[[A0156]]
+There has not been, and to the knowledge of the Company, there is not pending or contemplated, any investigation by the Commission or any state securities administrator involving the Company or any current or former director or officer of the Company.
+
+[[A0157]]
+The Commission has not issued any stop order or other order suspending the effectiveness of any registration statement filed by the Company or any Subsidiary under the Exchange Act or the Securities Act.
+
+[[A0158]]
+- Compliance .
+
+[[A0159]]
+Neither the Company nor any Subsidiary: (i) is in default under or in violation of (and no event has occurred that has not been waived that, with notice or lapse of time or is in violation of, any indenture, loan or credit agreement or any other agreement or instrument to which it is a party or by which it or any of its properties is bound (whether or not such default or violation has been waived), (x) is in violation of any judgment, decree or order of any court, arbitrator or other governmental authority or (ii) is or has been in violation of any statute, rule, ordinance or regulation of any governmental authority, including without limitation all foreign, federal, state and local laws relating to taxes, environmental protection, occupational health and safety, product quality and safety and employment and labor matters, except in each case as could not have or reasonably be expected to result in a Material Adverse Effect.
+
+[[A0160]]
+- Regulatory Permits .
+
+[[A0161]]
+The Company and the Subsidiaries possess all certificates, authorizations and permits issued by the appropriate federal, state, local or foreign regulatory authorities necessary to conduct their respective businesses as presently conducted, except where the failure to possess such permits could not reasonably be expected to result in a Material Adverse Effect (“ Material Permits ”), and neither the Company nor any Subsidiary has received any notice of proceedings relating to the revocation or modification of any Material Permit.
+
+[[A0162]]
+- Title to Assets . Except as set forth in the SEC Reports, the Company and the Subsidiaries have good and marketable title in fee simple to all real property owned by them and good and marketable title in all personal property owned by them that is material to the business of the Company and the Subsidiaries, in each case free and clear of all Liens, except for (i) Liens as do not materially affect the value of such property and do not materially interfere with the use made and proposed to be made of such property by the Company and the Subsidiaries and (ii) Liens for the payment of federal, state or other taxes, for which appropriate reserves have been made in accordance with GAAP, and the payment of which is neither delinquent nor subject to penalties.
+
+[[A0163]]
+Any real property and facilities held under lease by the Company and the Subsidiaries are held by them under valid, subsisting and enforceable leases with which the Company and the Subsidiaries are in compliance.
+
+[[A0164]]
+[[TABLE]]
+| | (m) | Intellectual Property . |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0165]]
+- The term “
+Intellectual Property Rights
+” includes:
+
+[[A0166]]
+[[TABLE]]
+| | 1. | the name of the Company, all fictional business names, trading names, registered and unregistered trademarks, service marks, and applications (collectively, “ Marks ”); |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0167]]
+[[TABLE]]
+| | 2. | all patents, patent applications, and inventions and discoveries that may be patentable (collectively, “ Patents ”); |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0168]]
+[[TABLE]]
+| | 3. | all copyrights in both published works and unpublished works (collectively, “ Copyrights ”); |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0169]]
+[[TABLE]]
+| | 4. | all rights in mask works (collectively, “ Rights in Mask Works ”); and |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0170]]
+[[TABLE]]
+| | 5. | all know-how, trade secrets, confidential information, customer lists, software, technical information, data, process technology, plans, drawings, and blue prints (collectively, “ Trade Secrets ”) owned, used, or licensed by the Company as licensee or licensor. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0171]]
+- Agreements . Schedule 3.1(m) contains a complete and accurate list of all contracts relating to the Intellectual Property Rights to which the Company is a party or by which the Company is bound, except for any license implied by the sale of a product and perpetual, paid-up licenses for commonly available software programs with a value of less than $10,000 under which the Company is the licensee.
+
+[[A0172]]
+There are no outstanding and, to the Company’s knowledge, no threatened disputes or disagreements with respect to any such agreement.
+
+[[A0173]]
+- Know-How Necessary for the Business . The Intellectual Property Rights are all those necessary for the operation of the Company’s businesses as it is currently conducted or as represented, in writing, to the Purchasers to be conducted.
+
+[[A0174]]
+Except as set forth in Schedule 3.1(m) , the Company is the owner of all right, title, and interest in and to each of the Intellectual Property Rights, free and clear of all liens, security interests, charges, encumbrances, equities, and other adverse claims, and has the right to use all of the Intellectual Property Rights.
+
+[[A0175]]
+To the Company’s knowledge, no employee of the Company has entered into any contract that restricts or limits in any way the scope or type of work in which the employee may be engaged or requires the employee to transfer, assign, or disclose information concerning his work to anyone other than of the Company.
+
+[[A0176]]
+- Know-How Necessary for the Business . Schedule 3.1(m) contains a complete and accurate list of all Patents.
+
+[[A0177]]
+Except as set forth on Schedule 3.1(m) , the Company is the owner of all right, title and interest in and to each of the Patents, free and clear of all Liens and other adverse claims.
+
+[[A0178]]
+All of the issued Patents are currently in compliance with formal legal requirements (including payment of filing, examination, and maintenance fees and proofs of working or use), are valid and enforceable, and are not subject to any maintenance fees or taxes or actions falling due within ninety (90) days after the Initial Closing Date.
+
+[[A0179]]
+No Patent has been or is now involved in any interference, reissue, reexamination, or opposition proceeding.
+
+[[A0180]]
+To the Company’s knowledge: (1) there is no potentially interfering patent or patent application of any third party, and (2) no Patent is infringed or has been challenged or threatened in any way.
+
+[[A0181]]
+To the Company’s knowledge, none of the products manufactured and sold, nor any process or know-how used, by the Company infringes or is alleged to infringe any patent or other proprietary right of any other Person.
+
+[[A0182]]
+- Trademarks . Schedule 3.1(m) contains a complete and accurate list and summary description of all Marks.
+
+[[A0183]]
+The Company is the owner of all right, title, and interest in and to each of the Marks, free and clear of all Liens and other adverse claims.
+
+[[A0184]]
+All Marks that have been registered with the United States Patent and Trademark Office are currently in compliance with all formal legal requirements (including the timely post-registration filing of affidavits of use and incontestability and renewal applications), are valid and enforceable, and are not subject to any maintenance fees or taxes or actions falling due within ninety (90) days after the Initial Closing Date.
+
+[[A0185]]
+Except as set forth in Schedule 3.1(m) , no Mark has been or is now involved in any opposition, invalidation, or cancellation and, to the Company’s knowledge, no such action is threatened with respect to any of the Marks.
+
+[[A0186]]
+To the Company’s knowledge: (1) there is no potentially interfering trademark or trademark application of any third party, and (2) no Mark is infringed or has been challenged or threatened in any way.
+
+[[A0187]]
+To the Company’s knowledge, none of the Marks used by the Company infringes or is alleged to infringe any trade name, trademark, or service mark of any third party.
+
+[[A0188]]
+- Copyrights . Schedule 3.1(m) contains a complete and accurate list of all Copyrights.
+
+[[A0189]]
+The Company is the owner of all right, title, and interest in and to each of the Copyrights, free and clear of all Liens and other adverse claims.
+
+[[A0190]]
+All the Copyrights have been registered and are currently in compliance with formal requirements, are valid and enforceable, and are not subject to any maintenance fees or taxes or actions falling due within ninety days after the date of the Initial Closing.
+
+[[A0191]]
+No Copyright is infringed or, to the Company’s knowledge, has been challenged or threatened in any way.
+
+[[A0192]]
+To the Company’s knowledge, none of the subject matter of any of the Copyrights infringes or is alleged to infringe any copyright of any third party or is a derivative work based on the work of a third party.
+
+[[A0193]]
+All works encompassed by the Copyrights have been marked with the proper copyright notice.
+
+[[A0194]]
+- Trade Secrets . With respect to each Trade Secret, the documentation relating to such Trade Secret is current, accurate, and sufficient in detail and content to identify and explain it and to allow its full and proper use without reliance on the knowledge or memory of any individual.
+
+[[A0195]]
+The Company has taken all reasonable precautions to protect the secrecy, confidentiality, and value of its Trade Secrets.
+
+[[A0196]]
+The Company has good title and an absolute (but not necessarily exclusive) right to use the Trade Secrets.
+
+[[A0197]]
+The Trade Secrets are not part of the public knowledge or literature, and, to the Company’s knowledge, have not been used, divulged, or appropriated either for the benefit of any Person (other than the Company) or to the detriment of the Company.
+
+[[A0198]]
+No Trade Secret is subject to any adverse claim or has been challenged or threatened in any way.
+
+[[A0199]]
+- Insurance . The Company and the Subsidiaries are insured by insurers of recognized financial responsibility against such losses and risks and in such amounts as are prudent and customary in the businesses in which the Company and the Subsidiaries are engaged, including, but not limited to, directors and officers insurance coverage at least equal to the aggregate Subscription Amount.
+
+[[A0200]]
+Neither the Company nor any Subsidiary has any reason to believe that it will not be able to renew its existing insurance coverage as and when such coverage expires or to obtain similar coverage from similar insurers as may be necessary to continue its business without a significant increase in cost.
+
+[[A0201]]
+- Transactions With Affiliates and Employees .
+
+[[A0202]]
+Except as set forth in the SEC Reports, none of the officers or directors of the Company or any Subsidiary and, to the knowledge of the Company, none of the employees of the Company or any Subsidiary is presently a party to any transaction with the Company or any Subsidiary (other than for services as employees, officers and directors), including any contract, agreement or other arrangement providing for the furnishing of services to or by, providing for rental of real or personal property to or from, providing for the borrowing of money from or lending of money to or otherwise requiring payments to or from any officer, director or such employee or, to the knowledge of the Company, any entity in which any officer, director, or any such employee has a substantial interest or is an officer, director, trustee, stockholder, member or partner, in each case in excess of the lesser of $120,000 or one percent (1%) of the Company’s total assets at the end of its last completed fiscal year other than for: (i) payment of salary or consulting fees for services rendered, (ii) reimbursement for expenses incurred on behalf of the Company and (iii) other employee benefits, including stock option agreements under any stock option plan of the Company.
+
+[[A0203]]
+- No General Solicitation . Neither the Company nor any person acting on behalf of the Company has offered or sold any of the Securities by any form of general solicitation or general advertising.
+
+[[A0204]]
+The Company has offered the Securities for sale only to the Purchasers and certain other “accredited investors” within the meaning of Rule 501 under the Securities Act.
+
+[[A0205]]
+- Certain Fees .
+
+[[A0206]]
+No brokerage, finder’s fees, commissions or due diligence fees are or will be payable by the Company or any Subsidiary to any broker, financial advisor or consultant, finder, placement agent, investment banker, bank or other Person with respect to the transactions contemplated by the Transaction Documents except for the fees payable to Laidlaw as set forth in the Memorandum and on Schedule 3.1(q) . The Purchasers shall have no obligation with respect to any fees or with respect to any claims made by or on behalf of other Persons for fees of a type contemplated in this Section 3.1(q) that may be due in connection with the transactions contemplated by the Transaction Documents.
+
+[[A0207]]
+- Investment Company . The Company is not, and is not an Affiliate of, and immediately after receipt of payment for the Securities, will not be or be an Affiliate of, an “investment company” within the meaning of the Investment Company Act of 1940, as amended.
+
+[[A0208]]
+The Company shall conduct its business in a manner so that it will not become an “investment company” subject to registration under the Investment Company Act of 1940, as amended.
+
+[[A0209]]
+- Registration Rights . Except as described in the Memorandum, the Disclosure Schedules and/or the SEC Reports, no Person other than the Purchasers has any right to cause the Company or any Subsidiary to effect the registration under the Securities Act of any securities of the Company or any Subsidiary.
+
+[[A0210]]
+- Private Placement . Assuming the accuracy of the Purchasers’ representations and warranties set forth in Section 3.2 and in the Subscription Agreement entered into by each Purchaser in connection with this Agreement, no registration under the Securities Act is required for the offer and sale of the Securities by the Company to the Purchasers as contemplated hereby.
+
+[[A0211]]
+- Application of Takeover Protections .
+
+[[A0212]]
+The Company and the Board of Directors have taken all necessary action, if any, in order to render inapplicable any control share acquisition, business combination, poison pill (including any distribution under a rights agreement) or other similar anti-takeover provision under the Company’s articles of incorporation (or similar charter documents) or the laws of its state of incorporation that is or could become applicable to the Purchasers as a result of the Purchasers and the Company fulfilling their obligations or exercising their rights under the Transaction Documents, including, without limitation, as a result of the Company’s issuance of the Securities and the Purchasers’ ownership of the Securities.
+
+[[A0213]]
+- Disclosure . Except with respect to the material terms and conditions of the transactions contemplated by the Transaction Documents, the Company confirms that neither it nor any other Person acting on its behalf has provided any of the Purchasers or their agents or counsel with any information that it believes constitutes or might constitute material, non-public information.
+
+[[A0214]]
+The Company understands and confirms that the Purchasers will rely on the foregoing representation in effecting transactions in securities of the Company.
+
+[[A0215]]
+All of the disclosure furnished by or on behalf of the Company to the Purchasers regarding the Company and its Subsidiaries, their respective businesses and the transactions contemplated hereby, including the Disclosure Schedules to this Agreement, when taken together as a whole, is true and correct and does not contain any untrue statement of a material fact or omit to state any material fact necessary in order to make the statements made therein, in light of the circumstances under which they were made, not misleading.
+
+[[A0216]]
+The Company acknowledges and agrees that no Purchaser makes or has made any representations or warranties with respect to the transactions contemplated hereby other than those specifically set forth in Section 3.2 hereof.
+
+[[A0217]]
+- No Integrated Offering .
+
+[[A0218]]
+Assuming the accuracy of the Purchasers’ representations and warranties set forth in Section 3.2, neither the Company, nor any of its Affiliates, nor any Person acting on its or their behalf has, directly or indirectly, made any offers or sales of any security or solicited any offers to buy any security, under circumstances that would cause this offering of the Securities to be integrated with prior offerings by the Company for purposes of the Securities Act which would require the registration of any such securities under the Securities Act.
+
+[[A0219]]
+- Solvency . Except as set forth on the SEC Reports, based on the consolidated financial condition of the Company as of the Closing Date, and the Company’s good faith estimate of the fair market value of its assets, after giving effect to the receipt by the Company of the proceeds from the sale of the Securities hereunder: (i) the fair saleable value of the Company’s assets exceeds the amount that will be required to be paid on or in respect of the Company’s existing debts and other liabilities (including known contingent liabilities) as they mature, (ii) the Company’s assets do not constitute unreasonably small capital to carry on its business as now conducted and as proposed to be conducted including its capital needs taking into account the particular capital requirements of the business conducted by the Company, consolidated and projected capital requirements and capital availability thereof, and (iii) the current cash flow of the Company, together with the proceeds the Company would receive, were it to liquidate all of its assets, after taking into account all anticipated uses of the cash, would be sufficient to pay all amounts on or in respect of its liabilities when such amounts are required to be paid.
+
+[[A0220]]
+The Company does not intend to incur debts beyond its ability to pay such debts as they mature (taking into account the timing and amounts of cash to be payable on or in respect of its debt). Except as set forth on the SEC Reports, the Company has no knowledge of any facts or circumstances which lead it to believe that it will file for reorganization or liquidation under the bankruptcy or reorganization laws of any jurisdiction within one year from the Initial Closing Date.
+
+[[A0221]]
+The SEC Reports set forth as of the date hereof all outstanding secured and unsecured Indebtedness of the Company or any Subsidiary, or for which the Company or any Subsidiary has commitments.
+
+[[A0222]]
+For the purposes of this Agreement, “ Indebtedness ” means (x) any liabilities for borrowed money or amounts owed in excess of $250,000 (other than trade accounts payable incurred in the ordinary course of business), (y) all guaranties, endorsements and other contingent obligations in respect of indebtedness of others, whether or not the same are or should be reflected in the Company’s consolidated balance sheet (or the notes thereto), except guaranties by endorsement of negotiable instruments for deposit or collection or similar transactions in the ordinary course of business; and (z) the present value of any lease payments in excess of $250,000 due under leases required to be capitalized in accordance with GAAP.
+
+[[A0223]]
+Neither the Company nor any Subsidiary is in default with respect to any Indebtedness.
+
+[[A0224]]
+- Tax Status . Except for matters that would not, individually or in the aggregate, have or reasonably be expected to result in a Material Adverse Effect, the Company and its Subsidiaries each (i) has made or filed all United States federal, state and local income and all foreign income and franchise tax returns, reports and declarations required by any jurisdiction to which it is subject, (ii) has paid all taxes and other governmental assessments and charges that are material in amount, shown or determined to be due on such returns, reports and declarations and (iii) has set aside on its books provision reasonably adequate for the payment of all material taxes for periods subsequent to the periods to which such returns, reports or declarations apply.
+
+[[A0225]]
+There are no unpaid taxes in any material amount claimed to be due by the taxing authority of any jurisdiction, and the officers of the Company or of any Subsidiary know of no basis for any such claim.
+
+[[A0226]]
+(aa)
+Foreign Corrupt Practices
+.
+
+[[A0227]]
+Neither the Company nor any Subsidiary, nor to the knowledge of the Company or any Subsidiary, any agent or other person acting on behalf of the Company or any Subsidiary, has: (i) directly or indirectly, used any funds for unlawful contributions, gifts, entertainment or other unlawful expenses related to foreign or domestic political activity, (ii) made any unlawful payment to foreign or domestic government officials or employees or to any foreign or domestic political parties or campaigns from corporate funds, (iii) failed to disclose fully any contribution made by the Company or any Subsidiary (or made by any person acting on its behalf of which the Company is aware) which is in violation of law or (iv) violated in any material respect any provision of FCPA.
+
+[[A0228]]
+(bb)
+Acknowledgment Regarding Purchasers
+’
+Purchase of Securities
+. The Company acknowledges and agrees that each of the Purchasers is acting solely in the capacity of an arm’s length purchaser with respect to the Transaction Documents and the transactions contemplated thereby.
+
+[[A0229]]
+The Company further acknowledges that no Purchaser is acting as a financial advisor or fiduciary of the Company (or in any similar capacity) with respect to the Transaction Documents and the transactions contemplated thereby and any advice given by any Purchaser or any of their respective representatives or agents in connection with the Transaction Documents and the transactions contemplated thereby is merely incidental to the Purchasers’ purchase of the Securities.
+
+[[A0230]]
+The Company further represents to each Purchaser that the Company’s decision to enter into this Agreement and the other Transaction Documents has been based solely on the independent evaluation of the transactions contemplated hereby by the Company and its representatives.
+
+[[A0231]]
+(cc)
+Money Laundering
+.
+
+[[A0232]]
+The operations of the Company and its Subsidiaries are and have been conducted at all times in compliance with applicable financial record-keeping and reporting requirements of the Currency and Foreign Transactions Reporting Act of 1970, as amended, applicable money laundering statutes and applicable rules and regulations thereunder (collectively, the “
+Money Laundering Laws
+”), and no action, suit or proceeding by or before any court or governmental agency, authority or body or any arbitrator involving the Company or any Subsidiary with respect to the Money Laundering Laws is pending or, to the knowledge of the Company or any Subsidiary, threatened.
+
+[[A0233]]
+(dd)
+Stock Option Plans
+. Each stock option granted by the Company under the Company’s stock option plan was granted (i) in accordance with the terms of the Company’s stock option plan and (ii) with an exercise price at least equal to the fair market value of the Common Stock on the date such stock option would be considered granted under GAAP and applicable law.
+
+[[A0234]]
+No stock option granted under the Company’s stock option plan has been backdated.
+
+[[A0235]]
+(ee)
+Sarbanes-Oxley; Internal Accounting Controls
+. The Company is in material compliance with all provisions of the Sarbanes-Oxley Act of 2002 which are applicable to it as of the Closing Date.
+
+[[A0236]]
+The Company and the Subsidiaries maintain a system of internal accounting controls sufficient to provide reasonable assurance that: (i) transactions are executed in accordance with management’s general or specific authorizations, (ii) transactions are recorded as necessary to permit preparation of financial statements in conformity with GAAP and to maintain asset accountability, (iii) access to assets is permitted only in accordance with management’s general or specific authorization, and (iv) the recorded accountability for assets is compared with the existing assets at reasonable intervals and appropriate action is taken with respect to any differences.
+
+[[A0237]]
+The Company has established disclosure controls and procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e)) for the Company and designed such disclosure controls and procedures to ensure that information required to be disclosed by the Company in the reports it files or submits under the Exchange Act is recorded, processed, summarized and reported, within the time periods specified in the Commission’s rules and forms.
+
+[[A0238]]
+The Company’s certifying officers have evaluated the effectiveness of the Company’s disclosure controls and procedures as of the end of the period covered by the Company’s most recently filed periodic report under the Exchange Act (such date, the “
+Evaluation Date
+”). The Company presented in its most recently filed periodic report under the Exchange Act the conclusions of the certifying officers about the effectiveness of the disclosure controls and procedures based on their evaluations as of the Evaluation Date.
+
+[[A0239]]
+Since the Evaluation Date, there have been no changes in the Company’s internal control over financial reporting (as such term is defined in the Exchange Act) that has materially affected, or is reasonably likely to materially affect, the Company’s internal control over financial reporting.
+
+[[A0240]]
+(ff)
+Listing and Maintenance Requirements
+. The Common Stock is registered pursuant to Section 12(b) of the Exchange Act, and the Company has taken no action designed to, or which to its knowledge is likely to have the effect of, terminating the registration of the Common Stock under the Exchange Act nor has the Company received any notification that the Commission is contemplating terminating such registration.
+
+[[A0241]]
+The Company has not, in the twelve (12) months preceding the date hereof, received notice from any Trading Market on which the Common Stock is or has been listed or quoted to the effect that the Company is not in compliance with the listing or maintenance requirements of such Trading Market.
+
+[[A0242]]
+The Company is, and has no reason to believe that it will not in the foreseeable future continue to be, in compliance with all such listing and maintenance requirements.
+
+[[A0243]]
+(gg)
+Regulation M Compliance
+.
+
+[[A0244]]
+The Company has not, and to its knowledge no one acting on its behalf has, (i) taken, directly or indirectly, any action designed to cause or to result in the stabilization or manipulation of the price of any security of the Company to facilitate the sale or resale of any of the Securities, (ii) sold, bid for, purchased, or paid any compensation for soliciting purchases of, any of the securities of the Company, or (iii) paid or agreed to pay to any Person any compensation for soliciting another to purchase any other securities of the Company, other than, in the case of clauses (ii) and (iii), compensation paid to the Company’s placement agent in connection with the placement of the Securities.
+
+[[A0245]]
+(hh)
+DTC Status
+. The Company’s transfer agent (the “
+Transfer Agent
+”) is a participant in and the Common Stock is eligible for transfer pursuant to the Depository Trust Company Automated Securities Transfer Program.
+
+[[A0246]]
+(ii)
+OFAC
+.
+
+[[A0247]]
+Neither the Company nor, to the Company’s knowledge, any director, officer, agent, employee, affiliate or person acting on its behalf, is currently subject to any U.S. sanctions administered by the Office of Foreign Assets Control of the U.S. Treasury Department (“
+OFAC
+”); and the Company will not directly or indirectly use the proceeds of the sale of the Units, or lend, contribute or otherwise make available such proceeds to any joint venture partner or other person or entity, towards any sales or operations in Cuba, Iran, Syria, Sudan, Myranmar or any other country sanctioned by OFAC or for the purpose of financing the activities of any person currently subject to any U.S. sanctions.
+
+[[A0248]]
+(jj)
+Bad Actor Disqualification.
+
+[[A0249]]
+- No Disqualification Events . With respect to Securities to be offered and sold hereunder in reliance on Rule 506 under the Securities Act (“ Regulation D Securities ”), none of the Company, any of its predecessors, any affiliated issuer, any director, executive officer, other officer of the Company participating in the offering, any beneficial owner of 20% or more of the Company's outstanding voting equity securities, calculated on the basis of voting power, nor any promoter (as that term is defined in Rule 405 under the Securities Act) connected with the Company in any capacity at the time of sale (each, an “ Issuer Covered Person ” and, together, “ Issuer Covered Persons ”) is subject to any of the “Bad Actor” disqualifications described in Rule 506(d)(1)(i) to (viii) under the Securities Act (a “ Disqualification Event ”), except for a Disqualification Event covered by Rule 506(d)(2) or (d)(3). The Company has exercised reasonable care to determine whether any Issuer Covered Person is subject to a Disqualification Event.
+
+[[A0250]]
+The Company has complied, to the extent applicable, with its disclosure obligations under Rule 506(e), and has furnished to Laidlaw and the Purchaser a copy of any disclosures provided thereunder.
+
+[[A0251]]
+- Other Covered Persons . The Company is not aware of any person that (i) has been or will be paid (directly or indirectly) remuneration for solicitation of purchasers in connection with the sale of the Securities and (ii) who is subject to a Disqualification Event.
+
+[[A0252]]
+- Notice of Disqualification Events . The Company will notify the Placement Agent in writing of (i) any Disqualification Event relating to any Issuer Covered Person and (ii) any event that would, with the passage of time, become a Disqualification Event relating to any Issuer Covered Person, prior to any Closing of this Offering.
+
+[[A0253]]
+3.2 Representations and Warranties of the Purchasers .
+
+[[A0254]]
+Each of the Purchasers hereby severally, and not jointly, represents and warrants to the Company that each such Purchaser’s representations and warranties in such Purchaser’s Subscription Agreement entered into in connection with this Agreement are true and correct as of the applicable Closing, and such representations and warranties are deemed repeated as if contained herein.
+
+[[A0255]]
+The Company acknowledges and agrees that the representations contained in Section 3.2 shall not modify, amend or affect such Purchaser’s right to rely on the Company’s representations and warranties contained in this Agreement or any representations and warranties contained in any other Transaction Document or any other document or instrument executed and/or delivered in connection with this Agreement or the consummation of the transaction contemplated hereby.
+
+[[A0256]]
+ARTICLE IV.
+
+[[A0257]]
+OTHER AGREEMENTS OF THE PARTIES
+
+[[A0258]]
+4.1 Transfer Restrictions .
+
+[[A0259]]
+- The Securities may only be disposed of in compliance with state and federal securities laws.
+
+[[A0260]]
+In connection with any transfer of Securities other than pursuant to an effective registration statement or Rule 144, to the Company or to an Affiliate of a Purchaser or in connection with a pledge as contemplated in Section 4.1(b), the Company may require the transferor thereof to provide to the Company an opinion of counsel selected by the transferor and reasonably acceptable to the Company, the form and substance of which opinion shall be reasonably satisfactory to the Company, to the effect that such transfer does not require registration of such transferred Securities under the Securities Act.
+
+[[A0261]]
+As a condition of transfer, any such transferee shall agree in writing to be bound by the terms of this Agreement and the Registration Rights Agreement and shall have the rights and obligations of a Purchaser under this Agreement and the Registration Rights Agreement.
+
+[[A0262]]
+- The Purchasers agree to the imprinting, so long as is required by this Section 4.1, of a legend on any of the Securities in the following form:
+
+[[A0263]]
+[NEITHER] THIS SECURITY [NOR THE SECURITIES FOR WHICH THIS SECURITY IS EXERCISABLE] [HAS NOT] [HAVE] BEEN REGISTERED WITH THE SECURITIES AND EXCHANGE COMMISSION OR THE SECURITIES COMMISSION OF ANY STATE IN RELIANCE UPON AN EXEMPTION FROM REGISTRATION UNDER THE SECURITIES ACT OF 1933, AS AMENDED (THE “SECURITIES ACT”), AND, ACCORDINGLY, MAY NOT BE OFFERED OR SOLD EXCEPT PURSUANT TO AN EFFECTIVE REGISTRATION STATEMENT UNDER THE SECURITIES ACT OR PURSUANT TO AN AVAILABLE EXEMPTION FROM, OR IN A TRANSACTION NOT SUBJECT TO, THE REGISTRATION REQUIREMENTS OF THE SECURITIES ACT AND IN ACCORDANCE WITH APPLICABLE STATE SECURITIES LAWS AS EVIDENCED BY A LEGAL OPINION OF COUNSEL TO THE TRANSFEROR TO SUCH EFFECT, THE SUBSTANCE OF WHICH SHALL BE REASONABLY ACCEPTABLE TO THE COMPANY.
+
+[[A0264]]
+THIS SECURITY [AND THE SECURITIES ISSUABLE UPON EXERCISE OF THIS SECURITY] MAY BE PLEDGED IN CONNECTION WITH A BONA FIDE MARGIN ACCOUNT WITH A REGISTERED BROKER-DEALER OR OTHER LOAN WITH A FINANCIAL INSTITUTION THAT IS AN “ACCREDITED INVESTOR” AS DEFINED IN RULE 501(a) UNDER THE SECURITIES ACT OR OTHER LOAN SECURED BY SUCH SECURITIES.
+
+[[A0265]]
+The Company acknowledges and agrees that a Purchaser may from time to time pledge pursuant to a bona fide margin agreement with a registered broker-dealer or grant a security interest in some or all of the Securities to a financial institution that is an “accredited investor” as defined in Rule 501(a) under the Securities Act and who agrees to be bound by the provisions of this Agreement and the Registration Rights Agreement and, if required under the terms of such arrangement, such Purchaser may transfer, pledge or secure Securities to the pledgees or secured parties.
+
+[[A0266]]
+Such a pledge or transfer would not be subject to approval of the Company and no legal opinion of legal counsel of the pledgee, secured party or pledgor shall be required in connection therewith.
+
+[[A0267]]
+Further, no notice shall be required of such pledge.
+
+[[A0268]]
+At the applicable Purchaser’s expense, the Company will execute and deliver such reasonable documentation as a pledgee or secured party of Securities may reasonably request in connection with a pledge or transfer of the Securities, including, if the Securities are subject to registration pursuant to the Registration Rights Agreement, the preparation and filing of any required prospectus supplement under Rule 424(b)(3) under the Securities Act or other applicable provision of the Securities Act to appropriately amend the list of selling stockholders thereunder.
+
+[[A0269]]
+- Certificates or book-entry security entitlements evidencing the Offering Shares shall not contain any legend (including the legend set forth in Section 4.1(b) hereof): (i) while a registration statement (including the Registration Statement) covering the resale of such Securities is effective under the Securities Act, (ii) following any sale of such Offering Shares pursuant to Rule 144, (iii) if such Offering Shares are eligible for sale under Rule 144, without the requirement for the Company to be in compliance with the current public information required under Rule 144 as to such Offering Shares and without volume or manner-of-sale restrictions, (iv) if such legend is not required under applicable requirements of the Securities Act (including judicial interpretations and pronouncements issued by the staff of the Commission) or (v) following the Effective Date.
+
+[[A0270]]
+Upon the receipt by the Company of any reasonable certifications from the Purchasers requested by the Company with respect to future sales of such Offering Shares, the Company shall cause its counsel to issue a legal opinion to the Transfer Agent if required by the Transfer Agent to effect the removal of the legend hereunder.
+
+[[A0271]]
+The Company agrees that following such time as such legend is no longer required under this Section 4.1(c), it will, as soon as practicable following the delivery by a Purchaser to the Company or the Transfer Agent of a certificate or book-entry security entitlement evidencing Offering Shares issued with a restrictive legend and, in each case, any reasonable certifications from the Purchaser requested by the Company or the Company’s counsel in order to effectuate a legend removal, deliver or cause to be delivered to such Purchaser a certificate representing such shares that is free from all restrictive and other legends.
+
+[[A0272]]
+The Company may not make any notation on its records or give instructions to the Transfer Agent that enlarge the restrictions on transfer set forth in this Section 4. Certificates for Offering Shares subject to legend removal hereunder shall be transmitted by the Transfer Agent to the Purchaser by crediting the account of the Purchaser’s prime broker with the Depository Trust Company System as directed by such Purchaser if the Company is then a participant in such system.
+
+[[A0273]]
+- Each Purchaser, severally and not jointly with the other Purchasers, agrees with the Company that such Purchaser will sell any Securities pursuant to either the registration requirements of the Securities Act, including any applicable prospectus delivery requirements, or an exemption therefrom, and that if Securities are sold pursuant to a Registration Statement, they will be sold in compliance with the plan of distribution set forth therein, and acknowledges that the removal of the restrictive legend from certificates representing Securities as set forth in this Section 4.1 is predicated upon the Company’s reliance upon this understanding.
+
+[[A0274]]
+4.2 Acknowledgment of Dilution . The Company acknowledges that the issuance of the Securities may result in dilution of the outstanding shares of Common Stock, which dilution may be substantial under certain market conditions.
+
+[[A0275]]
+The Company further acknowledges that its obligations under the Transaction Documents, including, without limitation, its obligation to issue the Investor Warrant Shares pursuant to the Transaction Documents, are unconditional and absolute and not subject to any right of set off, counterclaim, delay or reduction, regardless of the effect of any such dilution or any claim the Company may have against any Purchaser and regardless of the dilutive effect that such issuance may have on the ownership of the other stockholders of the Company.
+
+[[A0276]]
+4.3 Furnishing of Information; Public Information .
+
+[[A0277]]
+Commencing on the Effective Date, and until the earliest of the time that (a) no Purchaser owns Securities or (b) the Investor Warrants have expired, the Company covenants to have obtained and will thereafter maintain the registration of the Common Stock under Section 12(b) or 12(g) of the Exchange Act and to timely file (or obtain extensions in respect thereof and file within the applicable grace period) all reports required to be filed by the Company after the date hereof pursuant to the Exchange Act even if the Company is not then subject to the reporting requirements of the Exchange Act.
+
+[[A0278]]
+4.4 Integration .
+
+[[A0279]]
+The Company shall not sell, offer for sale or solicit offers to buy or otherwise negotiate in respect of any security (as defined in Section 2 of the Securities Act) that would be integrated with the offer or sale of the Securities in a manner that would require the registration under the Securities Act of the sale of the Securities or that would be integrated with the offer or sale of the Securities for purposes of the rules and regulations of any Trading Market such that it would require shareholder approval prior to the closing of such other transaction unless shareholder approval is obtained before the closing of such subsequent transaction.
+
+[[A0280]]
+4.5 Exercise Procedures . The form of Notice of Exercise included in the Investor Warrants sets forth the totality of the procedures required of the Purchasers in order to exercise the Investor Warrants.
+
+[[A0281]]
+No additional legal opinion, other information or instructions shall be required of the Purchasers to exercise their Investor Warrants.
+
+[[A0282]]
+The Company shall honor exercises of the Investor Warrants and shall deliver Investor Warrant Shares in accordance with the terms, conditions and time periods set forth in the Transaction Documents.
+
+[[A0283]]
+4.6 Securities Laws Disclosure; Publicity . The Company shall, by 5:30 p.m. (New York City time) on the fourth (4th) Trading Day immediately following the date hereof, file a Current Report on Form 8-K and press release disclosing the material terms of the transactions contemplated hereby, including the Transaction Documents as exhibits thereto.
+
+[[A0284]]
+From and after the issuance of such press release, the Company represents to the Purchasers that it shall have publicly disclosed all material, non-public information delivered to any of the Purchasers by the Company or any of its Subsidiaries, or any of their respective officers, directors, employees or agents in connection with the transactions contemplated by the Transaction Documents.
+
+[[A0285]]
+The Company and each Purchaser shall consult with each other in issuing any other press releases with respect to the transactions contemplated hereby, and neither the Company nor any Purchaser shall issue any such press release nor otherwise make any such public statement without the prior consent of the Company, with respect to any press release of any Purchaser, or without the prior consent of each Purchaser, with respect to any press release of the Company, which consent shall not unreasonably be withheld or delayed, except if such disclosure is required by law, in which case the disclosing party shall promptly provide the other party with prior notice of such public statement or communication.
+
+[[A0286]]
+Notwithstanding the foregoing, the Company shall not publicly disclose the name of any Purchaser, or include the name of any Purchaser in any filing with the Commission or any regulatory agency or Trading Market, without the prior written consent of such Purchaser, except: (a) as required by federal securities law in connection with (i) any registration statement contemplated by the Registration Rights Agreement and (ii) the filing of final Transaction Documents (including conformed signature pages thereto) with the Commission and (b) to the extent such disclosure is required by law or Trading Market regulations, in which case the Company shall provide the Purchasers with prior notice of such disclosure permitted under this clause (b).
+
+[[A0287]]
+4.7 Non-Public Information . Except with respect to the material terms and conditions of the transactions contemplated by the Transaction Documents, the Company covenants and agrees that neither it, nor any other Person acting on its behalf, will provide any Purchaser or its agents or counsel with any information that the Company believes constitutes material non-public information, unless prior thereto such Purchaser shall have executed a written agreement with the Company regarding the confidentiality and use of such information or is an Affiliate of the Company.
+
+[[A0288]]
+The Company understands and confirms that each Purchaser shall be relying on the foregoing covenant in effecting transactions in securities of the Company.
+
+[[A0289]]
+4.8 Use of Proceeds .
+
+[[A0290]]
+The Company shall use the net proceeds from the sale of the Securities hereunder for general corporate purposes including, but not limited to, growth initiatives and capital expenditures, and shall not use such proceeds: (a) for the satisfaction of any portion of the Company’s debt (other than payment of trade payables in the ordinary course of the Company’s business and prior practices), (b) for the redemption of any Common Stock or Common Stock Equivalents or (c) the settlement of any outstanding litigation.
+
+[[A0291]]
+4.9 Indemnification of Purchasers . Subject to the provisions of this Section 4.9, the Company will indemnify and hold each Purchaser and its directors, officers, shareholders, members, partners, employees and agents (and any other Persons with a functionally equivalent role of a Person holding such titles notwithstanding a lack of such title or any other title), each Person who controls such Purchaser (within the meaning of Section 15 of the Securities Act and Section 20 of the Exchange Act), and the directors, officers, shareholders, agents, members, partners or employees (and any other Persons with a functionally equivalent role of a Person holding such titles notwithstanding a lack of such title or any other title) of such controlling persons (each, a “ Purchaser Party ”) harmless from any and all losses, liabilities, obligations, claims, contingencies, damages, costs and expenses, including all judgments, amounts paid in settlements, court costs and reasonable attorneys’ fees and costs of investigation that any such Purchaser Party may suffer or incur as a result of or relating to (a) any breach of any of the representations, warranties, covenants or agreements made by the Company in this Agreement or in the other Transaction Documents or (b) any action instituted against Purchaser Parties in any capacity, or any of them or their respective Affiliates, by any stockholder of the Company who is not an Affiliate of such Purchaser Party, with respect to any of the transactions contemplated by the Transaction Documents (unless such action is based upon a breach of such Purchaser Party’s representations, warranties or covenants under the Transaction Documents or any agreements or understandings such Purchaser Party may have with any such stockholder or any violations by such Purchaser Party of state or federal securities laws or any conduct by such Purchaser Party which constitutes fraud, gross negligence, willful misconduct or malfeasance). If any action shall be brought against any Purchaser Party in respect of which indemnity may be sought pursuant to this Agreement, such Purchaser Party shall promptly notify the Company in writing, and the Company shall have the right to assume the defense thereof with counsel of its own choosing reasonably acceptable to the Purchaser Party.
+
+[[A0292]]
+Any Purchaser Party shall have the right to employ separate counsel in any such action and participate in the defense thereof, but the fees and expenses of such counsel shall be at the expense of such Purchaser Party except to the extent that (i) the employment thereof has been specifically authorized by the Company in writing, (ii) the Company has failed after a reasonable period of time to assume such defense and to employ counsel or (iii) in such action there is, in the reasonable opinion of counsel, a material conflict on any material issue between the position of the Company and the position of such Purchaser Party, in which case the Company shall be responsible for the reasonable fees and expenses of no more than one such separate counsel.
+
+[[A0293]]
+The Company will not be liable to any Purchaser Party under this Agreement (y) for any settlement by a Purchaser Party effected without the Company’s prior written consent, which shall not be unreasonably withheld or delayed; or (z) to the extent, but only to the extent that a loss, claim, damage or liability is attributable to any Purchaser Party’s breach of its representations, warranties or covenants under the Transaction Documents or any agreements or understandings such Purchaser Party may have with any such stockholder or any violations by such Purchaser Party of state or federal securities laws or any conduct by such Purchaser Party which constitutes fraud, gross negligence, willful misconduct or malfeasance.
+
+[[A0294]]
+The indemnification required by this Section 4.9 shall be made by periodic payments of the amount thereof during the course of the investigation or defense, as and when bills are received or are incurred.
+
+[[A0295]]
+The indemnity agreements contained herein shall be in addition to any cause of action or similar right of any Purchaser Party against the Company or others and any liabilities the Company may be subject to pursuant to law.
+
+[[A0296]]
+[[TABLE]]
+| | 4.10 | Reservation and Listing of Securities . |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0297]]
+- The Company shall maintain a reserve from its duly authorized shares of Common Stock for issuance pursuant to the Transaction Documents in such amount as may then be required to fulfill its obligations in full under the Transaction Documents (the “
+Required Minimum
+”).
+
+[[A0298]]
+- If, on any date, the number of authorized but unissued (and otherwise unreserved) shares of Common Stock is less than the Required Minimum on such date, then the Board of Directors shall use commercially reasonable efforts to amend the Company’s articles of incorporation to increase the number of authorized but unissued shares of Common Stock to at least the Required Minimum at such time, as soon as possible and in any event not later than the ninetieth (90th) day after such date.
+
+[[A0299]]
+- The Company shall take all steps necessary to cause the Offering Shares to be approved for listing and actually listed on the Company’s principal Trading Market, if any.
+
+[[A0300]]
+4.11 Equal Treatment of Purchasers . No consideration (including any modification of any Transaction Document) shall be offered or paid to any Person to amend or consent to a waiver or modification of any provision of any of this Agreement unless the same consideration is also offered to all of the parties to this Agreement.
+
+[[A0301]]
+For clarification purposes, this provision constitutes a separate right granted to each Purchaser by the Company and negotiated separately by each Purchaser, and is intended for the Company to treat the Purchasers as a class and shall not in any way be construed as the Purchasers acting in concert or as a group with respect to the purchase, disposition or voting of Securities or otherwise.
+
+[[A0302]]
+4.12 Certain Transactions and Confidentiality . Each Purchaser, severally and not jointly with the other Purchasers, covenants that neither it, nor any Affiliate acting on its behalf or pursuant to any understanding with it will execute any purchases or sales, including Short Sales, of any of the Company’s securities during the period commencing with the execution of this Agreement and ending at such time that the transactions contemplated by this Agreement are first publicly announced pursuant to the initial press release as described in Section 4.6. Each Purchaser, severally and not jointly with the other Purchasers, covenants that until such time as the transactions contemplated by this Agreement are publicly disclosed by the Company pursuant to the initial press release as described in Section 4.6, such Purchaser will maintain the confidentiality of the existence and terms of this transaction and the information included in the Transaction Documents and the Disclosure Schedules.
+
+[[A0303]]
+Notwithstanding the foregoing, and notwithstanding anything contained in this Agreement to the contrary, the Company expressly acknowledges and agrees that (i) no Purchaser makes any representation, warranty or covenant hereby that it will not engage in effecting transactions in any securities of the Company after the time that the transactions contemplated by this Agreement are first publicly announced pursuant to the initial press release as described in Section 4.6, (ii) no Purchaser shall be restricted or prohibited from effecting any transactions in any securities of the Company in accordance with applicable securities laws from and after the time that the transactions contemplated by this Agreement are first publicly announced pursuant to the initial press release as described in Section 4.6, and (iii) no Purchaser shall have any duty of confidentiality to the Company or its Subsidiaries after the issuance of the initial press release as described in Section 4.6. Notwithstanding the foregoing, in the case of a Purchaser that is a multi-managed investment vehicle whereby separate portfolio managers manage separate portions of such Purchaser’s assets and the portfolio managers have no direct knowledge of the investment decisions made by the portfolio managers managing other portions of such Purchaser’s assets, the covenant set forth above shall only apply with respect to the portion of assets managed by the portfolio manager that made the investment decision to purchase the Securities covered by this Agreement.
+
+[[A0304]]
+4.13 Form D; Blue Sky Filings .
+
+[[A0305]]
+The Company agrees to timely file a Form D with respect to the Securities as required under Regulation D. The Company shall take such action as the Company shall reasonably determine is necessary in order to obtain an exemption for, or to qualify the Securities for, sale to the Purchasers at each Closing under applicable securities or “Blue Sky” laws of the states of the United States, and shall provide evidence of such actions promptly upon request of any Purchaser.
+
+[[A0306]]
+ARTICLE V.
+
+[[A0307]]
+MISCELLANEOUS
+
+[[A0308]]
+5.1 Termination .
+
+[[A0309]]
+This Agreement may be terminated by any Purchaser, as to such Purchaser’s obligations hereunder only and without any effect whatsoever on the obligations between the Company and the other Purchasers, by written notice to the other parties, if the Initial Closing has not been consummated on or before December 30, 2022; provided , however , that such date may be extended, without notice, to February 28, 2023 with the consent of the Company and Laidlaw; provided , further , however , that such termination will not affect the right of any party to sue for any breach by any other party (or parties).
+
+[[A0310]]
+5.2 Fees and Expenses . Except as expressly set forth in the Transaction Documents to the contrary, each party shall pay the fees and expenses of its advisers, counsel, accountants and other experts, if any, and all other expenses incurred by such party incident to the negotiation, preparation, execution, delivery and performance of this Agreement.
+
+[[A0311]]
+The Company shall pay all Transfer Agent fees, stamp taxes and other taxes and duties levied in connection with the delivery of any Securities to the Purchasers.
+
+[[A0312]]
+Notwithstanding the foregoing, the Company agrees to pay promptly all of Laidlaw’s legal fees and expenses reasonably incurred in connection with the negotiation, preparation, execution, delivery and performance of this Agreement and the other Transaction Documents.
+
+[[A0313]]
+Subject to the following qualifications, such legal fees shall not exceed $75,000 in the aggregate, and are inclusive of disbursements and any fees incurred in connection with the contemplated Registration Statement (the “ Cap ”). In the event that there should be a material change in the transactions contemplated hereby, then Laidlaw and the Company agree to a good faith upward adjustment in the Cap.
+
+[[A0314]]
+Such legal fees will be due and payable as follows: fifty percent (50%) of such legal fees incurred to date shall be paid at the Initial Closing and the remainder shall be paid at each subsequent Closing together with any additional legal fees incurred from the date of the prior Closing until such subsequent Closing, subject always to the Cap.
+
+[[A0315]]
+Notwithstanding the foregoing, if there be no Closing hereunder, then such legal fees shall be due and payable on demand.
+
+[[A0316]]
+Laidlaw shall deliver an invoice from Laidlaw’s counsel detailing such legal fees at least one (1) Business Day prior to the Initial Closing and each subsequent Closing.
+
+[[A0317]]
+In addition, the Company agrees to pay all reasonable and necessary out of pocket expenses incurred by Laidlaw in connection with providing financial services relevant to this Agreement.
+
+[[A0318]]
+Any expenses above $2,000 per month would be subject to specific prior written approval by the Company.
+
+[[A0319]]
+5.3 Entire Agreement . The Transaction Documents, together with the exhibits and schedules thereto, contain the entire understanding of the parties with respect to the subject matter hereof and thereof and supersede all prior agreements and understandings, oral or written, with respect to such matters, which the parties acknowledge have been merged into such documents, exhibits and schedules.
+
+[[A0320]]
+5.4 Notices . Any and all notices or other communications or deliveries required or permitted to be provided hereunder shall be in writing and shall be deemed given and effective on the earliest of: (a) the date of transmission, if such notice or communication is delivered via facsimile at the facsimile number set forth on the signature pages attached hereto at or prior to 5:30 p.m. (New York City time) on a Trading Day, (b) the next Trading Day after the date of transmission, if such notice or communication is delivered via facsimile at the facsimile number set forth on the signature pages attached hereto on a day that is not a Trading Day or later than 5:30 p.m. (New York City time) on any Trading Day, (c) the second (2nd) Trading Day following the date of mailing, if sent by U.S. nationally recognized overnight courier service or (d) upon actual receipt by the party to whom such notice is required to be given.
+
+[[A0321]]
+The address for such notices and communications shall be as set forth on the signature pages attached hereto.
+
+[[A0322]]
+5.5 Amendments; Waivers .No provision of this Agreement may be waived, modified, supplemented or amended except in a written instrument signed, in the case of an amendment, by the Company and the Purchasers holding at least 50.1% in interest of the Securities then outstanding, or in the case of a waiver, by the party against whom enforcement of any such waived provision is sought.
+
+[[A0323]]
+No waiver of any default with respect to any provision, condition or requirement of this Agreement shall be deemed to be a continuing waiver in the future or a waiver of any subsequent default or a waiver of any other provision, condition or requirement hereof, nor shall any delay or omission of any party to exercise any right hereunder in any manner impair the exercise of any such right.
+
+[[A0324]]
+5.6 Headings . The headings herein are for convenience only, do not constitute a part of this Agreement and shall not be deemed to limit or affect any of the provisions hereof.
+
+[[A0325]]
+5.7 Successors and Assigns . This Agreement shall be binding upon and inure to the benefit of the parties and their successors and permitted assigns.
+
+[[A0326]]
+The Company may not assign this Agreement or any rights or obligations hereunder without the prior written consent of each Purchaser (other than by merger). Any Purchaser may assign any or all of its rights under this Agreement to any Person to whom such Purchaser assigns or transfers any Securities, provided that such transferee agrees in writing to be bound, with respect to the transferred Securities, by the provisions of the Transaction Documents that apply to the “Purchasers.”
+
+[[A0327]]
+5.8 No Third-Party Beneficiaries . This Agreement is intended for the benefit of the parties hereto and their respective successors and permitted assigns and is not for the benefit of, nor may any provision hereof be enforced by, any other Person, except as otherwise set forth in Section 4.9.
+
+[[A0328]]
+5.9 Governing Law . The Transaction Documents will be governed by and construed under the laws of the State of New York as applied to agreements among New York residents entered into and to be performed entirely within New York.
+
+[[A0329]]
+The parties hereto (1) agree that any legal suit, action or proceeding arising out of or relating to this Agreement will be instituted exclusively in New York State Supreme Court, County of New York, or in the United States District Court for the Southern District of New York, (2) waive any objection which the parties may have now or hereafter to the venue of any such suit, action or proceeding, and (3) irrevocably consent to the jurisdiction of the New York State Supreme Court, County of New York, and the United States District Court for the Southern District of New York in any such suit, action or proceeding.
+
+[[A0330]]
+Each of the parties hereto further agrees to accept and acknowledge service of any and all process which may be served in any such suit, action or proceeding in the New York State Supreme Court, County of New York, or in the United States District Court for the Southern District of New York and agrees that service of process upon it mailed by certified mail to its address will be deemed in every respect effective service of process upon it, in any such suit, action or proceeding.
+
+[[A0331]]
+If either party shall commence an action or proceeding to enforce any provisions of the Transaction Documents, then, in addition to the obligations of the Company under Section 4.9, the prevailing party in such action, suit or proceeding shall be reimbursed by the other party for its reasonable attorneys’ fees and other costs and expenses incurred with the investigation, preparation and prosecution of such action or proceeding.
+
+[[A0332]]
+THE PARTIES HERETO AGREE TO WAIVE THEIR RESPECTIVE RIGHTS TO A JURY TRIAL OF ANY CLAIM OR CAUSE OF ACTION BASED UPON OR ARISING OUT OF THIS AGREEMENT OR ANY DOCUMENT OR AGREEMENT CONTEMPLATED HEREBY .
+
+[[A0333]]
+5.10 Survival . The representations and warranties contained herein shall survive the Closing and the delivery of the Securities.
+
+[[A0334]]
+5.11 Execution . This Agreement may be executed in two or more counterparts, all of which when taken together shall be considered one and the same agreement and shall become effective when counterparts have been signed by each party and delivered to each other party, it being understood that the parties need not sign the same counterpart.
+
+[[A0335]]
+In the event that any signature is delivered by facsimile transmission or by e-mail delivery of a “.pdf” format data file, such signature shall create a valid and binding obligation of the party executing (or on whose behalf such signature is executed) with the same force and effect as if such facsimile or “.pdf” signature page were an original thereof.
+
+[[A0336]]
+5.12 Severability . If any term, provision, covenant or restriction of this Agreement is held by a court of competent jurisdiction to be invalid, illegal, void or unenforceable, the remainder of the terms, provisions, covenants and restrictions set forth herein shall remain in full force and effect and shall in no way be affected, impaired or invalidated, and the parties hereto shall use their commercially reasonable efforts to find and employ an alternative means to achieve the same or substantially the same result as that contemplated by such term, provision, covenant or restriction.
+
+[[A0337]]
+It is hereby stipulated and declared to be the intention of the parties that they would have executed the remaining terms, provisions, covenants and restrictions without including any of such that may be hereafter declared invalid, illegal, void or unenforceable.
+
+[[A0338]]
+5.13 Rescission and Withdrawal Right .
+
+[[A0339]]
+Notwithstanding anything to the contrary contained in (and without limiting any similar provisions of) any of the other Transaction Documents, whenever any Purchaser exercises a right, election, demand or option under a Transaction Document and the Company does not timely perform its related obligations within the periods therein provided, then such Purchaser may rescind or withdraw, in its sole discretion from time to time upon written notice to the Company, any relevant notice, demand or election in whole or in part without prejudice to its future actions and rights; provided , however , that in the case of a rescission of an exercise of an Investor Warrant, the applicable Purchaser shall be required to return any Investor Warrant Shares subject to any such rescinded exercise notice concurrently with the return to such Purchaser of the aggregate exercise price paid to the Company for such shares and the restoration of such Purchaser’s right to acquire such shares pursuant to such Purchaser’s Investor Warrant (including issuance of a replacement warrant certificate evidencing such restored right).
+
+[[A0340]]
+5.14 Replacement of Securities . If any certificate or instrument evidencing any Securities is mutilated, lost, stolen or destroyed, the Company shall issue or cause to be issued in exchange and substitution for and upon cancellation thereof (in the case of mutilation), or in lieu of and substitution therefor, a new certificate or instrument, but only upon receipt of evidence reasonably satisfactory to the Company of such loss, theft or destruction.
+
+[[A0341]]
+The applicant for a new certificate or instrument under such circumstances shall also pay any reasonable third-party costs (including customary indemnity) associated with the issuance of such replacement certificates.
+
+[[A0342]]
+5.15 Remedies . In addition to being entitled to exercise all rights provided herein or granted by law, including recovery of damages, each of the Purchasers and the Company will be entitled to specific performance under the Transaction Documents.
+
+[[A0343]]
+The parties agree that monetary damages may not be adequate compensation for any loss incurred by reason of any breach of obligations contained in the Transaction Documents and hereby agree to waive and not to assert in any action for specific performance of any such obligation the defense that a remedy at law would be adequate.
+
+[[A0344]]
+5.16 Payment Set Aside .
+
+[[A0345]]
+To the extent that the Company makes a payment or payments to any Purchaser pursuant to any Transaction Document or a Purchaser enforces or exercises its rights thereunder, and such payment or payments or the proceeds of such enforcement or exercise or any part thereof are subsequently invalidated, declared to be fraudulent or preferential, set aside, recovered from, disgorged by or are required to be refunded, repaid or otherwise restored to the Company, a trustee, receiver or any other Person under any law (including, without limitation, any bankruptcy law, state or federal law, common law or equitable cause of action), then to the extent of any such restoration the obligation or part thereof originally intended to be satisfied shall be revived and continued in full force and effect as if such payment had not been made or such enforcement or setoff had not occurred.
+
+[[A0346]]
+5.17 Independent Nature of Purchasers ’ Obligations and Rights . The obligations of each Purchaser under any Transaction Document are several and not joint with the obligations of any other Purchaser, and no Purchaser shall be responsible in any way for the performance or non-performance of the obligations of any other Purchaser under any Transaction Document.
+
+[[A0347]]
+Nothing contained herein or in any other Transaction Document, and no action taken by any Purchaser pursuant hereto or thereto, shall be deemed to constitute the Purchasers as a partnership, an association, a joint venture or any other kind of entity, or create a presumption that the Purchasers are in any way acting in concert or as a group with respect to such obligations or the transactions contemplated by the Transaction Documents.
+
+[[A0348]]
+Each Purchaser shall be entitled to independently protect and enforce its rights, including, without limitation, the rights arising out of this Agreement or out of the other Transaction Documents, and it shall not be necessary for any other Purchaser to be joined as an additional party in any proceeding for such purpose.
+
+[[A0349]]
+Each Purchaser has been represented by its own separate legal counsel in its review and negotiation of the Transaction Documents.
+
+[[A0350]]
+The Company has elected to provide all Purchasers with the same terms and Transaction Documents for the convenience of the Company and not because it was required or requested to do so by any of the Purchasers.
+
+[[A0351]]
+It is expressly understood and agreed that each provision contained in this Agreement and in each other Transaction Document is between the Company and a Purchaser, solely, and not between the Company and the Purchasers collectively and not between and among the Purchasers.
+
+[[A0352]]
+5.18 Saturdays, Sundays, Holidays, etc . If the last or appointed day for the taking of any action or the expiration of any right required or granted herein shall not be a Business Day, then such action may be taken or such right may be exercised on the next succeeding Business Day.
+
+[[A0353]]
+5.19 Construction . The parties agree that each of them and/or their respective counsel have reviewed and had an opportunity to revise the Transaction Documents and, therefore, the normal rule of construction to the effect that any ambiguities are to be resolved against the drafting party shall not be employed in the interpretation of the Transaction Documents or any amendments thereto.
+
+[[A0354]]
+In addition, each and every reference to share prices and shares of Common Stock in any Transaction Document shall be subject to adjustment for reverse and forward stock splits, stock dividends, stock combinations and other similar transactions of the Common Stock that occur after the date of this Agreement.
+
+[[A0355]]
+5.20 Liquidated Damages .
+
+[[A0356]]
+The Company’s obligations to pay any partial liquidated damages or other amounts owing under the Transaction Documents is a continuing obligation of the Company and shall not terminate until all unpaid partial liquidated damages and other amounts have been paid notwithstanding the fact that the instrument or security pursuant to which such partial liquidated damages or other amounts are due and payable shall have been canceled.
+
+[[A0357]]
+(Signature Pages Follow)
+
+[[A0358]]
+IN WITNESS WHEREOF, the parties hereto have caused this UNIT PURCHASE AGREEMENT to be duly executed by their respective authorized signatories as of the date first indicated above.
+
+[[A0359]]
+[[TABLE]]
+| GUERRILLA RF, INC. | Address for Notice: 1196 Pleasant Ridge Road, Suite 5, Greensboro, NC 27409 |
+| --- | --- |
+| By: Name: Ryan Pratt Title: Chief Executive Officer With a copy to (which shall not constitute notice): | |
+| Iain MacSween Brooks, Pierce, McLendon, Humphrey & Leonard, LLP 230 North Elm Street, 2000 Renaissance Plaza Greensboro, NC 27401 | |
+[[/TABLE]]
+
+[[A0360]]
+[REMAINDER OF PAGE INTENTIONALLY LEFT BLANK SIGNATURE PAGE FOR PURCHASER FOLLOWS]
+
+[[A0361]]
+PURCHASER SIGNATURE PAGES TO GUERRILLA RF, INC.
+
+[[A0362]]
+UNIT PURCHASE AGREEMENT
+
+[[A0363]]
+The Purchasers set forth on Appendix A to this Agreement have executed a Subscription Agreement with the Company which provides, among other things, that by executing the Subscription Agreement each Purchaser is deemed to have executed this UNIT PURCHASE AGREEMENT in all respects and is bound to purchase the Units set forth in such Subscription Agreement and Appendix A to this Agreement.
+
+[[A0364]]
+APPENDIX A
+
+[[A0365]]
+SCHEDULE OF PURCHASERS
+
+[[A0366]]
+Initial Closing
+
+[[A0367]]
+[[TABLE]]
+| Name of Purchaser | Initial Units | Common Stock | Warrant Shares | Subscription Amount |
+| --- | --- | --- | --- | --- |
+| | | | | |
+| | | | | TOTAL: $ |
+[[/TABLE]]
+
+[[A0368]]
+Subsequent Closing
+
+[[A0369]]
+[[TABLE]]
+| Name of Subsequent Closing Purchaser | Subsequent Units | Common Stock | Warrant Shares | Subscription Amount |
+| --- | --- | --- | --- | --- |
+| | | | | |
+| | | | | TOTAL: $ |
+[[/TABLE]]
+
+[[A0370]]
+Exhibit A: Form of Warrant
+
+[[A0371]]
+Exhibit B: Form of Subscription Agreement
+
+[[A0372]]
+Exhibit C: Form of Registration Rights Agreement
+
+[[A0373]]
+Exhibit D: Form of Legal Opinion of Company Counsel

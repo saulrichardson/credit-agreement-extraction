@@ -1,0 +1,691 @@
+1 EXHIBIT 10A
+
+THRIFT AND EMPLOYEE STOCK OWNERSHIP PLAN
+
+OF
+
+AMERICAN PETROFINA, INCORPORATED
+
+2 THRIFT AND EMPLOYEE STOCK OWNERSHIP PLAN OF AMERICAN PETROFINA, INCORPORATED
+
+TABLE OF CONTENTS
+
+Page ---- PREAMBLE .......................................... 1
+
+ARTICLE I DEFINITIONS AND CONSTRUCTION ............. 2 Section 1.1 Definitions ................. 2 Section 1.2 Participation ............... 11
+
+ARTICLE II PARTICIPATION ............................ 11 Section 2.1 Participation ............... 11
+
+ARTICLE III CONTRIBUTIONS AND ALLOCATIONS ............ 12 Section 3.1 Participant Elected Contributions ............... 12 Section 3.2 Employer Matching Contributions ............... 14 Section 3.3 Tax Credit Contributions ............... 14 Section 3.4 Payment to Trustee .......... 14 Section 3.5 Crediting of Contribu- tions and Forfeitures ....... 17
+
+ARTICLE IV TRUST AND INVESTMENT PROVISIONS .......... 20 Section 4.1 Trust and Trustee .......... 20 Section 4.2 Investment of ESOP and PAYSOP Accounts ............. 20 Section 4.3 Investment of Participant Thrift, Participant Deferred, Company Thrift and Company Matching Accounts .................... 20 Section 4.4 Purchases of Company and PSA Stock and Government Bonds ....................... 21 Section 4.5 Voting Rights ............... 23
+
+ARTICLE V VESTING AND DISTRIBUTION EVENTS .......... 24 Section 5.1 Retirement or Disability .... 24 Section 5.2 Death ....................... 24 Section 5.3 Break in Service ............ 24
+
+ARTICLE VI DISTRIBUTIONS AND FORFEITURES ............ 25 Section 6.1 Time and Form of Distribution ................ 25
+
+(i)
+
+3 Page ---- Section 6.2 Distribution of Retire- ment, Disability and Death Benefits .............. 26 Section 6.3 Withdrawals by Vested Participants ................ 27 Section 6.4 Withdrawals by Partially Vested Participants ......... 29 Section 6.5 Withdrawals by Nonvested Participants ................ 31 Section 6.6 Break in Service Distribution ................ 32 Section 6.7 Application of Forfeitures ................. 33 Section 6.8 Distributions to Minors and Persons Under Legal Disability ............ 33
+
+ARTICLE VII PLAN ADMINISTRATION ...................... 33 Section 7.1 Appointment to Committee .... 33 Section 7.2 Powers and Duties of the Committee ................... 34 Section 7.3 Rules, Records and Reports .. 35 Section 7.4 Administration Expenses and Taxes ................... 35 Section 7.5 Claims Procedure ............ 36
+
+ARTICLE VIII AMENDMENT AND TERMINATION ................ 37 Section 8.1 Amendment ................... 37 Section 8.2 Termination ................. 38
+
+ARTICLE IX MISCELLANEOUS GENERAL PROVISIONS ......... 38 Section 9.1 Spendthrift Provision ....... 38 Section 9.2 Maximum Annual Additional Limitation .................. 38 Section 9.3 Limitations on Responsibilities ............ 40 Section 9.4 Committee Indemnification ... 40 Section 9.5 Employment Noncontractual ... 41 Section 9.6 Merger or Consolidation ..... 41 Section 9.7 Employee Stock Ownership Plan Merger Into Thrift Plan ........................ 41 Section 9.8 Applicable Law .............. 42
+
+(ii)
+
+4 THRIFT AND EMPLOYEE STOCK OWNERSHIP PLAN
+
+OF
+
+AMERICAN PETROFINA, INCORPORATED
+
+THIS THRIFT AND EMPLOYEE STOCK OWNERSHIP PLAN, made and executed at Dallas, Texas by the undersigned Employers.
+
+WITNESSETH THAT:
+
+WHEREAS, the Employers have heretofore adopted for the benefit of their employees a qualified profit sharing plan known as the Thrift Plan for Employees of American Petrofina, Incorporated and Certain Subsidiaries (the "Thrift Plan") and a qualified tax credit employee stock ownership plan known as the Employee Stock Ownership Plan of American Petrofina, Incorporated (the "Employee Stock Ownership Plan"); and
+
+WHEREAS, the Employers now desire to continue said employee benefits plans without interruption by consolidating the Thrift Plan and the Employee Stock Ownership Plan into a single plan providing participating employees with the major benefit features of both Plans and adding thereto a cash or deferred arrangement qualifying under the provisions of Section 401(k) of the Internal Revenue Code:
+
+NOW, THEREFORE, subject to the provisions of Section 9.7 of this Plan and pursuant to the authority reserved to the Employers pursuant to Section 16.1 of the Thrift Plan and Section 12.1 of the Employee Stock Ownership Plan, the Thrift Plan and the Employee Stock Ownership Plan are hereby amended
+
+5 and restated in their entirety to merge the Employee Stock Ownership Plan into the Thrift Plan which, as so amended and restated in its entirety, shall read as follows:
+
+ARTICLE I.
+
+DEFINITIONS AND CONSTRUCTION
+
+Section 1.1 Definitions. Unless the context clearly indicates otherwise, when used in this Plan:
+
+- "Affiliated Company" means (1) any corporation
+or organization, other than an Employer, which is a member
+of a controlled group of corporations (within the meaning
+of Section 414(b) of the Code) or of an affiliated service
+group (within the meaning of Section 414(m) of the Code)
+with respect to which an Employer is also a member, (2) any
+incorporated or unincorporated trade or business which
+along with an Employer is under common control (within the
+meaning of the regulations from time to time promulgated by
+the Secretary of the Treasury pursuant to Section 414(c) of
+the Code), and (3) any other incorporated or unincorporated
+trade or business which is designated by the Board of
+Directors of the Company as an Affiliated Company for the
+purposes of the Plan; provided, however, that for the
+purposes of Section 9.2 of the Plan, Section 414(b) and (c)
+of the Code shall be applied as modified by Section 415(h)
+of the Code.
+
+-2-
+
+6
+- "Basic Compensation" means the base salary and
+wages (determined without regard to any Basic Compensation
+reduction agreement entered into pursuant to Section 3.1)
+regularly payable to a Participant as part of his
+Compensation after becoming a Participant in the Plan but
+shall not include any employee bonus payments,
+straight-time, overtime or premium overtime pay, severance
+pay, callback pay, night-shift differential, Matching or
+Tax Credit Contributions to this Plan or any prior plan,
+automobile allowance, living allowance, premium paid on any
+life insurance policy or other form of special remuneration.
+
+- "Break In Service" means any Service
+Computation Period during which an Employee fails to
+complete more than 500 Hours of Service.
+
+- "Code" means the Internal Revenue Code of
+1954, as amended from time to time, or any successor
+revenue code which may hereafter be adopted in lieu
+thereof, and references herein to any specific provision of
+the Code shall be deemed also to refer to the corresponding
+provision of the Code as it may hereafter be so amended or
+replaced.
+
+- "Committee" means the Committee appointed by
+the Board of directors of the Company to administer the
+Plan on behalf of the Employers.
+
+- "Company" means American Petrofina,
+Incorporated.
+
+-3-
+
+7
+- "Company Matching Account" means the account
+established and maintained under the Plan by the Committee
+to record a Participant's interest under this Plan
+attributable to (1) Matching Contributions made by an
+Employer to this Plan for such Participant and (2)
+forfeitures applied pursuant to Section 6.7 to reduce the
+Matching Contributions which would otherwise have been made
+by an Employer for such Participant.
+
+- "Company Thrift Account" means the account
+established and maintained under the Plan by the Committee
+to record a Participant's interest under this Plan
+attributable to contributions made by an Employer to the
+Thrift Plan for such Participant.
+
+- "Company Stock" means the Class A Common Stock
+of the Company.
+
+- "Compensation" shall mean the amount of
+compensation (within the meaning of Section 415(c) (3) of
+the Code) payable to a Participant for personal services
+rendered to an Employer.
+
+- "Deferred Compensation Contribution" means a
+contribution made by an Employer to this Plan on behalf of a
+Participant pursuant to Section 3.1(b).
+
+- "Employee" means any individual employed by an
+Employer. Such term shall not include (1) lessees and
+sublessees of service stations and their employees, (2)
+
+-4-
+
+8 commission agents and their employees, (3) distributors and jobbers and their employees, (4) contractors and subcontractors and their employees, or (5) any consultant or other person who under the normal practice of an Employer is not considered to be a regular employee.
+
+- "Employee Stock Ownership Plan" means that
+Employee Stock Ownership Plan of American Petrofina,
+Incorporated as in effect prior to January 1, 1984.
+
+- "Employer" shall include the Company and any
+other incorporated or unincorporated trade or business which
+may adopt this Plan with the consent of the Board of
+Directors of the Company.
+
+- "Employment Date" means the date an Employee
+first performs an Hour of Service after December 31, 1975;
+provided, however, that the Employment Date for any
+Employee employed by or on authorized leave of absence from
+an Employer or Affiliated Company on January 1, 1976 shall
+be the later of (1) such Employee's most recent date of
+commencing employment with an Employer or Affiliated
+Company prior to January 1, 1976, or (2) such Employee's
+most recent date prior to January 1, 1976 of making a
+complete withdrawal under the Thrift Plan. If an Employee
+incurs a Break in Service after December 31, 1975, his
+Employment Date for the purposes of computing his
+subsequent Years of Service under the Plan shall be the
+
+-5-
+
+9 date he first performs an Hour of Service following his latest Break in Service.
+
+- "ERISA" means the Employee Retirement Income
+Security Act of 1974, as amended from time to time, or any
+successor legislation which may hereafter be adopted in
+lieu thereof, and references herein to any specific
+provision of ERISA shall be deemed also to refer to the
+corresponding provision of ERISA as it may hereafter be so
+amended or replaced.
+
+- "ESOP Account" means the account established
+and maintained under this Plan by the Committee to record a
+Participant's interest under this Plan attributable to
+Company and Matching Employee Contributions made to the
+Employee Stock Ownership Plan for or by such Participant.
+
+- "Government Bonds" means such class or classes
+of United States Government Bonds (including notes or
+Series E or similar savings bonds) as the Committee shall
+determine to be appropriate investments for the purposes of
+the Plan.
+
+- "Hour of Service" means a hour for which an
+Employee is directly or indirectly compensated or entitled
+to compensation (including back pay, regardless of
+mitigation of damages) by an Employer for the performance
+of duties for an Employer or for reasons (such as vacation,
+
+-6-
+
+10 sickness or disability) other than the performance of duties for an Employer. An Employee's Hours of Service shall be credited to the appropriate Service computation Periods determined in accordance with the provisions of Section 2530.200(b)-2b and (c) of the Department of Labor Regulations, which are incorporated herein by this reference. In determining Hours of Service for the purposes of this Plan, periods of employment by an Affiliated Company shall be deemed to be periods of employment by an Employer. The foregoing provisions of this definition to the contrary notwithstanding, each Employee who is not a vocational trainee or crude oil production pumper shall be credited with 190 Hours of Service for each month during which such Employee would otherwise be required to be credited with at least one Hour of Service under the foregoing provisions of this definition.
+
+- "Matching Contribution" means a contribution
+made by an Employer to this Plan for a Participant pursuant
+to Section 3.2.
+
+- "Net Profits" means an Employer's current
+profits or accumulated earned surplus as determined under
+generally accepted accounting principles and without regard
+to whether such Employer has current or accumulated
+earnings and profits for federal income tax purposes.
+
+-7-
+
+11
+- "Nonvested Participant" means a Participant
+under the age of sixty-five years who has completed less
+than three Years of Service.
+
+- "Partially Vested Participant" means a
+Participant under the age of sixty-five years who has
+completed at least three but less than five Years of
+Service.
+
+- "Participant" means an Employee who has become
+a Participant in this Plan in accordance with Section 2.1
+and whose Vested Interest under the Plan has not been fully
+distributed.
+
+- "Participant Deferred Account" means the
+account established and maintained under this Plan by the
+Committee to record a Participant's interest under this
+Plan attributable to Deferred Compensation Contributions
+made by an Employer to this Plan on behalf of such
+Participant.
+
+- "Participant Thrift Account" means the account
+established and maintained under this Plan by the Committee
+to record a Participant's interest under this Plan
+attributable to (1) Thrift Contributions made by such
+Participant to this Plan, (2) contributions made by such
+Participant to the Employee Stock Ownership Plan which were
+not Matching Employee Contributions thereunder, and (3)
+contributions made by such Participant to the Thrift Plan.
+
+-8-
+
+12
+- "PAYSOP Account" means the account established
+and maintained under this Plan by the Committee to record a
+Participant's interest under this Plan attributable to Tax
+Credit Contributions allocated to such Participant pursuant
+to this Plan.
+
+- "Permanent Disability" means the total and
+permanent incapacity of a Participant to perform the usual
+duties of his employment with an Employer or Affiliated
+Company as determined by the Committee. Such incapacity
+shall be deemed to exist when certified by a physician who
+is acceptable to the Committee.
+
+- "Plan" means this Thrift and Employee Stock
+Ownership Plan to American Petrofina, Incorporated as
+effective January 1, 1984, and as in effect from time to
+time thereafter.
+
+- "Plan Year" means the calendar year.
+
+- "PSA Stock" means the common stock of
+Petrofina, S.A., a corporation organized under the laws of
+the Kingdom of Belgium.
+
+- "Retirement" means retirement under the
+provisions of a pension or retirement plan of an Employer
+or Affiliated Company on or after attaining the age of
+fifty-five years.
+
+- "Service Computation Period" means the period
+of twelve consecutive months commencing on an Employee's
+Employment Date or any anniversary thereof.
+
+-9-
+
+13
+- "Tax Credit Contribution" means a contribution
+made by an Employer pursuant to Section 3.3.
+
+- "Thrift Contribution" means a contribution
+made by a Participant to this Plan pursuant to Section
+3.1(a).
+
+- "Thrift Plan" means the Thrift Plan for
+Employees of American Petrofina, Incorporated and Certain
+Subsidiaries as in effect prior to January 1, 1984.
+
+- "Trust" means the trust fund established
+pursuant to Section 4.1.
+
+- "Trustee" means the individual and/or
+corporate trustee or trustees from time to time appointed
+and acting as trustee or trustees of the Trust.
+
+- "Vested Interest" means the portion of an
+Account under the Plan which is nonforfeitable at the
+particular point in time in question.
+
+- "Vested Participant" means a Participant who
+has either attained the age of sixty-five years or
+completed at least five Years of Service.
+
+- "Year of Service" means a Service Computation
+Period during which an Employee completes at least 1,000
+Hours of Service; provided, however, that a Service
+Computation Period during which an eligible Employee made
+no contribution to this Plan or the Thrift Plan shall be
+excluded in determining his Years of Service. An Employee
+
+-10-
+
+14 shall also be credited with Years of Service for periods of employment with a corporation any portion of the business of which is acquired by an Employer by merger or otherwise, to the extent such credit shall be determined by the Board of Directors of the Company in its discretion to be given on a uniform basis to all employees of such corporation.
+
+Section 1.2 Construction. The titles to the Articles and the headings of the Sections in this Plan are placed herein for convenience of reference only and in case of any conflict the text of this instrument, rather than such titles or headings, shall control. Whenever a noun or pronoun is used in this Plan in plural form and there be only one person or entity within the scope of the words so used, or in singular form and there be more than one person or entity within the scope of the word so used, such word or pronoun shall have a plural or singular meaning as appropriate under the circumstance. Masculine pronouns shall include their feminine counterparts and vice versa.
+
+ARTICLE II.
+
+PARTICIPATION
+
+Section 2.1 Participation. Each Employee who was participating in the Thrift Plan or the Employee Stock Ownership Plan on December 31, 1983 shall be come a Participant in this Plan on January 1, 1984. Each other Employee shall become a Participant of this Plan on the first day of any month
+
+-11-
+
+15 coinciding with or next following the earliest anniversary of his Employment Date as of which he has completed a Year of Service; provided, however, that unless the Board of Directors of the Company shall otherwise provide on a basis uniformly applicable to all Employees similarly situated, no Employee shall become a Participant in this Plan if and so long as such Employee is a member of a collective bargaining unit the recognized representative of which has not agreed to participation in the Plan by members of such unit. If an Employee who is already a Participant becomes a member of a collective bargaining unit the recognized representative of which has not agreed to participation in the Plan by members of such unit, such Participant shall remain a Participant in the Plan except that, any provision of this Plan to the contrary notwithstanding, no contribution to the Plan shall be made by, for or on behalf of such Participant so long as he continues to be a member of such unit.
+
+ARTICLE III.
+
+CONTRIBUTIONS AND ALLOCATIONS
+
+Section 3.1 Participant Elected Contributions. Each Participant may, if he wishes, elect:
+
+- to make a Thrift Contribution to the Plan for
+each pay period in an amount equal to 1%, 2%, 3%, 4% or 5%
+of his Basic Compensation for that pay period, and
+
+-12-
+
+16
+- to have his Employer make a Deferred Compensation
+Contribution to the Plan for each pay period in an amount
+equal to such whole percentage point of his Basic
+Compensation as does not, when added to any Thrift
+Contribution made by such Participant for that pay period,
+exceed 10% of such Participant's Basic Compensation for
+that pay period.
+
+Thrift Contributions shall be made by uniform payroll deductions which the Participant shall in writing authorize his Employer to withhold from his Basic Compensation and pay over to the Trustee. Deferred Compensation Contributions shall be made by uniform payroll deductions pursuant to a Basic Compensation reduction agreement between the Participant and his Employer which authorizes the Employer to pay such contribution to the Trustee on behalf of the Participant. A Participant may change the applicable percentage of payroll deductions as of any January 1, or as of any payday suspend for a period of at least six months his election to make Thrift Contributions or to have Deferred Compensation Contributions made on his behalf, provided (1) that written notice of such change or suspension is delivered to his Employer at least thirty days prior to the effective date thereof, and (2) that such a suspension may be made by a Participant only once within any period of thirty-six months. A Participant's elected contributions shall automatically resume upon the expiration of his designated
+
+-13-
+
+17 suspension period. No retroactive contributions may be made by or on behalf of a Participant.
+
+Section 3.2 Employer Matching Contributions. For each pay period an Employer shall, out of its Net Profits, make a Matching Contribution to the Plan for each Participant in its employ in an amount which, when added to any forfeiture amount being credited to such Participant for that pay period, will equal the lessor (1) 5% of such Participant's Basic Compensation for that pay period, or (2) the total amount of the Thrift and Deferred Compensation Contributions made by or on behalf of such Participant for that pay period.
+
+Section 3.3 Tax Credit Contributions. For each Plan Year commencing after December 31, 1982, each Employer shall, out of its Net Profits, make a Tax Credit Contribution to the Plan in an amount equal to the following applicable percentage of the aggregate Compensation for that Plan Year of all Participants who were in the employ of such Employer on the last day of that year, or whose employment with such Employer terminated during that year by reason of death or by reason of retirement under the normal or early retirement or disability benefit provisions of a pension or retirement plan of an Employer or Affiliated Company:
+
+-14-
+
+18
+
+The Tax Credit Contribution made to the Plan for a Plan Year shall be allocated among the Participants who were in the employ of an Employer on the last day of such year, or whose employment with such Employer terminated during that year by reasons of death or by reason of retirement under the normal or early retirement or disability benefit provisions of a pension or retirement plan of an Employer or Affiliated Company, in the proportion that the Compensation received by each such Participant during that year (disregarding any Compensation in excess of the first $100,000) bears to the Compensation received by all such Participants during that year (disregarding any Compensation in excess of the first $100,000 for any Participant).
+
+Section 3.4 Payment to Trustee. The Thrift and Deferred Compensation Contributions made to the Plan for a pay period ending within a particular month shall be paid to the Trustee in cash no later than thirty days after the end of such month. The Matching Contribution made to the Plan for a pay period ending within a particular month may be made in cash or in the form of Company Stock, or in any combination thereof, and shall be paid or transferred to the Trustee no later than thirty days after the end of such month. The Tax Credit Contribution to be
+
+-15-
+
+19 made to the Plan for a particular Plan Year may be made in cash or in the form of Company Stock, or any combination thereof, and shall be paid or transferred to the Trustee no later than thirty days after the due date (including extensions thereof) for the filing of the Employers' federal income tax return for such year. The value of any Company Stock contributed to the Plan as a Matching Contribution shall be the closing price of such stock on the open market as of the date of contribution if such stock was traded on the open market on such date, but if such stock was not traded on the open market as of the date of the contribution, then the value of the Company Stock shall be the closing price of such stock on the open market as of the date next preceding the date of the contribution that such stock was traded on the open market. The value of any Company Stock contributed to the Plan as a Tax Credit Contribution shall be the average of the closing price of such stock, as reported on the composite tape for securities listed on the American Stock Exchange, Inc., for the twenty consecutive trading days immediately preceding the date on which such stock is contributed to the Plan. If any Employer is prevented from making a contribution which it would otherwise have made under this Plan by reason of having no Net Profits or because such Net Profits are less than the contribution which it would otherwise have made, than so much of the contribution which such Employer was so prevented from making shall be made for
+
+-16-
+
+20 the benefit of the Participants in the employ of such Employer by the other Employers to the extent of their Net Profits in such proportions as such other Employers may determine.
+
+Section 3.5 Crediting of Contributions and Forfeitures. The Committee shall establish and maintain a Participant Thrift Account, a Company Thrift Account, a Participant Deferred Account, a Company Matching Account, an ESOP Account and a PAYSOP Account for each Participant. All Thrift Contributions made by a Participant pursuant to Section 3.1(a), all Company Stock and other amounts attributable to contributions made by such Participant to the Thrift Plan, and all Company Stock and other amounts attributable to contributions made by such Participant to the Employee Stock Ownership Plan which were not Matching Employee Contributions thereunder, shall be allocated to such Participant's Participant Thrift Account under this Plan. All Company Stock and other amounts attributable to Matching Contributions made by an Employer for a Participant pursuant to Section 3.2, and all forfeitures applied pursuant to Section 6.7 to reduce the Matching Contributions which would otherwise have been made by an Employer for such Participant, shall be credited to such Participant's Company Matching Account under this Plan. All Company Stock, Company Class B
+
+-17-
+
+21 Common Stock and other amounts attributable to contributions made by an Employer to the Employee Stock Ownership Plan for a Participant, and all Company Stock, Company Class B Common Stock and other amounts attributable to contributions made by a Participant to the Employee Stock Ownership Plan which were Matching Employee Contributions thereunder, shall be credited to such Participant's ESOP Account under this Plan. All Tax Credit Contributions allocated to a Participant pursuant to Section 3.3 shall be credited to such Participant's PAYSOP Account under this Plan. All Deferred Compensation Contributions made by an Employer on behalf of a Participant pursuant to Section 3.1(b) shall be credited to such Participant's Participant Deferred Account; provided, however, that if for any Plan Year commencing after December 31, 1983, the actual deferral percentage for the highest paid one-third of all Employees eligible to elect to have their Employer make a Deferred Compensation Contribution to the Plan for them for that year fails to satisfy one of the following tests:
+
+- the actual deferral percentage for said highest
+paid one-third of such Employees is not more than the
+actual deferral percentage for all other such Employees
+multiplied by 1.5, or
+
+- the excess of the actual deferral percentage for
+said highest paid one-third of all such Employees over the
+actual deferral percentage for all other such Employees is
+
+-18-
+
+22 not more than three percentage points, and the actual deferral percentage for said highest paid one-third of such Employees is not more than the actual deferral percentage for all other such Employees multiplied by 2.5, then the 10% maximum percentage of Basic Compensation otherwise permitted to be credited to the Participant Deferred Accounts of said highest paid one-third of such Employees shall be reduced in increments of one-half of one percent until the actual deferral percentage for said highest paid one-third of such Employees satisfies one of said tests. For the purposes of this Section, the term "actual deferral percentage" for a specified group of Employees for a Plan Year means the average of the ratios (calculated separately for each Employee in such group) of (1) the sum of the amounts of the Deferred Compensation Contribution, the Tax Credit Contribution and the vested portion of the Matching Contributions (determined as of the last day of the Plan Year) made to the Plan for or on behalf of each such Employee for that year, to (2) the amount of such Employee's Compensation for that year. Any Deferred Compensation Contribution made by an Employer on behalf of a Participant pursuant to Section 3.1(b) which cannot be credited to the Participant Deferred Account of such Participant because of the limitation contained in this Section shall be credited to such Participant's Participant Thrift Account.
+
+-19-
+
+23 ARTICLE IV.
+
+TRUST AND INVESTMENT PROVISIONS
+
+Section 4.1 Trust and Trustee. All of the contributions and other amounts paid to the Trustee pursuant to this Plan, together with the income therefrom and the increments thereof, shall be held in trust by the Trustee under the terms and provisions of the separate trust agreement between InterFirst Bank Dallas, N.A., as Trustee, and the Employers, a copy of which is attached hereto and incorporated herein by this reference for all purposes, establishing a trust fund for the exclusive benefit of the Participants and their beneficiaries.
+
+Section 4.2 Investment of ESOP and PAYSOP Accounts. All Tax Credit Contributions credited to a Participant's PAYSOP Account which are paid to the Trustee in cash shall be used by the Trustee within thirty days of receipt of purchase Company Stock for such Account. All cash dividends, stock dividends, stock splits and other amounts received by the Trustee with respect to the Company Stock or other property held for an ESOP or PAYSOP Account shall be credited to (and, if cash or property other than Company Stock, used as soon as practicable to purchase Company Stock for) such Account.
+
+Section 4.3 Investment of Participant Thrift, Participant Deferred, Company Thrift and Company Matching Accounts. Upon becoming a Participant in the Plan each Participant shall direct, on a form prescribed by and filed with the Committee, that:
+
+-20-
+
+24
+- The contributions and other amounts credited to his Participant
+Thrift and Participant Deferred Accounts be invested, in percentage
+multiples authorized by the Committee, in Company Stock, PSA Stock and/or
+Government Bonds; and
+
+- the contributions and other amounts credited to his Company
+Thrift and Company Matching Accounts be invested, in percentage multiples
+authorized by the Committee, in Company Stock and/or PSA Stock.
+
+If a Participant fails to give such investment direction, all contributions and other amounts credited to his Participant Thrift and Participant Deferred Accounts shall be invested in Government Bonds, and all contributions and other amounts credited to his Company Thrift and Company Matching Accounts shall be invested in Company Stock. A Participant may change his investment direction with respect to future contributions or redirect the investment of one or more of said four Account balances on any January 1, provided that written notice of such change is delivered to the Committee at least thirty days prior to the January 1 as of which such change is to become effective. All cash dividends, stock dividends, stock splits, interest and other amounts received by the Trustee with respect to a particular type of security held for a Participant Thrift, Participant Deferred, Company Thrift or Company Matching Account shall be credited to (and, if cash or property other
+
+-21-
+
+25 than the security from which it was derived, used as soon as practicable to purchase said security for) such Account.
+
+Section 4.4 Purchases of Company and PSA Stock and Government Bonds. Company Stock may be purchased by the Trustee in the open market or from the Company. If Company Stock is purchased from the Company, the price of such Company Stock shall be the closing price of Company Stock on the open market as of the date of the purchase if such stock was traded on the open market on such date, or if such stock was not traded on the open market as of the date of the purchase, then the price of such Company Stock shall be the closing price of Company on the open market as of the date next preceding the date of the purchase that such stock was traded on the open market. PSA Stock shall be purchased by the Trustee in the open market. Investments in Government Bonds shall be made subject to such rules and regulations as may from time to time be established by the Committee. Any cash in the hands of the Trustee at any time and not invested may be held by the Trustee for the Accounts of the Participants to whom it is attributable without obligation to credit interest thereon. The Trustee shall add to the cost of securities purchased any brokerage commissions, transfer taxes and other charges or expenses incident thereto, or deduct from the gross proceeds from the sale of securities, any such charges incident thereto. The cost to a Participant's Account of securities purchased shall
+
+-22-
+
+26 be the average cost of all securities of the particular issue purchased by the Trustee during the calendar month in which the securities shall have been purchased for Participants' Accounts. In case of the redemption of any nontransferrable Government Bond or on the maturity thereof, the Participant for whose Account such Government Bond was purchased shall take such steps as the Trustee may prescribe in order to effect the redemption or collection thereof by the Trustee.
+
+Section 4.5 Voting Rights. Each Participant shall be entitled to direct the Trustee as to the manner in which any rights (including but not limited to voting rights, subscription rights and conversion privileges) with respect to the Company Stock and Company Class B Common Stock credited to such Participant's ESOP and PAYSOP Accounts are to be exercised. For this purpose, the Committee shall notify each Participant of each annual or special meeting of the shareholders of the Company and of any other occasion for the exercise of voting or other rights by such shareholders, not later than the date prior to such meeting or other occasion on which the Company notifies its other shareholders. The notification shall include a copy of any proxy solicitation material and other information which the Company distributes to shareholders regarding the exercise of voting or other rights, together with a form requesting instructions to the Trustee as to how the Participant's rights are to be exercised. The
+
+-23-
+
+27 Trustee shall tabulate the instructions received and shall vote or otherwise exercise rights with respect to said shares of stock as instructed. The Trustee shall not vote or otherwise exercise rights with respect to any of said shares of stock as to which no instructions from Participants have been duly received.
+
+ARTICLE V.
+
+VESTING AND DISTRIBUTION EVENTS
+
+Section 5.1 Retirement or Disability. Upon the Retirement of a Participant or in the event of a Participant's Permanent Disability while employed by or on authorized leave of absence from an Employer or Affiliated Company, the amounts credited to all Accounts maintained for such Participant shall be fully vested and distributed to him in accordance with the provisions of Article VI.
+
+Section 5.2 Death. Upon the death of a Participant, the amounts credited to all Accounts maintained for such Participant shall be fully vested and distributed to his beneficiary or beneficiaries in accordance with the provisions of Article VI.
+
+Section 5.3 Break in Service. If a Participant incurs a Break in Service prior to his Retirement, Permanent Disability or death, such Participant shall be entitled to receive the full amount credited to his Participant Thrift, Participant Deferred ESOP and PAYSOP Accounts, plus the following portion
+
+-24-
+
+28 of the amount credited to his Company Thrift and Company Matching Accounts, depending upon the number of Years of Service completed by such Participant on the date of such separation from employment:
+
+Years of Service Percentage Vested ---------------- ----------------- Less Than 3 None 3 60% 4 80% 5 or More 100%
+
+provided, however, that notwithstanding the foregoing schedule, a Participant's Company Thrift and Company Matching Accounts shall be fully vested on and after the day such Participant is entitled to receive under this Section shall be distributed to such Participant in accordance with the provisions of Article VI, and the balance of such Participant's Company Thrift and Company Matching Accounts shall be forfeited.
+
+ARTICLE VI.
+
+DISTRIBUTIONS AND FORFEITURES
+
+Section 6.1 Time and Form of Distribution. The distribution of amounts withdrawn by or otherwise due to a Participant or beneficiary under the Plan shall be made as soon as practicable after such Participant or beneficiary becomes entitled to distribution, but unless the Participant elects otherwise with the consent of the Committee, in no event later than sixty days after the end of the Plan Year during which
+
+-25-
+
+29 such Participant or beneficiary becomes entitled to such distribution. The portion of any Account invested in Government Bonds will be distributed in the form of such bonds or in cash, or in any combination thereof, as determined by the Committee in its absolute discretion. The portion of any Account (other than an ESOP or PAYSOP Account) invested in Company stock will be distributed in the form of such stock or in cash, or in any combination thereof, as determined by the Committee in its absolute discretion. The portion of any Account invested in PSA Stock will be converted into cash and distributed in the form of cash or in the form of Company Stock, or in any combination thereof, as determined by the Committee in its absolute discretion. All amounts credited to an ESOP or PAYSOP Account will be distributed in the form of Company Stock (with cash in lieu of fractional shares). If any portion of an ESOP Account is invested in shares of Company Class B Common Stock and a withdrawal or other distribution event occurs with respect to said shares, prior to any distribution from such ESOP Account the Participant or beneficiary to whom such distribution would otherwise be made shall instruct the Trustee in writing either to "put" said shares of stock to the Company for cash or to exchange said shares of stock with the Company for Company Stock on a share-for-share basis. If the "put" is elected, the per share value of Company Class B Common Stock shall be deemed to be
+
+-26-
+
+30 equal to the average closing price per share of Company Stock, as reported on the composite tape for securities listed on the American Stock Exchange, Inc., for the twenty consecutive trading days immediately preceding the date on which such "put" is exercised. Any Company or PSA Stock which is to be converted into cash for distribution to a Participant or beneficiary shall be sold by the Trustee in the open market during the month following the date as of which such withdrawal or other distribution event occurs. The amount of cash to be distributed to the Participant or beneficiary with respect to such Company or PSA Stock shall be determined on the basis of the average net proceeds per share (i.e., gross proceeds from the sale less any brokerage commissions, transfer taxes and other expenses incident thereto) realized by the Trustee upon such sales during said month. In lieu of making such sale in the open market, the Trustee in its discretion may match such sales with purchases to be made for such month pursuant to the Plan, with the prices of any such matched sales and purchases being determined in the same manner as provided in section 4.4 for determining the price of Company Stock purchased from the Company.
+
+Section 6.2 Distribution of Retirement, Disability and Death Benefits. Any amount payable to a Participant under the Plan upon his Retirement or Permanent Disability shall be distributed to such Participant in a single distribution. Any
+
+-27-
+
+31 amount payable under the plan upon the death of a Participant shall be distributed in a single distribution to the beneficiary or beneficiaries designated by such Participant. Such designation of beneficiary or beneficiaries shall be made in writing on a form prescribed by the Committee and, when filed with the Committee, shall become effective and remain in effect until changed by the Participant by the filing of a new beneficiary designation from with the Committee. If a Participant fails to so designate a beneficiary, or in the event all of the designated beneficiaries are individuals who predeceased the Participant, then the Committee shall direct the Trustee to distribute the amount payable under the Plan in a single distribution to the estate of such deceased Participant.
+
+Section 6.3 Withdrawals by Vested Participants. Subject to such conditions, limitations and procedures as the Committee may from time to time prescribe for application to all Vested Participants on a uniform and nondiscriminatory basis, by filing a written notice of withdrawal with the Committee prior to the end of any month a Vested Participant may withdraw:
+
+(a)(1) all or any portion of the amount credited to his Participant Thrift Account as of the end of such month, and (2) if no amount will remain credited to his Participant Thrift Account following such withdrawal, all or any portion of the amount credited to his Company Thrift
+
+-28-
+
+32 Account as of the end of such month, and if such Participant has either attained the age of 59-1/2 years or is not in the employ of or on authorized leave of absence from an Employer or Affiliated Company, all or any portion of the amounts credited to his Participant Deferred and Company Matching Accounts as of the end of such month;
+
+- from his ESOP Account, (1) all or any portion of
+- the Company Stock and/or Company Class B Common Stock
+representing Employer contributions which have been
+allocated to such Account (or such Participant's Account
+under the Employee Stock Ownership Plan) as of the end of
+such month for a period of at least 84 months after the
+month as of which such allocation was made, (ii) the
+Company Stock and/or Company Class B Common Stock
+representing Participant contributions which have been
+allocated to such Account (or such Participant's Account
+under the Employee Stock Ownership Plan) as of the end of
+such month for a period of at least 84 months after the
+month as of which such allocation was made, and (iii) the
+Company Stock which has been purchased with Trust income or
+represents dividends paid in Company Stock and which has
+been credited to such Account as of the end of such month,
+or (2) if such Participant is not in the employ of or on
+authorized leave of absence from an Employer or Affiliated
+Company at the end of such month, all (but not less than
+
+-29-
+
+33 all) of the Company Stock and Company Class B Common Stock credited to such Account;
+
+- form his PAYSOP Account, (1) if he has attained
+the age of 59-1/2 years, all or any portion of (i) the
+Company Stock representing Employer contributions which
+have been allocated to such Account as of the end of such
+month for a period of at least 84 months after the month as
+of which such allocation was made, and (ii) the Company
+Stock which has been purchased with Trust income or
+represents dividends paid in Company Stock and which has
+been credited to such Account as of the end of such month,
+or (2) if such Participant is not in the employ of or on
+authorized leave of absence from an Employer or Affiliated
+Company at the end of such month, all (but not less than
+all) of the Company Stock credited to such Account;
+
+- from his Participant Deferred and Company
+Matching Accounts, if such notice of withdrawal requests a
+distribution to alleviate a hardship (within the meaning of
+Section 401(k)(2)(B) of the Code and the regulations
+promulgated thereunder) of such Vested Participant which is
+evidenced to the satisfaction of the Committee, such amount
+as the Committee shall determine to be necessary to meet
+the immediate financial need created by said hardship and
+not reasonably available from other sources.
+
+-30-
+
+34 Section 6.4 Withdrawals by Partially Vested Participants Subject to such conditions, limitations and procedures as the Committee may from time to time prescribe for application to all Partially Vested Participants on a uniform and nondiscriminatory basis, a Partially Vested Participant may withdraw all (but not less than all) of the aggregate value of his Participant Thrift Account and the vested portion of his Company Thrift Account as of the end of any month by filing a written notice of such withdrawal with the Committee prior to the end of such month. Any provision of this Plan to the contrary notwithstanding:
+
+- if the Partially Vested Participant making a
+withdrawal pursuant to this Section is in the employ of or
+on authorized leave of absence from an Employer or
+Affiliated Company at the end of the month as of which such
+withdrawal is made, (1) no Thrift, Deferred Compensation or
+Matching Contributions shall be made by, for or on behalf
+of such Partially Vested Participant for a period of six
+months following the month as of the end of which such
+withdrawal was made, and (2) the vested portion of such
+Participant's Company Thrift Account at all times after the
+making of such withdrawal shall be determined by the
+formula P(AB+D)-D, where P is such Participant's vested
+percentage at the relevant time, AB is the value of said
+Account at the relevant time, and D is the total amount
+previously withdrawn from said Account; or
+
+-31-
+
+35
+- if the Partially Vested Participant making a withdrawal pursuant
+to this Section is not in the employ of or on authorized leave of absence
+from an Employer or Affiliated Company at the end of the month as
+of which such withdrawal is made, upon such withdrawal the unvested
+portion of such Partially Vested Participant's Company Thrift Account
+shall be forfeited; provided, however, that if such Partially Vested
+Participant repays the full amount of such withdrawal prior to incurring a
+Break in Service and within two years of the date he is first credited
+with an Hour of Service following such withdrawal, the amount so
+forfeited shall be restored to his Company Thrift Account by an additional
+Employer contribution.
+
+In addition to the foregoing, a Partially Vested Participant who is not in the employ of or on authorized leave of absence from an Employer or Affiliated company may withdraw all (but not less than all) of the Company Stock and Company Class B Common Stock credited to his ESOP and PAYSOP Accounts, and all (but not less than all) of the aggregate value of his Participant Deferred Account and the vested portion of his Company Matching Account . Upon the withdrawal by a Partially Vested Participant of said aggregate value of his Participant Deferred Account and the vested portion of his Company Matching Account, the unvested portion of his Company Matching Account shall be forfeited; provided, however, that if such Partially
+
+-32-
+
+36 Vested Participant repays the full amount of such withdrawal prior to incurring a Break in Service and within two years of the date he is first credited with an Hour of Service following such withdrawal, the amount so repaid shall be credited to his Participant Thrift Account and the amount so forfeited shall be restored to his Company Thrift Account by an additional Employer contribution.
+
+Section 6.5 Withdrawals by Nonvested Participants. Subject to such conditions, limitations and procedures as the Committee may from time to time prescribe for application to all Nonvested Participants on a uniform and nondiscriminatory basis, a Nonvested Participant may withdraw all (but not less than all) of the value of his Participant Thrift Account as of the end of any month by filing a written notice of such withdrawal with the Committee prior to the end of such month. Any provision of this Plan to the contrary notwithstanding, if a Nonvested Participant makes a withdrawal pursuant to this Section:
+
+- no Thrift, Deferred Compensation or Matching
+Contributions shall be made by, for on behalf of such
+Nonvested Participant for a period of six months following
+the month as of the end of which such withdrawal was made;
+and
+
+- upon the making of such withdrawal the entire
+value of such Nonvested Participant's Company Thrift
+
+-33-
+
+37 Account shall be forfeited; provided, however, that if such Nonvested Participant repays the full amount of such withdrawal prior to incurring a Break in Service and within two years of the date he is first credited with an Hour of Service following such withdrawal, the amount so forfeited shall be restored to his Company Thrift Account by an additional Employer contribution.
+
+In addition to the foregoing, a Nonvested Participant who is not in the employ of or on authorized leave of absence from an Employer or Affiliated Company may withdraw all (but not less than all) of the Company Stock and Company Class B Common Stock credited to his ESOP and PAYSOP Accounts, and all (but not less than all) of the value of his Participant Deferred Account. Upon the withdrawal by a Nonvested Participant of the value of his Participant Deferred Account, the entire value of his Company Matching Account shall be forfeited; provided, however, that if such Nonvested Participant repays the full amount of such withdrawal prior to incurring a Break in Service and within two years of the date he is first credited with an Hour of Service following such withdrawal, the amount so repaid shall be credited to his Participant Thrift Account and the amount so forfeited shall be restored to his Company Thrift Account by an additional Employer contribution.
+
+Section 6.6 Break in Service Distribution. The Vested Interest of a Participant which has not been previously
+
+-34-
+
+38 distributed or withdrawn in accordance with the provisions of this Article shall be distributed in a single distribution to such Participant upon his incurring a Break in Service. The then unvested portions of a Participant's Company Thrift and Company Matching Accounts shall be permanently forfeited when he incurs a Break in Service.
+
+Section 6.7 Application of Forfeitures. Any forfeitures resulting under the provisions of this Article shall be credited to a Forfeiture Account and thereafter applied to reduce the earliest subsequent Matching Contributions the Employers would otherwise be required to make to the Plan: provided, however, that if the Plan is terminated, any forfeited amounts not then so applied shall be credited ratably among the Accounts (other than ESOP and PAYSOP Accounts) remaining in the Plan at the time of such termination.
+
+Section 6.8 Distributions to Minors and Persons Under Legal Disability. If any distribution under the Plan becomes payable to a minor or other person under a legal disability, such distribution shall be made to the duly appointed guardian or other legal representative of the estate of such minor or person under legal disability.
+
+ARTICLE VII
+
+PLAN ADMINISTRATION
+
+Section 7.1 Appointment of Committee. This Plan shall be administered on behalf of all Employers by a Committee composed
+
+-35-
+
+39 of at least three individuals appointed by the Board of Directors of the Company. Each member of the Committee so appointed shall serve in such office until his death, resignation or removal by the Board of Directors of the Company. The Board of Directors of the Company may remove any member of the Committee at any time by giving written notice thereof to the members of the Committee. Vacancies shall likewise be filled from time to time by the Board of Directors of the Company. The members of the Committee shall receive no remuneration from the Plan for their services as Committee members.
+
+Section 7.2 Powers and Duties of the Committee. The Committee shall interpret and implement the provisions of the Plan, and shall perform all of the duties and may exercise all of the powers and discretion granted to it under the terms of the Plan. The Committee shall act by a majority of its members at the time in office and such action may be taken either by a vote at a meeting or in writing without a meeting. The Committee may by such majority action authorize any one or more of its members to execute any document or documents on behalf of the Committee, in which event the Committee shall notify the Trustee in writing of such action and the name or names of its member or members so authorized to act. Every interpretation, choice, determination or other exercise by the Committee of any power or discretion given either expressly or by implication to
+
+-36-
+
+40 it shall be conclusive and binding on all parties directly or indirectly affected, without restriction, however, on the right of the Committee to reconsider and redetermine such actions. In performing any duty or exercising any power herein conferred, the Committee shall in no event perform such duty or exercise such power in any manner which discriminates in favor of Employees who are officers, shareholders or highly compensated employees of an Employer.
+
+Section 7.3 Rules, Records and Reports. The Committee may adopt such rules and regulations for the administration of the Plan as are consistent with the terms hereof, and shall keep adequate records of its proceedings and acts and of the status of the Participants' Accounts. The Committee may employ such agents, accountants and legal counsel (who may be agents, accountants or legal counsel for an Employer) as may be appropriate for the administration of the Plan. The Committee shall annually provide each Participant with a report reflecting the status of his Accounts under the Plan and shall cause such other information, documents or reports to be prepared, provided and/or filed as may be necessary to comply with the provisions of the Code, ERISA or other applicable law.
+
+Section 7.4 Administration Expenses and Taxes. Unless otherwise paid by the Employers in their discretion, the Committee shall direct the Trustee to pay all reasonable and necessary expenses (including the fees of agents, accountants
+
+-37-
+
+41 and legal counsel) incurred by the Committee in connection with the administration of the Plan. Should any tax of any character (including transfer taxes) be levied upon the Trust assets or the income therefrom, such tax shall be paid from and charged against the assets of the Trust.
+
+Section 7.5 Claims Procedure. If any Participant or beneficiary (hereinafter called the "claimant") feels that he is being denied a benefit to which he is entitled under the Plan, such claimant may file a written claim for said benefit with any member of the Committee. Within sixty days after the receipt of such claim the Committee shall determine and notify the claimant as to whether he is entitled to such benefit. Such notification shall be in writing and, if denying the claim for benefit, shall set forth the specific reason or reasons for the denial, make specific reference to the pertinent provisions of the Plan, and advise the claimant that he may, within sixty days of the receipt of such notice, in writing request to appear before the Committee or its designated representative for a hearing to review such denial. Any such hearing shall be scheduled at the mutual convenience of the Committee or its designated representative and the claimant, and at such hearing the claimant and/or his duly authorized representative may examine any relevant documents and present evidence and arguments to support the granting of the benefit being claimed. The final decision of the Committee with respect to
+
+-38-
+
+42 the claim being reviewed shall be made within sixty days following the hearing thereon and the Committee shall in writing notify the claimant of its final decision, again specifying the reasons therefor and the pertinent provisions of the Plan upon which such decision is based. The final decision of the Committee shall be conclusive and binding upon all parties having or claiming to have an interest in the claim being reviewed.
+
+ARTICLE VIII.
+
+AMENDMENT AND TERMINATION
+
+Section 8.1 Amendment. The Company shall have the right and power at any time and from time to time to amend this Plan, in whole or in part, on behalf of all Employers. With the consent of the company, each Employer shall have the right and power at any time and from time to time to amend this Plan, in whole or in part, with respect to the Plan's, application to the Participants of the particular amending Employer and the assets held in the Trust for their benefit, or to transfer such assets or any portion thereof to a new trust for the benefit of such Participants. However, in no event shall any amendment or new trust permit any portion of the trust fund to be used for or diverted to any purpose other than the exclusive benefit of the Participants and their beneficiaries, nor shall any amendment or new trust deprive any Participant of his Vested Interest under the Plan. The Employers shall in writing notify
+
+-39-
+
+43 the Committee of any amendment or change in the provisions of the Plan.
+
+Section 8.2 Termination. Each Employer may at any time terminate this Plan as it applies to the Participants of such Employer by giving written notice thereof to the Committee and Trustee. Any provisions of this Plan to the contrary notwithstanding, upon the termination or partial termination of the Plan as to any Employer, or in the event any Employer should completely discontinue making contributions to the Plan without formally terminating it, all amounts credited to the Accounts of the affected participants of that particular Employer shall be fully vested and nonforfeitable.
+
+ARTICLE IX.
+
+MISCELLANEOUS GENERAL PROVISIONS
+
+Section 9.1 Spendthrift Provision. No right or interest of any Participant or beneficiary under this Plan may be assigned, transferred or alienated, in whole or in part, either directly or by operation of law, and no such right or interest shall be liable for or subject to any debt, obligation or liability of such Participant or beneficiary.
+
+Section 9.2 Maximum Annual Additional Limitation. Any provision of this Plan to the contrary notwithstanding, the sum of (a) the Employer contributions, (b) the lesser of one-half of the Participant's contributions (excluding rollover contributions) or the Participant's contributions (excluding
+
+-40-
+
+44 rollover contributions) in excess of 6% of Compensation and (c) the forfeitures allocated to the Accounts of any Participant with respect to a Plan Year shall in no event exceed the lesser of $30,000 adjusted to take into account any cost-of-living adjustment authorized pursuant to Section 415(d) of the Code, or 25% of such Participant's Compensation for that year. For the purposes of applying the limitation imposed by this Section, an Employer and its Affiliated Companies shall be considered a single employer, and all defined contribution plans (meaning plans providing for individual accounts and benefits based solely on the amounts contributed to such accounts and any forfeitures, income, expenses, gains and losses allocated to such accounts) described in Section 415(k) of the Code, whether or not terminated, maintained by an Employer or an Affiliated Company shall be considered a single plan. If the total amount allocable to a Participant's Accounts for a Plan Year would, but for this sentence, exceed the limitation imposed by this Section, such Participant's Thrift Contributions for such year (with the Deferred Compensation Contributions made on behalf of such Participant for that year being reclassified as Thrift Contributions to the extent necessary) shall be refunded to such Participant to the extent necessary to permit the maximum permissible allocation of ESOP and Matching Contributions to such Participant for that year. Any remaining amount which cannot be allocated to a
+
+-41-
+
+45 particular Participant for a Plan Year because of the limitation imposed by this Section shall be credited to a Suspense Account and thereafter reallocated (prior to the allocation of forfeitures) to reduce the earliest subsequent Matching Contributions the Employers would otherwise be required to make to the Plan.
+
+Section 9.3 Limitations on Responsibilities. The Employers do not guarantee or indemnify the Trust against any loss or depreciation of its assets which may occur, nor guarantee the payment of any amount which may become payable to a Participant or his beneficiaries pursuant to the provisions of this Plan. All payments to Participants and their beneficiaries shall be made by the Trustee at the direction of the Committee solely from the assets of the Trust and the Employer shall have no legal obligation, responsibility or liability for any such payments.
+
+Section 9.4 Committee Indemnification. The Company will indemnify and hold harmless each member of the Committee against any claim, cost, expense (including attorney's fees), judgment or liability (including any sum paid in settlement of a claim with the approval of the Company) arising out of any act or omission to act as a member of the Committee under this Plan, except in the case of willful misconduct.
+
+Section 9.5 Employment Noncontractual. The establishment of this Plan shall not enlarge or otherwise affect the terms of
+
+-42-
+
+46 any Employee's employment with an Employer and an Employer may terminate the employment of any Employee as freely and with the same effect as if this Plan had not been adopted.
+
+Section 9.6 Merger or Consolidation. In no event shall this Plan be merged or consolidated into or with any other plan, nor shall any of its assets or liabilities be transferred to any other plan, unless each Participant would be entitled to receive a benefit if the plan in which he then participates terminated immediately following such merger, consolidation or transfer, which is equal to or greater than the benefit he would have been entitled to receive if the Plan had been terminated immediately prior to such merger, consolidation or transfer.
+
+Section 9.7 Employee Stock Ownership Plan Merger Into Thrift Plan. The merger of the Employee Stock Ownership Plan into the Thrift Plan as contemplated in this Plan is contingent upon receiving a determination letter from the Internal Revenue Service that this Plan and its related Trust qualify under the provisions of Sections 401(a) and (k), 409A and 501(a) of the Code. Any provision of this Plan to the contrary notwithstanding, if such determination cannot be obtained without the making of amendments to the Plan or its related Trust which the Company is unwilling to make, then this Plan and its related Trust shall be null and void and the Employee Stock Ownership Plan, the Thrift Plan and their respective
+
+-43-
+
+47 trust agreements shall remain in full force and effect in accordance with their respective terms as in effect on December 31, 1983, with all Thrift and Deferred Compensation Contributions made hereunder being considered to have been made by Participants to the Thrift Plan, with all Matching Contributions made hereunder being considered to have been made by the Employers to the Thrift Plan, and with all Tax Credit Contributions made hereunder being considered to have been made to the Employee Stock Ownership Plan.
+
+Section 9.8 Applicable Law. This Plan shall be governed and construed in accordance with the laws of the State of Texas except where superseded by federal law.
+
+IN WITNESS WHEREOF, this Plan has been executed at Dallas, Texas, on this ______ day of __________________, 1983, to be effective as of January 1, 1984.
+
+-44-

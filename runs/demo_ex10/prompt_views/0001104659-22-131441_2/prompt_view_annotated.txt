@@ -1,0 +1,197 @@
+[[A0001]]
+Exhibit 10.1
+
+[[A0002]]
+AGREEMENT AND WAIVER
+
+[[A0003]]
+This AGREEMENT AND WAIVER
+
+[[A0004]]
+(this “ Agreement ”), dated as of December 30, 2022, is entered into by and among Knightscope, Inc., a Delaware corporation (the “ Company ”), and the investor signatory below (the “ Holder ”). Unless otherwise specified herein, capitalized terms used and not otherwise defined herein shall have the meanings assigned to such terms in the Securities Purchase Agreement (as defined below).
+
+[[A0005]]
+RECITALS
+
+[[A0006]]
+A.
+
+[[A0007]]
+The Company and the Holder are parties to the Securities Purchase Agreement, dated as of October 10, 2022 (as may be amended, modified, restated or supplemented from time to time, the “ Securities Purchase Agreement ”), pursuant to which the Holder purchased from the Company a Senior Secured Convertible Notes (the “ Original Note ”), with such outstanding principal as of the date hereof as set forth on the signature page of the Holder attached hereto.
+
+[[A0008]]
+B.
+
+[[A0009]]
+The Company desires (i) that the Holder waive, in part, 16(t)(i) of the Original Note such that (x) during the period commencing on January 1, 2023 through, and including February 14, 2023, “$3 million” (as used in 16(t)(i) of the Original Note) shall be reduced to $1.5 million (the “ Initial Financial Covenant Waiver ”), and (y) from and after February 14, 2023, the Initial Financial Covenant Waiver shall no longer apply and the Available Cash (as defined in the Original Notes) limitation shall revert back to $3 million; provided, that if the Company both (I) has filed a Universal Shelf Registration Statement on Form S-3, including convertible notes, preferred stock, warrants and shares of Common Stock thereunder, with at least $25 million to $100 million of availability (to be determined by the Company with the advice of its professional advisors) (the “ New Shelf Registration Statement ”) and (II) obtains the Stockholder Approval (as defined in the Securities Purchase Agreement) and the approval (together with the Stockholder Approval, the “ Stockholder Approvals ”) from the stockholders of the Company for the issuance of up to an additional $10 million in additional senior secured convertible notes with terms substantially the same in all material respects to the Original Note, as amended (the “ Additional Notes ” (except such Additional Notes may be issued by the Company pursuant to the New Shelf Registration Statement with such transaction documents correspondingly adjusted accordingly, mutatis mutandis ), collectively with the Original Note, the “ Notes ”), then, thereafter, “$3 million” (as used in 16(t)(i) of the Original Note) shall be reduced back down to $1.5 million for the remaining term of the Notes (such conditions in clauses (I) and (II) above, the “ Conditional Financial Covenant Waiver Conditions ”, and such waiver, the “ Conditional Financial Covenant Waiver ”), (ii) effective upon, and contingent on the continued satisfaction of, the Conditional Financial Covenant Waiver Conditions, the Holder shall waive, in part, Section 4.13(a) of the Securities Purchase Agreement and Section 16(b) of the Original Notes, solely to permit a Reg A offering of (x) up to $20 million in unsecured convertible notes, with a maturity date no earlier than the six month anniversary of the Maturity Date (as defined in the Notes), with a fixed conversion price of $10.00 (as adjusted for stock splits, stock dividends, recapitalizations and similar events) (the “ Reg A Bonds ”), issued without any original issue discount for a cash purchase price equal to no less than the face value of the Reg A Bonds; provided, that (A) the offering of Reg A Bonds may not be a Variable Rate Transaction, (B) the holders of the Reg A Bonds (including any trustee or similar representative) shall execute and deliver to the Holder a subordination agreement, in form and substance acceptable to the Holder, including, without limitation, that the holders of Reg A Bonds shall not be permitted to receive any cash amount, directly or indirectly, with respect to the Reg A Bonds (including, without limitation, whether pursuant to any acceleration, amortization, required redemption, interest or at maturity, as applicable) at any time prior to the six month anniversary after no Notes remain outstanding (the “ Reg A Waiver ”); provided, that at any time less than $2.5 million in aggregate amounts remain outstanding under the Notes, the Company shall be permitted to pay cash interest on the Reg A Bonds at an annual rate not to exceed 12% per annum at any time during the term of the Reg A Bonds so long as no Event of Default has occurred and is continuing and (iii) in accordance with Section 7(e) of the Notes, to lower the Conversion Price, in part, such that the Conversion Price in effect on any given time of determination shall equal the Alternate Conversion Price then in effect (but with 85% replacing 80% in such definition of Alternate Conversion Price, as applicable) (the “ Conversion Price Adjustment ”, and such price, each an “ Adjusted Alternate Conversion Price ”).
+
+[[A0010]]
+TERMS OF AGREEMENT
+
+[[A0011]]
+In consideration of the premises and further valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties hereto agree as follows:
+
+[[A0012]]
+1.
+
+[[A0013]]
+Waivers . Effective as of the Effective Time, Initial Financial Covenant Waiver shall occur.
+
+[[A0014]]
+Effective upon the Company’s satisfaction in full of the Conditional Financial Covenant Waiver Conditions, the Conditional Financial Covenant Waiver and the Reg A Waiver shall occur.
+
+[[A0015]]
+In addition, the Investor hereby waives the Company’s compliance with Section 4.20(b) of the Securities Purchase Agreement from the date hereof until February 28, 2023.
+
+[[A0016]]
+2.
+
+[[A0017]]
+Conversion Price Adjustment . Effective as of January 1, 2023, the Conversion Price Adjustment shall occur.
+
+[[A0018]]
+3.
+
+[[A0019]]
+Representations and Warranties .
+
+[[A0020]]
+(a)
+Company
+Bring Down
+.
+
+[[A0021]]
+Except as set forth on Schedule 3(a) attached hereto, the Company hereby makes the representations and warranties to the
+Holder as set forth in Section 3 of the Securities Purchase Agreement (as amended hereby) as if such representations and warranties were
+made as of the date hereof and as of the Effective Time as set forth in their entirety in this Amendment,
+mutatis mutandis
+. Such
+representations and warranties to the transactions thereunder and the securities issued pursuant thereto are hereby deemed for purposes
+of this Agreement to be references to the transactions hereunder and the issuance of the securities pursuant hereto, references therein
+to “Closing Date” being deemed references to the Effective Time, and references to “the date hereof” being deemed
+references to the date of this Agreement.
+
+[[A0022]]
+(b)
+Holder
+Bring Down
+. The Holder hereby makes the representations and warranties to the Company as set forth in the Securities Purchase
+Agreement (as amended hereby) as if such representations and warranties were made as of the date hereof and as of the Effective Time
+as set forth in their entirety in this Amendment,
+mutatis mutandis
+. Such representations and warranties to the transactions
+thereunder and the securities issued pursuant thereto are hereby deemed for purposes of this Agreement to be references to the
+transactions hereunder and the issuance of the securities pursuant hereto, references therein to “Closing Date” being
+deemed references to the Effective Time, and references to “the date hereof” being deemed references to the date of this
+Agreement.
+
+[[A0023]]
+Holder has good and valid title to the Original Note free and clear of any lien, mortgage, security interest, pledge,
+charge or encumbrance of any kind (other than with respect to a bona fide margin account in the ordinary course of business).
+
+[[A0024]]
+2
+
+[[A0025]]
+4.
+
+[[A0026]]
+Holder Right of First Offer .
+
+[[A0027]]
+At any time after the time of initial satisfaction of the Conditional Financial Covenant Waiver Conditions, if Holder delivers a written notice to the Company offering to purchase up to $10 million in Additional Notes, the Company shall not consummate a Subsequent Placement (other than Excluded Securities) until the time of consummation or abandonment of an offering with respect thereto.
+
+[[A0028]]
+5.
+
+[[A0029]]
+Disclosure of Transaction . The Company shall, on or before 9:30 a.m., New York City Time, on or prior to the first business day after the date of this Agreement, file a Current Report on Form 8-K describing the terms of the transactions contemplated hereby in the form required by the 1934 Act and attaching this Agreement as exhibits to such filing (excluding schedules, the “ 8-K Filing ”). From and after the filing of the 8-K Filing, the Company shall have disclosed all material, non-public information (if any) provided up to such time to the Holder by the Company or any of its Subsidiaries or any of their respective officers, directors, employees or agents.
+
+[[A0030]]
+In addition, upon the filing of the 8-K Filing, the Company acknowledges and agrees that any and all confidentiality or similar obligations under any agreement with respect to the transactions contemplated hereby or as otherwise disclosed in the 8-K Filing, whether written or oral, between the Company, any of its Subsidiaries or any of their respective officers, directors, affiliates, employees or agents, on the one hand, and any of the Holder or any of their affiliates, on the other hand, shall terminate.
+
+[[A0031]]
+Neither the Company, its Subsidiaries nor the Holder shall issue any press releases or any other public statements with respect to the transactions contemplated hereby; provided, however, the Company shall be entitled, without the prior approval of the Holder, to issue a press release or make such other public disclosure with respect to such transactions (i) in substantial conformity with the 8-K Filing and contemporaneously therewith or (ii) as is required by applicable law and regulations (provided that in the case of clause (i) the Holder shall be consulted by the Company in connection with any such press release or other public disclosure prior to its release). Without the prior written consent of the Holder (which may be granted or withheld in the Holder’s sole discretion), except as required by applicable law, the Company shall not (and shall cause each of its Subsidiaries and affiliates to not) disclose the name of the Holder in any filing, announcement, release or otherwise.
+
+[[A0032]]
+6.
+
+[[A0033]]
+Fees . The Company shall reimburse Kelley Drye & Warren, LLP (counsel to the lead Holder) in an aggregate non-accountable amount of $15,000 (the “ Legal Fee Amount ”) for costs and expenses incurred by it in connection with drafting and negotiation of this Agreement.
+
+[[A0034]]
+Each party to this Agreement shall bear its own expenses in connection with the structuring, documentation, negotiation and closing of the transactions contemplated hereby, except as provided in the previous sentence and except that the Company shall be responsible for the payment of any placement agent’s fees, financial advisory fees, transfer agent fees, Depository Trust Company fees relating to or arising out of the transactions contemplated hereby.
+
+[[A0035]]
+3
+
+[[A0036]]
+7. Most Favored Nation . The Company hereby represents and warrants as of the date hereof and covenants and agrees that none of the terms offered to any Person with respect to any amendment, modification, waiver or exchange of any warrant to purchase Common Stock (or other similar instrument), including, without limitation with respect to any consent, release, amendment, settlement, or waiver relating thereto (each an “ Settlement Document ”), is or will be more favorable to such Person (other than any reimbursement of legal fees) than those of the Holder and this Agreement.
+
+[[A0037]]
+If, and whenever on or after the date hereof, the Company enters into a Settlement Document, then (i) the Company shall provide notice thereof to the Holder promptly following the occurrence thereof and (ii) the terms and conditions of this Agreement shall be, without any further action by the Holder or the Company, automatically amended and modified in an economically and legally equivalent manner such that the Holder shall receive the benefit of the more favorable terms and/or conditions (as the case may be) set forth in such Settlement Document, provided that upon written notice to the Company at any time the Holder may elect not to accept the benefit of any such amended or modified term or condition, in which event the term or condition contained in this Agreement shall apply to the Holder as it was in effect immediately prior to such amendment or modification as if such amendment or modification never occurred with respect to the Holder.
+
+[[A0038]]
+The provisions of this Section 7 shall apply similarly and equally to each Settlement Document.
+
+[[A0039]]
+8.
+
+[[A0040]]
+Effective Time .
+
+[[A0041]]
+Except as otherwise set forth in this Section 8, this Agreement shall be effective (the “ Effective Time ”) upon the later of (a) the time of due execution and delivery by the Company and the Holder of this Agreement, (b) the time of due execution and delivery to the Holder of a consent of at least 50.1% of the stockholders of the Company to the Stockholder Approval and (c) the time of payment of the Legal Fee Amount to Kelley Drye & Warren LLP.
+
+[[A0042]]
+9.
+
+[[A0043]]
+Ratification . Except as otherwise expressly provided herein, the Transaction Documents, are, and shall continue to be, in full force and effect and are hereby ratified and confirmed in all respects.
+
+[[A0044]]
+10.
+
+[[A0045]]
+Miscellaneous . Article V of the Securities Purchase Agreement (as amended hereby) is hereby incorporated by reference herein, mutatis mutandis .
+
+[[A0046]]
+[Signature Page Follows]
+
+[[A0047]]
+4
+
+[[A0048]]
+IN WITNESS WHEREOF, the Holder and the Company have caused their respective signature page to this Agreement and Waiver to be duly executed as of the date first written above.
+
+[[A0049]]
+[[TABLE]]
+| | KNIGHTSCOPE, INC. | |
+| --- | --- | --- |
+| | | |
+| | By: | /s/ Mallorie Burak |
+| | | Name: Mallorie Burak |
+| | | Title:  EVP and CFO |
+[[/TABLE]]
+
+[[A0050]]
+IN WITNESS WHEREOF, the Holder and the Company have caused their respective signature page to this Agreement and Waiver to be duly executed as of the date first written above.
+
+[[A0051]]
+[[TABLE]]
+| | ALTO OPPORTUNITY MASTER FUND, SPC - SEGREGATED MASTER PORTFOLIO B | |
+| --- | --- | --- |
+| | | |
+| | By: | /s/ Waqas Khatri |
+| | | Name:  Waqas Khatri |
+| | | Title:   Director |
+[[/TABLE]]
+
+[[A0052]]
+[[TABLE]]
+| | Outstanding Principal Amount of Original Note |
+| --- | --- |
+| | |
+| | $6,075,000.00 |
+[[/TABLE]]

@@ -1,0 +1,1367 @@
+[[A0001]]
+Exhibit 10.1
+
+[[A0002]]
+Securities Purchase Agreement
+
+[[A0003]]
+This Securities Purchase Agreement (this “ Agreement ”), dated as of December 30, 2022, is entered into by and between
+
+[[A0004]]
+CN Energy Group.
+
+[[A0005]]
+Inc., a British Virgin Islands company (“ Company ”), and Streeterville Capital, LLC , a Utah limited liability company, its successors and/or assigns (“ Investor ”).
+
+[[A0006]]
+A.       Company and Investor are executing and delivering this Agreement in reliance upon an exemption from securities registration afforded by the Securities Act of 1933, as amended (the “ 1933 Act ”), and the rules and regulations promulgated thereunder by the United States Securities and Exchange Commission (the “ SEC ”).
+
+[[A0007]]
+B.
+
+[[A0008]]
+Investor desires to purchase and Company desires to issue and sell, upon the terms and conditions set forth in this Agreement a Convertible Promissory Note, in the form attached hereto as Exhibit A , in the original principal amount of $3,230,000.00 (the “ Note ”), convertible into Class A ordinary shares, no par value, of Company (the “ Class A Ordinary Shares ”), upon the terms and subject to the limitations and conditions set forth in such Note.
+
+[[A0009]]
+C.       This Agreement, the Note, and all other certificates, documents, agreements, resolutions and instruments delivered to any party under or in connection with this Agreement, as the same may be amended from time to time, are collectively referred to herein as the “ Transaction Documents ”.
+
+[[A0010]]
+D.       For purposes of this Agreement: “ Conversion Shares ” means all Class A Ordinary Shares issuable upon conversion of all or any portion of the Note; and “ Securities ” means the Note and the Conversion Shares.
+
+[[A0011]]
+NOW, THEREFORE , in consideration of the above recitals and other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, Company and Investor hereby agree as follows:
+
+[[A0012]]
+1. Purchase and Sale of Securities .
+
+[[A0013]]
+1.1.
+
+[[A0014]]
+Purchase of Securities . Company shall issue and sell to Investor and Investor shall purchase from Company the Note.
+
+[[A0015]]
+In consideration thereof, Investor shall pay the Purchase Price (as defined below) to Company.
+
+[[A0016]]
+1.2.
+
+[[A0017]]
+Form of Payment . On the Closing Date (as defined below), Investor shall pay the Purchase Price to Company via wire transfer of immediately available funds.
+
+[[A0018]]
+1.3.
+
+[[A0019]]
+Closing Date . Subject to the satisfaction (or written waiver) of the conditions set forth in Section 5 and Section 6 below, the date of the issuance and sale of the Note pursuant to this Agreement (the “ Closing Date ”) shall be December 30, 2022, or another mutually agreed upon date.
+
+[[A0020]]
+The closing of the transactions contemplated by this Agreement (the “ Closing ”) shall occur on the Closing Date by means of the exchange by email of signed .pdf documents, but shall be deemed for all purposes to have occurred at the offices of Hansen Black Anderson Ashcraft PLLC in Lehi, Utah.
+
+[[A0021]]
+1.4.
+
+[[A0022]]
+Collateral for the Note . The Note shall be unsecured.
+
+[[A0023]]
+1.5.
+
+[[A0024]]
+Original Issue Discount; Transaction Expense Amount .
+
+[[A0025]]
+The Note carries an original issue discount of $210,000.00 (the “ OID ”). In addition, Company agrees to pay $20,000.00 to Investor to cover Investor’s legal fees, accounting costs, due diligence, monitoring and other transaction costs incurred in connection with the purchase and sale of the Securities (the “ Transaction Expense Amount ”). The “ Purchase Price ”, therefore, shall be $3,000,000.00, computed as follows: $3,230,000.00 initial principal balance, less the OID, less the Transaction Expense Amount.
+
+[[A0026]]
+[[TABLE]]
+| | 1 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0027]]
+2.
+
+[[A0028]]
+Investor’s Representations and Warranties
+.
+
+[[A0029]]
+Investor represents and warrants to Company that as of the Closing Date:
+- this Agreement has been duly and validly authorized; (ii) this Agreement constitutes a valid and binding agreement of Investor enforceable
+in accordance with its terms; and (iii) Investor is an “accredited investor” as that term is defined in Rule 501(a) of Regulation
+D of the 1933 Act.
+
+[[A0030]]
+3.
+
+[[A0031]]
+Company’s Representations and Warranties
+. Company represents and warrants to Investor that as of the Closing Date:
+- Company is a corporation duly organized, validly existing and in good standing under the laws of its jurisdiction of incorporation
+and has the requisite corporate power to own its properties and to carry on its business as now being conducted; (ii) Company is duly
+qualified as a foreign corporation to do business and is in good standing in each jurisdiction where the nature of the business conducted
+or property owned by it makes such qualification necessary; (iii) Company has registered its Class A Ordinary Shares under Section 12(b)
+of the Securities Exchange Act of 1934, as amended (the “
+1934 Act
+”), and is obligated to file reports pursuant to Section 13
+or Section 15(d) of the 1934 Act; (iv) each of the Transaction Documents and the transactions contemplated hereby and thereby, have
+been duly and validly authorized by Company and all necessary actions have been taken; (v) this Agreement, the Note, and the other Transaction
+Documents have been duly executed and delivered by Company and constitute the valid and binding obligations of Company enforceable in
+accordance with their terms; (vi) the execution and delivery of the Transaction Documents by Company, the issuance of Securities in accordance
+with the terms hereof, and the consummation by Company of the other transactions contemplated by the Transaction Documents do not and
+will not conflict with or result in a breach by Company of any of the terms or provisions of, or constitute a default under (a) Company’s
+formation documents or bylaws, each as currently in effect, (b) any indenture, mortgage, deed of trust, or other material agreement or
+instrument to which Company is a party or by which it or any of its properties or assets are bound, including, without limitation, any
+listing agreement for the Class A Ordinary Shares, or (c) any existing applicable law, rule, or regulation or any applicable decree, judgment,
+or order of any court, United States federal, state or foreign regulatory body, administrative agency, or other governmental body having
+jurisdiction over Company or any of Company’s properties or assets; (vii) no further authorization, approval or consent of any court,
+governmental body, regulatory agency, self-regulatory organization, or stock exchange or market or the stockholders or any lender of Company
+is required to be obtained by Company for the issuance of the Securities to Investor or the entering into of the Transaction Documents;
+- none of Company’s filings with the SEC contained, at the time they were filed, any untrue statement of a material fact or
+omitted to state any material fact required to be stated therein or necessary to make the statements made therein, in light of the circumstances
+under which they were made, not misleading; (ix) Company has filed all reports, schedules, forms, statements and other documents required
+to be filed by Company with the SEC under the 1934 Act on a timely basis or has received a valid extension of such time of filing and
+has filed any such report, schedule, form, statement or other document prior to the expiration of any such extension; (x) there is no
+action, suit, proceeding, inquiry or investigation before or by any court, public board or body pending or, to the knowledge of Company,
+threatened against or affecting Company before or by any governmental authority or non-governmental department, commission, board, bureau,
+agency or instrumentality or any other person, wherein an unfavorable decision, ruling or finding would have a material adverse effect
+on Company or which would adversely affect the validity or enforceability of, or the authority or ability of Company to perform its obligations
+under, any of the Transaction Documents; (xi) Company has not consummated any financing transaction that has not been disclosed in a periodic
+filing or current report with the SEC under the 1934 Act; (xii) Company is not, nor has it been at any time in the previous twelve (12)
+months, a “Shell Company,” as such type of “issuer” is described in Rule 144(i)(1) under the 1933 Act; (xiii)
+with respect to any commissions, placement agent or finder’s fees or similar payments that will or would become due and owing by
+Company to any person or entity as a result of this Agreement or the transactions contemplated hereby (“
+Broker Fees
+”),
+any such Broker Fees will be made in full compliance with all applicable laws and regulations and only to a person or entity that is a
+registered investment adviser or registered broker-dealer; (xiv) Investor shall have no obligation with respect to any Broker Fees or
+with respect to any claims made by or on behalf of other persons for fees of a type contemplated in this subsection that may be due in
+connection with the transactions contemplated hereby and Company shall indemnify and hold harmless each of Investor, Investor’s
+employees, officers, directors, stockholders, members, managers, agents, and partners, and their respective affiliates, from and against
+all claims, losses, damages, costs (including the costs of preparation and attorneys’ fees) and expenses suffered in respect of
+any such claimed Broker Fees; (xv) neither Investor nor any of its officers, directors, stockholders, members, managers, employees, agents
+or representatives has made any representations or warranties to Company or any of its officers, directors, employees, agents or representatives
+except as expressly set forth in the Transaction Documents and, in making its decision to enter into the transactions contemplated by
+the Transaction Documents, Company is not relying on any representation, warranty, covenant or promise of Investor or its officers, directors,
+members, managers, employees, agents or representatives other than as set forth in the Transaction Documents; (xvi) Company acknowledges
+that the State of Utah has a reasonable relationship and sufficient contacts to the transactions contemplated by the Transaction Documents
+and any dispute that may arise related thereto such that the laws and venue of the State of Utah, as set forth more specifically in Section
+11.2 below, shall be applicable to the Transaction Documents and the transactions contemplated therein; (xvii) Company has notified Nasdaq
+of its intention to be subject to the home country practice of the British Virgin Islands, has made all applicable filings with the SEC
+with respect to relying on home country practice and thus Nasdaq Listing Rule 5635(d) does not apply to Company; (xviii) Company has consulted
+with counsel and conducted its own due diligence, and understands that Investor is not registered as a ‘dealer’ under the
+1934 Act; and (xix) Company has performed due diligence and background research on Investor and its affiliates and has received and reviewed
+the due diligence packet provide by Investor.
+
+[[A0032]]
+Company, being aware of the matters and legal issues described in subsections (xviii) and
+- above, acknowledges and agrees that such matters, or any similar matters, have no bearing on the transactions contemplated by the
+Transaction Documents and covenants and agrees it will not use any such information or legal theory as a defense to performance of its
+obligations under the Transaction Documents or in any attempt to avoid, modify, reduce, rescind or void such obligations.
+
+[[A0033]]
+[[TABLE]]
+| | 2 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0034]]
+4.
+
+[[A0035]]
+Company Covenants
+. Until all of Company’s obligations under all of the Transaction Documents are paid and performed
+in full, or within the time-frames otherwise specifically set forth below, Company will at all times comply with the following covenants:
+- so long as Investor beneficially owns any of the Securities and for at least twenty (20) Trading Days (as defined in the Note) thereafter,
+Company will timely file on the applicable deadline all reports required to be filed with the SEC pursuant to Sections 13 or 15(d)
+of the 1934 Act, and will take all reasonable action under its control to ensure that adequate current public information with respect
+to Company, as required in accordance with Rule 144 of the 1933 Act, is publicly available, and will not terminate its status as an issuer
+required to file reports under the 1934 Act even if the 1934 Act or the rules and regulations thereunder would permit such termination;
+- when issued, the Conversion Shares will be duly authorized, validly issued, fully paid for and non-assessable, free and clear of
+all liens, claims, charges and encumbrances; (iii) the Class A Ordinary Shares shall be listed or quoted for trading on NYSE or Nasdaq;
+- trading in Company’s Class A Ordinary Shares will not be suspended, halted, chilled, frozen, reach zero bid or otherwise cease
+trading on Company’s principal trading market; (v) Company will not make any Restricted Issuances (as defined below) without Investor’s
+prior written consent, which consent may be granted or withheld in Investor’s sole and absolute discretion; and (vi) Company shall
+not enter into any agreement or otherwise agree to any covenant, condition, or obligation that locks up, restricts in any way or otherwise
+prohibits Company: (a) from entering into a variable rate transaction with Investor or any affiliate of Investor, or (b) from issuing
+Class A Ordinary Shares, preferred shares, warrants, convertible notes, other debt securities, or any other Company securities to Investor
+or any affiliate of Investor.
+
+[[A0036]]
+For purposes hereof, the term “
+Restricted Issuance
+” means the issuance, incurrence
+or guaranty of any debt obligations other than trade payables in the ordinary course of business, or the issuance of any securities that
+- have or may have conversion rights of any kind, contingent, conditional or otherwise, in which the number of shares that may be issued
+pursuant to such conversion right varies with the market price of the Class A Ordinary Shares, (2) are or may become convertible into
+Class A Ordinary Shares (including without limitation convertible debt, warrants or convertible preferred shares), with a conversion price
+that varies with the market price of the Class A Ordinary Shares, even if such security only becomes convertible following an event of
+default, the passage of time, or another trigger event or condition; or (3) have a fixed conversion price, exercise price or exchange
+price that is subject to being reset at some future date at any time after the initial issuance of such debt or equity security (A) due
+to a change in the market price of Company’s Common Stock since the date of the initial issuance or (B) upon the occurrence of specified
+or contingent events directly or indirectly related to the business of Company.
+
+[[A0037]]
+For the avoidance of doubt, the issuance of Class A Ordinary
+Shares under, pursuant to, in exchange for or in connection with any contract or instrument, whether convertible or not, is deemed a Restricted
+Issuance for purposes hereof if the number of Class A Ordinary Shares to be issued is based upon or related in any way to the market price
+of the Class A Ordinary Shares, including, but not limited to, Class A Ordinary Shares issued in connection with a Section 3(a)(9) exchange,
+a Section 3(a)(10) settlement, or any other similar settlement or exchange.
+
+[[A0038]]
+For the further avoidance of doubt, Class A Ordinary Shares
+issued pursuant to any of the following will not be considered Restricted Issuances: (i) ATM facilities; (ii) primary offerings without
+variable price mechanics other than variable priced warrants that have no provisions that will increase the number of Class A Ordinary
+Shares issued at closing or increase the numbers of Class A Ordinary Shares issuable under each warrant to a ratio of more than 1:1; (iii)
+issuances to non-US persons; or (iv) issuances in conjunction with acquisitions provided that such issuances do not cause a change of
+control or have variable price mechanisms.
+
+[[A0039]]
+[[TABLE]]
+| | 3 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0040]]
+5. Conditions to Company’s Obligation to Sell . The obligation of Company hereunder to issue and sell the Securities to Investor at the Closing is subject to the satisfaction, on or before the Closing Date, of each of the following conditions:
+
+[[A0041]]
+5.1.
+
+[[A0042]]
+Investor shall have executed this Agreement and delivered the same to Company.
+
+[[A0043]]
+5.2.
+
+[[A0044]]
+Investor shall have delivered the Purchase Price to Company in accordance with Section 1.2 above.
+
+[[A0045]]
+6. Conditions to Investor’s Obligation to Purchase . The obligation of Investor hereunder to purchase the Securities at the Closing is subject to the satisfaction, on or before the Closing Date, of each of the following conditions, provided that these conditions are for Investor’s sole benefit and may be waived by Investor at any time in its sole discretion:
+
+[[A0046]]
+6.1.
+
+[[A0047]]
+Company shall have executed this Agreement and the Note and delivered the same to Investor.
+
+[[A0048]]
+6.2.
+
+[[A0049]]
+Company shall have delivered to Investor a fully executed Irrevocable Letter of Instructions to Transfer Agent (the “ TA Letter ”) substantially in the form attached hereto as Exhibit B acknowledged and agreed to in writing by Company’s transfer agent (the “ Transfer Agent ”).
+
+[[A0050]]
+6.3.
+
+[[A0051]]
+Company shall have delivered to Investor a fully executed Officer’s Certificate substantially in the form attached hereto as Exhibit C evidencing Company’s approval of the Transaction Documents.
+
+[[A0052]]
+6.4.
+
+[[A0053]]
+Company shall have delivered to Investor a fully executed Share Issuance Resolution substantially in the form attached hereto as
+
+[[A0054]]
+Exhibit D to be delivered to the Transfer Agent.
+
+[[A0055]]
+[[TABLE]]
+| | 4 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0056]]
+6.5.
+
+[[A0057]]
+Company shall have filed a prospectus supplement to its registration statement on form F-3 (No. 333-264579) for the sale of at least $1,500,000.00 in Conversion Shares to Investor under the Note.
+
+[[A0058]]
+7. Reservation of Shares . On the date hereof, Company will reserve 20,000,000 Class A Ordinary Shares from its authorized and unissued Class A Ordinary Shares to provide for all issuances of Class A Ordinary Shares under the Note (the “ Share Reserve ”). Company further agrees to add additional Class A Ordinary Shares to the Share Reserve in increments of 1,000,000 shares as and when requested by Investor if as of the date of any such request the number of shares being held in the Share Reserve is less than three (3) times the number of Class A Ordinary Shares obtained by dividing the Outstanding Balance (as defined in the Note) as of the date of the request by the Redemption Conversion Price (as defined in the Note). Company shall further require the Transfer Agent to hold the Class A Ordinary Shares reserved pursuant to the Share Reserve exclusively for the benefit of Investor and to issue such shares to Investor promptly upon Investor’s delivery of a Redemption Notice under the Note.
+
+[[A0059]]
+Finally, Company shall require the Transfer Agent to issue Class A Ordinary Shares pursuant to the Note to Investor out of its authorized and unissued shares, and not the Share Reserve, to the extent Class A Ordinary Shares have been authorized, but not issued, and are not included in the Share Reserve.
+
+[[A0060]]
+The Transfer Agent shall only issue shares out of the Share Reserve to the extent there are no other authorized shares available for issuance and then only with Investor’s written consent.
+
+[[A0061]]
+8. Participation Right . Beginning on the Closing Date and ending on the date that the Note is paid in full, Company hereby grants to Investor a participation right, whereby Investor shall have the right to participate at Investor’s discretion in up to thirty percent (30%) of the amount sold in any Restricted Issuance (the “ Participation Right ”). Within two (2) Trading Days following the consummation of a Restricted Issuance, Company will provide Investor with written notice of the consummation of such Restricted Issuance, along with copies of the transaction documents.
+
+[[A0062]]
+Investor will then have up to five (5) calendar days to elect to purchase up to thirty percent (30%) of the amount of debt or equity securities issued in such transaction on the most favorable terms and conditions offered to any other purchaser of the same securities.
+
+[[A0063]]
+The parties agree that in the event Company breaches its obligations with respect to the Participation Right, Investor’s sole and exclusive remedy shall be to receive, as liquidated damages, an amount equal to twenty percent (20%) of the amount Investor would have been entitled to invest under the Participation Right.
+
+[[A0064]]
+For the avoidance of doubt, Company’s breach of its obligations with respect to the Participation Right will not be considered a Trigger Event (as defined in the Note) under the Note.
+
+[[A0065]]
+9. Most Favored Nation . So long as the Note is outstanding, upon any issuance by Company of any security with any economic term or condition more favorable to the holder of such security or with a term in favor of the holder of such security that was not similarly provided to Investor in the Transaction Documents, then Company shall notify Investor of such additional or more favorable economic term and such term, at Investor’s option, shall become a part of the Transaction Documents for the benefit of Investor.
+
+[[A0066]]
+Additionally, if Company fails to notify Investor of any such additional or more favorable term, but Investor becomes aware that Company has granted such a term to any third party, Investor may notify Company of such additional or more favorable term and such term shall become a part of the Transaction Documents retroactive to the date on which such term was granted to the applicable third party.
+
+[[A0067]]
+The types of economic terms contained in another security that may be more favorable to the holder of such security include, but are not limited to, terms addressing conversion discounts, conversion lookback periods, interest rates, original issue discounts, stock sale price, conversion price per share, warrant coverage, warrant exercise price, and anti-dilution/conversion and exercise price resets.
+
+[[A0068]]
+[[TABLE]]
+| | 5 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0069]]
+10.
+
+[[A0070]]
+OFAC; Patriot Act .
+
+[[A0071]]
+10.1.
+
+[[A0072]]
+OFAC Certification .
+
+[[A0073]]
+Company certifies that (i) it is not acting on behalf of any person, group, entity, or nation named by any Executive Order or the United States Treasury Department, through its Office of Foreign Assets Control (“ OFAC ”) or otherwise, as a terrorist, “Specially Designated Nation”, “Blocked Person”, or other banned or blocked person, entity, nation, or transaction pursuant to any law, order, rule or regulation that is enforced or administered by OFAC or another department of the United States government, and (ii) Company is not engaged in this transaction on behalf of, or instigating or facilitating this transaction on behalf of, any such person, group, entity or nation.
+
+[[A0074]]
+10.2.
+
+[[A0075]]
+Foreign Corrupt Practices .
+
+[[A0076]]
+Neither Company, nor any of its subsidiaries, nor any director, officer, agent, employee or other person acting on behalf of Company or any subsidiary has, in the course of his actions for, or on behalf of, Company, used any corporate funds for any unlawful contribution, gift, entertainment or other unlawful expenses relating to political activity; made any direct or indirect unlawful payment to any foreign or domestic government official or employee from corporate funds; violated or is in violation of any provision of the U.S. Foreign Corrupt Practices Act of 1977, as amended, or made any bribe, rebate, payoff, influence payment, kickback or other unlawful payment to any foreign or domestic government official or employee.
+
+[[A0077]]
+10.3.
+
+[[A0078]]
+Patriot Act . Company shall not (i) be or become subject at any time to any law, regulation, or list of any government agency (including, without limitation, the OFAC) that prohibits or limits Investor from making any advance or extension of credit to Company or from otherwise conducting business with Company, or (ii) fail to provide documentary and other evidence of Company’s identity as may be requested by Investor at any time to enable Investor to verify Company’s identity or to comply with any applicable law or regulation, including, without limitation, Section 326 of the USA Patriot Act of 2001, 31 U.S.C. Section 5318.
+
+[[A0079]]
+Company shall comply with all requirements of law relating to money laundering, anti-terrorism, trade embargos and economic sanctions, now or hereafter in effect.
+
+[[A0080]]
+Upon Investor’s request from time to time, Company shall certify in writing to Investor that Company’s representations, warranties and obligations under this Section 10.3 remain true and correct and have not been breached.
+
+[[A0081]]
+Company shall immediately notify Investor in writing if any of such representations, warranties or covenants are no longer true or have been breached or if Company has a reasonable basis to believe that they may no longer be true or have been breached.
+
+[[A0082]]
+In connection with such an event, Company shall comply with all requirements of law and directives of governmental authorities and, at Investor’s request, provide to Investor copies of all notices, reports and other communications exchanged with, or received from, governmental authorities relating to such an event.
+
+[[A0083]]
+Company shall also reimburse Investor any expense incurred by Investor in evaluating the effect of such an event on the loan secured hereby, in obtaining any necessary license from governmental authorities as may be necessary for Investor to enforce its rights under the Transaction Documents, and in complying with all requirements of law applicable to Investor as the result of the existence of such an event and for any penalties or fines imposed upon Investor as a result thereof.
+
+[[A0084]]
+11.
+
+[[A0085]]
+Miscellaneous . The provisions set forth in this Section 11 shall apply to this Agreement, as well as all other Transaction Documents as if these terms were fully set forth therein; provided, however, that in the event there is a conflict between any provision set forth in this Section 11 and any provision in any other Transaction Document, the provision in such other Transaction Document shall govern.
+
+[[A0086]]
+11.1.
+
+[[A0087]]
+Arbitration of Claims . The parties shall submit all Claims (as defined in Exhibit E ) arising under this Agreement or any other Transaction Document or any other agreement between the parties and their affiliates or any Claim relating to the relationship of the parties to binding arbitration pursuant to the arbitration provisions set forth in Exhibit E attached hereto (the “ Arbitration Provisions ”). For the avoidance of doubt, the parties agree that the injunction described in Section 11.3 below may be pursued in an arbitration that is separate and apart from any other arbitration regarding all other Claims arising under the Transaction Documents.
+
+[[A0088]]
+The parties hereby acknowledge and agree that the Arbitration Provisions are unconditionally binding on the parties hereto and are severable from all other provisions of this Agreement.
+
+[[A0089]]
+By executing this Agreement, Company represents, warrants and covenants that Company has reviewed the Arbitration Provisions carefully, consulted with legal counsel about such provisions (or waived its right to do so), understands that the Arbitration Provisions are intended to allow for the expeditious and efficient resolution of any dispute hereunder, agrees to the terms and limitations set forth in the Arbitration Provisions, and that Company will not take a position contrary to the foregoing representations.
+
+[[A0090]]
+Company acknowledges and agrees that Investor may rely upon the foregoing representations and covenants of Company regarding the Arbitration Provisions.
+
+[[A0091]]
+[[TABLE]]
+| | 6 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0092]]
+11.2.
+
+[[A0093]]
+Governing Law; Venue . This Agreement shall be construed and enforced in accordance with, and all questions concerning the construction, validity, interpretation and performance of this Agreement shall be governed by, the internal laws of the State of Utah, without giving effect to any choice of law or conflict of law provision or rule (whether of the State of Utah or any other jurisdiction) that would cause the application of the laws of any jurisdiction other than the State of Utah.
+
+[[A0094]]
+Each party consents to and expressly agrees that the exclusive venue for arbitration of any dispute arising out of or relating to any Transaction Document or the relationship of the parties or their affiliates shall be in Salt Lake County, Utah.
+
+[[A0095]]
+Without modifying the parties’ obligations to resolve disputes hereunder pursuant to the Arbitration Provisions, for any litigation arising in connection with any of the Transaction Documents (and notwithstanding the terms (specifically including any governing law and venue terms) of any transfer agent services agreement or other agreement between the Transfer Agent and Company, such litigation specifically includes, without limitation any action between or involving Company and the Transfer Agent under the TA Letter or otherwise related to Investor in any way (specifically including, without limitation, any action where Company seeks to obtain an injunction, temporary restraining order, or otherwise prohibit the Transfer Agent from issuing Class A Ordinary Shares to Investor for any reason)), each party hereto hereby (i) consents to and expressly submits to the exclusive personal jurisdiction of any state or federal court sitting in Salt Lake County, Utah, (ii) expressly submits to the exclusive venue of any such court for the purposes hereof, (iii) agrees to not bring any such action (specifically including, without limitation, any action where Company seeks to obtain an injunction, temporary restraining order, or otherwise prohibit the Transfer Agent from issuing Class A Ordinary Shares to Investor for any reason) outside of any state or federal court sitting in Salt Lake County, Utah, and (iv) waives any claim of improper venue and any claim or objection that such courts are an inconvenient forum or any other claim, defense or objection to the bringing of any such proceeding in such jurisdiction or to any claim that such venue of the suit, action or proceeding is improper.
+
+[[A0096]]
+Finally, Company covenants and agrees to name Investor as a party in interest in, and provide written notice to Investor in accordance with Section 11.10 below prior to bringing or filing, any action (including without limitation any filing or action against any person or entity that is not a party to this Agreement, including without limitation the Transfer Agent) that is related in any way to the Transaction Documents or any transaction contemplated herein or therein, including without limitation any action brought by Company to enjoin or prevent the issuance of any Class A Ordinary Shares to Investor by the Transfer Agent, and further agrees to timely name Investor as a party to any such action.
+
+[[A0097]]
+Company acknowledges that the governing law and venue provisions set forth in this Section 11.2 are material terms to induce Investor to enter into the Transaction Documents and that but for Company’s agreements set forth in this Section 11.2 Investor would not have entered into the Transaction Documents.
+
+[[A0098]]
+11.3.
+
+[[A0099]]
+Specific Performance . Company acknowledges and agrees that Investor may suffer irreparable harm in the event that Company fails to perform any material provision of this Agreement or any of the other Transaction Documents in accordance with its specific terms.
+
+[[A0100]]
+It is accordingly agreed that Investor shall be entitled to one or more injunctions to prevent or cure breaches of the provisions of this Agreement or such other Transaction Document and to enforce specifically the terms and provisions hereof or thereof, this being in addition to any other remedy to which the Investor may be entitled under the Transaction Documents, at law or in equity.
+
+[[A0101]]
+Company specifically agrees that: (a) following an Event of Default (as defined in the Note) under the Note, Investor shall have the right to seek and receive injunctive relief from a court or an arbitrator prohibiting Company from issuing any of its common or preferred stock to any party unless the Note is being paid in full simultaneously with such issuance; and (b) following a breach of Section 4(vi) above, Investor shall have the right to seek and receive injunctive relief from a court or arbitrator invalidating such lock-up.
+
+[[A0102]]
+Company specifically acknowledges that Investor’s right to obtain specific performance constitutes bargained for leverage and that the loss of such leverage would result in irreparable harm to Investor.
+
+[[A0103]]
+For the avoidance of doubt, in the event Investor seeks to obtain an injunction from a court or an arbitrator against Company or specific performance of any provision of any Transaction Document, such action shall not be a waiver of any right of Investor under any Transaction Document, at law, or in equity, including without limitation its rights to arbitrate any Claim pursuant to the terms of the Transaction Documents, nor shall Investor’s pursuit of an injunction prevent Investor, under the doctrines of claim preclusion, issues preclusion, res judicata or other similar legal doctrines, from pursuing other Claims in the future in a separate arbitration.
+
+[[A0104]]
+[[TABLE]]
+| | 7 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0105]]
+11.4.
+
+[[A0106]]
+Calculation Disputes
+. Notwithstanding the Arbitration Provisions, in the case of a dispute as to any determination or arithmetic
+calculation under the Transaction Documents, including without limitation, calculating the Outstanding Balance, Redemption Conversion
+Price, Conversion Shares (as defined in the Note), or VWAP (as defined in the Note) (each, a “
+Calculation
+”), Company
+or Investor (as the case may be) shall submit any disputed Calculation via email or facsimile with confirmation of receipt (i) within
+two (2) Trading Days after receipt of the applicable notice giving rise to such dispute to Company or Investor (as the case may be) or
+- if no notice gave rise to such dispute, at any time after Investor learned of the circumstances giving rise to such dispute.
+
+[[A0107]]
+If Investor
+and Company are unable to agree upon such Calculation within two (2) Trading Days of such disputed Calculation being submitted to Company
+or Investor (as the case may be), then Investor will promptly submit via email or facsimile the disputed Calculation to Unkar Systems
+Inc. (“
+Unkar Systems
+”). Investor shall cause Unkar Systems to perform the Calculation and notify Company and Investor
+of the results no later than ten (10) Trading Days from the time it receives such disputed Calculation.
+
+[[A0108]]
+Unkar Systems’ determination
+of the disputed Calculation shall be binding upon all parties absent demonstrable error.
+
+[[A0109]]
+Unkar Systems’ fee for performing such
+Calculation shall be paid by the incorrect party, or if both parties are incorrect, by the party whose Calculation is furthest from the
+correct Calculation as determined by Unkar Systems.
+
+[[A0110]]
+In the event Company is the losing party, no extension of the Delivery Date (as defined
+in the Note) shall be granted and Company shall incur all effects for failing to deliver the applicable shares in a timely manner as set
+forth in the Transaction Documents.
+
+[[A0111]]
+Notwithstanding the foregoing, Investor may, in its sole discretion, designate an independent, reputable
+investment bank or accounting firm other than Unkar Systems to resolve any such dispute and in such event, all references to “Unkar
+Systems” herein will be replaced with references to such independent, reputable investment bank or accounting firm so designated
+by Investor.
+
+[[A0112]]
+11.5.
+
+[[A0113]]
+Counterparts . This Agreement may be executed in two (2) or more counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+[[A0114]]
+Counterparts may be delivered via facsimile, electronic mail (including pdf or any electronic signature complying with the U.S. federal ESIGN Act of 2000, e.g., www.docusign.com) or other transmission method and any counterpart so delivered shall be deemed to have been duly and validly delivered and be valid and effective for all purposes.
+
+[[A0115]]
+11.6.
+
+[[A0116]]
+Headings . The headings of this Agreement are for convenience of reference only and shall not form part of, or affect the interpretation of, this Agreement.
+
+[[A0117]]
+11.7.
+
+[[A0118]]
+Severability . In the event that any provision of this Agreement is invalid or unenforceable under any applicable statute or rule of law, then such provision shall be deemed inoperative to the extent that it may conflict therewith and shall be deemed modified to conform to such statute or rule of law.
+
+[[A0119]]
+Any provision hereof which may prove invalid or unenforceable under any law shall not affect the validity or enforceability of any other provision hereof.
+
+[[A0120]]
+[[TABLE]]
+| | 8 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0121]]
+11.8.
+
+[[A0122]]
+Entire Agreement . This Agreement, together with the other Transaction Documents, contains the entire understanding of the parties with respect to the matters covered herein and therein and, except as specifically set forth herein or therein, neither Company nor Investor makes any representation, warranty, covenant or undertaking with respect to such matters.
+
+[[A0123]]
+For the avoidance of doubt, all prior term sheets or other documents between Company and Investor, or any affiliate thereof, related to the transactions contemplated by the Transaction Documents (collectively, “ Prior Agreements ”), that may have been entered into between Company and Investor, or any affiliate thereof, are hereby null and void and deemed to be replaced in their entirety by the Transaction Documents.
+
+[[A0124]]
+To the extent there is a conflict between any term set forth in any Prior Agreement and the term(s) of the Transaction Documents, the Transaction Documents shall govern.
+
+[[A0125]]
+11.9.
+
+[[A0126]]
+Amendments . No provision of this Agreement may be waived or amended other than by an instrument in writing signed by both parties hereto.
+
+[[A0127]]
+11.10.
+
+[[A0128]]
+Notices .
+
+[[A0129]]
+Any notice required or permitted hereunder shall be given in writing (unless otherwise specified herein) and shall be deemed effectively given on the earliest of: (i) the date delivered, if delivered by personal delivery as against written receipt therefor or by email to an executive officer named below or such officer’s successor, or by facsimile (with successful transmission confirmation which is kept by sending party), (ii) the earlier of the date delivered or the fifth (5 th ) Trading Day after deposit, postage prepaid, with an international courier, or (iii) the earlier of the date delivered or the third Trading Day after mailing by express courier, with delivery costs and fees prepaid, in each case, addressed to each of the other parties thereunto entitled at the following addresses (or at such other addresses as such party may designate by five (5) calendar days’ advance written notice similarly given to each of the other parties hereto):
+
+[[A0130]]
+If to Company:
+
+[[A0131]]
+CN Energy Group. Inc.
+
+[[A0132]]
+Attn: Kangbin Zheng
+
+[[A0133]]
+Building 2-B, Room 206, NO. 268 Shiniu Road
+
+[[A0134]]
+Liandu District, Lishui City, Zhejiang Province
+
+[[A0135]]
+The PRC
+
+[[A0136]]
+If to Investor:
+
+[[A0137]]
+Streeterville Capital, LLC
+
+[[A0138]]
+Attn: John Fife
+
+[[A0139]]
+303 East Wacker Drive, Suite 1040
+
+[[A0140]]
+Chicago, Illinois 60601
+
+[[A0141]]
+With a copy to (which copy shall not constitute notice):
+
+[[A0142]]
+Hansen Black Anderson Ashcraft PLLC
+
+[[A0143]]
+Attn: Jonathan Hansen
+
+[[A0144]]
+3051 West Maple Loop Drive, Suite 325
+
+[[A0145]]
+Lehi, Utah 84043
+
+[[A0146]]
+[[TABLE]]
+| | 9 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0147]]
+11.11.
+
+[[A0148]]
+Successors and Assigns . This Agreement or any of the severable rights and obligations inuring to the benefit of or to be performed by Investor hereunder may be assigned by Investor to a third party, including its affiliates, in whole or in part, without the need to obtain Company’s consent thereto.
+
+[[A0149]]
+Company may not assign its rights or obligations under this Agreement or delegate its duties hereunder, whether directly or indirectly, without the prior written consent of Investor, and any such attempted assignment or delegation shall be null and void.
+
+[[A0150]]
+11.12.
+
+[[A0151]]
+Survival . The representations and warranties of Company and the agreements and covenants set forth in this Agreement shall survive the Closing hereunder notwithstanding any due diligence investigation conducted by or on behalf of Investor.
+
+[[A0152]]
+Company agrees to indemnify and hold harmless Investor and all its officers, directors, employees, attorneys, and agents for loss or damage arising as a result of or related to any breach or alleged breach by Company of any of its representations, warranties and covenants set forth in this Agreement or any of its covenants and obligations under this Agreement, including advancement of expenses as they are incurred.
+
+[[A0153]]
+11.13.
+
+[[A0154]]
+Further Assurances .
+
+[[A0155]]
+Each party shall do and perform, or cause to be done and performed, all such further acts and things, and shall execute and deliver all such other agreements, certificates, instruments and documents, as the other party may reasonably request in order to carry out the intent and accomplish the purposes of this Agreement and the consummation of the transactions contemplated hereby.
+
+[[A0156]]
+11.14.
+
+[[A0157]]
+Investor’s Rights and Remedies Cumulative .
+
+[[A0158]]
+All rights, remedies, and powers conferred in this Agreement and the Transaction Documents are cumulative and not exclusive of any other rights or remedies, and shall be in addition to every other right, power, and remedy that Investor may have, whether specifically granted in this Agreement or any other Transaction Document, or existing at law, in equity, or by statute, and any and all such rights and remedies may be exercised from time to time and as often and in such order as Investor may deem expedient.
+
+[[A0159]]
+11.15.
+
+[[A0160]]
+Attorneys’ Fees and Cost of Collection . In the event any suit, action or arbitration is filed by either party against the other to interpret or enforce any of the Transaction Documents, the unsuccessful party to such action agrees to pay to the prevailing party all costs and expenses, including attorneys’ fees incurred therein, including the same with respect to an appeal.
+
+[[A0161]]
+The “prevailing party” shall be the party in whose favor a judgment is entered, regardless of whether judgment is entered on all claims asserted by such party and regardless of the amount of the judgment; or where, due to the assertion of counterclaims, judgments are entered in favor of and against both parties, then the judge or arbitrator shall determine the “prevailing party” by taking into account the relative dollar amounts of the judgments or, if the judgments involve nonmonetary relief, the relative importance and value of such relief.
+
+[[A0162]]
+Nothing herein shall restrict or impair an arbitrator’s or a court’s power to award fees and expenses for frivolous or bad faith pleading.
+
+[[A0163]]
+If (i) the Note is placed in the hands of an attorney for collection or enforcement prior to commencing arbitration or legal proceedings, or is collected or enforced through any arbitration or legal proceeding, or Investor otherwise takes action to collect amounts due under the Note or to enforce the provisions of the Note, or (ii) there occurs any bankruptcy, reorganization, receivership of Company or other proceedings affecting Company’s creditors’ rights and involving a claim under the Note; then Company shall pay the costs incurred by Investor for such collection, enforcement or action or in connection with such bankruptcy, reorganization, receivership or other proceeding, including, without limitation, attorneys’ fees, expenses, deposition costs, and disbursements.
+
+[[A0164]]
+11.16.
+
+[[A0165]]
+Waiver . No waiver of any provision of this Agreement shall be effective unless it is in the form of a writing signed by the party granting the waiver.
+
+[[A0166]]
+No waiver of any provision or consent to any prohibited action shall constitute a waiver of any other provision or consent to any other prohibited action, whether or not similar.
+
+[[A0167]]
+No waiver or consent shall constitute a continuing waiver or consent or commit a party to provide a waiver or consent in the future except to the extent specifically set forth in writing.
+
+[[A0168]]
+[[TABLE]]
+| | 10 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0169]]
+11.17.
+
+[[A0170]]
+Waiver of Jury Trial . EACH PARTY TO THIS AGREEMENT IRREVOCABLY WAIVES ANY AND ALL RIGHTS SUCH PARTY MAY HAVE TO DEMAND THAT ANY ACTION, PROCEEDING OR COUNTERCLAIM ARISING OUT OF OR IN ANY WAY RELATED TO THIS AGREEMENT, ANY OTHER TRANSACTION DOCUMENT, OR THE RELATIONSHIPS OF THE PARTIES HERETO BE TRIED BY JURY.
+
+[[A0171]]
+THIS WAIVER EXTENDS TO ANY AND ALL RIGHTS TO DEMAND A TRIAL BY JURY ARISING UNDER COMMON LAW OR ANY APPLICABLE STATUTE, LAW, RULE OR REGULATION.
+
+[[A0172]]
+FURTHER, EACH PARTY HERETO ACKNOWLEDGES THAT SUCH PARTY IS KNOWINGLY AND VOLUNTARILY WAIVING SUCH PARTY’S RIGHT TO DEMAND TRIAL BY JURY .
+
+[[A0173]]
+11.18.
+
+[[A0174]]
+Time is of the Essence . Time is expressly made of the essence with respect to each and every provision of this Agreement and the other Transaction Documents.
+
+[[A0175]]
+11.19.
+
+[[A0176]]
+Voluntary Agreement . Company has carefully read this Agreement and each of the other Transaction Documents and has asked any questions needed for Company to understand the terms, consequences and binding effect of this Agreement and each of the other Transaction Documents and fully understand them.
+
+[[A0177]]
+Company has had the opportunity to seek the advice of an attorney of Company’s choosing, or has waived the right to do so, and is executing this Agreement and each of the other Transaction Documents voluntarily and without any duress or undue influence by Investor or anyone else.
+
+[[A0178]]
+11.20.
+
+[[A0179]]
+Document Imaging . Investor shall be entitled, in its sole discretion, to image or make copies of all or any selection of the agreements, instruments, documents, and items and records governing, arising from or relating to any of Company’s loans, including, without limitation, this Agreement and the other Transaction Documents, and Investor may destroy or archive the paper originals.
+
+[[A0180]]
+The parties hereto (i) waive any right to insist or require that Investor produce paper originals, (ii) agree that such images shall be accorded the same force and effect as the paper originals, (iii) agree that Investor is entitled to use such images in lieu of destroyed or archived originals for any purpose, including as admissible evidence in any demand, presentment or other proceedings, and (iv) further agree that any executed facsimile (faxed), scanned, emailed, or other imaged copy of this Agreement or any other Transaction Document shall be deemed to be of the same force and effect as the original manually executed document.
+
+[[A0181]]
+[Remainder of page intentionally left blank; signature page follows]
+
+[[A0182]]
+[[TABLE]]
+| | 11 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0183]]
+IN WITNESS WHEREOF, the undersigned Investor and Company have caused this Agreement to be duly executed as of the date first above written.
+
+[[A0184]]
+[[TABLE]]
+| | INVESTOR: | |
+| --- | --- | --- |
+| | | |
+| | Streeterville Capital, LLC | |
+| | | |
+| | | |
+| | By: | /s/ John M. Fife |
+| | | John M. Fife, President |
+| | | |
+| | | |
+| | COMPANY: | |
+| | | |
+| | CN Energy Group. Inc. | |
+| | | |
+| | | |
+| | By: | /s/ Kangbin Zheng |
+| | | Kangbin
+Zheng, CEO |
+[[/TABLE]]
+
+[[A0185]]
+[Signature Page to Securities Purchase Agreement]
+
+[[A0186]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0187]]
+ATTACHED EXHIBITS:
+
+[[A0188]]
+[[TABLE]]
+| | Exhibit A | Note |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0189]]
+[[TABLE]]
+| | Exhibit B | Irrevocable Transfer Agent Instructions |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0190]]
+[[TABLE]]
+| | Exhibit C | Officer’s Certificate |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0191]]
+[[TABLE]]
+| | Exhibit D | Share Issuance Resolution |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0192]]
+[[TABLE]]
+| | Exhibit E | Arbitration Provisions |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0193]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0194]]
+Exhibit E
+
+[[A0195]]
+ARBITRATION PROVISIONS
+
+[[A0196]]
+1. Dispute Resolution . For purposes of this Exhibit E , the term “ Claims ” means any disputes, claims, demands, causes of action, requests for injunctive relief, requests for specific performance, questions regarding severability of any provisions of the Transaction Documents, liabilities, damages, losses, or controversies whatsoever arising from, related to, or connected with the transactions contemplated in the Transaction Documents and any communications between the parties related thereto, including without limitation any claims of mutual mistake, mistake, fraud, misrepresentation, failure of formation, failure of consideration, promissory estoppel, unconscionability, failure of condition precedent, rescission, and any statutory claims, tort claims, contract claims, or claims to void, invalidate or terminate the Agreement (or these Arbitration Provisions (defined below)) or any of the other Transaction Documents.
+
+[[A0197]]
+The term “Claims” specifically excludes a dispute over Calculations.
+
+[[A0198]]
+The parties to this Agreement (the “ parties ”) hereby agree that the Claims may be arbitrated in one or more Arbitrations pursuant to these Arbitration Provisions (one for an injunction or injunctions and a separate one for all other Claims). The parties hereby agree that the arbitration provisions set forth in this Exhibit E
+
+[[A0199]]
+(“ Arbitration Provisions ”) are binding on each of them.
+
+[[A0200]]
+As a result, any attempt to rescind the Agreement (or these Arbitration Provisions) or any other Transaction Document) or declare the Agreement (or these Arbitration Provisions) or any other Transaction Document invalid or unenforceable pursuant to Section 29 of the 1934 Act or for any other reason is subject to these Arbitration Provisions.
+
+[[A0201]]
+These Arbitration Provisions shall also survive any termination or expiration of the Agreement.
+
+[[A0202]]
+Any capitalized term not defined in these Arbitration Provisions shall have the meaning set forth in the Agreement.
+
+[[A0203]]
+2. Arbitration . Except as otherwise provided herein, all Claims must be submitted to arbitration (“ Arbitration ”) to be conducted exclusively in Salt Lake County, Utah and pursuant to the terms set forth in these Arbitration Provisions.
+
+[[A0204]]
+Subject to the arbitration appeal right provided for in Paragraph 5 below (the “ Appeal Right ”), the parties agree that the award of the arbitrator rendered pursuant to Paragraph 4 below (the “ Arbitration Award ”) shall be (a) final and binding upon the parties, (b) the sole and exclusive remedy between them regarding any Claims, counterclaims, issues, or accountings presented or pleaded to the arbitrator, and (c) promptly payable in United States dollars free of any tax, deduction or offset (with respect to monetary awards). Subject to the Appeal Right, any costs or fees, including without limitation attorneys’ fees, incurred in connection with or incident to enforcing the Arbitration Award shall, to the maximum extent permitted by law, be charged against the party resisting such enforcement.
+
+[[A0205]]
+The Arbitration Award shall include default interest (as defined or otherwise provided for in the Note, “ Default Interest ”) (with respect to monetary awards) at the rate specified in the Note for Default Interest both before and after the Arbitration Award.
+
+[[A0206]]
+Judgment upon the Arbitration Award will be entered and enforced by any state or federal court sitting in Salt Lake County, Utah.
+
+[[A0207]]
+3.
+
+[[A0208]]
+The Arbitration Act . The parties hereby incorporate herein the provisions and procedures set forth in the Utah Uniform Arbitration Act, U.C.A. § 78B-11-101 et seq. (as amended or superseded from time to time, the “ Arbitration Act ”). Notwithstanding the foregoing, pursuant to, and to the maximum extent permitted by, Section 105 of the Arbitration Act, in the event of conflict or variation between the terms of these Arbitration Provisions and the provisions of the Arbitration Act, the terms of these Arbitration Provisions shall control and the parties hereby waive or otherwise agree to vary the effect of all requirements of the Arbitration Act that may conflict with or vary from these Arbitration Provisions.
+
+[[A0209]]
+4. Arbitration Proceedings . Arbitration between the parties will be subject to the following:
+
+[[A0210]]
+4.1 Initiation of Arbitration . Pursuant to Section 110 of the Arbitration Act, the parties agree that a party may initiate Arbitration by giving written notice to the other party (“ Arbitration Notice ”) in the same manner that notice is permitted under Section 11.10 of the Agreement; provided, however , that the Arbitration Notice may not be given by email or fax.
+
+[[A0211]]
+Arbitration will be deemed initiated as of the date that the Arbitration Notice is deemed delivered to such other party under Section 11.10 of the Agreement (the “ Service Date ”). After the Service Date, information may be delivered, and notices may be given, by email or fax pursuant to Section 11.10 of the Agreement or any other method permitted thereunder.
+
+[[A0212]]
+The Arbitration Notice must describe the nature of the controversy, the remedies sought, and the election to commence Arbitration proceedings.
+
+[[A0213]]
+All Claims in the Arbitration Notice must be pleaded consistent with the Utah Rules of Civil Procedure.
+
+[[A0214]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0215]]
+4.2 Selection and Payment of Arbitrator .
+
+[[A0216]]
+- Within ten (10) calendar
+days after the Service Date, Investor shall select and submit to Company the names of three (3) arbitrators that are designated as “neutrals”
+or qualified arbitrators by Utah ADR Services (http://www.utahadrservices.com) (such three (3) designated persons hereunder are referred
+to herein as the “
+Proposed Arbitrators
+”). For the avoidance of doubt, each Proposed Arbitrator must be qualified as
+a “neutral” with Utah ADR Services.
+
+[[A0217]]
+Within five (5) calendar days after Investor has submitted to Company the names of the
+Proposed Arbitrators, Company must select, by written notice to Investor, one (1) of the Proposed Arbitrators to act as the arbitrator
+for the parties under these Arbitration Provisions.
+
+[[A0218]]
+If Company fails to select one of the Proposed Arbitrators in writing within such
+5-day period, then Investor may select the arbitrator from the Proposed Arbitrators by providing written notice of such selection to Company.
+
+[[A0219]]
+- If Investor fails
+to submit to Company the Proposed Arbitrators within ten (10) calendar days after the Service Date pursuant to subparagraph (a) above,
+then Company may at any time prior to Investor so designating the Proposed Arbitrators, identify the names of three (3) arbitrators that
+are designated as “neutrals” or qualified arbitrators by Utah ADR Service by written notice to Investor.
+
+[[A0220]]
+Investor may then,
+within five (5) calendar days after Company has submitted notice of its Proposed Arbitrators to Investor, select, by written notice to
+Company, one (1) of the Proposed Arbitrators to act as the arbitrator for the parties under these Arbitration Provisions.
+
+[[A0221]]
+If Investor
+fails to select in writing and within such 5-day period one (1) of the three (3) Proposed Arbitrators selected by Company, then Company
+may select the arbitrator from its three (3) previously selected Proposed Arbitrators by providing written notice of such selection to
+Investor.
+
+[[A0222]]
+- If a Proposed Arbitrator
+chosen to serve as arbitrator declines or is otherwise unable to serve as arbitrator, then the party that selected such Proposed Arbitrator
+may select one (1) of the other three (3) Proposed Arbitrators within three (3) calendar days of the date the chosen Proposed Arbitrator
+declines or notifies the parties he or she is unable to serve as arbitrator.
+
+[[A0223]]
+If all three (3) Proposed Arbitrators decline or are otherwise
+unable to serve as arbitrator, then the arbitrator selection process shall begin again in accordance with this Paragraph 4.2.
+
+[[A0224]]
+- The date that the
+Proposed Arbitrator selected pursuant to this Paragraph 4.2 agrees in writing (including via email) delivered to both parties to serve
+as the arbitrator hereunder is referred to herein as the “
+Arbitration Commencement Date
+”. If an arbitrator resigns
+or is unable to act during the Arbitration, a replacement arbitrator shall be chosen in accordance with this Paragraph 4.2 to continue
+the Arbitration.
+
+[[A0225]]
+If Utah ADR Services ceases to exist or to provide a list of neutrals and there is no successor thereto, then the arbitrator
+shall be selected under the then prevailing rules of the American Arbitration Association.
+
+[[A0226]]
+- Subject to Paragraph
+4.10 below, the cost of the arbitrator must be paid equally by both parties.
+
+[[A0227]]
+Subject to Paragraph 4.10 below, if one party refuses or
+fails to pay its portion of the arbitrator fee, then the other party can advance such unpaid amount (subject to the accrual of Default
+Interest thereupon), with such amount being added to or subtracted from, as applicable, the Arbitration Award.
+
+[[A0228]]
+4.3 Applicability of Certain Utah Rules . The parties agree that the Arbitration shall be conducted generally in accordance with the Utah Rules of Civil Procedure and the Utah Rules of Evidence.
+
+[[A0229]]
+More specifically, the Utah Rules of Civil Procedure shall apply, without limitation, to the filing of any pleadings, motions or memoranda, the conducting of discovery, and the taking of any depositions.
+
+[[A0230]]
+The Utah Rules of Evidence shall apply to any hearings, whether telephonic or in person, held by the arbitrator.
+
+[[A0231]]
+Notwithstanding the foregoing, it is the parties’ intent that the incorporation of such rules will in no event supersede these Arbitration Provisions.
+
+[[A0232]]
+In the event of any conflict between the Utah Rules of Civil Procedure or the Utah Rules of Evidence and these Arbitration Provisions, these Arbitration Provisions shall control.
+
+[[A0233]]
+4.4 Answer and Default . An answer and any counterclaims to the Arbitration Notice shall be required to be delivered to the party initiating the Arbitration within twenty (20) calendar days after the Arbitration Commencement Date.
+
+[[A0234]]
+If an answer is not delivered by the required deadline, the arbitrator must provide written notice to the defaulting party stating that the arbitrator will enter a default award against such party if such party does not file an answer within five (5) calendar days of receipt of such notice.
+
+[[A0235]]
+If an answer is not filed within the five (5) day extension period, the arbitrator must render a default award, consistent with the relief requested in the Arbitration Notice, against a party that fails to submit an answer within such time period.
+
+[[A0236]]
+4.5 Related Litigation . The party that delivers the Arbitration Notice to the other party shall have the option to also commence concurrent legal proceedings with any state or federal court sitting in Salt Lake County, Utah (“ Litigation Proceedings ”), subject to the following: (a) the complaint in the Litigation Proceedings is to be substantially similar to the claims set forth in the Arbitration Notice, provided that an additional cause of action to compel arbitration will also be included therein, (b) so long as the other party files an answer to the complaint in the Litigation Proceedings and an answer to the Arbitration Notice, the Litigation Proceedings will be stayed pending an Arbitration Award (or Appeal Panel Award (defined below), as applicable) hereunder, (c) if the other party fails to file an answer in the Litigation Proceedings or an answer in the Arbitration proceedings, then the party initiating Arbitration shall be entitled to a default judgment consistent with the relief requested, to be entered in the Litigation Proceedings, and (d) any legal or procedural issue arising under the Arbitration Act that requires a decision of a court of competent jurisdiction may be determined in the Litigation Proceedings.
+
+[[A0237]]
+Any award of the arbitrator (or of the Appeal Panel (defined below)) may be entered in such Litigation Proceedings pursuant to the Arbitration Act.
+
+[[A0238]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0239]]
+4.6 Discovery . Pursuant to Section 118(8) of the Arbitration Act, the parties agree that discovery shall be conducted as follows:
+
+[[A0240]]
+- Written discovery
+will only be allowed if the likely benefits of the proposed written discovery outweigh the burden or expense thereof, and the written
+discovery sought is likely to reveal information that will satisfy a specific element of a claim or defense already pleaded in the Arbitration.
+
+[[A0241]]
+The party seeking written discovery shall always have the burden of showing that all of the standards and limitations set forth in these
+Arbitration Provisions are satisfied.
+
+[[A0242]]
+The scope of discovery in the Arbitration proceedings shall also be limited as follows:
+
+[[A0243]]
+- To
+facts directly connected with the transactions contemplated by the Agreement.
+
+[[A0244]]
+- To
+facts and information that cannot be obtained from another source or in another manner that is more convenient, less burdensome or less
+expensive than in the manner requested.
+
+[[A0245]]
+- No party shall be
+allowed (i) more than fifteen (15) interrogatories (including discrete subparts), (ii) more than fifteen (15) requests for admission (including
+discrete subparts), (iii) more than ten (10) document requests (including discrete subparts), or (iv) more than three (3) depositions
+(excluding expert depositions) for a maximum of seven (7) hours per deposition.
+
+[[A0246]]
+The costs associated with depositions will be borne by
+the party taking the deposition.
+
+[[A0247]]
+The party defending the deposition will submit a notice to the party taking the deposition of the estimated
+attorneys’ fees that such party expects to incur in connection with defending the deposition.
+
+[[A0248]]
+If the party defending the deposition
+fails to submit an estimate of attorneys’ fees within five (5) calendar days of its receipt of a deposition notice, then such party
+shall be deemed to have waived its right to the estimated attorneys’ fees.
+
+[[A0249]]
+The party taking the deposition must pay the party defending
+the deposition the estimated attorneys’ fees prior to taking the deposition, unless such obligation is deemed to be waived as set
+forth in the immediately preceding sentence.
+
+[[A0250]]
+If the party taking the deposition believes that the estimated attorneys’ fees are
+unreasonable, such party may submit the issue to the arbitrator for a decision.
+
+[[A0251]]
+All depositions will be taken in Utah.
+
+[[A0252]]
+- All discovery requests
+(including document production requests included in deposition notices) must be submitted in writing to the arbitrator and the other party.
+
+[[A0253]]
+The party submitting the written discovery requests must include with such discovery requests a detailed explanation of how the proposed
+discovery requests satisfy the requirements of these Arbitration Provisions and the Utah Rules of Civil Procedure.
+
+[[A0254]]
+The receiving party
+will then be allowed, within five (5) calendar days of receiving the proposed discovery requests, to submit to the arbitrator an estimate
+of the attorneys’ fees and costs associated with responding to such written discovery requests and a written challenge to each applicable
+discovery request.
+
+[[A0255]]
+After receipt of an estimate of attorneys’ fees and costs and/or challenge(s) to one or more discovery requests,
+consistent with subparagraph (c) above, the arbitrator will within three (3) calendar days make a finding as to the likely attorneys’
+fees and costs associated with responding to the discovery requests and issue an order that (i) requires the requesting party to prepay
+the attorneys’ fees and costs associated with responding to the discovery requests, and (ii) requires the responding party to respond
+to the discovery requests as limited by the arbitrator within twenty-five (25) calendar days of the arbitrator’s finding with respect
+to such discovery requests.
+
+[[A0256]]
+If a party entitled to submit an estimate of attorneys’ fees and costs and/or a challenge to discovery
+requests fails to do so within such 5-day period, the arbitrator will make a finding that (A) there are no attorneys’ fees or costs
+associated with responding to such discovery requests, and (B) the responding party must respond to such discovery requests (as may be
+limited by the arbitrator) within twenty-five (25) calendar days of the arbitrator’s finding with respect to such discovery requests.
+
+[[A0257]]
+Any party submitting any written discovery requests, including without limitation interrogatories, requests for production subpoenas to
+a party or a third party, or requests for admissions, must prepay the estimated attorneys’ fees and costs, before the responding
+party has any obligation to produce or respond to the same, unless such obligation is deemed waived as set forth above.
+
+[[A0258]]
+- In order to allow
+a written discovery request, the arbitrator must find that the discovery request satisfies the standards set forth in these Arbitration
+Provisions and the Utah Rules of Civil Procedure.
+
+[[A0259]]
+The arbitrator must strictly enforce these standards.
+
+[[A0260]]
+If a discovery request does not
+satisfy any of the standards set forth in these Arbitration Provisions or the Utah Rules of Civil Procedure, the arbitrator may modify
+such discovery request to satisfy the applicable standards, or strike such discovery request in whole or in part.
+
+[[A0261]]
+- Each party may submit
+expert reports (and rebuttals thereto), provided that such reports must be submitted within sixty (60) days of the Arbitration Commencement
+Date.
+
+[[A0262]]
+Each party will be allowed a maximum of two (2) experts.
+
+[[A0263]]
+Expert reports must contain the following: (i) a complete statement of
+all opinions the expert will offer at trial and the basis and reasons for them; (ii) the expert’s name and qualifications, including
+a list of all the expert’s publications within the preceding ten (10) years, and a list of any other cases in which the expert has
+testified at trial or in a deposition or prepared a report within the preceding ten (10) years; and (iii) the compensation to be paid
+for the expert’s report and testimony.
+
+[[A0264]]
+The parties are entitled to depose any other party’s expert witness one (1) time for
+no more than four (4) hours.
+
+[[A0265]]
+An expert may not testify in a party’s case-in-chief concerning any matter not fairly disclosed in
+the expert report.
+
+[[A0266]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0267]]
+4.6
+Dispositive
+Motions
+. Each party shall have the right to submit dispositive motions pursuant Rule 12 or Rule 56 of the Utah Rules of Civil Procedure
+(a “
+Dispositive Motion
+”). The party submitting the Dispositive Motion may, but is not required to, deliver to the arbitrator
+and to the other party a memorandum in support (the “
+Memorandum in Support
+”) of the Dispositive Motion.
+
+[[A0268]]
+Within seven
+- calendar days of delivery of the Memorandum in Support, the other party shall deliver to the arbitrator and to the other party a memorandum
+in opposition to the Memorandum in Support (the “
+Memorandum in Opposition
+”). Within seven (7) calendar days of delivery
+of the Memorandum in Opposition, as applicable, the party that submitted the Memorandum in Support shall deliver to the arbitrator and
+to the other party a reply memorandum to the Memorandum in Opposition (“
+Reply Memorandum
+”). If the applicable party
+shall fail to deliver the Memorandum in Opposition as required above, or if the other party fails to deliver the Reply Memorandum as required
+above, then the applicable party shall lose its right to so deliver the same, and the Dispositive Motion shall proceed regardless.
+
+[[A0269]]
+4.7 Confidentiality . All information disclosed by either party (or such party’s agents) during the Arbitration process (including without limitation information disclosed during the discovery process or any Appeal (defined below)) shall be considered confidential in nature.
+
+[[A0270]]
+Each party agrees not to disclose any confidential information received from the other party (or its agents) during the Arbitration process (including without limitation during the discovery process or any Appeal) unless (a) prior to or after the time of disclosure such information becomes public knowledge or part of the public domain, not as a result of any inaction or action of the receiving party or its agents, (b) such information is required by a court order, subpoena or similar legal duress to be disclosed if such receiving party has notified the other party thereof in writing and given it a reasonable opportunity to obtain a protective order from a court of competent jurisdiction prior to disclosure, or (c) such information is disclosed to the receiving party’s agents, representatives and legal counsel on a need to know basis who each agree in writing not to disclose such information to any third party.
+
+[[A0271]]
+Pursuant to Section 118(5) of the Arbitration Act, the arbitrator is hereby authorized and directed to issue a protective order to prevent the disclosure of privileged information and confidential information upon the written request of either party.
+
+[[A0272]]
+4.8 Authorization; Timing; Scheduling Order . Subject to all other portions of these Arbitration Provisions, the parties hereby authorize and direct the arbitrator to take such actions and make such rulings as may be necessary to carry out the parties’ intent for the Arbitration proceedings to be efficient and expeditious.
+
+[[A0273]]
+Pursuant to Section 120 of the Arbitration Act, the parties hereby agree that an Arbitration Award must be made within one hundred twenty (120) calendar days after the Arbitration Commencement Date.
+
+[[A0274]]
+The arbitrator is hereby authorized and directed to hold a scheduling conference within ten (10) calendar days after the Arbitration Commencement Date in order to establish a scheduling order with various binding deadlines for discovery, expert testimony, and the submission of documents by the parties to enable the arbitrator to render a decision prior to the end of such 120-day period.
+
+[[A0275]]
+4.9 Relief . The arbitrator shall have the right to award or include in the Arbitration Award (or in a preliminary ruling) any relief which the arbitrator deems proper under the circumstances, including, without limitation, specific performance and injunctive relief, provided that the arbitrator may not award exemplary or punitive damages.
+
+[[A0276]]
+4.10
+Fees
+and Costs
+.
+
+[[A0277]]
+As part of the Arbitration Award, the arbitrator is hereby directed to require the losing party (the party being awarded
+the least amount of money by the arbitrator, which, for the avoidance of doubt, shall be determined without regard to any statutory fines,
+penalties, fees, or other charges awarded to any party) to (a) pay the full amount of any unpaid costs and fees of the Arbitration, and
+- reimburse the prevailing party for all reasonable attorneys’ fees, arbitrator costs and fees, deposition costs, other discovery
+costs, and other expenses, costs or fees paid or otherwise incurred by the prevailing party in connection with the Arbitration.
+
+[[A0278]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0279]]
+5. Arbitration Appeal .
+
+[[A0280]]
+5.1 Initiation of Appeal.
+
+[[A0281]]
+Following the entry of the Arbitration Award, either party (the “ Appellant ”) shall have a period of thirty (30) calendar days in which to notify the other party (the “ Appellee ”), in writing, that the Appellant elects to appeal (the “ Appeal ”) the Arbitration Award (such notice, an “ Appeal Notice ”) to a panel of arbitrators as provided in Paragraph 5.2 below.
+
+[[A0282]]
+The date the Appellant delivers an Appeal Notice to the Appellee is referred to herein as the “ Appeal Date ”. The Appeal Notice must be delivered to the Appellee in accordance with the provisions of Paragraph 4.1 above with respect to delivery of an Arbitration Notice.
+
+[[A0283]]
+In addition, together with delivery of the Appeal Notice to the Appellee, the Appellant must also pay for (and provide proof of such payment to the Appellee together with delivery of the Appeal Notice) a bond in the amount of 110% of the sum the Appellant owes to the Appellee as a result of the Arbitration Award the Appellant is appealing.
+
+[[A0284]]
+In the event an Appellant delivers an Appeal Notice to the Appellee (together with proof of payment of the applicable bond) in compliance with the provisions of this Paragraph 5.1, the Appeal will occur as a matter of right and, except as specifically set forth herein, will not be further conditioned.
+
+[[A0285]]
+In the event a party does not deliver an Appeal Notice (along with proof of payment of the applicable bond) to the other party within the deadline prescribed in this Paragraph 5.1, such party shall lose its right to appeal the Arbitration Award.
+
+[[A0286]]
+If no party delivers an Appeal Notice (along with proof of payment of the applicable bond) to the other party within the deadline described in this Paragraph 5.1, the Arbitration Award shall be final.
+
+[[A0287]]
+The parties acknowledge and agree that any Appeal shall be deemed part of the parties’ agreement to arbitrate for purposes of these Arbitration Provisions and the Arbitration Act.
+
+[[A0288]]
+5.2 Selection and Payment of Appeal Panel.
+
+[[A0289]]
+In the event an Appellant delivers an Appeal Notice to the Appellee (together with proof of payment of the applicable bond) in compliance with the provisions of Paragraph 5.1 above, the Appeal will be heard by a three (3) person arbitration panel (the “ Appeal Panel ”).
+
+[[A0290]]
+- Within ten (10)
+calendar days after the Appeal Date, the Appellee shall select and submit to the Appellant the names of five (5) arbitrators that are
+designated as “neutrals” or qualified arbitrators by Utah ADR Services (http://www.utahadrservices.com) (such five (5) designated
+persons hereunder are referred to herein as the “
+Proposed Appeal Arbitrators
+”). For the avoidance of doubt, each Proposed
+Appeal Arbitrator must be qualified as a “neutral” with Utah ADR Services, and shall not be the arbitrator who rendered the
+Arbitration Award being appealed (the “
+Original Arbitrator
+”). Within five (5) calendar days after the Appellee has
+submitted to the Appellant the names of the Proposed Appeal Arbitrators, the Appellant must select, by written notice to the Appellee,
+three (3) of the Proposed Appeal Arbitrators to act as the members of the Appeal Panel.
+
+[[A0291]]
+If the Appellant fails to select three (3) of
+the Proposed Appeal Arbitrators in writing within such 5-day period, then the Appellee may select such three (3) arbitrators from the
+Proposed Appeal Arbitrators by providing written notice of such selection to the Appellant.
+
+[[A0292]]
+- If the Appellee
+fails to submit to the Appellant the names of the Proposed Appeal Arbitrators within ten (10) calendar days after the Appeal Date pursuant
+to subparagraph (a) above, then the Appellant may at any time prior to the Appellee so designating the Proposed Appeal Arbitrators, identify
+the names of five (5) arbitrators that are designated as “neutrals” or qualified arbitrators by Utah ADR Service (none of
+whom may be the Original Arbitrator) by written notice to the Appellee.
+
+[[A0293]]
+The Appellee may then, within five (5) calendar days after the
+Appellant has submitted notice of its selected arbitrators to the Appellee, select, by written notice to the Appellant, three (3) of such
+selected arbitrators to serve on the Appeal Panel.
+
+[[A0294]]
+If the Appellee fails to select in writing within such 5-day period three (3) of the
+arbitrators selected by the Appellant to serve as the members of the Appeal Panel, then the Appellant may select the three (3) members
+of the Appeal Panel from the Appellant’s list of five (5) arbitrators by providing written notice of such selection to the Appellee.
+
+[[A0295]]
+- If a selected
+Proposed Appeal Arbitrator declines or is otherwise unable to serve, then the party that selected such Proposed Appeal Arbitrator may
+select one (1) of the other five (5) designated Proposed Appeal Arbitrators within three (3) calendar days of the date a chosen Proposed
+Appeal Arbitrator declines or notifies the parties he or she is unable to serve as an arbitrator.
+
+[[A0296]]
+If at least three (3) of the five (5)
+designated Proposed Appeal Arbitrators decline or are otherwise unable to serve, then the Proposed Appeal Arbitrator selection process
+shall begin again in accordance with this Paragraph 5.2;
+provided, however
+, that any Proposed Appeal Arbitrators who have already
+agreed to serve shall remain on the Appeal Panel.
+
+[[A0297]]
+- The date that
+all three (3) Proposed Appeal Arbitrators selected pursuant to this Paragraph 5.2 agree in writing (including via email) delivered to
+both the Appellant and the Appellee to serve as members of the Appeal Panel hereunder is referred to herein as the “
+Appeal Commencement
+Date
+”. No later than five (5) calendar days after the Appeal Commencement Date, the Appellee shall designate in writing (including
+via email) to the Appellant and the Appeal Panel the name of one (1) of the three (3) members of the Appeal Panel to serve as the lead
+arbitrator in the Appeal proceedings.
+
+[[A0298]]
+Each member of the Appeal Panel shall be deemed an arbitrator for purposes of these Arbitration
+Provisions and the Arbitration Act, provided that, in conducting the Appeal, the Appeal Panel may only act or make determinations upon
+the approval or vote of no less than the majority vote of its members, as announced or communicated by the lead arbitrator on the Appeal
+Panel.
+
+[[A0299]]
+If an arbitrator on the Appeal Panel ceases or is unable to act during the Appeal proceedings,
+a replacement arbitrator shall be chosen in accordance with Paragraph 5.2 above to continue the Appeal as a member of the Appeal Panel.
+
+[[A0300]]
+If Utah ADR Services ceases to exist or to provide a list of neutrals, then the arbitrators for the Appeal Panel shall be selected under the then prevailing rules of the American Arbitration Association.
+
+[[A0301]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0302]]
+- Subject to Paragraph
+5.7 below, the cost of the Appeal Panel must be paid entirely by the Appellant.
+
+[[A0303]]
+5.3 Appeal Procedure.
+
+[[A0304]]
+The Appeal will be deemed an appeal of the entire Arbitration Award.
+
+[[A0305]]
+In conducting the Appeal, the Appeal Panel shall conduct a de novo review of all Claims described or otherwise set forth in the Arbitration Notice.
+
+[[A0306]]
+Subject to the foregoing and all other provisions of this Paragraph 5, the Appeal Panel shall conduct the Appeal in a manner the Appeal Panel considers appropriate for a fair and expeditious disposition of the Appeal, may hold one or more hearings and permit oral argument, and may review all previous evidence and discovery, together with all briefs, pleadings and other documents filed with the Original Arbitrator (as well as any documents filed with the Appeal Panel pursuant to Paragraph 5.4(a) below). Notwithstanding the foregoing, in connection with the Appeal, the Appeal Panel shall not permit the parties to conduct any additional discovery or raise any new Claims to be arbitrated, shall not permit new witnesses or affidavits, and shall not base any of its findings or determinations on the Original Arbitrator’s findings or the Arbitration Award.
+
+[[A0307]]
+5.4 Timing.
+
+[[A0308]]
+- Within
+seven (7) calendar days of the Appeal Commencement Date, the Appellant (i) shall deliver or cause to be delivered to the Appeal Panel
+copies of the Appeal Notice, all discovery conducted in connection with the Arbitration, and all briefs, pleadings and other documents
+filed with the Original Arbitrator (which material Appellee shall have the right to review and supplement if necessary), and (ii) may,
+but is not required to, deliver to the Appeal Panel and to the Appellee a Memorandum in Support of the Appellant’s arguments concerning
+or position with respect to all Claims, counterclaims, issues, or accountings presented or pleaded in the Arbitration.
+
+[[A0309]]
+Within seven (7)
+calendar days of the Appellant’s delivery of the Memorandum in Support, as applicable, the Appellee shall deliver to the Appeal
+Panel and to the Appellant a Memorandum in Opposition to the Memorandum in Support.
+
+[[A0310]]
+Within seven (7) calendar days of the Appellee’s
+delivery of the Memorandum in Opposition, as applicable, the Appellant shall deliver to the Appeal Panel and to the Appellee a Reply Memorandum
+to the Memorandum in Opposition.
+
+[[A0311]]
+If the Appellant shall fail to substantially comply with the requirements of clause (i) of this subparagraph
+(a), the Appellant shall lose its right to appeal the Arbitration Award, and the Arbitration Award shall be final.
+
+[[A0312]]
+If the Appellee shall
+fail to deliver the Memorandum in Opposition as required above, or if the Appellant shall fail to deliver the Reply Memorandum as required
+above, then the Appellee or the Appellant, as the case may be, shall lose its right to so deliver the same, and the Appeal shall proceed
+regardless.
+
+[[A0313]]
+- Subject
+to subparagraph (a) above, the parties hereby agree that the Appeal must be heard by the Appeal Panel within thirty (30) calendar days
+of the Appeal Commencement Date, and that the Appeal Panel must render its decision within thirty (30) calendar days after the Appeal
+is heard (and in no event later than sixty (60) calendar days after the Appeal Commencement Date).
+
+[[A0314]]
+5.5 Appeal Panel Award.
+
+[[A0315]]
+The Appeal Panel shall issue its decision (the “ Appeal Panel Award ”) through the lead arbitrator on the Appeal Panel.
+
+[[A0316]]
+Notwithstanding any other provision contained herein, the Appeal Panel Award shall (a) supersede in its entirety and make of no further force or effect the Arbitration Award (provided that any protective orders issued by the Original Arbitrator shall remain in full force and effect), (b) be final and binding upon the parties, with no further rights of appeal, (c) be the sole and exclusive remedy between the parties regarding any Claims, counterclaims, issues, or accountings presented or pleaded in the Arbitration, and (d) be promptly payable in United States dollars free of any tax, deduction or offset (with respect to monetary awards). Any costs or fees, including without limitation attorneys’ fees, incurred in connection with or incident to enforcing the Appeal Panel Award shall, to the maximum extent permitted by law, be charged against the party resisting such enforcement.
+
+[[A0317]]
+The Appeal Panel Award shall include Default Interest (with respect to monetary awards) at the rate specified in the Note for Default Interest both before and after the Arbitration Award.
+
+[[A0318]]
+Judgment upon the Appeal Panel Award will be entered and enforced by a state or federal court sitting in Salt Lake County, Utah.
+
+[[A0319]]
+5.6 Relief.
+
+[[A0320]]
+The Appeal Panel shall have the right to award or include in the Appeal Panel Award any relief which the Appeal Panel deems proper under the circumstances, including, without limitation, specific performance and injunctive relief, provided that the Appeal Panel may not award exemplary or punitive damages.
+
+[[A0321]]
+5.7 Fees and Costs.
+
+[[A0322]]
+As part of the Appeal Panel Award, the Appeal Panel is hereby directed to require the losing party (the party being awarded the least amount of money by the arbitrator, which, for the avoidance of doubt, shall be determined without regard to any statutory fines, penalties, fees, or other charges awarded to any party) to (a) pay the full amount of any unpaid costs and fees of the Arbitration and the Appeal Panel, and (b) reimburse the prevailing party (the party being awarded the most amount of money by the Appeal Panel, which, for the avoidance of doubt, shall be determined without regard to any statutory fines, penalties, fees, or other charges awarded to any part) the reasonable attorneys’ fees, arbitrator and Appeal Panel costs and fees, deposition costs, other discovery costs, and other expenses, costs or fees paid or otherwise incurred by the prevailing party in connection with the Arbitration (including without limitation in connection with the Appeal).
+
+[[A0323]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0324]]
+6. Miscellaneous .
+
+[[A0325]]
+6.1 Severability.
+
+[[A0326]]
+If any part of these Arbitration Provisions is found to violate or be illegal under applicable law, then such provision shall be modified to the minimum extent necessary to make such provision enforceable under applicable law, and the remainder of the Arbitration Provisions shall remain unaffected and in full force and effect.
+
+[[A0327]]
+6.2 Governing Law . These Arbitration Provisions shall be governed by the laws of the State of Utah without regard to the conflict of laws principles therein.
+
+[[A0328]]
+6.3 Interpretation . The headings of these Arbitration Provisions are for convenience of reference only and shall not form part of, or affect the interpretation of, these Arbitration Provisions.
+
+[[A0329]]
+6.4 Waiver . No waiver of any provision of these Arbitration Provisions shall be effective unless it is in the form of a writing signed by the party granting the waiver.
+
+[[A0330]]
+6.5 Time is of the Essence . Time is expressly made of the essence with respect to each and every provision of these Arbitration Provisions.
+
+[[A0331]]
+[ Remainder of page intentionally left blank ]
+
+[[A0332]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+[[/TABLE]]

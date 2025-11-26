@@ -1,0 +1,2469 @@
+{
+  "run_id": "demo_ex10",
+  "tarballs": [
+    "data/daily_filings/2023/QTR1/20230103.nc.tar.gz"
+  ],
+  "filters": {
+    "doc_filter_path": "doc_filter_ex10:keep_ex10_only"
+  },
+  "accessions": [
+    {
+      "accession": "0001731122-23-000003",
+      "cik": "0001721386",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "e4329_ex10-1.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001731122-23-000003_2.html",
+          "primary": true,
+          "item_id": "0001731122-23-000003_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001140361-23-000031",
+      "cik": "0001856028",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "brhc10046173_ex10-1.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001140361-23-000031_2.html",
+          "primary": true,
+          "item_id": "0001140361-23-000031_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001193125-23-000863",
+      "cik": "0001943661",
+      "form_type": "F-4",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "d355509dex101.htm",
+          "sequence": "9",
+          "path": "runs/demo_ex10/ingest/0001193125-23-000863_9.html",
+          "primary": true,
+          "item_id": "0001193125-23-000863_9"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "d355509dex102.htm",
+          "sequence": "10",
+          "path": "runs/demo_ex10/ingest/0001193125-23-000863_10.html",
+          "primary": false,
+          "item_id": "0001193125-23-000863_10"
+        },
+        {
+          "type": "EX-10.3",
+          "filename": "d355509dex103.htm",
+          "sequence": "11",
+          "path": "runs/demo_ex10/ingest/0001193125-23-000863_11.html",
+          "primary": false,
+          "item_id": "0001193125-23-000863_11"
+        },
+        {
+          "type": "EX-10.7",
+          "filename": "d355509dex107.htm",
+          "sequence": "12",
+          "path": "runs/demo_ex10/ingest/0001193125-23-000863_12.html",
+          "primary": false,
+          "item_id": "0001193125-23-000863_12"
+        }
+      ]
+    },
+    {
+      "accession": "0001213900-23-000476",
+      "cik": "0001842556",
+      "form_type": "DEFA14A",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "ea171103ex10-1_hnracq.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001213900-23-000476_3.html",
+          "primary": true,
+          "item_id": "0001213900-23-000476_3"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "ea171103ex10-2_hnracq.htm",
+          "sequence": "4",
+          "path": "runs/demo_ex10/ingest/0001213900-23-000476_4.html",
+          "primary": false,
+          "item_id": "0001213900-23-000476_4"
+        },
+        {
+          "type": "EX-10.3",
+          "filename": "ea171103ex10-3_hnracq.htm",
+          "sequence": "5",
+          "path": "runs/demo_ex10/ingest/0001213900-23-000476_5.html",
+          "primary": false,
+          "item_id": "0001213900-23-000476_5"
+        }
+      ]
+    },
+    {
+      "accession": "0000950170-23-000012",
+      "cik": "0000889900",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "pten-ex10_1.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0000950170-23-000012_2.html",
+          "primary": true,
+          "item_id": "0000950170-23-000012_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001628280-23-000088",
+      "cik": "0001805651",
+      "form_type": "8-K/A",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "exhibit101-interimceooffer.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001628280-23-000088_2.html",
+          "primary": true,
+          "item_id": "0001628280-23-000088_2"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "exhibit102-employmentagree.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001628280-23-000088_3.html",
+          "primary": false,
+          "item_id": "0001628280-23-000088_3"
+        }
+      ]
+    },
+    {
+      "accession": "0000883984-23-000003",
+      "cik": "0000883984",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "exhibit101_123022.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0000883984-23-000003_2.html",
+          "primary": true,
+          "item_id": "0000883984-23-000003_2"
+        }
+      ]
+    },
+    {
+      "accession": "0000950170-23-000051",
+      "cik": "0001383701",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "hsto-ex10_1.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0000950170-23-000051_2.html",
+          "primary": true,
+          "item_id": "0000950170-23-000051_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001104659-23-000109",
+      "cik": "0001895249",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "tm2233776d1_ex10-1.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000109_3.html",
+          "primary": true,
+          "item_id": "0001104659-23-000109_3"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "tm2233776d1_ex10-2.htm",
+          "sequence": "4",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000109_4.html",
+          "primary": false,
+          "item_id": "0001104659-23-000109_4"
+        },
+        {
+          "type": "EX-10.3",
+          "filename": "tm2233776d1_ex10-3.htm",
+          "sequence": "5",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000109_5.html",
+          "primary": false,
+          "item_id": "0001104659-23-000109_5"
+        },
+        {
+          "type": "EX-10.4",
+          "filename": "tm2233776d1_ex10-4.htm",
+          "sequence": "6",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000109_6.html",
+          "primary": false,
+          "item_id": "0001104659-23-000109_6"
+        },
+        {
+          "type": "EX-10.5",
+          "filename": "tm2233776d1_ex10-5.htm",
+          "sequence": "7",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000109_7.html",
+          "primary": false,
+          "item_id": "0001104659-23-000109_7"
+        },
+        {
+          "type": "EX-10.6",
+          "filename": "tm2233776d1_ex10-6.htm",
+          "sequence": "8",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000109_8.html",
+          "primary": false,
+          "item_id": "0001104659-23-000109_8"
+        }
+      ]
+    },
+    {
+      "accession": "0001140361-23-000046",
+      "cik": "0000879101",
+      "form_type": "8-K12B",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "ny20006479x6_ex10-1.htm",
+          "sequence": "9",
+          "path": "runs/demo_ex10/ingest/0001140361-23-000046_9.html",
+          "primary": true,
+          "item_id": "0001140361-23-000046_9"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "ny20006479x6_ex10-2.htm",
+          "sequence": "10",
+          "path": "runs/demo_ex10/ingest/0001140361-23-000046_10.html",
+          "primary": false,
+          "item_id": "0001140361-23-000046_10"
+        },
+        {
+          "type": "EX-10.7",
+          "filename": "ny20006479x6_ex10-7.htm",
+          "sequence": "11",
+          "path": "runs/demo_ex10/ingest/0001140361-23-000046_11.html",
+          "primary": false,
+          "item_id": "0001140361-23-000046_11"
+        },
+        {
+          "type": "EX-10.8",
+          "filename": "ny20006479x6_ex10-8.htm",
+          "sequence": "12",
+          "path": "runs/demo_ex10/ingest/0001140361-23-000046_12.html",
+          "primary": false,
+          "item_id": "0001140361-23-000046_12"
+        }
+      ]
+    },
+    {
+      "accession": "0001171843-23-000010",
+      "cik": "0001123494",
+      "form_type": "8-K/A",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "exh_101.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001171843-23-000010_2.html",
+          "primary": true,
+          "item_id": "0001171843-23-000010_2"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "exh_102.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001171843-23-000010_3.html",
+          "primary": false,
+          "item_id": "0001171843-23-000010_3"
+        }
+      ]
+    },
+    {
+      "accession": "0001214659-23-000066",
+      "cik": "0000896493",
+      "form_type": "8-K/A",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.4",
+          "filename": "ex10_4.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001214659-23-000066_2.html",
+          "primary": true,
+          "item_id": "0001214659-23-000066_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001437749-23-000101",
+      "cik": "0000922247",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "ex_460051.htm",
+          "sequence": "7",
+          "path": "runs/demo_ex10/ingest/0001437749-23-000101_7.html",
+          "primary": true,
+          "item_id": "0001437749-23-000101_7"
+        }
+      ]
+    },
+    {
+      "accession": "0001104659-22-131460",
+      "cik": "0001880151",
+      "form_type": "DEFA14A",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "tm2233787d1_ex10-1.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001104659-22-131460_2.html",
+          "primary": true,
+          "item_id": "0001104659-22-131460_2"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "tm2233787d1_ex10-2.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001104659-22-131460_3.html",
+          "primary": false,
+          "item_id": "0001104659-22-131460_3"
+        }
+      ]
+    },
+    {
+      "accession": "0001628280-23-000023",
+      "cik": "0001058811",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "executed-ceoemploymentof.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001628280-23-000023_2.html",
+          "primary": true,
+          "item_id": "0001628280-23-000023_2"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "immr01032023exhibit102.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001628280-23-000023_3.html",
+          "primary": false,
+          "item_id": "0001628280-23-000023_3"
+        }
+      ]
+    },
+    {
+      "accession": "0000950170-23-000026",
+      "cik": "0000910612",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.3",
+          "filename": "cbl-ex10_3.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0000950170-23-000026_2.html",
+          "primary": true,
+          "item_id": "0000950170-23-000026_2"
+        },
+        {
+          "type": "EX-10.4",
+          "filename": "cbl-ex10_4.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0000950170-23-000026_3.html",
+          "primary": false,
+          "item_id": "0000950170-23-000026_3"
+        }
+      ]
+    },
+    {
+      "accession": "0001493152-23-000089",
+      "cik": "0000867028",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "ex10-1.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001493152-23-000089_2.html",
+          "primary": true,
+          "item_id": "0001493152-23-000089_2"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "ex10-2.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001493152-23-000089_3.html",
+          "primary": false,
+          "item_id": "0001493152-23-000089_3"
+        }
+      ]
+    },
+    {
+      "accession": "0001193125-23-000849",
+      "cik": "0001018724",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "d429499dex101.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001193125-23-000849_2.html",
+          "primary": true,
+          "item_id": "0001193125-23-000849_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001104659-22-131441",
+      "cik": "0001600983",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "tm2233801d1_ex10-1.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001104659-22-131441_2.html",
+          "primary": true,
+          "item_id": "0001104659-22-131441_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001140361-23-000030",
+      "cik": "0001472091",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "brhc10046080_ex10-1.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001140361-23-000030_2.html",
+          "primary": true,
+          "item_id": "0001140361-23-000030_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001731122-23-000006",
+      "cik": "0001553788",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "e4332_ex10-1.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001731122-23-000006_3.html",
+          "primary": true,
+          "item_id": "0001731122-23-000006_3"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "e4332_ex10-2.htm",
+          "sequence": "4",
+          "path": "runs/demo_ex10/ingest/0001731122-23-000006_4.html",
+          "primary": false,
+          "item_id": "0001731122-23-000006_4"
+        }
+      ]
+    },
+    {
+      "accession": "0001193125-23-000826",
+      "cik": "0000939930",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "d417940dex101.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001193125-23-000826_2.html",
+          "primary": true,
+          "item_id": "0001193125-23-000826_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001564590-23-000008",
+      "cik": "0001069308",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "acer-ex101_15.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001564590-23-000008_2.html",
+          "primary": true,
+          "item_id": "0001564590-23-000008_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001529274-23-000002",
+      "cik": "0001529274",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "exhibit101-sixthamendmentt.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001529274-23-000002_2.html",
+          "primary": true,
+          "item_id": "0001529274-23-000002_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001104659-23-000238",
+      "cik": "0001843724",
+      "form_type": "S-4/A",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.27(2)",
+          "filename": "amci-20220930xex10d27d2.htm",
+          "sequence": "4",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000238_4.html",
+          "primary": true,
+          "item_id": "0001104659-23-000238_4"
+        },
+        {
+          "type": "EX-10.27(3)",
+          "filename": "amci-20220930xex10d27d3.htm",
+          "sequence": "5",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000238_5.html",
+          "primary": false,
+          "item_id": "0001104659-23-000238_5"
+        },
+        {
+          "type": "EX-10.38(1)",
+          "filename": "amci-20220930xex10d38d1.htm",
+          "sequence": "6",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000238_6.html",
+          "primary": false,
+          "item_id": "0001104659-23-000238_6"
+        }
+      ]
+    },
+    {
+      "accession": "0001493152-23-000055",
+      "cik": "0000895665",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "ex10-1.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001493152-23-000055_2.html",
+          "primary": true,
+          "item_id": "0001493152-23-000055_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001477932-23-000040",
+      "cik": "0001408057",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "icct_ex101.htm",
+          "sequence": "7",
+          "path": "runs/demo_ex10/ingest/0001477932-23-000040_7.html",
+          "primary": true,
+          "item_id": "0001477932-23-000040_7"
+        }
+      ]
+    },
+    {
+      "accession": "0001861449-23-000002",
+      "cik": "0001861449",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.2",
+          "filename": "a102-birdxbirdusholdcoll.htm",
+          "sequence": "5",
+          "path": "runs/demo_ex10/ingest/0001861449-23-000002_5.html",
+          "primary": true,
+          "item_id": "0001861449-23-000002_5"
+        },
+        {
+          "type": "EX-10.3",
+          "filename": "a103-birdxbirdinternatio.htm",
+          "sequence": "6",
+          "path": "runs/demo_ex10/ingest/0001861449-23-000002_6.html",
+          "primary": false,
+          "item_id": "0001861449-23-000002_6"
+        },
+        {
+          "type": "EX-10.4",
+          "filename": "a104-birdxbirdcanadaguar.htm",
+          "sequence": "7",
+          "path": "runs/demo_ex10/ingest/0001861449-23-000002_7.html",
+          "primary": false,
+          "item_id": "0001861449-23-000002_7"
+        },
+        {
+          "type": "EX-10.5",
+          "filename": "a105-birdxbirdridesincgu.htm",
+          "sequence": "8",
+          "path": "runs/demo_ex10/ingest/0001861449-23-000002_8.html",
+          "primary": false,
+          "item_id": "0001861449-23-000002_8"
+        },
+        {
+          "type": "EX-10.6",
+          "filename": "a106-birdcanadaxcanadian.htm",
+          "sequence": "9",
+          "path": "runs/demo_ex10/ingest/0001861449-23-000002_9.html",
+          "primary": false,
+          "item_id": "0001861449-23-000002_9"
+        },
+        {
+          "type": "EX-10.7",
+          "filename": "a107-birdcanadaxcanadian.htm",
+          "sequence": "10",
+          "path": "runs/demo_ex10/ingest/0001861449-23-000002_10.html",
+          "primary": false,
+          "item_id": "0001861449-23-000002_10"
+        },
+        {
+          "type": "EX-10.8",
+          "filename": "a108-compassxvotingagree.htm",
+          "sequence": "11",
+          "path": "runs/demo_ex10/ingest/0001861449-23-000002_11.html",
+          "primary": false,
+          "item_id": "0001861449-23-000002_11"
+        },
+        {
+          "type": "EX-10.9",
+          "filename": "a109-birdridesxamendment.htm",
+          "sequence": "12",
+          "path": "runs/demo_ex10/ingest/0001861449-23-000002_12.html",
+          "primary": false,
+          "item_id": "0001861449-23-000002_12"
+        },
+        {
+          "type": "EX-10.10",
+          "filename": "a1010-birdridesxamendmen.htm",
+          "sequence": "13",
+          "path": "runs/demo_ex10/ingest/0001861449-23-000002_13.html",
+          "primary": false,
+          "item_id": "0001861449-23-000002_13"
+        },
+        {
+          "type": "EX-10.11",
+          "filename": "a1011-birdxthirdaremeagu.htm",
+          "sequence": "14",
+          "path": "runs/demo_ex10/ingest/0001861449-23-000002_14.html",
+          "primary": false,
+          "item_id": "0001861449-23-000002_14"
+        },
+        {
+          "type": "EX-10.12",
+          "filename": "a1012-birdridesxemployee.htm",
+          "sequence": "15",
+          "path": "runs/demo_ex10/ingest/0001861449-23-000002_15.html",
+          "primary": false,
+          "item_id": "0001861449-23-000002_15"
+        },
+        {
+          "type": "EX-10.`",
+          "filename": "a101-birdxbirdusopcollcg.htm",
+          "sequence": "16",
+          "path": "runs/demo_ex10/ingest/0001861449-23-000002_16.html",
+          "primary": false,
+          "item_id": "0001861449-23-000002_16"
+        }
+      ]
+    },
+    {
+      "accession": "0001437749-23-000006",
+      "cik": "0001632127",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "ex_459737.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001437749-23-000006_2.html",
+          "primary": true,
+          "item_id": "0001437749-23-000006_2"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "ex_459738.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001437749-23-000006_3.html",
+          "primary": false,
+          "item_id": "0001437749-23-000006_3"
+        },
+        {
+          "type": "EX-10.3",
+          "filename": "ex_459739.htm",
+          "sequence": "4",
+          "path": "runs/demo_ex10/ingest/0001437749-23-000006_4.html",
+          "primary": false,
+          "item_id": "0001437749-23-000006_4"
+        }
+      ]
+    },
+    {
+      "accession": "0001104659-23-000342",
+      "cik": "0001780785",
+      "form_type": "6-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "tm2233788d1_ex10-1.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000342_2.html",
+          "primary": true,
+          "item_id": "0001104659-23-000342_2"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "tm2233788d1_ex10-2.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000342_3.html",
+          "primary": false,
+          "item_id": "0001104659-23-000342_3"
+        }
+      ]
+    },
+    {
+      "accession": "0001437749-23-000158",
+      "cik": "0001832487",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "ex_453028.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001437749-23-000158_2.html",
+          "primary": true,
+          "item_id": "0001437749-23-000158_2"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "ex_455554.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001437749-23-000158_3.html",
+          "primary": false,
+          "item_id": "0001437749-23-000158_3"
+        },
+        {
+          "type": "EX-10.3",
+          "filename": "ex_455555.htm",
+          "sequence": "4",
+          "path": "runs/demo_ex10/ingest/0001437749-23-000158_4.html",
+          "primary": false,
+          "item_id": "0001437749-23-000158_4"
+        },
+        {
+          "type": "EX-10.4",
+          "filename": "ex_455556.htm",
+          "sequence": "5",
+          "path": "runs/demo_ex10/ingest/0001437749-23-000158_5.html",
+          "primary": false,
+          "item_id": "0001437749-23-000158_5"
+        }
+      ]
+    },
+    {
+      "accession": "0001193125-23-000266",
+      "cik": "0001043277",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "d436281dex101.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001193125-23-000266_2.html",
+          "primary": true,
+          "item_id": "0001193125-23-000266_2"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "d436281dex102.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001193125-23-000266_3.html",
+          "primary": false,
+          "item_id": "0001193125-23-000266_3"
+        }
+      ]
+    },
+    {
+      "accession": "0001558370-23-000007",
+      "cik": "0001761510",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "tilt-20221230xex10d1.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001558370-23-000007_2.html",
+          "primary": true,
+          "item_id": "0001558370-23-000007_2"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "tilt-20221230xex10d2.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001558370-23-000007_3.html",
+          "primary": false,
+          "item_id": "0001558370-23-000007_3"
+        }
+      ]
+    },
+    {
+      "accession": "0000893691-23-000003",
+      "cik": "0000893691",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "a20230103ex101amendmenttos.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0000893691-23-000003_2.html",
+          "primary": true,
+          "item_id": "0000893691-23-000003_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001493152-23-000162",
+      "cik": "0001561880",
+      "form_type": "S-1/A",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.43",
+          "filename": "ex10-43.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001493152-23-000162_3.html",
+          "primary": true,
+          "item_id": "0001493152-23-000162_3"
+        }
+      ]
+    },
+    {
+      "accession": "0001699136-23-000003",
+      "cik": "0001699136",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "whd-20230103xexhibit101.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001699136-23-000003_3.html",
+          "primary": true,
+          "item_id": "0001699136-23-000003_3"
+        }
+      ]
+    },
+    {
+      "accession": "0001628280-23-000094",
+      "cik": "0000874396",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.01",
+          "filename": "ex-1001amendmentno1toterml.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001628280-23-000094_2.html",
+          "primary": true,
+          "item_id": "0001628280-23-000094_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001104659-23-000111",
+      "cik": "0001895249",
+      "form_type": "425",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "tm2233776d2_ex10-1.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000111_3.html",
+          "primary": true,
+          "item_id": "0001104659-23-000111_3"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "tm2233776d2_ex10-2.htm",
+          "sequence": "4",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000111_4.html",
+          "primary": false,
+          "item_id": "0001104659-23-000111_4"
+        },
+        {
+          "type": "EX-10.3",
+          "filename": "tm2233776d2_ex10-3.htm",
+          "sequence": "5",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000111_5.html",
+          "primary": false,
+          "item_id": "0001104659-23-000111_5"
+        },
+        {
+          "type": "EX-10.4",
+          "filename": "tm2233776d2_ex10-4.htm",
+          "sequence": "6",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000111_6.html",
+          "primary": false,
+          "item_id": "0001104659-23-000111_6"
+        },
+        {
+          "type": "EX-10.5",
+          "filename": "tm2233776d2_ex10-5.htm",
+          "sequence": "7",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000111_7.html",
+          "primary": false,
+          "item_id": "0001104659-23-000111_7"
+        },
+        {
+          "type": "EX-10.6",
+          "filename": "tm2233776d2_ex10-6.htm",
+          "sequence": "8",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000111_8.html",
+          "primary": false,
+          "item_id": "0001104659-23-000111_8"
+        }
+      ]
+    },
+    {
+      "accession": "0001104659-22-131459",
+      "cik": "0001880151",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "tm2233787d1_ex10-1.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001104659-22-131459_2.html",
+          "primary": true,
+          "item_id": "0001104659-22-131459_2"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "tm2233787d1_ex10-2.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001104659-22-131459_3.html",
+          "primary": false,
+          "item_id": "0001104659-22-131459_3"
+        }
+      ]
+    },
+    {
+      "accession": "0001163370-23-000003",
+      "cik": "0001163370",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "a101schierhorn2023employme.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001163370-23-000003_2.html",
+          "primary": true,
+          "item_id": "0001163370-23-000003_2"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "a102ballard2023employmenta.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001163370-23-000003_3.html",
+          "primary": false,
+          "item_id": "0001163370-23-000003_3"
+        },
+        {
+          "type": "EX-10.3",
+          "filename": "a103huston2023employmentco.htm",
+          "sequence": "4",
+          "path": "runs/demo_ex10/ingest/0001163370-23-000003_4.html",
+          "primary": false,
+          "item_id": "0001163370-23-000003_4"
+        },
+        {
+          "type": "EX-10.4",
+          "filename": "a104craig2023employmentcon.htm",
+          "sequence": "5",
+          "path": "runs/demo_ex10/ingest/0001163370-23-000003_5.html",
+          "primary": false,
+          "item_id": "0001163370-23-000003_5"
+        },
+        {
+          "type": "EX-10.5",
+          "filename": "a105baldwin2023employmenta.htm",
+          "sequence": "6",
+          "path": "runs/demo_ex10/ingest/0001163370-23-000003_6.html",
+          "primary": false,
+          "item_id": "0001163370-23-000003_6"
+        }
+      ]
+    },
+    {
+      "accession": "0001493152-23-000063",
+      "cik": "0001329606",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.163",
+          "filename": "ex10-163.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001493152-23-000063_2.html",
+          "primary": true,
+          "item_id": "0001493152-23-000063_2"
+        },
+        {
+          "type": "EX-10.164",
+          "filename": "ex10-164.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001493152-23-000063_3.html",
+          "primary": false,
+          "item_id": "0001493152-23-000063_3"
+        },
+        {
+          "type": "EX-10.165",
+          "filename": "ex10-165.htm",
+          "sequence": "4",
+          "path": "runs/demo_ex10/ingest/0001493152-23-000063_4.html",
+          "primary": false,
+          "item_id": "0001493152-23-000063_4"
+        }
+      ]
+    },
+    {
+      "accession": "0001213900-23-000005",
+      "cik": "0001751876",
+      "form_type": "6-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "ea170990ex10-1_happiness.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001213900-23-000005_2.html",
+          "primary": true,
+          "item_id": "0001213900-23-000005_2"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "ea170990ex10-2_happiness.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001213900-23-000005_3.html",
+          "primary": false,
+          "item_id": "0001213900-23-000005_3"
+        }
+      ]
+    },
+    {
+      "accession": "0001552781-23-000002",
+      "cik": "0001089907",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "e23001_ex10-1.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001552781-23-000002_2.html",
+          "primary": true,
+          "item_id": "0001552781-23-000002_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001193125-23-000306",
+      "cik": "0001599617",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "d407158dex101.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001193125-23-000306_2.html",
+          "primary": true,
+          "item_id": "0001193125-23-000306_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001104659-23-000349",
+      "cik": "0001680247",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "tm231313d1_ex10-1.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000349_2.html",
+          "primary": true,
+          "item_id": "0001104659-23-000349_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001193125-23-000889",
+      "cik": "0001376339",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "d407336dex101.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001193125-23-000889_2.html",
+          "primary": true,
+          "item_id": "0001193125-23-000889_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001477932-23-000012",
+      "cik": "0001487931",
+      "form_type": "10-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "fssn_ex101.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001477932-23-000012_2.html",
+          "primary": true,
+          "item_id": "0001477932-23-000012_2"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "fssn_ex102.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001477932-23-000012_3.html",
+          "primary": false,
+          "item_id": "0001477932-23-000012_3"
+        }
+      ]
+    },
+    {
+      "accession": "0001628280-23-000074",
+      "cik": "0001842356",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "ex101dfa-assetpurchaseag.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001628280-23-000074_2.html",
+          "primary": true,
+          "item_id": "0001628280-23-000074_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001213900-23-000470",
+      "cik": "0001842556",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "ea171103ex10-1_hnracq.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001213900-23-000470_3.html",
+          "primary": true,
+          "item_id": "0001213900-23-000470_3"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "ea171103ex10-2_hnracq.htm",
+          "sequence": "4",
+          "path": "runs/demo_ex10/ingest/0001213900-23-000470_4.html",
+          "primary": false,
+          "item_id": "0001213900-23-000470_4"
+        },
+        {
+          "type": "EX-10.3",
+          "filename": "ea171103ex10-3_hnracq.htm",
+          "sequence": "5",
+          "path": "runs/demo_ex10/ingest/0001213900-23-000470_5.html",
+          "primary": false,
+          "item_id": "0001213900-23-000470_5"
+        }
+      ]
+    },
+    {
+      "accession": "0001683168-23-000003",
+      "cik": "0001626644",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "odyssey_ex1001.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001683168-23-000003_2.html",
+          "primary": true,
+          "item_id": "0001683168-23-000003_2"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "odyssey_ex1002.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001683168-23-000003_3.html",
+          "primary": false,
+          "item_id": "0001683168-23-000003_3"
+        },
+        {
+          "type": "EX-10.3",
+          "filename": "odyssey_ex1003.htm",
+          "sequence": "4",
+          "path": "runs/demo_ex10/ingest/0001683168-23-000003_4.html",
+          "primary": false,
+          "item_id": "0001683168-23-000003_4"
+        }
+      ]
+    },
+    {
+      "accession": "0001493152-23-000031",
+      "cik": "0001600422",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "ex10-1.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001493152-23-000031_2.html",
+          "primary": true,
+          "item_id": "0001493152-23-000031_2"
+        },
+        {
+          "type": "EX-10.2",
+          "filename": "ex10-2.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001493152-23-000031_3.html",
+          "primary": false,
+          "item_id": "0001493152-23-000031_3"
+        }
+      ]
+    },
+    {
+      "accession": "0001193125-23-000686",
+      "cik": "0001825384",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "d406704dex101.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001193125-23-000686_2.html",
+          "primary": true,
+          "item_id": "0001193125-23-000686_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001104659-23-000421",
+      "cik": "0001849380",
+      "form_type": "S-4/A",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.18",
+          "filename": "dkdcu-20211231xex10d18.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000421_2.html",
+          "primary": true,
+          "item_id": "0001104659-23-000421_2"
+        },
+        {
+          "type": "EX-10.19",
+          "filename": "dkdcu-20211231xex10d19.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001104659-23-000421_3.html",
+          "primary": false,
+          "item_id": "0001104659-23-000421_3"
+        }
+      ]
+    },
+    {
+      "accession": "0001193125-23-000755",
+      "cik": "0001060224",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "d438534dex101.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001193125-23-000755_2.html",
+          "primary": true,
+          "item_id": "0001193125-23-000755_2"
+        }
+      ]
+    },
+    {
+      "accession": "0001387131-23-000022",
+      "cik": "0001377149",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.01",
+          "filename": "ex10-01.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001387131-23-000022_2.html",
+          "primary": true,
+          "item_id": "0001387131-23-000022_2"
+        },
+        {
+          "type": "EX-10.02",
+          "filename": "ex10-02.htm",
+          "sequence": "3",
+          "path": "runs/demo_ex10/ingest/0001387131-23-000022_3.html",
+          "primary": false,
+          "item_id": "0001387131-23-000022_3"
+        }
+      ]
+    },
+    {
+      "accession": "0001140361-23-000236",
+      "cik": "0001832950",
+      "form_type": "8-K",
+      "filing_date": "20230103",
+      "documents": [
+        {
+          "type": "EX-10.1",
+          "filename": "brhc10046200_ex10-1.htm",
+          "sequence": "2",
+          "path": "runs/demo_ex10/ingest/0001140361-23-000236_2.html",
+          "primary": true,
+          "item_id": "0001140361-23-000236_2"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "0001731122-23-000003_2",
+      "accession": "0001731122-23-000003",
+      "sequence": "2",
+      "filename": "e4329_ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001731122-23-000003_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001140361-23-000031_2",
+      "accession": "0001140361-23-000031",
+      "sequence": "2",
+      "filename": "brhc10046173_ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001140361-23-000031_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001193125-23-000863_9",
+      "accession": "0001193125-23-000863",
+      "sequence": "9",
+      "filename": "d355509dex101.htm",
+      "path": "runs/demo_ex10/ingest/0001193125-23-000863_9.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001193125-23-000863_10",
+      "accession": "0001193125-23-000863",
+      "sequence": "10",
+      "filename": "d355509dex102.htm",
+      "path": "runs/demo_ex10/ingest/0001193125-23-000863_10.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001193125-23-000863_11",
+      "accession": "0001193125-23-000863",
+      "sequence": "11",
+      "filename": "d355509dex103.htm",
+      "path": "runs/demo_ex10/ingest/0001193125-23-000863_11.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001193125-23-000863_12",
+      "accession": "0001193125-23-000863",
+      "sequence": "12",
+      "filename": "d355509dex107.htm",
+      "path": "runs/demo_ex10/ingest/0001193125-23-000863_12.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001213900-23-000476_3",
+      "accession": "0001213900-23-000476",
+      "sequence": "3",
+      "filename": "ea171103ex10-1_hnracq.htm",
+      "path": "runs/demo_ex10/ingest/0001213900-23-000476_3.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001213900-23-000476_4",
+      "accession": "0001213900-23-000476",
+      "sequence": "4",
+      "filename": "ea171103ex10-2_hnracq.htm",
+      "path": "runs/demo_ex10/ingest/0001213900-23-000476_4.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001213900-23-000476_5",
+      "accession": "0001213900-23-000476",
+      "sequence": "5",
+      "filename": "ea171103ex10-3_hnracq.htm",
+      "path": "runs/demo_ex10/ingest/0001213900-23-000476_5.html",
+      "primary": false
+    },
+    {
+      "item_id": "0000950170-23-000012_2",
+      "accession": "0000950170-23-000012",
+      "sequence": "2",
+      "filename": "pten-ex10_1.htm",
+      "path": "runs/demo_ex10/ingest/0000950170-23-000012_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001628280-23-000088_2",
+      "accession": "0001628280-23-000088",
+      "sequence": "2",
+      "filename": "exhibit101-interimceooffer.htm",
+      "path": "runs/demo_ex10/ingest/0001628280-23-000088_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001628280-23-000088_3",
+      "accession": "0001628280-23-000088",
+      "sequence": "3",
+      "filename": "exhibit102-employmentagree.htm",
+      "path": "runs/demo_ex10/ingest/0001628280-23-000088_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0000883984-23-000003_2",
+      "accession": "0000883984-23-000003",
+      "sequence": "2",
+      "filename": "exhibit101_123022.htm",
+      "path": "runs/demo_ex10/ingest/0000883984-23-000003_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0000950170-23-000051_2",
+      "accession": "0000950170-23-000051",
+      "sequence": "2",
+      "filename": "hsto-ex10_1.htm",
+      "path": "runs/demo_ex10/ingest/0000950170-23-000051_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001104659-23-000109_3",
+      "accession": "0001104659-23-000109",
+      "sequence": "3",
+      "filename": "tm2233776d1_ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000109_3.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001104659-23-000109_4",
+      "accession": "0001104659-23-000109",
+      "sequence": "4",
+      "filename": "tm2233776d1_ex10-2.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000109_4.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001104659-23-000109_5",
+      "accession": "0001104659-23-000109",
+      "sequence": "5",
+      "filename": "tm2233776d1_ex10-3.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000109_5.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001104659-23-000109_6",
+      "accession": "0001104659-23-000109",
+      "sequence": "6",
+      "filename": "tm2233776d1_ex10-4.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000109_6.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001104659-23-000109_7",
+      "accession": "0001104659-23-000109",
+      "sequence": "7",
+      "filename": "tm2233776d1_ex10-5.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000109_7.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001104659-23-000109_8",
+      "accession": "0001104659-23-000109",
+      "sequence": "8",
+      "filename": "tm2233776d1_ex10-6.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000109_8.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001140361-23-000046_9",
+      "accession": "0001140361-23-000046",
+      "sequence": "9",
+      "filename": "ny20006479x6_ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001140361-23-000046_9.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001140361-23-000046_10",
+      "accession": "0001140361-23-000046",
+      "sequence": "10",
+      "filename": "ny20006479x6_ex10-2.htm",
+      "path": "runs/demo_ex10/ingest/0001140361-23-000046_10.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001140361-23-000046_11",
+      "accession": "0001140361-23-000046",
+      "sequence": "11",
+      "filename": "ny20006479x6_ex10-7.htm",
+      "path": "runs/demo_ex10/ingest/0001140361-23-000046_11.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001140361-23-000046_12",
+      "accession": "0001140361-23-000046",
+      "sequence": "12",
+      "filename": "ny20006479x6_ex10-8.htm",
+      "path": "runs/demo_ex10/ingest/0001140361-23-000046_12.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001171843-23-000010_2",
+      "accession": "0001171843-23-000010",
+      "sequence": "2",
+      "filename": "exh_101.htm",
+      "path": "runs/demo_ex10/ingest/0001171843-23-000010_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001171843-23-000010_3",
+      "accession": "0001171843-23-000010",
+      "sequence": "3",
+      "filename": "exh_102.htm",
+      "path": "runs/demo_ex10/ingest/0001171843-23-000010_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001214659-23-000066_2",
+      "accession": "0001214659-23-000066",
+      "sequence": "2",
+      "filename": "ex10_4.htm",
+      "path": "runs/demo_ex10/ingest/0001214659-23-000066_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001437749-23-000101_7",
+      "accession": "0001437749-23-000101",
+      "sequence": "7",
+      "filename": "ex_460051.htm",
+      "path": "runs/demo_ex10/ingest/0001437749-23-000101_7.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001104659-22-131460_2",
+      "accession": "0001104659-22-131460",
+      "sequence": "2",
+      "filename": "tm2233787d1_ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-22-131460_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001104659-22-131460_3",
+      "accession": "0001104659-22-131460",
+      "sequence": "3",
+      "filename": "tm2233787d1_ex10-2.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-22-131460_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001628280-23-000023_2",
+      "accession": "0001628280-23-000023",
+      "sequence": "2",
+      "filename": "executed-ceoemploymentof.htm",
+      "path": "runs/demo_ex10/ingest/0001628280-23-000023_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001628280-23-000023_3",
+      "accession": "0001628280-23-000023",
+      "sequence": "3",
+      "filename": "immr01032023exhibit102.htm",
+      "path": "runs/demo_ex10/ingest/0001628280-23-000023_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0000950170-23-000026_2",
+      "accession": "0000950170-23-000026",
+      "sequence": "2",
+      "filename": "cbl-ex10_3.htm",
+      "path": "runs/demo_ex10/ingest/0000950170-23-000026_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0000950170-23-000026_3",
+      "accession": "0000950170-23-000026",
+      "sequence": "3",
+      "filename": "cbl-ex10_4.htm",
+      "path": "runs/demo_ex10/ingest/0000950170-23-000026_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001493152-23-000089_2",
+      "accession": "0001493152-23-000089",
+      "sequence": "2",
+      "filename": "ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001493152-23-000089_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001493152-23-000089_3",
+      "accession": "0001493152-23-000089",
+      "sequence": "3",
+      "filename": "ex10-2.htm",
+      "path": "runs/demo_ex10/ingest/0001493152-23-000089_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001193125-23-000849_2",
+      "accession": "0001193125-23-000849",
+      "sequence": "2",
+      "filename": "d429499dex101.htm",
+      "path": "runs/demo_ex10/ingest/0001193125-23-000849_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001104659-22-131441_2",
+      "accession": "0001104659-22-131441",
+      "sequence": "2",
+      "filename": "tm2233801d1_ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-22-131441_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001140361-23-000030_2",
+      "accession": "0001140361-23-000030",
+      "sequence": "2",
+      "filename": "brhc10046080_ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001140361-23-000030_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001731122-23-000006_3",
+      "accession": "0001731122-23-000006",
+      "sequence": "3",
+      "filename": "e4332_ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001731122-23-000006_3.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001731122-23-000006_4",
+      "accession": "0001731122-23-000006",
+      "sequence": "4",
+      "filename": "e4332_ex10-2.htm",
+      "path": "runs/demo_ex10/ingest/0001731122-23-000006_4.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001193125-23-000826_2",
+      "accession": "0001193125-23-000826",
+      "sequence": "2",
+      "filename": "d417940dex101.htm",
+      "path": "runs/demo_ex10/ingest/0001193125-23-000826_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001564590-23-000008_2",
+      "accession": "0001564590-23-000008",
+      "sequence": "2",
+      "filename": "acer-ex101_15.htm",
+      "path": "runs/demo_ex10/ingest/0001564590-23-000008_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001529274-23-000002_2",
+      "accession": "0001529274-23-000002",
+      "sequence": "2",
+      "filename": "exhibit101-sixthamendmentt.htm",
+      "path": "runs/demo_ex10/ingest/0001529274-23-000002_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001104659-23-000238_4",
+      "accession": "0001104659-23-000238",
+      "sequence": "4",
+      "filename": "amci-20220930xex10d27d2.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000238_4.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001104659-23-000238_5",
+      "accession": "0001104659-23-000238",
+      "sequence": "5",
+      "filename": "amci-20220930xex10d27d3.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000238_5.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001104659-23-000238_6",
+      "accession": "0001104659-23-000238",
+      "sequence": "6",
+      "filename": "amci-20220930xex10d38d1.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000238_6.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001493152-23-000055_2",
+      "accession": "0001493152-23-000055",
+      "sequence": "2",
+      "filename": "ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001493152-23-000055_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001477932-23-000040_7",
+      "accession": "0001477932-23-000040",
+      "sequence": "7",
+      "filename": "icct_ex101.htm",
+      "path": "runs/demo_ex10/ingest/0001477932-23-000040_7.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001861449-23-000002_5",
+      "accession": "0001861449-23-000002",
+      "sequence": "5",
+      "filename": "a102-birdxbirdusholdcoll.htm",
+      "path": "runs/demo_ex10/ingest/0001861449-23-000002_5.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001861449-23-000002_6",
+      "accession": "0001861449-23-000002",
+      "sequence": "6",
+      "filename": "a103-birdxbirdinternatio.htm",
+      "path": "runs/demo_ex10/ingest/0001861449-23-000002_6.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001861449-23-000002_7",
+      "accession": "0001861449-23-000002",
+      "sequence": "7",
+      "filename": "a104-birdxbirdcanadaguar.htm",
+      "path": "runs/demo_ex10/ingest/0001861449-23-000002_7.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001861449-23-000002_8",
+      "accession": "0001861449-23-000002",
+      "sequence": "8",
+      "filename": "a105-birdxbirdridesincgu.htm",
+      "path": "runs/demo_ex10/ingest/0001861449-23-000002_8.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001861449-23-000002_9",
+      "accession": "0001861449-23-000002",
+      "sequence": "9",
+      "filename": "a106-birdcanadaxcanadian.htm",
+      "path": "runs/demo_ex10/ingest/0001861449-23-000002_9.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001861449-23-000002_10",
+      "accession": "0001861449-23-000002",
+      "sequence": "10",
+      "filename": "a107-birdcanadaxcanadian.htm",
+      "path": "runs/demo_ex10/ingest/0001861449-23-000002_10.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001861449-23-000002_11",
+      "accession": "0001861449-23-000002",
+      "sequence": "11",
+      "filename": "a108-compassxvotingagree.htm",
+      "path": "runs/demo_ex10/ingest/0001861449-23-000002_11.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001861449-23-000002_12",
+      "accession": "0001861449-23-000002",
+      "sequence": "12",
+      "filename": "a109-birdridesxamendment.htm",
+      "path": "runs/demo_ex10/ingest/0001861449-23-000002_12.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001861449-23-000002_13",
+      "accession": "0001861449-23-000002",
+      "sequence": "13",
+      "filename": "a1010-birdridesxamendmen.htm",
+      "path": "runs/demo_ex10/ingest/0001861449-23-000002_13.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001861449-23-000002_14",
+      "accession": "0001861449-23-000002",
+      "sequence": "14",
+      "filename": "a1011-birdxthirdaremeagu.htm",
+      "path": "runs/demo_ex10/ingest/0001861449-23-000002_14.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001861449-23-000002_15",
+      "accession": "0001861449-23-000002",
+      "sequence": "15",
+      "filename": "a1012-birdridesxemployee.htm",
+      "path": "runs/demo_ex10/ingest/0001861449-23-000002_15.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001861449-23-000002_16",
+      "accession": "0001861449-23-000002",
+      "sequence": "16",
+      "filename": "a101-birdxbirdusopcollcg.htm",
+      "path": "runs/demo_ex10/ingest/0001861449-23-000002_16.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001437749-23-000006_2",
+      "accession": "0001437749-23-000006",
+      "sequence": "2",
+      "filename": "ex_459737.htm",
+      "path": "runs/demo_ex10/ingest/0001437749-23-000006_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001437749-23-000006_3",
+      "accession": "0001437749-23-000006",
+      "sequence": "3",
+      "filename": "ex_459738.htm",
+      "path": "runs/demo_ex10/ingest/0001437749-23-000006_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001437749-23-000006_4",
+      "accession": "0001437749-23-000006",
+      "sequence": "4",
+      "filename": "ex_459739.htm",
+      "path": "runs/demo_ex10/ingest/0001437749-23-000006_4.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001104659-23-000342_2",
+      "accession": "0001104659-23-000342",
+      "sequence": "2",
+      "filename": "tm2233788d1_ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000342_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001104659-23-000342_3",
+      "accession": "0001104659-23-000342",
+      "sequence": "3",
+      "filename": "tm2233788d1_ex10-2.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000342_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001437749-23-000158_2",
+      "accession": "0001437749-23-000158",
+      "sequence": "2",
+      "filename": "ex_453028.htm",
+      "path": "runs/demo_ex10/ingest/0001437749-23-000158_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001437749-23-000158_3",
+      "accession": "0001437749-23-000158",
+      "sequence": "3",
+      "filename": "ex_455554.htm",
+      "path": "runs/demo_ex10/ingest/0001437749-23-000158_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001437749-23-000158_4",
+      "accession": "0001437749-23-000158",
+      "sequence": "4",
+      "filename": "ex_455555.htm",
+      "path": "runs/demo_ex10/ingest/0001437749-23-000158_4.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001437749-23-000158_5",
+      "accession": "0001437749-23-000158",
+      "sequence": "5",
+      "filename": "ex_455556.htm",
+      "path": "runs/demo_ex10/ingest/0001437749-23-000158_5.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001193125-23-000266_2",
+      "accession": "0001193125-23-000266",
+      "sequence": "2",
+      "filename": "d436281dex101.htm",
+      "path": "runs/demo_ex10/ingest/0001193125-23-000266_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001193125-23-000266_3",
+      "accession": "0001193125-23-000266",
+      "sequence": "3",
+      "filename": "d436281dex102.htm",
+      "path": "runs/demo_ex10/ingest/0001193125-23-000266_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001558370-23-000007_2",
+      "accession": "0001558370-23-000007",
+      "sequence": "2",
+      "filename": "tilt-20221230xex10d1.htm",
+      "path": "runs/demo_ex10/ingest/0001558370-23-000007_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001558370-23-000007_3",
+      "accession": "0001558370-23-000007",
+      "sequence": "3",
+      "filename": "tilt-20221230xex10d2.htm",
+      "path": "runs/demo_ex10/ingest/0001558370-23-000007_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0000893691-23-000003_2",
+      "accession": "0000893691-23-000003",
+      "sequence": "2",
+      "filename": "a20230103ex101amendmenttos.htm",
+      "path": "runs/demo_ex10/ingest/0000893691-23-000003_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001493152-23-000162_3",
+      "accession": "0001493152-23-000162",
+      "sequence": "3",
+      "filename": "ex10-43.htm",
+      "path": "runs/demo_ex10/ingest/0001493152-23-000162_3.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001699136-23-000003_3",
+      "accession": "0001699136-23-000003",
+      "sequence": "3",
+      "filename": "whd-20230103xexhibit101.htm",
+      "path": "runs/demo_ex10/ingest/0001699136-23-000003_3.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001628280-23-000094_2",
+      "accession": "0001628280-23-000094",
+      "sequence": "2",
+      "filename": "ex-1001amendmentno1toterml.htm",
+      "path": "runs/demo_ex10/ingest/0001628280-23-000094_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001104659-23-000111_3",
+      "accession": "0001104659-23-000111",
+      "sequence": "3",
+      "filename": "tm2233776d2_ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000111_3.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001104659-23-000111_4",
+      "accession": "0001104659-23-000111",
+      "sequence": "4",
+      "filename": "tm2233776d2_ex10-2.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000111_4.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001104659-23-000111_5",
+      "accession": "0001104659-23-000111",
+      "sequence": "5",
+      "filename": "tm2233776d2_ex10-3.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000111_5.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001104659-23-000111_6",
+      "accession": "0001104659-23-000111",
+      "sequence": "6",
+      "filename": "tm2233776d2_ex10-4.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000111_6.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001104659-23-000111_7",
+      "accession": "0001104659-23-000111",
+      "sequence": "7",
+      "filename": "tm2233776d2_ex10-5.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000111_7.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001104659-23-000111_8",
+      "accession": "0001104659-23-000111",
+      "sequence": "8",
+      "filename": "tm2233776d2_ex10-6.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000111_8.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001104659-22-131459_2",
+      "accession": "0001104659-22-131459",
+      "sequence": "2",
+      "filename": "tm2233787d1_ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-22-131459_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001104659-22-131459_3",
+      "accession": "0001104659-22-131459",
+      "sequence": "3",
+      "filename": "tm2233787d1_ex10-2.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-22-131459_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001163370-23-000003_2",
+      "accession": "0001163370-23-000003",
+      "sequence": "2",
+      "filename": "a101schierhorn2023employme.htm",
+      "path": "runs/demo_ex10/ingest/0001163370-23-000003_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001163370-23-000003_3",
+      "accession": "0001163370-23-000003",
+      "sequence": "3",
+      "filename": "a102ballard2023employmenta.htm",
+      "path": "runs/demo_ex10/ingest/0001163370-23-000003_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001163370-23-000003_4",
+      "accession": "0001163370-23-000003",
+      "sequence": "4",
+      "filename": "a103huston2023employmentco.htm",
+      "path": "runs/demo_ex10/ingest/0001163370-23-000003_4.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001163370-23-000003_5",
+      "accession": "0001163370-23-000003",
+      "sequence": "5",
+      "filename": "a104craig2023employmentcon.htm",
+      "path": "runs/demo_ex10/ingest/0001163370-23-000003_5.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001163370-23-000003_6",
+      "accession": "0001163370-23-000003",
+      "sequence": "6",
+      "filename": "a105baldwin2023employmenta.htm",
+      "path": "runs/demo_ex10/ingest/0001163370-23-000003_6.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001493152-23-000063_2",
+      "accession": "0001493152-23-000063",
+      "sequence": "2",
+      "filename": "ex10-163.htm",
+      "path": "runs/demo_ex10/ingest/0001493152-23-000063_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001493152-23-000063_3",
+      "accession": "0001493152-23-000063",
+      "sequence": "3",
+      "filename": "ex10-164.htm",
+      "path": "runs/demo_ex10/ingest/0001493152-23-000063_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001493152-23-000063_4",
+      "accession": "0001493152-23-000063",
+      "sequence": "4",
+      "filename": "ex10-165.htm",
+      "path": "runs/demo_ex10/ingest/0001493152-23-000063_4.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001213900-23-000005_2",
+      "accession": "0001213900-23-000005",
+      "sequence": "2",
+      "filename": "ea170990ex10-1_happiness.htm",
+      "path": "runs/demo_ex10/ingest/0001213900-23-000005_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001213900-23-000005_3",
+      "accession": "0001213900-23-000005",
+      "sequence": "3",
+      "filename": "ea170990ex10-2_happiness.htm",
+      "path": "runs/demo_ex10/ingest/0001213900-23-000005_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001552781-23-000002_2",
+      "accession": "0001552781-23-000002",
+      "sequence": "2",
+      "filename": "e23001_ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001552781-23-000002_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001193125-23-000306_2",
+      "accession": "0001193125-23-000306",
+      "sequence": "2",
+      "filename": "d407158dex101.htm",
+      "path": "runs/demo_ex10/ingest/0001193125-23-000306_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001104659-23-000349_2",
+      "accession": "0001104659-23-000349",
+      "sequence": "2",
+      "filename": "tm231313d1_ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000349_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001193125-23-000889_2",
+      "accession": "0001193125-23-000889",
+      "sequence": "2",
+      "filename": "d407336dex101.htm",
+      "path": "runs/demo_ex10/ingest/0001193125-23-000889_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001477932-23-000012_2",
+      "accession": "0001477932-23-000012",
+      "sequence": "2",
+      "filename": "fssn_ex101.htm",
+      "path": "runs/demo_ex10/ingest/0001477932-23-000012_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001477932-23-000012_3",
+      "accession": "0001477932-23-000012",
+      "sequence": "3",
+      "filename": "fssn_ex102.htm",
+      "path": "runs/demo_ex10/ingest/0001477932-23-000012_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001628280-23-000074_2",
+      "accession": "0001628280-23-000074",
+      "sequence": "2",
+      "filename": "ex101dfa-assetpurchaseag.htm",
+      "path": "runs/demo_ex10/ingest/0001628280-23-000074_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001213900-23-000470_3",
+      "accession": "0001213900-23-000470",
+      "sequence": "3",
+      "filename": "ea171103ex10-1_hnracq.htm",
+      "path": "runs/demo_ex10/ingest/0001213900-23-000470_3.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001213900-23-000470_4",
+      "accession": "0001213900-23-000470",
+      "sequence": "4",
+      "filename": "ea171103ex10-2_hnracq.htm",
+      "path": "runs/demo_ex10/ingest/0001213900-23-000470_4.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001213900-23-000470_5",
+      "accession": "0001213900-23-000470",
+      "sequence": "5",
+      "filename": "ea171103ex10-3_hnracq.htm",
+      "path": "runs/demo_ex10/ingest/0001213900-23-000470_5.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001683168-23-000003_2",
+      "accession": "0001683168-23-000003",
+      "sequence": "2",
+      "filename": "odyssey_ex1001.htm",
+      "path": "runs/demo_ex10/ingest/0001683168-23-000003_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001683168-23-000003_3",
+      "accession": "0001683168-23-000003",
+      "sequence": "3",
+      "filename": "odyssey_ex1002.htm",
+      "path": "runs/demo_ex10/ingest/0001683168-23-000003_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001683168-23-000003_4",
+      "accession": "0001683168-23-000003",
+      "sequence": "4",
+      "filename": "odyssey_ex1003.htm",
+      "path": "runs/demo_ex10/ingest/0001683168-23-000003_4.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001493152-23-000031_2",
+      "accession": "0001493152-23-000031",
+      "sequence": "2",
+      "filename": "ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001493152-23-000031_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001493152-23-000031_3",
+      "accession": "0001493152-23-000031",
+      "sequence": "3",
+      "filename": "ex10-2.htm",
+      "path": "runs/demo_ex10/ingest/0001493152-23-000031_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001193125-23-000686_2",
+      "accession": "0001193125-23-000686",
+      "sequence": "2",
+      "filename": "d406704dex101.htm",
+      "path": "runs/demo_ex10/ingest/0001193125-23-000686_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001104659-23-000421_2",
+      "accession": "0001104659-23-000421",
+      "sequence": "2",
+      "filename": "dkdcu-20211231xex10d18.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000421_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001104659-23-000421_3",
+      "accession": "0001104659-23-000421",
+      "sequence": "3",
+      "filename": "dkdcu-20211231xex10d19.htm",
+      "path": "runs/demo_ex10/ingest/0001104659-23-000421_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001193125-23-000755_2",
+      "accession": "0001193125-23-000755",
+      "sequence": "2",
+      "filename": "d438534dex101.htm",
+      "path": "runs/demo_ex10/ingest/0001193125-23-000755_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001387131-23-000022_2",
+      "accession": "0001387131-23-000022",
+      "sequence": "2",
+      "filename": "ex10-01.htm",
+      "path": "runs/demo_ex10/ingest/0001387131-23-000022_2.html",
+      "primary": true
+    },
+    {
+      "item_id": "0001387131-23-000022_3",
+      "accession": "0001387131-23-000022",
+      "sequence": "3",
+      "filename": "ex10-02.htm",
+      "path": "runs/demo_ex10/ingest/0001387131-23-000022_3.html",
+      "primary": false
+    },
+    {
+      "item_id": "0001140361-23-000236_2",
+      "accession": "0001140361-23-000236",
+      "sequence": "2",
+      "filename": "brhc10046200_ex10-1.htm",
+      "path": "runs/demo_ex10/ingest/0001140361-23-000236_2.html",
+      "primary": true
+    }
+  ],
+  "prompt_views": {
+    "0001731122-23-000003_2": "runs/demo_ex10/prompt_views/0001731122-23-000003_2/prompt_view.txt",
+    "0001140361-23-000031_2": "runs/demo_ex10/prompt_views/0001140361-23-000031_2/prompt_view.txt",
+    "0001193125-23-000863_9": "runs/demo_ex10/prompt_views/0001193125-23-000863_9/prompt_view.txt",
+    "0001193125-23-000863_10": "runs/demo_ex10/prompt_views/0001193125-23-000863_10/prompt_view.txt",
+    "0001193125-23-000863_11": "runs/demo_ex10/prompt_views/0001193125-23-000863_11/prompt_view.txt",
+    "0001193125-23-000863_12": "runs/demo_ex10/prompt_views/0001193125-23-000863_12/prompt_view.txt",
+    "0001213900-23-000476_3": "runs/demo_ex10/prompt_views/0001213900-23-000476_3/prompt_view.txt",
+    "0001213900-23-000476_4": "runs/demo_ex10/prompt_views/0001213900-23-000476_4/prompt_view.txt",
+    "0001213900-23-000476_5": "runs/demo_ex10/prompt_views/0001213900-23-000476_5/prompt_view.txt",
+    "0000950170-23-000012_2": "runs/demo_ex10/prompt_views/0000950170-23-000012_2/prompt_view.txt",
+    "0001628280-23-000088_2": "runs/demo_ex10/prompt_views/0001628280-23-000088_2/prompt_view.txt",
+    "0001628280-23-000088_3": "runs/demo_ex10/prompt_views/0001628280-23-000088_3/prompt_view.txt",
+    "0000883984-23-000003_2": "runs/demo_ex10/prompt_views/0000883984-23-000003_2/prompt_view.txt",
+    "0000950170-23-000051_2": "runs/demo_ex10/prompt_views/0000950170-23-000051_2/prompt_view.txt",
+    "0001104659-23-000109_3": "runs/demo_ex10/prompt_views/0001104659-23-000109_3/prompt_view.txt",
+    "0001104659-23-000109_4": "runs/demo_ex10/prompt_views/0001104659-23-000109_4/prompt_view.txt",
+    "0001104659-23-000109_5": "runs/demo_ex10/prompt_views/0001104659-23-000109_5/prompt_view.txt",
+    "0001104659-23-000109_6": "runs/demo_ex10/prompt_views/0001104659-23-000109_6/prompt_view.txt",
+    "0001104659-23-000109_7": "runs/demo_ex10/prompt_views/0001104659-23-000109_7/prompt_view.txt",
+    "0001104659-23-000109_8": "runs/demo_ex10/prompt_views/0001104659-23-000109_8/prompt_view.txt",
+    "0001140361-23-000046_9": "runs/demo_ex10/prompt_views/0001140361-23-000046_9/prompt_view.txt",
+    "0001140361-23-000046_10": "runs/demo_ex10/prompt_views/0001140361-23-000046_10/prompt_view.txt",
+    "0001140361-23-000046_11": "runs/demo_ex10/prompt_views/0001140361-23-000046_11/prompt_view.txt",
+    "0001140361-23-000046_12": "runs/demo_ex10/prompt_views/0001140361-23-000046_12/prompt_view.txt",
+    "0001171843-23-000010_2": "runs/demo_ex10/prompt_views/0001171843-23-000010_2/prompt_view.txt",
+    "0001171843-23-000010_3": "runs/demo_ex10/prompt_views/0001171843-23-000010_3/prompt_view.txt",
+    "0001214659-23-000066_2": "runs/demo_ex10/prompt_views/0001214659-23-000066_2/prompt_view.txt",
+    "0001437749-23-000101_7": "runs/demo_ex10/prompt_views/0001437749-23-000101_7/prompt_view.txt",
+    "0001104659-22-131460_2": "runs/demo_ex10/prompt_views/0001104659-22-131460_2/prompt_view.txt",
+    "0001104659-22-131460_3": "runs/demo_ex10/prompt_views/0001104659-22-131460_3/prompt_view.txt",
+    "0001628280-23-000023_2": "runs/demo_ex10/prompt_views/0001628280-23-000023_2/prompt_view.txt",
+    "0001628280-23-000023_3": "runs/demo_ex10/prompt_views/0001628280-23-000023_3/prompt_view.txt",
+    "0000950170-23-000026_2": "runs/demo_ex10/prompt_views/0000950170-23-000026_2/prompt_view.txt",
+    "0000950170-23-000026_3": "runs/demo_ex10/prompt_views/0000950170-23-000026_3/prompt_view.txt",
+    "0001493152-23-000089_2": "runs/demo_ex10/prompt_views/0001493152-23-000089_2/prompt_view.txt",
+    "0001493152-23-000089_3": "runs/demo_ex10/prompt_views/0001493152-23-000089_3/prompt_view.txt",
+    "0001193125-23-000849_2": "runs/demo_ex10/prompt_views/0001193125-23-000849_2/prompt_view.txt",
+    "0001104659-22-131441_2": "runs/demo_ex10/prompt_views/0001104659-22-131441_2/prompt_view.txt",
+    "0001140361-23-000030_2": "runs/demo_ex10/prompt_views/0001140361-23-000030_2/prompt_view.txt",
+    "0001731122-23-000006_3": "runs/demo_ex10/prompt_views/0001731122-23-000006_3/prompt_view.txt",
+    "0001731122-23-000006_4": "runs/demo_ex10/prompt_views/0001731122-23-000006_4/prompt_view.txt",
+    "0001193125-23-000826_2": "runs/demo_ex10/prompt_views/0001193125-23-000826_2/prompt_view.txt",
+    "0001564590-23-000008_2": "runs/demo_ex10/prompt_views/0001564590-23-000008_2/prompt_view.txt",
+    "0001529274-23-000002_2": "runs/demo_ex10/prompt_views/0001529274-23-000002_2/prompt_view.txt",
+    "0001104659-23-000238_4": "runs/demo_ex10/prompt_views/0001104659-23-000238_4/prompt_view.txt",
+    "0001104659-23-000238_5": "runs/demo_ex10/prompt_views/0001104659-23-000238_5/prompt_view.txt",
+    "0001104659-23-000238_6": "runs/demo_ex10/prompt_views/0001104659-23-000238_6/prompt_view.txt",
+    "0001493152-23-000055_2": "runs/demo_ex10/prompt_views/0001493152-23-000055_2/prompt_view.txt",
+    "0001477932-23-000040_7": "runs/demo_ex10/prompt_views/0001477932-23-000040_7/prompt_view.txt",
+    "0001861449-23-000002_5": "runs/demo_ex10/prompt_views/0001861449-23-000002_5/prompt_view.txt",
+    "0001861449-23-000002_6": "runs/demo_ex10/prompt_views/0001861449-23-000002_6/prompt_view.txt",
+    "0001861449-23-000002_7": "runs/demo_ex10/prompt_views/0001861449-23-000002_7/prompt_view.txt",
+    "0001861449-23-000002_8": "runs/demo_ex10/prompt_views/0001861449-23-000002_8/prompt_view.txt",
+    "0001861449-23-000002_9": "runs/demo_ex10/prompt_views/0001861449-23-000002_9/prompt_view.txt",
+    "0001861449-23-000002_10": "runs/demo_ex10/prompt_views/0001861449-23-000002_10/prompt_view.txt",
+    "0001861449-23-000002_11": "runs/demo_ex10/prompt_views/0001861449-23-000002_11/prompt_view.txt",
+    "0001861449-23-000002_12": "runs/demo_ex10/prompt_views/0001861449-23-000002_12/prompt_view.txt",
+    "0001861449-23-000002_13": "runs/demo_ex10/prompt_views/0001861449-23-000002_13/prompt_view.txt",
+    "0001861449-23-000002_14": "runs/demo_ex10/prompt_views/0001861449-23-000002_14/prompt_view.txt",
+    "0001861449-23-000002_15": "runs/demo_ex10/prompt_views/0001861449-23-000002_15/prompt_view.txt",
+    "0001861449-23-000002_16": "runs/demo_ex10/prompt_views/0001861449-23-000002_16/prompt_view.txt",
+    "0001437749-23-000006_2": "runs/demo_ex10/prompt_views/0001437749-23-000006_2/prompt_view.txt",
+    "0001437749-23-000006_3": "runs/demo_ex10/prompt_views/0001437749-23-000006_3/prompt_view.txt",
+    "0001437749-23-000006_4": "runs/demo_ex10/prompt_views/0001437749-23-000006_4/prompt_view.txt",
+    "0001104659-23-000342_2": "runs/demo_ex10/prompt_views/0001104659-23-000342_2/prompt_view.txt",
+    "0001104659-23-000342_3": "runs/demo_ex10/prompt_views/0001104659-23-000342_3/prompt_view.txt",
+    "0001437749-23-000158_2": "runs/demo_ex10/prompt_views/0001437749-23-000158_2/prompt_view.txt",
+    "0001437749-23-000158_3": "runs/demo_ex10/prompt_views/0001437749-23-000158_3/prompt_view.txt",
+    "0001437749-23-000158_4": "runs/demo_ex10/prompt_views/0001437749-23-000158_4/prompt_view.txt",
+    "0001437749-23-000158_5": "runs/demo_ex10/prompt_views/0001437749-23-000158_5/prompt_view.txt",
+    "0001193125-23-000266_2": "runs/demo_ex10/prompt_views/0001193125-23-000266_2/prompt_view.txt",
+    "0001193125-23-000266_3": "runs/demo_ex10/prompt_views/0001193125-23-000266_3/prompt_view.txt",
+    "0001558370-23-000007_2": "runs/demo_ex10/prompt_views/0001558370-23-000007_2/prompt_view.txt",
+    "0001558370-23-000007_3": "runs/demo_ex10/prompt_views/0001558370-23-000007_3/prompt_view.txt",
+    "0000893691-23-000003_2": "runs/demo_ex10/prompt_views/0000893691-23-000003_2/prompt_view.txt",
+    "0001493152-23-000162_3": "runs/demo_ex10/prompt_views/0001493152-23-000162_3/prompt_view.txt",
+    "0001699136-23-000003_3": "runs/demo_ex10/prompt_views/0001699136-23-000003_3/prompt_view.txt",
+    "0001628280-23-000094_2": "runs/demo_ex10/prompt_views/0001628280-23-000094_2/prompt_view.txt",
+    "0001104659-23-000111_3": "runs/demo_ex10/prompt_views/0001104659-23-000111_3/prompt_view.txt",
+    "0001104659-23-000111_4": "runs/demo_ex10/prompt_views/0001104659-23-000111_4/prompt_view.txt",
+    "0001104659-23-000111_5": "runs/demo_ex10/prompt_views/0001104659-23-000111_5/prompt_view.txt",
+    "0001104659-23-000111_6": "runs/demo_ex10/prompt_views/0001104659-23-000111_6/prompt_view.txt",
+    "0001104659-23-000111_7": "runs/demo_ex10/prompt_views/0001104659-23-000111_7/prompt_view.txt",
+    "0001104659-23-000111_8": "runs/demo_ex10/prompt_views/0001104659-23-000111_8/prompt_view.txt",
+    "0001104659-22-131459_2": "runs/demo_ex10/prompt_views/0001104659-22-131459_2/prompt_view.txt",
+    "0001104659-22-131459_3": "runs/demo_ex10/prompt_views/0001104659-22-131459_3/prompt_view.txt",
+    "0001163370-23-000003_2": "runs/demo_ex10/prompt_views/0001163370-23-000003_2/prompt_view.txt",
+    "0001163370-23-000003_3": "runs/demo_ex10/prompt_views/0001163370-23-000003_3/prompt_view.txt",
+    "0001163370-23-000003_4": "runs/demo_ex10/prompt_views/0001163370-23-000003_4/prompt_view.txt",
+    "0001163370-23-000003_5": "runs/demo_ex10/prompt_views/0001163370-23-000003_5/prompt_view.txt",
+    "0001163370-23-000003_6": "runs/demo_ex10/prompt_views/0001163370-23-000003_6/prompt_view.txt",
+    "0001493152-23-000063_2": "runs/demo_ex10/prompt_views/0001493152-23-000063_2/prompt_view.txt",
+    "0001493152-23-000063_3": "runs/demo_ex10/prompt_views/0001493152-23-000063_3/prompt_view.txt",
+    "0001493152-23-000063_4": "runs/demo_ex10/prompt_views/0001493152-23-000063_4/prompt_view.txt",
+    "0001213900-23-000005_2": "runs/demo_ex10/prompt_views/0001213900-23-000005_2/prompt_view.txt",
+    "0001213900-23-000005_3": "runs/demo_ex10/prompt_views/0001213900-23-000005_3/prompt_view.txt",
+    "0001552781-23-000002_2": "runs/demo_ex10/prompt_views/0001552781-23-000002_2/prompt_view.txt",
+    "0001193125-23-000306_2": "runs/demo_ex10/prompt_views/0001193125-23-000306_2/prompt_view.txt",
+    "0001104659-23-000349_2": "runs/demo_ex10/prompt_views/0001104659-23-000349_2/prompt_view.txt",
+    "0001193125-23-000889_2": "runs/demo_ex10/prompt_views/0001193125-23-000889_2/prompt_view.txt",
+    "0001477932-23-000012_2": "runs/demo_ex10/prompt_views/0001477932-23-000012_2/prompt_view.txt",
+    "0001477932-23-000012_3": "runs/demo_ex10/prompt_views/0001477932-23-000012_3/prompt_view.txt",
+    "0001628280-23-000074_2": "runs/demo_ex10/prompt_views/0001628280-23-000074_2/prompt_view.txt",
+    "0001213900-23-000470_3": "runs/demo_ex10/prompt_views/0001213900-23-000470_3/prompt_view.txt",
+    "0001213900-23-000470_4": "runs/demo_ex10/prompt_views/0001213900-23-000470_4/prompt_view.txt",
+    "0001213900-23-000470_5": "runs/demo_ex10/prompt_views/0001213900-23-000470_5/prompt_view.txt",
+    "0001683168-23-000003_2": "runs/demo_ex10/prompt_views/0001683168-23-000003_2/prompt_view.txt",
+    "0001683168-23-000003_3": "runs/demo_ex10/prompt_views/0001683168-23-000003_3/prompt_view.txt",
+    "0001683168-23-000003_4": "runs/demo_ex10/prompt_views/0001683168-23-000003_4/prompt_view.txt",
+    "0001493152-23-000031_2": "runs/demo_ex10/prompt_views/0001493152-23-000031_2/prompt_view.txt",
+    "0001493152-23-000031_3": "runs/demo_ex10/prompt_views/0001493152-23-000031_3/prompt_view.txt",
+    "0001193125-23-000686_2": "runs/demo_ex10/prompt_views/0001193125-23-000686_2/prompt_view.txt",
+    "0001104659-23-000421_2": "runs/demo_ex10/prompt_views/0001104659-23-000421_2/prompt_view.txt",
+    "0001104659-23-000421_3": "runs/demo_ex10/prompt_views/0001104659-23-000421_3/prompt_view.txt",
+    "0001193125-23-000755_2": "runs/demo_ex10/prompt_views/0001193125-23-000755_2/prompt_view.txt",
+    "0001387131-23-000022_2": "runs/demo_ex10/prompt_views/0001387131-23-000022_2/prompt_view.txt",
+    "0001387131-23-000022_3": "runs/demo_ex10/prompt_views/0001387131-23-000022_3/prompt_view.txt",
+    "0001140361-23-000236_2": "runs/demo_ex10/prompt_views/0001140361-23-000236_2/prompt_view.txt"
+  }
+}

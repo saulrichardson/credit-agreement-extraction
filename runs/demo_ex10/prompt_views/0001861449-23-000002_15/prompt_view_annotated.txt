@@ -1,0 +1,620 @@
+[[A0001]]
+a1012-birdridesxemployee
+
+[[A0002]]
+BIRD CANADA, INC. Michael Washinushi January 1, 2023 Dear Mr. Washinushi, Bird Canada, Inc. (the “Company”), is pleased to offer you employment with the Company on the terms described in this Employment Letter Agreement (this “Letter”), commencing as of the Start Date set forth on the signature page hereto (the “Start Date”). 1. Position.
+
+[[A0003]]
+You shall, effective as of the Start Date, serve as Chief Financial Officer of Bird Global, Inc. (“Parent”), pursuant to an agreement to be entered into between the Company and Parent, and you shall perform such employment duties as are usual and customary for such position and/or as otherwise directed by the Company.
+
+[[A0004]]
+You will report to Parent’s Chief Executive Officer (currently Shane Torchiana). In addition to the foregoing, you shall serve the Company, Parent and/or any of their respective subsidiaries or affiliates in such other capacities as the Company may request from time to time, without additional compensation.
+
+[[A0005]]
+By signing this Letter, you confirm that you are under no contractual or other legal obligations that would prohibit you from performing your duties hereunder. 2. Compensation. (a) Base Salary.
+
+[[A0006]]
+Effective as of the Start Date, you will be paid an annual base salary (“Base Salary”) at the rate of $682,000 CAD per year, payable on the Company’s regular payroll dates and pro-rated for any partial year of service (including, for clarity, calendar year 2023). (b) Equity Award. (i) RSU Award.
+
+[[A0007]]
+Subject to the approval of Parent’s Board of Directors (the “Board”), or a subcommittee of the Board, you will be granted an award of Restricted Stock Units (“RSUs”) covering 2,500,000 shares of Parent’s Class A common stock (the “RSU Award”). Unless otherwise specified, the grant date shall be the date that the Board (or a subcommittee of the Board, as applicable) approves the grant of such RSUs.
+
+[[A0008]]
+The RSU Award will be subject to the terms and conditions contained in Parent’s 2021 Incentive Award Plan or an employment inducement plan, as determined by the Board in its sole discretion (in any case, the “Plan”), and the applicable RSU award agreement in a form attached hereto as Schedule A, which may include forfeiture provisions applicable on termination of your employment, subject to Section 3 below.
+
+[[A0009]]
+The RSU Award will vest with respect to 1/12 of the RSUs on March 1, 2023 and 1/12 each of the first 11 quarterly anniversaries thereafter, subject to the terms of the Plan and the RSU award agreement.
+
+[[A0010]]
+As soon as administratively practicable after the RSU Award becomes fully vested, the RSU Award will be settled in accordance with the terms of the Plan and applicable RSU award agreement. (ii) Future RSU Award(s). In addition, if Parent achieves specified stock price goals outlined in Exhibit A attached hereto, Parent will grant you, subject to the approval of the Board or a subcommittee thereof, one or more RSU awards (the “Performance-Vesting RSUs”). The Performance- Vesting RSUs will be subject to the terms and conditions contained in the Plan and the applicable RSU award agreement(s) in a form attached hereto as Schedule A, and will vest on a quarterly basis subject to Section 3 below.
+
+[[A0011]]
+You acknowledge and agree that the Performance-Vesting RSUs, and the shares of Class A common stock and the Price Per Share Goals (as defined on Exhibit A hereto) subject thereto, are subject to adjustment, modification and termination in connection with certain events as provided in this Letter (including Exhibit A hereto) and the Plan, as if they were granted under the Plan as of the date hereof. For
+
+[[A0012]]
+2 purposes of clarity, in connection with an Equity Restructuring (as defined in the Plan), the Price Per Share Goals, the number of Performance-Vesting RSUs and the shares of Class A common stock subject thereto shall be subject to adjustment pursuant to the Plan (as applicable), including Section 8.1 of Parent’s 2021 Incentive Award Plan. (iii) Annual Equity Awards.
+
+[[A0013]]
+Beginning in calendar year 2024, you will be eligible to receive an annual equity-based compensation award as determined by the Board (or a subcommittee thereof) from time to time.
+
+[[A0014]]
+The Board (or such subcommittee) will determine in its sole discretion the grant timing, amount, form(s) and mix, and such other terms and conditions, applicable to any such annual equity-based compensation award, which may include forfeiture provisions applicable on termination of the your employment, subject to Section 3 below. (iv) Notwithstanding the foregoing and notwithstanding anything to the contrary in the Plan, the awards described in paragraphs (i), (ii) and (iii) above will be structured in a manner that complies with Section 7 of the Income Tax Act (Canada), including, without limitation: (A) by requiring that Parent’s Class A common stock be issued to you from treasury upon settlement of RSUs and not in cash or with shares purchased on the open market, (B) by requiring that dividend equivalents be paid to you in as a bonus, in cash, and (C) by deeming any provisions of the Plan which are inconsistent with Section 7 of the Income Tax Act (Canada) to be inapplicable. (c) Performance Bonus.
+
+[[A0015]]
+For each of calendar years 2023 and 2024, you shall be eligible to earn one or more cash performance bonuses (each, a “Performance Bonus”), as follows: (i) Adjusted EBITDA.
+
+[[A0016]]
+You shall be eligible to earn (i) a Performance Bonus equal to $12,800 CAD for each calendar quarter in which the Company achieves positive Adjusted EBITDA (as defined below), beginning with the first quarter of 2023; and (ii) an additional Performance Bonus equal to $51,200 CAD if the Company achieves positive Adjusted EBITDA for any three calendar quarters in the same calendar year (i.e., in 2023 or in 2024), in each case, as determined by the Board or a subcommittee thereof.
+
+[[A0017]]
+In no event shall more than $102,400 CAD be payable to you with respect to any one calendar year under this Section 2(c)(i). For purposes of this Letter, “Adjusted EBITDA” means, with respect to the applicable period, Adjusted EBITDA as reported in the applicable earnings release attached as an exhibit to the Company’s Current Report on Form 8-K for the applicable period. (ii) Free Cash Flow.
+
+[[A0018]]
+You shall be eligible to earn (i) a Performance Bonus equal to $25,600 CAD for each calendar quarter during which the Company achieves positive Free Cash Flow (as defined below), beginning with the first quarter of 2023; and (ii) an additional Performance Bonus equal to $102,400 CAD if the Company achieves positive Free Cash Flow for any three calendar quarters in the same calendar year (i.e., in 2023 or in 2024), in each case, as determined by the Board or a subcommittee thereof.
+
+[[A0019]]
+In no event shall more than $204,800 CAD be payable to you with respect to any one calendar year under this Section 2(c)(ii). For purposes of this Letter, “Free Cash Flow” means, with respect to an applicable period, (1) Free Cash Flow as reported in the applicable earnings release attached as an exhibit to the Company’s Current Report on Form 8-K for the applicable period or (2) if Free Cash Flow is not specifically reported in the applicable earnings release, (x) net cash provided by operating activities, less (y) purchases of vehicles, each as reported in the applicable earnings release attached as an exhibit to the Company’s Current Report on Form 8-K for the applicable period. (iii) YOY Net Revenue.
+
+[[A0020]]
+You shall be eligible to earn (i) a Performance Bonus equal to $38,400 CAD if the Company’s Net Revenue (as defined below) increases by 30% or more year- over-year from calendar year 2022 to calendar year 2023 (the “2023 YOY Net Revenue Goal”); and (ii) an additional Performance Bonus equal to $38,400 CAD if the Company’s Net Revenue increases by 30% or more year-over-year from calendar year 2023 to calendar year 2024 (the “2024 YOY Net Revenue Goal”
+
+[[A0021]]
+3 and, together with the 2023 YOY Net Revenue Goal, the “YOY Net Revenue Goals”), as determined by the Board or a subcommittee thereof; provided, however, that (x) any additional 2023 Net Revenue associated with a corporate acquisition that is consummated in calendar year 2023 will be excluded for purposes of calculating the level at which the 2023 YOY Net Revenue Goal is achieved and (y) any additional 2024 Net Revenue associated with a corporate acquisition that is consummated in calendar year 2024 will be excluded for purposes of calculating the level at which the 2024 YOY Net Revenue Goal is achieved.
+
+[[A0022]]
+In no event shall more than $76,800 CAD be payable to you under this Section 2(c). For purposes of this Letter, “Net Revenue” means, with respect to an applicable period, (x) revenue, less (y) contra revenue, each as reported in the applicable earnings release attached as an exhibit to the Company’s Current Report on Form 8-K for the applicable period. (iv) Additional Performance Bonus.
+
+[[A0023]]
+Without limiting anything set forth in this Section 2, you also will be eligible to earn an additional $204,800 CAD with respect to each of calendar year 2023 and calendar year 2024 if the Company achieves both (i) positive Adjusted EBITDA and positive Free Cash Flow for any three calendar quarters in the same calendar year (i.e., in 2023 or in 2024); and (ii) the YOY Net Revenue Goal for such calendar year, in each case, as determined by the Board or a subcommittee thereof.
+
+[[A0024]]
+In no event shall more than $409,600 CAD be payable to you under this Section 2(c)(iv). (v) Payment.
+
+[[A0025]]
+The payment of any Performance Bonus, to the extent any Performance Bonus becomes payable, will be made within 75 days after the end of the applicable calendar quarter or 75 days after the end of the applicable calendar year (as applicable), subject to your continued employment with the Company throughout the applicable performance period, and subject to Section 3 below.
+
+[[A0026]]
+Performance Bonus is not earned until it is paid.
+
+[[A0027]]
+Except only as may be required to satisfy the minimum requirements of applicable employment or labour standards legislation, no Performance Bonus will be paid or is payable to you following the Termination Date, and you waive any claim to damages in respect thereof whether related or attributable to any contractual or common law termination entitlements or otherwise. (d) Signing Bonus.
+
+[[A0028]]
+The Company shall pay you a one-time cash signing bonus (the “Signing Bonus”) in an amount equal to $100,000 CAD, payable in a lump-sum within 45 days following the Start Date.
+
+[[A0029]]
+Notwithstanding the foregoing or anything to the contrary herein or in any other agreement, you acknowledge and agree that if the Termination Date occurs other than due to a Qualifying Termination (as defined below) or due to your death or disability, in any case, prior to the second anniversary of the Start Date, all or a portion of the Signing Bonus shall be repaid promptly by you to the Company immediately upon demand therefor in an amount equal to: (i) 100% of the Signing Bonus, if such termination occurs prior to the first anniversary of the Start Date; and (ii) 50% of the Signing Bonus, if such termination occurs on or after the first anniversary of the Start Date and prior to the second anniversary of the Start Date.
+
+[[A0030]]
+You and the Company acknowledge and agree that the Signing Bonus (or the relevant portion thereof) will not be earned unless and until you are continuously, actively employed with the Company through the applicable anniversary of the Start Date, and the Termination Date has not occurred.
+
+[[A0031]]
+However, if a Change in Control (as defined in the Plan) is consummated and you remain in continuous employment until immediately prior to the Change in Control, you will be deemed earned in the entire Signing Bonus and you will not be required to repay any portion of the Signing Bonus that remains subject to the above repayment provision.
+
+[[A0032]]
+4 (e) Benefits.
+
+[[A0033]]
+During your employment with the Company, you (and your spouse and/or eligible dependents to the extent provided in the applicable plans and programs) shall be eligible to participate in and be covered under the health and welfare benefit plans and programs maintained by the Company for the benefit of its employees from time to time, pursuant to the terms of such plans and programs, on the same terms and conditions as those applicable to similarly situated executives of the Company. 3. Severance. (a) Qualifying Termination.
+
+[[A0034]]
+Subject to Section 3(b) below and your continued compliance with the Confidentiality Agreement (as defined below), if your employment is terminated due to a Qualifying Termination, then, the Company will provide you with: (i) payment of any Base Salary that is earned, due and payable to you up to and including the last day of employment; (ii) payment of any Performance Bonus that was earned, but not yet paid, on the date of termination; (iii) an amount equal to 12 months of your Base Salary then in effect (the “Severance”), payable in substantially equal installments in accordance with the Company’s normal payroll practices over the 12-month period following the termination of your employment (the “Severance Period”), with such installments commencing on the first regular payroll date following the effective date of the Release (as defined below), and amounts otherwise payable prior to such first payroll date shall be paid on such date without interest thereon; (iv) subject to insurer approval and any required exclusions, continued participation under the Company benefits plans for the minimum period required pursuant to applicable employment or labour standards legislation; (v) the minimum amount of vacation pay as may then be required to be paid to your pursuant to applicable employment or labour standards legislation; (vi) all outstanding Time Vesting Awards (as defined below) shall, to the extent then-unvested, vest (and, as applicable, become exercisable) on an accelerated basis as of the Termination Date with respect to the number of shares underlying the award that would have vested had you remained in continuous employment during the 24-month period following the Termination Date; provided, however, that, with respect to any Time Vesting Award that vests on a quarterly basis, the number of Parent shares that become vested in accordance with the foregoing shall be calculated assuming that the vesting schedule for such award is monthly (rather than quarterly) over the vesting period from the applicable vesting commencement date.
+
+[[A0035]]
+Notwithstanding the foregoing, in the event that such Qualifying Termination occurs during the 24-month period following the date on which a Change in Control is consummated, all of your then-outstanding Time Vesting Awards shall, to the extent then-unvested, become fully vested (and, as applicable, exercisable) on an accelerated basis as of the Termination Date; and (vii) to the extent that the compensation and benefits set out above do not fully satisfy your entitlements under the applicable employment or labour standards legislation, payment and provision of any additional compensation and benefits that are then required to be paid or provided to the you to satisfy your minimum entitlements under the applicable employment or labour standards legislation.
+
+[[A0036]]
+For absolute clarity, in no case will you receive less than the minimum payments and benefits that are then
+
+[[A0037]]
+5 required to be provided to you by the Company upon such termination pursuant to applicable employment or labour standards legislation.
+
+[[A0038]]
+In addition to the severance payments and benefits described in Section 3(a) above, you and the Company acknowledge and agree that, following a Qualifying Termination of your employment, at the Company’s request, you and the Company shall enter into an advisor or consulting agreement, pursuant to which you will provide advisory and/or transition services to the Company and its affiliates for a period of up to one year following the Termination Date, on terms and conditions determined by the Board or a subcommittee thereof.
+
+[[A0039]]
+You agree that if your employment with the Company ceases as a result of the constructive dismissal of your employment, then this Section will govern and limit your entitlements upon such constructive dismissal as if the Company had terminated your employment without Cause. (b) Release.
+
+[[A0040]]
+Any severance payments and benefits described in Section 3(a) above, which exceed your minimum standards under applicable employment and labour standards legislation, will be conditional upon your timely execution and non-revocation of the Company’s standard separation and release agreement, including a general release of all claims, in a form prescribed by the Company (the “Release”), within 21 days (or such longer period as may be required by applicable law) following the Termination Date.
+
+[[A0041]]
+For the avoidance of doubt, each Time Vesting Award shall remain outstanding and eligible to vest following the termination date and shall actually vest and become non-forfeitable upon the effectiveness of the Release. (c) Performance Awards.
+
+[[A0042]]
+Any Parent equity compensation awards that have not become Time Vesting Awards and remain subject to the achievement of performance conditions (i.e., other than continued service) as of the Termination Date (including any Performance-Vesting RSUs that have not yet been granted because the applicable performance goal has not yet been achieved) shall be forfeited and terminated without consideration therefor, except to the extent required under applicable employment or labour standards legislation. (d) Certain Definitions.
+
+[[A0043]]
+For purposes of this Letter: (i) “Cause” shall have the meaning set forth in the Plan. (ii) “Change in Control” shall have the meaning set forth in the Plan.
+
+[[A0044]]
+For greater certainty, and for the purposes of this Letter: (1) references to “the Company” in the definition of “Change in Control” are deemed to refer to Bird Canada, Inc. and/or Bird Global, Inc.; (2) references to a “transaction” in the definition of “Change in Control” are deemed to include a dissolution, winding up or bankruptcy of the Company, or any changes occurring as a result of the Company filing for protection under the Companies' Creditors Arrangement Act, RSC 1985, c C-36 or the U.S. equivalent, in addition to the transactions that are specifically described; and (3) a “Change in Control” is deemed to have occurred where the Company and/or Parent’s Board of Directors determines, in its sole discretion, that there has been a change of control. (iii) “Good Reason” shall mean the occurrence of any one or more of the following events without your prior written consent unless the Company fully corrects the circumstances
+
+[[A0045]]
+6 constituting Good Reason (provided such circumstances are capable of correction): (1) a material reduction in your Base Salary of 10% or greater, other than a reduction of up to 10% in connection with an across- the-board reduction affecting all similarly situated senior executives of the Company; (2) a material reduction in your benefits and perquisites; (3) the discontinuation of your participation in any equity or incentive plan or program that is described in Section 2 above; (4) a failure to pay you any portion of your then-current compensation when it becomes due, unless you have consented to delay such compensation; (5) a material diminution of your title, authority, duties or responsibilities, excluding for this purpose any isolated, insubstantial or inadvertent actions not taken in bad faith and which are remedied by the Company promptly after receipt of notice thereof given by you; (6) a relocation of your principal workplace (which may include your personal residence) by more than 35 miles; (7) a material breach by the Company or any of its affiliates of this Letter; or (8) a requirement that you report to any person other than the President or the Chief Executive Officer of Parent (other than temporarily or as required by applicable law). Notwithstanding the foregoing, you will not be deemed to have resigned your employment for Good Reason unless (x) you provide the Company with written notice setting forth in reasonable detail the facts and circumstances you claim to constitute Good Reason within 90 days after the date of the occurrence of any event that you know or should reasonably have known to constitute Good Reason; (y) the Company fails to cure such acts or omissions within 30 days following its receipt of such notice; and (z) the effective date of your resignation for Good Reason occurs no later than 60 days after the expiration of the Company’s cure period. (iv) “Qualifying Termination” shall mean a termination of your employment (1) by the Company without Cause (other than by reason of your death or disability) or (2) by you for Good Reason. (v) “Termination Date” means the date on which you cease to be an employee of the Company for any reason, whether lawful or otherwise (including, without limitation, by reason of resignation, termination for Cause, termination without Cause, death, frustration of contract due to disability or constructive dismissal), without regard to any pay in lieu of notice (whether by lump sum or salary continuance), benefits continuation, or other termination or severance payments or benefits which the Employee may then receive or be entitled to receive, whether pursuant to contract, the common law or otherwise. (vi) “Time Vesting Awards” shall mean all outstanding Parent equity awards that vest solely on the passage of time that are held by you on the Termination Date (including, for clarity, (x) any then-unvested RSUs underlying the RSU Award and (y) any then-unvested Performance-Vesting RSUs (to the extent then-outstanding) that, as of the Termination Date, have satisfied the applicable performance goal (but which remain subject to time-based vesting conditions)). (e) No Other Rights.
+
+[[A0046]]
+Except as expressly provided in this Section 3(a), you shall not be entitled to any additional payments or benefits upon or in connection with your termination of employment. 4. Confidential Agreement.
+
+[[A0047]]
+Like all Company employees, you will be required, as a condition of your employment with the Company, to sign the Company’s standard Intellectual Property and Confidential Information Agreement (the “Confidentiality Agreement”). 5. Employment Relationship.
+
+[[A0048]]
+Your employment with the Company with commence on the Start Date and continue indefinitely until terminated in accordance with this Letter. 6. Outside Activities.
+
+[[A0049]]
+While you render services to the Company, you agree that you will not engage in any other employment, or any consulting or other business activity that competes or causes a
+
+[[A0050]]
+7 conflict of interest with Parent or the Company and/or the performance of your duties, without the written consent of Parent or the Company. 7. Indemnification.
+
+[[A0051]]
+Parent or the Company will indemnify, defend, and hold you harmless to the fullest extent provided in the Company’s Bylaws and other organizing documents, including the Certificate of Incorporation and any separate, written indemnification agreement entered into by and between you and the Company in the substantially the same form as provided to all other Company officers and directors. 8. Taxes, Withholding and Required Deductions.
+
+[[A0052]]
+All forms of compensation referred to in this Letter are in Canadian dollars and are subject to all applicable taxes, withholding and any other deductions required by applicable law. 9. Employee Handbook.
+
+[[A0053]]
+Additionally, your acceptance of this offer of employment means that you understand and agree to familiarize yourself with and adhere to the Company policies and procedures which you will find in the Company Handbook. 10.
+
+[[A0054]]
+No Tax Advice.
+
+[[A0055]]
+You acknowledge and agree that you have consulted with any tax advisors that you deem advisable in connection with this Letter and the potential payments and other benefits specified herein and that you are not relying on the Company, Parent or any of their respective subsidiaries, affiliates, stockholders, directors, officers or employees, or any of their respective representatives, for tax advice. 11.
+
+[[A0056]]
+Arbitration.
+
+[[A0057]]
+Like all Company employees, you will be required, as a condition of your employment with the Company, to sign the Company’s Mutual Agreement to Arbitrate.
+
+[[A0058]]
+Unless a mandatory dispute resolution procedure is required by a statute applicable to this Letter, any disputes concerning your employment, the terms of your employment, the termination of your employment, your relationship with the Company, or the interpretation and application of this offer shall be resolved on an individual basis through binding arbitration in accordance with the Mutual Agreement to Arbitrate. 12.
+
+[[A0059]]
+Governing Law.
+
+[[A0060]]
+The validity, interpretation, construction and performance of this Letter, and all acts and transactions pursuant hereto and the rights and obligations of the parties hereto shall be governed, construed and interpreted in accordance with the laws of the Province of Ontario and the laws of Canada applicable in that Province, without giving effect to principles of conflicts of law. 13.
+
+[[A0061]]
+Entire Agreement.
+
+[[A0062]]
+This Letter, and the agreements referenced herein, set forth the entire agreement and understanding of the parties hereto relating to the subject matter herein and supersedes all prior or contemporaneous discussions, understandings and agreements, whether oral or written, between them relating to the subject matter hereof. 14.
+
+[[A0063]]
+Counterparts.
+
+[[A0064]]
+This Letter may be executed in any number of counterparts, each of which when so executed and delivered shall be deemed an original, and all of which together shall constitute one and the same agreement.
+
+[[A0065]]
+Execution of a facsimile or PDF (or other electronic) copy will have the same force and effect as execution of an original, and a facsimile or electronic signature will be deemed an original and valid signature. 15.
+
+[[A0066]]
+Electronic Delivery.
+
+[[A0067]]
+The Company may, in its sole discretion, decide to deliver any documents or notices related to this Letter, securities of the Company or any of its affiliates or any other matter, including documents and/or notices required to be delivered to you by applicable securities law or any other law by email or any other electronic means.
+
+[[A0068]]
+You hereby consent to (i) conduct business electronically (ii) receive such documents and notices by such electronic delivery and (iii) sign documents
+
+[[A0069]]
+8 electronically and agree to participate through an on-line or electronic system established and maintained by the Company or a third party designated by the Company.
+
+[[A0070]]
+If you wish to accept this offer, please sign and date and return to me.
+
+[[A0071]]
+You acknowledge and agree that this offer is contingent upon (i) your ability to provide proper work authorization to be employed by the Company and (ii) receiving applicable background check results that meet standards based upon job duties and business necessity.
+
+[[A0072]]
+Please note, given ongoing delays and closures with certain public institutions in light of the COVID pandemic, we may need to re-run your background check for certain jurisdictions once they are accessible.
+
+[[A0073]]
+You will be notified at that time and will be provided with the applicable disclosures, and asked to provide consent to run your background check.
+
+[[A0074]]
+You understand that your continued employment will be contingent upon receiving applicable background check results that meet standards based upon job duties and business necessity at that time.
+
+[[A0075]]
+This means that if a potentially disqualifying record is revealed in the completed background check, the Company may terminate your employment in accordance with applicable law.
+
+[[A0076]]
+This offer, if not accepted, will expire at the close of business on January 3, 2023. [Signature Page Follows]
+
+[[A0077]]
+[Signature Page to Offer Letter] Please indicate your acknowledgement of, and agreement to, the terms and conditions set forth in this Letter by signing and dating this Letter in the space provided below and returning the signed Letter to Brooke Tandy.
+
+[[A0078]]
+We very much look forward to having you join us.
+
+[[A0079]]
+Very truly yours, BIRD CANADA, INC. By: /s/ Shane Torchiana Name: Shane Torchiana Title: Authorized Signatory
+
+[[A0080]]
+[Signature Page to Offer Letter] ACCEPTED AND AGREED: Michael Washinushi /s/ Michael Washinushi Anticipated Start Date: January 1, 2023
+
+[[A0081]]
+EXHIBIT A Grant of Performance-Vesting RSUs; General Vesting Schedule Grant of RSUs.
+
+[[A0082]]
+Performance-Vesting RSUs will be granted to you in two separate tranches as set forth in the table below (each, a “Tranche”), following the attainment of the applicable Price Per Share (as defined below) goals set forth in the following table (each, a “Price Per Share Goal” and, the date on which such Price Per Share Goal is attained (the “Vesting Commencement Date”)), in each case, subject to approval by the Board or a subcommittee thereof.
+
+[[A0083]]
+Price Per Share Goal (1) Number of Granted Performance- Vesting RSUs Price Per Share is greater than or equal to $2.50 USD for any 10 Trading Days (as defined below), which may or may not be consecutive, within any 20 consecutive Trading Day period within the Performance Period 1,000,000 Price Per Share is greater than or equal to $5.00 USD for any 10 Trading Days, which may or may not be consecutive, within any 20 consecutive Trading Day period within the Performance Period 500,000 (1) Upon a Change in Control during the Performance Period, the Price Per Share shall be the CIC Price (as defined below) and the Price Per Share Goal shall be measured without regard to the Trading Day period described in the table above.
+
+[[A0084]]
+For the avoidance of doubt, (i) each Price Per Share Goal may be achieved only once during the Performance Period and (ii) more than one Price Per Share Goal may be achieved on a particular date.
+
+[[A0085]]
+For example, if the first Price Per Share Goal of $2.50 USD per Share is satisfied on January 21, 2023, the Price Per Share thereafter drops below such level and again reaches $2.50 USD per Share, then no additional Performance-Vesting RSUs shall be granted with respect to the achievement of such Price Per Share Goal a second time.
+
+[[A0086]]
+Service-Vesting Requirement.
+
+[[A0087]]
+Each Performance-Vesting RSU granted to you with respect to a Tranche shall fully vest as to 1/6th of the total number of RSUs subject such Tranche on each quarterly anniversary of the applicable Vesting Commencement Date, such that all of the RSUs subject to such Tranche shall have fully vested as of the 18-month anniversary of such Vesting Commencement Date, subject to your continued employment with the Company or its affiliates throughout the applicable performance period (and rounded down to the nearest whole RSU until the final vesting date), subject to Section 3. For certainty, except only as may be required to satisfy the minimum requirements of applicable employment or labour standards legislation, as amended or replaced, no RSUs granted to you shall further vest following the Termination Date, and any RSU that is unvested (or any unvested portion thereof) on the Termination Date will terminate and be cancelled on that date, and you shall have no claim to any payment or damages in lieu thereof whether under the common law or otherwise.
+
+[[A0088]]
+Change in Control If a Change in Control occurs during the Performance Period, and a Price Per Share Goal is first achieved based on the CIC Price, then any Performance-Vesting RSUs to which such Price Per Share Goal applies shall be granted (or, as determined by the Board or a subcommittee thereof in its sole discretion, shall be deemed granted) and shall be eligible to vest following such Change in Control subject to the satisfaction of the service-vesting condition set forth above or in accordance with Section 3.
+
+[[A0089]]
+Notwithstanding the generality of the foregoing, in the event that a Price Per Share Goal was achieved prior to such Change in Control, no additional Performance-Vesting RSUs shall be granted with respect to the achievement of such Price Per Share Goal in connection with such Change in Control.
+
+[[A0090]]
+Notwithstanding anything to the contrary contained herein or in the Plan (including Section 8.3 of Parent’s 2021 Incentive Award Plan), if, in connection with the occurrence of a Change in Control, any Performance-Vesting RSUs have not or do not become granted due to failure to achieve the applicable Price Per Share Goal, then your right to the grant of such RSUs automatically will be forfeited and terminated without consideration therefor as of immediately prior to the consummation of such Change in Control, and you shall have no claim to any payment or damages in lieu thereof whether under the common law or otherwise.
+
+[[A0091]]
+Termination of Service Upon your Termination Date, all Performance-Vesting RSUs that have not become Time Vesting Awards and/or been granted as of the Termination Date (because the applicable Price Per Share Goal has not yet been achieved) automatically will be forfeited and terminated without consideration therefor.
+
+[[A0092]]
+For certainty, except only as may be required to satisfy the minimum requirements of applicable employment or labour standards legislation, as amended or replaced, no Performance-Vesting RSUs shall be granted following your Termination Date and will terminate and be cancelled on that date, and you shall have no claim to any payment or damages in lieu thereof whether under the common law or otherwise.
+
+[[A0093]]
+Definitions “CIC Price” means the price per Share of Class A Common Stock (each such term as defined in the Plan) (or, in connection with a sale or other disposition of all or substantially all of the Parent’s assets, the implied price per Share of Class A Common Stock) paid by an acquiror in connection with such Change in Control or, to the extent that the consideration in the Change in Control transaction is paid in stock of the acquiror or its affiliate, then, unless otherwise determined by the Administrator (as defined in the Plan), the CIC Price shall mean the value of the consideration paid per Share based on the average of the closing trading prices of a share of such acquiror stock on the principal exchange on which such shares are then traded for each Trading Day during the five consecutive Trading Days ending on and including the date on which a Change in Control occurs.
+
+[[A0094]]
+In the event the consideration in the Change in Control takes any other form, the value of such additional consideration shall be determined by the Administrator in its sole discretion. “Performance Period” means the period beginning on (and including) the Start Date and ending on (and including) the five year anniversary of the Start Date. “Price Per Share” means (i) the daily volume-weighted average sale price of one Share quoted on the New York Stock Exchange (or the exchange on which the Shares are then listed); or (ii) if a Change in Control is consummated during the Performance Period, the CIC Price. “Termination Date” means the date on which you cease to be an employee of the Company or its affiliates for any reason, whether lawful or otherwise (including, without limitation, by reason of resignation, termination for Cause (as defined in the Plan), termination without Cause, death, frustration of contract due to disability or constructive dismissal), without regard to any pay in lieu of notice (whether by lump sum or salary continuance), benefits continuation, or other termination or severance payments or benefits which you may then receive or be entitled to receive, whether pursuant to contract, the common law or otherwise.
+
+[[A0095]]
+“Trading Day” means any day on which Shares are actually traded on the principal securities exchange or securities market on which Shares are then traded.
+
+[[A0096]]
+SCHEDULE A RESTRICTED STOCK UNIT GRANT NOTICE Bird Global, Inc., a Delaware corporation (the “Company”), has granted to the participant listed below (“Participant”) the Restricted Stock Units (the “RSUs”) described in this Restricted Stock Unit Grant Notice (this “Grant Notice”), subject to the terms and conditions of the Bird Global, Inc. 2021 Incentive Award Plan (as amended from time to time, the “Plan”) and the Restricted Stock Unit Agreement attached hereto as Exhibit A (the “Agreement”), both of which are incorporated into this Grant Notice by reference.
+
+[[A0097]]
+Capitalized terms not specifically defined in this Grant Notice or the Agreement have the meanings given to them in the Plan.
+
+[[A0098]]
+Participant: Grant Date: Number of RSUs: Vesting Commencement Date: Vesting Schedule: By accepting (whether in writing, electronically or otherwise) the RSUs, Participant agrees to be bound by the terms of this Grant Notice, the Plan and the Agreement.
+
+[[A0099]]
+Participant has reviewed the Plan, this Grant Notice and the Agreement in their entirety, has had an opportunity to obtain the advice of counsel prior to executing this Grant Notice and fully understands all provisions of the Plan, this Grant Notice and the Agreement.
+
+[[A0100]]
+Participant hereby agrees to accept as binding, conclusive and final all decisions or interpretations of the Administrator upon any questions arising under the Plan, this Grant Notice or the Agreement.
+
+[[A0101]]
+BIRD GLOBAL, INC. PARTICIPANT By: Name: Participant Name: Title: BIRD GLOBAL, INC. 2021 INCENTIVE AWARD PLAN
+
+[[A0102]]
+Exhibit A RESTRICTED STOCK UNIT AGREEMENT Capitalized terms not specifically defined in this Restricted Stock Unit Agreement (this “Agreement”) have the meanings specified in the Grant Notice or, if not defined in the Grant Notice, in the Plan.
+
+[[A0103]]
+ARTICLE I. GENERAL 1.1 Award of RSUs.
+
+[[A0104]]
+The Company has granted the RSUs to Participant effective as of the Grant Date set forth in the Grant Notice (the “Grant Date”). Each RSU represents the right to receive one Share as set forth in this Agreement.
+
+[[A0105]]
+Participant will have no right to the distribution of any Shares until the time (if ever) the RSUs have vested. 1.2 Incorporation of Terms of Plan.
+
+[[A0106]]
+The RSUs are subject to the terms and conditions set forth in this Agreement and the Plan, which is incorporated herein by reference.
+
+[[A0107]]
+In the event of any inconsistency between the Plan and this Agreement, the terms of the Plan will control. 1.3 Unsecured Promise.
+
+[[A0108]]
+The RSUs will at all times prior to settlement represent an unsecured Company obligation payable only from the Company’s general assets.
+
+[[A0109]]
+ARTICLE II.
+
+[[A0110]]
+VESTING; FORFEITURE AND SETTLEMENT 2.1 Vesting; Forfeiture.
+
+[[A0111]]
+The RSUs will vest according to the vesting schedule in the Grant Notice except that any fraction of an RSU that would otherwise be vested will be accumulated and will vest only when a whole RSU has accumulated.
+
+[[A0112]]
+In the event of Participant’s Termination of Service for any reason, all unvested RSUs will immediately and automatically be cancelled and forfeited, except as otherwise determined by the Administrator or provided in a binding written agreement between Participant and the Company. 2.2 Settlement. (a) The RSUs will be paid in Shares as soon as administratively practicable after the vesting of the applicable RSU, but in no event later than March 15 of the year following the year in which the RSU’s vesting date occurs. (b) Notwithstanding the foregoing, the Company may delay any payment under this Agreement that the Company reasonably determines would violate Applicable Law until the earliest date the Company reasonably determines the making of the payment will not cause such a violation (in accordance with Treasury Regulation Section 1.409A-2(b)(7)(ii)); provided the Company reasonably believes the delay will not result in the imposition of excise taxes under Section 409A.
+
+[[A0113]]
+ARTICLE III.
+
+[[A0114]]
+TAXATION AND TAX WITHHOLDING 3.1 Representation.
+
+[[A0115]]
+Participant represents to the Company that Participant has reviewed with Participant’s own tax advisors the tax consequences of this award of RSUs (the “Award”) and the transactions contemplated by the Grant Notice and this Agreement.
+
+[[A0116]]
+Participant is relying solely on such advisors and not on any statements or representations of the Company or any of its agents.
+
+[[A0117]]
+3.2 Tax Withholding. (a) Subject to Section 3.2(b), payment of the withholding tax obligations with respect to the Award may be by any of the following, or a combination thereof, as determined by the Company in its sole discretion: (i) Cash or check; (ii) In whole or in part by delivery of Shares, including Shares delivered by attestation and Shares retained from the Award creating the tax obligation, valued at their Fair Market Value on the date of delivery; or (iii) In whole or in part by the Company withholding of Shares otherwise vesting or issuable under this Award in satisfaction of any applicable withholding tax obligations. (b) Unless the Company otherwise determines, and subject to Section 9.10 of the Plan, payment of the withholding tax obligations with respect to the Award shall be by delivery (including electronically or telephonically to the extent permitted by the Company) of an irrevocable and unconditional undertaking by a broker acceptable to the Company to deliver promptly to the Company sufficient funds to satisfy the applicable tax withholding obligations. (c) Subject to Section 9.5 of the Plan, the applicable tax withholding obligation will be determined based on Participant’s Applicable Withholding Rate.
+
+[[A0118]]
+Participant’s “Applicable Withholding Rate” shall mean (i) if Participant is subject to Section 16 of the Exchange Act, the greater of (A) the minimum applicable statutory tax withholding rate or (B) with Participant’s consent, the maximum individual tax withholding rate permitted under the rules of the applicable taxing authority for tax withholding attributable to the underlying transaction, or (ii) if Participant is not subject to Section 16 of the Exchange Act, the minimum applicable statutory tax withholding rate or such other higher rate approved by the Company; provided, however, that (i) in no event shall Participant’s Applicable Withholding Rate exceed the maximum individual statutory tax rate in the applicable jurisdiction at the time of such withholding (or such other rate as may be required to avoid the liability classification of the applicable award under generally accepted accounting principles in the United States of America); and (ii) the number of Shares tendered or withheld, if applicable, shall be rounded up to the nearest whole Share sufficient to cover the applicable tax withholding obligation, to the extent rounding up to the nearest whole Share does not result in the liability classification of the RSUs under generally accepted accounting principles. (d) Participant acknowledges that Participant is ultimately liable and responsible for all taxes owed in connection with the RSUs, regardless of any action the Company or any Subsidiary takes with respect to any tax withholding obligations that arise in connection with the RSUs.
+
+[[A0119]]
+Neither the Company nor any Subsidiary makes any representation or undertaking regarding the treatment of any tax withholding in connection with the awarding, vesting or payment of the RSUs or the subsequent sale of Shares.
+
+[[A0120]]
+The Company and its Subsidiaries do not commit and are under no obligation to structure the RSUs to reduce or eliminate Participant’s tax liability.
+
+[[A0121]]
+ARTICLE IV.
+
+[[A0122]]
+OTHER PROVISIONS 4.1 Adjustments.
+
+[[A0123]]
+Participant acknowledges that the RSUs and the Shares subject to the RSUs are subject to adjustment, modification and termination in certain events as provided in this Agreement and the Plan.
+
+[[A0124]]
+4.2 Clawback.
+
+[[A0125]]
+The Award and the Shares issuable hereunder shall be subject to any clawback or recoupment policy in effect on the Grant Date or as may be adopted or maintained by the Company following the Grant Date, including the Dodd-Frank Wall Street Reform and Consumer Protection Act and any rules or regulations promulgated thereunder. 4.3 Notices.
+
+[[A0126]]
+Any notice to be given under the terms of this Agreement to the Company must be in writing and addressed to the Company in care of the Company’s General Counsel at the Company’s principal office or the General Counsel’s then-current email address or facsimile number.
+
+[[A0127]]
+Any notice to be given under the terms of this Agreement to Participant must be in writing and addressed to Participant (or, if Participant is then deceased, to the Designated Beneficiary) at Participant’s last known mailing address, email address or facsimile number in the Company’s personnel files.
+
+[[A0128]]
+By a notice given pursuant to this Section, either party may designate a different address for notices to be given to that party.
+
+[[A0129]]
+Any notice will be deemed duly given when actually received, when sent by email, when sent by certified mail (return receipt requested) and deposited with postage prepaid in a post office or branch post office regularly maintained by the United States Postal Service, when delivered by a nationally recognized express shipping company or upon receipt of a facsimile transmission confirmation. 4.4 Titles.
+
+[[A0130]]
+Titles are provided herein for convenience only and are not to serve as a basis for interpretation or construction of this Agreement. 4.5 Conformity to Securities Laws.
+
+[[A0131]]
+Participant acknowledges that the Plan, the Grant Notice and this Agreement are intended to conform to the extent necessary with all Applicable Laws and, to the extent Applicable Laws permit, will be deemed amended as necessary to conform to Applicable Laws. 4.6 Successors and Assigns.
+
+[[A0132]]
+The Company may assign any of its rights under this Agreement to a single or multiple assignees, and this Agreement will inure to the benefit of the successors and assigns of the Company.
+
+[[A0133]]
+Subject to the restrictions on transfer set forth in this Agreement or the Plan, this Agreement will be binding upon and inure to the benefit of the heirs, legatees, legal representatives, successors and assigns of the parties hereto. 4.7 Limitations Applicable to Section 16 Persons.
+
+[[A0134]]
+Notwithstanding any other provision of the Plan or this Agreement, if Participant is subject to Section 16 of the Exchange Act, the Plan, the Grant Notice, this Agreement and the RSUs will be subject to any additional limitations set forth in any applicable exemptive rule under Section 16 of the Exchange Act (including any amendment to Rule 16b-3) that are requirements for the application of such exemptive rule.
+
+[[A0135]]
+To the extent Applicable Laws permit, this Agreement will be deemed amended as necessary to conform to such applicable exemptive rule. 4.8 Entire Agreement; Amendment.
+
+[[A0136]]
+The Plan, the Grant Notice and this Agreement (including any exhibit hereto) constitute the entire agreement of the parties and supersede in their entirety all prior undertakings and agreements of the Company and Participant with respect to the subject matter hereof.
+
+[[A0137]]
+To the extent permitted by the Plan, this Agreement may be wholly or partially amended or otherwise modified, suspended or terminated at any time or from time to time by the Administrator or the Board; provided, however, that except as may otherwise be provided by the Plan, no amendment, modification, suspension or termination of this Agreement shall materially and adversely affect the RSUs without the prior written consent of Participant. 4.9 Agreement Severable.
+
+[[A0138]]
+In the event that any provision of the Grant Notice or this Agreement is held illegal or invalid, the provision will be severable from, and the illegality or invalidity of the provision will not be construed to have any effect on, the remaining provisions of the Grant Notice or this Agreement.
+
+[[A0139]]
+4.10 Limitation on Participant’s Rights.
+
+[[A0140]]
+Participation in the Plan confers no rights or interests other than as herein provided.
+
+[[A0141]]
+This Agreement creates only a contractual obligation on the part of the Company as to amounts payable and may not be construed as creating a trust.
+
+[[A0142]]
+Neither the Plan nor any underlying program, in and of itself, has any assets.
+
+[[A0143]]
+Participant will have only the rights of a general unsecured creditor of the Company with respect to amounts credited and benefits payable, if any, with respect to the RSUs, and rights no greater than the right to receive cash or the Shares as a general unsecured creditor with respect to the RSUs, as and when settled pursuant to the terms of this Agreement. 4.11 Not a Contract of Employment.
+
+[[A0144]]
+Nothing in the Plan, the Grant Notice or this Agreement confers upon Participant any right to continue in the employ or service of the Company or any Subsidiary or interferes with or restricts in any way the rights of the Company and its Subsidiaries, which rights are hereby expressly reserved, to discharge or terminate the services of Participant at any time for any reason whatsoever, with or without cause, except to the extent expressly provided otherwise in a written agreement between the Company or a Subsidiary and Participant. 4.12 Counterparts.
+
+[[A0145]]
+The Grant Notice may be executed in one or more counterparts, including by way of any electronic signature, subject to Applicable Law, each of which will be deemed an original and all of which together will constitute one instrument. 4.13 General Appendix and Country-Specific Appendix.
+
+[[A0146]]
+Notwithstanding any provisions in this Agreement or the Plan to the contrary, if Participant resides outside of the United States, the RSUs shall be subject to any special terms and conditions set forth in the general appendix to this Agreement (the “General Appendix”) as well as the specific appendix for Participant’s country (the “Country-Specific Appendix”). Moreover, if Participant relocates to one of the countries included in the Country-Specific Appendix, the special terms and conditions for such country will apply to him or her unless determined otherwise by the Company. * * * * *
+
+[[A0147]]
+GENERAL APPENDIX TO RESTRICTED STOCK UNIT AGREEMENT FOR NON-US PARTICIPANTS 1. Service Conditions.
+
+[[A0148]]
+In accepting the RSUs, Participant acknowledges and agrees that: (a) Subject to the individual terms under the Participant’s employment contract, any notice period mandated under Applicable Laws shall not be treated as service for the purpose of determining the vesting of the RSUs; and Participant’s right to vesting of Shares in settlement of the RSUs after termination of service, if any, will be measured by the date of termination of Participant’s active service and will not be extended by any notice period mandated under Applicable Laws.
+
+[[A0149]]
+Subject to the foregoing and the provisions of the Plan, the Company, in its sole discretion, shall determine whether Participant’s service has terminated and the effective date of such termination. (b) The Plan is established voluntarily by the Company.
+
+[[A0150]]
+It is discretionary in nature and it may be modified, amended, suspended or terminated by the Company at any time, unless otherwise provided in the Plan and this Agreement. (c) The grant of the RSUs is voluntary and occasional and does not create any contractual or other right to receive future grants of RSUs, or benefits in lieu of RSUs, even if RSUs have been granted repeatedly in the past. (d) All decisions with respect to future RSUs grants, if any, will be at the sole discretion of the Company. (e) Participant’s participation in the Plan shall not create a right to further service with the Company or another Subsidiary and shall not interfere with the ability of the Company or another Subsidiary to terminate Participant’s service at any time, with or without cause, subject to Applicable Laws. (f) Participant is voluntarily participating in the Plan. (g) The future value of the underlying Shares is unknown and cannot be predicted with certainty.
+
+[[A0151]]
+The value of the Shares may increase or decrease. (h) No claim or entitlement to compensation or damages arises from termination of the RSUs or diminution in value of the RSUs or Shares and Participant irrevocably releases the Company and any Subsidiary from any such claim that may arise.
+
+[[A0152]]
+If, notwithstanding the foregoing, any such claim is found by a court of competent jurisdiction to have arisen then, by signing this Agreement, Participant shall be deemed irrevocably to have waived Participant’s entitlement to pursue such a claim.
+
+[[A0153]]
+2. Data Privacy.
+
+[[A0154]]
+The following provisions shall only apply to Participant if he or she resides outside of the US, Brazil, the EU, EEA, and the UK: (a) Participant voluntarily consents to the collection, use, disclosure and transfer to the United States and other jurisdictions, in electronic or other form, of his or her personal data as described in this Agreement and any other award materials (“Data”) by and among, as applicable, the Company and any Subsidiary for the exclusive purpose of implementing, administering, and managing his or her participation in the Plan.
+
+[[A0155]]
+If Participant does not choose to participate in the Plan, his or her employment status or service with the Company and any Subsidiary will not be adversely affected. (b) Participant understands that the Company and any Subsidiary may collect, maintain, process and disclose, certain personal information about him or her, including, but not limited to, his or her name, home address, email address and telephone number, date of birth, social insurance number, passport or other identification number, salary, nationality, job title, any Shares or directorships held in the Company, details of all equity awards or any other entitlement to Shares awarded, canceled, exercised, vested, unvested or outstanding in his or her favor, for the exclusive purpose of implementing, administering and, managing the Plan. (c) Participant understands that Data will be transferred to one or more service provider(s) selected by the Company, which may assist the Company with the implementation, administration and management of the Plan.
+
+[[A0156]]
+Participant understands that the recipients of the Data may be located in the United States or elsewhere, and that the recipient’s country (e.g., the United States) may have different, including less stringent, data privacy laws and protections than his or her country.
+
+[[A0157]]
+Participant understands that if he or she resides outside the United States, he or she may request a list with the names and addresses of any potential recipients of the Data by contacting his or her local human resources representative.
+
+[[A0158]]
+Participant authorizes the Company and any other possible recipients that may assist the Company (presently or in the future) with implementing, administering and managing the Plan to receive, possess, use, retain and transfer the Data, in electronic or other form, for the sole purpose of implementing, administering and managing his or her participation in the Plan. (d) Participant understands that Data will be held only as long as is necessary to implement, administer and manage his or her participation in the Plan, including to maintain records regarding participation.
+
+[[A0159]]
+Participant understands that if he or she resides in certain jurisdictions, to the extent required by Applicable Laws, he or she may, at any time, request access to Data, request additional information about the storage and processing of Data, require any necessary amendments to Data or refuse or withdraw the consents given by accepting these RSUs, in any case without cost, by contacting in writing his or her local human resources representative.
+
+[[A0160]]
+Further, Participant understands that he or she is providing these consents on a purely voluntary basis.
+
+[[A0161]]
+If Participant does not consent or if he or she later seeks to revoke his or her consent, his or her engagement as a service provider with the Company and any Subsidiary will not be adversely affected; the only consequence of refusing or withdrawing his or her consent is that the Company will not be able to grant him or her RSUs under the Plan or administer or maintain RSUs.
+
+[[A0162]]
+Therefore, Participant understands that refusing or withdrawing his or her consent may affect his or her ability to participate in the Plan (including the right to retain the RSUs). Participant understands that he or she may contact his or her local human resources representative for more information on the consequences of his or her refusal to consent or withdrawal of consent.
+
+[[A0163]]
+The following provisions shall only apply to Participant if he or she resides in Brazil, the EU or EEA, the UK, or EU privacy laws are otherwise applicable: (a) Data Collected and Purposes of Collection.
+
+[[A0164]]
+Participant understands that the Company, acting as controller, as well as the employing Subsidiary, will process, to the extent permissible under Applicable Laws, certain personal information about him or her, including name, home address and telephone number, information necessary to process the RSUs (e.g., mailing address for a check payment or bank account wire transfer information), date of birth, social insurance number or other identification number, salary, nationality, job title, employment location, details of all RSUs granted, canceled, vested, unvested or outstanding in his or her favor, and where applicable service termination date and reason for termination, any capital shares or directorships held in the Company (where needed for legal or tax compliance), and any other information necessary to process mandatory tax withholding and reporting (all such personal information is referred to as “Data”). The Data is collected from Participant, and from the Company and any Subsidiary, for the purpose of implementing, administering and managing the Plan pursuant to its terms.
+
+[[A0165]]
+The legal bases (that is, the legal justification) for processing the Data is that it is necessary to perform, administer and manage the Plan pursuant to this Agreement between Participant and the Company, and in Company’s legitimate interests to comply with applicable non-EU laws when performing, administering and managing the Plan, subject to his or her interest and fundamental rights.
+
+[[A0166]]
+The Data must be provided in order for Participant to participate in the Plan and for the parties to this Agreement to perform their respective obligations hereunder.
+
+[[A0167]]
+If Participant does not provide Data, he or she will not be able to participate in the Plan and become a party to this Agreement. (b) Transfers and Retention of Data.
+
+[[A0168]]
+Participant understands that the Data will be transferred to and among the Company and any Subsidiary, as well as service providers (such as stock administration providers, brokers, transfer agents, accounting firms, payroll processing firms or tax firms), for the purposes explained above, which are necessary to allow the Company to perform this Agreement.
+
+[[A0169]]
+Participant understands that the recipients of the Data may be located in the United States and in other jurisdictions outside of the European Economic Area where the Company and any Subsidiary or its service providers have operations.
+
+[[A0170]]
+The United States and some of these other jurisdictions have not been found by the European Commission to have adequate data protection safeguards.
+
+[[A0171]]
+If the Company and any Subsidiary make transfers of Data outside of the European Economic Area, those transfers will be made solely to the extent necessary to perform this Agreement and take necessary actions in connection with such performance.
+
+[[A0172]]
+In addition, service providers may commit to provide adequate safeguards for the transferred Data, such as standard contractual clauses approved by the European Commission.
+
+[[A0173]]
+In that case, Participant may obtain details of the transfers by contacting privacy@bird.co. (c) Participant’s Rights in Respect of Data.
+
+[[A0174]]
+Participant has the right to access his or her Data being processed by the Company as well as understand why the Company is processing such Data.
+
+[[A0175]]
+Additionally, subject to Applicable Laws, Participant is entitled to have any inadequate, incomplete or incorrect Data corrected (that is, rectified). Further, subject to Applicable Laws, and under certain circumstances, Participant may be entitled to the following rights in regard to his or her Data: (i) to object to the processing of Data; (ii) to have his or her Data erased, such as where it is no longer necessary in relation to the purposes for which it was processed; (iii) to restrict the processing of his or her Data so that it is stored but not actively processed (e.g., while the Company assesses whether Participant is entitled to have Data erased); and (iv) to port a copy of the Data provided pursuant to this Agreement or generated by him or her, in a common machine-readable format.
+
+[[A0176]]
+To exercise his or her rights, Participant may contact the applicable human resources representative.
+
+[[A0177]]
+Participant may also contact the relevant data protection supervisory authority, as he or she has the right to lodge a complaint. 3. Electronic Delivery.
+
+[[A0178]]
+Participant agrees that the Company’s delivery of any documents related to the Plan or Shares acquired under Plan (including the Plan, this Agreement, the Plan’s prospectus,
+
+[[A0179]]
+and any reports of the Company provided generally to the Company’s stockholders) to him or her may be made by electronic delivery, which may include the delivery of a link to a Company intranet or to the Internet site of a third party involved in administering the Plan, the delivery of the document via e-mail, or any other means of electronic delivery specified by the Company.
+
+[[A0180]]
+If the attempted electronic delivery of such documents fails, Participant will be provided with a paper copy of the documents.
+
+[[A0181]]
+Participant acknowledge that he or she may receive from the Company a paper copy of any documents that were delivered electronically at no cost to him or her by contacting the Company by telephone or in writing.
+
+[[A0182]]
+Participant may revoke his or her consent to the electronic delivery of documents or may change the electronic mail address to which such documents are to be delivered (if Participant has provided an electronic mail address) at any time by notifying the Company of such revoked consent or revised e-mail address by telephone, postal service or electronic mail.
+
+[[A0183]]
+Participant agrees that the foregoing online or electronic participation in the Plan shall have the same force and effect as documentation executed in hardcopy written form.
+
+[[A0184]]
+Finally, Participant understands that he or she is not required to consent to electronic delivery of documents. 4. No Advice Regarding Grant.
+
+[[A0185]]
+The Company is not providing any tax, legal or financial advice, nor is the Company making any recommendations or assessments regarding Participant’s participation in the Plan, or his or her acquisition or sale of the underlying Shares.
+
+[[A0186]]
+Participant is hereby advised to consult with his or her own personal tax, legal and financial advisors regarding his or her participation in the Plan before taking any action related to the Plan. 5. Language.
+
+[[A0187]]
+If Participant has received this Agreement or any other document related to the RSUs translated into a language other than English and if the meaning of the translated version is different than the English version, the English version will control, subject to Applicable Laws. * * * * *
+
+[[A0188]]
+Country-Specific Appendix to RESTRICTED STOCK UNIT AGREEMENT FOR NON-US PARTICIPANTS This Country-Specific Appendix includes additional notifications, terms and conditions that govern the RSUs granted to Participant under the Plan if Participant resides in one of the countries listed below.
+
+[[A0189]]
+Capitalized terms used but not defined in this Country-Specific Appendix have the meanings set forth in the Plan and/or this Agreement.
+
+[[A0190]]
+Participant understands and agrees that the Company strongly recommends that Participant not rely on the information herein as the only source of information relating to the consequences of participation in the Plan because applicable rules and regulations regularly change, sometimes on a retroactive basis, and the information may be out of date at the time the RSUs vest under the Plan.
+
+[[A0191]]
+Participant further understands and agrees that if Participant is a citizen or resident of a country other than the one in which Participant is currently working, transfer employment after grant of the RSUs, or is considered a resident of another country for Applicable Laws purposes, the information contained herein may not apply to Participant, and the Company shall, in its discretion, determine to what extent the terms and conditions contained herein shall apply. […] CANADA Terms and Conditions Termination of Service.
+
+[[A0192]]
+Notwithstanding any provision of the Plan or this Agreement, the following provision shall apply to Participants employed in Canada on the date on which notification of termination (for any reason, with or without cause) or resignation from service is delivered: For purposes of this Agreement, Participant’s termination date shall mean the later of (i) the date upon which Participant ceases to perform services for the Company following the provision of such notification of termination or resignation from service and (ii) the end of any minimum period of notice of termination (if any) required by applicable employment or labour standards legislation.
+
+[[A0193]]
+For clarity, unless otherwise expressly provided in this Agreement or determined by the Company, no RSUs will vest under the Plan following Participant’s termination date, and the termination date will not be extended by any period of deemed notice of termination under contract or at common or civil law in respect of which Participant may receive pay in lieu of notice of termination or damages in lieu of such notice.
+
+[[A0194]]
+Participant will not be entitled to any further payments in respect of the value of any RSUs that have not yet vested as of Participant’s termination date and no RSUs or any pro-rated portion thereof shall be included in any entitlement to any pay in lieu of notice of termination or damages in lieu of such notice.
+
+[[A0195]]
+Subject to any applicable statutory notice period, the Administrator shall have the exclusive discretion to determine when Participant is no longer actively providing services for purposes of the grant of RSUs.
+
+[[A0196]]
+Language Consent.
+
+[[A0197]]
+The parties to this Agreement acknowledge that it is their express wish that this Agreement, as well as all documents, notices, and legal proceedings entered into, given or instituted pursuant hereto or relating directly or indirectly hereto, be drawn up in English.
+
+[[A0198]]
+Consentement relatif à la langue utilisée. Les parties reconnaissent avoir exigé que cette convention («Agreement») soit rédigée en anglais, ainsi que tous les documents, avis et procédures judiciaires, éxécutés, donnés ou intentés en vertu de, ou liés directement ou indirectement à la présente.
+
+[[A0199]]
+Notifications Securities Law Information.
+
+[[A0200]]
+Participant is permitted to sell Shares acquired through the Plan through the designated broker appointed by the Company, provided the resale of Shares acquired under the Plan takes place outside of Canada, including, if applicable, through the facilities of a stock exchange on which the Shares are listed.
+
+[[A0201]]
+Foreign Asset/Account Reporting Information.
+
+[[A0202]]
+Canadian residents are required to report any foreign property (e.g., Shares acquired under the Plan and possibly unvested RSUs) on form T1135 (Foreign Income Verification Statement) if the total cost of their foreign property exceeds C$100,000 at any time in the year.
+
+[[A0203]]
+It is Participant’s responsibility to comply with these reporting obligations, and Participant should consult with his or her personal tax advisor in this regard.
+
+[[A0204]]
+Share Settlement of RSUs.
+
+[[A0205]]
+Notwithstanding anything to the contrary in the Plan or this Agreement, RSUs granted to Canadian Participants shall only be settled in treasury Shares and shall not be settled in cash.
+
+[[A0206]]
+Section 7 Plan.
+
+[[A0207]]
+Despite anything to the contrary in the Plan or this Agreement, the Company acknowledges and agrees that the RSUs granted hereunder are intended to be governed by section 7 of the Income Tax Act (Canada) (the “ITA”) and accordingly: (i) RSUs shall be paid in treasury Shares and shall not be paid in Shares purchased on the open market or in any other manner that may otherwise be contemplated under the Plan; (ii) Despite section 9.9 of the Plan, the Administrator shall not settle an Award in cash, or a combination of Shares and cash, without the advance written consent of the Participant, which consent may be given or withheld in the absolute discretion of the Participant; (iii) Despite the last sentence of Section 3.2(d) of this Agreement, the Company and its Subsidiaries shall do all things reasonably necessary to ensure that the RSUs are governed by section 7 of the ITA; (iv) Despite section 7.2 of the Plan, any Dividend Equivalents shall be paid currently in cash to the Participant and, for greater certainty, shall not credited to an account for the Participant or paid in Shares. […]

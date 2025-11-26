@@ -1,0 +1,109 @@
+[[A0001]]
+​
+Exhibit 10.38.1
+Amendment no. 1
+to
+LanzaTech NZ, Inc.
+SAFE
+(Simple Agreement for Future Equity)
+This AMENDMENT NO. 1 TO LANZATECH NZ, INC. SAFE (SIMPLE AGREEMENT FOR FUTURE EQUITY) (this “
+Amendment
+”) is made and entered into as of December 30, 2022, by and between BGTF LT Aggregator LP (the “
+Investor
+”) and LanzaTech NZ, Inc., a Delaware corporation (the “
+Company
+”).
+WHEREAS
+, in exchange for the payment by the Investor of $50,000,000, the Investor, the Company, and solely for purposes of
+Section 2(e)
+and
+Section 4(i)
+thereof, LanzaTech, Inc., a Delaware corporation, entered into that certain LanzaTech NZ, Inc. SAFE (Simple Agreement for Future Equity) on October 2, 2022 (the “
+Safe
+”), pursuant to which the Company issued to the Investor the right to certain shares of Capital Stock (as defined therein); and
+WHEREAS
+, the Investor and the Company wish to amend certain provisions of the Safe to confirm and clarify the intention of the parties at the time of issuance of the Safe with respect to the U.S. federal and state income tax treatment thereof.
+
+[[A0002]]
+NOW, THEREFORE
+, in consideration of the foregoing and the representations, warranties, covenants and agreements set forth herein, the Investor and the Company, intending to be legally bound, agree as follows:
+1.
+Capitalized terms used in this Amendment but not otherwise defined herein have the meanings ascribed thereto in the Safe.
+2.
+Section 6(g) of the Safe is hereby amended to reflect the changes in bold and underline below, as follows:
+- The parties acknowledge and agree that for United States federal and state income tax purposes this Safe is, and at all times has been, intended to be characterized
+and treated
+as
+if converted into
+stock, and more particularly
+, voting
+Common Stock
+(or De-SPAC Common Stock, as the case may be), and in no event is to be characterized or treated as a class of non-voting stock
+for purposes of Sections 304, 305, 306, 354, 368, 1036 and 1202 of the Internal Revenue Code of 1986, as amended.
+
+[[A0003]]
+Accordingly, the parties agree to treat this Safe consistent with the foregoing intent for all United States federal and state income tax purposes (including, without limitation, on their respective tax returns or other informational statements).
+3.
+Except as expressly amended hereby, the Safe is not amended, modified or affected by this Amendment, and the Safe, and the rights and obligations of the parties thereunder, remain in full force and effect in all respects.
+4.
+In the event of any conflict between the terms of this Amendment and the terms of the Safe, the terms of this Amendment shall prevail.
+
+[[A0004]]
+Upon the effectiveness of this Amendment, each reference in the Safe to “this Safe,” “hereunder,” “hereof,” “herein,” or words of like import shall mean and be a
+​
+​
+​
+​
+reference to the Safe as amended hereby, and each reference to the Safe in any other document, instrument or agreement executed or delivered in connection with the Agreement shall mean and be a reference to the Safe as amended hereby.
+5.
+All rights and obligations hereunder will be governed by the laws of the State of New York, without regard to the conflicts of law provisions of such jurisdiction.
+6.
+This Amendment may be executed in any number of counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+[[A0005]]
+Delivery of an executed counterpart of a signature page to this Amendment by facsimile, e-mail, or scanned pages shall be effective as delivery of a manually executed counterpart to this Amendment.
+[SIGNATURE PAGE FOLLOWS]
+​
+​
+2
+​
+IN WITNESS WHEREOF, the undersigned have caused this Amendment to be duly executed as of the date first written above.
+​
+
+[[A0006]]
+[[TABLE]]
+| ​ | ​ | ​ |
+| --- | --- | --- |
+| ​ | COMPANY: | |
+| ​ | ​ | ​ |
+| ​ | LanzaTech NZ, Inc.: | |
+| ​ | ​ | ​ |
+| ​ | By: | /s/ Jennifer Holmgren |
+| ​ | ​ | ​ |
+| ​ | Name: | Jennifer Holmgren |
+| ​ | ​ | ​ |
+| ​ | Title: | CEO |
+[[/TABLE]]
+
+[[A0007]]
+​
+
+[[A0008]]
+[[TABLE]]
+| ​ | ​ | ​ |
+| --- | --- | --- |
+| ​ | INVESTOR: | |
+| ​ | ​ | ​ |
+| ​ | BGTF LT Aggregator LP | |
+| ​ | By | ​ |
+| ​ | BGTF BERMUDA GP LIMITED, its general partner | |
+| ​ | ​ | ​ |
+| ​ | By: | /s/ James Bodi |
+| ​ | ​ | ​ |
+| ​ | Name: | James Bodi |
+| ​ | ​ | ​ |
+| ​ | Title: | Director |
+[[/TABLE]]
+
+[[A0009]]
+​ [ Signature Page of Amendment No. 1 to LanzaTech NZ, Inc. SAFE (Simple Agreement for Future Equity) ] ​

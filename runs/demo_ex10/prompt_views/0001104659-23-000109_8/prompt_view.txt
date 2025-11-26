@@ -1,0 +1,638 @@
+Exhibit 10.6
+
+[[TABLE]]
+| Date: | December 31, 2022 |
+| --- | --- |
+| | |
+| To: | Monterey Capital Acquisition Corporation, a Delaware corporation (“ Monterey ” or “ MCAC ”) and ConnectM Technology Solutions, Inc., a Delaware corporation (“ Target ”). |
+| | |
+| Address: | 419 Webster Street Monterey, California |
+| | |
+| From: | (i) Meteora
+Special Opportunity Fund I, LP (“ MSOF ”), (ii) Meteora Capital Partners, LP (“ MCP ”) and (iii) Meteora
+Select Trading Opportunities Master, LP (“ MSTO ”) (with MCP, MSOF, and MSTO collectively as “ Seller ”) |
+| | |
+| Re: | OTC Equity Prepaid Forward Transaction |
+[[/TABLE]]
+
+The purpose of this agreement (this “ Confirmation ”) is to confirm the terms and conditions of the transaction (the “ Transaction ”) entered into between Seller, MCAC and Target on the Trade Date specified below. The term “ Counterparty ” refers to MCAC until the Business Combination (as defined below), then to ConnectM Technology Solutions, Inc., a Delaware corporation following the Business Combination (the “ Combined Company ”). Certain terms of the Transaction shall be as set forth in this Confirmation, with additional terms as set forth in a Pricing Date Notice (the “ Pricing Date Notice ”) in the form of Schedule A hereto. This Confirmation, together with the Pricing Date Notice(s), constitutes a “Confirmation” and the Transaction constitutes a separate “Transaction” as referred to in the ISDA Form (as defined below).
+
+This Confirmation, together with the Pricing Date Notices, evidences a complete binding agreement between Seller, MCAC and Target as to the subject matter and terms of the Transaction to which this Confirmation relates and shall supersede all prior or contemporaneous written or oral communications with respect thereto.
+
+The 2006 ISDA Definitions (the “ Swap Definitions ”) and the 2002 ISDA Equity Derivatives Definitions (the “ Equity Definitions ”, and with the Swap Definitions, the “ Definitions ”), each as published by the International Swaps and Derivatives Association, Inc., are incorporated into this Confirmation. If there is any inconsistency between the Definitions and this Confirmation, this Confirmation governs. If, in relation to the Transaction to which this Confirmation relates, there is any inconsistency between the ISDA Form, this Confirmation (including the Pricing Date Notice), the Swap Definitions and the Equity Definitions, the following will prevail for purposes of such Transaction in the order of precedence indicated: (i) this Confirmation (including the Pricing Date Notice(s)); (ii) the Equity Definitions; (iii) the Swap Definitions, and (iv) the ISDA Form.
+
+This Confirmation, together with the Pricing Date Notice, shall supplement, form a part of, and be subject to an agreement in the form of the 2002 ISDA Master Agreement (the “ ISDA Form ”) as if Seller, Target and Counterparty had executed an agreement in such form (but without any Schedule except as set forth herein under “ Schedule Provisions ”) on the Trade Date of the Transaction.
+
+In connection with MCAC’s initial public offering which was consummated on May 13, 2022, Seller and its affiliates entered into an investment agreement with MCAC and Monterrey Acquisition Sponsor, LLC, a Delaware limited liability company, pursuant to which Seller and its affiliates purchased 792,000 units of MCAC at the initial public offering price of $10.00 per unit and 60,000 shares of Class B common stock, par value $0.0001 per share, of MCAC (the “ Founder Shares ”), at a purchase price of approximately $0.009 per Founder Share.
+
+The terms of the particular Transaction to which this Confirmation relates are as follows:
+
+General Terms
+
+[[TABLE]]
+| Type of Transaction: | Share Forward Transaction |
+| --- | --- |
+| | |
+| Trade Date: | December 31, 2022 |
+| | |
+| Pricing Date: | As specified in the Pricing Date Notice. |
+| | |
+| Effective Date: | One (1) Settlement Cycle following the Pricing Date. |
+[[/TABLE]]
+
+[[TABLE]]
+| Valuation Date: | The earliest to occur of (a) the third anniversary of the closing of the transactions between Counterparty and Target pursuant to a Business Combination Agreement, as was entered into on December 31, 2022 (as the same has been or may be amended, modified, supplemented or waived from time to time, the “ BCA ”), by and among Counterparty, the Target and certain other parties thereto, to be reported on a Form 8-K filed by the Counterparty (the “ Form 8-K ”) (the “ Business Combination ”) and (b) the date specified by Seller in a written notice to be delivered to Counterparty at Seller’s discretion (not earlier than the day such notice is effective) after the occurrence of any of a (x) Seller VWAP Trigger Event or (y) a Delisting Event (in each case the “ Maturity Date ”). |
+| --- | --- |
+| | |
+| Seller VWAP Trigger Event | An event that occurs if the VWAP Price is at or below $5.00 per Share for any 20 trading days during a 30 consecutive trading day-period thereafter beginning 30 days following the closing of the Business Combination. |
+| | |
+| VWAP Price: | For any scheduled trading day, the volume weighted average price per Share for such day as reported on the relevant Bloomberg Screen “MCAC <Equity> AQR SEC” (or any successor thereto), or if such price is not so reported on such trading day for any reason or is erroneous, the VWAP Price shall be as reasonably determined by the Calculation Agent. |
+| | |
+| Dilutive Offering Reset | To the extent the Counterparty, after the date hereof, sells, enters any agreement to sell or grants any right to reprice, or otherwise dispose of or issues (or announce any offer, sale, grant or any option to purchase or other disposition) any Shares or any securities of the Counterparty or any of their respective subsidiaries which would entitle the holder thereof to acquire at any time Shares, including, without limitation, any debt, preferred stock, right, option, warrant or other instrument that is at any time convertible into or exercisable or exchangeable for, or otherwise entitles the holder thereof to receive, Shares, at an effective price per share less than the then existing Reset Price then the Reset Price shall be modified to equal such reduced price. |
+| | |
+| Reset Price | The Reset Price shall initially be the Initial Price.  The Reset Price shall be adjusted on the first scheduled trading day of each week (each a “ Reset Date ”) commencing with the first week following the thirtieth day after the closing of the Business Combination to be the lowest of (a) the then-current Reset Price, (b) the Initial Price and (c) the VWAP Price of the Shares of the prior week, but not lower than $7.50; provided that the Reset Price may be further reduced pursuant to a Dilutive Offering Reset. |
+| | |
+| Seller: | Seller. |
+| | |
+| Buyer: | Counterparty. |
+[[/TABLE]]
+
+[[TABLE]]
+| Shares: | Prior to the closing of the Business Combination, shares of the Class A common stock, par value $0.0001 per share, of Monterey (Ticker: “ MCAC ”) and, after the closing of the Business Combination, the Class A shares of ConnectM Technology Solutions, Inc. |
+| --- | --- |
+| | |
+| Number of Shares: | The number of Recycled Shares as specified in the Pricing Date Notice(s), but in no event more than the Maximum Number of Shares. The Number of Shares is subject to reduction only as described under “Optional Early Termination”. |
+| | |
+| Maximum Number of Shares: | 6,600,000 Shares |
+| | |
+| Initial Price: | Equals the Per-Share Redemption Price (the “ Redemption Price ”) as defined in Article IX of the Amended and Restated Certificate of Incorporation, effective as of May 10, 2022, as amended from time to time (the “ Certificate of Incorporation ”). |
+| | |
+| Recycled Shares: | The number of Shares purchased by Seller from third parties (other than Counterparty) through a broker in the open market or via redemption reversals (other than through Counterparty); provided that Seller shall have irrevocably waived all redemption rights with respect to such Shares as provided below in the section captioned “Transactions by Seller in the Shares.” Seller shall specify the number of Recycled Shares (the “ Number of Recycled Shares ”) in the initial Pricing Date Notice. |
+| | |
+| Prepayment: | Payment of the Prepayment Amount shall be made directly from the Counterparty’s Trust Account maintained by Continental Stock Transfer and Trust Company holding the net proceeds of the sale of the units in Counterparty’s initial public offering and the sale of private placement units (the “ Trust Account ”) no later than the Prepayment Date. Counterparty shall provide (a) notice to Counterparty’s trustee of the entrance into this Confirmation no later than one (1) Local Business Day following the date hereof, with copy to Seller and Seller’s outside legal counsel, and (b) to Seller and Seller’s outside legal counsel a final draft of the flow of funds from the Trust Account prior to the closing of the Business Combination itemizing the Prepayment Amount due; provided that Seller shall be invited to attend any closing call in connection with the Business Combination.  The Prepayment Amount shall be transferred to a new escrow account as further described in “Escrow” below. |
+| | |
+| Escrow: | At the written request of Seller, simultaneously
+ with the closing of the Business Combination, MCAC shall transfer the Prepayment Amount into an escrow account for the benefit of the
+ Seller (the “ Escrow Account ”) with Continental Stock Transfer & Trust Company (the “ Escrow Agent ”),
+ subject to the terms of a written escrow agreement (the “ Escrow Agreement ”) to be entered into on or prior to the time
+ reversals of redemptions in connection with the Business Combination are no longer permitted. Upon receipt by the Escrow Agent and the Company
+ of an OET Notice, resulting in a reduction to the Number of Recycled Shares, the Escrow Agent will release from the Escrow Account (a) to
+ the Counterparty the Early Termination Obligation associated with such Terminated Shares and (b) to the Seller an amount in cash
+ equal to the difference between the Initial Price and 95% of the Reset Price for each Terminated Share. |
+[[/TABLE]]
+
+[[TABLE]]
+| | On the Valuation Date, the Escrow Agent shall
+ transfer to the Seller an amount in cash equal to the product of (x)(i) the Number of Shares as set forth in the initial Pricing
+ Date Notice less (b) the number of Terminated Shares (the “ Matured Shares ”) multiplied by (y) the Initial
+ Price. The Seller shall transfer to the Escrow Agent for the benefit of the Counterparty the Matured Shares less the Maturity Shares and
+ the Penalty Shares. |
+| --- | --- |
+| | |
+| Prepayment Amount: | A cash amount equal to the product of (i) the Number of Shares as set forth in the initial Pricing Date Notice and (ii) the Initial Price less (y) the Prepayment Shortfall. |
+| | |
+| Prepayment Date: | Subject to Counterparty receiving the initial Pricing Date Notice, the earlier of (a) one (1) Local Business Day after the closing of the Business Combination and (b) the date any assets from the Trust Account are disbursed in connection with the Business Combination. |
+| | |
+| Prepayment Shortfall: | An amount in USD equal to 1.0% of the product of the Number of Shares and the Initial Price; provided that Seller shall pay one half (1/2) of the Prepayment Shortfall to Counterparty on the Prepayment Date (which amount shall be netted from the Prepayment Amount) and the other one half (1/2) of the Prepayment Shortfall on the earlier of (a) the date that the SEC declares the Registration Statement effective (the “Registration Statement Effective Date”) and (b) the OET Date. |
+| | |
+| Prepayment Shortfall Consideration: | Seller in its sole discretion may sell Recycled Shares at any time and at any sales price, without payment by Seller of any Early Termination Obligation (as defined below) until such time as the proceeds from the such sales equal 100% of the Prepayment Shortfall (as set forth under Shortfall Sales below) (such sales, “ Shortfall Sales ,” and such Shares, “ Shortfall Sale Shares ”). A sale of Shares is only (a) a “Shortfall Sale,” subject to the terms and conditions herein applicable to Shortfall Sale Shares, when a Shortfall Sale Notice is delivered hereunder, and (b) an Optional Early Termination, subject to the terms and conditions herein applicable to Terminated Shares, when an OET Notice (as defined below) is delivered hereunder, in each case the delivery of such notice in the sole discretion of the Seller. |
+| | |
+| Variable Obligation: | Not applicable. |
+| | |
+| Exchanges | The Nasdaq Global Market (Nasdaq) . |
+| | |
+| Related Exchange(s) | All Exchanges . |
+[[/TABLE]]
+
+[[TABLE]]
+| Break-up Fees: | A break-up fee equal to (i) all of Seller’s actual out-of-pocket reasonable and documented fees, costs and expenses relating to the Transaction in an amount not to exceed $75,000 plus (ii) $500,000 (collectively, the “ Break-up Fee ”) shall be payable, jointly and severally, by the Counterparty and the Target to the Seller in the event this Confirmation or the Transaction is terminated by either the Counterparty or the Target; provided that Counterparty and Target may terminate this Transaction, including the Confirmation, with no liability to Seller, including without limitation the Break-up Fee, upon any Additional Termination Event; provided that notwithstanding any other provision, clause or proviso of this Confirmation, this Transaction, including the Confirmation, may not be terminated by Counterparty or Target after Seller purchases any Recycled Shares after the redemption deadline; provided further that Seller hereby waives any and all right, title and interest, or any claim of any kind they have or may have, in or to any monies held in the Counterparty’s Trust Account and agrees not to seek recourse against the Trust Account, in each case, as a result of, or arising out of, this Transaction; provided, however, that nothing in the foregoing waiver shall (x) serve to limit or prohibit Seller’s right to pursue a claim against the Counterparty for legal relief against assets held outside the Trust Account, for specific performance or other equitable relief, (y) serve to limit or prohibit any claims that the Seller may have in the future against the Counterparty’s assets or funds that are not held in the Trust Account (including any funds that have been released from the Trust Account and any assets that have been purchased or acquired with any such funds), (z) be deemed to limit Seller’s right, title, interest or claim to the Trust Account by virtue of such Seller’s record or beneficial ownership of securities of the Counterparty acquired by any means other than pursuant to this Transaction or (aa) serve to limit Seller’s redemption right with respect to any such securities of the Seller other than during the term of this Confirmation. The Breakup Fee is not intended to constitute a liquidated damages provision, and it will be payable in addition to any other amount due and payable to Seller as a result of the occurrence of an Early Termination Date under the ISDA Master Agreement. |
+| --- | --- |
+| | |
+| Payment Dates: | Following the Business Combination the last day of each week or, if such date is not a Local Business Day, the next following Local Business Day, until the Maturity Date. |
+| | |
+| Reimbursement of Legal Fees and Other Expenses: | Together with the Prepayment Amount, Counterparty shall pay to Seller an amount equal to the reasonable and documented attorney fees and other reasonable out-of-pocket expenses related thereto actually incurred by Seller or its affiliates in connection with this Transaction not to exceed (a) $75,000, (b) a quarterly fee of $5,000 (initially payable on the Trade Date and upon the first Local Business Day of each quarter and (c) expenses actually incurred in connection with the acquisition of the Shares in an amount not to exceed $0.05 per Share and $0.03 per disposition of each Share. |
+| | |
+| Settlement Terms | |
+| | |
+| Settlement Method Election: | Not Applicable. |
+| | |
+| Settlement Method: | Physical Settlement. |
+| | |
+| Settlement Currency: | USD. |
+| | |
+| Settlement Date: | Two (2) Local Business Days following the Valuation Date. |
+| | |
+| Excess Dividend Amount | Ex Amount. |
+[[/TABLE]]
+
+[[TABLE]]
+| Optional Early Termination: | From time to time and on any date following the Business Combination (any such date, an “ OET Date ”) and subject to the terms and conditions below, Seller may, in its absolute discretion, terminate the Transaction in whole or in part so long as Seller provides written notice to Counterparty (the “ OET Notice ”), no later than the later of (a) the fifth Local Business Day following the OET Date and (b) the first Payment Date after the OET Date which shall specify the quantity by which the Number of Shares is to be reduced (such quantity, the “ Terminated Shares ”) provided that “Terminated Shares” includes only such quantity of Shares by which the Number of Shares is to be reduced and included in an OET Notice and does not include any Shortfall Sale Shares or sales of Shares that are designated as Shortfall Sales (which designation can be made only up to the amount of Shortfall Sale Proceeds), any Share Consideration Shares sales or any other Share sales, which Shares will not be included in any OET Notice or included in the definition, or when calculating the number, of Terminated Shares.  The effect of an OET Notice given shall be to reduce the Number of Shares by the number of Terminated Shares specified in such OET Notice with effect as of the related OET Date.  As of each OET Date, Counterparty shall be entitled to an amount from Seller, or if there is an Escrow Account, the Escrow Agent, and the Seller or Escrow Agent, as applicable, shall pay to Counterparty an amount, equal to the product of (x) the number of Terminated Shares multiplied by (y) 95% of the Reset Price in respect of such OET Date (an “ Early Termination Obligation ”), except that no such amount will be due to Counterparty upon any Shortfall Sale; provided that Seller or the Escrow Agent, as applicable, shall pay certain of the Early Termination Obligation to the accounts and in the amounts as directed by Counterparty.  The remainder of the Transaction, if any, shall continue in accordance with its terms; provided that if the OET Date is also the stated Valuation Date, the remainder of the Transaction shall be settled in accordance with the other provisions of “Settlement Terms.”  The Seller or Escrow Agent, as applicable, shall pay to Counterparty any and all unsatisfied Early Termination Obligations, calculated as of the last day of each calendar month, on the first Local Business Day following such day; provided that Seller or Escrow Agent, as applicable, shall be under no obligation to settle an Early Termination Obligation set forth in an OET Notice prior to one (1) Local Business Day following the settlement of the Share sale(s) covered in such OET Notice. |
+| --- | --- |
+| | |
+| Shortfall Sales: | From time to time and on any date following the
+ Business Combination (any such date, a “ Shortfall Sale Date ”) and subject to the terms and conditions below, Seller
+ may, in its absolute discretion, at any sales price, sell Shortfall Sale Shares, and in connection with such sales, Seller shall provide
+ written notice to Counterparty (the “ Shortfall Sale Notice ”) no later than the later of (a) the fifth Local Business
+ Day following the Shortfall Sales Date and (b) the first Payment Date after the Shortfall Sales Date, specifying the quantity of
+ the Shortfall Sale Shares and the allocation of the Shortfall Sale Proceeds. Seller shall not have any Early Termination Obligation in
+ connection with any Shortfall Sales. The Counterparty covenants and agrees for a period of at least sixty (60) Local Business Days (commencing
+ on the Prepayment Date or if an earlier Registration Request is submitted by Seller on the Registration Statement Effective Date) not
+ to issue, sell or offer or agree to sell any Shares, or securities or debt that is convertible, exercisable or exchangeable into Shares,
+ including under any existing or future equity line of credit, until the Shortfall Sales equal the Prepayment Shortfall. |
+[[/TABLE]]
+
+[[TABLE]]
+| Maturity Consideration: | The “ Maturity Consideration” means an amount equal to the product of (1) (a) the Number of Shares as set forth in the initial Pricing Date Notice less (b) the number of Terminated Shares, multiplied by (2) $2.00; and $2.50, solely in the event of a Registration Failure. In the event the Maturity Date is determined by clause (a) or (b) of Valuation Date, on such Maturity Date, Seller shall be entitled to receive the Maturity Consideration in cash or, at the option of Counterparty (other than in the case of a Delisting Event), Shares based on the average daily VWAP Price over 30 scheduled trading days ending on the Maturity Date (such shares to be paid as Maturity Consideration, the “ Maturity Shares ”); provided that the Maturity Shares used to pay the Maturity Consideration (i) (a) are registered for resale under an effective registration statement pursuant to the Securities Act under which Seller may sell or transfer the Shares or (b) m ay be transferred by Seller without any restrictions including the requirement for the Counterparty to be in compliance with the current public information required under Rule 144(c)(1) (or Rule 144(i)(2)) or the volume and manner of sale limitations under Rule 144 under the Securities Act and (ii) bear no restrictive legend (collectively, (i) and (ii) above, the “ Share Conditions ”); provided further that if the Maturity Shares do not satisfy the Share Conditions, Seller shall instead receive such number of Shares equal to the product of (a) three (3) multiplied by  (b) the (i) the Number of Shares as set forth in the initial Pricing Date Notice less (ii) the number of Terminated Shares,  (the “ Penalty Shares ”); provided further that if the Penalty Shares satisfy the Share Conditions within 45 days after the Maturity Date, Seller shall return to Counterparty such number of Penalty Shares that are valued in excess of Maturity Consideration based on the 10-day VWAP ending on the date that such Shares satisfied the Share Conditions. Counterparty, at Sellers’s option, will pay the Maturity Consideration on a net basis such that Seller retains a number of shares due to Counterparty upon the Maturity Date equal to the number of Maturity Shares or Penalty Shares payable to Seller, only to the extent the Number of Shares due to Counterparty upon the Maturity Date are equal to or more than the number of Maturity Shares or Penalty Shares payable to Seller, with any Maturity Consideration remaining due to be paid to Seller in newly issued Shares.  For the avoidance of doubt, in addition to the Maturity Consideration, at the Maturity Date, Seller will be entitled to an amount in cash from the Escrow Account of the Matured Shares multiplied by the Initial Price. |
+| --- | --- |
+| | |
+| Share Consideration: | In addition to the Prepayment Amount, Counterparty shall pay directly from the Trust Account, on the Prepayment Date, an amount equal to the product of (x) 40,000 and (y) the Initial Price. The Shares purchased with the Share Consideration (the “ Share Consideration Shares ”) shall not be included in the Number of Shares in this Transaction, and the Seller and the Share Consideration Shares shall be free and clear of all obligations with respect to the Seller and such Share Consideration Shares in connection with this Confirmation. |
+| | |
+| Cash Consideration | The Counterparty shall pay to Seller in cash an amount equal to the product of (x) the Prepayment Amount, multiplied by (y) 0.75% by no later than the Prepayment Date. The Cash Consideration shall be subject to a floor of $250,000. |
+[[/TABLE]]
+
+[[TABLE]]
+| Share Registration | At the written request of Seller and no earlier than the Counterparty’s redemption deadline and no later than the Maturity Date (the “ Registration Request ”), within forty-five (45) calendar days of the Registration Request, Counterparty shall use its best efforts to file (at Counterparty’s sole cost and expense) with the U.S. Securities and Exchange Commission (the “ Commission ”) a registration statement registering the resale of all shares held by the Seller, including the Recycled Shares and the Share Consideration (the “ Registration Statement ”), and have the Registration Statement declared effective as soon as practicable after the filing thereof, but no later than the earliest of (i) the 60th calendar day (or 105th calendar day if the Commission notifies the Counterparty that it will “review” the Registration Statement) following the Registration Request and (ii) the 5th Local Business Day after the date the Counterparty is notified (orally or in writing, whichever is earlier) by the Commission that such Registration Statement will not be “reviewed” or will not be subject to further review. Upon notification by the Commission that the Registration Statement has been declared effective by the Commission, within two (2) Local Business Days thereafter, the Counterparty shall file the final prospectus under Rule 424 of the Securities Act of 1933, as amended containing a “plan of distribution” reasonably agreeable to Seller. Counterparty shall not identify Seller as a statutory underwriter in the Registration Statement unless requested by the Commission. The Counterparty will use its reasonable best efforts to keep the Registration Statement covering the resale of the shares as described above continuously effective (except for customary blackout periods, up to twice per year and for a total of up to 15 calendar days (and not more than 10 calendar days in an occurrence), if and when the Counterparty is in possession of material non-public information the disclosure of which, in the good faith judgment of the Counterparty's board of directors, would be prejudicial, and the Counterparty agrees to promptly notify Seller of any such blackout determination) until all such shares have been sold or may be transferred without any restrictions including the requirement for the Counterparty to be in compliance with the current public information required under Rule 144(c)(1) (or Rule 144(i)(2) or the volume and manner of sale limitations under Rule 144 under the Securities Act; provided that Counterparty covenants and agrees to make all necessary filings, amendments, supplements and submissions in furtherance of the foregoing, including to register all of Seller’s Shares for resale; provided that it shall be a (“ Registration Failure ”) if (a) the Registration Statement covering all of the shares described above in this section is not declared effective after the 60th calendar day (or 105th calendar day if the Commission notifies the Counterparty that it will “review” the Registration Statement) after the Registration Request) or (b) the Registration Statement after it is declared effective ceases to be continuously effective (subject to the blackout periods as indicated above) as set forth in the preceding sentence for more than 15 consecutive calendar days. Seller will promptly deliver customary representations and other documentation reasonably acceptable to the Counterparty, its counsel and/or its transfer agent in connection with the Registration Statement, including those related to selling shareholders and to respond to SEC comments. If requested by Seller, the Counterparty shall remove or instruct its transfer agent to remove any restrictive legend with respect to transfers under the Securities Act from any and all Shares held
+by Seller if (1) the Registration Statement is and continues to be effective under the Securities Act, (2) such Shares are sold or transferred pursuant to Rule 144 under the Securities Act (subject to all applicable requirements of Rule 144 being met), or (3) such Shares are eligible for sale under Rule 144, without the requirement for the Counterparty to be in compliance with the current public information required under Rule 144(c)(1) (or Rule 144(i)(2), if applicable) as to the Shares and without volume or manner-of-sale restrictions; provided that Seller shall have timely provided customary representations and other documentation reasonably acceptable to the Counterparty, its counsel and/or its transfer agent in connection therewith. Any fees (with respect to the transfer agent, Counterparty’s counsel or otherwise) associated with the issuance of any legal opinion required by the Counterparty’s transfer agent or the removal of such legend shall be borne by the Counterparty. If a legend is no longer required pursuant to the foregoing, the Counterparty will, no later than five (5) Local Business Days following the delivery by Seller to the Counterparty or the transfer agent (with notice to the Counterparty) of customary representations and other documentation reasonably acceptable to the Counterparty, its counsel and/or its transfer agent, remove the restrictive legend related to the book entry account holding the Shares and make a new, unlegended book entry for the Shares. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| Share Adjustments: | |
+| --- | --- |
+| | |
+| Method of Adjustment: | Calculation Agent Adjustment. |
+| | |
+| Extraordinary Events: | |
+| | |
+| Consequences of Merger Events involving Counterparty: | |
+| | |
+| Share-for-Share: | Calculation Agent Adjustment. |
+| | |
+| Share-for-Other: | Cancellation and Payment. |
+| | |
+| Share-for-Combined: | Component Adjustment. |
+| | |
+| Tender Offer: | Applicable; provided, however , that Section 12.1(d) of the Equity Definitions is hereby amended by adding “, or of the outstanding Shares,” before “of the Issuer” in the fourth line thereof. Sections 12.1(e) and 12.1(l)(ii) of the Equity Definitions are hereby amended by adding “or Shares, as applicable,” after “voting Shares”. |
+| | |
+| Consequences of Tender Offers: | |
+| | |
+| Share-for-Share: | Calculation Agent Adjustment. |
+| | |
+| Share-for-Other: | Calculation Agent Adjustment. |
+| | |
+| Share-for-Combined: | Calculation Agent Adjustment. |
+| | |
+| Composition of Combined Consideration: | Not Applicable. |
+| | |
+| Nationalization, Insolvency or Delisting: | Cancellation and Payment (Calculation Agent Determination); provided that in addition to the provisions of Section 12.6(a)(iii) of the Equity Definitions, it shall also constitute a Delisting if the Exchange is located in the United States and the Shares are not immediately re-listed, re-traded or re-quoted on any of the New York Stock Exchange, the Nasdaq Global Select Market, Nasdaq Capital Market or the Nasdaq Global Market (or their respective successors) or such other exchange or quotation system which, in the determination of the Calculation Agent, has liquidity comparable to the aforementioned exchanges; if the Shares are immediately re-listed, re-traded or re-quoted on any such exchange or quotation system, such exchange or quotation system shall be deemed to be the Exchange. |
+[[/TABLE]]
+
+[[TABLE]]
+| Business Combination Exclusion: | Notwithstanding the foregoing or any other provision herein, the parties agree that the Business Combination shall not constitute a Merger Event, Tender Offer, Delisting or any other Extraordinary Event hereunder. |
+| --- | --- |
+| | |
+| Additional Disruption Events: | |
+| | |
+| (a) Change in Law: | Applicable; provided that Section 12.9(a)(ii) of the Equity Definitions is hereby amended by adding the words “(including, for the avoidance of doubt and without limitation, adoption or promulgation of new regulations authorized or mandated by existing statute)” after the word “regulation” in the second line thereof. |
+| | |
+| (a) Failure to Deliver: | Not Applicable. |
+| | |
+| (b) Insolvency Filing: | Applicable. |
+| | |
+| (c) Hedging Disruption: | Not Applicable. |
+| | |
+| (d) Increased Cost of Hedging: | Not Applicable. |
+| | |
+| (e) Loss of Stock Borrow: | Not Applicable. |
+| | |
+| (f) Increased Cost of Stock Borrow: | Not Applicable. |
+| | |
+| Determining Party: | For all applicable events, Seller, unless (i) an Event of Default, Potential Event of Default or Termination Event has occurred and is continuing with respect to Seller, or (ii) if Seller fails to perform its obligations as Determining Party, in which case a Third Party Dealer (as defined below) in the relevant market selected by Counterparty will be the Determining Party. |
+| | |
+| Additional Provisions: | |
+| | |
+| Calculation Agent: | Seller, unless (i) an Event of Default, Potential Event of Default or Termination Event has occurred and is continuing with respect to Seller, or (ii) if Seller fails to perform its obligations as Calculation Agent, in which case an unaffiliated leading dealer in the relevant market selected by Counterparty in its sole discretion will be the Calculation Agent. |
+| | |
+| | In the event that a party (the “ Disputing Party ”) does not agree with any determination made (or the failure to make any determination) by the Calculation Agent, the Disputing Party shall have the right to require that the Calculation Agent have such determination reviewed by a disinterested third party that is a dealer in derivatives of the type that is the subject of the dispute and that is not an Affiliate of either party (a “ Third Party Dealer ”). Such Third Party Dealer shall be jointly selected by the parties within one (1) Local Business Day after the Disputing Party’s exercise of its rights hereunder (once selected, such Third Party Dealer shall be the “ Substitute Calculation Agent ”). If the parties are unable to agree on a Substitute Calculation Agent within the prescribed time, each of the parties shall elect a Third Party Dealer and such two dealers shall agree on a Third Party Dealer by the end of the subsequent Local Business Day. Such Third Party Dealer shall be deemed to be the Substitute Calculation Agent. Any exercise by the Disputing Party of its rights hereunder must be in writing and shall be delivered to the Calculation Agent not later than the third Local Business Day following the Local Business Day on which the Calculation Agent notifies the Disputing Party of any determination made (or of the failure to make any determination). Any determination by the Substitute Calculation Agent shall be binding in the absence of manifest error and shall be made as soon as possible but no later than the second Local Business Day following the Substitute Calculation Agent’s appointment. The costs of such Substitute Calculation Agent shall be borne by (a) the Disputing Party if the Substitute Calculation Agent substantially agrees with the Calculation Agent or (b) the non-Disputing Party if the Substitute Calculation Agent does not substantially agree with the Calculation Agent. If, after following the procedures and within the specified time frames set forth above, a binding determination is not achieved, the original determination of the Calculation Agent shall apply. |
+[[/TABLE]]
+
+[[TABLE]]
+| Non-Reliance: | Applicable. |
+| --- | --- |
+| | |
+| Agreements and Acknowledgements Regarding Hedging Activities: | Applicable. |
+| | |
+| Additional Acknowledgements: | Applicable. |
+| | |
+| Schedule Provisions: | |
+| | |
+| Specified Entity: | In relation to both Seller and Counterparty for the purpose of: |
+| | Section 5(a)(v), Not Applicable |
+| | Section 5(a)(vi), Not Applicable |
+| | Section 5(a)(vii), Not Applicable |
+| | |
+| Cross-Default | The “Cross-Default” provisions of Section 5(a)(vi) of the ISDA Form will not apply to either party. |
+| | |
+| Credit Event Upon Merger | The “Credit Event Upon Merger” provisions of Section 5(b)(v) of the ISDA Form will not apply to either party. |
+| | |
+| Automatic Early Termination: | The “Automatic Early Termination” of Section 6(a) of the ISDA Form will not apply to either party. |
+| | |
+| Termination Currency: | United States Dollars. |
+| | |
+| Additional Termination Events: | Will apply to Seller and to Counterparty and Target.
+ The occurrence of any of the following events shall constitute an Additional Termination Event in respect of which Seller and Counterparty
+ and Target shall be Affected Parties: (a) The BCA is terminated pursuant to its
+ terms prior to the closing of the Business Combination. Notwithstanding the foregoing, Counterparty’s
+ obligations set forth under the captions, “Reimbursement of Legal Fees and Other Expenses,” and “Other Provisions —
+- Indemnification” shall survive any termination due to the occurrence of either of the foregoing Additional Termination
+ Events. |
+| | |
+| Governing Law: | New York law (without reference to choice of law doctrine). |
+| | |
+| Credit Support Provider: | With respect to Seller and Counterparty, None. |
+[[/TABLE]]
+
+[[TABLE]]
+| Local Business Days: | Seller specifies the following places for the purposes of the definition of Local Business Day as it applies to it: New York. Counterparty specifies the following places for the purposes of the definition of Local Business Day as it applies to it: New York. |
+| --- | --- |
+[[/TABLE]]
+
+Representations, Warranties and Covenants
+
+[[TABLE]]
+| 1. | Each of Counterparty, Target and Seller represents and warrants to, and covenants and agrees with, the other as of the date on which it enters into the Transaction that (in the absence of any written agreement between the parties that expressly imposes affirmative obligations to the contrary for the Transaction): |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (a) | Non-Reliance . It is acting for its own account, and it has made its own independent decisions to enter into the Transaction and as to whether the Transaction is appropriate or proper for it based upon its own judgment and upon advice from such advisers as it has deemed necessary. It is not relying on any communication (written or oral) of the other party as investment advice or as a recommendation to enter into the Transaction, it being understood that information and explanations related to the terms and conditions of the Transaction will not be considered investment advice or a recommendation to enter into the Transaction. No communication (written or oral) received from the other party will be deemed to be an assurance or guarantee as to the expected results of the Transaction. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (b) | Assessment and Understanding . It is capable of assessing the merits of and understanding (on its own behalf or through independent professional advice), and understands and accepts, the terms, conditions and risks of the Transaction. It is also capable of assuming, and assumes, the risks of the Transaction. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (c) | Non-Public Information . It is in compliance with Section 10(b) under the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”). |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (d) | Eligible Contract Participant . It is an “eligible contract participant” under, and as defined in, the Commodity Exchange Act (7 U.S.C. § 1a(18)) and CFTC regulations (17 CFR § 1.3). |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (e) | Tax Characterization . It shall treat the Transaction as a derivative financial contract for U.S. federal income tax purposes, and it shall not take any action or tax return filing position contrary to this characterization. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (f) | Private Placement . It (i) is an “accredited investor” as such term is defined in Regulation D as promulgated under the Securities Act, (ii) is entering into the Transaction for its own account without a view to the distribution or resale thereof and (iii) understands that the assignment, transfer or other disposition of the Transaction has not been and will not be registered under the Securities Act. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (g) | Investment Company Act . It is not and, after giving effect to the Transaction, will not be required to register as an “investment company” under, and as such term is defined in, the Investment Company Act of 1940, as amended. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (h) | Authorization . The Transaction, including this Confirmation, has been entered into pursuant to authority granted by its board of directors or other governing authority. It has no internal policy, whether written or oral, that would prohibit it from entering into any aspect of the Transaction, including, but not limited to, the purchase of Shares to be made in connection therewith. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (i) | Affiliate Status . It is the intention of the parties hereto that Seller shall not be an “affiliate” (as such term is defined in Rule 405 under the Securities Act) of the Counterparty including MCAC or the Combined Company following the closing of the Business Combination, as a result of the transactions contemplated hereunder. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| 2. | Counterparty represents and warrants to, and covenants and agrees with Seller as of the date on which it enters into the Transaction that: |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (a) | Total Assets . MCAC has total assets as of the date hereof and expects to have as of the closing of the Business Combination of at least USD $5,000,001. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (b) | Non-Reliance . Without limiting the generality of Section 13.1 of the Equity Definitions, Counterparty acknowledges that Seller is not making any representations or warranties or taking any position or expressing any view with respect to the treatment of the Transaction under any accounting standards. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (c) | Solvency . Counterparty is, and shall be as of the date of any payment or delivery by Counterparty under the Transaction, solvent and able to pay its debts as they come due, with assets having a fair value greater than liabilities and with capital sufficient to carry on the businesses in which it engages. Counterparty: (i) has not engaged in and will not engage in any business or transaction after which the property remaining with it will be unreasonably small in relation to its business, (ii) has not incurred and does not intend to incur debts beyond its ability to pay as they mature, and (iii) as a result of entering into and performing its obligations under the Transaction, (a) it has not violated and will not violate any relevant state law provision applicable to the acquisition or redemption by an issuer of its own securities and (b) it would not be nor would it be rendered “insolvent” (as such term is defined under Section 101(32) of the Bankruptcy Code or under any other applicable local insolvency regime). |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (d) | Public Reports . As of the Trade Date, Counterparty is in material compliance with its reporting obligations under the Exchange Act, and all reports and other documents filed by Counterparty with the Securities and Exchange Commission pursuant to the Exchange Act, when considered as a whole (with the most recent such reports and documents deemed to amend inconsistent statements contained in any earlier such reports and documents), do not contain any untrue statement of a material fact or any omission of a material fact required to be stated therein or necessary to make the statements therein, in the light of the circumstances under which they were made, not misleading. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (e) | No Distribution . Except with respect to any Shares that may be offered and sold pursuant to the Registration Statement, Counterparty is not entering into the Transaction to facilitate a distribution of the Shares (or any security that may be converted into or exercised or exchanged for Shares, or whose value under its terms may in whole or in significant part be determined by the value of the Shares) or in connection with any future issuance of securities. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (f) | SEC Documents . The Counterparty shall comply with the Securities and Exchange Commission’s guidance, including Compliance and Disclosure Interpretation No. 166.01, for all relevant disclosure in connection with this Confirmation and the Transaction, and will not file with the Securities and Exchange Commission any Form 8-K, Registration Statement on Form S-4 (or Form F-4 (if applicable)) (including any post-effective amendment thereof), proxy statement, or other document that includes any disclosure regarding this Confirmation or the Transaction without consulting with and reasonably considering any comments received from Seller, provided that, no consultation shall be required with respect to any subsequent disclosures that are substantially similar to prior disclosures by Counterparty that were reviewed by Seller. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (g) | Waiver . The Counterparty shall waive any violation of its “bulldog clause” and any other restrictions that would be caused by Seller entering into this Transaction. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (h) | Disclosure . The Counterparty agrees to comply with applicable SEC guidance in respect of disclosure and the Counterparty shall preview with Seller all public disclosure relating to the Transaction and shall consult with Seller to ensure that such public disclosure, including the press release, Form 8-K or other filing that announces the Transaction adequately discloses the material terms and conditions of the Transaction in form and substance reasonably acceptable to Seller; provided that the Form 8-K shall be publicly filed on the same date that definitive transaction documents are signed and provided further, that to the extent definitive transaction documents are not signed at least 48 hours prior to the Redemption Deadline, the Counterparty agrees to make all necessary disclosures (if any) at least 24 hours prior to the Redemption Deadline to ensure that Seller is not in possession of material non-public information as a result of the transactions outlined herein. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (i) | Listing . The Counterparty agrees to use its best efforts to maintain the listing of the Shares on a national securities exchange; provided that if the Shares cease to be listed on a national securities exchange or upon the filing of a Form 25 (each a “ Delisting Event ”), Seller may accelerate the Maturity Date under this Confirmation by delivering notice to the Counterparty and shall be entitled to the Break-up Fees, which shall be due and payable immediately following the Maturity Date. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (j) | Regulatory Filings . Counterparty covenants that it will make all regulatory filings that it is required by law or regulation to make with respect to the Transaction. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (k) | Regulation M and Target Approvals . Counterparty is not on the Trade Date and agrees and covenants that it will not be on any date Seller is purchasing shares that may be included in a Pricing Date Notice, engaged or engaging in a distribution, as such term is used in Regulation M under the Exchange Act, of any securities of Counterparty, other than a distribution meeting the requirements of the exception set forth in Rules 101(b)(10) and 102(b)(7) of Regulation M. Counterparty shall not, until the second scheduled trading day immediately following dates referenced in the preceding sentence, engage in any such distribution. Counterparty, including Target, also agrees and covenants that the BCA shall be executed and all required approvals and consents of the Target security holders in connection with the Business Combination shall be obtained and any subsequent valuation periods as contemplated under Regulation M under the Exchange Act, shall be completed in each case no later than MCAC’s redemption deadline. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (l) | Other Agreements . Counterparty covenants and agrees that it has not and will not enter into any other OTC Equity Prepaid Forward Transactions or similar transaction(s) or agreement(s) with any other person(s) without the prior written consent of Seller during the term of this Confirmation; provided that if the Confirmation is terminated and Counterparty enters into OTC Equity Prepaid Forward Transaction(s) or similar transaction(s) or agreement(s) with any other person(s) without the prior written consent of Seller during the period from the date this Confirmation is terminated until 90 calendar days following the Business Combination, Counterparty shall promptly pay Seller a fee of $1,000,000. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (m) | No conflicts . The execution and delivery by the Counterparty and Target of, and the performance by the Counterparty and the Target of its obligations under, the Transaction and the Confirmation and the consummation of the transactions contemplated by the Confirmation, including the payments and share issuances hereunder, do not and will not result in any breach or violation of or constitute a default under (nor constitute any event which, with notice, lapse of time or both, would result in any breach or violation of or constitute a default under or give the holder of any indebtedness (or a person acting on such holder’s behalf) the right to require the repurchase, redemption or repayment of all or a part of such indebtedness under) (or result in the creation or imposition of a lien, charge or encumbrance on any property or assets of the Counterparty, the Target or any of their respective subsidiaries pursuant to) (i) any provision of applicable law, (ii) the organizational documents of any of the Counterparty, the Target or any of their respective subsidiaries, (iii) any indenture, mortgage, deed of trust, bank loan or credit agreement or other evidence of indebtedness, or any license, lease, contract or other agreement or instrument binding upon the Counterparty, the Target or any of their respective subsidiaries, or (iv) any judgment, order or decree of any governmental body, agency or court having jurisdiction over the Counterparty, the Target or any of their respective subsidiaries, and no consent, approval, authorization or order of, or qualification with, any governmental body or agency is required for the performance by the Counterparty or the Target of their respective obligations under the Confirmation, except as have been obtained. In addition, the Counterparty and Target covenant and agree not to enter into any agreement or other arrangement that would prohibit, restrict or otherwise prevent the Counterparty from performing its obligations hereunder, including the making of any payment or Share issuance to the Seller. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| 3. | Target and the Combined Company, from and after the Trade Date, each covenants and agrees not to incur in excess of $25.0 million of indebtedness (as a result of incurring additional indebtedness, refinancing of existing indebtedness as of the date hereof, or otherwise) through and including the 90 th day following the Prepayment Date without the prior written consent of the Seller. Indebtedness shall not include accounts payable at the closing of the Business Combination or otherwise. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| 4. | Seller represents and warrants to, and covenants and agrees with Counterparty as of the date on which it enters into the Transaction and each other date specified that: |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (a) | Regulatory Filings . Seller covenants that it will make all regulatory filings that it is required by law or regulation to make with respect to the Transaction including, without limitation, as may be required by Section 13 or Section 16 (if applicable) under the Exchange Act and, assuming the accuracy of Counterparty’s Repurchase Notices (as described under “Repurchase Notices” below) any sales of the Recycled Shares will be in compliance therewith. |
+| --- | --- |
+| (b) | Shorting . Seller agrees not to effect any Short Sales in respect of the Shares prior to the earlier of (i) the Maturity Date and (ii) the cancellation of the Transaction. “Short Sales” means all “short sales” as defined in Rule 200 promulgated under Regulation SHO under the Exchange Act. |
+[[/TABLE]]
+
+Transactions by Seller in the Shares
+
+[[TABLE]]
+| (a) | Seller hereby waives the redemption rights (“ Redemption Rights ”) set forth in the Certificate of Incorporation in connection with the Business Combination with respect to the Recycled Shares only during the term of this Confirmation. Seller may sell or otherwise transfer, loan or dispose of any of the Shares or any other shares or securities of the Counterparty in one or more public or private transactions at any time. Any Recycled Shares that are not Shortfall Sale Shares sold by Seller during the term of the Transaction will cease to be included in the Number of Shares. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (b) | No sale of Shares by Seller shall terminate all or any portion of this Confirmation (unless Seller issues Shortfall Sale Notice or OET Notice within the deadlines contemplated in the sections entitled Shortfall Sales and Optional Early Termination above), and provided that Seller complies with all of its other obligations hereunder nothing contained herein shall limit any of Seller’s purchases and sales of Shares. |
+| --- | --- |
+[[/TABLE]]
+
+No Arrangements
+
+Seller, Counterparty and Target each acknowledge and agree that: (i) there are no voting, hedging or settlement arrangements between or among Seller, Counterparty and Target with respect to any Shares or the Counterparty or Target, other than those set forth herein; (ii) although Seller may hedge its risk under the Transaction in any way Seller determines, Seller has no obligation to hedge with the purchase, sale or maintenance of any Shares or otherwise; (iii) Counterparty and Target will not be entitled to any voting rights in respect of any of the Shares underlying the Transaction; and (iv) Counterparty and Target will not seek to influence Seller with respect to the voting or disposition of any Shares.
+
+Wall Street Transparency and Accountability Act
+
+In connection with Section 739 of the Wall Street Transparency and Accountability Act of 2010 (“ WSTAA ”), the parties hereby agree that neither the enactment of WSTAA or any regulation under WSTAA, nor any requirement under WSTAA or an amendment made by WSTAA, nor any similar legal certainty provision in any legislation enacted, or rule or regulation promulgated, on or after the date of this Confirmation, shall limit or otherwise impair either party’s otherwise applicable rights to terminate, renegotiate, modify, amend or supplement this Confirmation or the ISDA Form, as applicable, arising from a termination event, force majeure, illegality, increased costs, regulatory change or similar event under this Confirmation, the Equity Definitions incorporated herein, or the ISDA Form.
+
+Address for Notices
+
+Notice to Seller :
+
+1200 N Federal Hwy, Ste 200
+
+Boca Raton, FL 33432
+
+Email: team@meteoracapital.com
+
+With a copy to:
+
+DLA Piper LLP (US)
+
+555 Mission Street, Suite 2400
+
+San Francisco, CA 94105-2933
+
+Attention: Jeffrey C. Selman
+
+Email: jeffrey.selman@us.dlapiper.com
+
+Notice to Counterparty:
+
+Monterey Capital Acquisition Corporation
+
+419 Webster Street
+
+Monterey, California
+
+Attention: Bala Padmakumar
+
+E-mail: bala@padmakumar.com
+
+With a copy to:
+
+Mintz, Levin, Cohn, Ferris, Glovsky and Popeo, P.C.
+
+One Financial Center
+
+Boston, MA 02111
+
+Attention: Tom Burton
+
+Email: trburton@mintz.com
+
+Notice to Target :
+
+ConnectM Technology Solutions, Inc.
+
+2 Mt. Royal Ave., Suite 550
+
+Marlborough, MA 01752
+
+Attention: Bhaskar Panigrahi
+
+Email: Bhaskar@connectm.com
+
+With a copy to :
+
+Burns & Levinson LLP
+
+125 High Street
+
+Boston, MA 02110
+
+Attention: Andrew J. Merken, Esq.
+
+Email:     amerken@burnslev.com
+
+Other Provisions.
+
+[[TABLE]]
+| (c) | Rule 10b5-1. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | (i) | Counterparty represents and warrants to Seller that Counterparty is not entering into the Transaction to create actual or apparent trading activity in the Shares (or any security convertible into or exchangeable for the Shares) or to raise or depress or otherwise manipulate the price of the Shares (or any security convertible into or exchangeable for the Shares) for the purpose of inducing the purchase or sale of such securities or otherwise in violation of the Exchange Act, and Counterparty represents and warrants to Seller that Counterparty has not entered into or altered, and agrees that Counterparty will not enter into or alter, any corresponding or hedging transaction or position with respect to the Shares. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | (ii) | Counterparty agrees that it will not seek to control or influence Seller’s decision to make any “purchases or sales” under the Transaction, including, without limitation, Seller’s decision to enter into any hedging transactions. Counterparty represents and warrants that it has consulted with its own advisors as to the legal aspects of its adoption and implementation of this Confirmation and the Transaction under the federal securities laws, including without limitation, the prohibitions on manipulative and deceptive devices under the Exchange Act. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | (iii) | Counterparty acknowledges and agrees that any amendment, modification, waiver or termination of this Confirmation must be effected in accordance with the requirements for the amendment or termination of a written trading plan for trading securities. Without limiting the generality of the foregoing, Counterparty acknowledges and agrees that any such amendment, modification, waiver or termination shall be made in good faith and not as part of a plan or scheme to evade compliance with the federal securities laws, including without limitation the prohibition on manipulative and deceptive devises under the Exchange Act and no such amendment, modification or waiver shall be made at any time at which Counterparty or any officer, director, manager or similar person of Counterparty is aware of any material non-public information regarding Counterparty or the Shares. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (d) | Repurchase Notices . Counterparty shall, on any day on which Counterparty effects any repurchase of Shares (other than in connection with a Counterparty equity compensation program (e.g., to fund taxes in connection with vested RSUs), promptly give Seller a written notice of such repurchase (a “ Repurchase Notice ”), provided that Counterparty agrees that this information does not constitute material non-public information; provided further if this information shall be material non-public information, it shall publicly disclosed immediately. Counterparty agrees to indemnify and hold harmless Seller and its affiliates and their respective officers, directors, employees, affiliates, advisors, agents and controlling persons (each, an “ Indemnified Person ”) from and against any and all losses (including losses relating to Seller’s hedging activities as a consequence of remaining or becoming a Section 16 “insider” following the closing of the Business Combination, including without limitation, any forbearance from hedging activities or cessation of hedging activities and any losses in connection therewith with respect to the Transaction), claims, damages, judgments, liabilities and expenses (including reasonable attorney’s fees), joint or several, which an Indemnified Person may become subject to, as a result of Counterparty’s failure to provide Seller with a Repurchase Notice on the day and in the manner specified in this paragraph, and to reimburse, within thirty (30) days, upon written request, each of such Indemnified Persons for any reasonable legal or other expenses incurred in connection with investigating, preparing for, providing testimony or other evidence in connection with or defending any of the foregoing; provided, however, for the avoidance of doubt, Counterparty has no indemnification or other obligations with respect to Seller becoming a Section 16 “insider” prior to the closing of the Business Combination. If any suit, action, proceeding (including any governmental or regulatory investigation), claim or demand shall be brought or asserted against the Indemnified Person as a result of Counterparty’s failure to provide Seller with a Repurchase Notice in accordance with this paragraph, such Indemnified Person shall promptly notify Counterparty in writing, and Counterparty, upon request of the Indemnified Person, shall retain counsel reasonably satisfactory to the Indemnified Person to represent the Indemnified Person and any others Counterparty may designate in such proceeding and shall pay the fees and expenses of such counsel related to such proceeding. Counterparty shall not be liable for any settlement of any proceeding contemplated by this paragraph that is effected without its written consent, but if settled with such consent or if there be a final judgment for the plaintiff, Counterparty agrees to indemnify any Indemnified Person from and against any loss or liability by reason of such settlement or judgment. Counterparty shall not, without the prior written consent of the Indemnified Person, effect any settlement of any pending or threatened proceeding contemplated by this paragraph that is in respect of which any Indemnified Person is or could have been a party and indemnity could have been sought hereunder by such Indemnified Person, unless such settlement includes an unconditional release of such Indemnified Person from all liability on claims that are the subject matter of such proceeding on terms reasonably satisfactory to such Indemnified Person. If the indemnification provided for in this paragraph is unavailable to an Indemnified Person or insufficient in respect of any losses, claims, damages or liabilities referred to therein, then Counterparty hereunder, in lieu of indemnifying such Indemnified Person thereunder, shall contribute to the amount paid or payable by such Indemnified Person as a result of such losses,
+claims, damages or liabilities. The remedies provided for in this paragraph are not exclusive and shall not limit any rights or remedies which may otherwise be available to any Indemnified Person at law or in equity. The indemnity and contribution agreements contained in this paragraph shall remain operative and in full force and effect regardless of the termination of the Transaction. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (e) | Transfer or Assignment . The Seller may freely transfer or assign the rights and duties under this Confirmation. If at any time following the closing of the Business Combination at which (A) the Section 16 Percentage exceeds 9.9%, or (B) the Share Amount exceeds the Applicable Share Limit (if any applies) (any such condition described in clause (A) or (B), and “ Excess Ownership Position ”), Seller is unable to effect a transfer or assignment of a portion of the Transaction to a third party on pricing terms reasonably acceptable to Seller and within a time period reasonably acceptable to Seller such that no Excess Ownership Position exists, then Seller may designate any Local Business Day as an Early Termination Date with respect to a portion of the Transaction (the “ Terminated Portion ”), such that following such partial termination no Excess Ownership Position exists. In the event that Seller so designates an Early Termination Date with respect to a portion of the Transaction, a portion of the Shares with respect to the Transaction shall be delivered to Counterparty as if the Early Termination Date was the Valuation Date in respect of a Transaction having terms identical to the Transaction and a Number of Shares equal to the number of Shares underlying the Terminated Portion. The “ Section 16 Percentage ” as of any day is the fraction, expressed as a percentage, as determined by Seller, (A) the numerator of which is the number of Shares that Seller and each person subject to aggregation of Shares with Seller under Section 13 or Section 16 of the Exchange Act and rules promulgated thereunder and all persons who may form a “group” (within the meaning of Rule 13d-5(b)(1) of the Exchange Act) with Seller directly or indirectly beneficially own (as defined under Section 13 or Section 16 of the Exchange Act and rules promulgated thereunder) (the “Seller Group ” ) and (B) the denominator of which is the number of Shares outstanding. |
+| --- | --- |
+[[/TABLE]]
+
+The “ Share Amount ” as of any day is the number of Shares that Seller and any person whose ownership position would be aggregated with that of Seller and any group (however designated) of which Seller is a member (Seller or any such person or group, a “ Seller Person ”) under any law, rule, regulation, regulatory order or organizational documents or contracts of Counterparty that are, in each case, applicable to ownership of Shares (“ Applicable Restrictions ”), owns, beneficially owns, constructively owns, controls, holds the power to vote or otherwise meets a relevant definition of ownership under any Applicable Restriction, as determined by Seller in its sole discretion.
+
+The “ Applicable Share Limit ” means a number of Shares equal to (A) the minimum number of Shares that could give rise to reporting (other than on Schedule 13D or 13G) or registration obligations or other requirements (including obtaining prior approval from any person or entity) of a Seller Person, or could result in an adverse effect on a Seller Person, under any Applicable Restriction, as determined by Seller in its sole discretion,
+
+minus
+- 0.1% of the number of Shares outstanding.
+
+[[TABLE]]
+| (f) | Indemnification . Counterparty agrees to indemnify and hold harmless Seller, its affiliates and its assignees and their respective directors, officers, employees, agents and controlling persons (each such person being an “ Indemnified Party ”) from and against any and all losses (but not including financial losses to an Indemnified Party relating to the economic terms of the Transaction provided that the Counterparty performs its obligations under this Confirmation in accordance with its terms), claims, damages and liabilities (or actions in respect thereof) expenses, joint or several, incurred by or asserted against such Indemnified Party arising out of, in connection with, or relating to, investigating, preparing or defending against any litigation, commenced or threatened, or any claim whatsoever, whether arising out of any action between any of the Indemnified Parties and the Counterparty or between any of the Indemnified Parties and any third party, or otherwise) to which they or any of them may become subject under the Securities Act, the Exchange Act or any other statute or at common law or otherwise or under the laws of foreign countries, arising out of or based upon the Transaction, including the execution or delivery of this Confirmation, the performance by Counterparty of its obligations under the Transaction, any breach of any covenant, representation or warranty made by Counterparty in this Confirmation or the ISDA Form, regulatory filings and submissions made by or on behalf of the Counterparty related to the Transaction (other than as relates to any information provided in writing by or on behalf of Seller or its affiliates), or the consummation of the transactions contemplated hereby, including the Registration Statement or any untrue statement or alleged untrue statement of a material fact contained in any registration statement, press release, filings or other document, or the omission or alleged omission therefrom of a material fact required to be stated therein or necessary to make the statements therein, in the light of the circumstances under which they were made, not misleading. Counterparty will not be liable under the foregoing indemnification provision to the extent that any loss, claim, damage, liability or expense is related to the manner in which Seller sells, or arising out of any sales by Seller of, any Shares, including the Recycled Shares or found in a nonappealable judgment by a court of competent jurisdiction to have resulted from Seller’s material breach of any covenant, representation or other obligation in this Confirmation or the ISDA Form or from Seller’s willful misconduct, bad faith or gross negligence in performing the services that are subject of the Transaction. If for any reason the foregoing indemnification is unavailable to any Indemnified Party or insufficient to hold harmless any Indemnified Party, then Counterparty shall contribute, to the maximum extent permitted by law, to the amount paid or payable by the Indemnified Party as a result of such loss, claim, damage or liability. In addition (and in addition to any other Reimbursement of Legal Fees and other Expenses contemplated by this Confirmation), Counterparty will reimburse any Indemnified Party for all reasonable, out-of-pocket, expenses (including reasonable counsel fees and expenses) as they are incurred in connection with the investigation of, preparation for or defense or settlement of any pending or threatened claim or any action, suit or proceeding arising therefrom, whether or not such Indemnified Party is a party thereto and whether or not such claim, action, suit or proceeding is initiated or brought by or on behalf of Counterparty. Counterparty also agrees that no Indemnified Party shall have any liability to Counterparty or any person asserting claims on behalf of or in right of Counterparty in connection with or as a result of any matter referred to in this Confirmation except to
+the extent that any losses, claims, damages, liabilities or expenses incurred by Counterparty result from such Indemnified Party’s breach of any covenant, representation or other obligation in this Confirmation or the ISDA Form or from the gross negligence, willful misconduct or bad faith of the Indemnified Party or breach of any U.S. federal or state securities laws or the rules, regulations or applicable interpretations of the Securities and Exchange Commission. The provisions of this paragraph shall survive the completion of the Transaction contemplated by this Confirmation and any assignment and/or delegation of the Transaction made pursuant to the ISDA Form or this Confirmation shall inure to the benefit of any permitted assignee of Seller. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (g) | Amendments to Equity Definitions . |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | (i) | Section 12.6(a)(ii) of the Equity Definitions is hereby amended by (i) deleting from the fourth line thereof the word “or” after the word “official” and inserting a comma therefor, and (ii) deleting the semi-colon at the end of subsection (B) thereof and inserting the following words therefor “or (C) the occurrence of any of the events specified in Section 5(a)(vii)(1) through (9) of the ISDA Form with respect to that Issuer.”; and |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | (ii) | Section 12.6(c)(ii) of the Equity Definitions is hereby amended by replacing the words “the Transaction will be cancelled,” in the first line with the words “Seller will have the right, which it must exercise or refrain from exercising, as applicable, in good faith acting in a commercially reasonable manner, to cancel the Transaction,”; |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (h) | Waiver of Jury Trial . Each party waives, to the fullest extent permitted by applicable law, any right it may have to a trial by jury in respect of any suit, action or proceeding relating to the Transaction. Each party (i) certifies that no representative, agent or attorney of either party has represented, expressly or otherwise, that such other party would not, in the event of such a suit, action or proceeding, seek to enforce the foregoing waiver and (ii) acknowledges that it and the other party have been induced to enter into the Transaction, as applicable, by, among other things, the mutual waivers and certifications provided herein. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (i) | Attorney and Other Fees . Subject to clause (d) Indemnification (above), in the event of any legal action initiated by any party arising under or out of, in connection with or in respect of, this Confirmation or the Transaction, the prevailing party shall be entitled to reasonable attorneys’ fees, costs and expenses incurred in such action, as determined and fixed by the court. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (j) | Tax Disclosure . Effective from the date of commencement of discussions concerning the Transaction, Counterparty and each of its employees, representatives, or other agents may disclose to any and all persons, without limitation of any kind, the tax treatment and tax structure of the Transaction and all materials of any kind (including opinions or other tax analyses) that are provided to Counterparty relating to such tax treatment and tax structure. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (k) | Securities Contract; Swap Agreement . The parties hereto intend for (i) the Transaction to be (a) a “securities contract” as defined in the Bankruptcy Code, in which case each payment and delivery made pursuant to the Transaction is a “termination value,” “payment amount” or “other transfer obligation” within the meaning of Section 362 of the Bankruptcy Code and a “settlement payment,” within the meaning of Section 546 of the Bankruptcy Code, and (b) a “swap agreement” as defined in the Bankruptcy Code, with respect to which each payment and delivery hereunder or in connection herewith is a “termination value,” “payment amount” or “other transfer obligation” within the meaning of Section 362 of the Bankruptcy Code and a “transfer,” as such term is defined in Section 101(54) of the Bankruptcy Code and a “payment or other transfer of property” within the meaning of Sections 362 and 546 of the Bankruptcy Code, and the parties hereto to be entitled to the protections afforded by, among other Sections, Sections 362(b)(6), 362(b)(17), 546(e), 546(g), 555 and 560 of the Bankruptcy Code, (ii) a party’s right to liquidate, terminate and accelerate the Transaction and to exercise any other remedies upon the occurrence of any Event of Default under the ISDA Form with respect to the other party to constitute a “contractual right” as described in the Bankruptcy Code, and (iii) each payment and delivery of cash, securities or other property hereunder to otherwise constitute a “margin payment” or “settlement payment” and a “transfer” as defined in the Bankruptcy Code. |
+| --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| (l) | Process Agent . For the purposes of Section 13(c) of the ISDA Form: |
+| --- | --- |
+[[/TABLE]]
+
+Seller appoints as its Process Agent: None
+
+Counterparty appoints as its Process Agent: None.
+
+[Signature page follows]
+
+Please confirm that the foregoing correctly sets forth the terms of our agreement by executing a copy of this Confirmation and returning it to us at your earliest convenience.
+
+[[TABLE]]
+| | Very truly yours, | |
+| --- | --- | --- |
+| | | |
+| | Meteora Special Opportunity Fund I, LP; Meteora Capital Partners, LP; and Meteora Select Trading Opportunities Master, LP | |
+| | | |
+| | | |
+| | By: | /s/ Vikas Mittal |
+| | Name: | Vikas Mittal |
+| | Title: | CIO/Managing Member |
+[[/TABLE]]
+
+[[TABLE]]
+| Agreed and accepted by: | | |
+| --- | --- | --- |
+| | | |
+| Monterey Capital Acquisition Corporation | | |
+| | | |
+| | | |
+| By: | /s/ Bala Padmakumar | |
+| Name: | Bala Padmakumar | |
+| Title: | Chief Executive Officer and Chairman | |
+[[/TABLE]]
+
+[[TABLE]]
+| ConnectM Technology Solutions, Inc. | | |
+| --- | --- | --- |
+| | | |
+| | | |
+| By: | /s/ Bhaskar Panigrahi | |
+| Name: | Bhaskar Panigrahi | |
+| Title: | Chief Executive Officer and Chairman | |
+[[/TABLE]]
+
+Schedule A
+
+FORM OF PRICING DATE NOTICE
+
+Date: [●], 2023
+
+To: Monterey Capital Acquisition Corporation (“Counterparty”)
+
+Address: 419 Webster Street, Monterey, California
+
+Phone: (831) 649-7388
+
+From: Meteora Special Opportunity Fund I, LP, Meteora Capital Partners, LP, and Meteora Select Trading Opportunities Master, LP (collectively, “Seller”)
+
+Re: OTC Equity Prepaid Forward Transaction
+
+1. This Pricing Date Notice supplements, forms part of, and is subject to the Confirmation Re: OTC Equity Prepaid Forward Transaction dated as of December [●], 2022 (the “Confirmation”) between Counterparty and Seller, as amended and supplemented from time to time. All provisions contained in the Confirmation govern this Pricing Date Notice except as expressly modified below.
+
+2. The purpose of this Pricing Date Notice is to confirm certain terms and conditions of the Transaction entered into between Seller and Counterparty pursuant to the Confirmation.
+
+Pricing Date: [●], 2023
+
+Number of Recycled Shares: [●]

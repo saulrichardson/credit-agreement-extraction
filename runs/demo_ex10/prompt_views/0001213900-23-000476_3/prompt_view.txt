@@ -1,0 +1,556 @@
+Exhibit 10.1
+
+SPAC Stockholder Support Agreement
+
+This SPAC Stockholder Support Agreement (this “ Agreement ”) is made and entered into as of December 26, 2022 by and between the person or entity listed on the signature page hereto (a “ Stockholder ”) and HNR Acquisition Corp., a Delaware corporation (“ Buyer ”). Stockholder and Buyer are collectively referred to herein as the “ Parties ” and individually as a “ Party ”.
+
+WHEREAS, Stockholder is the record and “beneficial owner” (within the meaning of Rule 13d-3 under the Exchange Act) of the number of shares of the common stock of the Buyer, $0.0001 par value, (the “ Common Stock ”) set forth on Exhibit A
+
+(such shares, the “ Owned Securities ,” and together with any other shares of capital stock of Buyer acquired by Stockholder or any of its Affiliates after the date hereof and prior to the Expiration Date being collectively referred to herein as the “ Securities ”).
+
+WHEREAS, CIC Pogo LP, a Delaware limited partnership (“ CIC ”), DenCo Resources, LLC, a Texas limited liability company (“ DenCo ”), 4400 Holdings, LLC, a Texas limited liability company (“ 4400 ” and, together with CIC and DenCo, collectively, “Seller” and each a “Seller”) and Buyer propose to enter into a Membership Interest Purchase Agreement, dated as of the date hereof (the “ Membership Interest Purchase Agreement ”), pursuant to which, subject to the terms and conditions set forth in the Membership Interest Purchase Agreement, Buyer will purchase all of Seller’s right, title and interest in and to one hundred percent (100%) of the outstanding membership interests (the “ Target Interests ”) of Pogo Resources, LLC, a Texas limited liability company (the “ Company ”).
+
+WHEREAS, it is a condition precedent to the consummation of the transactions contemplated by the Membership Interest Purchase Agreement (the “ Transactions ”), that the stockholders of Buyer vote to approve the adoption of the Membership Interest Purchase Agreement and the Transactions (the “ Buyer Stockholder Approval ”).
+
+WHEREAS, as a condition to the willingness of the Seller and Buyer to enter into the Membership Interest Purchase Agreement and as an inducement and in consideration therefor, Stockholder has agreed to enter into this Agreement.
+
+NOW, THEREFORE, in consideration of the premises, covenants and agreements set forth herein, and other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, and intending to be legally bound, the Parties hereby agree as follows:
+
+1.
+
+Definitions and Construction .
+
+- For the purposes of this Agreement, the following terms have the following meanings:
+
+“ Agreement ” has the meaning specified in the preamble hereto.
+
+“ Buyer ” has the meaning specified in the preamble hereto.
+
+“ Buyer Organizational Documents ” means the charter, articles or certificate of incorporation, as applicable, and bylaws thereof.
+
+“ Buyer Stockholder Approval ” has the meaning specified in the recitals hereto.
+
+“ Company ” has the meaning specified in the recitals hereto.
+
+“ Common Stock ” has the meaning specified in the recitals hereto.
+
+“ Exchange Act ” means the Securities Exchange Act of 1934, as amended, and the rules and regulations promulgated thereunder.
+
+“ Expiration Date ” means the date of the earliest of: (i) the consummation of the Transactions, (ii) the termination of the Membership Interest Purchase Agreement pursuant to and in compliance with the terms therein, and (iii) the mutual written agreement of each of the parties hereto to terminate this Agreement.
+
+“ Membership Interest Purchase Agreement ” has the meaning specified in the recitals hereto.
+
+“ Owned Securities ” has the meaning specified in the recitals hereto.
+
+“ Parties ” and “ Party ” have the meanings specified in the preamble hereto.
+
+“ Redemption Rights ” means all and any rights Stockholder or any of its Affiliates may have to elect to have Buyer redeem any Securities.
+
+“ Required Voting Matters ” has the meaning specified in Section 3(f) .
+
+“ Securities ” has the meaning specified in the recitals hereto.
+
+“ Seller ” has the meaning specified in the preamble hereto.
+
+“ Short Sales ” shall include, without limitation, (i) all “short sales” as refined in Rule 200 promulgated under Regulation SHO under the Exchange Act; (ii) all types of direct and indirect stock pledges (other than pledges in the ordinary course of business as part of prime brokerage or other similar financing arrangements), forward sale contracts, options, puts, calls, swaps and similar arrangements (including on a total return basis); and (iii) all sales and other transactions through non-U.S. broker dealers or foreign regulated brokers.
+
+“ Stockholder ” has the meaning specified in the preamble hereto.
+
+“ Stockholder Material Adverse Effect ” has the meaning specified in Section 8(c) .
+
+“ Transactions ” has the meaning specified in the recitals hereto.
+
+“ Transfer ” has the meaning specified in Section 5(a) .
+
+- Capitalized terms used and not otherwise defined herein have the meanings set forth in the Membership Interest Purchase Agreement.
+
+- The provisions of Section 1.2 (Construction) of the Membership Interest Purchase Agreement shall apply to this Agreement mutatis mutandis .
+
+2.
+
+Agreement not to Redeem .
+
+- From and after the date hereof, Stockholder irrevocably and unconditionally, for the benefit of Buyer and Seller, hereby (i) agrees that Stockholder shall not, and shall cause its Affiliates not to, exercise Redemption Rights or otherwise elect to redeem, tender or submit for redemption any Securities pursuant to or in connection with the Transactions, and (ii) waives, on behalf of itself and its Affiliates, any Redemption Rights.
+
+- In the event that Securities held by Stockholder or its Affiliates are redeemed in violation of Section 2(a) , Stockholder irrevocably and unconditionally, for the benefit of Buyer, agrees to, or to cause one or more of its Affiliates to, promptly subscribe for and purchase from Buyer a number of shares of Common Stock equal to the number of shares of Common Stock redeemed pursuant to the Redemption Rights, for a per share purchase price equal to the amount to be received by public stockholders of Buyer exercising their Redemption Rights in connection with the Transactions.
+
+2
+
+3.
+
+Agreement to Vote . From and after the date hereof until the Expiration Date, Stockholder (in such capacity and not in any other capacity) irrevocably and unconditionally, for the benefit of Buyer and Seller, hereby agrees that, at any meeting (whether annual or special and each adjourned or postponed meeting) of Buyer’s stockholders, however called, or in connection with any other written consent of Buyer’s stockholders, Stockholder will (x) appear at such meeting or otherwise cause all of its Securities to be counted as present thereat for purposes of calculating a quorum and (y) vote or cause to be voted (including by proxy or written consent, if applicable) all of the Securities:
+
+- in favor of the Buyer Stockholder Approval (and, in the event that the Buyer Stockholder Approval is presented as more than one proposal, in favor of each proposal that is part of the Buyer Stockholder Approval), and in favor of any other proposals set forth in the Proxy Statement filed by Buyer with the SEC relating to the Transactions;
+
+- for any proposal to adjourn or postpone the applicable stockholder meeting to a later date if (and only if) there are not sufficient votes for approval of the Membership Interest Purchase Agreement and any other proposals related thereto as set forth in the Proxy Statement on the dates on which such meetings are held;
+
+- against any transaction, proposal, agreement or action made in opposition to adoption of the Membership Interest Purchase Agreement or in competition or inconsistent with the transactions or matters contemplated by the Membership Interest Purchase Agreement, without regard to the terms of such transaction, proposal, agreement or action;
+
+- against any other action, agreement or transaction, that is intended, that could reasonably be expected, or the effect of which could reasonably be expected, to materially impede, interfere with, delay, postpone, discourage or adversely affect the Transactions or this Agreement or the performance by Stockholder of its obligations under this Agreement;
+
+- against any action, proposal, transaction or agreement that would reasonably be expected to result in a breach in any respect of any covenant, representation or warranty or any other obligation or agreement of Buyer contained in the Membership Interest Purchase Agreement, or of Stockholder contained in this Agreement; and
+
+- in favor of any other matter necessary or desirable to the consummation of the Transactions ( Section 3(a) through Section 3(f) , the “ Required Voting Matters ”).
+
+- The obligations of Stockholder specified in this Section 3 shall apply whether or not any of the Transactions are recommended by the board of directors of Buyer.
+
+4.
+
+Grant of Irrevocable Proxy and Power of Attorney; Appointment of Proxy.
+
+- From and after the date hereof until the Expiration Date, Stockholder hereby irrevocably and unconditionally grants to, and appoints, Seller, and any of its respective designees as Stockholder’s proxy and attorney-in-fact (with full power of substitution), for and in the name, place and stead of Stockholder:
+
+- to vote or cause to be voted (including by proxy or written consent, if applicable) the Securities in accordance with the Required Voting Matters, in each case, in the event that Stockholder fails to perform or otherwise comply with the covenants, agreements or obligations set forth in Section 3 , it being understood that the proxy holder may not exercise the proxy granted pursuant to this Section 4(a) on any matter except for those matters described in Section 3 , and
+
+3
+
+- to revoke any redemption election made by Stockholder in contravention of Section 2 with respect to any of Stockholder’s shares of Common Stock and cause Buyer’s transfer agent to fail to redeem such shares in connection with the Membership Interest Purchase Agreement.
+
+- Stockholder hereby represents that any proxies and powers of attorney heretofore given in respect of the Securities, if any, are revocable, and hereby revokes such proxies and powers of attorney.
+
+- Stockholder hereby affirms that the irrevocable proxy and power of attorney set forth in this Section 4 are given in connection with the execution of the Membership Interest Purchase Agreement, and that such irrevocable proxy and power of attorney are given to secure the performance of the duties of Stockholder under this Agreement. Stockholder hereby further affirms that the irrevocable proxy and power of attorney are coupled with an interest and, except as set forth in this Section 4 , are intended to be irrevocable. If for any reason the proxy or power of attorney granted herein is not irrevocable, then Stockholder agrees, until the Expiration Date, to vote the Securities in accordance with Section 3(a) through Section 3(f) above as instructed by Seller and Buyer in writing.
+
+5.
+
+Restrictions on Transfer. Except as contemplated by this Agreement, the Membership Interest Purchase Agreement, and the Transactions, from the date hereof until the Expiration Date, Stockholder shall not, and shall cause its Affiliates not to, directly or indirectly,
+
+- offer for sale, sell, transfer (including by operation of law), tender, pledge, convert, encumber, assign or otherwise dispose of (including by gift, merger, tendering into any tender offer or exchange offer or otherwise) (collectively, a “ Transfer ”), or enter into any contract, option, derivative, hedging or other agreement or arrangement or understanding (including any profit-sharing arrangement) with respect to, or consent to, a Transfer of, any or all of the Securities;
+
+- engage in any hedging transactions or Short Sales with respect to securities of Buyer that are designed to or which would (either alone or in connection with one or more events or developments (including the satisfaction or waiver of any conditions precedent)) lead to or result in a sale or disposition of the Securities, even if such Securities would be disposed of by a person other than Stockholder;
+
+- grant any proxies or powers of attorney with respect to any or all of the Securities (except in connection with voting by proxy at a meeting of stockholders of Buyer as contemplated by Section 3 of this Agreement); or
+
+- permit to exist any lien or encumbrance with respect to any or all of the Securities other than those created by this Agreement; provided that any lien or encumbrance with respect to Securities that would not prevent, impair or delay Stockholder’s ability to comply with the terms and conditions of this Agreement shall be permitted and will not be deemed to violate the restrictions contained above.
+
+4
+
+6.
+
+Inconsistent Agreements
+. Stockholder hereby covenants and agrees that, except as set forth in this Agreement, it (a) shall not
+enter into at any time while this Agreement remains in effect, any voting agreement or voting trust with respect to the Securities and
+- shall not grant at any time while this Agreement remains in effect a proxy, consent or power of attorney with respect to the Securities.
+
+7.
+
+Restricted Activities . Stockholder agrees that he, she or it shall (a) be bound by and subject to Section 7.14 (Public Announcements) of the Membership Interest Purchase Agreement to the same extent as such provisions apply to the parties to the Membership Interest Purchase Agreement, as if Stockholder is directly party thereto, and (b) not, directly or indirectly, take any action that Buyer is prohibited from taking pursuant to Section 7.14 of the Membership Interest Purchase Agreement.
+
+8.
+
+Representations and Warranties of Stockholder . Stockholder represents and warrants to Buyer and Seller as follows:
+
+- If Stockholder is a natural person, Stockholder has full legal right and capacity to execute and deliver this Agreement, to perform Stockholder’s obligations hereunder and to consummate the transactions contemplated hereby. If Stockholder is not a natural person, Stockholder is duly organized, validly existing and in good standing under the Laws of its jurisdiction of organization and has all requisite power and authority to execute and deliver this Agreement and perform its respective obligations hereunder.
+
+- The execution, delivery and performance of this Agreement by Stockholder and the consummation of the transactions contemplated hereby have been duly authorized by all necessary action on the part of Stockholder and no other actions or proceedings on the part of Stockholder are necessary to authorize this Agreement or to consummate the transactions contemplated hereby. This Agreement has been duly and validly executed and delivered by Stockholder and constitutes the legal, valid and binding obligations of Stockholder, enforceable against Stockholder in accordance with its terms.
+
+- The execution, delivery and performance by Stockholder of this Agreement and the consummation of the transactions contemplated herein do not and will not (i) conflict with or result in a breach or violation of any of the terms or provisions of, or constitute a default under, or result in the creation or imposition of any lien, charge or encumbrance upon the Owned Securities pursuant to the terms of any indenture, mortgage, deed of trust, loan agreement, lease, license or other agreement or instrument to which Stockholder is a party or by which Stockholder or to which the Owned Securities are subject, other than those which would not reasonably be expected to have a material adverse effect on the legal authority of Stockholder to enter into and timely perform its obligations under this Agreement (a “ Stockholder Material Adverse Effect ”), (ii) if Stockholder is not an individual, result in any violation of the provisions of the organizational documents of Stockholder, other than those that would not reasonably be expected to have a Stockholder Material Adverse Effect, or (iii) result in any violation of any statute or any judgment, order, rule or regulation of any Governmental Body having jurisdiction over Stockholder or any of its properties, other than those that would not reasonably be expected to have a Stockholder Material Adverse Effect.
+
+- Stockholder owns, beneficially and of record, as of the date hereof, the shares of Common Stock set forth on Exhibit A attached hereto free and clear of any proxy, voting restriction, adverse claim or other lien (other than any restrictions created by this Agreement, the Buyer Organizational Documents and applicable securities Laws). Except for shares of Common Stock set forth on Exhibit A attached hereto, as of the date of this Agreement, Stockholder is not a record holder of any (i) equity securities of Buyer, (ii) securities of Buyer having the right to vote on any matters on which the stockholders of Buyer may vote or which are convertible into or exchangeable for, at any time, equity securities of Buyer, or (iii) options or other rights to acquire from Buyer any equity securities or securities convertible into or exchangeable for equity securities of Buyer, except as contemplated by the Membership Interest Purchase Agreement and the Transactions.
+
+5
+
+- Other than the filings, notices and reports pursuant to, in compliance with or required to be made under the Exchange Act and those set forth as conditions to Closing in the Membership Interest Purchase Agreement, no filings, notices, reports, consents, registrations, approvals, permits, waivers, expirations of waiting periods or authorizations are required to be obtained by Stockholder from, or to be given by Stockholder to, or be made by Stockholder with, any Governmental Body in connection with the execution, delivery and performance by Stockholder of this Agreement or the consummation of the transactions contemplated hereby.
+
+- There is no Proceeding pending or, to the knowledge of Stockholder, threatened, against Stockholder that challenges Stockholder’s beneficial or record ownership of the Securities, the validity of this Agreement or the performance by Stockholder of its obligations under this Agreement.
+
+- Except as expressly disclosed in a Schedule 13D or Schedule 13G (or amendments thereto) filed by Stockholder with the SEC with respect to the beneficial ownership of Common Stock, Stockholder is not currently (and at all times through Closing will refrain from being or becoming) a member of a “group” (within the meaning of Section 13(d)(3) or Section 14(d)(2) of the Exchange Act), including any group acting for the purpose of acquiring, holding or disposing of equity securities of Buyer (within the meaning of Rule 13d-5(b)(1) under the Exchange Act).
+
+- Stockholder understands and acknowledges that Seller and Buyer are entering into the Membership Interest Purchase Agreement in reliance upon Stockholder’s execution and delivery of this Agreement and the representations, warranties, covenants and other agreements of Stockholder contained herein.
+
+- No investment banker, broker, finder or other intermediary is entitled to any broker’s, finder’s, financial advisor’s or other similar fee or commission for which Buyer or Seller is or will be liable in connection with the transactions contemplated hereby based upon arrangements made by or, to the knowledge of Stockholder, on behalf of Stockholder.
+
+9.
+
+Covenants of Stockholder
+. Stockholder hereby: (a) agrees to promptly notify Seller and Buyer of the number of any new Securities
+acquired by Stockholder after the date hereof and prior to the Expiration Date (any such Securities being subject to the terms of this
+Agreement as though owned by Stockholder on the date hereof); (b) agrees to permit Buyer to publish and disclose Stockholder’s
+identity, ownership of the Securities and the nature of Stockholder’s commitments, arrangements and understandings under this Agreement,
+and, if deemed appropriate by Buyer or Seller, a copy of this Agreement, in (i) the Proxy Statement, (ii) any Form 8-K filed by Buyer
+with the SEC in connection with the execution and delivery of the Membership Interest Purchase Agreement and the Proxy Statement, and
+- any other documents or communications provided by Buyer or Seller to any Governmental Body or to securityholders of Buyer, in each
+case, to the extent required by the federal securities Laws or the SEC or any other securities authorities; and (c) shall and does authorize
+Seller, Buyer and any of their respective counsels to notify Buyer’s transfer agent that there is a stop transfer order with respect
+to all of the Securities (and that this Agreement places limits on the voting and transfer of such shares), provided that Seller, Buyer,
+or such counsel, as applicable, further notifies Buyer’s transfer agent to lift and vacate the stop transfer order with respect
+to the Securities following the Expiration Date. Stockholder agrees that it shall not, and shall cause its Affiliates not to, indirectly
+accomplish or attempt to accomplish that which it is not permitted to accomplish directly under this Agreement.
+
+10.
+
+Termination
+. This Agreement shall terminate and be of no further force or effect upon the occurrence of the Expiration Date. Upon
+such termination, no Party shall have any further obligations or liabilities hereunder;
+provided that
+(a)
+Section 1
+, this
+
+Section 10 , Section 12 and Section 14 shall survive any termination of this Agreement and (b) such termination shall not relieve any Party or its Affiliates from liability for fraud or any intentional and willful breach of this Agreement by such Party or its Affiliates occurring prior to such termination.
+
+6
+
+11.
+
+Fiduciary Duties . Notwithstanding anything in this Agreement to the contrary, (a) Stockholder makes no agreement or understanding herein in any capacity other than in such Stockholder’s capacity as a record holder and beneficial owner of the Securities, and not in such Stockholder’s capacity as a director, officer or employee of Buyer or any of its Affiliates, as applicable and (b) nothing herein will be construed to limit or affect any action or inaction by such Stockholder or any representative of such Stockholder serving as a member of the board of directors of Buyer or its Affiliates or as an officer, employee or fiduciary of Buyer or its Affiliates, in each case, acting in such person’s capacity as a director, officer, employee or fiduciary of Buyer or such Affiliate.
+
+12.
+
+Non-Recourse . This Agreement may only be enforced against, and any claim or cause of action based upon, arising out of, or related to this Agreement or the transactions contemplated hereby may only be brought against, the Persons that are expressly named as Parties and then only with respect to the specific obligations set forth herein with respect to such Party. Except to the extent a Party (and then only to the extent of the specific obligations undertaken by such Party in this Agreement), (a) no past, present or future director, officer, employee, incorporator, member, partner, stockholder, Affiliate, agent, attorney, advisor or representative or Affiliate of any Party and (b) no past, present or future director, officer, employee, incorporator, member, partner, stockholder, Affiliate, agent, attorney, advisor or representative or Affiliate of any of the foregoing shall have any liability (whether in contract, tort, equity or otherwise) for any one or more of the representations, warranties, covenants, agreements or other obligations or liabilities of any Party under this Agreement of or for any claim based on, arising out of, or related to this Agreement or the transactions contemplated hereby. Notwithstanding the foregoing, nothing in this Section 12 shall limit, amend or waive any rights or obligations of any Party to this Agreement or the Membership Interest Purchase Agreement.
+
+13.
+
+No Ownership Interest . Nothing contained in this Agreement will be deemed to vest in Seller any direct or indirect ownership or incidents of ownership of or with respect to the Securities. All rights, ownership and economic benefits of and relating to the Securities shall remain vested in and belong to Stockholder, and Seller shall have no authority to manage, direct, superintend, restrict, regulate, govern or administer any of the policies or operations of Buyer or exercise any power or authority to direct Stockholder in the voting of any of the Securities, except as otherwise provided herein with respect to the Securities. Except as otherwise set forth in Section 3 , Stockholder shall not be restricted from voting in favor of, against or abstaining with respect to any other matters presented to the stockholders of Buyer.
+
+14.
+
+Miscellaneous .
+
+- This Agreement may be executed in counterparts, each of which shall be deemed an original instrument, but all such counterparts together shall constitute but one agreement. Delivery of an executed counterpart signature page by facsimile or electronic transmittal (including in .pdf format) is as effective as executing and delivering this Agreement in the presence of other Parties to this Agreement.
+
+7
+
+- All notices which are required or may be given pursuant to this Agreement shall be sufficient in all respects if given in writing and delivered personally, by facsimile, by email or by registered or certified mail, postage prepaid, as follows:
+
+if to Buyer:
+
+HNR Acquisition Corp.
+
+3730 Kirby Drive, Suite 1200
+
+Houston, Texas 77098
+
+Attention:  Donald W. Orr
+
+Email: donald.orr@hnranyse.com
+
+with a copy (which shall not constitute notice) to :
+
+K&L Gates LLP
+
+599 Lexington Avenue
+
+New York, New York 10022
+
+Attention Matthew Ogurick, Esq.
+
+Email: matthew.ogurick@klgates.com
+
+if to Stockholder, to the address or email of Stockholder set forth on the signature page hereto,
+
+Either Party may change its address for notice by notice to the other in the manner set forth above. All notices shall be deemed to have been duly given (i) when physically delivered in person to the Party to which such notice is addressed, (ii) when transmitted to the Party to which such notice is addressed by confirmed facsimile transmission or email transmission, or (iii) at the time of receipt by the Party to which such notice is addressed.
+
+- This Agreement and the legal relations between the Parties shall be governed by and construed in accordance with the Laws of the State of Texas without regard to principles of conflicts of Law that would direct the application of the Law of another jurisdiction. The venue for any action brought under this Agreement shall be Dallas County, Texas.
+
+- EACH PARTY CONSENTS TO PERSONAL JURISDICTION IN ANY ACTION BROUGHT IN THE UNITED STATES FEDERAL COURTS LOCATED WITHIN DALLAS COUNTY, TEXAS, OR TO PERSONAL JURISDICTION IN ANY ACTION, BROUGHT IN THE STATE COURTS LOCATED IN DALLAS COUNTY, TEXAS, WITH RESPECT TO ANY DISPUTE, CLAIM, OR CONTROVERSY ARISING OUT OF OR IN RELATION TO OR IN CONNECTION WITH THIS AGREEMENT, AND EACH OF THE PARTIES AGREES THAT ANY ACTION INSTITUTED BY IT AGAINST THE OTHER WITH RESPECT TO ANY SUCH DISPUTE, CONTROVERSY, OR CLAIM (EXCEPT A DISPUTE, CONTROVERSY, OR CLAIM REFERRED TO A TITLE ARBITRATOR, ACCOUNTING ARBITRATOR, OR OTHER ARBITRATOR OR EXPERT IN ACCORDANCE WITH THE PROVISIONS OF THIS AGREEMENT) WILL BE INSTITUTED EXCLUSIVELY IN THE UNITED STATES DISTRICT COURT FOR THE NORTHERN DISTRICT OF TEXAS, DALLAS DIVISION, OR IN THE STATE COURTS LOCATED IN DALLAS COUNTY, TEXAS. IN ADDITION, EACH PARTY IRREVOCABLY WAIVES ANY OBJECTION, INCLUDING ANY OBJECTION TO THE LAYING OF VENUE OR BASED ON THE GROUNDS OF FORUM NON CONVENIENS, WHICH IT MAY NOW OR HEREAFTER HAVE TO THE BRINGING OF ANY SUCH ACTION IN THE RESPECTIVE JURISDICTIONS REFERENCED IN THIS SECTION.
+
+- No amendment, modification, or discharge of this Agreement, and no waiver under this Agreement, shall be valid or binding unless set forth in writing and duly executed by the Party against whom enforcement of the amendment, modification, discharge, or waiver is sought. Any such waiver shall constitute a waiver only with respect to the specific matter described in such writing and shall in no way impair the rights of the Party granting such waiver in any other respect or at any other time. The waiver by either of the Parties of a breach of or a default under any of the provisions of this Agreement, or to exercise any right or privilege under this Agreement, shall not be construed as a waiver of any other breach or default of a similar nature, or as a waiver of any of such provisions, rights, or privileges under this Agreement.
+
+8
+
+- No Party shall assign all or any part of this Agreement, nor shall any Party assign or delegate any of its rights or duties hereunder, without the prior written consent of the other Party, and any assignment or delegation made without such consent shall be void and of no effect. This Agreement shall inure to the benefit of, and be binding on and enforceable by and against, the Parties and their respective successors and permitted assigns.
+
+- This Agreement and the other Transaction Documents to be executed alongside the Membership Interest Purchase Agreement and the Exhibits and Schedules attached thereto, together with the Confidentiality Agreement, constitute the entire agreement between the Parties pertaining to the subject matter hereof, and supersede all prior agreements, understandings, negotiations and discussions, whether oral or written, between the Parties pertaining to the subject matter hereof. In the event of a conflict between the Confidentiality Agreement and this Agreement, the terms and provisions of this Agreement shall prevail to the extent of the conflict.
+
+- If any provision of this Agreement is held to be illegal, invalid, or unenforceable under present or future Laws effective during the term hereof, such provision shall be fully severable, and this Agreement shall be construed and enforced as if such illegal, invalid, or unenforceable provision had never comprised a part hereof, but the remaining provisions of this Agreement shall remain in full force and effect and shall not be affected by the illegal, invalid, or unenforceable provision or by its severance from this Agreement.
+
+- Each of the Parties has had substantial input into the drafting and preparation of this Agreement and has had the opportunity to exercise business discretion in relation to the negotiation of the details of the transaction contemplated hereby. This Agreement is the result of arm’s-length negotiations from equal bargaining positions.
+
+(j)
+The Parties agree that irreparable damage for which monetary damages, even if available, would not be an adequate remedy, would occur
+in the event that the Parties do not perform their obligations under the provisions of this Agreement (including failing to take such
+actions as are required of them hereunder to consummate this Agreement) in accordance with its specified terms or otherwise breach such
+provisions. The Parties acknowledge and agree that (a) the Parties shall be entitled to an injunction, specific performance, or other
+equitable relief, to prevent breaches of this Agreement and to enforce specifically the terms and provisions hereof, without proof of
+damages, prior to the Expiration Date, this being in addition to any other remedy to which they are entitled under this Agreement, and
+- the right of specific enforcement is an integral part of the transactions contemplated by this Agreement and without that right,
+none of the Parties would have entered into this Agreement. Each Party agrees that it will not oppose the granting of specific performance
+and other equitable relief on the basis that the other Parties an adequate remedy at Law or that an award of specific performance is
+not an appropriate remedy for any reason at Law or equity. The Parties acknowledge and agree that any Party seeking an injunction to
+prevent breaches of this Agreement and to enforce specifically the terms and provisions of this Agreement in accordance with this
+Section 14(j)
+
+shall not be required to provide any bond or other security in connection with any such injunction.
+
+- In the event of a stock split, stock dividend or distribution, or any change in Buyer’s capital stock by reason of any split-up, reverse stock split, recapitalization, combination, reclassification, exchange of shares or the like, the term “Securities” shall be deemed to refer to and include all such stock dividends and distributions and any securities into which or for which any or all of such shares may be changed or exchanged or which are received in such transaction.
+
+[Signature Page Follows After Exhibit A]
+
+9
+
+Exhibit A
+
+Stockholder’s Owned Securities
+
+[[TABLE]]
+| Number
+ of Shares of Common Stock: | | |
+| --- | --- | --- |
+[[/TABLE]]
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | HNRAC Sponsors LLC | |
+| --- | --- | --- |
+| | | |
+| | By: | |
+| | Name: | Donald W. Orr |
+| | Title: | Manager |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | JVS Alpha Property, LLC | |
+| --- | --- | --- |
+| | | |
+| | By: | |
+| | Name: | Joseph V. Salvucci, Jr. |
+| | Title: | Manager |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | Dante Caravaggio, LLC | |
+| --- | --- | --- |
+| | | |
+| | By: | |
+| | Name: | Dante Caravaggio |
+| | Title: | Manager |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | RLR Energy Partners, LLC | |
+| --- | --- | --- |
+| | | |
+| | By: | |
+| | Name: | Ryan Cunningham |
+| | Title: | Manager |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | By: | |
+| --- | --- | --- |
+| | Name: | Donald H. Goree |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | By: | |
+| --- | --- | --- |
+| | Name: | Jesse Allen |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | By: | |
+| --- | --- | --- |
+| | Name: | Terence D. Hagen |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | By: | |
+| --- | --- | --- |
+| | Name: | Byron Blount |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | By: | |
+| --- | --- | --- |
+| | Name: | David M. Smith |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | By: | |
+| --- | --- | --- |
+| | Name: | Alan Timothy Cooke |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | By: | |
+| --- | --- | --- |
+| | Name: | John McKee |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | By: | |
+| --- | --- | --- |
+| | Name: | Britton D. Sudduth |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | By: | |
+| --- | --- | --- |
+| | Name: | John N. Younker |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | By: | |
+| --- | --- | --- |
+| | Name: | Byron Hebert |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | By: | |
+| --- | --- | --- |
+| | Name: | Alessandro L. Clerici |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | By: | |
+| --- | --- | --- |
+| | Name: | Eric Guille |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | By: | |
+| --- | --- | --- |
+| | Name: | John Robberson |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | By: | |
+| --- | --- | --- |
+| | Name: | Leonardo Paderni |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | By: | |
+| --- | --- | --- |
+| | Name: | Nelia Mazula |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | Anchor Oil Consulting LLC | |
+| --- | --- | --- |
+| | | |
+| | By: | |
+| | Name: | |
+| | Title: | |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | G & R Oil Exploration LLC | |
+| --- | --- | --- |
+| | | |
+| | By: | |
+| | Name: | |
+| | Title: | |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | RSJ Oil & Gas, LLC | |
+| --- | --- | --- |
+| | | |
+| | By: | |
+| | Name: | |
+| | Title: | |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | Longboat Energy LLC | |
+| --- | --- | --- |
+| | | |
+| | By: | |
+| | Name: | |
+| | Title: | |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement
+
+IN WITNESS WHEREOF, the Parties have hereunto caused this Agreement to be duly executed as of the date hereof.
+
+[[TABLE]]
+| | HNR Acquisition Corp. | |
+| --- | --- | --- |
+| | | |
+| | By: | |
+| | Name: | Donald W. Orr |
+| | Title: | President |
+[[/TABLE]]
+
+Signature Page to SPAC Stockholder Support Agreement

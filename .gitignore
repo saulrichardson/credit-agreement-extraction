@@ -13,7 +13,6 @@ data/
 **/.DS_Store
 
 # Generated outputs / artifacts
-runs/
 tmp/
 logs/
 scratch/

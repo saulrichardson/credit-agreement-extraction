@@ -1,0 +1,74 @@
+[[A0001]]
+Exhibit 10.2 AMENDMENT NO.
+
+[[A0002]]
+4 TO PROMISSORY NOTE This AMENDMENT NO. 4 TO PROMISSORY NOTE (this “ Amendment ”) is dated as of December 30, 2022, by and among JIMMY JANG, L.P., a Delaware limited partnership and BAKER TECHNOLOGIES, INC., a Delaware corporation, JUPITER RESEARCH, LLC., an Arizona limited liability company, and COMMONWEALTH ALTERNATIVE CARE, INC., a Massachusetts corporation (together, joint and severally, the “ Company ”) and [__] (“ Noteholder ”). WHEREAS, Noteholder holds a Promissory Note of the Company dated November 1, 2019 in the principal amount of $[__], which Promissory Note has been amended by Amendment No. 1 to Promissory Note dated as of October 14, 2022, Amendment No. 2 to Promissory Note dated as of October 24, 2022 and by Amendment No. 3 to Promissory Note dated as of November 14, 2022 (as so amended, and as may be further amended from time to time, the “ Note ”); WHEREAS, the Note has a maturity date of December 31, 2022 (the “ Maturity Date ”); WHEREAS, the Note was issued as a one of a series of Notes (collectively, the “ Senior Notes ”) issued under that certain Senior Secured Note Purchase Agreement dated as of November 1, 2019 by and among the Company, the Noteholder and the investors party thereto (the “ Senior NPA ”) WHEREAS, Paragraph 3 of each of the Note provides that payments under the Note “will be credited first to fees payable to the Purchasers (if any) then due and payable, ten to reimbursement and indemnity obligations to the Noteholder Representative and the Purchasers (if any, and on a pro rata basis) then due and payable, then to fee obligations of the Noteholder Representative then due and payable, then to accrued interest due and payable, with any remainder applied to principal”; ​ WHEREAS, concurrently herewith, the Company intends to repay in full certain of the Senior Notes (the “ Repaid Notes ”); WHEREAS, the Noteholder does not wish to be repaid at this time but has requested that the Company extend the Maturity of this Note; WHEREAS, the Company and the Noteholder wish to amend the Note to extend the Maturity Date from December 31, 2022 to February 28, 2023 (the “ Amended Maturity Date ”); and WHEREAS, the Note may be amended with the written consent of the Company and Noteholder, and the Company and Noteholder wish to amend the Note as set forth below; ​ ​ 1 ​ NOW, THEREFORE, for good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties hereto hereby agree as follows: 1. Amendment to Notes . The Maturity Date of the Note is hereby amended to be the Amended Maturity Date. 2. Waiver of Right to Pro Rata Payment . The Company and the Noteholder hereby agree that, notwithstanding the provisions of paragraph 3 of the Notes, the payment of the Repaid Notes under the Senior NPA on or before December 31, 2022 shall be made on a pro rata basis only to the holders of the Repaid Notes, and no such amounts at that time shall be paid to the Noteholders. 3. Miscellaneous . (a) Except as expressly set forth herein, the Note shall remain in full force and effect and this Amendment shall have no effect or impact on the other Senior Notes outstanding under the Senior NPA. (b) This Amendment will be governed by and construed in accordance with the internal laws of the Commonwealth of Massachusetts, without giving effect to the conflict of laws provisions thereof to the extent such principles or rules would require or permit the application of the laws of any jurisdiction other than those of the Commonwealth of Massachusetts. (c) This Amendment may be executed in any number of counterparts, each of which shall be deemed an original, but all of which when taken together shall constitute one and the same instrument. [SIGNATURE PAGES FOLLOW] ​ ​ 2 ​ IN WITNESS WHEREOF, the undersigned have executed this Amendment No. 4 to Promissory Note as of the date first written above.
+
+[[A0003]]
+[[TABLE]]
+| ​ | ​ | ​ |
+| --- | --- | --- |
+| ​ | JIMMY JANG, L.P., a Delaware limited partnership, by its General Partner, JIMMY JANG HOLDINGS INC., a British Columbia corporation | |
+| ​ | ​ | |
+| ​ | By: | ​ |
+| ​ | Name: | Gary F. Santo, Jr. |
+| ​ | Title: | President |
+[[/TABLE]]
+
+[[A0004]]
+​
+
+[[A0005]]
+[[TABLE]]
+| ​ | ​ | ​ |
+| --- | --- | --- |
+| ​ | BAKER TECHNOLOGIES, INC., a Delaware corporation | |
+| ​ | ​ | ​ |
+| ​ | By: | ​ |
+| ​ | Name: | Gary F. Santo, Jr. |
+| ​ | Title: | President |
+[[/TABLE]]
+
+[[A0006]]
+​
+
+[[A0007]]
+[[TABLE]]
+| ​ | ​ | ​ |
+| --- | --- | --- |
+| ​ | JUPITER RESEARCH, LLC, an Arizona limited liability company | |
+| ​ | ​ | ​ |
+| ​ | By: | ​ |
+| ​ | Name: | Gary F. Santo, Jr. |
+| ​ | Title: | Chief Executive Officer |
+[[/TABLE]]
+
+[[A0008]]
+​
+
+[[A0009]]
+[[TABLE]]
+| ​ | ​ | ​ |
+| --- | --- | --- |
+| ​ | COMMONWEALTH ALTERNATIVE CARE, INC., a Massachusetts corporation | |
+| ​ | ​ | ​ |
+| ​ | By: | ​ |
+| ​ | Name: | Gary F. Santo, Jr. |
+| ​ | Title: | President |
+[[/TABLE]]
+
+[[A0010]]
+​ ​ 3 ​ Acknowledged and Agreed to: TILT HOLDINGS INC., a British Columbia corporation
+
+[[A0011]]
+[[TABLE]]
+| By: | ​ | ​ |
+| --- | --- | --- |
+| Name: | Gary F. Santo, Jr. | ​ |
+| Title: | Chief Executive Officer | ​ |
+| Address: | 2801 E. Camelback Rd. Suite 180 | ​ |
+| ​ | Phoenix, AZ 85016 | ​ |
+[[/TABLE]]
+
+[[A0012]]
+NOTEHOLDER: [__] 4

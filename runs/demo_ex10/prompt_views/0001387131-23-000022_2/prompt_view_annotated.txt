@@ -1,0 +1,400 @@
+[[A0001]]
+CareView Communications, Inc. 8-K
+
+[[A0002]]
+Exhibit 10.01
+
+[[A0003]]
+CONSENT AND AGREEMENT TO CANCEL AND EXCHANGE Existing Notes AND ISSUE Replacement Notes AND CANCEL Warrants
+
+[[A0004]]
+This CONSENT AND AGREEMENT , dated as of December 30, 2022 (this “ Consent Agreement ”), is made by and among CAREVIEW COMMUNICATIONS, INC.
+
+[[A0005]]
+, a Nevada corporation (the “ Company ”), the HealthCor Parties (as defined below), and such additional Existing Investors (as defined below) as, together with the HealthCor Parties (collectively, the “ Majority Investors ”), are holders of at least a majority of the shares of Common Stock issued or issuable (on an as converted basis) upon conversion of the Existing Notes and Warrants.
+
+[[A0006]]
+RECITALS:
+
+[[A0007]]
+WHEREAS, the Company is insolvent, having a negative net worth of $117 million and substantial debt, both long and short term as of September 30, 2022; and
+
+[[A0008]]
+WHEREAS, because the Company files reports with the SEC, its financial statements are publicly available, including to its existing and prospective customers; and
+
+[[A0009]]
+WHEREAS , the Company believes that it is losing sales of its products/services to its existing and prospective customers due to its negative net worth and perception that it will be unable to continue operations with the consequential loss of all or substantially all of the Existing Indebtedness (as defined below); and
+
+[[A0010]]
+WHEREAS, the Existing Investors have agreed to enter into this Consent Agreement to reduce the aggregate principal amount of the Existing Indebtedness in order to contribute to the Company’s ability to continue as a “going concern” and thereby hopefully salvaging the repayment of at least a portion of the Existing Indebtedness; and
+
+[[A0011]]
+WHEREAS , the Company, HealthCor Partners Fund, L.P.
+
+[[A0012]]
+(“ HealthCor Partners ”), HealthCor Hybrid Offshore Master Fund, L.P. (“ HealthCor Hybrid ” and, together with HealthCor Partners, the “ HealthCor Parties ”) and certain additional investors that purchased additional Notes and additional Warrants on February 17, 2015 (the “ 2015 Investors ”), additional Notes and additional Warrants on February 23, 2018 (the “ February 2018 Investors ”), additional Notes on July 13, 2018 (the “ July 2018 Investors ”), additional Notes on May 15, 2019 (the “ 2019 Investor ”) and additional Notes on February 6, 2020 (the “ 2020 Investor ” and, together with the 2015 Investors, the February 2018 Investors, the July 2018 Investors, the 2019 Investor and the HealthCor Parties, the “ Existing Investors ”) are parties to that certain Note and Warrant Purchase Agreement, dated as of April 21, 2011 (as amended from time to time, including without limitation pursuant to that certain Note and Warrant Amendment Agreement dated December 30, 2011, that certain Second Amendment to Note and Warrant Purchase Agreement dated January 31, 2012, that certain Third Amendment to Note and Warrant Purchase Agreement dated August 20, 2013, that certain Fourth Amendment to Note and Warrant Purchase Agreement dated January 16, 2014, that certain Fifth Amendment to Note and Warrant Purchase Agreement dated December 15, 2014, that certain Sixth Amendment to Note and Warrant Purchase Agreement dated March 31, 2015, that certain Seventh Amendment to Note and Warrant Purchase Agreement dated June 26, 2015, that certain Eighth Amendment to Note and Warrant Purchase Agreement dated February 23, 2018, that certain Ninth Amendment to Note and Warrant Purchase Agreement dated July 10, 2018, that certain Tenth Amendment to Note and Warrant Purchase Agreement dated July 13, 2018, that certain Eleventh Amendment to Note and Warrant Purchase Agreement dated March 27, 2019, that certain Twelfth Amendment to Note and Warrant Purchase Agreement dated May 15, 2019 and that certain Thirteenth Amendment to Note and Warrant Purchase Agreement dated February 6, 2020, the “ Purchase Agreement ”); and
+
+[[A0013]]
+[[TABLE]]
+| | 1 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0014]]
+WHEREAS,
+as contemplated
+by the Purchase Agreement, the Company issued and sold (a) $20,000,000 initial principal amount of Notes (the “
+2011 Notes
+”)
+and Warrants to purchase 11,782,859 shares of Common Stock to the HealthCor Parties on April 21, 2011, (the “
+2011 Warrants
+”)
+- $5,000,000 initial principal amount of additional Notes (the “
+2012 Notes
+”) to the HealthCor Parties on January
+31, 2012, (c) $5,000,000 initial principal amount of additional Notes (the “
+2014 Supplemental Closing Notes
+”) and Warrants
+to purchase 4,000,000 shares of Common Stock (the “
+2014 Supplemental Warrants
+”) to the HealthCor Parties on January
+16, 2014, (d) $6,000,000 initial principal amount of additional Notes (the “
+Fifth Amendment Supplemental Closing Notes”
+)
+and Warrants to purchase 3,692,308 shares of Common Stock (the “
+Fifth Amendment Supplemental Warrants”
+) to HealthCor
+Partners and the 2015 Investors on February 17, 2015, (e) Warrants to purchase 1,000,000 shares of Common Stock on March 31, 2015 (the
+“
+Sixth Amendment Supplemental Warrants
+”), (f) $2,050,000 initial principal amount of additional Notes (the “
+Eighth
+Amendment Supplemental Notes
+”) and Warrants to purchase 512,500 shares of Common Stock (the “
+Eighth Amendment Supplemental
+Warrants
+”) to the February 2018 Investors on February 23, 2018, (f) $1,000,000 initial principal amount of additional Notes
+(the “
+Tenth Amendment Supplemental Notes
+”) to the July 2018 Investors on July 13, 2018, (g) $50,000 initial principal
+amount of additional Notes (the “
+Twelfth Amendment Supplemental Notes”
+) to the 2019 Investor on May 15, 2019, (h) $100,000
+initial principal amount of additional Notes (the “
+Thirteenth Amendment Supplemental Notes
+”) to the 2020 Investor on
+February 6, 2020, (i) Warrants to purchase 2,000,000 shares of Common Stock on April 20, 2021 (the “
+2021 Warrants
+”),
+and (j) Warrants to purchase 3,000,000 shares of Common Stock on March 8, 2022 (the “
+2022 Warrants
+”); and
+
+[[A0015]]
+WHEREAS , the undersigned Existing Investors in and holders of the 2011 Notes, 2012 Notes, 2014 Supplemental Closing Notes, Fifth Amendment Supplemental Closing Notes, Eighth Amendment Supplemental Notes, Tenth Amendment Supplemental Notes, Twelfth Amendment Supplemental Notes, Thirteenth Amendment Supplemental Notes (collectively the “ Existing Notes ” and the indebtedness represented by such Existing Notes, the “ Existing Indebtedness ”), desire to cancel and exchange their respective Existing Notes for replacement notes in the amounts and in consideration of earlier maturity dates as set forth on Schedule 1 attached hereto and incorporated herein and in the form as attached hereto as Exhibit A (collectively the “ Replacement Notes ”); and
+
+[[A0016]]
+WHEREAS , the Existing Investors agree to the cancellation by the Company and the forfeiting of their respective rights in and to the 2011 Warrants, 2014 Supplemental Warrants, Fifth Amendment Supplemental Warrants, Sixth Amendment Supplemental Warrants, Eighth Amendment Supplemental Warrants, 2021 Warrants and 2022 Warrants (collectively, the “ Warrants ”); and
+
+[[A0017]]
+[[TABLE]]
+| | 2 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0018]]
+WHEREAS , the Existing Investors have agreed to waive any and all interest that has accrued, but remains unpaid on the Existing Notes held by the Existing Investors;
+
+[[A0019]]
+WHEREAS , in exchange for releasing its second senior secured position they hold in connection with the 2011 Notes and 2012 Notes, the HealthCor Parties will receive an additional $5,000,000 in value in the Replacement Notes as reflected on Exhibit A; and
+
+[[A0020]]
+WHEREAS , the Company agrees to use its best efforts to facilitate the best taxable treatment/event/outcome to the Existing Investors resulting from their agreement to enter into this Consent Agreement.
+
+[[A0021]]
+NOW, THEREFORE , in consideration of the agreements hereinafter set forth, and for other good and valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties hereto agree as follows:
+
+[[A0022]]
+1. Definitions . Capitalized terms used in this Consent Agreement but not defined in this Consent Agreement shall have the meanings ascribed to them in the Purchase Agreement.
+
+[[A0023]]
+2. Consent to Cancellation of the Existing Notes and Issuance of Replacement Notes . The Existing Investors each hereby consent to the cancellation of his/hers/its respective Existing Note(s) and the issue to him/her/it of a Replacement Note(s) in the amount and on the terms set forth on Schedule 1 hereto and form of Replacement Note set forth on Exhibit A hereto.
+
+[[A0024]]
+Each Existing Investor hereby represents and warrants to the Company that the Existing Note(s) held by such Existing Investor, as set forth on Schedule 1 , represents all of the promissory notes, convertible promissory notes and any other debt security issued by the Company and held by such Existing Investor as of the date hereof.
+
+[[A0025]]
+3. Cancellation of Warrants.
+
+[[A0026]]
+Subject to compliance with the terms and conditions of this Consent Agreement, the Existing Investors agree to the cancellation by the Company and the forfeiting of their respective rights in and to the Warrants.
+
+[[A0027]]
+[[TABLE]]
+| | 4. | Miscellaneous . |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0028]]
+(a)
+Ratification
+and Confirmation
+. The Company acknowledges, agrees and confirms that the Purchase Agreement and each of the other Transaction Documents,
+except as expressly set forth in this Consent Agreement, are and shall continue to be in full force and effect and are hereby in all respects
+ratified and confirmed.
+
+[[A0029]]
+Without limiting the effect of the foregoing, the Company and the other parties hereto agree and confirm that
+the Replacement Notes shall be considered “Notes” and “Closing Securities” under the Purchase Agreement, any shares
+of Common Stock issuable upon conversion of the Replacement Notes shall be considered “Note Shares” under the Purchase Agreement
+and “Registrable Securities” under the Registration Rights Agreement, and the obligations of the Company under the Replacement
+Notes shall be “Obligations” within the meaning of the Security Agreement.
+
+[[A0030]]
+[[TABLE]]
+| | 3 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0031]]
+(b)
+Expenses
+.
+The Company will pay and bear full responsibility for the reasonable legal fees and other out-of-pocket costs and expenses of the Existing
+Investors attributable to the negotiation and consummation of the transactions contemplated hereby.
+
+[[A0032]]
+(c)
+Governing
+Law
+. All questions concerning the construction, interpretation and validity of this Consent Agreement shall be governed by and construed
+and enforced in accordance with the domestic laws of the State of Delaware without giving effect to any choice or conflict of law provision
+or rule (whether in the State of Delaware or any other jurisdiction) that would cause the application of the laws of any jurisdiction
+other than the State of Delaware.
+
+[[A0033]]
+In furtherance of the foregoing, the internal law of the State of Delaware will control the interpretation
+and construction of this Consent Agreement, even if under such jurisdiction’s choice of law or conflict of law analysis, the substantive
+law of some other jurisdiction would ordinarily or necessarily apply.
+
+[[A0034]]
+(d)
+Construction
+.
+The Company and the Existing Investors acknowledge that the Company and its independent counsel and the Existing Investors and their independent
+counsel have jointly reviewed and drafted this document, and agree that any rule of construction and interpretation to the effect that
+drafting ambiguities are to be resolved against the drafting party shall not be employed.
+
+[[A0035]]
+(e)
+Counterparts;
+Facsimile and Electronic Signatures
+. This Consent Agreement may be executed in any number of counterparts, and each such counterpart
+hereof shall be deemed to be an original instrument, but all such counterparts together shall constitute but one agreement.
+
+[[A0036]]
+Counterpart
+signatures to this Consent Agreement delivered by facsimile or other electronic transmission shall be acceptable and binding.
+
+[[A0037]]
+(f)
+Headings
+.
+The section and paragraph headings contained in this Consent Agreement are for reference purposes only and shall not affect in any way
+the meaning or interpretation of this Consent Agreement.
+
+[[A0038]]
+(g)
+Recitals.
+
+[[A0039]]
+The above Recitals are contractual and form an integral / substantive part of this Consent Agreement.
+
+[[A0040]]
+[[TABLE]]
+| | 4 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0041]]
+(h)
+Release
+of Claims
+. Effective upon the date hereof, each Existing Investor, and each of his, her or its equityholders, subsidiaries, affiliates,
+employees, agents, advisors, heirs, executors, administrators, legal and personal representatives, successors and assigns, as applicable
+(collectively, the “
+Releasors
+”), hereby unconditionally and irrevocably waives, releases and forever discharges the
+Company and its affiliates and its past, present and future directors, officers, employees, advisors, agents, predecessors, successors,
+assigns, equityholders, partners, insurers and affiliates (the “
+Released Parties
+”) from any and all liabilities, actions,
+causes of action, suits, guarantees, proceedings, grievances, executions, judgments and claims for injuries, losses, interest, costs,
+expenses, indemnity, fines, penalties, legal and professional fees and assessments or other amounts of any kind or nature whatsoever,
+in law or in equity, whether express or implied, in each case whether absolute or contingent, liquidated or unliquidated, known or unknown,
+matured or unmatured, from the inception of time through the date hereof, that any Releasor ever had, may have or now has against the
+Released Parties in its capacity as a holder of an Existing Note or Warrant, or in connection with the Purchase Agreement (collectively,
+the “
+Claims
+”); provided, that, except as set forth in the last sentence of this paragraph, the foregoing shall not
+- release any rights of the Existing Investor arising under (a) any indemnification obligations under the DGCL or (b) the Replacement
+Notes, or the transactions contemplated by this Consent Agreement; or (ii) release any Claims that cannot be released as a matter of law
+(the “
+Non-Released Matters
+”). Each Existing Investor understands that this is a full and final release of all actions
+and Claims of any nature whatsoever, whether or not known, suspected or claimed, that could have been asserted in any legal or equitable
+proceeding against the Released Parties as of the date hereof, except as expressly set forth in this Section 4(h). Existing Investor acknowledges
+that it, he or she may hereafter discover facts in addition to or different from those that Existing Investor now knows or believes to
+be true with respect to the subject matter of this release, but it is Existing Investor’s intention, except for the Non-Released
+Matters, to fully and finally and forever settle and release any and all claims that do now exist, may exist or heretofore have existed
+with respect to the subject matter of this release.
+
+[[A0042]]
+In furtherance of this intention, the releases contained herein will be and remain
+in effect as full and complete general releases notwithstanding the discovery or existence of any such additional or different facts.
+
+[[A0043]]
+[ Signature Pages Follow ]
+
+[[A0044]]
+[[TABLE]]
+| | 5 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0045]]
+IN WITNESS WHEREOF , each of the undersigned has duly executed this Consent Agreement as of the date first written above.
+
+[[A0046]]
+[[TABLE]]
+| | COMPANY: | |
+| --- | --- | --- |
+| | | |
+| | CareView Communications, Inc., a Nevada corporation | |
+| | | |
+| | By: | /s/ Steven G. Johnson |
+| | | Name: Steven G. Johnson |
+| | | Title: President |
+[[/TABLE]]
+
+[[A0047]]
+[[TABLE]]
+| | [Signature Page to Consent Agreement] | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0048]]
+[[TABLE]]
+| | MAJORITY INVESTORS: | | |
+| --- | --- | --- | --- |
+| | | | |
+| | HealthCor Partners Fund, L.P. | | |
+| | By: HealthCor Partners Management L.P., as Manager | | |
+| | By: HealthCor Partners Management, G.P., LLC, as General Partner | | |
+| | | | |
+| | By: | /s/ Jeffrey C. Lightcap | |
+| | Name: Jeffrey C. Lightcap | | |
+| | Title: Senior Managing Director | | |
+| | Address: | HealthCor Partners | |
+| | | 1325 Avenue of Americas, 27th Floor | |
+| | | New York, NY 10019 | |
+| | | | |
+| | HealthCor Hybrid Offshore Master Fund, L.P. | | |
+| | By: HealthCor Hybrid Offshore G.P., LLC, as General Partner | | |
+| | | | |
+| | By: | /s/ Laurie Hadick | |
+| | Name: Laurie Hadick | | |
+| | Title: CCO | | |
+| | Address: | HealthCor Partners | |
+| | | 1325 Avenue of Americas, 27th Floor | |
+| | | New York, NY 10019 | |
+| | | | |
+[[/TABLE]]
+
+[[A0049]]
+[[TABLE]]
+| | [Signature Page to Consent Agreement] | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0050]]
+[[TABLE]]
+| | MAJORITY INVESTORS: |
+| --- | --- |
+| | |
+| | /s/ Steven B. Epstein |
+| | Steven B. Epstein |
+| | |
+| | /s/ James R. Higgins |
+| | Dr. James R. Higgins |
+| | |
+| | /s/ Steven G. Johnson |
+| | Steven G. Johnson |
+| | |
+| | /s/ Jeffrey C. Lightcap |
+| | Jeffrey C. Lightcap |
+[[/TABLE]]
+
+[[A0051]]
+[[TABLE]]
+| | [Signature Page to Consent Agreement] | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0052]]
+ACKNOWLEDGED AND AGREED :
+
+[[A0053]]
+[[TABLE]]
+| CareView Communications, Inc., a Texas corporation | | |
+| --- | --- | --- |
+| | | |
+| By: | /s/ Steven G. Johnson | |
+| Name: | Steven G. Johnson | |
+| Title: | President | |
+| | | |
+| CareView Operations, LLC, a Texas limited liability company | | |
+| | | |
+| By: | /s/ Steven G. Johnson | |
+| Name: | Steven G. Johnson | |
+| Title: | President | |
+[[/TABLE]]
+
+[[A0054]]
+[[TABLE]]
+| | [Signature Page to Consent Agreement] | |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0055]]
+SCHEDULE 1
+
+[[A0056]]
+EXISTING INVESTORS REPLACEMENT NOTES AMOUNTS AND MATURITY DATES
+
+[[A0057]]
+[***]
+
+[[A0058]]
+[Omitted pursuant to Instruction 4 to Item 1.01 of Form 8-K]
+
+[[A0059]]
+[[TABLE]]
+| |
+| --- |
+[[/TABLE]]
+
+[[A0060]]
+EXHIBIT A
+
+[[A0061]]
+FORM OF REPLACEMENT NOTE
+
+[[A0062]]
+[See attached]
+
+[[A0063]]
+[[TABLE]]
+| |
+| --- |
+[[/TABLE]]

@@ -1,0 +1,169 @@
+[[A0001]]
+Document
+Execution Version
+AMENDMENT NO. 1 TO THE SECURITIES PURCHASE AGREEMENT
+This Amendment No. 1, dated as of December 30, 2022 (this “
+Amendment
+”), to the Securities Purchase Agreement, dated as of November 2, 2022 (the “
+Agreement
+”), by and among Masonite Corporation, a Delaware corporation (“
+Buyer
+”), EPI Holdings, Inc., a Delaware corporation (the “
+Company
+”), Cyprium Investors V LP, a Delaware limited partnership (“
+Cyprium Investors V
+”), Cyprium Parallel Investors V LP, a Delaware limited partnership (“
+Cyprium Parallel V
+”), 1492 Capital LLC, an Ohio limited liability company (“
+1492 Capital
+”), Nationwide Defined Benefit Master Trust, an employee pension plan organized in New York (“
+Nationwide
+”), Bruce Procton, a natural person, the Rose E. Procton Irrevocable Trust u/a/d 12/31/12, the Alexander M. Procton Irrevocable Trust u/a/d 12/31/12, the Jonas M. Procton Irrevocable Trust u/a/d 12/31/12, Kevin MacDonald, a natural person, Walter Hammond, a natural person, Greg McGehee, a natural person, and Larry Repar, a natural person (collectively, the “
+Company Stockholders
+”), Cyprium Investors V, Cyprium Parallel V, 1492 Capital and Nationwide (collectively, the “
+Company Warrant Holders
+”), and Bruce E. Procton, a natural person (the “
+Company Equityholders’ Representative
+”), as the Company Equityholders’ Representative.
+
+[[A0002]]
+W I T N E S S E T H:
+WHEREAS, the parties hereto are parties to the Agreement; and
+WHEREAS, in accordance with Section 11.1 of the Agreement, the parties hereto wish to amend the Agreement as set forth therein.
+
+[[A0003]]
+NOW, THEREFORE, in consideration of the foregoing and the mutual promises and covenants contained herein (the receipt and sufficiency of which is hereby acknowledged and agreed), the parties hereto agree as follows:
+1.
+Definitions
+. Capitalized terms used in this Amendment and not otherwise defined shall have the meanings ascribed to such terms in the Agreement.
+2.
+Amendment to Section 1.4(a)(x)
+. Section 1.4(a)(x) of the Agreement is hereby amended and restated in its entirety as follows with additions appearing in
+bold and underlined
+and deletions appearing as
+strikethroughs
+:
+“
+Bruce E. Procton Capital Contribution
+. On or before the Closing Date, Bruce E. Procton shall make a capital contribution in cash to the Company in an amount sufficient to enable the Company or a Company Subsidiary to pay bonuses to employees of the Company or a Company Subsidiary in a total amount of (A)
+One Million Five Hundred Ninety-Seven Thousand Six Hundred dollars ($1,597,600)
+one million two hundred thousand dollars ($1,200,000)
+,
+plus
+- the Company’s or Company Subsidiary’s portion of any payroll taxes owed by the
+Company or any Company Subsidiary with respect to such bonuses (the “
+Capital Contribution
+”).”
+3.
+Amendment to Section 2.2(b)
+. Section 2.2(b) of the Agreement is hereby amended and restated in its entirety as follows with additions appearing in
+bold and underlined
+and deletions appearing as
+strikethroughs
+:
+“
+Section 2.2(b)
+of the Company Disclosure Schedule contains an illustrative Allocation Schedule (the “
+Illustrative Allocation Schedule
+”) prepared by the Company as if the Closing occurred as of the date of this Agreement and, without limiting any other covenants, agreements, representations or warranties of the Company, the Company Stockholders, and the Company Warrant Holders under this Agreement or the rights or remedies of Buyer with respect thereto, the Allocation Schedule will be substantially in the form of the Illustrative Allocation Schedule and will take into account any changes to the Company’s capitalization between the date of this Agreement and the date of delivery of the Allocation Schedule to Buyer pursuant to
+Section 2.2(a)
+. The Company will review any comments to the Allocation Schedule provided by Buyer or any of its Representatives and consider in good faith and incorporate any reasonable comments proposed by Buyer or any of its Representatives.
+
+[[A0004]]
+Notwithstanding the foregoing or anything to the contrary herein, the information required to be provided
+under Section 2.2(a)(vii) shall be provided only on the date of delivery of the Allocation Schedule
+.
+in the Illustrative Allocation Schedule under
+Section 2.2(a)(vii)
+, (i) other than the allocation contemplated by
+clause (ii)
+hereof, shall be provided by the Company within five (5) Business Days as of the date of this Agreement and (ii) with respect to the allocation among recipients of a portion of the Change of Control Payments in an approximate aggregate amount of one million, two hundred thirty-three thousand, three hundred forty-seven ($1,233,347) shall be provided by the Company within thirty (30) calendar days of the date of this Agreement
+”
+4.
+Amendment to Section 3.2(a)
+. Section 3.2(a) of the Company Disclosure Schedule is hereby amended as set forth on
+Annex A
+hereto.
+5.
+Amendment to Section 3.2(h)
+. Section 3.2(h) of the Company Disclosure Schedule is hereby amended and restated in its entirety as set forth on
+Annex A
+hereto.
+6.
+Amendment to Section 3.13(a)
+. Section 3.13(a) of the Company Disclosure Schedule is hereby amended as set forth on
+Annex A
+hereto.
+7.
+Amendment to Section 6.2
+. Sections 6.2(e), 6.2(f) and 6.2(r) of the Company Disclosure Schedule are hereby amended to include the disclosure set forth on
+Annex B
+hereto.
+8.
+Amendment to Section 9.1(a)(iv)
+. Section 9.1(a)(iv) of the Agreement is hereby amended by replacing reference to “December 31, 2022” with “January 4, 2023”.
+
+[[A0005]]
+9.
+Agreement Remains in Effect
+. Except as expressly amended by this Amendment, the Agreement remains in full force and effect and nothing in this Amendment shall otherwise affect any other provision of the Agreement or the rights and obligations of the parties hereto.
+10.
+
+[[A0006]]
+References to the Agreement
+. After giving effect to this Amendment, each reference in the Agreement to “this Agreement,” “hereof,” “hereunder” or words of like import referring to the Agreement shall refer to the Agreement as amended by this Amendment.
+11.
+
+[[A0007]]
+Incorporation by Reference
+. Sections 11.1 (
+Amendment
+); 11.3 (
+Notices
+); 11.4 (
+Interpretation
+); 11.2 (
+Headings; Definitions
+); 11.5 (
+Waiver of Jury Trial
+); 11.6 (
+Counterparts; Electronic Signatures
+); 11.7 (
+Entire Agreement
+); 11.8 (
+Governing Law; Jurisdiction
+); 11.9 (
+Assignment
+); 11.10 (
+Third Party Beneficiaries
+); 11.11 (
+Specific Performance
+) and 11.12 (
+Severability
+) of the Agreement are incorporated herein by reference,
+mutatis mutandis
+.
+[
+Signature Page Follows
+]
+
+[[A0008]]
+IN WITNESS WHEREOF, this Amendment No. 1 to the Securities Purchase Agreement has been executed on behalf of each of the parties hereto as of the date first above written.
+
+[[A0009]]
+MASONITE CORPORATION
+By:
+/s/ Howard C. Heckes
+Name: Howard C. Heckes
+Title: President and Chief Executive Officer
+IN WITNESS WHEREOF, this Amendment No. 1 to the Securities Purchase Agreement has been executed on behalf of each of the parties hereto as of the date first above written.
+
+[[A0010]]
+COMPANY
+By:
+/s/ Bruce E. Procton
+Name: Bruce E. Procton
+Title: President
+COMPANY EQUITYHOLDERS’ REPRESENTATIVE
+/s/ Bruce E. Procton
+Bruce E. Procton

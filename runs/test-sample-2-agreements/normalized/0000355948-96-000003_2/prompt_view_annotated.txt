@@ -1,0 +1,949 @@
+[[A0001]]
+RICHARDSON ELECTRONICS, LTD. SENIOR REVOLVING NOTE
+
+[[A0002]]
+$25,000,000.00 Chicago, Illinois November 30, 1995
+
+[[A0003]]
+FOR VALUE RECEIVED, THE UNDERSIGNED, RICHARDSON ELECTRONICS, LTD., a Delaware corporation ("Borrower") promises to pay to the order of AMERICAN NATIONAL BANK AND TRUST COMPANY OF CHICAGO ("Bank"), at such place as Bank may from time to time designate in writing, the principal sum of Twenty Five Million Dollars ($25,000,000.00) or so much thereof as may from time to time be advanced hereunder, with interest on the principal balance outstanding from time to time, all as hereinafter set forth.
+
+[[A0004]]
+The principal balance hereof may be borrowed, repaid and borrowed again, all in accordance with the terms and conditions stated herein.
+
+[[A0005]]
+The entire principal balance of this Note then outstanding, plus any accrued and unpaid interest thereon shall be due and payable on November 30, 1998, or such earlier date on which said amount shall become due and payable on account of acceleration by Bank (the "Maturity Date"). Borrower promises to pay to Bank interest in the amounts and at the times provided below.
+
+[[A0006]]
+Borrower agrees that, on the Maturity Date, Borrower will pay to Bank the entire principal balance of this Note then outstanding, together with all accrued and unpaid interest, all penalties, late payment fees and any other sums due hereunder.
+
+[[A0007]]
+Except as hereinafter provided, Borrower's obligations and liabilities to Bank under this Note ("Borrower's Liabilities") unpaid from time to time (except for principal outstanding comprising a Foreign Denominated Funding) shall bear interest from the date of disbursement until paid, at a daily rate equal to the daily rate equivalent, computed on a basis of actual days elapsed, of interest announced or published publicly from time to time by Bank as its prime, base or equivalent rate of interest (such publicly announced or published rate of interest referred to herein as the "Prime Rate").
+
+[[A0008]]
+The foregoing rate of interest to be charged hereunder shall fluctuate hereafter from time to time concurrently with and in an amount equal to each increase or decrease in the Prime Rate.
+
+[[A0009]]
+Notwithstanding the foregoing, at Borrower's option ("Libor Option" ), exercisable upon two Business Days prior oral or written notice by an Authorized Officer of Borrower to Bank, all or any portion of the principal balance outstanding under this Note (not comprising a Foreign Denominated Funding as described below) shall bear interest at Borrower's Libor Option Rate (as defined below) in effect as of the date of such notification.
+
+[[A0010]]
+Borrower's Libor Option may be exercised for periods (the "Libor Option Period") of not less than thirty (30) days and not greater than ninety (90) days, and may be exercised (whether for consecutive periods or otherwise) throughout the term of this Note.
+
+[[A0011]]
+In the event Borrower fails to elect as provided above a successive Libor Option Period prior to the expiration of a Libor Option Period then in effect, the funds subject to the Libor Option shall, after such expiration, bear interest at the Prime Rate provided in the preceding paragraph.
+
+[[A0012]]
+Notwithstanding the foregoing, at Borrower's option ("Foreign Funding Option"), exercisable upon two Business Days prior oral or written notice by an Authorized Officer of Borrower to Bank, all or any portion of funds to be advanced under this Note, in amounts equal to or exceeding one million dollars ($1,000,000) for each advance may be advanced as a Foreign Denominated Funding.
+
+[[A0013]]
+The principal balance outstanding under this Note comprising a Foreign Denominated Funding shall bear interest at the Foreign Denominated Funding Rate (as defined below) in effect as of the date of such notification.
+
+[[A0014]]
+Borrower's Foreign Funding Option may be exercised for periods (the "Foreign Funding Option Period") of not less than ninety (90) days and not greater than five hundred forty (540) days, and may be exercised (whether for consecutive periods or otherwise) throughout the term of this Note.
+
+[[A0015]]
+In the event Borrower fails to elect as provided above a successive Foreign Funding Option Period prior to two Business Days prior to the last day of a Foreign Funding Option Period then in effect, the funds subject to the Foreign Funding Option shall, after such expiration, bear interest at the Prime Rate provided in the second preceding paragraph.
+
+[[A0016]]
+Borrowers Liabilities for principal upon this Note arising from a Foreign Denominated Funding shall bear interest at Borrower's Foreign Denominated Funding Rate (as defined below) from the date of advance until repayment.
+
+[[A0017]]
+Interest hereunder shall be due and payable quarterly in arrears, on each April 30, July 31, October 31, and January 31, during the term of this Note, at such place as Bank may from time to time designate in writing, on the average daily balance of the principal amount outstanding during the quarterly period then ending, and shall be calculated on the basis of the actual number of days in such quarterly period.
+
+[[A0018]]
+All interest payable under this Note shall be calculated for actual days based upon a 360 day year (except for interest at the Foreign Denominated Funding Rate upon British Pounds Sterling which shall be calculated for actual days based upon a 365 day year). If any payment of principal and interest hereunder is due on a day which is not a Business Day, such payment will be due on the next following Business Day.
+
+[[A0019]]
+Both the Bank's Prime Rate, and its Libor shall not necessarily be the lowest rate of interest which the Bank charges its customers.
+
+[[A0020]]
+If an Event of Default shall occur, interest, in lieu of the interest hereinabove provided, shall accrue hereunder from the date of the same until cured, if cure is allowed, at the rate of two percent (2%) per annum, computed on a basis of actual days elapsed, in excess of the Prime Rate in effect on the date of the Event of Default, which rate shall change when and as said Prime Rate changes.
+
+[[A0021]]
+The Bank shall not, however, incur any additional costs as a result of the change from the Libor option to such Prime Rate in the middle of a Libor Option period.
+
+[[A0022]]
+Such amounts shall be part of Borrower's Liabilities immediately due and payable by Borrower to Bank without notice by Bank to or demand by Bank of Borrower.
+
+[[A0023]]
+Borrower may prepay all or any portion of outstanding principal or interest or both under this Note at any time without notice, premium or penalty, provided that Borrower may not make a prepayment upon any portion of the balance outstanding upon this Note bearing interest at the Libor Option Rate until the expiration of the applicable Libor Option Period.
+
+[[A0024]]
+Throughout the term of this Note, the Borrower agrees to utilize the Bank as its primary depository and remittance point.
+
+[[A0025]]
+The Borrower acknowledges that the Bank will charge the Borrower monthly service charges for various services performed by the Bank in connection with any aspect of the relationship between the Borrower and the Bank, and the Borrower hereby agrees that if such service charges arising in any month exceed the credit to the Borrower in that month arising from earnings attributable to funds on deposit with the Bank in demand deposit accounts, such service charge deficiency shall be deducted by the Bank from the Borrower's operating account.
+
+[[A0026]]
+All of the Bank's charges to the Borrower pursuant to this paragraph shall be its usual and customary charges to companies of a similar size for services of a similar nature.
+
+[[A0027]]
+All payments of principal of, or interest on, this Note and of any fees shall be made in immediately available funds by the Borrower to the Bank.
+
+[[A0028]]
+All such payments shall be made to the Bank at its principal office in Chicago, Illinois not later than 2:00 p.m., Chicago time, on the date due; and funds received after that hour shall be deemed to have been received by the Bank on the next following Business Day.
+
+[[A0029]]
+If, with respect to any Libor option Period or Foreign Funding Option Period, the Bank shall determine that, by reason of circumstances affecting the foreign exchange and interbank markets generally, deposits in Eurodollars in the applicable amounts are not being offered to the Bank for such Libor Option Period or Foreign Funding Option Period, then the Bank shall forthwith give notice thereof to the Borrower.
+
+[[A0030]]
+Thereafter, until the Bank notifies the Borrower that such circumstances no longer exist, the obligation of the Bank to provide the Libor Option or Foreign Funding Option, and the right of the Borrower to elect the Libor Option or Foreign Funding Option, shall be suspended.
+
+[[A0031]]
+If, after the date hereof, the introduction of, or any change in, any applicable law or in the interpretation or administration thereof by any governmental authority, central bank or comparable agency charged with the interpretation or administration thereof, or compliance by (or any of its lending offices) with any request or directive (whether or not having the force of law) of any such governmental authority, central bank or comparable agency, shall make it unlawful or impossible for the Bank to honor its obligations to maintain the Libor Option or Foreign Funding Option, the Bank shall forthwith give notice thereof to the Borrower.
+
+[[A0032]]
+Thereafter, until the Bank notifies the Borrower that such circumstances no longer exist, (i) the obligations of the Bank to provide the Libor Option or Foreign Funding Option and the right of the Borrower to elect or maintain a principal balance with interest at the Libor Option Rate or the Foreign Denominated Funding Rate shall be suspended, and (ii) if the Bank may not lawfully continue to maintain the Libor Option or Foreign Funding Option to the end of the then current Libor Option Period or Foreign Funding Option Period, the applicable principal shall immediately accrue interest at the Prime Rate for the remainder of such Libor Option Period or Foreign Funding Option Period.
+
+[[A0033]]
+If, after the date hereof, the introduction of, or any change in, any applicable law or in the interpretation or administration thereof by any governmental authority, central bank or comparable agency charged with the interpretation or administration thereof, or compliance by the Bank with any request or directive (whether or not having the force of law) of such governmental authority, central bank or comparable agency:
+
+[[A0034]]
+- shall subject the Bank to any tax, duty or other
+charge with respect to this Note or shall change the basis of
+taxation of payments to the Bank (or any of its lending offices)
+or the principal of or interest on this Note (except for changes
+in the rate of tax on the overall net income of the Bank); or
+
+[[A0035]]
+- shall impose, modify or deem applicable any
+reserve (including, without limitation, any imposed by the Board
+of Governors of the Federal Reserve System), special deposit or
+similar requirements against assets of, deposits with or for the
+account of, or credit extended by the Bank or shall impose on the
+Bank or the foreign exchange and interbank markets any other
+condition affecting this Note;
+
+[[A0036]]
+and the result of any of the foregoing is to increase the cost to the Bank of maintaining this Note or to reduce the amount of any sum received or receivable by the Bank under this Note, then the Bank shall promptly notify the Borrower of such fact and demand compensation therefor and, within fifteen (15) days after such notice by the Bank, the Borrower agrees to pay to the Bank such additional amount or amounts as will compensate such Bank for such increased cost or reduction.
+
+[[A0037]]
+The Bank will promptly notify the Borrower of any event of which it has knowledge which will entitle the Bank to compensation pursuant to this paragraph.
+
+[[A0038]]
+A certificate of the Bank setting forth the basis for determining such additional amount or amounts necessary to compensate the Bank shall be conclusively presumed to be correct save for manifest error.
+
+[[A0039]]
+The Borrower hereby indemnifies the Bank against any loss or expense which may arise or be attributable to the Bank's obtaining, liquidating or employing deposits or other funds acquired to effect, fund or maintain this Note, (a) as a consequence of any failure by the Borrower to make any payment when due or any amount due hereunder in connection with any election of a Libor Option Period or a Foreign Funding Option Period, (b) due to any failure of the Borrower to borrow a Libor Option Loan advance or a Foreign Funding Option Loan on the date specified in an oral or written notice to the Bank by an Authorized Officer of Borrower, (c) due to any payment, prepayment or conversion of any Libor Option or Foreign Funding Option on a date other than the last day of the Libor Option Period or two Business Days prior to the last day of the Foreign Funding Option Period therefor or (d) due to any acceleration of the maturity of a Libor Option Loan or a Foreign Funding Option Loan as a result of the occurrence of any Event of Default.
+
+[[A0040]]
+The Bank's calculations of any such loss or expense shall be furnished to the Borrower and shall be conclusive absent manifest error.
+
+[[A0041]]
+Definitions
+
+[[A0042]]
+When used in this Note, the following terms shall have the following respective meanings:
+
+[[A0043]]
+"Affiliate" means, with respect to any Person, any other Person directly or indirectly controlling, controlled by, or under direct or indirect common control with, such Person.
+
+[[A0044]]
+A Person shall be deemed to control another Person if such first Person possesses, directly or indirectly, the power to direct or cause the direction of the management and policies of such other Person, whether through ownership of voting securities, by contract or otherwise.
+
+[[A0045]]
+"Applicable Law" means all applicable provisions of constitutions, statutes, rules, regulations and orders of all governmental authorities and all orders and decrees of all courts and arbitrators.
+
+[[A0046]]
+"Authorized Officer" means any officer of the Borrower designated in writing by Borrower to Bank as an "Authorized Officer".
+
+[[A0047]]
+"Business Day" means any day of the year on which the Bank is open for business in Chicago, Illinois.
+
+[[A0048]]
+"Capitalized Lease Obligations" means any amount payable with respect to any lease of any tangible or intangible property (whether real, personal or mixed), however denoted, which is required by GAAP to be reflected as a liability on the face of the balance sheet of the lessee thereunder.
+
+[[A0049]]
+"Current Assets" means current assets determined in accordance with GAAP on a consolidated basis (unless otherwise agreed between Borrower and Bank) for the Borrower and its Subsidiaries.
+
+[[A0050]]
+"Current Liabilities" means current liabilities determined in accordance with GAAP on a consolidated basis (unless otherwise agreed between Borrower and Bank) for the Borrower and its Subsidiaries.
+
+[[A0051]]
+"Debentures" means the Company's 7-l/4% convertible subordinated debentures due December 15, 2006.
+
+[[A0052]]
+"Domestic Accounts" means accounts owing by a Person (i) residing, located or having its principal activities or place of business in the United States of America, and (ii) subject to service of process within the continental United States of America.
+
+[[A0053]]
+"Domestic Inventory" means inventory located within the continental United States of America.
+
+[[A0054]]
+"Environmental Laws" means any and all federal, state or local environmental or health and safety-related laws, regulations, rules, ordinances, orders or directives.
+
+[[A0055]]
+"ERISA" means the Employee Retirement Income Security Act of 1974, as amended, and any successor statute of similar import, together with the regulations thereunder and under the Internal Revenue Code of 1986, as amended, in each case as in effect from time to time.
+
+[[A0056]]
+References to sections of ERISA shall be construed to also refer to any successor sections.
+
+[[A0057]]
+"ERISA Affiliate" means any corporation, trade or business that is, along with the Borrower, a member of a controlled group of corporations or a controlled group of trades or businesses, as described in Sections 414(b) and 414(c), respectively, of the Internal Revenue Code of 1986, as amended, or Section 4001 of ERISA.
+
+[[A0058]]
+"Foreign Denominated Funding" means any advance which is funded in non-United States currency at the request of Borrower.
+
+[[A0059]]
+"Foreign Funding Option Loan" means any funds advanced by Bank to the Borrower bearing interest at the Foreign Funding Option Rate.
+
+[[A0060]]
+"Foreign Funding Option Period" has the meaning stated on page 2 of this Note.
+
+[[A0061]]
+"Foreign Denominated Funding Rate" means (i) one hundred fifty (150) basis points plus (ii) the actual adjusted Libor rate of interest (adjusted for costs and reserves) which the Bank determines in its reasonable discretion it could earn from time to time upon deposits of non-United States currency corresponding to the non-United States currency outstanding from time to time as a Foreign Denominated Funding for the Foreign Funding Option Period designated by Borrower.
+
+[[A0062]]
+"GAAP" means the generally accepted accounting principles applied in the preparation of the audited consolidated financial statements of the Borrower with such changes thereto as (i) shall be consistent with the then-effective principles promulgated or adopted by the Financial Accounting Standards Board and its predecessors and successors and (ii) shall be concurred in by the independent certified public accountants of recognized standing certifying any financial statements of the Borrower and its Subsidiaries.
+
+[[A0063]]
+"Governmental Authority" means any nation, province, state or other political subdivision thereof, and any government or any Person exercising executive, legislative, regulatory or administrative functions of or pertaining to government, and any corporation or other entity owned or controlled, through stock or capital ownership or otherwise, by any of the foregoing.
+
+[[A0064]]
+"Indebtedness" with respect to any Person, means total current, long term (including debt) and other liabilities, and all liabilities which are components thereof, as calculated according to GAAP.
+
+[[A0065]]
+"Intangible Assets" means goodwill, patents, copyrights, leases, licenses, franchises, service marks, logos and similar nonphysical assets.
+
+[[A0066]]
+"Libor" means at any time and from time to time the Bank's adjusted London Interbank Offering Rate (adjusted by the Bank to account for the Eurodollar Reserve Percentage which is the maximum reserve percentage calculated from time to time under regulations issued by the Federal Reserve Board for determining the maximum reserve requirement with respect to Eurocurrency funding) for a designated Libor Option Period which the Bank most recently announces or publishes publicly as its adjusted Libor rate.
+
+[[A0067]]
+"Libor Option Loan" means any funds advanced by Bank to the Borrower bearing interest at the Libor Option Rate.
+
+[[A0068]]
+"Libor Option Period" has the meaning stated on page 1 of this Note.
+
+[[A0069]]
+"Libor Option Rate" means one hundred fifty (150) basis points over Libor; provided that commencing November 30, 1995 and every six months thereafter, if Borrower has achieved Net Income before extraordinary items and one time charges or credits reasonably agreed to by Bank and Borrower during the four previous fiscal quarters of the following amounts, then the Libor Option Rate will be as follows:
+
+[[A0070]]
+Net Income Libor Option Rate
+
+[[A0071]]
+Below 0 Prime Rate 0 - $ 2,000,000 175 basis points over Libor $2,000,001 - $5,000,000 150 basis points over Libor $5,000,001 - $7,000,000 125 basis points over Libor $7,000,001 - $11,000,000 100 basis points over Libor Greater than $11,000,000 75 basis points over Libor
+
+[[A0072]]
+"Lien" means any mortgage, pledge, lien, security interest or other charge, encumbrance or preferential arrangement, including the retained security title of a conditional vendor or lessor.
+
+[[A0073]]
+"Margin Stock" has the meaning given to such term in Regulation U.
+
+[[A0074]]
+"Material Adverse Effect" or "materially and adversely affect" means a material adverse effect upon the condition (financial or otherwise), operations, performance or properties of Borrower or upon the Borrower's ability to perform or otherwise comply with its obligations set forth in this Note.
+
+[[A0075]]
+The phrase "has a Material Adverse Effect" or "will result in a Material Adverse Effect" or words substantially similar thereto shall in all cases be intended to mean "has or will or could reasonably be anticipated to result in a Material Adverse Effect," and the phrase "has no (or does not have a) Material Adverse Effect" or "will not result in a Material Adverse Effect" or words substantially similar thereto shall in all cases be intended to mean "does not or will not or could not reasonably be anticipated to result in a Material Adverse Effect."
+
+[[A0076]]
+"Net Income" means for any period the net income and net losses of the Borrower and its Subsidiaries during such period determined in accordance with GAAP.
+
+[[A0077]]
+"Net Worth" means total assets determined in accordance with GAAP minus Indebtedness.
+
+[[A0078]]
+"Person" means an individual or a corporation, partnership, trust, incorporated or unincorporated association, joint venture, joint stock company, government (or any agency or political subdivision thereof) or other entity of any kind.
+
+[[A0079]]
+"Plan" means a "pension plan", as such term is defined in ERISA, which is subject to Title IV of ERISA (other than a multiemployer plan) and to which the Borrower or any ERISA Affiliate may have any liability, including any liability by reason of having been a substantial employer within the meaning of Section 4063 of ERISA at any time during the preceding five years, or by reason of being deemed to be a contributing sponsor under Section 4069 of ERISA.
+
+[[A0080]]
+"Redeemable Stock" means any equity security (or option or warrant related thereto) that by its terms or otherwise is required to be purchased or redeemed at any time prior to the date which falls 60 days after November 30, 1998, or is redeemable at the option of the holder thereof at any time prior to the date which falls 60 days after November 30, 1998.
+
+[[A0081]]
+An equity security shall not constitute "Redeemable Stock" if the sole requirement for redemption is the occurrence of the death of the shareholder holding such equity security.
+
+[[A0082]]
+"Regulation U" means Regulation U of the Board of Governors of the Federal Reserve System and any successor rule or regulation of similar import as in effect from time to time.
+
+[[A0083]]
+"Senior Indebtedness" means all of the Borrower's Indebtedness to the Bank (i) for borrowed money, capitalized lease obligations or purchase money obligations, including, but not limited to, the face amount of all outstanding Letters of Credit and all obligations under this Note, or (ii) evidenced by a note, debenture, letter of credit or similar instrument given in connection with the acquisition, other than in the ordinary course of business, of any property or assets.
+
+[[A0084]]
+"Subordinated Debt" means all of the Borrower's Indebtedness which is fully subordinate to the Senior Indebtedness including but not limited to all Indebtedness for the payment of principal of, premium, if any, and interest under the Debentures.
+
+[[A0085]]
+"Subsidiaries" means a corporation of which the Borrower and/or its other Subsidiaries own, directly or indirectly, such number of outstanding shares as have more than 50% of the ordinary voting power for the election of such corporation's directors.
+
+[[A0086]]
+"Tangible Net Worth" means at any time the Borrower's consolidated Net Worth after subtracting therefrom the aggregate amount of any Intangible Assets of the Borrower and the Subsidiaries, including, without limitation, covenants not to compete, prepayments, deferred charges, goodwill, franchises, licenses, patents, trademarks, trade names, copyrights, service marks and brand names; plus the aggregate principal amount of Borrower's Subordinated Debt.
+
+[[A0087]]
+"Unmatured Event of Default" means any event which, with lapse of time or notice or lapse of time and notice, will constitute an Event of Default if it continues uncured.
+
+[[A0088]]
+"Value" means with respect to any inventory, the lesser of the Borrower's cost or market value thereof calculated on a first-in, first-out basis, and with respect to accounts receivable, the principal balance outstanding on all such accounts which are not delinquent in payments past sixty (60) days.
+
+[[A0089]]
+"Welfare Plan" has the meaning given to such term in ERISA.
+
+[[A0090]]
+Unless otherwise provided herein, financial terms shall have the meaning generally ascribed to such terms under GAAP and "inventory" and "accounts" shall have the meaning provided for such terms under the Uniform Commercial Code.
+
+[[A0091]]
+Revolving Credit Commitment and L/C Facility; Revolving Credit Borrowing Procedures
+
+[[A0092]]
+Revolving Loans.
+
+[[A0093]]
+The Bank shall make revolving loans ("Revolving Loans") to the Borrower for the Borrower's working capital and issue Letters of Credit, with an expiration no later than November 30, 1998, for the account of the Borrower, from time to time before the "Revolving Credit Termination Date" which is the earlier of (i) the occurrence of an Event of Default hereunder, or (ii) November 30, 1998, in such aggregate amounts as the Borrower may from time to time request.
+
+[[A0094]]
+The Revolving Loans shall not exceed at any one time outstanding Twenty-Five Million Dollars ($25,000,000) minus the face amount of all outstanding Letters of Credit.
+
+[[A0095]]
+The Borrower shall have the right to repay and reborrow any of the Revolving Loans; provided, however, that it shall be a condition precedent to any reborrowing that as of the date of any reborrowing (any such date herein called a "Reborrowing Date") all of the conditions to borrowing set forth in this Agreement shall be satisfied and all representations and warranties made herein shall be true and correct in all material respects as of such Reborrowing Date.
+
+[[A0096]]
+The Bank's commitment to make the Revolving Loans and issue Letters of Credit up to a maximum aggregate face amount not exceeding Three Million Dollars ($3,000,000) is herein called the "Revolving Credit Commitment".
+
+[[A0097]]
+Revolving Loan Borrowing Procedures.
+
+[[A0098]]
+Subject to the notification requirements stated herein for a Libor Option or Foreign Funding Option advance, the Borrower shall give the Bank irrevocable telephonic notice of each proposed Revolving Loan borrowing no later than 12:00 noon, Chicago time, on the same Business Day as the proposed date of such borrowing.
+
+[[A0099]]
+Each such notice shall be effective upon receipt by the Bank and shall specify the date and the amount of the borrowing.
+
+[[A0100]]
+Each request for a Revolving Loan shall automatically constitute a representation and warranty by the Borrower that, as of the date of such requested Revolving Loan, all conditions precedent to the making of such Revolving Loan set forth in Section 11 shall be satisfied.
+
+[[A0101]]
+Each borrowing of a Revolving Loan shall be on a Business Day.
+
+[[A0102]]
+L/C Facility.
+
+[[A0103]]
+From time to time upon the Borrower's request, Bank shall issue or cause to be issued one or more letters of credit (each such letter of credit, as from time to time amended or modified with the consent of Borrower, being hereinafter referred to as a "Letter of Credit"). The aggregate amount of Letters of Credit outstanding at any point in time shall not exceed $3,000,000.
+
+[[A0104]]
+Reimbursement.
+
+[[A0105]]
+The Borrower shall reimburse Bank, on demand, for any amounts paid by Bank pursuant to any sight draft, receipt or cable or written demand for payment presented to Bank in connection with a Letter of Credit; such amounts shall be evidenced by the Revolving Note.
+
+[[A0106]]
+Upon the termination of this Agreement, the Borrower shall cause all outstanding Letters of Credit to be canceled as of the Credit Termination Date or shall pay to Bank an amount equal to the amount of all Letters of Credit which are outstanding on the Credit Termination Date.
+
+[[A0107]]
+Any amounts so paid which are not used to liquidate obligations of Bank in connection with said outstanding Letters of Credit shall, after the expiration of all Letters of Credit be returned to the Borrower.
+
+[[A0108]]
+Bank shall have no obligation to invest such amounts paid to it by the Borrower pursuant to the preceding sentence in an interest-bearing account and the interest and earnings thereon, if any, shall be the property of Bank.
+
+[[A0109]]
+With respect to any such payment which becomes due under the terms of this Section 2.2.1, Borrower authorizes and directs Bank, at its option, to cause such payment to be made when due by charging such payment as a Revolving Loan advance pursuant to Section 2.1.1 of this Agreement.
+
+[[A0110]]
+Letter of Credit Term.
+
+[[A0111]]
+Each Letter of Credit shall not have an expiration after November 30, 1998.
+
+[[A0112]]
+Form.
+
+[[A0113]]
+Each Letter of Credit shall be payable in United States dollars, shall conform to the general requirements of the Bank for the issuance of letters of credit as to form.
+
+[[A0114]]
+Applications.
+
+[[A0115]]
+At the time of each request by Borrower that a Letter of Credit be issued, Bank will require Borrower to execute and deliver to Bank an application for such Letter of Credit in the form customarily prescribed by Bank to issue Letters of Credit (collectively the "Applications"). This Agreement supersedes any terms of the Applications which are irreconcilably inconsistent with the terms hereof.
+
+[[A0116]]
+Letter of Credit Fees.
+
+[[A0117]]
+Borrower agrees to pay to Bank (i) a per annum fee, payable monthly, in arrears on the first Business Day of each succeeding month, equal to the Bank's customary fee for letters of credit multiplied by the amount of the Letters of Credit issued or caused to be issued by Bank, plus (ii) any direct out-of pocket expenses incurred by Bank in connection with issuing or causing such Letter of Credit to be issued.
+
+[[A0118]]
+With respect to the payment of any fees or expenses that become due thereunder, the Borrower authorizes and directs Bank, at its option, to cause such payment to be paid when due by charging such payment as a Revolving Loan advance against the Revolving Credit Commitment established pursuant to Section 2.1 of this Agreement.
+
+[[A0119]]
+Release of Bank's Liability.
+
+[[A0120]]
+Neither Bank nor its
+correspondents or agent, or any bank(s) or financial
+institutions(s) used by Bank in connection with the issuance of
+Letters of Credit ("Correspondent"), shall be responsible for (i)
+the use which may be made of the Letters of Credit or for any
+acts or omissions of the user(s) of the Letters of Credit; (ii)
+the existence, character, quality, quantity, condition, packing
+or value of the property purporting to be represented by the
+documents required by the terms of any Letters of Credit or
+presented in connection therewith ("Documents"); (iii) the time,
+place, manner or order in which shipment is made; (iv) the
+validity, sufficiency, or genuineness of Documents, or of any
+endorsement thereon, even if such Documents were in fact proved
+to be in any or all respects invalid, insufficient, fraudulent,
+or forged; (v) partial or incomplete shipment, or failure or
+omission to ship any or all of the property referred to in the
+Letters of Credit or the Documents; (vi) the character, adequacy,
+validity or genuineness of any insurance or solvency or
+responsibility of any insurer or any other risk connected with
+insurance; (vii) any deviation from instructions, delay, default
+or fraud by the shipper or anyone else in connection with the
+property referred to in the Letters of Credit or the Documents
+or the shipping thereof; (vii) the insolvency, responsibility or
+relationship to the property of any party issuing any documents
+in connection with the property referred to in the Letters of
+Credit; (ix) delay in arrival or failure to arrive of either the
+property referred to in the Letters of Credit or the Documents;
+- delay in giving or failure to give notice of arrival or any
+other notice; (xi) any breach of contract between the shipper(s)
+or vendor(s) and the consignee(s) or buyer(s); (xii) failure of
+any instrument to bear any reference or adequate reference to the
+Letters of Credit or failure of Documents to accompany any
+instrument at negotiation, or failure of any person to note the
+amount of any instrument on the reverse of the Letter of Credit
+or to send forward Documents apart from instruments as required
+by the terms of the Letter of Credit or to send forward Document
+apart from instruments as required by the terms of the Letter of
+Credit each of which provisions, if contained in the Letter of
+Credit itself, it is agreed may be waived by Bank or
+Correspondent; or (xiii) errors, omissions, interruptions or
+delays in transmission or delivery of any messages by mail,
+cable, telegraph, wireless or otherwise.
+
+[[A0121]]
+Further, Bank shall not
+be responsible for any act, error, neglect or default, omission,
+insolvency or failure in business of any of its Correspondents.
+
+[[A0122]]
+The occurrence of any one or more of the contingencies referred
+to in the preceding sentences of this Section 2.2.6 shall not
+affect, impair or prevent the vesting of any of Bank's rights or
+powers hereunder or Borrower's obligation to make reimbursement.
+
+[[A0123]]
+Borrower shall promptly examine (i) the copy of the Letter of
+Credit (and of any amendments thereof) sent to it by Bank or
+Correspondent and (ii) all documents and instruments delivered
+to it from time to time by Bank or Correspondent, and, in the
+event of any claim of noncompliance with Borrower's instruction
+or other irregularity, will immediately notify Bank and
+Correspondent thereof in writing.
+
+[[A0124]]
+Borrower being conclusively
+deemed to have waived any such claim against Bank and
+Correspondent unless such notice is given as aforesaid.
+
+[[A0125]]
+Indemnification.
+
+[[A0126]]
+Upon any transfer, sale, delivery, surrender or endorsement of any bill of lading, warehouse receipt or other Document at any time(s) held by Bank, or held for its account by any of its correspondents or agents, or any bank of financial institution used by Bank in connection with the issuance of Letters of Credit, relative to the Letter of Credit, Borrower will indemnify and hold Bank and any such correspondent(s), agent(s), bank(s) and financial institution(s), harmless from and against each and every claim, demand, action or suit which may arise against Bank or any correspondent(s), agent(s) bank(s) and financial institution(s), by reason thereof.
+
+[[A0127]]
+Use.
+
+[[A0128]]
+Proceeds of the Revolving Loans and the Letters of Credit will be used solely for the purpose of providing working capital for the Borrower in the Borrower's ordinary course of business.
+
+[[A0129]]
+Annual Fee.
+
+[[A0130]]
+On the date on which this Note is delivered to Bank by the Borrower and on the first Business day of December, 1996 and each December thereafter while this Note remains outstanding, the Borrower agrees to pay to the Bank a nonrefundable annual fee equal to $31,250.00 per year.
+
+[[A0131]]
+Each such annual fee shall be deemed fully earned by the Bank upon such date when payment is due.
+
+[[A0132]]
+Mandatory Prepayment.
+
+[[A0133]]
+The Borrower agrees that if at any time the aggregate unpaid principal amount of the outstanding Revolving Loans plus the face amount unexpired of all Letters of Credit shall exceed the amount of Twenty Five Million Dollars ($25,000,000) or the face amount of all unexpired Letters of Credit exceeds Three Million Dollars ($3,000,000), it will forthwith make a mandatory prepayment of principal on such Revolving Loan(s) in an amount equal to such excess.
+
+[[A0134]]
+Each such mandatory prepayment shall be without premium or penalty (except indemnification for loss as provided herein in the event such prepayment occurs upon a Revolving Loan bearing interest under the Libor Option or Foreign Funding Option during a Libor Option Period or a Foreign Funding Option Period).
+
+[[A0135]]
+Representations and Warranties
+
+[[A0136]]
+To induce the Bank to fund the loan evidenced by this Note, the Borrower represents and warrants to the Bank that:
+
+[[A0137]]
+a.
+
+[[A0138]]
+The Borrower is a corporation duly existing and in good standing under the laws of the State of Delaware, and each Subsidiary is a corporation duly existing and in good standing under the laws of its respective state of incorporation; and each of the Borrower and the Subsidiaries is duly qualified and in good standing as a foreign corporation authorized to do business in each jurisdiction where such qualification is required because of the nature of its activities or properties and where the failure to maintain such qualification would cause a Material Adverse Effect.
+
+[[A0139]]
+b.
+
+[[A0140]]
+The Borrower's execution, delivery and performance of
+this Note and the consummation of the transactions contemplated
+by this Note are within the Borrower's corporate powers, have
+been duly authorized by all necessary corporate action, require
+no governmental, regulatory or other approval, and do not and
+will not contravene or conflict with any provision of (i) law,
+- any judgment, decree or order to which the Borrower is a
+party, or (iii) the Borrower's articles of incorporation or
+by-laws, and do not and will not contravene or conflict with, or
+cause any Lien to arise under, any provision of any agreement or
+instrument binding upon the Borrower or any Subsidiary or upon
+any property of the Borrower or any Subsidiary.
+
+[[A0141]]
+c. This Note is the legal, valid and binding obligation of the Borrower enforceable against the Borrower in accordance with its terms except as enforceability may be limited by bankruptcy, insolvency or other similar laws of general application, or general principles of equity relating to remedies, affecting or relating to the enforcement of creditors' rights.
+
+[[A0142]]
+d. All balance sheets, statements of operations and other financial data which have been or shall hereafter be furnished to the Bank for the purposes of or in connection with this Note do and will present fairly the financial condition of the Persons involved as of the dates thereof and the results of their operations for the period(s) covered thereby.
+
+[[A0143]]
+e. To Borrower's knowledge, no material litigation (including, without limitation, derivative actions), arbitration proceedings, governmental proceedings or investigations or regulatory proceedings are pending or threatened against the Borrower or any Subsidiary (except as previously disclosed by notice to the Bank), which, if adversely determined, would have a Material Adverse Effect upon the Borrower, nor does the Borrower or any Subsidiary know of any basis for any of the foregoing.
+
+[[A0144]]
+In addition, there are no inquiries, formal or informal, which might give rise to such actions, proceedings or investigations.
+
+[[A0145]]
+f.
+
+[[A0146]]
+To Borrower's knowledge, each of the Borrower and each of its Subsidiaries has obtained all licenses, permits, franchises and other governmental authorizations necessary to the ownership of its properties or to the conduct of its businesses, including all permits required under applicable Environmental Laws, a failure to obtain or violation of which might materially and adversely affect the Borrower's or such Subsidiary's business, credit, operations, financial condition or prospects.
+
+[[A0147]]
+g. Neither the Borrower nor any Subsidiary has any material contingent liabilities not provided for or disclosed to the Bank.
+
+[[A0148]]
+h.
+
+[[A0149]]
+None of the Borrower's accounts or inventory is subject to any Lien, except (i) Liens for current taxes not delinquent or taxes which the Borrower is contesting in good faith and by appropriate proceedings and with respect to which the Borrower has provided for and is maintaining adequate reserves in accordance with GAAP, (ii) Liens which arise in the ordinary course of business for sums not due or sums that the Borrower is contesting in good faith and by appropriate proceedings and with respect to which the Borrower has provided for and is maintaining adequate reserves in accordance with GAAP, but which do not involve any deposits or advances or borrowed money, and (iii) Permitted Liens.
+
+[[A0150]]
+I. Each Plan maintained by Borrower and its Subsidiaries subject to United States jurisdiction complies in all material respects with all applicable statutes and governmental rules and regulations and during the 12-consecutive-month period prior to the date of the execution and delivery of this Agreement, (i) no Reportable Event has occurred and is continuing with respect to any Plan, (ii) neither the Borrower nor any ERISA Affiliate has withdrawn from any Plan or instituted steps to do so, (iii) no steps have been instituted to terminate any Plan, (iv) every employee benefit plan within the meaning of Section 3(3) of ERISA which is sponsored, or to which contributions are made by the Borrower or any ERISA Affiliate has been maintained in compliance with all applicable laws and regulations, including, without limitation ERISA and the Internal Revenue Code of 1986, as amended, and (v) no contribution failure has occurred with respect to any Plan sufficient to give rise to a lien under Section 302(f) of ERISA.
+
+[[A0151]]
+No condition exists or event or transaction has occurred in connection with any Plan which could result in the incurrence by the Borrower or any ERISA Affiliate of any material liability, fine or penalty.
+
+[[A0152]]
+Neither the Borrower nor any ERISA Affiliate is a member of or contributes to any Multiemployer Plan.
+
+[[A0153]]
+Neither the Borrower nor any ERISA Affiliate has any contingent liability with respect to any postretirement benefit under a Welfare Plan other than liability for continuation coverage described in Part 6 of Title I of ERISA.
+
+[[A0154]]
+j. Neither the Borrower nor any Subsidiary is an "investment company" or a company "controlled" by an "investment company", within the meaning of the Investment Borrower Act of 1940, as amended.
+
+[[A0155]]
+k. Neither the Borrower nor any Subsidiary is a "holding company", or a "subsidiary company" of a "holding company", or an "affiliate" of a "holding company" or of a "subsidiary company" of a "holding company", within the meaning of the Public Utility Holding Borrower Act of 1935, as amended.
+
+[[A0156]]
+l. Neither the Borrower nor any Subsidiary is engaged principally, or as one of its important activities, in the business of extending credit for the purpose of purchasing or carrying Margin Stock.
+
+[[A0157]]
+m. All factual information heretofore or contemporaneously furnished by or on behalf of the Borrower to the Bank for purposes of or in connection with this Agreement or any transaction contemplated hereby is, and all other factual information hereafter furnished by or on behalf of the Borrower to the Bank will be, true and accurate in every material respect on the date as of which such information is dated or certified, and the Borrower has not omitted and will not omit any material fact necessary to prevent such information from being false or misleading.
+
+[[A0158]]
+The Borrower has disclosed to the Bank all facts which might materially and adversely affect the business, credit, operations, financial condition or prospects of the Borrower or any Subsidiary or which might materially and adversely affect any material portion of the Borrower's properties, or the Borrower's ability to perform its obligations under this Agreement or the Related Documents.
+
+[[A0159]]
+n. The Borrower is not insolvent, nor will its incurrence of obligations, direct or contingent, to repay the Note render it insolvent.
+
+[[A0160]]
+o. There are no labor controversies pending or threatened against the Borrower or any Subsidiary which, if adversely determined, would materially and adversely affect the Borrower's or such Subsidiary's business, credit, operations, financial condition or prospects.
+
+[[A0161]]
+p.
+
+[[A0162]]
+The Borrower has made or filed all income and other tax returns, reports and declarations required by any jurisdiction to which it is subject, has paid all taxes, assessments and other charges shown or determined to be due on such returns, reports and declarations (other than those being diligently contested in good faith by appropriate proceedings), except for failures to file or pay which would not have a Material Adverse Effect and has set aside adequate reserves against liability for taxes, assessments and charges applicable to periods subsequent to those covered by such returns, reports and declarations.
+
+[[A0163]]
+q. No event has occurred and no condition exists which, upon the execution and delivery of, or consummation of any transaction contemplated by this Note, will constitute an Event of Default or Unmatured Event of default.
+
+[[A0164]]
+r.
+
+[[A0165]]
+The Borrower and each of its Subsidiaries is in compliance with the requirements of all applicable laws, rules, regulations, and orders of all governmental authorities (Federal, state, local or foreign, and including, without limitation, applicable Environmental Laws, rules, regulations and orders), except for failures to comply which would not have a Material Adverse Effect on the Borrower's or such Subsidiary's business, credit, operations, financial condition or prospects.
+
+[[A0166]]
+Covenants
+
+[[A0167]]
+Until all of Borrower's Liabilities are paid in full, the Borrower agrees that, unless at any time the Bank shall otherwise expressly consent in writing, it and its Subsidiaries will:
+
+[[A0168]]
+a. Reports.
+
+[[A0169]]
+Certificates and Other Information.
+
+[[A0170]]
+Furnish to the Bank:
+
+[[A0171]]
+- Audit Report.
+
+[[A0172]]
+On or before the 90th day after
+each of the Borrower's fiscal years, a copy of an annual audit
+report of the Borrower and its Subsidiaries prepared in
+conformity with GAAP, duly certified by independent certified
+public accountants of recognized standing selected by the
+Borrower with the Bank's consent, together with a certificate
+from such accountants containing a computation of, and showing
+compliance with, each of the financial ratios and restrictions
+contained in this Note.
+
+[[A0173]]
+- Interim Reports.
+
+[[A0174]]
+On or before the 45th day after
+the end of each of the Borrower's fiscal quarters, a copy of
+unaudited financial statements of the Borrower prepared in a
+manner consistent with the financial statements referred to
+above, signed by an Authorized Officer and consisting of, at
+least, balance sheets as at the close of such month and
+statements of earnings for such quarter and for the period from
+the beginning of such fiscal quarter to the close of such
+quarter.
+
+[[A0175]]
+- Notice of Default.
+
+[[A0176]]
+Litigation and ERISA Matters.
+
+[[A0177]]
+Forthwith upon learning of the occurrence of any of the
+following, written notice thereof which describes the same and
+the steps being taken by the Borrower with respect thereto: (i)
+the occurrence of an Event of Default or an Unmatured Event of
+Default, (ii) the institution of, or any adverse determination
+in, any litigation, arbitration proceeding or governmental
+proceeding in which any injunctive relief is sought or in which
+money damages in excess of $1,000,000 are sought, (iii) the
+occurrence of a Reportable Event with respect to any Plan, (iv)
+the institution of any steps by the Borrower, the PBGC or any
+other Person to terminate any Plan, (v) the institution of any
+steps by the Borrower or any ERISA Affiliate to withdraw from any
+Plan or Multiemployer Plan which could result in material
+liability to the Borrower, (vi) the failure to make a required
+contribution to any Plan if such failure is sufficient to give
+rise to a lien under Section 302(f) of ERISA, (vii) the taking of
+any action with respect to a Plan which could result in the
+requirement that the Borrower furnish a bond or other security to
+the PBGC or such Plan or Multiemployer Plan, or (viii) the
+occurrence of any event with respect to any Plan or Multiemployer
+Plan which could result in the incurrence by the Borrower of any
+material liability, fine or penalty; and, promptly after the
+incurrence thereof, notice of any material increase in the
+contingent liability of the Borrower with respect to any
+postretirement Welfare Plan benefits.
+
+[[A0178]]
+- Other Information.
+
+[[A0179]]
+Such other information
+concerning the Borrower as the Bank may reasonably request from
+time to time.
+
+[[A0180]]
+b. Corporate Existence and Franchises.
+
+[[A0181]]
+Except as otherwise expressly permitted in this Agreement, maintain and cause each Subsidiary to maintain in full force and effect its separate existence and all rights, licenses, leases and franchises reasonably necessary to the conduct of its business.
+
+[[A0182]]
+c. Books, Records and Inspections.
+
+[[A0183]]
+Maintain, and cause each Subsidiary to maintain, complete and accurate books and records, permit the Bank to have reasonable access to the Borrower's books and records, and permit, and cause each Subsidiary to permit, the Bank to inspect the Borrower's properties and operations at reasonable times.
+
+[[A0184]]
+d. Insurance.
+
+[[A0185]]
+Maintain, and cause each Subsidiary to maintain, insurance to such extent and against such hazards and liabilities as may be required by law and as is commonly maintained by companies similarly situated or as the Bank may reasonably request from time to time.
+
+[[A0186]]
+e. Taxes and Liabilities.
+
+[[A0187]]
+Promptly pay, and cause each Subsidiary to pay, when due all taxes, duties, assessments and other liabilities, except such taxes, duties, assessments and other liabilities as the Borrower is diligently contesting in good faith and by appropriate proceedings or where the failure to pay would not have a Material Adverse Effect; provided that the Borrower or such Subsidiary has provided for and is maintaining adequate reserves with respect thereto in accordance with GAAP.
+
+[[A0188]]
+f. Tangible Net Worth.
+
+[[A0189]]
+Not permit the Borrower's Tangible Net Worth to be at any time less than the following amounts during the Borrower's respective fiscal years:
+
+[[A0190]]
+Tangible Net Worth Borrower's Fiscal Year
+
+[[A0191]]
+$123,000,000 1995-1996 $125,000,000 1996-1997 $127,500,000 1997-1998 $130,000,000 1998-1999
+
+[[A0192]]
+g. Indebtedness to Tangible Net Worth.
+
+[[A0193]]
+Not permit the ratio of (x) the Borrower's consolidated Indebtedness minus all of Borrower's Indebtedness under the Debentures to (y) the Borrower's Tangible Net Worth to be at any time greater than 0.70 to 1.
+
+[[A0194]]
+h. Liens.
+
+[[A0195]]
+Not create or permit to exist any Lien with respect to any accounts or inventory now owned or hereafter acquired, except the following Liens (herein collectively called the "Permitted Liens"): (a) Liens which arise in the ordinary course of business for sums not due or sums which the Borrower is contesting in good faith and by appropriate proceedings and with respect to which the Borrower has provided for and is maintaining adequate reserves in accordance with GAAP, but which do not involve any deposits or advances or borrowed money or the deferred purchase price of property or services, (b) Liens granted by any Subsidiary to secure such Subsidiary's Indebtedness to the Borrower, and (c) Liens in an amount such that at all times eighty percent (80%) of the value of unencumbered Domestic Accounts plus fifty percent (50%) of the value of unencumbered Domestic Inventory shall exceed all outstanding Senior Indebtedness.
+
+[[A0196]]
+I. Debt Service Coverage.
+
+[[A0197]]
+Commencing November 30, 1995 and thereafter, maintain quarterly, semi-annual and annual Debt Service Coverage as of each November 30, February 28, May 31 and August 31 of 1.20 to 1. Debt Service Coverage for a fiscal period is (a) Net Income before interest expense and taxes, plus depreciation, amortization and one-time charges and/or credits reasonably agreed to by Bank and Borrower, less capital expenditures funded by Borrower internally; divided by (b) the sum of all scheduled principal payments and related interest expense upon all Indebtedness (including without limitation, payments of Capitalized Lease Obligations and permitted payments of principal upon Subordinated Debt and preferred stock) and taxes.
+
+[[A0198]]
+For purposes of tax calculations, the effective tax rates will not vary more than five percent from the maximum United States federal corporate tax rate plus the Illinois effective corporate tax rate.
+
+[[A0199]]
+For the purpose of computing Debt Service Coverage, Borrower's principal payments upon this Note shall not include the final payment of principal upon maturity of this Note and shall be the sum of any two quarterly principal installments (if the computation is made as of November 30 of any fiscal year) and, if the computation is made as of May 31 of any fiscal year, any four quarterly principal installments (excluding principal prepayments during the year the principal prepayment is made).
+
+[[A0200]]
+j. Employee Benefit Plans.
+
+[[A0201]]
+Not permit, and not permit any ERISA Affiliate to permit, any condition to exist in connection with any Plan which might constitute grounds for the PBGC to institute proceedings to have such Plan terminated or a trustee appointed to administer such Plan; and not engage in, or permit to exist or occur, or permit any ERISA Affiliate to engage in, or permit to exist or occur, any other condition, event or transaction with respect to any Plan or Multiemployer Plan which could result in the incurrence by the Borrower or any ERISA Affiliate of any material liability, fine or penalty.
+
+[[A0202]]
+k. Use of Proceeds.
+
+[[A0203]]
+Not use or permit the direct or indirect use of any proceeds of or with respect to the Loans for the purpose, whether immediate, incidental or ultimate, of "purchasing or carrying" (within the meaning of Regulation U) Margin Stock.
+
+[[A0204]]
+l. Other Agreements.
+
+[[A0205]]
+Not enter into any agreement containing any provision which would be violated or breached by the performance of its obligations hereunder or under any instrument or document delivered or to be delivered by it hereunder or in connection herewith or which would violate or breach any provision hereof or of any such instrument or document.
+
+[[A0206]]
+m. Compliance with Applicable Laws.
+
+[[A0207]]
+Comply, and cause each Subsidiary to comply, with the requirements of all Applicable Laws, rules, regulations, and orders of all Governmental Authorities (Federal, state, local or foreign, and including, without limitation, environmental laws, rules, regulations and orders), except for failures to comply with such statutes, rules and regulations which in the aggregate would not materially and adversely affect the Borrower's or such Subsidiary's business, credit, operations, financial condition or prospects, except where the Borrower is contesting an alleged breach in good faith and by proper proceedings and for which the Borrower or such Subsidiary is maintaining adequate reserves in accordance with GAAP.
+
+[[A0208]]
+n. Subordinated Debt.
+
+[[A0209]]
+At all times cause Indebtedness for the payment of principal of, premium, if any, and interest under the Debentures to be Subordinated Debt.
+
+[[A0210]]
+Events of Default and Remedies
+
+[[A0211]]
+The occurrence of any one of the following events shall constitute a default by Borrower ("Event of Default") under this Note:
+
+[[A0212]]
+a. Nonpayment of Loans.
+
+[[A0213]]
+Default in the payment when due of the principal of or interest on this Note or any other sum due under this Note, or the payment when due of any fees or any other amounts payable by the Borrower hereunder, and such default continues for ten days after the Borrower receives notice thereof.
+
+[[A0214]]
+b. Nonpayment of Other Indebtedness.
+
+[[A0215]]
+The Borrower or any Subsidiary shall default in the payment when due (subject to any applicable grace period), whether by acceleration or otherwise, of any other Indebtedness of, or guaranteed by, the Borrower or any Subsidiary (except any such Indebtedness of any Subsidiary to the Borrower or to any other Subsidiary) or default in the performance or observance of any obligation or condition with respect to any such other Indebtedness if the effect of such default is to accelerate the maturity of any such Indebtedness or to permit the holder or holders thereof, or any trustee or agent for such holders, to cause such Indebtedness to become due and payable prior to its expressed maturity, and continuation thereof after the Bank gives notice to the Borrower that such default is an Event of Default; provided, however, that no default under this section shall occur or result from a default in payment of any such other Indebtedness which, when added to the amount of all such other Indebtedness in default does not exceed $1,000,000.
+
+[[A0216]]
+c. Bankruptcy or Insolvency.
+
+[[A0217]]
+The Borrower becomes insolvent or generally fails to pay, or admits in writing its inability to pay, debts as they become due; or the Borrower applies for, consents to, or acquiesces in the appointment of, a trustee, receiver or other custodian for the Borrower, or any property thereof, or makes a general assignment for the benefit of creditors; or, in the absence of such application, consent or acquiescence, a trustee, receiver or other custodian is appointed for the Borrower, or for a substantial part of the property thereof and is not discharged within 60 days; or any bankruptcy, reorganization, debt arrangement, or other case or proceeding under any bankruptcy or insolvency law, or any dissolution or liquidation proceeding, is commenced in respect of the Borrower, and if such case or proceeding is not commenced by the Borrower, it is consented to or acquiesced in by the Borrower or remains for 45 days undismissed; or the Borrower, takes any corporate action to authorize, or in furtherance of, any of the foregoing.
+
+[[A0218]]
+d. Specified Noncompliance with this Agreement.
+
+[[A0219]]
+Failure by the Borrower to comply with any financial covenant hereunder.
+
+[[A0220]]
+e. Other Noncompliance with this Agreement.
+
+[[A0221]]
+Failure by the Borrower to comply with or to perform any provision of this Agreement (and not constituting an Event of Default under any of the other provisions hereof) and continuance of such failure for thirty days after notice thereof to the Borrower from the Bank or the holder of this Note.
+
+[[A0222]]
+f. Representations and Warranties.
+
+[[A0223]]
+Any representation or warranty made by the Borrower herein is breached or is false or misleading in any material respect, or any schedule, certificate, financial statement, report, notice, or other writing furnished by the Borrower to the Bank is false or misleading in any material respect on the date as of which the facts therein set forth are stated or certified.
+
+[[A0224]]
+g.
+
+[[A0225]]
+Employee Benefit Plans. (i) Institution by the PBGC, the Borrower or any ERISA Affiliate of steps to terminate a Plan or to organize, withdraw from or terminate a Multiemployer Plan if as a result of such reorganization, withdrawal or termination, the Borrower or any ERISA Affiliate could be required to make a contribution to such Plan a Multiemployer Plan, or could incur a liability or obligation to such Plan or Multiemployer Plan, in excess of $10,000, or (ii) a contribution failure occurs with respect to any Plan sufficient to give rise to a lien under Section 302(f) of ERISA.
+
+[[A0226]]
+h. Judgments.
+
+[[A0227]]
+There shall be entered against the Borrower one or more judgments or decrees in excess of $1,000,000 in the aggregate at any one time outstanding for the Borrower, excluding those judgments or decrees (i) that shall have been stayed, vacated or bonded, (ii) that shall have been outstanding less than 30 days from the entry thereof, (iii) for and to the extent to which the Borrower is insured and with respect to which the insurer specifically has assumed responsibility in writing, (iv) for and to the extent to which the Borrower is otherwise indemnified if the terms of such indemnification are satisfactory to the Bank, or (v) for and to the extent to which Borrower has accrued reserves in a sum satisfactory to the Bank which reserves are sufficient to discharge such judgment.
+
+[[A0228]]
+I. Default under the Debentures.
+
+[[A0229]]
+A default as defined in the Debentures shall occur and be continuing.
+
+[[A0230]]
+Upon an Event of Default under the preceding subparagraph c hereunder, without notice by Bank to or demand by Bank of Borrower, the Bank's obligations to loan funds to Borrower shall immediately terminate and all payments upon this Note shall be immediately accelerated and all of Borrower's Liabilities shall be immediately due and payable.
+
+[[A0231]]
+Upon any other Event of Default, the Bank's obligations to loan funds to Borrower shall immediately terminate and upon demand from Bank to Borrower, all payments upon this Note shall be immediately accelerated and all of Borrower's Liabilities shall be immediately due and payable.
+
+[[A0232]]
+The acceptance by Bank of any partial payment made hereunder after the time when any obligation under this Note becomes due and payable will not establish a custom, or waive any rights of Bank to enforce prompt payment hereof.
+
+[[A0233]]
+Borrower and every endorser hereof waive presentment, demand and protest and notice of presentment, protest, default, non-payment, maturity, release, compromise, settlement, extension or renewal of this Note.
+
+[[A0234]]
+This Note and Borrower's Liabilities hereunder are secured by all security interests, liens and encumbrances (if any) heretofore, now or hereafter granted to Bank by Borrower and/or every guarantor (if any) of Borrower's Liabilities.
+
+[[A0235]]
+Regardless of the adequacy of any collateral securing Borrower's Liabilities hereunder, any deposits or other sums at any time created by or payable or due from Bank to Borrower, or any monies, cash, cash equivalents, securities, instruments, documents or other assets of Borrower in possession or control of Bank and its bailee for any purpose may at any time be reduced to cash and applied by Bank to or set-off by Bank against Borrower's Liabilities hereunder.
+
+[[A0236]]
+Reimbursement of Costs, Indemnification and Miscellaneous Provisions
+
+[[A0237]]
+The Borrower agrees to pay on demand all of the Bank's out-of-pocket costs and expenses (including the reasonable fees and out-of-pocket expenses of the Bank's counsel) in connection with the preparation, execution and delivery of this Note and all other instruments or documents provided for herein or delivered or to be delivered hereunder or in connection herewith (including, without limitation, all supplements and waivers executed and delivered pursuant hereto or in connection herewith).
+
+[[A0238]]
+The reasonable out of pocket costs and expenses which the Bank incurs in any manner or way with respect to the following shall be part of the Liabilities, payable by the Borrower on demand if at any time after the date of this Note, the Bank:
+
+[[A0239]]
+a.
+
+[[A0240]]
+Employs counsel for advice or other representation (i) with respect to the amendment or enforcement of this Note, (ii) to represent the Bank in any litigation, contest, dispute, suit or proceeding or to commence, defend or intervene or to take any other action in or with respect to any litigation, contest, dispute, suit or proceeding (whether instituted by the Bank, the Borrower, or any other Person) in any way or respect relating to this Note or the Borrower's affairs, or (iii) to enforce any of the Bank's rights with respect to the Borrower;
+
+[[A0241]]
+b. Takes any action to protect, collect, sell, liquidate or otherwise dispose of any collateral (if any) securing Borrower's Liabilities hereunder: and or
+
+[[A0242]]
+c. Seeks to enforce or enforces any of the Bank's rights and remedies with respect to the Borrower or any guarantor of the Borrower's Liabilities.
+
+[[A0243]]
+Without limiting the generality of the foregoing, such reasonable expenses, costs, charges and fees include: reasonable fees, costs and expenses of attorneys, accountants and consultants; court costs and expenses; court reporter fees, costs and expenses; long distance telephone charges; telegram and telecopier charges; and reasonable expenses for travel, lodging and food.
+
+[[A0244]]
+The Borrower further agrees to pay, and to save the Bank harmless from all liability for, any stamp or other taxes which may be payable in connection with the execution or delivery of this Note, the borrowings hereunder, or the issuance of the Note or of any other instruments or documents provided for herein or delivered or to be delivered hereunder or in connection herewith.
+
+[[A0245]]
+All of the Borrower's obligations to pay fees and costs provided for herein shall be Borrower's Liabilities, and shall survive repayment and cancellation of this Note.
+
+[[A0246]]
+Subject to the restrictions of applicable law, the Borrower hereby agrees to indemnify, exonerate and hold the Bank and each of its officers, directors, employees and agents (herein collectively called the "Bank Parties" and individually called a "Bank Party") free and harmless from and against any and all actions, causes of action, suits, losses, costs (including, without limitation, all documentary or other stamp taxes or duties), liabilities and damages, and expenses in connection therewith (irrespective of whether such Bank Party is a party to the action for which indemnification hereunder is sought) (the "Indemnified Liabilities"), including, without limitation, reasonable attorneys' fees and disbursements, incurred by the Bank Parties or any of them as a result of, or arising out of, or relating to:
+
+[[A0247]]
+a. Any transaction financed or to be financed in whole or in part, directly or indirectly, with the proceeds from this Note;
+
+[[A0248]]
+b. The execution, delivery, performance, administration or enforcement of this Note in accordance with their respective terms by any of the Bank Parties;
+
+[[A0249]]
+c. Any misrepresentation or breach of any warranty or covenant herein.
+
+[[A0250]]
+If any provision of this Note or the application thereof to any party or circumstance is held invalid or unenforceable, the remainder of this Note and the application of such provision to other parties or circumstances will not be affected thereby and the provisions of this Note shall be severable in any such instance.
+
+[[A0251]]
+The provisions of this paragraph shall govern and control over any irreconcilably inconsistent provision contained in this Note or in any other document evidencing or securing the indebtedness evidenced hereby.
+
+[[A0252]]
+Bank shall never be entitled to receive, collect, or apply as interest hereon (for purposes of this paragraph, the word "interest" shall be deemed to include any sums treated as interest under applicable law governing matters of usury and unlawful interest), any amount in excess of the Highest Lawful Rate (hereinafter defined) and, in the event Bank ever receives, collects, or applies as interest any such excess, such amount which would be excessive interest shall be deemed a partial prepayment of principal and shall be treated hereunder as such; and, if the principal of this Note is paid in full, any remaining excess shall forthwith be paid to Borrower.
+
+[[A0253]]
+In determining whether or not the interest paid or payable, under any specific contingency, exceeds the Highest Lawful Rate, Borrower and Bank shall, to the maximum extent permitted under applicable law, (i) characterize any nonprincipal payment as an expense, fee or premium rather than as interest, (ii) exclude voluntary prepayments and the effects thereof, and (iii) spread the total amount of interest throughout the entire contemplated term of this Note, provided, that if this Note is paid and performed in full prior to the end of the full contemplated term hereof, and if the interest received for the actual period of existence hereof exceeds the Highest Lawful Rate, Bank shall refund to Borrower the amount of such excess or credit the amount of such excess against the principal of this Note, and, in such event, Bank shall not be subject to any penalties provided by any laws for contracting for, charging or receiving interest in excess of the Highest Lawful Rate. "Highest Lawful Rate" shall mean the maximum rate of interest which Bank is allowed to contract for, charge, take, reserve or receive under applicable law after taking into account, to the extent required by applicable law, any and all relevant payments or charges hereunder.
+
+[[A0254]]
+This Note is submitted by Borrower to Bank at Bank's principal place of business and shall be deemed to have been made thereat.
+
+[[A0255]]
+This Note shall be governed and controlled by the internal laws of the State of Illinois.
+
+[[A0256]]
+TO INDUCE BANK TO ACCEPT THIS NOTE, BORROWER, IRREVOCABLY, AGREES THAT, SUBJECT TO BANK'S SOLE AND ABSOLUTE ELECTION, ALL ACTIONS OR PROCEEDINGS IN ANY WAY, MANNER OR RESPECT, ARISING OUT OF OR FROM OR RELATED TO THIS NOTE, SHALL BE LITIGATED IN COURTS HAVING SITUS WITHIN THE CITY OF CHICAGO, STATE OF ILLINOIS.
+
+[[A0257]]
+BORROWER HEREBY CONSENTS AND SUBMITS TO THE JURISDICTION OF ANY LOCAL, STATE OR FEDERAL COURT LOCATED WITHIN SAID CITY AND STATE.
+
+[[A0258]]
+BORROWER HEREBY WAIVES ANY RIGHT BORROWER MAY HAVE TO TRANSFER OR CHANGE THE VENUE OF ANY LITIGATION BROUGHT AGAINST BORROWER BY BANK IN ACCORDANCE WITH THIS PARAGRAPH.
+
+[[A0259]]
+BORROWER AND BANK HEREBY IRREVOCABLY WAIVE THE RIGHT TO TRIAL BY JURY WITH RESPECT TO ANY ACTION IN WHICH BORROWER AND BANK ARE PARTIES.
+
+[[A0260]]
+No delay on the part of the Bank or the holder of this Note in the exercise of any right, power or remedy shall operate as a waiver thereof, nor shall any single or partial exercise by any of them of any right, power or remedy preclude other or further exercise thereof, or the exercise of any other right, power or remedy.
+
+[[A0261]]
+No amendment, modification or waiver of, or consent with respect to, any provision of this Note shall in any event be effective unless the same shall be in writing and signed and delivered by the Bank, and then any such amendment, modification, waiver or consent shall be effective only in the specific instance and for the specific purpose for which given.
+
+[[A0262]]
+All notices hereunder shall be in writing.
+
+[[A0263]]
+Notices given by mail shall be deemed to have been given three days after the date sent if sent by registered or certified mail, postage prepaid, and:
+
+[[A0264]]
+- if to the Borrower, addressed to the Borrower as
+follows: Richardson Electronics, Ltd., 40 W 267 Keslinger Road,
+La Fox, Illinois 60147;
+
+[[A0265]]
+- if to the Bank, addressed to the Bank, at American
+National Bank and Trust Company of Chicago, 33 North LaSalle
+Street, Chicago, Illinois 60690, Attention: Division 501, with a
+copy to Neal Gerber & Eisenberg, Two North LaSalle Street, Suite
+2200, Chicago, Illinois 60602, Attention: Joel M. Hurwitz; or in
+the case of either party, such other address as such party, by
+written notice received by the other party, may have designated
+as its address for notices.
+
+[[A0266]]
+Notices given by telex or telegram
+shall be deemed to have been given when sent.
+
+[[A0267]]
+Notices given by
+personal delivery shall be deemed to have been given when
+delivered.
+
+[[A0268]]
+The Bank shall be entitled to rely upon all
+telephonic notices and the Borrower shall hold the Bank harmless
+from any loss, cost or expense ensuing from any such reliance.
+
+[[A0269]]
+If any changes in accounting principles from those used in the preparation of the annual audit report of Borrower and its Subsidiaries for its fiscal year 1995 are hereafter required or permitted by the rules, regulations, pronouncements and opinions of the Financial Accounting Standards Board of American Institute of Certified Public Accountants (or successors thereto or agencies with similar functions) are adopted by the Borrower with the agreement of its independent certified public accountants and such changes result in a change in the method of calculation of any of the financial covenants set forth in this Note, the Borrower agrees to enter into negotiations with the Bank in order to amend such provisions so as to equitably reflect such changes with the desired result that the criteria for evaluating the Borrower's financial condition shall be he same after such changes as if such changes had not been made, provided, however, that no change in GAAP that would affect the method of calculation of any of the financial covenants shall be given effect in such calculations until such provisions are amended in a manner satisfactory to the Bank.
+
+[[A0270]]
+The section captions used in portions of this Note are for convenience only, and shall not affect the construction of this Note.
+
+[[A0271]]
+This Note shall be binding upon the Borrower and its respective successors and shall inure to the benefit of the Bank and the Bank's successors and assigns.
+
+[[A0272]]
+ATTEST: RICHARDSON ELECTRONICS, LTD.
+
+[[A0273]]
+By: /s/ William G. Seils By: /s/ William J. Garry Secretary Its: Vice President

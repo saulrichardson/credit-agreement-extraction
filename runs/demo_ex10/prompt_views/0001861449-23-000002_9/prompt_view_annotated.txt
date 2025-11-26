@@ -1,0 +1,416 @@
+[[A0001]]
+a106-birdcanadaxcanadian
+
+[[A0002]]
+Execution Version CAN_DMS: \149670305\3 PLEDGE AGREEMENT dated as of December 30, 2022, among BIRD GLOBAL, INC.
+
+[[A0003]]
+as Grantor and U.S. BANK TRUST COMPANY, NATIONAL ASSOCIATION, as Collateral Agent The indebtedness evidenced by this instrument or agreement is subject to the Subordination and Intercreditor Agreement, dated as of December 30, 2022, by and among, inter alia, Midcap Financial Trust and U.S. Bank Trust Company, National Association and acknowledged by Bird Global, Inc., 1393631 B.C. Unlimited Liability Company, Bird Canada Inc., Bird Rides Inc., Bird US Opco, LLC, Bird US Holdco, LLC and Bird Rides International Holding, Inc.
+
+[[A0004]]
+CAN_DMS: \149670305\3 PLEDGE AGREEMENT dated as of December 30, 2022 (as amended, restated, supplemented or otherwise modified from time to time, this “Agreement”) among Bird Global, Inc., a Delaware corporation (the “Grantor”) and U.S. Bank Trust Company, National Association, as collateral agent for the Purchasers (the “Collateral Agent”) on behalf of the several purchasers from time to time party to the Note Purchase Agreement (as defined below) (the “Purchasers” and together with the Collateral Agent, the “Secured Parties”). Reference is made to the note purchase agreement dated as of December 30, 2022 (as amended, restated, supplemented and otherwise modified from time to time, the “Note Purchase Agreement”) among the Grantor, the Purchasers and the Collateral Agent, pursuant to which Grantor has issued to Purchasers secured convertible notes (“Notes”). WHEREAS, the Purchasers have agreed to purchase Notes subject to the terms and conditions set forth in the Note Purchase Agreement; WHEREAS, the Grantor is executing and delivering this Agreement as further security for its obligations under the Note Purchase Agreement, the Notes and other other Note Documents (as defined in the Note Purchase Agreement).NOW, THEREFORE, the parties hereto agree as follows: ARTICLE I Definitions SECTION 1.01.
+
+[[A0005]]
+Defined Terms. (a) Each capitalized term used but not defined herein shall have the meaning assigned thereto in the Note Purchase Agreement; provided that each term defined in the PPSA or the STA (each as defined herein), as applicable, have the same meanings when used herein (whether or not capitalized) and not defined in this Agreement or the Note Purchase Agreement shall have the meaning specified in the PPSA, including the following: “Account”; “Certificated Security”; “Chattel Paper”; “Consumer Goods” “Documents of Title”; “Equipment”; “Financial Asset”; “Fixtures”; “Futures Account”, “Goods”; “Instrument”; “Intangible”; “Inventory”; “Investment Property”; “Issuer”; “Proceeds”; “Securities”; “Securities Account”; “Securities Entitlements”; “Securities Intermediary” and “Chattel Paper”. (b) The rules of construction specified in Section 1 of the Note Purchase Agreement also apply to this Agreement, mutatis mutandis.
+
+[[A0006]]
+SECTION 1.02.
+
+[[A0007]]
+Other Defined Terms.
+
+[[A0008]]
+As used in this Agreement, the following terms have the meanings specified below: “Account Debtor” means any Person that is or may become obligated to the Grantor under, with respect to or on account of an Account, Chattel Paper or Intangible. “Agreement” has the meaning assigned to such term in the preamble to this Agreement. “Business Day” means a day other than a Saturday, Sunday, or other day on which banking institutions are authorized or required by law or regulation to close in the Province of Ontario. “Collateral” means the Pledged Collateral and any other collateral charged or in which a security interest is granted pursuant to the terms of this Agreement from time to time.
+
+[[A0009]]
+-2- CAN_DMS: \149670305\3 “Collateral Agent” has the meaning assigned to such term in the preamble to this Agreement.
+
+[[A0010]]
+“Company” means 1393631 B.C. Unlimited Liability Company, a British Columbia unlimited liability company. “Excluded Assets” means: (a) any real property or real property interests (including, without limitation, leasehold interests), (b) any governmental licenses or state or provincial or local franchises, charters and authorizations, to the extent security interests in such licenses, franchises, charters or authorizations are prohibited or restricted thereby (other than to the extent that any such term would be rendered ineffective pursuant to Sections 9-406, 9-407, 9-408, or 9-409 of the UCC or the PPSA (or any successor provision or provisions) of any relevant jurisdiction or any other applicable law or principles of equity, in each case, unless preempted) so long as such restrictions or prohibitions are in effect, (c) any lease, license or agreement or any property subject to such agreement to the extent that a grant of a security interest therein would violate or invalidate such lease, license or agreement or create a right of termination in favour of any other party thereto or otherwise require consent thereunder (other than to the extent that any such term would be rendered ineffective pursuant to Sections 9-406, 9- 407, 9-408, or 9-409 of the UCC or the PPSA (or any successor provision or provisions) of any relevant jurisdiction or any other applicable law or principles of equity, in each case, unless preempted) so long as such restrictions or prohibitions are in effect and such lease, license or agreement was not entered into in contemplation of circumventing any obligation to secure the Secured Obligations, (d) any assets or property to the extent granting, creating or perfecting a pledge, secu- rity interest or Lien on such asset or property is prohibited or restricted by applicable law, order or regulation (including, without limitation, any requirement to obtain the consent or approval of any governmental au- thority or third Person); provided that the foregoing exclusions in this clause (d) shall in no way be con- strued to apply to the extent that the prohibition is unenforceable under Sections 9-406, 9-407, 9-408 or 9- 409 of the UCC or the PPSA (or any successor provision or provisions) of any relevant jurisdiction or any other applicable law or principles of equity, in each case, unless preempted; provided, further, that the assets or property described in the foregoing clauses (a), (b), and (c) shall constitute “Excluded Assets” only to the extent and for so long as such applicable licenses, franchises, charters, authorizations, laws, orders or regulations validly prohibit the creation of a Lien on such asset or property in favour of Collateral Agent, or the grant of a security interest in such lease, license or agreement or such property subject to such agree- ment would violate or invalidate such lease, license or agreement or create a right of termination in favour of any other party thereto or otherwise require consent thereunder, as applicable, and, upon the termination of such prohibition (by any manner), such property shall cease to constitute “Excluded Assets” under clause (a), (b), or (c) hereof, as applicable, (e) any asset or property with respect to which the Collateral Agent (at the direction of the Required Purchasers) and the Grantor mutually determine that the costs of obtaining a security inter- est or Lien therein is excessive in relation to the practical benefit to the Purchasers of the security afforded thereby, (f) any assets or property to the extent a security interest or Lien in such assets or property could reasonably be expected to result in materially adverse tax consequences, as reasonably de- termined by the Grantor and the Collateral Agent (at the direction of the Required Purchasers),
+
+[[A0011]]
+-3- CAN_DMS: \149670305\3 (g) any assets or property not located in the United States or Canada that require action under the law of any jurisdiction not located in the United States or Canada to create or perfect a security interest or Lien in such asset or property (it being understood that there shall be no security agreements or pledge agreements governed under the laws of any non-Canada jurisdiction), (h) motor vehicles, airplanes, and other assets subject to certificates of title (excluding, for the avoidance of doubt, any electronic scooter vehicles or scooters), (i) any particular asset or right under contract, if the pledge thereof or the security interest therein is prohibited or restricted by a third party (so long as any agreement with such third party that provides for such prohibition or restriction was not entered into in contemplation of the acquisition of such assets or for the purpose of creating such prohibition or restriction); provided, that the foregoing ex- clusions in this clause (j) shall in no way be construed to apply to the extent that the prohibition is unen- forceable under Sections 9-406, 9-407, 9-408, or 9-409 of the UCC or the PPSA (or any successor provision or provisions) of any relevant jurisdiction or any other applicable law or principles of equity (in each case, unless preempted); (k) consumer goods; and (l) the last day of the term of any lease or sublease or any agreement for a lease or sublease, now held or hereafter acquired by the Grantor in respect of real property, but the Grantor shall stand possessed of any such last day upon trust to assign and dispose of it as the Collateral Agent (at the direction of the Required Purchasers) may direct.
+
+[[A0012]]
+“Grantor” has the meaning assigned to such term in the preamble to this Agreement. “Note Purchase Agreement” has the meaning assigned to such term in the preamble to this Agreement. “Notes” has the meaning assigned to such term in the preamble to this Agreement. “Pledged Collateral” has the meaning assigned to such term in Section 2.01. “Pledged Debt Securities” has the meaning assigned to such term in Section 2.01. “Pledged Equity Interests” has the meaning assigned to such term in Section 2.01. “Pledged Securities” means any promissory notes, stock certificates, unit certificates, limited liability membership certificates or other securities (to the extent certificated) now or hereafter included in the Pledged Collateral. “PPSA” means the Personal Property Security Act (Ontario) and the regulations thereunder provided, however, if attachment, perfection or priority of any Grantor’s security interests in any Collateral is governed by the personal property security laws of any jurisdiction in Canada other than the laws of the Province of Ontario, “PPSA” means those personal property security laws in such other jurisdiction in Canada for the purposes of the provisions hereof relating to such attachment, perfection or priority and for the definitions related to such provisions. “Purchasers” has the meaning assigned to such term in the preamble to this Agreement.
+
+[[A0013]]
+-4- CAN_DMS: \149670305\3 “Security Interest” means the security interest granted in the Collateral pursuant to the terms of this Agreement . “Secured Obligations” has the meaning assigned to such term in Section 2.01. “Secured Parties” has the meaning assigned to such term in the preamble to this Agreement. “STA” means the Securities Transfer Act (Ontario), as amended from time to time and all regulations thereunder, which act, including amendments thereto and any act substituted therefor and amendments thereto is herein referred to as the “STA”, provided, however, if the transfer of the Grantor’s securities is governed by securities transfer laws of any jurisdiction in Canada other than the laws of the Province of Ontario, “STA” means those securities transfer laws in such other jurisdiction in Canada for the purposes of the provisions hereof relating to such transfer of securities and for the definitions related to such provisions. “Termination Date” means the date on which the Notes and all other Obligations have been repaid and satisfied in full. “UCC” shall mean the New York UCC; provided, however, that, at any time, if by reason of mandatory provisions of law, any or all of the perfection, effect of perfection, non-perfection or priority of the Collateral Agent’s and the Secured Parties’ security interest in any item or portion of the Collateral is governed by the Uniform Commercial Code as in effect in a jurisdiction other than the State of New York, the term “UCC” shall mean the Uniform Commercial Code as in effect, at such time, in such other jurisdiction for purposes of the provisions hereof relating to such perfection, effect of perfection, non- perfection or priority and for purposes of definitions relating to such provisions.
+
+[[A0014]]
+ARTICLE II Pledge of Securities SECTION 2.01. Pledge.
+
+[[A0015]]
+As security for the performance by the Grantor of all the terms, covenants and agreements on the part of the Grantor to be performed under the Note Purchase Agreement, the Notes and the other Note Documents (as defined in the Note Purchase Agreement) (the “Secured Obligations”), the Grantor hereby pledges to the Collateral Agent, its successors and permitted assigns, for the benefit of the Secured Parties, and hereby grants to the Collateral Agent, its successors and permitted assigns, for the benefit of the Secured Parties, a security interest in, all of the Grantor’s right, title and interest in, to and under: (a) (i) the Equity Interests issued by the Company owned by the Grantor on the date hereof, (ii) any other Equity Interests issued by the Company obtained in the future by the Grantor and (iii) the certificates or other instruments representing all such Equity Interests (if any) (collectively, the “Pledged Equity Interests”); (b) (i) the debt securities issued by the Company owned by the Grantor on the date hereof, (ii) any debt securities in the future issued to or otherwise acquired by the Grantor from the Company and (iii) the promissory notes and any other instruments evidencing all such debt securities (collectively, the “Pledged Debt Securities”); provided that, such Pledged Debt Securities shall not include any Pledged Debt Securities constituting Excluded Assets; (c) subject to Section 2.05, all payments of principal or interest, dividends, cash, instruments and other property from time to time received, receivable or otherwise distributed in respect
+
+[[A0016]]
+-5- CAN_DMS: \149670305\3 of, in exchange for or upon the conversion of, and all other Proceeds received in respect of, the securities referred to in clauses (a) and (b) above; (d) subject to Section 2.05, all rights and privileges of the Grantor with respect to the securities and other property referred to in clauses (a), (b) and (c) above; and (e) all Proceeds of any of the foregoing to the extent such Proceeds would constitute property referred to in clauses (a) through (d) above (the items referred to in clauses (a) through (e) above being collectively referred to as the “Pledged Collateral”). Notwithstanding the foregoing, in no event shall the pledge under this Section 2.01 attach to any Excluded Asset.
+
+[[A0017]]
+The Grantor and the Collateral Agent acknowledge that (i) value has been given, (ii) the Grantor has rights in the Collateral (other than after-acquired Collateral) or the power to transfer rights in the Collateral, and (iii) the parties have not agreed to postpone the time for attachment of the Security Interest.
+
+[[A0018]]
+SECTION 2.02.
+
+[[A0019]]
+Representations, Warranties and Covenants.
+
+[[A0020]]
+The Grantor represents, warrants and covenants to and with the Collateral Agent, for the benefit of the Secured Parties, that: (a) Schedule I hereto includes a true and complete list of (i) all the Pledged Equity Interests owned by the Grantor and the percentage of the issued and outstanding units of each class of the Equity Interests of the issuer thereof represented by the Pledged Equity Interests owned by the Grantor and (ii) all the Pledged Debt Securities owned by the Grantor evidencing Debt for borrowed money; (b) (i) the Pledged Equity Interests have been duly and validly authorized and issued by the Company and (ii) the Pledged Equity Interests (if applicable) are fully paid and nonassessable; provided that the foregoing representations are made to the knowledge of the Grantor; (c) except for the security interests granted hereunder and under any other Note Documents, the Grantor (i) is and, subject to any transfers made in compliance with the Note Purchase Agreement, will continue to be the direct owner, beneficially and of record, of the Pledged Securities, (ii) holds the same free and clear of all Liens, other than Liens permitted pursuant to the Note Purchase Agreement and transfers made in compliance with the Note Purchase Agreement, (iii) will make no further assignment, pledge, hypothecation or transfer of, or create or permit to exist any security interest in or other Lien on, the Pledged Collateral, other than Liens permitted pursuant to the Note Purchase Agreement and transfers made in compliance with the Note Purchase Agreement, and (iv) will use commercially reasonable efforts to defend its title or interest thereto or therein against any and all Liens (other than the Liens created by this Agreement and the other Note Documents, Liens permitted pursuant to the Note Purchase Agreement), however arising, of all Persons whomsoever; (d) except for restrictions and limitations imposed or permitted by the Note Documents, contracts and agreements permitted by the Note Purchase Agreement, or securities laws generally, the Pledged Equity Interests are and will continue to be freely transferable and assignable, and none of the Pledged Equity Interests are or will be subject to any option, right of first refusal, shareholders agreement or organizational document provisions of any nature that would prohibit, impair, delay or otherwise affect in any manner adverse to the Secured Parties in any material respect the pledge of such Pledged Collateral hereunder, the sale or disposition thereof pursuant hereto or the exercise by the Collateral Agent of rights and remedies hereunder;
+
+[[A0021]]
+-6- CAN_DMS: \149670305\3 (e) as of the date hereof, Schedule III hereto sets forth (i) the type of organization of the Grantor, (ii) the jurisdiction of organization of the Grantor, (iii) the organizational identification or registration number of the Grantor, and (iv) the location of the chief executive office of the Grantor; (f) the Grantor has the organizational power and authority to pledge the Pledged Collateral pledged by it hereunder in the manner hereby done or contemplated; (g) by virtue of the execution and delivery by the Grantor of this Agreement, when any Pledged Securities are delivered to the Collateral Agent in accordance with this Agreement, the Collateral Agent will obtain a legal, valid and perfected lien upon and security interest in such Pledged Securities, free of any adverse claims (except for Liens permitted by the Note Purchase Agreement), under the PPSA to the extent such lien and security interest may be created and perfected under the PPSA, as security for the payment and performance of the Secured Obligations; (h) the financing statements, financing change statements, or other appropriate filings, recordings or registrations for filing in each governmental, municipal or other appropriate office specified on the schedules hereto, are all the filings, recordings and registrations that are necessary to establish a legal, valid and perfected security interest in favour of the Collateral Agent, for the benefit of the Secured Parties, in respect of all Collateral in which the Security Interest may be perfected by filing, recording or registration in Canada, and as of the date hereof, no further or subsequent filing, refiling, recording, rerecording, registration or reregistration is necessary, except as provided under applicable law with respect to the filing of continuation statements, financing change statements or other amendments thereto; (i) the Security Interest constitutes (i) a legal and valid security interest in all the Collateral securing the payment and performance of the Secured Obligations and (ii) subject to the filings described in paragraph (b) of this Section 3.02 (including payment of applicable fees in connection therewith), a perfected security interest in all Collateral in which a security interest may be perfected by filing, recording or registering a financing statement or analogous document in the applicable jurisdiction in the United States pursuant to the UCC or Canada pursuant to the PPR; (j) the Security Interest is and shall be prior to any other Lien on any of the Collateral, other than (i) any statutory or similar Lien that has priority as a matter of law, and (ii) Liens permitted pursuant to the Note Purchase Agreement; and (k) the Grantor has not filed or consented to the filing of any financing statement, financing change statement, or analogous document, in each case with respect to a Lien, under the UCC, the PPSA or any other applicable laws covering any Collateral except for Liens expressly permitted pursuant to the Note Purchase Agreement.
+
+[[A0022]]
+SECTION 2.03.
+
+[[A0023]]
+Subject to the terms of this Agreement and to the extent permitted by applicable law, the Grantor hereby agrees that upon the occurrence and during the continuance of an Event of Default, it will comply with the instructions of the Collateral Agent (at the direction of the Required Purchasers) with respect to the Equity Interests that constitute Pledged Equity hereunder that are not certificated without further consent by the applicable owner or holder of such Equity Interests.Registration in Nominee Name; Denominations.
+
+[[A0024]]
+If an Event of Default shall have occurred and is continuing, the Collateral Agent (at the direction of the Required Purchasers), on behalf of the Secured Parties, shall have the right (in its sole and absolute discretion) to hold the Pledged Securities in the name of the Grantor, endorsed or assigned in blank or in favour of the Collateral Agent or in its own name as pledgee or in the name of its nominee (as pledgee or as sub-agent), and the Grantor will promptly give to the Collateral Agent
+
+[[A0025]]
+-7- CAN_DMS: \149670305\3 copies of any notices or other written communications received by it with respect to Pledged Securities registered in the name of the Grantor.
+
+[[A0026]]
+Upon the occurrence and during the continuance of an Event of Default, the Collateral Agent shall at all times have the right to exchange the certificates representing Pledged Securities for certificates of smaller or larger denominations for any reasonable purpose consistent with this Agreement.
+
+[[A0027]]
+SECTION 2.05.
+
+[[A0028]]
+Voting Rights; Dividends and Interest. (a) Unless and until an Event of Default shall have occurred: (i) the Grantor shall be entitled to exercise any and all voting and/or other consensual rights and powers inuring to an owner of Pledged Securities or any part thereof for any purpose consistent with the terms of this Agreement, the Note Purchase Agreement and the other Note Documents; (ii) the Collateral Agent shall promptly execute and deliver to the Grantor, or cause to be promptly executed and delivered to the Grantor, all such proxies, powers of attorney and other instruments as the Grantor may reasonably request for the purpose of enabling the Grantor to exercise the voting and/or consensual rights and powers it is entitled to exercise pursuant to paragraph (a)(i) of this Section; and (iii) the Grantor shall be entitled to receive and retain any and all dividends, interest, principal and other distributions paid on or distributed in respect of the Pledged Securities to the extent and only to the extent that such dividends, interest, principal and other distributions are permitted by, and are otherwise paid or distributed in accordance with, the terms and conditions of the Note Purchase Agreement, the other Note Documents and applicable laws; provided that any noncash dividends, interest, principal or other distributions that would constitute Pledged Equity Interests or Pledged Debt Securities, whether resulting from a subdivision, combination or reclassification of the outstanding Equity Interests in the issuer of any Pledged Securities or received in exchange for Pledged Securities or any part thereof, or in redemption thereof, or as a result of any merger, consolidation, acquisition or other exchange of assets to which such issuer may be a party or otherwise, shall be and become part of the Pledged Collateral and, if received by the Grantor, shall be held for the benefit of the Collateral Agent and the other Secured Parties. (b) Upon the occurrence and during the continuance of an Event of Default, all rights of the Grantor to dividends, interest, principal or other distributions that the Grantor is authorized to receive pursuant to paragraph (a)(iii) of this Section 2.05 shall cease, and all such rights shall thereupon become vested in the Collateral Agent, which shall have the sole and exclusive right and authority to receive and retain such dividends, interest, principal or other distributions; provided that, the Collateral Agent shall have the right from time to time following the occurrence and during the continuance of an Event of Default to permit the Grantor to exercise such rights.
+
+[[A0029]]
+All dividends, interest, principal or other distributions received by the Grantor upon the occurrence and during the continuance of an Event of Default contrary to the provisions of this Section 2.05 shall be held for the benefit of the Collateral Agent and the other Secured Parties and shall be segregated from other property or funds of the Grantor.
+
+[[A0030]]
+Any and all money and other property paid over to or received by the Collateral Agent pursuant to the provisions of this paragraph (b) shall be retained by the Collateral Agent in an account to be established by the Collateral Agent upon receipt of such money or other property and shall be applied in accordance with the provisions of the Note Purchase Agreement.
+
+[[A0031]]
+After all Events of Default have been cured or waived, the Collateral Agent shall promptly repay to the Grantor (without interest) all dividends, interest, principal or other distributions that the Grantor would otherwise be permitted to retain pursuant to the terms of paragraph (a)(iii) of this Section 2.05 and that remain in such account.
+
+[[A0032]]
+-8- CAN_DMS: \149670305\3 (c) Upon the occurrence and during the continuance of an Event of Default, all rights of the Grantor to exercise the voting and consensual rights and powers it is entitled to exercise pursuant to paragraph (a)(i) of this Section 2.05, and the obligations of the Collateral Agent under paragraph (a)(ii) of this Section 2.05, shall cease, and all such rights shall thereupon become vested in the Collateral Agent, which shall have the sole and exclusive right and authority to exercise such voting and consensual rights and powers; provided that, the Collateral Agent shall have the right from time to time following and during the continuance of an Event of Default to permit the Grantor to exercise such rights.
+
+[[A0033]]
+After all Events of Default have been cured or waived, all rights vested in the Collateral Agent pursuant to this paragraph (c) shall automatically cease, and the Grantor shall automatically have the exclusive right to exercise the voting and consensual rights and powers they would otherwise be entitled to exercise pursuant to paragraph (a)(i) of this Section 2.05.
+
+[[A0034]]
+SECTION 2.06. ULCs.
+
+[[A0035]]
+Notwithstanding anything else contained in this Agreement or any other agreement among all or some of the parties, each Grantor is and shall remain the sole registered and beneficial owner of all Collateral that consists of shares of an unlimited company, an unlimited liability company or an unlimited liability corporation incorporated pursuant to, or otherwise governed by, the laws of any province of Canada (a “ULC”) until such time as the shares of the ULC (the “ULC Shares”) are transferred to the Collateral Agent or its nominee on the books and records of the ULC.
+
+[[A0036]]
+Until then, the Grantor shall receive, for its own account, any dividends or other distributions in respect of ULC Shares that are Collateral and may vote such ULC Shares and control the direction, management and policies of any ULC to the same extent as it would if such ULC Shares were not pledged to the Collateral Agent.
+
+[[A0037]]
+Nothing in this Agreement or any other agreement among all or some of the parties is intended to, or shall, constitute the Collateral Agent, a member or shareholder of a ULC for the purposes of the Companies Act (Nova Scotia), the Business Corporations Act (Ontario) or the Business Corporations Act (Alberta) until such time as notice is given by the Collateral Agent (at the direction of the Required Purchasers) to the Grantor and further steps are taken, at the request and direction of the Collateral Agent (at the direction of the Required Purchasers), to register the Collateral Agent or its nominee as the holder of such ULC Shares.
+
+[[A0038]]
+If any provision of this Agreement would have the effect of constituting the Collateral Agent a member or shareholder of a ULC prior to such time, that provision shall be severed from this Agreement and ineffective with respect to shares of such ULC without otherwise invalidating or rendering unenforceable this Agreement as it relates to all other Collateral.
+
+[[A0039]]
+SECTION 2.07.
+
+[[A0040]]
+General CovenantsThe Grantor shall, at its own expense, take any and all commercially reasonable actions necessary to (i) defend title to the Collateral against all Persons and (ii) upon the reasonable request of the Collateral Agent, defend the Security Interest of the Collateral Agent in the Collateral and the priority thereof against any Lien, in each case subject to (x) Liens permitted pursuant to the Note Purchase Agreement, (y) transfers made in compliance with the Note Purchase Agreement and (z) the rights of the Grantor under Section 11.09 of the Note Purchase Agreement to obtain a release of the Liens created hereunder. (b) The Grantor hereby irrevocably authorizes the Collateral Agent (at the direction of the Required Purchasers) for the benefit of the Secured Parties at any time and from time to time to file in any relevant United States or Canadian jurisdiction any financing statements or financing change statement with respect to the Collateral or any part thereof and amendments thereto that (i) describe the collateral covered thereby in any manner that the Required Purchasers reasonably determine is necessary or advisable to ensure the perfection of the security interest in the Collateral granted under this Agreement and (ii) contain the information required by Article 9 of the UCC or the PPSA for the filing of any financing statement, financing change statement, or amendment, including (A) whether the Grantor is an organization, the type of organization and, if required, any organizational identification number issued to the Grantor.
+
+[[A0041]]
+The Grantor agrees to provide such information to the Collateral Agent promptly upon request.
+
+[[A0042]]
+-9- CAN_DMS: \149670305\3 (c) The Security Interest and the security interest granted pursuant to Article II are granted as security only and shall not subject the Collateral Agent or any other Secured Party to, or in any way alter or modify, any obligation or liability of the Grantor with respect to or arising out of the Collateral.
+
+[[A0043]]
+(d) The Grantor agrees, at its own expense, to execute, acknowledge, deliver and cause to be duly filed all such further instruments and documents and take all such actions as the Collateral Agent (at the direction of the Required Purchasers) may from time to time reasonably request to obtain, preserve, protect and perfect the Security Interest and the rights and remedies created hereby, including the payment of any reasonable and documented or invoiced out-of-pocket fees and Taxes required in connection with the execution and delivery of this Agreement, the granting of the Security Interest and the filing of any financing statements or other documents in connection herewith or therewith; provided, however, the Grantor shall have no obligation to file any document or undertake any actions outside Canada or pursuant to any laws other than the laws of the United States or Canada. (e) At its option, the Collateral Agent may discharge past due taxes, assessments, charges, fees, Liens, security interests or other encumbrances at any time levied or placed on the Collateral and not permitted pursuant to the Note Purchase Agreement, and may pay for the maintenance and preservation of the Collateral to the extent the Grantor fails to do so as required by the Note Purchase Agreement, this Agreement or any other Note Document and within a reasonable period of time after the Collateral Agent (at the direction of the Required Purchasers) has requested that it do so, and the Grantor agrees to reimburse the Collateral Agent, within 10 days after demand, for any reasonable payment made or expense incurred by the Collateral Agent pursuant to the foregoing authorization in accordance with Section 4.03(a); provided that nothing in this paragraph shall be interpreted as excusing the Grantor from the performance of, or imposing any obligation on the Collateral Agent or any Secured Party to cure or perform, any covenants or other promises of the Grantor with respect to taxes, assessments, charges, fees, Liens, security interests or other encumbrances and maintenance as set forth herein or in the other Note Documents. (f) Notwithstanding anything herein to the contrary, it is understood that the Grantor shall not be required by this Agreement to better assure, preserve, protect or perfect the Security Interest created hereunder by any means other than (i) filings (including financing statements or financing change statements) pursuant to the UCC, the PPR (or similar central filing office) of the relevant jurisdiction, and (ii) in the case of Collateral that constitutes Pledged Securities, Instruments, certificated securities (in each case not credited to a Securities Account), Tangible Chattel Paper or Negotiable Documents (other than those Instruments or Negotiable Documents held in the ordinary course of business), delivery thereof to the Collateral Agent in accordance with the terms hereof (together with, where applicable, undated stock or note powers or other undated proper instruments of assignment). The Grantor shall not be required to (i) complete any filings or other action with respect to the better assurance, preservation, protection or perfection of the security interests created hereby in any jurisdiction outside of the United States or Canada or enter into any security document governed by the laws of a jurisdiction other than the United States or Canada, or to reimburse the Collateral Agent for any costs incurred in connection with the same, (ii) deliver control agreements with respect to, or confer perfection by “control” (within the meaning of the STA) over, any Deposit Accounts, Securities Accounts or (iii) perfect the security interest in motor vehicles, airplanes and other assets subject to certificates of title other than by filings (including financing statements or financing change statement) pursuant to the UCC or the PPR (or similar central filing office) of the relevant jurisdiction.
+
+[[A0044]]
+-10- CAN_DMS: \149670305\3 ARTICLE III Remedies SECTION 3.01.
+
+[[A0045]]
+Remedies upon Default.
+
+[[A0046]]
+Upon the occurrence and during the continuance of an Event of Default, the Grantor agrees to deliver, on demand, each item of Collateral to the Collateral Agent (at the direction of the Required Purchasers) or any Person designated by the Collateral Agent, and it is agreed that the Collateral Agent (at the direction of the Required Purchasers) shall have the right to take any of or all the following actions at the same or different times: (a) with respect to any Collateral consisting of Intellectual Property, on demand, to cause the Security Interest to become an assignment, transfer and conveyance of any of or all such Collateral by the Grantor to the Collateral Agent, for the benefit of the Secured Parties, or to license, whether on an exclusive or nonexclusive basis, any such Collateral throughout the world on such terms and conditions and in such manner as the Collateral Agent shall determine (other than in violation of any then-existing licensing arrangements or other agreement to the extent that waivers cannot be obtained), but in any event, on a revocable basis under terms whereby such license should terminate immediately upon cure of an Event of Default in connection with exercise of its remedies hereunder, and (b) subject to Section 2.04, with or without legal process and with or without prior notice or demand for performance, to take possession of the Collateral and the Pledged Collateral and without liability for trespass to enter any premises where the Collateral or the Pledged Collateral may be located for the purpose of taking possession of or removing the Collateral and the Pledged Collateral and, generally, to exercise any and all rights afforded to a secured party under the PPSA, the STA or other applicable law.
+
+[[A0047]]
+Without limiting the generality of the foregoing, the Grantor agrees that the Collateral Agent shall have the right, subject to the mandatory requirements of applicable law and the notice requirements described below, to sell or otherwise dispose of all or any part of the Collateral at a public or private sale or at any broker’s board or on any securities exchange, for cash, upon credit or for future delivery as the Collateral Agent shall deem appropriate.
+
+[[A0048]]
+The Collateral Agent shall be authorized at any such sale of securities (if it deems it advisable to do so) to restrict the prospective bidders or purchasers to Persons who will represent and agree that they are purchasing the Collateral for their own account for investment and not with a view to the distribution or sale thereof, and upon consummation of any such sale the Collateral Agent shall have the right to assign, transfer and deliver to the purchaser or purchasers thereof the Collateral so sold.
+
+[[A0049]]
+Each such purchaser at any sale of Collateral shall hold the property sold absolutely free from any claim or right on the part of the Grantor, and the Grantor hereby waives (to the extent permitted by law) all rights of redemption, stay and appraisal that the Grantor now has or may at any time in the future have under any rule of law or statute now existing or hereafter enacted.
+
+[[A0050]]
+Upon the occurrence and during the continuance of an Event of Default, the Collateral Agent (at the direction of the Required Purchasers) may also realize upon the Collateral and enforce its rights, by: (a) appointing a receiver (which term as used in this security agreement includes an interim receiver and a receiver and manager) or agent of all or any part of the Collateral and removing or replacing from time to time any receiver or agent and/or (b) instituting proceedings in any court of competent jurisdiction for the appointment of a receiver of all or any part of the Collateral.
+
+[[A0051]]
+Any receiver appointed by the Collateral Agent shall be vested with all rights of the Collateral Agent and all of the remedies which could have been exercised by the Collateral Agent in respect of the Grantor or the Collateral and such other powers and discretions as are granted in the instrument of appointment and any supplemental instruments.
+
+[[A0052]]
+The choice of receiver and its remuneration shall be within the sole discretion of the Collateral Agent.
+
+[[A0053]]
+Any receiver appointed by the Collateral Agent shall act as agent for the Collateral Agent and the Purchasers for the purposes of taking possession of the Collateral, but otherwise and for all other purposes (except as provided below), as agent for the Grantor.
+
+[[A0054]]
+The receiver may sell, lease, or otherwise dispose of Collateral as agent for the Grantor or as agent for the Collateral Agent as the Collateral Agent may determine in its sole discretion.
+
+[[A0055]]
+The Grantor agrees to ratify and confirm all actions of the receiver acting as agent for the Grantor, and to release and indemnify the receiver in respect of all such actions.
+
+[[A0056]]
+The Collateral Agent , in
+
+[[A0057]]
+-11- CAN_DMS: \149670305\3 appointing or refraining from appointing any receiver, shall not incur any liability to the receiver, the Grantor or any other Person and shall not be responsible for any misconduct or negligence of such Person.
+
+[[A0058]]
+The Collateral Agent shall give the Grantor no less than ten (10) days’ prior written notice of the Collateral Agent’s intention to make any sale of Collateral.
+
+[[A0059]]
+Such notice, in the case of a public sale, shall state the time and place for such sale and, in the case of a sale at a broker’s board or on a securities exchange, shall state the board or exchange at which such sale is to be made and the day on which the Collateral or portion thereof, will first be offered for sale at such board or exchange.
+
+[[A0060]]
+Any such public sale shall be held at such time or times within ordinary business hours and at such place or places as the Collateral Agent may fix and state in the notice (if any) of such sale.
+
+[[A0061]]
+At any such sale, the Collateral, or portion thereof, to be sold may be sold in one lot as an entirety or in separate parcels, as the Collateral Agent (at the direction of the Required Purchasers) may (in its sole and absolute discretion) determine.
+
+[[A0062]]
+The Collateral Agent shall not be obligated to make any sale of any Collateral if it shall determine not to do so, regardless of the fact that notice of sale of such Collateral shall have been given.
+
+[[A0063]]
+The Collateral Agent (at the direction of the Required Purchasers) may, without notice or publication, adjourn any public or private sale or cause the same to be adjourned from time to time by announcement at the time and place fixed for sale, and such sale may, without further notice, be made at the time and place to which the same was so adjourned.
+
+[[A0064]]
+In case any sale of all or any part of the Collateral is made on credit or for future delivery, the Collateral so sold may be retained by the Collateral Agent until the sale price is paid by the purchaser or purchasers thereof, but the Collateral Agent and the other Secured Parties shall not incur any liability in case any such purchaser or purchasers shall fail to take up and pay for the Collateral so sold and, in case of any such failure, such Collateral may be sold again upon like notice.
+
+[[A0065]]
+At any public (or, to the extent permitted by law, private) sale made pursuant to this Agreement, any Secured Party may bid for or purchase, free (to the extent permitted by law) from any right of redemption, stay, valuation or appraisal on the part of the Grantor (all said rights being also hereby waived and released to the extent permitted by law), the Collateral or any part thereof offered for sale and may make payment on account thereof by using any claim then due and payable to such Secured Party from the Grantor as a credit against the purchase price, and such Secured Party may, upon compliance with the terms of sale, hold, retain and dispose of such property without further accountability to the Grantor therefor.
+
+[[A0066]]
+As an alternative to exercising the power of sale herein conferred upon it, the Collateral Agent (at the direction of the Required Purchasers) may proceed by a suit or suits at law or in equity to foreclose this Agreement and to sell the Collateral or any portion thereof pursuant to a judgment or decree of a court or courts having competent jurisdiction or pursuant to a proceeding by a court-appointed receiver.
+
+[[A0067]]
+Any sale pursuant to the provisions of this Section 3.01 shall be deemed to in accordance with any requirements under the PPSA or the STA or their equivalent in other jurisdictions.
+
+[[A0068]]
+ARTICLE IV Miscellaneous SECTION 4.01. Notices.
+
+[[A0069]]
+All communications and notices hereunder shall (except as otherwise expressly permitted herein) be in writing and given as provided in the Note Purchase Agreement.
+
+[[A0070]]
+SECTION 4.02.
+
+[[A0071]]
+Waivers; Amendment. (a) No failure or delay by the Collateral Agent or any other Secured Party in exercising any right or power hereunder or under any other Note Document shall operate as a waiver thereof nor shall any single or partial exercise of any such right or power, or any abandonment or discontinuance of steps to enforce such a right or power, preclude any other or further exercise thereof or the exercise of any other right or power.
+
+[[A0072]]
+The rights and remedies of the Collateral Agent and the Secured Parties hereunder and under the other Note Documents are cumulative and are not exclusive of any rights or remedies that the Collateral Agent or the other Secured Parties would otherwise have.
+
+[[A0073]]
+No waiver of any provision of this Agreement or consent to any departure by any Note Party therefrom shall
+
+[[A0074]]
+-12- CAN_DMS: \149670305\3 in any event be effective unless the same shall be permitted by paragraph (b) of this Section 4.02, and then such waiver or consent shall be effective only in the specific instance and for the purpose for which given.
+
+[[A0075]]
+Without limiting the generality of the foregoing, the purchase of a Note shall not be construed as a waiver of any Default hereunder, regardless of whether the Collateral Agent or any other Secured Party may have had notice or knowledge of such Default at the time.
+
+[[A0076]]
+No notice or demand on any Note Party in any case shall entitle any Note Party to any other or further notice or demand in similar or other circumstances. (b) Neither this Agreement nor any provision hereof may be waived, amended or modified except pursuant to an agreement or agreements in writing entered into by the Collateral Agent and the Grantor with respect to which such waiver, amendment or modification is to apply, subject to any consent required in accordance with the Note Purchase Agreement; provided that the Collateral Agent may, without the consent of any other Secured Party, consent to a departure by the Grantor from any covenant set forth herein to the extent such departure is consistent with the authority of the Collateral Agent or Collateral Agent set forth in the Note Purchase Agreement.
+
+[[A0077]]
+SECTION 4.03.
+
+[[A0078]]
+Collateral Agent’s Fees and Expenses; Indemnification. (a) The Grantor agrees to reimburse the Collateral Agent and the Purchasers for any Collateral Agent Expenses and Purchaser Expenses incurred hereunder as provided in Sections 2.4 and 2.5 of the Note Purchase Agreement and to indemnify the Collateral Agent and the Purchasers in accordance with Section 13.2(a) of the Note Purchase Agreement; provided that each reference therein to the “Issuer” shall be deemed to be a reference to “the Grantor”. (b) The provisions of this Section 4.03 shall remain operative and in full force and effect regardless of the termination of this Agreement or any other Note Document, the consummation of the transactions contemplated hereby or thereby, the repayment of any of the Secured Obligations, the invalidity or unenforceability of any term or provision of this Agreement or any other Note Document, or any investigation made by or on behalf of any Secured Party.
+
+[[A0079]]
+All amounts due under this Section 4.03 shall be payable not later than twenty (20) Business Days after written demand therefor; provided, however, any Indemnitee shall promptly refund an indemnification payment received hereunder to the extent that there is a final judicial determination that such Indemnitee was not entitled to indemnification with respect to such payment pursuant to this Section 4.03.
+
+[[A0080]]
+Any such amounts payable as provided hereunder shall be additional Secured Obligations.
+
+[[A0081]]
+SECTION 4.04.
+
+[[A0082]]
+Successors and Assigns.
+
+[[A0083]]
+Whenever in this Agreement any of the parties hereto is referred to, such reference shall be deemed to include the permitted successors and assigns of such party, and all covenants, promises and agreements by or on behalf of the Grantor or the Collateral Agent that are contained in this Agreement shall bind and inure to the benefit of their respective successors and assigns.
+
+[[A0084]]
+SECTION 4.05.
+
+[[A0085]]
+Survival of Agreement.
+
+[[A0086]]
+All covenants, agreements, representations and warranties made by the Grantor in this Agreement or any other Note Document and in the certificates or other instruments delivered in connection with or pursuant to this Agreement or any other Note Document shall be considered to have been relied upon by the Secured Parties and shall survive the execution and delivery of the Note Documents and the purchase of any Notes, regardless of any investigation made by or on behalf of any Secured Party and notwithstanding that the Collateral Agent, the Purchasers or any other Secured Party may have had notice or knowledge of any Default or incorrect representation or warranty at the time any credit is extended under the Note Purchase Agreement or any other Note Document, and shall continue in full force and effect until the Termination Date has occurred, in each case, in accordance with and subject to the limitations set forth in the Note Purchase Agreement.
+
+[[A0087]]
+-13- CAN_DMS: \149670305\3 SECTION 4.06.
+
+[[A0088]]
+Counterparts; Effectiveness; Several Agreement.
+
+[[A0089]]
+This Agreement may be executed in counterparts (and by different parties hereto on different counterparts), each of which shall constitute an original but all of which when taken together shall constitute a single contract.
+
+[[A0090]]
+Delivery of an executed signature page to this Agreement by facsimile or other electronic transmission shall be effective as delivery of a manually signed counterpart of this Agreement.
+
+[[A0091]]
+This Agreement shall become effective when a counterpart hereof executed on behalf of the Grantor and shall have been delivered to the Collateral Agent and a counterpart hereof shall have been executed on behalf of the Collateral Agent, and thereafter shall be binding upon the Grantor and the Collateral Agent and their respective permitted successors and assigns, and shall inure to the benefit of the Grantor, the Collateral Agent and the other Secured Parties and their respective successors and assigns, except that the Grantor shall not have the right to assign or transfer its rights or obligations hereunder or any interest herein (and any such assignment or transfer shall be void) except as expressly provided in this Agreement and the Note Purchase Agreement.
+
+[[A0092]]
+SECTION 4.07.
+
+[[A0093]]
+Severability.
+
+[[A0094]]
+Any provision of this Agreement held to be invalid, illegal or unenforceable in any jurisdiction shall, as to such jurisdiction, be ineffective to the extent of such invalidity, illegality or unenforceability without affecting the validity, legality and enforceability of the remaining provisions hereof; and the invalidity of a particular provision in a particular jurisdiction shall not invalidate such provision in any other jurisdiction.
+
+[[A0095]]
+SECTION 4.08.
+
+[[A0096]]
+Right of Set-off.
+
+[[A0097]]
+If an Event of Default under the Note Purchase Agreement shall have occurred and be continuing, each Purchaser and its respective Affiliates are hereby authorized at any time and from time to time, to the fullest extent permitted by law, to set off and apply any and all deposits (general or special, time or demand, provisional or final, in whatever currency, but not withholding or payroll accounts, employee benefits accounts, de minimis accounts or other accounts used exclusively for taxes or fiduciary or trust purposes) at any time held and other obligations (in whatever currency) at any time owing by such Purchaser or any such Affiliate to or for the credit or the account of the Grantor against any of and all the obligations of the Grantor then due and owing under this Agreement held by such Purchaser, irrespective of whether or not such Purchaser shall have made any demand under this Agreement and although (i) such obligations may be contingent or unmatured and (ii) such obligations are owed to a branch or office of such Purchaser different from the branch or office holding such deposit or obligated on such Debt.
+
+[[A0098]]
+The applicable Purchaser shall notify the Grantor and the Collateral Agent of such setoff and application; provided that any failure to give or any delay in giving such notice shall not affect the validity of any such setoff and application under this Section 4.08.
+
+[[A0099]]
+The rights of each Purchaser and its Affiliates under this Section 4.08 are in addition to other rights and remedies (including other rights of setoff) that such Purchaser and its Affiliates may have.
+
+[[A0100]]
+SECTION 4.09.
+
+[[A0101]]
+Governing Law; Jurisdiction; Consent to Service of Process; Appointment of Service of Process Agent. (a) This Agreement shall be construed in accordance with and governed by the laws of the province of Ontario and the federal laws of Canada applicable therein. (b) Each party hereto hereby irrevocably and unconditionally submits, for itself and its property, to the exclusive jurisdiction of the courts of the province of Ontario, and any appellate court from any thereof, in any action or proceeding arising out of or relating to this Agreement, or for recognition or enforcement of any judgment, and each of the parties hereto hereby irrevocably and unconditionally agrees that all claims in respect of any such action or proceeding may be heard and determined in the courts of Ontario.
+
+[[A0102]]
+Each of the parties hereto agrees that a final judgment in any such action or proceeding shall be conclusive and may be enforced in other jurisdictions by suit on the judgment or in any other manner provided by law.
+
+[[A0103]]
+Nothing in this Agreement shall affect any right that the Collateral Agent or any Purchaser may otherwise have to bring any action or proceeding relating to this Agreement against the Grantor or its respective properties in the courts of any jurisdiction.
+
+[[A0104]]
+-14- CAN_DMS: \149670305\3 (c) Each party hereto hereby irrevocably and unconditionally waives, to the fullest extent it may legally and effectively do so, any objection that it may now or hereafter have to the laying of venue of any suit, action or proceeding arising out of or relating to this Agreement in any court referred to in paragraph (b) of this Section 4.09.
+
+[[A0105]]
+Each of the parties hereto hereby irrevocably waives, to the fullest extent permitted by law, the defense of an inconvenient forum to the maintenance of such action or proceeding in any such court. (d) EACH PARTY TO THIS AGREEMENT IRREVOCABLY CONSENTS TO SERVICE OF PROCESS IN THE MANNER PROVIDED FOR NOTICES IN SECTION 4.01.
+
+[[A0106]]
+NOTHING IN ANY THIS AGREEMENT WILL AFFECT THE RIGHT OF ANY PARTY TO THIS AGREEMENT TO SERVE PROCESS IN ANY OTHER MANNER PERMITTED BY LAW. (e) THE GRANTOR HEREBY IRREVOCABLY DESIGNATES, APPOINTS AND EMPOWERS THE GRANTOR AS ITS AUTHORIZED DESIGNEE, APPOINTEE AND AGENT TO RECEIVE, ACCEPT AND ACKNOWLEDGE FOR AND ON ITS BEHALF, AND IN RESPECT OF ITS PROPERTY, SERVICE OF ANY AND ALL LEGAL PROCESS, SUMMONS, NOTICES AND DOCUMENTS THAT MAY BE SERVED IN ANY SUCH ACTION OR PROCEEDING AND THE GRANTOR HEREBY ACCEPTS SUCH DESIGNATION AND APPOINTMENT.
+
+[[A0107]]
+SECTION 4.10.
+
+[[A0108]]
+WAIVER OF JURY TRIAL.
+
+[[A0109]]
+EACH PARTY HERETO HEREBY WAIVES, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ANY RIGHT IT MAY HAVE TO A TRIAL BY JURY IN ANY LEGAL PROCEEDING DIRECTLY OR INDIRECTLY ARISING OUT OF OR RELATING TO THIS AGREEMENT, ANY OTHER NOTE DOCUMENT OR THE TRANSACTIONS CONTEMPLATED HEREBY (WHETHER BASED ON CONTRACT, TORT OR ANY OTHER THEORY). EACH PARTY HERETO (A) CERTIFIES THAT NO REPRESENTATIVE, AGENT OR ATTORNEY OF ANY OTHER PARTY HAS REPRESENTED, EXPRESSLY OR OTHERWISE, THAT SUCH OTHER PARTY WOULD NOT, IN THE EVENT OF LITIGATION, SEEK TO ENFORCE THE FOREGOING WAIVER AND (B) ACKNOWLEDGES THAT IT AND THE OTHER PARTIES HERETO HAVE BEEN INDUCED TO ENTER INTO THIS AGREEMENT BY, AMONG OTHER THINGS, THE MUTUAL WAIVERS AND CERTIFICATIONS IN THIS SECTION 4.10.
+
+[[A0110]]
+SECTION 4.11. Headings.
+
+[[A0111]]
+Article and Section headings and the Table of Contents used herein are for convenience of reference only, are not part of this Agreement and shall not affect the construction of, or to be taken into consideration in interpreting, this Agreement.
+
+[[A0112]]
+SECTION 4.12.
+
+[[A0113]]
+Security Interest Absolute.
+
+[[A0114]]
+To the extent permitted by Law, all rights of the Collateral Agent hereunder, the Security Interest, the grant of a security interest in the Pledged Collateral and all obligations of the Grantor hereunder shall be absolute and unconditional irrespective of (a) any lack of validity or enforceability of the Note Purchase Agreement, any other Note Document, any agreement with respect to any of the Secured Obligations or any other agreement or instrument relating to any of the foregoing, (b) any change in the time, manner or place of payment of, or in any other term of, all or any of the Secured Obligations, or any other amendment or waiver of or any consent to any departure from the Note Purchase Agreement, any other Note Document or any other agreement or instrument, (c) any exchange, release or non-perfection of any Lien on other collateral, or any release or amendment or waiver of or consent under or departure from any guarantee securing or guaranteeing all or any of the Secured Obligations or (d) any other circumstance that might otherwise constitute a defense available to, or a discharge of, the Grantor in respect of the Secured Obligations or this Agreement other than payment of the Secured Obligations in full.
+
+[[A0115]]
+-15- CAN_DMS: \149670305\3 SECTION 4.13.
+
+[[A0116]]
+Termination or Release. (a) This Agreement, the Security Interest and all other security interests granted hereby shall terminate automatically upon the occurrence of the Termination Date. (b) In connection with any termination or release pursuant to paragraph (a) of this Section, the Collateral Agent shall execute and deliver to any Note Party, at such Note Party’s expense, all documents that such Note Party shall reasonably request to evidence such termination or release so long as the applicable Note Party shall have provided the Collateral Agent such certifications or documents required by the Note Purchase Agreement in order to demonstrate compliance with this Section 4.13.
+
+[[A0117]]
+Any execution and delivery of documents by the Collateral Agent pursuant to this Section shall be without recourse to or warranty by the Collateral Agent or any other Secured Party.
+
+[[A0118]]
+SECTION 4.14.
+
+[[A0119]]
+Collateral Agent Appointed Attorney-in-Fact.
+
+[[A0120]]
+The Grantor hereby makes, constitutes and appoints the Collateral Agent (and all officers, employees or agents designated by the Collateral Agent) the attorney-in-fact of the Grantor for the purpose of carrying out the provisions of this Agreement and taking any action and executing any instrument that the Collateral Agent may deem necessary or advisable to accomplish the purposes hereof at any time after and during the continuance of an Event of Default, which appointment is irrevocable (until termination of this Agreement in accordance with Section 4.13) and coupled with an interest.
+
+[[A0121]]
+Without limiting the generality of the foregoing, the Collateral Agent shall have the right, but only upon the occurrence and during the continuance of an Event of Default, with full power of substitution either in the Collateral Agent’s name or in the name of the Grantor: (a) to receive, indorse, assign and/or deliver any and all notes, acceptances, cheques, drafts, money orders or other evidences of payment relating to the Collateral or any part thereof; (b) to demand, collect, receive payment of, give receipt for and give discharges and releases of all or any of the Collateral; (c) to sign the name of the Grantor on any invoice or bill of lading relating to any of the Collateral; (d) to send verifications of accounts receivable to any Account Debtor; (e) to commence and prosecute any and all suits, actions or proceedings at law or in equity in any court of competent jurisdiction to collect or otherwise realize on all or any of the Collateral or to enforce any rights in respect of any Collateral; (f) to settle, compromise, compound, adjust or defend any actions, suits or proceedings relating to all or any of the Collateral; (g) to the extent the Notes have been accelerated pursuant to the Note Purchase Agreement, to notify, or to require the Grantor to notify, Account Debtors to make payment directly to the Collateral Agent; (h) to use, sell, assign, transfer, pledge, make any agreement with respect to or otherwise deal with all or any of the Collateral, and to do all other acts and things necessary to carry out the purposes of this Agreement, as fully and completely as though the Collateral Agent were the absolute owner of the Collateral for all purposes, and (i) to make, settle and adjust claims in respect of Collateral under policies of insurance, indorsing the name of the Grantor on any cheque, draft, instrument or other item of payment for the proceeds of such policies of insurance and for making all determinations and decisions with respect thereto; provided that nothing herein contained shall be construed as requiring or obligating the Collateral Agent to make any commitment or to make any inquiry as to the nature or sufficiency of any payment received by the Collateral Agent, or to present or file any claim or notice, or to take any action with respect to the Collateral or any part thereof or the moneys due or to become due in respect thereof or any property covered thereby.
+
+[[A0122]]
+The Collateral Agent and the other Secured Parties shall be accountable only for amounts actually received as a result of the exercise of the powers granted to them herein, and neither they nor their officers, directors, employees or agents shall be responsible to the Grantor for any act or failure to act hereunder, except for their own gross negligence, bad faith or willful misconduct or that of any of their controlled Affiliates, directors, officers, employees, counsel, agents or attorneys-in-fact.
+
+[[A0123]]
+The provisions of Exhibit C of the Note Purchase Agreement, including the rights, privileges, protections, benefits, indemnities and immunities of the Collateral Agent are incorporated herein, mutatis mutandis, as if a part hereof, and shall also apply to the Collateral Agent acting under or in connection with this Agreement.
+
+[[A0124]]
+If the Collateral Agent has a right to take or omit to take any action hereunder, it shall exercise such right if so instructed by the Required Purchasers.
+
+[[A0125]]
+With respect to any discretion, consent, approval or similar such action to be made, taken,
+
+[[A0126]]
+-16- CAN_DMS: \149670305\3 omitted to be taken or determined by the Collateral Agent under this Agreement (each an “Agent Determination”), such Agent Determination shall be made by the Collateral Agent at the direction of the Required Purchasers.
+
+[[A0127]]
+SECTION 4.15.
+
+[[A0128]]
+Further Assurances.
+
+[[A0129]]
+The Grantor shall from time to time, whether before or after the pledge and security interest has become enforceable, do all acts and things and execute and deliver all transfers, assignments and agreements as the Collateral Agent (at the direction of the Required Purchasers) may reasonably require for (a) protecting the Collateral, (b) perfecting the Collateral and the security interest, (c) obtaining control of the Collateral, (d) exercising all powers, authorities and discretions conferred upon the Collateral Agent, and (e) otherwise enabling the Collateral Agent to obtain the full benefits of this security agreement and the rights and powers herein granted.
+
+[[A0130]]
+The Grantor shall, from time to time after the pledge and security interest has become enforceable, do all acts and things and execute and deliver all transfers, assignments and agreements as the Collateral Agent (at the direction of the Required Purchasers) may require for facilitating the sale or other disposition of the Collateral in connection with its realization.
+
+[[A0131]]
+SECTION 4.16.
+
+[[A0132]]
+Judgment Currency. (a) If, for the purposes of obtaining judgment in any court, it is necessary to convert a sum due to a Secured Party in any currency (the “Original Currency”) into another currency (the “Other Currency”), the parties agree, to the fullest extent that they may effectively do so, that the rate of exchange used shall be that at which, in accordance with normal banking procedures, such Secured Party could purchase the Original Currency with the Other Currency on the Business Day preceding the day on which final judgment is given or, if permitted by applicable law, on the day on which the judgment is paid or satisfied. (b) The obligations of the Grantor in respect of any sum due in the Original Currency from it to any Secured Party under this Agreement shall, notwithstanding any judgment in any Other Currency, be discharged only to the extent that on the Business Day following receipt by such Secured Party of any sum adjudged to be so due in the Other Currency, such Secured Party may, in accordance with normal banking procedures, purchase the Original Currency with such Other Currency.
+
+[[A0133]]
+If the amount of the Original Currency so purchased is less than the sum originally due to such Secured Party in the Original Currency, the Grantor agrees, as a separate obligation and notwithstanding the judgment, to indemnify such Secured Party against any loss, and, if the amount of the Original Currency so purchased exceeds the sum originally due to such Secured Party in the Original Currency, such Secured Party shall remit such excess the Grantor. [Remainder of Page Intentionally Left Blank]
+
+[[A0134]]
+[Signature Page to Pledge and Collateral Agreement] CAN_DMS: \149670305\3 IN WITNESS WHEREOF, the parties hereto have duly executed this Agreement as of the day and year first above written.
+
+[[A0135]]
+BIRD GLOBAL, INC. By: /s/ Shane Torchiana Name: Shane Torchiana Title: President and Chief Executive Officer
+
+[[A0136]]
+[Signature Page to Pledge and Collateral Agreement] CAN_DMS: \149670305\3 U.S. BANK TRUST COMPANY, NATIONAL ASSOCIATION, as Collateral Agent By: /s/ Brandon Bonfig Name: Brandon Bonfig Title: Vice President
+
+[[A0137]]
+CAN_DMS: \149670305\3 Form of Schedule I to the Pledge Agreement PLEDGED EQUITY INTERESTS Issuer Class of Stock Stock Certificate No. No. of Shares Percentage of Total Owned Percentage of Issuer’s Stock Pledged 1393631 B.C. Unlimited Liability Company Shares C-1 1 100% 100% PLEDGED DEBT SECURITIES 1. None
+
+[[A0138]]
+CAN_DMS: \149670305\3 Schedule II to the Pledge and Collateral Agreement Type of Organization, Jurisdiction of Organization, Registration.
+
+[[A0139]]
+No., and Chief Executive Office Address Grantor Type of Organization Jurisdiction of Organization Registration No. Chief Executive Office Address Bird Global, Inc. Corporation Delaware 5876971 392 NE 191st Street, #20388, Miami, Florida

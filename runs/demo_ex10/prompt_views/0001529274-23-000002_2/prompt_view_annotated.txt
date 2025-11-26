@@ -1,0 +1,119 @@
+[[A0001]]
+Document Certain confidential portions of this Exhibit, marked by brackets and asterisks ([***]), have been omitted pursuant to Item 601(b)(10)(iv) of Regulation S-K because the confidential omitted information is both (i) not material and (ii) information that the registrant customarily and actually treats as private or confidential.
+
+[[A0002]]
+Exhibit 10.1 SIXTH AMENDMENT TO BILL PAY SERVICE RESELLER AGREEMENT This Sixth Amendment to the Bill Pay Service Reseller Agreement (this “Amendment”) is entered into as of December 30, 2022 (the “Amendment Effective Date”), by and between Alkami Technology, Inc., a Delaware corporation (“Reseller”) and CU Cooperative Systems, Inc. d/b/a CO-OP Solutions, a California cooperative corporation (“CO-OP”), successor-in-interest by merger to COOP eCom LLC. WHEREAS, CO-OP and Reseller have entered into that certain Bill Pay Service Reseller Agreement dated June 28, 2013, as amended (the “Agreement”), which includes the First Amendment effective May 19, 2015, the Second Amendment effective February 11, 2016, the Third Amendment effective March 7, 2017, the Fourth Amendment effective September 14, 2019, the Revised Exhibit A and Exhibit E - Service Description and Bill Payment Services Fees dated October 2, 2013 (“Exhibit A to the Agreement”), and the Fifth Amendment effective June 1, 2020; WHEREAS , the parties agree that the Revised Exhibit A Service Description and Bill Payment Services Fees dated October 2, 2013 was replaced by Revised Exhibit E from the Third Amendment effective March 7, 2017 and is the controlling Service Description and Bill Payment Services Fees; and WHEREAS , the parties hereto desire to further amend the Agreement as provided below to, among other things, (a) amend the overall pricing pursuant to the Agreement (b) extend the Agreement’s current term, (c) adjust pricing from transactional tiered pricing to flat rate pricing, (d) adjust yearly transaction fee minimums, (e) designate specific one-time license payment for CO-OP Bill Pay platform, and (f) to specify expectation by when FIS Fusion Bill Pay Platform will be integrated into the ALKAMI platform.
+
+[[A0003]]
+NOW THEREFORE , in consideration of the mutual covenants set forth herein, and for other good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, the parties hereby agree as follows: 1. Exhibit E to the Agreement is hereby amended by deleting the chart entitled “Monthly Transaction Fees” set forth in Section 5 (“Fees”) therein and replacing it with the following: Monthly Transaction Fees:
+
+[[A0004]]
+[[TABLE]]
+| | | | | | |
+| --- | --- | --- | --- | --- | --- |
+| Transactions | Price | | | | |
+| Standard Transaction Fee | [***] | | | | |
+| Direct Check functionality Fee | [***] additional per transaction | | | | |
+[[/TABLE]]
+
+[[A0005]]
+Notes:
+•
+The Monthly Transaction Fees set forth above shall be effective as of January 1, 2023.
+
+[[A0006]]
+Certain confidential portions of this Exhibit, marked by brackets and asterisks ([***]), have been omitted pursuant to Item 601(b)(10)(iv) of Regulation S-K because the confidential omitted information is both (i) not material and (ii) information that the registrant customarily and actually treats as private or confidential.
+•
+Monthly Transaction fees include blended electronic and paper transactions.
+•
+CO-OP will pass thru to Reseller any increase or decrease in the United States Postal rates and will be reflected in the monthly transaction fee price.
+•
+Reseller’s clients who opt for Direct Check functionality will incur an addition [* * *]-per-transaction fee in addition to the standard transaction fee.
+•
+All other provisions in Fees Section of Exhibit E remain in full force and effect.
+2.
+Section 16 (“Special Provisions”) of the Agreement, as amended by the Fifth Amendment, is hereby deleted in its entirety and replaced with the following language:
+Special Provisions.
+- Subject to the “[* * *] Condition” stated in (b) below, Reseller shall have annual minimum commitments for Monthly Transaction Fees (“Minimum Annual Commitments”) as follows:
+June 1, 2022 – December 31, 2022*
+January 1, 2023 – December 31, 2023 [***]
+January 1, 2024 – December 31, 2024 [***]
+January 1, 2025 – December 31, 2025 [***]
+January 1, 2026 – December 31, 2026 [***]
+* In lieu of the Minimum Annual Commitment for Year 3 as defined in the Fifth Amendment, Reseller shall make a one-time payment of [* * *] for the period of June through December 2022 upon execution of this Sixth Amendment.
+
+[[A0007]]
+This amount plus normal transaction fees as invoiced satisfies the first half of the Year 3 Minimum Annual Commitment for Monthly Transaction Fees as set forth in the Fifth Amendment.
+- [* * *] Condition.
+
+[[A0008]]
+The parties acknowledge and agree that a condition to the Minimum Annual Commitments is that [* * *] remain a Reseller Customer.
+
+[[A0009]]
+In the event Reseller becomes aware that the agreement between Reseller and [* * *] will terminate or if [* * *] ceases being a Reseller Customer, whichever first occurs, Reseller will promptly notify CO-OP in writing and the parties agree to negotiate in good faith a decrease in the Minimum Annual Commitments to reflect the termination of [* * *] as a Reseller Customer.
+- CO-OP shall bill Reseller for Monthly Transaction Fees (“Actual Transaction Fees”) on a monthly basis.
+
+[[A0010]]
+At the end of each Year, CO-OP will compare the aggregate Actual Transaction Fees to the Minimum Annual Commitment.
+
+[[A0011]]
+In the event the aggregate Actual Transaction Fees for any of the time periods listed above are less than the Minimum Annual Commitment for such time period, CO-OP will invoice Reseller the difference, which shall be payable by Reseller no later than thirty (30) days thereafter.
+3.
+Upon execution of the Sixth Amendment, Reseller shall make a one-time license payment of [* * *] to CO-OP for use of the Bill Pay platform.
+
+[[A0012]]
+Such one-time payment is not a pre-payment of ongoing fees for the Bill Pay platform.
+
+[[A0013]]
+Certain confidential portions of this Exhibit, marked by brackets and asterisks ([***]), have been omitted pursuant to Item 601(b)(10)(iv) of Regulation S-K because the confidential omitted information is both (i) not material and (ii) information that the registrant customarily and actually treats as private or confidential.
+4.
+The pricing in this Amendment replaces all previous transaction pricing for existing and future clients of Reseller.
+5.
+The parties acknowledge and agree that the current Renewal Term of the Agreement commenced June 28, 2018 and would terminate June 28, 2025.
+
+[[A0014]]
+Notwithstanding Section 7 (“Term”) of the Agreement, the parties agree that commencing the Amendment Effective Date, the current Renewal Term of the Agreement shall be extended until December 31, 2026.
+
+[[A0015]]
+Thereafter, this Agreement may be renewed in accordance with Section 7 of the Agreement; provided, however, that the commencement date of each Renewal Term shall be January 1 of the applicable year.
+6.
+The parties acknowledge and agree that the FIS Fusion Bill Pay platform shall be integrated via Single Sign On (SSO) into the Alkami platform by Reseller no later than six (6) months after the time that (x) the FIS Fusion Bill Pay platform is generally available and (y) FIS has at least five (5) clients confirmed to be in production on said platform.
+7.
+Except as otherwise specifically set forth herein, all terms and provisions contained in the Agreement shall remain in full force and effect.
+8.
+All capitalized terms not defined in this Amendment have the meanings defined in the Agreement.
+9.
+This Amendment may be executed in counterparts, each of which shall be deemed an original and all of which together shall constitute one and the same instrument.
+
+[[A0016]]
+Execution and delivery of this Amendment electronically is hereby deemed valid and effective; a signed facsimile, PDF, or electronic copy is hereby deemed an original for all purposes; and the parties fully intend that each may rely upon such execution as being a true signature of the other party’s authorized officer or representative and due execution and delivery for all purposes, whether or not hard copies of this Amendment were or are ever exchanged between them.
+[Signature Page Follows]
+Certain confidential portions of this Exhibit, marked by brackets and asterisks ([***]), have been omitted pursuant to Item 601(b)(10)(iv) of Regulation S-K because the confidential omitted information is both (i) not material and (ii) information that the registrant customarily and actually treats as private or confidential.
+
+[[A0017]]
+IN WITNESS WHEREOF
+, the parties have executed this Amendment effective as of the Amendment Effective Date.
+
+[[A0018]]
+[[TABLE]]
+| | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| CU Cooperative Systems, Inc. d/b/a Co-op Solutions | | Alkami Technology, Inc. | | | | | | |
+[[/TABLE]]
+
+[[A0019]]
+[[TABLE]]
+| | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| By: /s/ David Becker | | | By: /s/ Douglas A. Linebarger | | | | | | | | |
+| | | | | | | | | | | | |
+| Name: David Becker | | | Name: Douglas A. Linebarger | | | | | | | | |
+[[/TABLE]]
+
+[[A0020]]
+[[TABLE]]
+| | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | | | | | | |
+| Title: Chief Financial Officer | | | Title: Chief Legal Officer | | | | | | | | |
+[[/TABLE]]

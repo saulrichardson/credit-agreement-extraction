@@ -1,0 +1,393 @@
+Exhibit 10.1
+
+EXECUTIVE EMPLOYMENT AGREEMENT
+
+This EXECUTIVE EMPLOYMENT AGREEMENT (this “ Agreement ”), dated January 2, 2023, is by and between SWK Holdings Corporation, a Delaware corporation (the “ Company ”), and Jody Staggs (“ Executive ”) (the Company and Executive collectively referred to as the “ Parties ” or individually referred to as a “ Party ”).
+
+WHEREAS, Executive is currently employed as the President and Interim Chief Executive Officer of the Company; and
+
+WHEREAS, the Company desires to assure itself of the continued services of Executive, and Executive desires to continue to provide services to the Company pursuant to the terms and conditions of this Agreement, which shall supersede all prior commitments and agreements between Executive and the Company with respect to Executive’s employment with the Company (including, without limitation, that certain letter agreement between the Company and Executive dated September 16, 2022 (the “ Letter Agreement ”)).
+
+NOW, THEREFORE, IT IS HEREBY AGREED AS FOLLOWS:
+
+1.
+
+Term; Employment and Duties .
+
+(a)
+
+Term . The term of this Agreement commences on January 1, 2023 and continues until the date of Executive’s termination of employment, unless this Agreement is terminated or amended prior thereto (the “ Term ”).
+
+(b)
+
+Position and Duties . Subject to the terms and conditions hereof, Executive shall serve as the President and Chief Executive Officer of the Company, reporting to the Board of Directors of the Company (the “ Board ”). Executive shall have such duties and responsibilities commensurate with Executive’s role and as may be assigned to Executive from time to time by the Board. Executive’s principal place of employment shall be Dallas, Texas, subject to travel in the performance of Executive’s duties and the business of the Company.
+
+(c)
+
+Exclusive Services . For so long as Executive is employed by the Company, Executive shall devote Executive’s full business working time, attention and efforts to Executive’s duties to the Company, shall faithfully serve the Company, shall in all respects conform to and comply with the lawful and good faith directions and instructions given to Executive by the Board and shall use Executive’s best efforts to promote and serve the interests of the Company. Further, Executive shall not, while employed by the Company, directly or indirectly, render services to any other person or organization without the prior written consent of the Board or otherwise engage in activities that would interfere with the faithful performance of Executive’s duties to the Company. Notwithstanding the foregoing, Executive may (i) serve on corporate, civic or charitable boards, provided that Executive receives the prior written consent of the Board to serve on such boards, and (ii) manage personal investments and engage in charitable activities, provided that each of the foregoing activities do not contravene the first sentence of this Section 1(c).
+
+[[TABLE]]
+| |
+| --- |
+[[/TABLE]]
+
+2.
+
+Compensation and Other Benefits . Subject to the provisions of this Agreement and the approval of the Compensation Committee of the Board (the “ Committee ”), during the Term, the Company shall pay and provide the following compensation and other benefits to Executive as compensation for services rendered hereunder:
+
+(a)
+
+Base Salary . The Company shall pay to Executive a base salary at the annual rate of $400,000 (as adjusted from time to time, the “ Base Salary ”), payable in accordance with the Company’s ordinary payroll practices as established from time to time. The Base Salary will be reviewed on an annual basis by the Committee and may be adjusted from time to time by the Committee.
+
+(b)
+
+Annual Bonus . For each fiscal year ending during the Term, Executive shall be eligible for an annual bonus (the “ Annual Bonus ”) with a target opportunity of 175% of Executive’s Base Salary (the “ Target Bonus ”). The actual bonus payable to Executive, if any, with respect to any year may be more or less than the Target Bonus and will be determined by the Committee, in its sole discretion, based on the achievement of corporate and/or personal objectives established by the Committee. Except as otherwise provided herein or determined by the Committee, payment of any otherwise earned Annual Bonus will be conditioned on Executive’s continued service through the date that annual bonuses are paid to the Company’s executive officers generally with respect to the applicable year.
+
+(c)
+
+Annual Equity Award . Executive will be eligible for annual equity incentive awards in such form, in such amounts and on such terms (including vesting and payment terms and performance conditions) as determined by the Committee, in its sole discretion; provided, however , that Executive’s 2023 annual equity award will have a grant date fair value (as determined for financial accounting purposes) of approximately $600,000.
+
+(d)
+
+Benefit Plans . During the Term, Executive shall be entitled to participate in the employee benefit plans and programs maintained by the Company for similarly situated employees of the Company, in accordance with and subject to the terms of those plans and programs, as may be amended from time to time.
+
+(e)
+
+Expenses . The Company shall reimburse Executive for reasonable travel and other business-related expenses incurred by Executive in the fulfillment of Executive’s duties to the Company upon presentation of written documentation thereof, in accordance with the business expense reimbursement policies and procedures of the Company as in effect from time to time.
+
+3.
+
+Termination of Employment .
+
+(a)
+
+Termination for Any or No Reason . Executive’s employment with the Company shall at all times be on an “at-will” basis and nothing in this Agreement shall provide Executive the right to employment for any specified period. The Company and Executive shall each have the right to terminate Executive’s employment at any time for any reason or for no reason. If Executive’s employment with the Company ceases for any reason, Executive will receive (i) Executive’s Base Salary earned but unpaid through and including the date of termination; and (ii) any other amounts or benefits payable under the terms of benefit plans of the Company, other than severance plans (collectively, the “ Accrued Amounts ”).
+
+[[TABLE]]
+| | 2 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+(b)
+
+Termination without Cause; Resignation for Good Reason . If Executive’s employment with the Company is terminated by the Company without Cause (as defined below) or by Executive for Good Reason (as defined below), then subject to timely execution and non-revocation of a general release of claims and compliance with Section 4 (as described further below), in addition to the Accrued Amounts and in lieu of any severance benefits otherwise payable under any plan or policy of the Company or any of its subsidiaries or affiliates (the “ Company Group ”):
+
+[[TABLE]]
+| | (i) | Executive shall be entitled to continued payment of his Base Salary for a period of 12 months (or 18 months,
+if such termination occurs within one year following a “ Change in Control ” (as defined below)) immediately following
+the date of his termination of employment, payable in accordance with the Company’s ordinary payroll practices as established from
+time to time; |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | (ii) | if Executive timely elects coverage under the Consolidated Budget Reconciliation Act of 1985, as amended
+(“ COBRA ”), the Company will waive or reimburse the applicable premium for COBRA continuation coverage for Executive
+and his covered family members until the earliest of (x) the first anniversary of such termination of employment (or the date that is
+18 months following such termination of employment, if such termination occurs within one year following a Change in Control), (y) the
+date Executive becomes eligible for health insurance under the health plan of another employer, or (z) the date Executive is no longer
+eligible for COBRA. The Company may impute income to Executive in connection with such COBRA subsidy to the extent the Company deems appropriate
+to mitigate the risk of penalties and/or taxes to Executive or the Company, or to otherwise comply with applicable law. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | (iii) | to the extent then unpaid, Executive will receive any Annual Bonus otherwise earned by him in accordance
+with the terms of the applicable bonus plan with respect to the fiscal year ended immediately prior to the cessation of Executive’s
+employment (the “ Prior Year Bonus ”); and |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[TABLE]]
+| | (iv) | Executive will receive a pro rata portion of the Annual Bonus for the fiscal year in which Executive’s
+termination of employment occurs based on actual results for such year (determined by multiplying the amount of the Annual Bonus that
+would have otherwise been payable to Executive for such year in accordance with the terms of the applicable bonus plan (but for his termination)
+by a fraction, the numerator of which is the number of days during the fiscal year of termination that Executive is employed by the Company
+and the denominator of which is the total number of days in such fiscal year)(a “ Pro Rata Bonus ”). |
+| --- | --- | --- |
+[[/TABLE]]
+
+Unless more generous treatment is approved by the Board or Committee, Executive’s outstanding equity awards will be treated in accordance with the applicable equity plan and award agreements.
+
+[[TABLE]]
+| | 3 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+(c)
+
+Termination due to Death or Disability . Executive’s employment with the Company will automatically terminate upon Executive’s death and may be terminated by the Company upon Executive’s Disability (as defined below). If Executive’s employment with the Company is terminated by reason of Executive’s death or Disability, and subject to timely execution and non-revocation of general release of claims and compliance with Section 4 (as described further below), then in lieu of any severance benefits otherwise payable under any Company Group plan or policy and in addition to the Accrued Amounts: (i) if applicable, Executive will receive the Prior Year Bonus; and (ii) Executive will receive a Pro Rata Bonus. Unless more generous treatment is approved by the Board or Committee, Executive’s outstanding equity awards will be treated in accordance with the applicable equity plan and award agreements.
+
+(d)
+
+Termination for Cause; Resignation . If Executive’s employment with the Company is terminated by the Company for Cause or as a result of Executive’s resignation for any reason (other than for Good Reason): (i) Executive shall be entitled to payment of the Accrued Amounts, payable in accordance with Company policies and practices; (ii) Executive’s outstanding equity awards will be treated in accordance with the applicable equity plan and award agreements; and (iii) Executive shall have no further right to receive any other compensation or benefits from the Company or any member of the Company Group.
+
+(e)
+
+Execution and Delivery of General Release; Compliance with Covenants . The Company shall not be required to make the payments and provide the benefits provided for under Sections 3(b) or 3(c) unless Executive (or Executive’s estate in the case of death) executes and delivers to the Company a general waiver and release of claims in a form determined by the Company and such release becomes effective and irrevocable in its entirety within 60 days following the Executive’s termination date. Failure or refusal to sign (or timely sign) the general release (or revocation of the general release) shall result in the forfeiture of the payments and benefits (other than the Accrued Amounts). Additionally, the Company’s obligation to make any payments or provide benefits pursuant to Section 3(b) or (c) (other than the Accrued Amounts)
+
+shall be subject to Executive ’s continued compliance with all restrictive covenants Executive is subject to, including those set forth in Section 4. Any Prior Year Bonus payable under Section 3(b)(iii) or 3(c)(i) will be paid on the later of the sixty-fifth (65 th ) day following Executive’s cessation of employment (the “ Settlement Date ”) or the date such bonus would have otherwise been paid, absent Executive’s cessation of employment. Any Pro Rata Bonus payable under Section 3(b)(iv) or 3(c)(ii) will be paid on the later of the Settlement Date or the date such bonus would have otherwise been paid (absent Executive’s cessation of employment), but not later than 2½ months following the end of the year to which such bonus relates. Any payments and benefits due under Sections 3(b)(i) and (ii) will commence to be paid or provided on the Settlement Date, provided that the initial payment will include any amounts that, but for the above-described timing rule, would have otherwise been paid since the date of Executive’s cessation of employment.
+
+(f)
+
+Notice of Termination . Any termination of Executive’s employment by the Company or by Executive shall be communicated by a written notice of termination to the other Party given in accordance with Section 19. Such notice shall specify the date of termination, and, in the event of a resignation by Executive, such date shall not be less than 60 days after the giving of such notice to the Company. Notwithstanding the foregoing, if Executive gives notice of termination to the Company, the Company may unilaterally accelerate the date of termination and such acceleration shall not constitute a termination by the Company for purposes of this Agreement.
+
+[[TABLE]]
+| | 4 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+(g)
+
+Resignation from Positions . Unless otherwise requested by the Board, t he cessation of Executive’s employment for any reason shall constitute and be deemed as Executive’s resignation from (i) all director, officer or employee positions Executive has with the Company Group, and (ii) all fiduciary positions (including as a trustee) Executive may hold with respect to any employee benefit plans or trusts established by the Company Group, without any further actions required by the Parties. Executive agrees to execute such documents as may be requested by the Company to confirm such resignation.
+
+(h)
+
+Cause . For purposes of this Agreement, “ Cause ” shall mean the termination of Executive’s employment due to: (i) Executive’s indictment for, or entry of a plea of guilty or no contest or nolo contendere to, any felony (other than a traffic violation) under any state, federal or foreign law or any other crime involving moral turpitude; (ii) Executive’s commission of an act of fraud, embezzlement, misappropriation of funds, misrepresentation, malfeasance, breach of fiduciary duty or other willful and material act of misconduct; (iii) Executive’s gross negligence with respect to any member of the Company Group; (iv) Executive’s conduct that results in or is reasonably likely to result in harm to the reputation or business of any member of the Company Group or breach of any material Company policy; (v) Executive’s willful failure to substantially perform Executive’s material job functions for the Company or to carry out or comply with a lawful and reasonable directive of the Board; (vi) Executive’s unlawful use (including being under the influence) or possession of illegal drugs on the premises of any member of the Company Group or while performing Executive’s duties and responsibilities for the Company; or (vii) Executive’s breach of this Agreement or any other material breach of a written agreement between Executive and any member of the Company Group; provided , however , that no event, condition, conduct or action described in clauses (v) or (vii) shall constitute Cause unless (x) the Company gives Executive written notice of termination of employment for Cause and the grounds for such termination and (y) such grounds for termination are not corrected by Executive within 10 days of Executive’s receipt of such notice; provided , further , that with respect to any event, condition, conduct or action by Executive described in clauses (v) or (vii), which is substantially similar to prior events, conditions, conduct or actions by Executive and which the Company has previously notified Executive it believes constitutes Cause and which Executive was given the opportunity to cure, Executive shall not be provided with the opportunity to cure such event, condition, conduct or action. For the avoidance of doubt, other than clauses (v) and (vii), Executive shall not have an opportunity to cure conduct described in this Cause definition.
+
+(i)
+
+Good Reason
+. For purposes of this Agreement, “Good Reason” shall mean, without Executive’s written consent:
+- relocation of Executive’s principal place of employment with the Company to a location greater than 50 miles from Executive’s
+principal place of employment immediately prior to such relocation; (ii) a material diminution in the authority, duties or responsibilities
+of Executive; (iii) the Company’s material breach of this Agreement; or (iv) a decrease in Executive’s Base Salary (other
+than in connection with either (x) Company-wide reductions in compensation or (y) reductions in compensation impacting similarly
+situated employees of the Company) or Target Bonus. Notwithstanding the foregoing, Executive may not resign Executive’s employment
+for Good Reason unless (A) within 30 days following the initial occurrence of the event constituting Good Reason, Executive has provided
+the Company with prior written notice of Executive’s intent to resign for Good Reason and has set forth in reasonable detail the
+conduct that constitutes Good Reason and the specific provisions of this Agreement on which Executive relies; (B) the Company does not
+cure the conduct that constitutes Good Reason within 30 days after receipt of such notice; and (C) Executive actually terminates
+Executive’s employment within 30 days after the expiration of the remedy period without remedy by the Company of the conduct that
+constitutes Good Reason.
+
+[[TABLE]]
+| | 5 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+(j)
+
+Disability . For purposes of this Agreement, “ Disability ” means a condition entitling Executive to benefits under any Company Group long term disability plan, policy or arrangement; provided, however , that if Executive is not covered under a Company Group long term disability plan, policy or arrangement, “ Disability ” will mean a total and permanent disability as defined in Section 22(e)(3) of the Internal Revenue Code of 1986, as amended (the “ Code ”). For avoidance of doubt, termination as a result of a Disability will not be construed as a termination by the Company “without Cause.”
+
+(k)
+
+Change in Control . For purposes of this Agreement, “ Change in Control ” means the occurrence, after January 1, 2023, of: (i) a change in the ownership of the Company, within the meaning of Treas. Reg. § 1.409A-3(i)(5)(v), or (ii) a change in the ownership of a substantial portion of the Company’s assets, within the meaning of Treas. Reg. § 1.409A-3(i)(5)(vii).
+
+4.
+
+Covenants of Executive.
+
+(a)
+
+Confidential Information . During Executive’s employment, the Company will continue to provide Executive with access to Confidential Information (as defined below). Executive acknowledges that Confidential Information is the sole and exclusive property of the Company Group. Executive acknowledges and agrees that Executive occupies a position of trust and confidence with respect to the Company Group’s affairs and business and the Confidential Information. Executive acknowledges and agrees that the interests afforded protection by this Agreement are the Company Group’s legitimate business interests, deserving of legal protection. Executive agrees to take the following steps to preserve the confidential and proprietary nature of the Confidential Information: (i) during and after Executive’s employment with the Company Group, Executive will not use, or permit others to use, misappropriate or disclose any Confidential Information, directly or indirectly, to any other person, or use Confidential Information in any way without the prior written consent of an authorized executive officer of the Company (other than Executive); provided that Executive may use the Confidential Information only for the Company’s benefit and only in the course of Executive’s employment with the Company; Executive further agrees that the Confidential Information includes information or material received by the Company Group from other parties with the intention that it be kept in confidence by its recipients; (ii) Executive shall use Executive’s best efforts and take all reasonable precautions to prevent inadvertent or accidental disclosure of Confidential Information to any third party, and Executive represents and warrants that Executive has not disclosed and shall not disclose to the Company any trade secrets or other confidential or proprietary information that may not lawfully be so disclosed by Executive, by virtue of the ownership of the same by another person or entity or otherwise; (iii) Executive acknowledges and agrees that all Confidential Information, whether prepared by Executive (either alone or in cooperation with others) or otherwise coming into Executive’s possession, shall remain the exclusive property of the Company, and Executive will not remove any Confidential Information from the Company’s premises except for use in the Company’s business. Notwithstanding the foregoing, Confidential Information of the Company may be disclosed where required by law or order of a court of competent jurisdiction; provided that, Executive first gives to the Company reasonable prior written notice of such disclosure and affords the Company, to the extent reasonably practicable, the reasonable opportunity for the Company to obtain protective or similar orders, where available. In the event that such protective order or other remedy is not obtained, or if the Company waives compliance with the terms hereof, Executive shall disclose only that portion of the Confidential Information which, based on the advice of Executive’s legal counsel, is legally required to be disclosed and shall exercise reasonable efforts to provide that the receiving person shall agree to treat such Confidential Information as confidential to the extent possible (and permitted under applicable law) in respect of the applicable proceeding or process, and the Company shall be given an opportunity to review the Confidential Information prior to disclosure thereof. Executive understands and acknowledges that Executive has the right under U.S. federal law to certain protections for cooperating with or reporting legal violations to the Securities and Exchange Commission (the “ SEC ”) or its Office of the Whistleblower, as well as certain other governmental entities. No provisions in this Agreement are intended to prohibit Executive from cooperating with or reporting violations to, the SEC or any other such governmental entity, and Executive may do so without disclosure to the Company. The Company may not retaliate against Executive for any of these activities. Further, nothing in this Agreement precludes Executive from filing a Charge of Discrimination with the Equal Employment Opportunity Commission or a like charge or complaint with a state or local fair employment practice agency. Furthermore, Executive acknowledges that pursuant to the Defend Trade Secrets Act of 2016, Executive may not be held liable under any criminal or civil federal or state trade secret law for disclosure of a trade secret (x) made in confidence to a government official, either directly or indirectly, or to an attorney, solely for the purpose of reporting or investigating a suspected violation of law, (y) made in a complaint or other document filed in a lawsuit or other proceeding, if such filing is made under seal or (z) made to Executive’s attorney or used in a court proceeding in an anti-retaliation lawsuit based on the reporting of a suspected violation of law, so long as any document containing the trade secret is filed under seal and Executive does not disclose the trade secret except pursuant to court order.
+
+[[TABLE]]
+| | 6 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+(b)
+
+Assignment of Intellectual Property Rights . In consideration of the Company’s agreement to employ Executive pursuant to this Agreement and the receipt by Executive of Confidential Information, Executive agrees to, and does hereby, assign to the Company all of Executive’s right, title and interest in all Intellectual Property (as defined below) that Executive makes or conceives, whether as a sole inventor or as a joint inventor, whether made within or outside working hours or upon the premises of the Company or elsewhere, within the scope of and during Executive’s employment with the Company or that incorporates, utilizes or reflects any Confidential Information, intellectual property or other supplies, equipment or property of the Company Group, without further compensation, including all rights or benefits therefor, including without limitation the right to sue and recover for past and future infringement. This assignment shall not apply to Intellectual Property that Executive has an obligation to assign to a former employer.
+
+(c)
+
+Non-Competition . Executive agrees that during Executive’s employment with the Company Group and for a one-year period immediately following Executive’s termination of employment with the Company Group (the “ Restricted Period ”), Executive shall not, without the prior written consent of the Company, directly or indirectly, and whether as principal or investor or as an employee, officer, director, manager, partner, consultant, agent or otherwise, alone or in association with any other person, firm, corporation or other business organization, provide any labor, work, services or assistance to any business (i) engaged in providing financing to life science companies, institutions and inventors, or (ii) otherwise competitive with the actual or anticipated business of the Company Group; provided , however , that nothing herein shall limit Executive’s right to own not more than 2% of any of the debt or equity securities of any business organization.
+
+[[TABLE]]
+| | 7 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+(d)
+
+Non-Solicitation
+. Executive agrees that, during the Restricted Period, Executive shall not, directly or indirectly, other
+than in connection with the proper performance of Executive’s duties in Executive’s capacity as an employee of the Company:
+- solicit or induce, or attempt to solicit or induce, or assist any third party to solicit or induce, directly or indirectly, any
+employee of the Company Group to leave the employ of the Company Group; (ii) hire any current or former employee of the Company Group
+or assist in the hiring of any such employee by any person, association or entity not affiliated with the Company Group; or (iii) induce,
+solicit or encourage any customer or potential customer of the Company Group to cease doing business with the Company Group (or decrease
+the amount of business it does or otherwise alter its relationship with the Company Group) or do business with Executive (unless for the
+benefit of a member of the Company Group) or any business competitive with the Company Group. For purposes of this Agreement, a “potential
+customer or client” is any person or entity with whom any member of the Company Group is, at the time of Executive’s termination
+of employment, or was, during the one-year period immediately preceding such termination, engaged in discussions regarding one or more
+possible transactions with the Company Group. Executive shall not be prohibited from advertising to the general public any employment
+opportunities or requests for consultancy services (which advertisements are not targeted at employees or independent contractors of the
+Company Group).
+
+(e)
+
+Non-Disparagement . Executive agrees that during and after Executive’s employment with the Company, Executive will not make any negative comments or otherwise disparage any member of the Company Group or any of their officers, boards or individual directors, employees, shareholders or agents, or otherwise take any action that could be reasonably expected to harm the reputation of such persons.
+
+(f)
+
+Cooperation . Executive shall cooperate with the Company and its directors, officers, attorneys and experts in connection with matters relating to Executive’s service to the Company, including the transition of Executive’s duties and responsibilities to any successor and in connection with any action, proceeding, investigation or litigation involving the Company, including any such action, proceeding, investigation or litigation in which Executive is called to testify. Executive will render such cooperation in a timely manner on reasonable notice from the Company, so long as the Company, following Executive’s termination of employment, exercises commercially reasonable efforts to schedule and limit its need for Executive’s cooperation under this paragraph so as not to interfere with Executive’s other personal and professional commitments .
+
+(g)
+
+Return of Property . Executive will return to the Company all Confidential Information and confidential materials, and all copies thereof, whether written in a fixed media or otherwise relating to the businesses of any member of the Company Group, any Company Group member’s customers and clients or any prospective customers and clients, including, among other things, any hardware loaned to Executive by the Company, at any time upon the Company’s request. Additionally, without such request, within five days following Executive’s termination of employment for any reason or no reason, Executive (or in the event of death or Disability, Executive’s personal representatives) shall return to the Company all Confidential Information and confidential materials, and any and all copies thereof, whether prepared by them or otherwise coming into Executive’s possession, whether written in a fixed media or otherwise relating to the businesses of any member of the Company Group, any Company Group member’s customers and clients or any prospective customers and clients, including, among other things, any hardware loaned to Executive by the Company. Executive agrees not to retain any copies of any Confidential Information or confidential materials after termination of employment for any reason whatsoever. If any Confidential Information is stored or maintained by Executive on a computer hard drive or other electronic storage device at the time of termination, then Executive agrees to copy all files containing such Confidential Information onto a medium that can be given to the Company and to irretrievably delete and overwrite such files from Executive’s devices so that they cannot be recovered. Executive further consents that the Company, at its expense, may engage a computer forensics investigator to inspect any computer hard drives or electronic storage devices in Executive’s possession, custody or control to determine Executive’s compliance with the provisions of this Section 4. Anything to the contrary notwithstanding, Executive shall be entitled to retain (A) personal papers and other materials of a personal nature; provided , that such papers or materials do not include Confidential Information, (B) information showing Executive’s compensation or relating to reimbursement of expenses, and (C) copies of notices and agreements with the Company relating to Executive’s employment, or termination thereof, that Executive received in Executive’s personal capacity as a party to such notices or agreements.
+
+[[TABLE]]
+| | 8 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+(h)
+
+For purposes of this Agreement, “ Confidential Information ” shall mean confidential information, nonpublic and proprietary information of the Company Group and its equityholders, which includes, but is not limited to, the following: (i) all information relating to intellectual property, software, hardware and products, whether owned or licensed by any member of the Company Group, and intellectual property, hardware and software in various stages of research and development, in each case, which are not generally known to the public or within the industry in which any member of the Company Group competes (in each case, including, without limitation, trade secrets, inventions, know-how, work product, work processes, analyses, design specifications, engineering and technical data, procedures, and techniques) and the records of such information (such as drawings, specification sheets, design notes, source code, object code, load modules, schematics, flow charts, logic diagrams, procedural diagrams, work sheets, documentation, annotations, printouts, studies, manuals, proposals and any other written, electronic, digital or machine readable expressions of such information); (ii) all information concerning or relating to the way in which any member of the Company Group conducts its business that is not generally known to the public or within the industry in which any member of the Company Group competes (such as internal business procedures, controls, plans, vendor and contractor names and contacts and other vendor and contractor information, procedures, computer system passwords and other computer security controls, financial information, information supplied by clients and customers of any member of the Company Group and employee data) and the records of such information (such as check lists, samples, services and operational manuals, contracts, proposals, print-outs, correspondence, forms, listings, ledgers, financial statements, financial reports, financial and operational analyses, financial and operational studies, management reports of every kind, databases, employment records pertaining to employees other than Executive, and any other written, electronic, digital or machine-readable expressions of such information); (iii) all information that is not generally known to the public or within the industry in which any member of the Company Group competes, pertaining to any member of the Company Group’s marketing and business plans and strategies; forecasts and projections; marketing practices, procedures and policies; financial data; discounts; margins; costs; credit terms; pricing practices, procedures, formulas and policies; goals and objectives; quoting practices, procedures and policies; and customer data, including customer lists, contracts, representatives’ requirements and needs, specifications, data provided by or about prospective existing or past customers and contract terms applicable to such customers, and the records of such information (such as agreements, customer lists, printouts, databases, marketing plans, marketing reports, strategic business plans, marketing analyses and management reports, listings of potential customers and leads, brokers and their contact information, and any other written, electronic, digital or machine-readable expressions of such information); and (iv) in addition to the foregoing, any information relating to any member of the Company Group’s business that is not generally known to the public or within the industry in which any member of the Company Group competes which gives the Company Group any advantage over its competitors, and the records of such information in any tangible form, whether written, electronic, digital or machine-readable in nature, is considered Confidential Information. Information publicly available or generally known within the industry in which any member of the Company Group competes (other than information that has become publicly available as a result of a breach of this Agreement) is not considered Confidential Information.
+
+[[TABLE]]
+| | 9 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+(i)
+
+For purposes of this Agreement, “ Intellectual Property ” means any and all inventions, technological innovations, developments, concepts, improvements, designs, formulae, models, tools, know-how, discoveries, ideas, processes, patents, trademarks, service marks, copyrights, computer software, creations, writings and other works of authorship, theses, books, lectures, illustrations, photographs, motion pictures, improvements to all such property and all tangible embodiments thereof, whether in hard copy or electronic format, whether or not patentable or registerable under copyright, trademark or similar laws, which relate in any manner to the actual or anticipated business or research and development of the Company Group. Executive acknowledges that any rights in the Intellectual Property constituting a work made for hire under the U.S. Copyright Act, 17 U.S.C. § 101 et seq. are owned upon creation by the Company or its applicable affiliate as Executive’s employer. Executive understands and agrees that the decision whether or not to commercialize or market any of the Intellectual Property is within the Company’s sole discretion and for the Company’s or its applicable subsidiary’s or affiliate’s sole benefit and that no royalty will be due to Executive as a result of the Company’s or its applicable subsidiary’s or affiliate’s efforts to commercialize or market any such Intellectual Property. Executive hereby agrees that Executive has not entered into, and agrees not to enter into, any oral or written agreement in conflict with Executive’s obligations in this Section 4. To the extent Executive has any moral rights or other proprietary rights in the Intellectual Property that cannot be assigned in the manner described above, Executive unconditionally and irrevocably waives the enforcement of such proprietary rights. Executive hereby waives and quitclaims to the Company any and all claims, of any nature whatsoever, that Executive now or may hereafter have for infringement of any proprietary rights assigned hereunder to the Company. Executive represents and warrants that Executive has all the necessary rights to grant the Company sole ownership of the Intellectual Property, free and clear of any liens, licenses or other third-party interests. Executive agrees not to incorporate or otherwise use any intellectual property or confidential or proprietary information of any third party or of Executive made by Executive prior to Executive’s employment with the Company (collectively, “ Third-Party IP ”), in the Intellectual Property without the prior written consent of the Company; provided ,
+
+however , that if in the course of Executive’s employment with the Company, Executive incorporates into any Intellectual Property any Third-Party IP owned by Executive or in which Executive has an interest, Executive represents and warrants that Executive has all necessary rights, powers and authorization to use such Third-Party IP in the manner it is used and such use will not infringe any right of any company, entity or person and, in such a circumstance, the Company is hereby granted and shall have a nonexclusive, royalty-free, sublicensable, transferable, irrevocable, perpetual, worldwide license to use such Third-Party IP as part of or in connection with such Intellectual Property. During and subsequent to Executive’s employment, upon the request and at the expense of the Company or its nominee and for no additional personal remuneration, Executive agrees to execute any instrument which the Company considers necessary to assign to, secure for or maintain for the benefit of the Company adequate patent and other property rights in the United States and all foreign countries with respect to any Intellectual Property. Executive also agrees to assist the Company as required to draft said instruments and to obtain and enforce said rights. Executive hereby irrevocably designates and appoints the Company and its duly authorized officers and agents as Executive’s agent and attorney in fact to act for and on Executive’s behalf to execute, verify and file any such instruments and to do all other lawfully permitted acts to further the purposes of this Section 4 with the same legal force and effect as if executed by Executive. Executive agrees to promptly disclose to the Company any Intellectual Property when conceived or made by Executive, in whole or in part, and to make and maintain adequate and current records thereof. Executive agrees that any Intellectual Property disclosed or filed by Executive within one year following termination of Executive’s employment for any reason shall be considered the sole property of the Company unless otherwise agreed by the Parties, or unless and until finally determined by a court of competent jurisdiction to have been made or conceived after the termination of Executive’s employment. Executive has no right or license to use, publish, reproduce, prepare derivative works based upon, distribute, perform or display any Intellectual Property. Executive has no right or license to use the Company’s trademarks, service marks, trade names, logos, symbols, brand names or other designations of source or origin, except as expressly permitted by the Company.
+
+[[TABLE]]
+| | 10 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+(j)
+
+Reasonableness . Executive acknowledges that the geographic boundaries, scope of prohibited activities, and time duration of the covenants in this Section 4 are all reasonable in nature and no broader than are necessary to protect the legitimate business interests of the Company Group, and Executive further acknowledges that any violation of these covenants would cause substantial irreparable injury to the Company Group.
+
+(k)
+
+Blue Pencil . Notwithstanding anything herein to the contrary, if a court of competent jurisdiction shall at any time deem the duration or the scope of any of the provisions of this Section 4 unenforceable, the other provisions of this Section 4 shall nevertheless stand and the duration and scope set forth herein shall be deemed to be the longest period or greatest size permissible by law under the circumstances, and the parties hereto agree that such court shall reduce the time period or scope to such permissible duration or size.
+
+(l)
+
+Certain Remedies . Without intending to limit the remedies available to the Company Group, Executive agrees that a breach of any of the covenants contained in this Section 4 may result in material and irreparable injury to the Company Group for which there is no adequate remedy at law, that it will not be possible to measure damages for such injuries precisely and that, in the event of such a breach or threat thereof, any member of the Company Group shall be entitled to seek a temporary restraining order or a preliminary or permanent injunction, or both, without bond or other security, restraining Executive from engaging in activities prohibited by the covenants contained in this Section 4 or such other relief as may be required to specifically enforce any of the covenants contained in this Agreement. Such injunctive relief in any court shall be available to the Company Group in lieu of, or prior to or pending determination in, any arbitration proceeding. In addition to the remedies the Company may seek and obtain pursuant to this Section 4(l), the Restricted Period shall be extended by any and all periods during which Executive shall be found by a court or arbitrator possessing personal jurisdiction over Executive to have been in violation of the covenants contained in this Section 4.
+
+[[TABLE]]
+| | 11 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+5.
+
+Section 409A of the Code .
+
+(a)
+
+The compensation and benefits provided by this Agreement are intended to be exempt from or comply with the requirements of Section 409A of the Code, and this Agreement shall be interpreted and construed consistent with that intent.
+
+- A termination of employment shall not be deemed to have occurred for purposes of any provision of this Agreement providing for the payment of any amounts or benefits considered “nonqualified deferred compensation” under Section 409A of the Code upon or following a termination of employment unless such termination is also a “separation from service” within the meaning of Section 409A of the Code and, for purposes of any such provision of this Agreement, references to a “termination,” “termination of employment” or like terms shall mean “separation from service.” Notwithstanding any other provision of this Agreement, to the extent that the right to any payment (including the provision of benefits) hereunder provides for the “deferral of compensation” within the meaning of Section 409A(d)(1) of the Code, the payment shall be paid (or provided) in accordance with this Section 5. If Executive is a “Specified Employee” within the meaning of Section 409A(a)(2)(B)(i) of the Code on the date of Executive’s termination, then to the extent required by Section 409A of the Code, no payment to Executive by reason of his separation from service of any amounts or benefits considered “nonqualified deferred compensation” under Section 409A of the Code shall be made or commence during the period beginning on the date of Executive’s termination and ending on the date that is six months following Executive’s termination or, if earlier, on the date of Executive’s death. The amount of any payment that would otherwise be paid to Executive during this period shall instead be paid to Executive on the fifteenth day of the first calendar month following the end of the period. Each amount to be paid or benefit to be provided under this Agreement shall be construed as a separate and distinct payment for purposes of Section 409A.
+
+(c)
+
+Notwithstanding anything herein to the contrary, except to the extent any expense, reimbursement or in-kind benefit provided to Executive does not constitute “nonqualified deferred compensation” within the meaning of Section 409A of the Code, (i) the amount of expenses eligible for reimbursement or in-kind benefits provided to Executive during any calendar year will not affect the amount of expenses eligible for reimbursement or in-kind benefits provided to Executive in any other calendar year, (ii) the reimbursements for expenses for which Executive is entitled to be reimbursed shall be made on or before the last day of the calendar year following the calendar year in which the applicable expense is incurred and (iii) any right of Executive to reimbursement for expenses or to in-kind benefits may not be liquidated or exchanged for any other benefit.
+
+[[TABLE]]
+| | 12 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+6.
+
+Section 280G . Notwithstanding any contrary provision of this Agreement (or any plan, policy, agreement or other arrangement covering Executive), if any payment, right or benefit paid, provided or due to Executive, whether pursuant to this Agreement or otherwise (each, a “ Payment ,” and collectively, the “ Total Payments ”), would subject Executive to the excise tax imposed by Section 4999 of the Code (the “ Excise Tax ”), then the Total Payments will be reduced to the minimum extent necessary to avoid the imposition of the Excise Tax, but only if (i) the amount of such Total Payments, as so reduced, is greater than or equal to (ii) the amount of such Total Payments without reduction (in each case, determined on an after-tax basis). Any reduction of the Total Payments required by this ‎paragraph will be implemented by determining the Parachute Ratio (as defined below) for each Payment and then by reducing the Payments in order, beginning with the Payment with the highest Parachute Ratio. For Payments with the same Parachute Ratio, later Payments will be reduced before earlier Payments. For Payments with the same Parachute Ratio and the same time of payment, each Payment will be reduced proportionately. For purposes of this paragraph, “ Parachute Ratio ” means a fraction, (x) the numerator of which is the value of the applicable Payment, as calculated for purposes of Section 280G of the Code, and (y) the denominator of which is the economic value of the applicable Payment.
+
+7.
+
+Company Policies . Executive agrees that he will be subject to, and comply with, all policies of the Company Group in effect from time to time, including (without limitation) policies regarding ethics, personal conduct, stock ownership, securities trading, clawback and hedging and pledging of securities.
+
+8.
+
+No Conflicting Agreements . Executive represents and warrants that he is not a party to or otherwise bound by any agreement or restriction that could conflict with, or be violated by, the performance of his duties to the Company or his obligations under this Agreement.
+
+9.
+
+Source of Payments . All payments provided under this Agreement, other than payments made pursuant to a plan which provides otherwise, shall be paid in cash from the general funds of the Company, and no special or separate fund shall be established, and no other segregation of assets shall be made, to assure payment. To the extent that any person acquires a right to receive payments from the Company hereunder, such right shall be no greater than the right of an unsecured creditor of the Company.
+
+10.
+
+Non-assignability; Binding Agreement . This Agreement and any and all rights, duties, obligations or interests hereunder shall not be assignable or delegable by Executive. This Agreement shall be binding upon, and inure to the benefit of, the Parties, any successors to or assigns of the Company and to Executive’s heirs and the personal representatives of Executive’s estate.
+
+11.
+
+Withholding . All payments made or benefits provided to Executive will be subject to reduction for applicable withholding taxes and other authorized deductions.
+
+[[TABLE]]
+| | 13 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+12.
+
+Amendment; Waiver . This Agreement may not be modified, amended or waived in any manner, except by an instrument in writing signed by both parties hereto. The waiver by either party of compliance with any provision of this Agreement by the other party shall not operate or be construed as a waiver of any other provision of this Agreement, or of any subsequent breach by such party of a provision of this Agreement.
+
+13.
+
+Severability . All provisions of this Agreement are intended to be severable. In the event any provision or restriction contained herein is held to be invalid or unenforceable in any respect, in whole or in part, such finding shall in no way affect the validity or enforceability of any other provision of this Agreement. The Parties hereto further agree that any such invalid or unenforceable provision shall be deemed modified so that it shall be enforced to the greatest extent permissible under law, and to the extent that any court of competent jurisdiction determines any restriction herein to be unreasonable in any respect, such court may limit this Agreement to render it reasonable in the light of the circumstances in which it was entered into and specifically enforce this Agreement as limited.
+
+14.
+
+Governing Law; Dispute Resolution . All matters affecting this Agreement, including the validity thereof, are to be subject to, and interpreted and construed in accordance with, the laws of the State of Texas applicable to contracts executed in and to be performed in the State of Texas. All actions arising out of or relating to this Agreement shall be heard and determined exclusively in any state or federal court located in Dallas, Texas (or in any appellate courts thereof) (collectively, “ Specified Courts ”). Each party hereto hereby (i) submits to the exclusive jurisdiction of any Specified Court for the purpose of any action arising out of or relating to this Agreement brought by any party hereto and (ii) irrevocably waives, and agrees not to assert by way of motion, defense or otherwise, in any such action, any claim that it is not subject personally to the jurisdiction of the above-named courts, that its property is exempt or immune from attachment or execution, that the action is brought in an inconvenient forum, that the venue of the action is improper, or that this Agreement or the transactions contemplated hereby may not be enforced in or by any Specified Court.
+
+15.
+
+Survival of Certain Provisions . The rights and obligations set forth in this Agreement that, by their terms, extend beyond the Term of this Agreement or the termination of Executive’s employment with the Company shall survive such Term or termination.
+
+16.
+
+Entire Agreement; Supersedes Previous Agreements . This Agreement contains the entire agreement and understanding of the Parties with respect to the matters covered herein and supersede all prior or contemporaneous negotiations, commitments, agreements and writings with respect to the subject matter hereof, including all prior employment agreements between the Parties and any extensions or amendments thereof (including, without limitation, the Letter Agreement); all other negotiations, commitments, agreements and writings shall have no further force or effect, and the parties to any such other negotiation, commitment, agreement or writing shall have no further rights or obligations thereunder.
+
+17.
+
+Counterparts . This Agreement may be executed by either of the Parties in counterparts, each of which shall be deemed to be an original, but all such counterparts shall together constitute one and the same instrument.
+
+18.
+
+Headings . The headings of sections herein are included solely for convenience of reference and shall not control the meaning or interpretation of any of the provisions of this Agreement.
+
+[[TABLE]]
+| | 14 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+19.
+
+Notices . All notices hereunder shall be in writing, addressed to:
+
+To the Company at its headquarters, Attn: Chairperson of the Board
+
+To Executive at the address on file with the Company
+
+All such notices shall be conclusively deemed to be received and shall be effective (i) if sent by hand delivery, upon receipt or (ii) if sent by electronic mail or facsimile, upon receipt by the sender of confirmation of such transmission; provided , however , that any electronic mail or facsimile will be deemed received and effective only if followed, within the next business day, by a hard copy sent by certified United States mail.
+
+[SIGNATURE PAGE FOLLOWS]
+
+[[TABLE]]
+| | 15 | |
+| --- | --- | --- |
+[[/TABLE]]
+
+IN WITNESS WHEREOF, the Company has caused this Agreement to be signed by its officer pursuant to the authority of its Board, and Executive has executed this Agreement, on the day and year first written above.
+
+SWK HOLDINGS CORPORATION
+
+/s/ Laurie Dotter
+
+By: Laurie Dotter
+
+Title: Director
+
+EXECUTIVE
+
+/s/ Jody Staggs
+
+Name: Jody Staggs
+
+[Signature Page to Executive Employment Agreement]
+
+[[TABLE]]
+| |
+| --- |
+[[/TABLE]]

@@ -1,0 +1,73 @@
+acer-ex101_15.htm
+
+Exhibit 10.1
+
+EXTENSION AGREEMENT
+
+This Extension Agreement (this “ Extension Agreement ”) dated as of December 30, 2022, is among Acer Therapeutics Inc., a Delaware corporation (“ Borrower ”), MAM Aardvark, LLC, not individually, but solely in its capacity as administrative and collateral agent for the Lenders (the “ Agent ”) and the Lenders party hereto.
+
+WHEREAS , the Borrower, the Lenders and the Agent are party to that certain Credit Agreement, dated as of March 4, 2022 (the “ Credit Agreement ”), pursuant to which the Lenders agreed to make loans to the Borrower on the terms set forth therein;
+
+WHEREAS , the Borrower has requested that the Agent and the Lenders make a limited amendment to the Credit Agreement, and the Agent and the Lenders are willing to make such amendment to the Credit Agreement on the terms and subject to the conditions set forth herein.
+
+NOW, THEREFORE , in consideration of the mutual agreements herein contained, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties hereto agree as follows:
+
+1. Definitions; Loan Document .  Capitalized terms used herein without definition shall have the meanings assigned to such terms in the Credit Agreement. This Extension Agreement shall constitute a Loan Document for all purposes of the Credit Agreement and the other Loan Documents.
+
+2. Amendment . Upon the effectiveness of this Extension Agreement, the Credit Agreement is hereby amended as follows:
+
+- Section 2.2.1 of the Credit Agreement is hereby amended by replacing the reference to “December 31, 2022” in such section with “January 16, 2023”.
+
+- Section 2.7(b) of the Credit Agreement is hereby amended to add the following at the end of that section: “; provided that in any case, the Subsequent Commitment Fee Trigger Date shall not be earlier than twelve (12) Business Days following January 16, 2023.”
+
+3. Conditions to Effectiveness .  This Extension Agreement shall become effective on the date on which the Borrower, the Agent and the Lenders receive counterpart signatures to this Extension Agreement duly executed and delivered by the Loan Parties, the Agent and each Lender.
+
+4. No Implied Amendment or Waiver .  This Extension Agreement is limited to the matter specifically set forth herein and shall not, by implication or otherwise, limit, impair, constitute a waiver of or otherwise affect any rights or remedies of the Borrower, the Agent or any Lender under the Credit Agreement and Loan Documents, or alter, modify, amend or in any way affect any of the other terms, obligations or covenants contained in the Credit Agreement and Loan Documents, all of which shall continue in full force and effect. Nothing in this Extension Agreement shall be construed to imply any willingness on the part of the Borrower, the Agent or any Lender to agree to or grant any similar or future amendment, consent or waiver of any of the terms and conditions of the Credit Agreement or any Loan Document. Each of the Administrative Agent, each Lender, and the Borrower hereby reserves all of its rights, remedies and defenses available under the Credit Agreement, the Loan Documents and applicable law, including without limitation as a result of any past, continuing or future Defaults, Events of Default, breaches or other defaults.  Neither the Borrower, the Administrative Agent nor the Lenders have waived, and are not hereby waiving, any Defaults, Events of Default, breaches or other defaults which may have occurred prior to the date hereof or which may be continuing on the date hereof, or any of its rights or
+
+remedies, and neither the Borrower nor the Lenders have agreed to forbear with respect to any of their rights and remedies concerning any Default , Event of Default , breach or other default which may have occurred prior to the date hereof or which may be continuing on the date hereof.  Nothing contained herein, and no delay on the part of the Borrower, the Administrative Agent or the Lenders in exercising any such rights or remedies arising from thi s Extension Agreement , shall be construed as a waiver of any such rights or remedies.
+
+5. Expenses .  The Loan Parties agree to pay all reasonable out-of-pocket and documented costs and expenses of the Agent and the Lenders in connection with this Extension Agreement (including, without limitation, the reasonable fees and out-of-pocket expenses of counsel to the Agent and the Lenders incurred in connection with the negotiation, preparation, execution and delivery of this Extension Agreement and the other Loan Documents).
+
+6. Counterparts . This Extension Agreement may be executed in any number of counterparts and by different parties on separate counterparts, each of which, when executed and delivered, is an original, and all taken together, constitute one agreement.  Executed copies of the signature pages of this Extension Agreement sent by facsimile or transmitted electronically shall be treated as originals, fully binding and with full legal force and effect, and the parties waive any rights they may have to object to such treatment.
+
+7. Governing Law . This EXTENSION AGREEMENT SHALL BE A CONTRACT MADE UNDER AND GOVERNED BY THE INTERNAL LAWS OF THE STATE OF NEW YORK APPLICABLE TO CONTRACTS MADE AND TO BE PERFORMED ENTIRELY WITHIN SUCH STATE, WITHOUT REGARD TO CONFLICT OF LAWS PRINCIPLES (OTHER THAN SECTION 5-1401 OF THE NEW YORK GENERAL OBLIGATIONS LAW).
+
+[Remainder of Page Intentionally Left Blank]
+
+2
+
+IN WITNESS WHEREOF , the parties hereto have caused this Extension Agreement to be duly executed as of the date first written above.
+
+Borrower :
+
+Acer Therapeutics inc.
+
+By _/s/ Chris Schelling ____________________
+
+Name: Chris Schelling
+
+Title: CEO & Founder
+
+[Signature Page to Extension Agreement]
+
+AGENT AND LENDER:
+
+MAM Aardvark, LLC
+
+By_ /s/ Louis Hanover _____________________
+
+Name: Louis Hanover
+
+Title: Authorized Signatory
+
+Lender :
+
+Marathon Healthcare Finance Fund, L.P.
+
+By_ /s/ Louis Hanover _____________________
+
+Name: Louis Hanover
+
+Title: Authorized Signatory
+
+[Signature Page to Extension Agreement]

@@ -1,0 +1,647 @@
+[[A0001]]
+EXHIBIT 10.2
+
+[[A0002]]
+Splash Beverage Group, Inc.
+
+[[A0003]]
+12% convertible 18 Month Promissory Note
+
+[[A0004]]
+[[TABLE]]
+| Principal Amount: $_____ U.S. Dollars Issuance Date: December 27, 2022 | Original Principal Amount: U.S. $[ ] |
+| --- | --- |
+[[/TABLE]]
+
+[[A0005]]
+FOR VALUE RECEIVED, Splash Beverage Group, Inc., a Nevada corporation (the “ Company ”) hereby promises to pay to the order of ______________ (“ Holder ”) the amount set out above as the Principal Amount (the “ Principal ”) when due, whether upon the respective Repayment Dates (as defined below) or earlier in accordance with the terms hereof, and to pay interest (“ Interest ”) on any outstanding Principal at the applicable Interest Rate (as defined below) from the date set out above as the Issuance Date (the “ Issuance Date ”) until this convertible promissory note has been paid in full.
+
+[[A0006]]
+This convertible promissory note, including all promissory notes issued in exchange, transfer or replacement hereof, is referred to as this “ Note ”.
+
+[[A0007]]
+1. PAYMENTS OF PRINCIPAL . Subject to the conversion of the Note as described in Section 5, the Principal Amount and accrued Interest outstanding hereunder shall be payable to the Holder on in full on the Maturity Date.
+
+[[A0008]]
+If the first day of a month is not a Business Day, the Company shall make the payment for the corresponding Principal Amount and Interest on the following day that is a Business Day.
+
+[[A0009]]
+2.             INTEREST ; INTEREST RATE . Interest shall accrue on the unpaid principal balance of this Note at the rate of Twelve (12%) per annum (the “ Interest Rate ”). Interest shall be calculated from and include the Issuance Date and shall be calculated on an actual/365-day basis.
+
+[[A0010]]
+3. DEFAULT .
+
+[[A0011]]
+(a)
+Event of Default
+. Each of the
+following events shall constitute an “
+Event of Default
+”:
+
+[[A0012]]
+- the Company’s
+failure to pay to the Holder any amount of Principal, Interest, or other amounts when and as due under this Note, in which case only if
+such failure remains uncured for a period of at least ten (10) days from the date when a written notice from the Holder regarding the
+failure to pay Interest and/or Principal is given by the Holder of the Note, provided however, after Holder has delivered three notices
+of failure to pay, any subsequent failure to pay shall constitute an immediate Event of Default with or without notice;
+
+[[A0013]]
+- bankruptcy, insolvency,
+reorganization or liquidation proceedings or other proceedings for the relief of debtors shall be instituted by or against the by a third
+party, shall not be dismissed within thirty (30) days of their initiation;
+
+[[A0014]]
+1
+
+[[A0015]]
+- the commencement
+by the Company of a voluntary case or proceeding under any applicable federal, state or foreign bankruptcy, insolvency, reorganization
+or other similar law or of any other case or proceeding to be adjudicated as bankrupt or insolvent, or the consent by it to the entry
+of a decree, order, judgment or other similar document in respect of the Company in an involuntary case or proceeding under any applicable
+federal, state or foreign bankruptcy, insolvency, reorganization or other similar law or to the commencement of any bankruptcy or insolvency
+case or proceeding against it, or the filing by it of a petition or answer or consent seeking reorganization or relief under any applicable
+federal, state or foreign law, or the consent by it to the filing of such petition or to the appointment of or taking possession by a
+custodian, receiver, liquidator, assignee, trustee, sequestrator or other similar official of the Company or of any substantial part of
+their properties, or the making by it of an assignment for the benefit of creditors, or the execution of a composition of debts, or the
+occurrence of any other similar federal, state or foreign proceeding, or the admission by it in writing of its inability to pay its debts
+generally as they become due, the taking of corporate action by the Company in furtherance of any such action or the taking of any action
+by any Person to commence a Uniform Commercial Code foreclosure sale or any other similar action under federal, state or foreign law;
+or
+
+[[A0016]]
+- the entry by a court
+of (i) a decree, order, judgment or other similar document in respect of the Company of a voluntary or involuntary case or proceeding
+under any applicable federal, state or foreign bankruptcy, insolvency, reorganization or other similar law or (ii) a decree, order, judgment
+or other similar document adjudging the as bankrupt or insolvent, or approving as properly filed a petition seeking liquidation, reorganization,
+arrangement, adjustment or composition of or in respect of the Company under any applicable federal, state or foreign law or (iii) a decree,
+order, judgment or other similar document appointing a custodian, receiver, liquidator, assignee, trustee, sequestrator or other similar
+official of the Company or of any substantial part of their property, or ordering the winding up or liquidation of its affairs, and the
+continuance of any such decree, order, judgment or other similar document or any such other decree, order, judgment or other similar document
+unstayed and in effect for a period of thirty (30) consecutive days.
+
+[[A0017]]
+(b)
+Notice of an Event of Default
+.
+
+[[A0018]]
+As soon as possible and in any event within seven (7) days after the Company becomes aware that an Event of Default as set forth in Section
+3(a)(ii)-(iv) has occurred and has not been cured, the Company shall notify the Holder in writing of the nature, extent and time of and
+the facts surrounding such Event of Default, and the action, if any, that the Company proposes to take with respect to such Event of Default.
+
+[[A0019]]
+2
+
+[[A0020]]
+(c)
+Default
+Interest Rate
+.
+Upon the occurrence of an Event of Default, the unpaid portion of the Principal
+Amount will bear simple interest from the date of the Event of Default at a rate equal to seven percent (7.00%) per annum, for the duration
+from such Event of Default till the cure of such Default or the repayment date of the entire outstanding balance of this Note.
+
+[[A0021]]
+4.
+
+[[A0022]]
+NONCIRCUMVENTION . The Company hereby covenants and agrees that the Company will not by amendment of its Articles of Incorporation (as amended), or through any reorganization, transfer of assets, consolidation, merger, scheme of arrangement, dissolution, issue or sale of securities, or any other voluntary action, avoid or seek to avoid the observance or performance of any of the terms of this Note, and will at all times in good faith carry out all of the provisions of this Note and take all action as may be required to protect the rights of the Holder of this Note.
+
+[[A0023]]
+5. PREPAYMENT; CONVERSION .
+
+[[A0024]]
+(a)
+Voluntary
+Prepayment
+. The Company may prepay the outstanding Principal and accrued but unpaid Interest of this Note at any time, in whole or
+in part, without penalty or prepayment.
+
+[[A0025]]
+(b)
+Conversion
+.
+
+[[A0026]]
+At any time during the Conversion Period as defined below, the Holder may convert the
+unpaid and
+outstanding Principal plus any accrued and unpaid Interest into shares of the Company’s common stock (the “
+Common Stock
+”)
+at a conversion price (the “
+Conversion Price
+”) of
+$1.00
+per share
+,
+subject to certain adjustments as set forth in Section 5(d). The Conversion Period shall commence on the Issuance Date and end on the
+Maturity Date of this Note.
+
+[[A0027]]
+In any trading day, the Holder will not sell more than the total of 10% of the daily trading volume on NYSE American of the shares issuable upon conversion of this Note and the shares issuable upon exercise of the Warrant issued in connection with this Note.
+
+[[A0028]]
+Notwithstanding anything herein to the contrary herein, on the Maturity Date the principal and interest and any amounts due on this Note shall automatically convert unless at least one Business Date prior to such date, the Holder and/or the Company have indicated in writing that the Note shall not automatically Convert (the “Automatic Conversion”).
+
+[[A0029]]
+3
+
+[[A0030]]
+(c)
+Mechanics
+of Conversion
+.
+
+[[A0031]]
+(i.) Conversion Shares Issuable Upon Conversion . The number of shares issuable upon a conversion (the “ Conversion Shares ”) pursuant to Section 5(b) hereunder shall be determined by the quotient obtained by dividing the outstanding principal amount of this Note and accrued but unpaid interest thereon to be converted by (y) the Conversion Price.
+
+[[A0032]]
+(ii.) Delivery of Conversion Shares Upon Conversion .
+
+[[A0033]]
+Not later than seven (7) Business Days (the “ Share Delivery Date ”) after receiving a conversion notice substantially in a form attached herein as Exhibit 1 , the Company shall deliver, or cause to be delivered, to the Holder a certificate or certificates representing the Conversion Shares or a share report of the Holder reflecting the issuance of Conversion Shares being acquired upon the conversion of this Note, in whole or in part.
+
+[[A0034]]
+(iii.) Fractional Shares . No fractional shares or scrip representing fractional shares shall be issued upon the conversion of this Note.
+
+[[A0035]]
+As to any fraction of a share which the Holder would otherwise be entitled to receive upon such conversion, the Company shall at its election, either pay a cash adjustment in respect of such final fraction in an amount equal to such fraction multiplied by the Conversion Price or round up to the next whole share.
+
+[[A0036]]
+(d)
+Certain
+Adjustments
+.
+
+[[A0037]]
+(i.)
+
+[[A0038]]
+Stock Splits . If the Company, at any time while this Note is outstanding: (i) subdivides outstanding shares of Common Stock into a larger number of shares, (ii) combines (including by way of a reverse stock split) outstanding shares of Common Stock into a smaller number of shares or (iii) issues, in the event of a reclassification of shares of the Common Stock, any shares of capital stock of the Company, then the Conversion Price shall be multiplied by a fraction of which the numerator shall be the number of shares of Common Stock (excluding any treasury shares of the Company) outstanding immediately before such event, and of which the denominator shall be the number of shares of Common Stock outstanding immediately after such event.
+
+[[A0039]]
+Any adjustment made pursuant to this Section 5(d) shall become effective immediately after the record date for the determination of stockholders entitled to receive such distribution and shall become effective immediately after the effective date in the case of a subdivision, combination or re-classification.
+
+[[A0040]]
+(ii.)
+
+[[A0041]]
+Most Favored Nation Status .
+
+[[A0042]]
+If the Company or any subsidiary thereof, as applicable, at any time while this Note is outstanding or the Holder holds any Conversion Shares, shall sell or grant any option to purchase, or sell or grant any right to reprice, or otherwise dispose of or issue (or announce any offer, sale, grant or any option to purchase or other disposition) any Common Stock or Common Stock Equivalents, at an effective price per share less than the Conversion Price then in effect (such lower price, the “ Base Share Price ” and such issuances collectively, a “ Dilutive Issuance ”) (it being understood and agreed that if the holder of the Common Stock or Common Stock Equivalents so issued shall at any time, whether by operation of purchase price adjustments, reset provisions, floating conversion, exercise or exchange prices or otherwise, or due to warrants, options or rights per share which are issued in connection with such issuance, be entitled to receive Common Stock at an effective price per share that is less than the Conversion Price, such issuance shall be deemed to have occurred for less than the Conversion Price on such date of the Dilutive Issuance at such effective price),
+
+[[A0043]]
+4
+
+[[A0044]]
+then simultaneously with the consummation of each Dilutive Issuance the Conversion Price shall be reduced and only reduced to equal the Base Share Price.
+
+[[A0045]]
+Such adjustment shall be made whenever such Common Stock or Common Stock Equivalents are issued.
+
+[[A0046]]
+Notwithstanding the foregoing, no adjustments shall be made, paid or issued under this Section in respect of an Exempt Issuance.
+
+[[A0047]]
+The Company shall notify the Holder, in writing, no later than the Trading Day following the issuance or deemed issuance of any Common Stock or Common Stock Equivalents subject to this Section, indicating therein the applicable issuance price, or applicable reset price, exchange price, conversion price and other pricing terms (such notice, the “ Dilutive Issuance Notice ”). For purposes of clarification, whether or not the Company provides a Dilutive Issuance Notice pursuant to this Section, upon the occurrence of any Dilutive Issuance, the Holder is entitled to receive a number of Conversion Shares based upon the Base Share Price regardless of whether the Holder accurately refers to the Base Share Price in the Notice of Conversion.
+
+[[A0048]]
+Notwithstanding anything to the contrary herein, the Company shall not issue any shares of Common Stock pursuant to this Section if to do so would require the Company to obtain approval of its shareholders under the applicable rules of the NYSE American and as such the Company shall only issue such number of shares of common stock as would not require the Company to obtain shareholder approval under the applicable rules of the NYSE American.
+
+[[A0049]]
+(iii.) Notice of Adjustment to Conversion Price . Whenever the Conversion Price is adjusted pursuant to this Section 5(d), the Company shall promptly deliver to each Holder a notice setting forth the new Conversion Price with three (3) Business Days after such adjustment and setting forth a brief statement of the facts requiring such adjustment.
+
+[[A0050]]
+Failure to provide such notice shall not constitute an Event of Default.
+
+[[A0051]]
+6. COVENANTS . Until so long as no Principal or accrued but unpaid Interest remains outstanding:
+
+[[A0052]]
+(a)
+Preservation of Existence.
+
+[[A0053]]
+The
+Company shall maintain and preserve its existence, rights and privileges, and become or remain duly qualified and in good standing in
+each jurisdiction in which the character of the properties owned or leased by the Company or in which the transaction of its business
+makes such qualification necessary.
+
+[[A0054]]
+(b)
+Public
+Filings.
+
+[[A0055]]
+The Company shall use its best efforts to maintain its periodic filings required by the Securities Exchange Act of 1934,
+as amended (the “
+Exchange Act
+”) and keep its Common Stock quoted or tradable on the OTC Markets or another United States
+stock exchange or market.
+
+[[A0056]]
+7. BENEFICIAL OWNERSHIP . In the event that the Holder’s Beneficial Ownership (as defined below) of the Company’s Common Stock reaches 5.00% or more, as a result of the Conversion or others, the Holder has agreed to coordinate with the Company to file certain disclosure documents as required by Section 13(d) of the 1934 Securities Exchange Act, as amended.
+
+[[A0057]]
+For purposes of this Section 7, the Holder’s Beneficial Ownership shall mean the number of shares of Common Stock beneficially owned by the Holder and its Affiliates, as defined and calculated in accordance with Section 13(d) of the 1934 Securities Exchange Act and the rules and regulations promulgated thereunder.
+
+[[A0058]]
+5
+
+[[A0059]]
+8. AMENDMENTS . No modification, amendment or waiver of any provision of this Note shall be effective unless in writing and approved by the Company and the Holder.
+
+[[A0060]]
+9. RESTRICTIONS ON TRANSFER . This Note may not be offered, sold, assigned or transferred by the Holder without the explicit written consent of the Company, which may be granted or withheld at the sole discretion of the Company.
+
+[[A0061]]
+10.
+
+[[A0062]]
+REISSUANCE OF THIS NOTE .
+
+[[A0063]]
+(a)
+Transfer
+. If this Note is to be
+transferred with the Company’s approval as provided in Section 9, the Holder shall surrender this Note to the Company, whereupon
+the Company will forthwith issue and deliver upon the order of the Holder a new Note (in accordance with Section 10(d)), registered as
+the Holder may request, representing the outstanding Principal being transferred by the Holder and, if less than the entire outstanding
+Principal is being transferred, a new Note (in accordance with Section 10(d)) to the Holder representing the outstanding Principal not
+being transferred.
+
+[[A0064]]
+The Holder and any assignee, by acceptance of this Note, acknowledge and agree that, by reason of prepayment or conversion
+of any portion of this Note, the outstanding Principal represented by this Note may be less than the Principal stated on the face of this
+Note.
+
+[[A0065]]
+(b)
+Lost, Stolen or Mutilated Note
+.
+
+[[A0066]]
+Upon receipt by the Company of evidence reasonably satisfactory to the Company of the loss, theft, destruction or mutilation of this Note
+(as to which a written certification and the indemnification contemplated below shall suffice as such evidence), and, in the case of loss,
+theft or destruction, of any indemnification undertaking by the Holder to the Company in customary and reasonable form and, in the case
+of mutilation, upon surrender and cancellation of this Note, the Company shall execute and deliver to the Holder a new Note (in accordance
+with Section 10(d)) representing the outstanding Principal.
+
+[[A0067]]
+6
+
+[[A0068]]
+(c)
+Reserved
+.
+
+[[A0069]]
+(d)
+Issuance of New Notes
+.
+
+[[A0070]]
+Whenever
+the Company is required to issue a new Note pursuant to the terms of this Note, such new Note (i) shall be of like tenor with this Note,
+- shall represent, as indicated on the face of such new Note, the Principal remaining outstanding (or in the case of a new Note being
+issued pursuant to Section 10(a), the Principal designated by the Holder which, when added to the principal represented by the other new
+Notes issued in connection with such issuance, does not exceed the Principal remaining outstanding under this Note immediately prior to
+such issuance of new Notes), (iii) shall have an issuance date, as indicated on the face of such new Note, which is the same as the Issuance
+Date of this Note, (iv) shall have the same rights and conditions as this Note, and (v) shall represent accrued and unpaid Interest, from
+the Issuance Date.
+
+[[A0071]]
+11.
+
+[[A0072]]
+REMEDIES, CHARACTERIZATIONS, OTHER OBLIGATIONS, BREACHES AND INJUNCTIVE RELIEF . The remedies provided in this Note shall be cumulative and in addition to all other remedies available under this Note and any of the other Transaction Documents at law or in equity (including a decree of specific performance and/or other injunctive relief), and nothing herein shall limit the Holder’s right to pursue actual and consequential damages for any failure by the Company to comply with the terms of this Note.
+
+[[A0073]]
+12. LEGEND.
+
+[[A0074]]
+The Holder understands and agrees that the Conversion Shares upon issuance shall be restrictive and, if represented by a certificate(s), shall bear substantially the following legend until (i) such Conversion Shares shall have been registered under the Securities Act and effectively disposed of in accordance with a registration statement that has been declared effective or (ii) in the opinion of counsel acceptable to the Company, such Conversion Shares may be sold in reliance on an available exemption without registration under the Securities Act, as well as any applicable “blue sky” or state securities laws:
+
+[[A0075]]
+“THE SHARES REPRESENTED BY THIS CERTIFICATE HAVE NOT BEEN REGISTERED UNDER THE SECURITIES ACT OF 1933, AS AMENDED (THE “SECURITIES ACT”), OR ANY APPLICABLE STATE SECURITIES LAWS.
+
+[[A0076]]
+SUCH SHARES HAVE BEEN ACQUIRED FOR INVESTMENT PURPOSES AND MAY NOT BE OFFERED FOR SALE, SOLD, DELIVERED AFTER SALE, TRANSFERRED, PLEDGED OR HYPOTHECATED IN THE ABSENCE OF AN EFFECTIVE REGISTRATION STATEMENT FILED BY THE ISSUER WITH THE U.S. SECURITIES AND EXCHANGE COMMISSION COVERING SUCH SHARES UNDER THE SECURITIES ACT OR AN OPINION OF COUNSEL THAT SUCH REGISTRATION IS NOT REQUIRED.
+
+[[A0077]]
+7
+
+[[A0078]]
+13.
+
+[[A0079]]
+CONSTRUCTION; HEADINGS . This Note shall be deemed to be jointly drafted by the Company and the Holder and shall not be construed against any Person as the drafter hereof.
+
+[[A0080]]
+The headings of this Note are for convenience of reference and shall not form part of, or affect the interpretation of, this Note.
+
+[[A0081]]
+Terms used in this Note but defined in the other Transaction Documents shall have the meanings ascribed to such terms on the Closing Date in such other Transaction Documents unless otherwise consented to in writing by the Holder.
+
+[[A0082]]
+14.
+
+[[A0083]]
+FAILURE OR INDULGENCE NOT WAIVER . No failure or delay on the part of the Holder in the exercise of any power, right or privilege hereunder shall operate as a waiver thereof, nor shall any single or partial exercise of any such power, right or privilege preclude other or further exercise thereof or of any other right, power or privilege.
+
+[[A0084]]
+No waiver shall be effective unless it is in writing and signed by an authorized representative of the waiving party.
+
+[[A0085]]
+15.
+
+[[A0086]]
+NOTICES; CURRENCY; PAYMENTS .
+
+[[A0087]]
+(a)
+Notices
+. Any notice or other communication
+required or permitted to be given hereunder shall be in writing sent by mail, facsimile with printed confirmation, nationally recognized
+overnight carrier or personal delivery and shall be effective upon actual receipt of such notice, to the following addresses until notice
+is received that any such address or contact information has been changed:
+
+[[A0088]]
+[[TABLE]]
+| | To the Company: | Splash Beverage Group, Inc. | |
+| --- | --- | --- | --- |
+| | | 1314 East Las Olas Blvd., Suite 221 | |
+| | | Fort Lauderdale, Florida 33316 | |
+| | | Attn: Robert Nistico | |
+| | | | |
+| | With another copy | | |
+| | (which shall not constitute | | |
+| | Notice) to: | Sichenzia Ross Ference LLP | |
+| | | 1185 Avenue of the Americas, 31st Floor | |
+| | | New York, NY 10036 | |
+| | | Facsimile: 212-930-9725 | |
+| | | Attn: Darrin M. Ocasio | |
+| | | | |
+| | To Holder: | | |
+| | | | |
+| | With another copy | | |
+| | (which shall not constitute | | |
+| | Notice) to: | | |
+| | | | |
+| | | | |
+| | | | |
+[[/TABLE]]
+
+[[A0089]]
+8
+
+[[A0090]]
+(b)
+Currency
+. All dollar amounts referred
+to in this Note are in United States Dollars (“
+U.S. Dollars
+”), and all amounts owing under this Note shall be paid
+in U.S. Dollars.
+
+[[A0091]]
+(c)
+Payments
+. The Company will make
+all payments of Principal and Interest under this Note by wire transfer of immediately available funds to the bank account specified by
+the Holder in written notice delivered to the Company on or before each Repayment Date.
+
+[[A0092]]
+16.
+
+[[A0093]]
+CANCELLATION . After all Principal, accrued Interest, and other amounts at any time owed on this Note have been paid in full or converted in full, this Note shall automatically be deemed canceled, shall be surrendered to the Company for cancellation and shall not be reissued.
+
+[[A0094]]
+17.
+
+[[A0095]]
+WAIVER OF JURY TRIAL.
+
+[[A0096]]
+Each party hereby waives its right to a jury trial in connection with any suit, action or proceeding in connection with any matter relating to this Note.
+
+[[A0097]]
+18.
+
+[[A0098]]
+GOVERNING LAW . This Note shall be governed by and construed in accordance with the laws of the State of New York, without giving effect to its principles regarding conflicts of law.
+
+[[A0099]]
+19.
+
+[[A0100]]
+Reserved.
+
+[[A0101]]
+20.
+
+[[A0102]]
+MAXIMUM PAYMENTS . Nothing contained herein shall be deemed to establish or require the payment of a rate of interest or other charges in excess of the maximum permitted by applicable law.
+
+[[A0103]]
+In the event that the rate of interest required to be paid or other charges hereunder exceed the maximum permitted by such law, any payments in excess of such maximum shall be credited against amounts owed by the Company to the Holder and thus refunded to the Company.
+
+[[A0104]]
+21.
+
+[[A0105]]
+CERTAIN DEFINITIONS . For purposes of this Note, the following terms shall have the following meanings:
+
+[[A0106]]
+(a)
+“Affiliate”
+means
+any Person that, directly or indirectly through one or more intermediaries, controls or is controlled by or is under common control with
+a Person, as such terms are used in and construed under Rule 405 under the Securities Act.
+
+[[A0107]]
+9
+
+[[A0108]]
+- “
+Business
+Day
+” means any day other than Saturday, Sunday or otherday on which commercial banks in The City of New York are authorized
+or required by law to remain closed.
+
+[[A0109]]
+[[TABLE]]
+| | (c) | “ Common Stock Equivalents ” means any securities of the Company or any subsidiary which
+would entitle the holder thereof to acquire at any time Common Stock, including, without limitation, any debt, preferred stock, right,
+option, warrant, unit, or other instrument that is at any time convertible into or exercisable or exchangeable for, or otherwise entitles
+the holder thereof to receive, Common Stock. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0110]]
+[[TABLE]]
+| | (d) | “ Exempt Issuance ” means the issuance of
+- shares of Common Stock or options to employees, officers, directors, advisors or independent contractors of the Company; provided ,
+however, that such issuance is approved by a majority of the board of directors of the Company, (b) shares of Common Stock, warrants or
+options to advisors or independent contractors of the Company for compensatory purposes, (c) securities upon the exercise or exchange
+of or conversion of any securities issued hereunder and/or other securities exercisable or exchangeable for or convertible into shares
+of Common Stock issued and outstanding on the date hereof, provided that such securities have not been amended since the date hereof to
+increase the number of such securities or to decrease the exercise price, exchange price or conversion price of such securities, (d) securities
+issuable pursuant to any contractual anti-dilution obligations of the Company in effect as of the date hereof, provided that such obligations
+have not been materially amended since the date of hereof, and (e) securities issued pursuant to acquisitions or any other strategic transactions
+approved by a majority of the disinterested members of the Board of Directors, provided that any such issuance shall not include a transaction
+in which the Company is issuing securities primarily for the purpose of raising capital or to an entity whose primary business is investing
+in securities. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0111]]
+[[TABLE]]
+| | (e) | “ Maturity Date ”
+ shall mean June 27, 2024. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0112]]
+[[TABLE]]
+| | (f) | “ Person ” means “person” as such term is used for purposes of Section 13(d)
+or 14(d) of the Securities Exchange Act of 1934, as amended, including any individual, corporation, limited liability company, partnership,
+trust, unincorporated organization, government or any agency or political subdivision thereof, or any other entity or any group of persons. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0113]]
+10
+
+[[A0114]]
+[[TABLE]]
+| | (g) | “ Securities Act ” means the Securities Act of 1933, as amended, and the rules and regulations
+promulgated thereunder. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0115]]
+[[TABLE]]
+| | (h) | “ Trading Day ” means a day on which the principal
+Trading Market is open for trading. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0116]]
+[[TABLE]]
+| | (i) | “ Trading Market ” means any of the following markets
+or exchanges on which the Common Stock is listed or quoted for trading on the date in question: the NYSE American; the Nasdaq Capital
+Market; the Nasdaq Global Market; the Nasdaq Global Select Market; the New York Stock Exchange; any level of the OTC Markets operated
+by OTC Markets Group, Inc. or the OTC Bulletin Board (or any successors to any of the foregoing). |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0117]]
+[[TABLE]]
+| | (j) | “ Transaction Documents ” means, collectively, this Note, the Securities Purchase Agreement, between the Company
+and the Holder dated December _ __, 2022 and the other agreements and instruments entered into or delivered by any of the parties hereto
+in connection with the transactions contemplated by the APA, as may be amended from time to time. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0118]]
+[ signature page follows ]
+
+[[A0119]]
+11
+
+[[A0120]]
+[SIGNATURE PAGE TO THE CONVERTIBLE PROMISSORY NOTE]
+
+[[A0121]]
+IN WITNESS WHEREOF, the Company has caused this Note to be duly executed as of the Issuance Date set out above.
+
+[[A0122]]
+[[TABLE]]
+| | COMPANY: | |
+| --- | --- | --- |
+| | Splash Beverage Group, Inc. | |
+| | A Nevada Corporation | |
+| | | |
+| | By | |
+| | Name: | Robert Nistico |
+| | Title: | CEO |
+[[/TABLE]]
+
+[[A0123]]
+[[TABLE]]
+| | HOLDER: | |
+| --- | --- | --- |
+| | | |
+| | By | |
+| | Name: | |
+[[/TABLE]]
+
+[[A0124]]
+12
+
+[[A0125]]
+EXHIBIT 1
+
+[[A0126]]
+Form of Conversion Notice
+
+[[A0127]]
+Splash Beverage Group, Inc.
+
+[[A0128]]
+1314 East Las Olas Blvd., Suite 221
+
+[[A0129]]
+Fort Lauderdale, Florida 33316
+
+[[A0130]]
+Attn: Chief Financial Officer
+
+[[A0131]]
+The undersigned hereby elects to convert certain outstanding amount as set forth below of the 12% Convertible Promissory Note of Splash Beverage Group, Inc., a Nevada corporation (the “ Company ”), issuance date _______, 202__, into shares of common stock (the “ Common Stock ”), of the Company according to the conditions hereof, as of the date written below.
+
+[[A0132]]
+If shares of Common Stock are to be issued in the name of a person other than the undersigned, the undersigned will pay all transfer taxes payable with respect thereto and is delivering herewith such certificates and opinions as reasonably requested by the Company in accordance therewith.
+
+[[A0133]]
+No fee will be charged to the holder for any conversion, except for such transfer taxes, if any.
+
+[[A0134]]
+The undersigned agrees to comply with the delivery requirements under the applicable securities laws in connection with any transfer of the aforesaid shares of Common Stock.
+
+[[A0135]]
+Conversion calculations:
+
+[[A0136]]
+Principal Amount of Note to be Converted: $_____
+
+[[A0137]]
+The Amount of Interest of the Note to be Converted: $____
+
+[[A0138]]
+Conversion Price per Share: $_____
+
+[[A0139]]
+Number of Shares of Common Stock to be Issued upon Conversion: ________
+
+[[A0140]]
+[[TABLE]]
+| | Signature: | |
+| --- | --- | --- |
+| | | |
+| | Name (Print): | |
+| | | |
+| | Mailing Address: | |
+| | | |
+| | | |
+| | Phone number: | |
+| | Email: | |
+| | Date: | |
+[[/TABLE]]
+
+[[A0141]]
+13

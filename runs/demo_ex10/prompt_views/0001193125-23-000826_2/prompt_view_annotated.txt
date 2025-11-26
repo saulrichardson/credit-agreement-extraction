@@ -1,0 +1,1443 @@
+[[A0001]]
+EX-10.1
+
+[[A0002]]
+Exhibit 10.1
+
+[[A0003]]
+Execution Version
+
+[[A0004]]
+SUPPORT AND EXCHANGE AGREEMENT
+
+[[A0005]]
+This Support and Exchange Agreement (including all annexes, exhibits, term sheets and schedules attached hereto or thereto, in each case, as may be amended, modified or supplemented from time to time in accordance with the terms hereof, this “ Agreement ”), dated as of December 22, 2022, is by and among:
+
+[[A0006]]
+- Pyxus Holdings, Inc., a Virginia corporation (the “
+Company
+”), Pyxus International, Inc., a Virginia corporation
+(“
+Pyxus TopCo
+”), and Pyxus Parent, Inc., a Virginia corporation (“
+Pyxus Parent
+” and, together with the Company and Pyxus TopCo, the “
+Holding Companies
+”), each on behalf of itself and its
+subsidiaries listed on Schedule I, as applicable;
+
+[[A0007]]
+- each undersigned beneficial owner, or investment advisor,
+sub-advisor
+or manager thereof (in such capacity, each, a “
+Noteholder Party
+” and, collectively, the “
+Noteholder Parties
+”), of the Company’s 10.000% Senior Secured First Lien
+Notes due 2024 (the “
+Existing Notes
+”) issued under that certain Indenture, dated as of August 24, 2020 (as amended, supplemented or modified from time to time, the “
+Existing Indenture
+”), by and among the
+Company, Pyxus TopCo, Pyxus Parent, the other guarantors from time to time party thereto and Wilmington Trust, National Association, as trustee and collateral agent;
+
+[[A0008]]
+- each undersigned beneficial owner, or investment advisor,
+sub-advisor
+or manager thereof (in
+such capacity, each, an “
+Exit Term Lender Party
+” and, collectively, the “
+Exit Term Lender Parties
+”), of term loans (the “
+Exit Term Loans
+”) issued under that certain Exit Term Loan Credit Agreement,
+dated as of August 24, 2020 (as amended, supplemented or modified from time to time, the “
+Exit Term Loan Credit Agreement
+”), among the Company, Pyxus TopCo, Pyxus Parent, the other guarantors from time to time party thereto,
+the lenders from time to time party thereto and Alter Domus (US) LLC, as administrative agent and collateral agent; and
+
+[[A0009]]
+- each
+undersigned beneficial owner, or investment advisor,
+sub-advisor
+or manager thereof (in such capacity, each, an “
+Intabex Term Lender Party
+” and collectively, the “
+Intabex Term Lender
+Parties
+”), of term loans (the “
+Intabex Term Loans
+”) issued under that certain Amended and Restated Term Loan Credit Agreement, effectuated pursuant to that certain Amendment and Restatement Agreement, dated as of
+June 2, 2022 (as amended, supplemented or modified from time to time, the “
+Intabex Credit Agreement
+”), among Intabex Netherlands B.V., a private limited liability company (
+besloten vennootschap met beperkte
+aansprakelijkheid
+) incorporated under the laws of the Netherlands (“
+Intabex
+”), the Company, Pyxus TopCo, Pyxus Parent, the other guarantors from time to time party thereto, the lenders from time to time party thereto and Alter
+Domus (US) LLC, as administrative agent and collateral agent.
+
+[[A0010]]
+For purposes of this Agreement, (a) the Noteholder Parties, Exit Term
+Lender Parties and Intabex Term Lender Parties are referred to collectively as the “
+Creditor Parties
+”, (b) the Holding Companies and the Creditor Parties are referred to collectively as the “
+Parties
+”, (c) the
+Existing Notes, Exit Term Loans and Intabex Term Loans are referred to collectively as the “
+Existing Debt
+” and (d) the Existing Indenture, Exit Term Loan Credit Agreement and Intabex Credit Agreement are referred to
+collectively as the “
+Existing Debt Agreements
+”.
+
+[[A0011]]
+RECITALS
+
+[[A0012]]
+WHEREAS, the Parties have agreed on certain terms and conditions of (a) an exchange of the Existing Notes for New Notes (as defined below) as set forth in the Term Sheet attached hereto as Exhibit A (including all annexes or exhibits attached thereto, as they may be amended and supplemented from time to time in accordance with this Agreement, the “ Term Sheet ”), which exchange will be offered to all holders of Existing Notes (the “ Notes Exchange Offer ”), (b) an exchange of the Exit Term Loans for New Intabex Loans and New Pyxus Loans (each as defined below) as set forth in the Term Sheet, which exchange will be offered to all holders of Exit Term Loans (the “ Exit Term Loan Exchange Offer ”), (c) an exchange of the Intabex Term Loans for New Intabex Loans as set forth in the Term Sheet, which exchange will be offered to all holders of Intabex Term Loans (the “ Intabex Exchange Offer ”, and together with the Notes Exchange Offer and Exit Term Loan Exchange Offer, the “ Exchange Offers ”) and (d) certain amendments to the Existing Debt Agreements and certain other guarantee, collateral, intercreditor and other documents and instruments to be entered into in connection with such exchanges as set forth in the Term Sheet;
+
+[[A0013]]
+AGREEMENT NOW, THEREFORE, in consideration of the premises and mutual covenants and agreements set forth herein, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, each of the Parties hereby agrees as follows: Section 1. Definitions . The following terms used in this Agreement are defined as:
+
+[[A0014]]
+“ ABL Amendment ” has the meaning assigned thereto in the Term Sheet.
+
+[[A0015]]
+“ Applicable Group ” means Pyxus TopCo, Pyxus Parent, the Company and their subsidiaries.
+
+[[A0016]]
+“ Company Group ” means the Holding Companies and each of the subsidiaries listed on Schedule I.
+
+[[A0017]]
+“ Definitive Documentation ” means the definitive documentation governing (a) the New Debt Agreements, (b) the Indenture Amendments and the Term Loan Amendments, (c) all guarantee, collateral, intercreditor and other documents and instruments entered into in connection with the Transactions, and (d) all offering and subscription documents related to the Exchange Offers.
+
+[[A0018]]
+“ Indenture Amendments ” has the meaning assigned thereto in the Term Sheet.
+
+[[A0019]]
+“ Majority Creditor Parties ” has the meaning assigned thereto in Section 9(a) hereof.
+
+[[A0020]]
+2
+
+[[A0021]]
+“ New Debt Agreements ” means collectively (a) the New Indenture and the New Notes, (b) the New Intabex Credit Agreement and (c) the New Pyxus Credit Agreement.
+
+[[A0022]]
+“ New Indenture ” means an indenture governing the New Notes, which indenture shall be consistent with the Term Sheet. “ New Intabex Credit Agreement ” means a credit agreement governing the New Intabex Loans, which credit agreement shall be consistent with the Term Sheet.
+
+[[A0023]]
+“ New Intabex Loans ” means the secured term loans due December 2027 to be issued in the Exit Term Loan Exchange Offer and Intabex Exchange Offer and governed by the New Intabex Credit Agreement. “ New Notes ” means the 8.50% secured notes due December 2027 to be issued in the Notes Exchange Offer pursuant to the New Indenture and in substantially the form attached thereto.
+
+[[A0024]]
+“ New Pyxus Credit Agreement ” means a credit agreement governing the New Pyxus Loans, which credit agreement shall be consistent with the Term Sheet.
+
+[[A0025]]
+“ New Pyxus Loans ” means the secured term loans due December 2027 to be issued in the Exit Term Loan Exchange Offer and governed by the New Pyxus Credit Agreement. “ Offering Memorandum ” means an offering memorandum and consent solicitation statement relating to the Notes Exchange Offer and related consent solicitation, which offering memorandum and consent solicitation statement shall be consistent with the Term Sheet.
+
+[[A0026]]
+“ Securities Act ” means the Securities Act of 1933, as amended.
+
+[[A0027]]
+“ Solvent ” means, with respect to the Applicable Group (on a consolidated basis, taken as a whole), that as of the date of determination (a) the sum of the Applicable Group’s debts (including contingent liabilities) does not exceed the present fair saleable value, taken on a going concern basis, of the Applicable Group’s assets; (b) the Applicable Group’s capital is not unreasonably small in relation to its business as contemplated on the date thereof; and (c) the Applicable Group does not intend to incur, or believe (nor should it reasonably believe) that it will incur, debts beyond its ability to pay such debts as they mature in the ordinary course of business.
+
+[[A0028]]
+For purposes of this definition, the amount of any contingent liability at any time shall be computed as the amount that, in light of all of the facts and circumstances existing at such time, represents the amount that the Applicable Group reasonably expects to become an actual or matured liability.
+
+[[A0029]]
+“ Term Loan Amendments ” has the meaning assigned thereto in the Term Sheet.
+
+[[A0030]]
+“ Transactions ” means the transactions described in this Agreement, including, without limitation, the Exchange Offers, the entry into the New Debt Agreements, the Indenture Amendments, the Term Loan Amendments and the ABL Amendment, the entry into all other Definitive Documentation, and in each case, all transactions relating to the foregoing.
+
+[[A0031]]
+3
+
+[[A0032]]
+Section 2. Representations and Warranties of Creditor Parties . Each Creditor Party (or, solely in the case of clause (h), each Noteholder Party) hereby represents and warrants, severally and not jointly, to the Holding Companies that the following statements are true and correct as of the date hereof:
+
+[[A0033]]
+- Such Creditor Party has all necessary power and authority to execute and deliver this Agreement and to perform its obligations hereunder.
+
+[[A0034]]
+- The execution and delivery of this Agreement by such Creditor Party and the performance of its obligations hereunder have been duly
+authorized by all necessary action on the part of such Creditor Party.
+
+[[A0035]]
+- This Agreement has been duly and validly executed and
+delivered by such Creditor Party.
+
+[[A0036]]
+- This Agreement constitutes the valid and binding obligation of such Creditor Party, enforceable
+against such Creditor Party in accordance with its terms, except that (i) such enforcement may be subject to applicable bankruptcy, insolvency or other similar laws affecting creditors’ rights generally and (ii) the remedy of specific
+performance and injunctive and other forms of equitable relief may be subject to equitable defenses and to the discretion of the court before which any proceeding therefor may be brought (collectively, the “
+Enforceability
+Exceptions
+”).
+
+[[A0037]]
+- The execution, delivery or performance of this Agreement by such Creditor Party, and such Creditor
+Party’s compliance with the provisions hereof, will not (with or without notice or lapse of time, or both): (i) conflict with or violate any provision of such Creditor Party’s organizational or governing documents; (ii) conflict with
+or violate any law or order applicable to such Creditor Party; or (iii) assuming receipt of the necessary consents and approvals to effect the ABL Amendment, the Indenture Amendments and Term Loan Amendments, require any consent or approval
+under, violate, conflict with, result in any breach of, or constitute a default under, or result in termination or give to others any right of termination, amendment, acceleration or cancellation of any contract, agreement, arrangement or
+understanding that is binding on such Creditor Party, except, in the case of clause (ii) and (iii) above, where not material to such Creditor Party or the Transactions.
+
+[[A0038]]
+- Such Creditor Party is (or is acting in its capacity as discretionary investment advisor,
+
+[[A0039]]
+sub-advisor
+or manager with authority to bind) the beneficial owner (within the meaning of Rule
+13d-3
+under the Securities Exchange Act of 1934, as amended) of the
+aggregate principal amount of Existing Debt set forth on such Creditor Party’s signature page hereto, free and clear of any liens, charges, claims, encumbrances, participations, security interests and similar restrictions that would reasonably
+be expected to materially delay or adversely affect the ability of such Creditor Party to consummate the Transactions.
+
+[[A0040]]
+- Other than the
+Existing Debt set forth on its respective signature page hereto, such Creditor Party does not (A) own any other Existing Debt or (B) have investment or voting discretion with respect to any other Existing Debt.
+
+[[A0041]]
+4
+
+[[A0042]]
+- Such Noteholder Party is (x) (i) an institutional “accredited investor”
+as defined in Regulation D under the Securities Act or (ii) a “qualified institutional buyer” as defined in Rule 144A under the Securities Act, (y) a sophisticated institutional investor and its knowledge and experience in
+financial and business matters is such that it, together with the assistance of professional and legal advisors of its choosing, is capable of evaluating the merits and risks of an investment in the New Notes and (z) acquiring the New Notes for
+investment, solely for its own account (or for the account of those for whom or for which, as the case may be, it is acting as investment advisor,
+sub-advisor,
+manager or in a similar capacity) and not with a
+view to, or for resale in connection with, the distribution thereof in violation of applicable securities laws.
+
+[[A0043]]
+Section 3.
+
+[[A0044]]
+Representations and Warranties of the Holding Companies . Each Holding Company hereby represents and warrants, jointly and severally, to the Creditor Parties that the following statements are true and correct as of the date hereof:
+
+[[A0045]]
+- Each Holding Company has all necessary power and authority to execute and deliver this Agreement and to perform its obligations hereunder.
+
+[[A0046]]
+- The execution and delivery of this Agreement by each Holding Company and the performance of its obligations hereunder have been duly
+authorized by all necessary action on the part of such Holding Company.
+
+[[A0047]]
+- No other proceedings on the part of any Holding Company and
+no other votes or written consents or actions or proceedings by or on behalf of any Holding Company are necessary to authorize this Agreement or the performance of its obligations hereunder.
+
+[[A0048]]
+- This Agreement has been duly and validly executed and delivered by each Holding Company.
+
+[[A0049]]
+- This Agreement constitutes the valid and binding obligation of each Holding Company, enforceable against such Holding Company in
+accordance with its terms, subject to the Enforceability Exceptions.
+
+[[A0050]]
+- The execution, delivery or performance of this Agreement by each
+Holding Company, and the Company Group’s compliance with the provisions hereof, will not (with or without notice or lapse of time, or both): (i) conflict with or violate any provision of the organizational or governing documents of any
+member of the Company Group; (ii) conflict with or violate any law or order applicable to any member of the Company Group; or (iii) assuming receipt of the necessary consents and approvals to effect the ABL Amendment, the Indenture
+Amendments and Term Loan Amendments, require any consent or approval under, violate, conflict with, result in any breach of, or constitute a default under, or result in termination or give to others any right of termination, amendment,
+acceleration or cancellation of any contract, agreement, arrangement or understanding that is binding on any member of the Company Group or on any of their respective properties or assets (including, without limitation, any indentures, credit
+facilities or agreements under which any member of the Company Group has issued debt securities or has outstanding indebtedness), except, in the case of clause (ii) and (iii) above, where not material to the Company Group or the transactions
+contemplated hereby.
+
+[[A0051]]
+5
+
+[[A0052]]
+- No member of the Company Group is a party to any contract, agreement, commitment,
+understanding or other obligation (written or oral) with any other person with respect to the Transactions, or any other purchase, sale, acquisition, repurchase, exchange or other disposition of any of the Existing Debt, other than this Agreement.
+
+[[A0053]]
+- To the extent the Notes Exchange Offer is commenced on the date hereof, as of the date hereof, and to the extent the Notes Exchange
+Offer is commenced after the date hereof, on the date of such commencement, the Offering Memorandum (including the documents incorporated by reference therein) does not or will not, as applicable, contain any untrue statement of a material fact or
+omit to state a material fact necessary to make the statements therein, in the light of the circumstances under which they were made, not misleading; provided, that with respect to any projected information (if any), the Holding Companies represent
+and warrant only that such information was prepared in good faith based upon assumptions believed to be reasonable at the time.
+
+[[A0054]]
+(i)
+Immediately after giving effect to the Transactions, the Applicable Group, on a consolidated basis taken as a whole, will be solvent.
+
+[[A0055]]
+Section 4. Company Covenants .
+
+[[A0056]]
+- The Company covenants and agrees that it will support, and use reasonable best efforts to take, or cause to be taken, all actions
+necessary (or reasonably requested by the Creditor Parties) to facilitate the implementation and consummation of the Transactions, including to:
+
+[[A0057]]
+- commence (i) the Notes Exchange Offer on or prior to February 5, 2023 in accordance with the terms set forth
+herein and in the Offering Memorandum and (ii) the Exit Term Loan Exchange Offer and Intabex Exchange Offer as promptly as reasonably practical on or after such date;
+
+[[A0058]]
+- use its reasonable best efforts to cause the conditions to the Exchange Offers to be satisfied, and to consummate the
+Exchange Offers, as promptly as reasonably practicable; and
+
+[[A0059]]
+- enter into the applicable Definitive Documentation.
+
+[[A0060]]
+- The Company covenants and agrees that it will not amend any of the material terms or conditions of the Exchange Offers (or the Offering
+Memorandum or other applicable offering documents) without the prior written consent of the applicable Majority Creditor Parties, other than changes in timing or the making of additional informational disclosure regarding the Company Group in each
+case reasonably determined by the Company to be required under law.
+
+[[A0061]]
+- The Company covenants and agrees that, regardless of whether the
+Transactions shall be consummated, promptly following the receipt of an invoice (such invoice need not include detailed time entries), it will pay to Wachtell, Lipton, Rosen & Katz (“
+WLRK
+”) and one counsel in each relevant
+jurisdiction other than the United States, all reasonable and documented fees and expenses incurred by such counsel on behalf of the Creditor Parties in connection with the Transactions.
+
+[[A0062]]
+6
+
+[[A0063]]
+- Notwithstanding the foregoing or anything else in this Agreement, nothing in this
+Agreement shall require the special committee of the board of directors of Pyxus TopCo (the “Special Committee”) to take or refrain from taking any action with respect to the Transactions to the extent the Special Committee determines, in
+good faith considering the advice of counsel, that taking such action, or refraining from taking such action, as applicable, is reasonably required to comply with its fiduciary duties, and may take such action or refrain from taking such action
+without incurring any liability under this Agreement to any other Party hereto.
+
+[[A0064]]
+In the event that the Special Committee determines (considering the advice of counsel) that its fiduciary duties require the Special Committee to take or refrain from
+taking such action, the Special Committee and each member thereof may do so without liability hereunder.
+
+[[A0065]]
+Section 5.
+Agreement to
+Exchange Existing Debt
+.
+
+[[A0066]]
+- Each Creditor Party covenants and agrees that it will support, and use reasonable best efforts to take,
+or cause to be taken, all actions necessary (or reasonably requested by the Company) to facilitate the implementation and consummation of the Transactions, including to:
+
+[[A0067]]
+- in the case of each Noteholder Party, (x) tender to the Company all of its Existing Notes pursuant to the terms and
+conditions of the Notes Exchange Offer as promptly as practicable after the commencement of the Notes Exchange Offer and (y) not withdraw any Existing Notes so tendered;
+
+[[A0068]]
+- in the case of each Exit Term Lender Party, exchange all of its Exit Term Loans for New Intabex Loans and New Pyxus Loans
+and enter into the New Intabex Credit Agreement, New Pyxus Credit Agreement and Term Loan Amendments, in each case pursuant to the terms and conditions of this Agreement; and
+
+[[A0069]]
+- in the case of each Intabex Term Lender Party, exchange all of its Intabex Term Loans for New Intabex Loans and enter into
+the New Intabex Credit Agreement, in each case pursuant to the terms and conditions of this Agreement.
+
+[[A0070]]
+Section 6.
+Conditions to
+Transactions
+. Consummation of the Transactions shall be subject to the conditions precedent set forth on
+Exhibit D
+hereto.
+
+[[A0071]]
+Notwithstanding anything to the contrary herein, in no event shall the Company consummate any of the Notes Exchange
+Offer, the Exit Term Loan Exchange Offer or the Intabex Exchange Offer unless all of the Notes Exchange Offer, the Exit Term Loan Exchange Offer, the Intabex Exchange Offer, the Indenture Amendments, the Term Loan Amendments and the ABL Amendment
+are consummated or entered into, as applicable, substantially concurrently with one another or otherwise effective at the time of such consummation.
+
+[[A0072]]
+7
+
+[[A0073]]
+Section 7. Transfer Restrictions .
+
+[[A0074]]
+- During the term of this Agreement, each Creditor Party agrees that it will not, without the prior written consent of the Company, other
+than pursuant to the terms hereof, sell, use, pledge, assign, transfer, permit the participation in, or otherwise dispose of any ownership (including any beneficial ownership) in any Existing Debt held by them (other than pledges, transfers or
+security interests that such Creditor Party may have created (A) in favor of a prime broker under and in accordance with its prime brokerage agreement with such prime broker or (B) in favor of a financing counterparty in accordance with
+any ordinary course financing arrangements, in each case which will not interfere or otherwise delay consummation of the Transactions and will be released in connection with the consummation of the Transactions) (each, a
+“
+Transfer
+”);
+provided
+,
+however
+, that such Creditor Party may Transfer any Existing Debt if the transferee (a) is a party to this Agreement or (b) delivers to the Company, at or prior to the time of the
+proposed Transfer, an executed copy of a transfer agreement in the form attached as
+Exhibit B
+pursuant to which the transferee shall assume all obligations of the transferor hereunder in respect of the Existing Debt being transferred and make
+all the representations and warranties of a Creditor Party set forth in this Agreement as of such transfer date.
+
+[[A0075]]
+Any purported Transfer of Existing Debt in violation of this
+Section
+7
+will be null and void
+ab initio
+.
+
+[[A0076]]
+- Nothing in this Agreement shall be construed as precluding any Creditor Party from acquiring additional Existing Debt,
+
+[[A0077]]
+provided , however , that any such additional Existing Debt shall automatically be subject to the terms and conditions of this Agreement.
+
+[[A0078]]
+Section 8. Creditor Party Capacity . Each Creditor Party is entering into this Agreement either in its capacity as a beneficial owner of Existing Debt or in its capacity as discretionary investment manager, advisor or sub-advisor with authority to bind a beneficial owner of Existing Debt.
+
+[[A0079]]
+Such Creditor Party acknowledges that it is a sophisticated party with respect to its Existing Debt and has adequate information concerning the business and financial condition of the Applicable Group to make an informed decision regarding the transactions contemplated by this Agreement and has, independently and without reliance upon the Applicable Group and based on such information as such Creditor Party has deemed appropriate, made its own analysis and decision to enter into this Agreement.
+
+[[A0080]]
+Such Creditor Party acknowledges that none of the members of the Company Group has made or is making any representation or warranty, whether express or implied, of any kind or character except as expressly set forth in this Agreement.
+
+[[A0081]]
+Section 9. Good Faith Negotiation of Documents; Mutual Assurances .
+
+[[A0082]]
+- The Definitive Documentation not in a form attached to this Agreement as of the date hereof remains subject to negotiation and completion.
+
+[[A0083]]
+Each of the Parties hereby covenants and agrees to negotiate in good faith and execute (and, with respect to the Holding Companies, cause the other members of the Company Group to execute) the applicable Definitive Documentation.
+
+[[A0084]]
+Upon completion,
+the Definitive Documentation and every other document, deed, agreement, filing, notification, letter, or instrument related to the Transactions shall contain terms, conditions, representations, warranties and covenants consistent with the terms of
+this Agreement and otherwise reasonably satisfactory to the Company and Creditor Parties holding a majority in aggregate principal amount of each tranche of Existing Debt held by all Creditor Parties as of the date hereof (the “
+Majority
+Creditor Parties
+”).
+
+[[A0085]]
+8
+
+[[A0086]]
+- The Parties acknowledge and agree that this Agreement assumes that 100% of the holders
+of the Intabex Term Loans participate in the Intabex Exchange Offer and that if fewer than 100% of such holders participate, the Parties will cooperate in good faith to implement the Intabex Exchange Offer and amendments to the Intabex Credit
+Agreement in a manner and having terms reasonably satisfactory to the applicable Parties based on the exchange of the Exit Term Loans and the Term Loan Amendments described in the Term Sheet.
+
+[[A0087]]
+- Each of the Parties hereby further covenants and agrees to use its reasonable best efforts, as expeditiously as possible and during the
+term of this Agreement, to perform its respective obligations under this Agreement and take such actions as may be reasonably necessary under this Agreement to consummate the Transactions.
+
+[[A0088]]
+For the avoidance of doubt, no Creditor Party shall be bound
+by this Agreement with respect to any debt or equity securities or other outstanding indebtedness of the Applicable Group held by such Creditor Party other than the Existing Debt.
+
+[[A0089]]
+Section 10. Joinder .
+
+[[A0090]]
+- Any additional holders (each, a “
+Joining Creditor Party
+”), either in its capacity as a beneficial owner of Existing Debt
+or in its capacity as discretionary investment manager, advisor or
+sub-advisor
+with authority to bind a beneficial owner of Existing Debt, may become party to this Agreement from time to time by agreeing in
+writing to be bound by the terms of this Agreement by executing and delivering to counsel to the Company and to WLRK a joinder agreement in the form attached hereto as
+Exhibit C
+(each, a “
+Joinder Agreement
+”).
+
+[[A0091]]
+- Upon the execution and delivery of any such Joinder Agreement, such Joining Creditor Party shall be deemed to make all of the
+representations, warranties and covenants of a Creditor Party, as applicable, set forth in this Agreement and shall be deemed to be a Party, a Creditor Party, a Noteholder Party, an Exit Term Lender Party and/or an Intabex Term Lender Party, as
+applicable, for all purposes under this Agreement as if it were originally party hereto.
+
+[[A0092]]
+Section 11.
+
+[[A0093]]
+Termination
+.
+
+[[A0094]]
+- This Agreement will terminate as to all Parties upon the earliest of:
+
+[[A0095]]
+- the consummation of the Transactions;
+
+[[A0096]]
+- the mutual written consent of the Company and the Majority Creditor Parties;
+
+[[A0097]]
+- February 15, 2023, if the Transactions have not been consummated before such date; and
+
+[[A0098]]
+- delivery of written notice by the Majority Creditor Parties to the Company of any material breach of any covenant of any
+member of the Company Group contained herein or of any representation or warranty of any member of the Company Group having been or becoming materially untrue (each, a “
+Company Breach
+”);
+provided
+that if such Company Breach
+is capable of being cured, such Company Breach has not been cured within ten business days following notice thereof to the Company;
+
+[[A0099]]
+9
+
+[[A0100]]
+- delivery of written notice by the Company to any Creditor Party(ies) of
+any material breach of any covenant of such Creditor Party(ies) contained herein or of any representation or warranty of such Creditor Party(ies) having been or becoming materially untrue (each, a “
+Creditor Breach
+”);
+provided
+
+[[A0101]]
+that if such Creditor Breach is capable of being cured, such Creditor Breach has not been cured within ten business days following notice thereof to the applicable Creditor Party(ies);
+provided
+, further no termination pursuant to this clause
+- shall be permitted to the extent that no Creditor Breach exists with respect to Creditor Parties holding, in aggregate, at least a majority of the outstanding principal amount of the Exit Term Loans, at least a majority of the outstanding
+principal amount of the Existing Notes and at least a majority of the outstanding principal amount of the Intabex Term Loans; and
+
+[[A0102]]
+- delivery of written notice by the Special Committee to any Creditor Party(ies) stating that considering the advice of
+counsel, its applicable fiduciary duties are inconsistent with the provisions of this Agreement and its fiduciary duties require it to terminate this agreement.
+
+[[A0103]]
+The date of termination of this Agreement as to all Parties (even if obligations of the Parties survive such termination) is the
+“
+Agreement Termination Date
+”.
+
+[[A0104]]
+- This Agreement will further automatically terminate as to any Creditor Party upon the
+earlier of:
+
+[[A0105]]
+- the Transfer of all of such Creditor Party’s Existing Debt pursuant to and in accordance with
+
+[[A0106]]
+Section
+7
+hereof; and
+
+[[A0107]]
+- delivery of written notice by the Company to such Creditor Party of
+any material breach of any covenant by such Creditor Party contained herein or of any representation or warranty of such Creditor Party having been or becoming materially untrue (each, a “
+Creditor Party Breach
+”);
+provided
+
+[[A0108]]
+that if such Creditor Party Breach is capable of being cured, such Creditor Party Breach has not been cured within ten business days following notice thereof to such Creditor Party.
+
+[[A0109]]
+- No termination of this Agreement shall relieve or otherwise limit any Party of liability for any breach of this Agreement occurring prior
+to such termination;
+provided
+,
+however
+, that any termination in accordance with Section 11(a)(F) shall not give rise to any liability whatsoever of the Company Group, its board of directors or the Special Committee for breach of
+this Agreement.
+
+[[A0110]]
+(d)
+Section 4(c)
+(as to fees and expenses accrued to such date of termination),
+
+[[A0111]]
+Section 11(c) , this Section 11(d) , Section 15 and Section 16 shall survive termination of this Agreement.
+
+[[A0112]]
+To the extent this Agreement is terminated prior to the consummation of the Transactions, the Creditor Parties shall be entitled to withdraw their Existing Notes from the Notes Exchange Offer (and their consents from the related consent solicitation), notwithstanding that the deadlines for withdrawal may have passed.
+
+[[A0113]]
+10
+
+[[A0114]]
+Section 12.
+
+[[A0115]]
+Agreements Coupled with an Interest . The agreements contained herein relating to tendering and delivery of consents are coupled with an interest and, except as expressly contemplated herein, may not be revoked during the term of this Agreement.
+
+[[A0116]]
+Section 13.
+
+[[A0117]]
+Waivers and Amendments . This Agreement may be amended, modified, waived, altered or supplemented only by a written instrument executed by the Company and the Majority Creditor Parties; provided that any such amendment, modification, waiver, alteration or supplement that (i) modifies any stated economic term of a New Debt Agreement as set forth in the Term Sheet requires the consent of each adversely affected Creditor Party holding the applicable Existing Debt exchanging into the indebtedness under such New Debt Agreement or (ii) is materially adverse and disproportionate on its face to a particular Creditor Party or a particular tranche of Existing Debt requires the consent of such affected Creditor Party or the holders of a majority of such tranche of Existing Debt held by all Creditor Parties.
+
+[[A0118]]
+No delay on the part of any Party in exercising any right, power or privilege under this Agreement will operate as a waiver thereof; nor will any waiver on the part of any party to this Agreement of any right, power or privilege under this Agreement operate as a waiver of any other right, power or privilege under this Agreement, nor will any single or partial exercise of any right, power or privilege under this Agreement preclude any other or further exercise thereof or the exercise of any other right, power or privilege under this Agreement.
+
+[[A0119]]
+Section 14.
+
+[[A0120]]
+Certain Disclosures .
+
+[[A0121]]
+- The Creditor Parties severally and not jointly agree and covenant to hold this Agreement and the terms hereof confidential in accordance
+with their respective confidentiality agreements with any applicable member of the Company Group.
+
+[[A0122]]
+- The Holding Companies severally and
+not jointly agree and covenant, subject to the remainder of this paragraph and clause (c) below, to hold this Agreement and the terms hereof confidential in accordance with their ordinary procedures,
+provided
+, that the Holding Companies
+may disclose this Agreement or the terms hereof: (i) to any of its affiliates or its or their respective officers, employees, directors, attorneys, subcontractors, advisors or partners; (ii) as required by applicable law, subpoena, court
+order, legal process, rule, regulation or governmental or regulatory authority or self-regulatory body or (iii) to any holders of indebtedness or securities of any member of the Company Group or any bona fide potential purchaser of indebtedness
+or securities of any member of the Company Group.
+
+[[A0123]]
+- The Creditor Parties hereby permit and authorize the Company Group to publish and
+disclose the Creditor Parties’ aggregate ownership of each tranche of Existing Debt and the nature of the Parties’ commitments, arrangements and understandings pursuant to this Agreement in any press release or any other disclosure
+document in connection with the Exchange Offers or any disclosure of this Agreement made pursuant to any applicable law or rule or regulation of any securities exchange or governmental agency (including disclosure by filing a Form
+8-K),
+
+[[A0124]]
+provided
+,
+however
+, that except as required by law or any rule or regulation of any securities exchange or any governmental agency (in which case the applicable Creditor
+
+[[A0125]]
+11
+
+[[A0126]]
+Party shall be provided with a copy of such disclosure a reasonable time in advance of its filing or release and shall have the right to comment on such proposed disclosure or release as it reasonably determines), the Company shall not, without the applicable Creditor Party’s prior consent, (i) use the name of any Creditor Party or its controlled affiliates, officers, directors, managers, stockholders, members, employees, partners, representatives and agents in any press release or filing with the SEC or (ii) disclose the specific holdings of any Creditor Party to any person.
+
+[[A0127]]
+For the avoidance of doubt, the Creditor Parties authorize and consent to the disclosure contained in the Offering Memorandum.
+
+[[A0128]]
+Section 15.
+
+[[A0129]]
+Expenses; Indemnity . Each Holding Company, on behalf of itself and the Subsidiary Loan Parties, hereby agrees that Section 9.05 of the Existing Term Loan Credit Agreement (as in effect on the date hereof) is hereby incorporated herein mutatis mutandis and shall apply to each Creditor Party, their respective affiliates and each of their respective Related Parties (as defined therein as of the date hereof) in connection with (i) this Agreement and the Transactions, (ii) the negotiation, formulation, preparation, execution, delivery or performance of the foregoing, and (iii) any actual claim, litigation, investigation or proceeding relating to the foregoing, whether or not the transactions contemplated hereby are consummated.
+
+[[A0130]]
+Section 16.
+
+[[A0131]]
+Miscellaneous.
+
+[[A0132]]
+(a)
+Notices
+.
+
+[[A0133]]
+Any notices or other communications required or permitted under, or otherwise given in connection with, this Agreement will
+be in writing and will be deemed to have been duly given (i) when delivered or sent if delivered in person by courier service or messenger or sent by email or (ii) on the next business day if transmitted by international overnight courier,
+in each case as follows:
+
+[[A0134]]
+If to any member of the Company Group, addressed to:
+
+[[A0135]]
+Pyxus Holdings, Inc. 8001 Aerial Center Parkway P.O. Box 2009
+
+[[A0136]]
+Morrisville, North Carolina 27560
+
+[[A0137]]
+Attention:        William O’Quinn, Jr.
+
+[[A0138]]
+Email:              woquinn@pyxus.com
+
+[[A0139]]
+Phone:             (919) 379-4132
+
+[[A0140]]
+with a copy to (for information purposes only):
+
+[[A0141]]
+Simpson Thacher & Bartlett LLP
+
+[[A0142]]
+425 Lexington Avenue New York, New York 10017 Attention:        David Azarkh; Nicholas Baker
+
+[[A0143]]
+Email:              dazarkh@stblaw.com; nbaker@stblaw.com
+
+[[A0144]]
+If to a Creditor Party, addressed to it at the address set forth on such Creditor Party’s signature page attached hereto (or the signature page to the applicable Joinder Agreement).
+
+[[A0145]]
+12
+
+[[A0146]]
+with a copy to (for informational purposes only):
+
+[[A0147]]
+Wachtell, Lipton, Rosen & Katz
+
+[[A0148]]
+51 West 52nd Street New York, New York 10019 Attention:        Joshua A. Feltman; Benjamin S. Arfa
+
+[[A0149]]
+Email:              jafeltman@wlrk.com; bsarfa@wlrk.com
+
+[[A0150]]
+(b)
+Governing Law
+. This Agreement will be governed by, and construed in accordance with, the laws of the State of New York, without
+regard to laws that may be applicable under conflicts of laws principles (whether of the State of New York or any other jurisdiction) that would cause the application of the laws of any jurisdiction other than the State of New York.
+
+[[A0151]]
+(c)
+Venue
+. By execution and delivery of this Agreement, each of the Parties irrevocably and unconditionally agrees that any legal
+action, suit, or proceeding with respect to any matter under or arising out of or in connection with this Agreement, or for recognition or enforcement of any judgment rendered in any such action, suit, or proceeding, shall be brought in a court of
+competent jurisdiction located in the City of New York.
+
+[[A0152]]
+Each Party irrevocably waives any objection it may have to the venue of any action, suit, or proceeding brought in such court or to the convenience of the forum.
+
+[[A0153]]
+(d)
+Personal Jurisdiction
+. By execution and delivery of this Agreement, each of the Parties irrevocably and unconditionally submits to
+the personal jurisdiction of a court of competent jurisdiction located in the City of New York for purposes of any action, suit or proceeding arising out of or relating to this Agreement.
+
+[[A0154]]
+(e)
+Waiver of Jury Trial
+. EACH PARTY ACKNOWLEDGES AND AGREES THAT ANY CONTROVERSY THAT MAY ARISE UNDER THIS AGREEMENT IS LIKELY TO
+INVOLVE COMPLICATED AND DIFFICULT ISSUES, AND THEREFORE IT HEREBY IRREVOCABLY AND UNCONDITIONALLY WAIVES ANY RIGHT IT MAY HAVE TO A TRIAL BY JURY IN RESPECT OF ANY LITIGATION DIRECTLY OR INDIRECTLY ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE
+TRANSACTIONS CONTEMPLATED HEREBY.
+
+[[A0155]]
+EACH PARTY CERTIFIES AND ACKNOWLEDGES THAT (i) NO REPRESENTATIVE, AGENT OR ATTORNEY OF ANY OTHER PARTY HAS REPRESENTED, EXPRESSLY OR OTHERWISE, THAT SUCH OTHER PARTY WOULD NOT, IN THE EVENT OF LITIGATION, SEEK
+TO ENFORCE EITHER OF SUCH WAIVERS, (ii) IT UNDERSTANDS AND HAS CONSIDERED THE IMPLICATIONS OF SUCH WAIVERS, (iii) IT MAKES SUCH WAIVERS VOLUNTARILY, AND (iv) IT HAS BEEN INDUCED TO ENTER INTO THIS AGREEMENT BY, AMONG OTHER THINGS, THE
+MUTUAL WAIVERS AND CERTIFICATIONS IN THIS
+SECTION
+16(e)
+.
+
+[[A0156]]
+(f)
+Specific Performance
+. The Parties agree that
+irreparable damage would occur in the event that any of the provisions of this Agreement were not performed in accordance with their specific terms or were otherwise breached.
+
+[[A0157]]
+It is accordingly agreed that the Parties will be entitled to seek an
+injunction or injunctions to prevent breaches of this Agreement and to enforce specifically the terms and provisions hereof in any court of appropriate jurisdiction, this being in addition to any other remedy to which they are entitled at law or in
+equity.
+
+[[A0158]]
+13
+
+[[A0159]]
+(g)
+Severability
+. If any term or other provision of this Agreement is determined to
+be invalid, illegal or incapable of being enforced by any rule of law or public policy, all other conditions and provisions of this Agreement will nevertheless remain in full force and effect so long as the economic or legal substance of the
+transactions contemplated hereby is not affected in any manner materially adverse to any Party.
+
+[[A0160]]
+Upon such determination that any term or other provision is invalid, illegal or incapable of being enforced, the Parties will negotiate in good faith to
+modify this Agreement so as to effect the original intent of the Parties as closely as possible in an acceptable manner to the end that transactions contemplated hereby are fulfilled to the extent possible.
+
+[[A0161]]
+(h)
+Assignment
+. This Agreement will not be assigned by any Party by operation of law or otherwise except as provided in Section 7
+and, in the case of any member of the Holding Companies, without the prior written consent of the other Parties.
+
+[[A0162]]
+Subject to the preceding sentence, this Agreement will be binding upon, inure to the benefit of, and be enforceable by the Parties and
+their respective permitted successors and assigns.
+
+[[A0163]]
+(i)
+No Third-Party Beneficiaries
+. Unless expressly stated herein, this Agreement
+shall be solely for the benefit of the Parties and no other person or entity shall be a third-party beneficiary of this Agreement.
+
+[[A0164]]
+(j)
+
+[[A0165]]
+Prior Agreements
+. With the exception of
+non-disclosure
+and confidentiality agreements among the Parties, this Agreement supersedes all prior negotiations and agreements among the Parties with respect to
+the matters set forth herein.
+
+[[A0166]]
+(k)
+Counterparts
+. This Agreement may be executed in one or more counterparts (which may include
+counterparts delivered by any standard form of telecommunication), and by the different Parties in separate counterparts, each of which when executed will be deemed to be an original but all of which taken together will constitute one and the same
+agreement.
+
+[[A0167]]
+Facsimile copies or “PDF” or electronic signatures or similar electronic data format copies of signatures shall constitute original signatures for all purposes of this Agreement and any enforcement hereof.
+
+[[A0168]]
+(l)
+Remedies Cumulative
+. Except as otherwise provided in this Agreement, any and all remedies in this Agreement expressly conferred upon
+a Party will be deemed cumulative with and not exclusive of any other remedy conferred hereby, or by law or equity upon such Party, and the exercise by a party of any one remedy will not preclude the exercise of any other remedy.
+
+[[A0169]]
+(m)
+No Admissions and Reservation of Rights
+. Nothing herein shall be deemed an admission of any kind.
+
+[[A0170]]
+The Parties acknowledge and agree
+that this Agreement and all negotiations relating thereto shall not be admissible into evidence in any proceeding, other than a proceeding to enforce the terms of this Agreement.
+
+[[A0171]]
+Except as expressly provided in this Agreement, nothing herein is
+intended to, or does, in any manner waive, limit, impair, or restrict any rights, remedies and interests of the Parties.
+
+[[A0172]]
+Without limiting the foregoing sentence in any way, if the Transactions are not consummated, or if this Agreement is terminated
+for any reason, each of the Parties fully reserves any and all of its rights, remedies, and interests.
+
+[[A0173]]
+14
+
+[[A0174]]
+(n)
+Headings
+. The headings contained in this Agreement are for reference purposes
+only and will not affect in any way the meaning or interpretation of this Agreement.
+
+[[A0175]]
+(o)
+Obligations Several
+. Notwithstanding that
+this Agreement is being executed by multiple Creditor Parties, the obligations of the Creditor Parties under this Agreement are several and not joint.
+
+[[A0176]]
+No Creditor Party shall be responsible in any way for the performance of the obligations of any
+other Creditor Party under this Agreement, and nothing contained herein, and no action taken by any Creditor Party pursuant hereto shall be deemed to constitute the Creditor Parties as a partnership, an association or joint venture of any kind, or
+create a presumption that the Creditor Parties are in any way acting other than in their individual capacities.
+
+[[A0177]]
+None of the Creditor Parties shall have any fiduciary duty or other duties or responsibilities in any kind or form to each other, any
+member of the Company Group or any other lenders of the Company Group, noteholders or stakeholders as a result of this Agreement or the transactions contemplated hereby.
+
+[[A0178]]
+Each Holding Company acknowledges that no other Company Group member will be
+acting as agent of such Holding Company in connection with monitoring such Holding Company’s investment or enforcing its rights under this Agreement or the other transaction documents to be entered into in connection with the consummation of
+the Transactions.
+
+[[A0179]]
+(p)
+Acknowledgement
+. This Agreement is not and shall not be deemed to be a solicitation for the Exchange Offers.
+
+[[A0180]]
+(q)
+Interpretation
+.
+
+[[A0181]]
+This Agreement is the product of negotiations among the Parties, and in the enforcement or interpretation
+hereof, is to be interpreted in a neutral manner, and any presumption with regard to interpretation for or against any Party by reason of that Party having drafted or caused to be drafted this Agreement, or any portion hereof, shall not be effective
+in regard to the interpretation hereof.
+
+[[A0182]]
+(r)
+Effectiveness.
+
+[[A0183]]
+This Agreement shall automatically become effective and binding two
+- business days after counterpart signature pages to this Agreement have been executed and delivered by each of the Holding Companies and Creditor Parties holding, in aggregate, at least 55.00% of the outstanding principal amount of the Exit
+Term Loans, at least 55.00% of the outstanding principal amount of the Existing Notes and at least 85.00% of the outstanding principal amount of the Intabex Term Loans.
+
+[[A0184]]
+[ Signature pages follow ]
+
+[[A0185]]
+15
+
+[[A0186]]
+IN WITNESS WHEREOF, each of the undersigned has executed this Agreement as of the date first above set forth.
+
+[[A0187]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+| Pyxus International, Inc. | | |
+| | | |
+| By: | | /s/ Flavia Landsberg |
+| | | Name: Flavia Landsberg |
+| | | Title: Authorized Signatory |
+[[/TABLE]]
+
+[[A0188]]
+[Signature Page to Support and Exchange Agreement]
+
+[[A0189]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+| Pyxus Holdings, Inc. | | |
+| | | |
+| By: | | /s/ Flavia Landsberg |
+| | | Name: Flavia Landsberg |
+| | | Title: Authorized Signatory |
+[[/TABLE]]
+
+[[A0190]]
+[Signature Page to Support and Exchange Agreement]
+
+[[A0191]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+| Pyxus Parent, Inc. | | |
+| | | |
+| By: | | /s/ Flavia Landsberg |
+| | | Name: Flavia Landsberg |
+| | | Title: Authorized Signatory |
+[[/TABLE]]
+
+[[A0192]]
+[Signature Page to Support and Exchange Agreement]
+
+[[A0193]]
+[Creditor Parties’ signature pages on file with the Company]
+
+[[A0194]]
+[Signature Page to Support and Exchange Agreement]
+
+[[A0195]]
+SCHEDULE I
+
+[[A0196]]
+The following entities, referred to herein as the “ Subsidiary Loan Parties ”:
+
+[[A0197]]
+[[TABLE]]
+| | 1. | Pyxus International, Inc. [Virginia] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0198]]
+[[TABLE]]
+| | 2. | Pyxus Parent, Inc. [Virginia] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0199]]
+[[TABLE]]
+| | 3. | Pyxus Holdings, Inc. [Virginia] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0200]]
+[[TABLE]]
+| | 4. | Alliance One International Services Inc. [North Carolina] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0201]]
+[[TABLE]]
+| | 5. | Alliance One International, LLC [North Carolina] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0202]]
+[[TABLE]]
+| | 6. | Alliance One North America, LLC [North Carolina] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0203]]
+[[TABLE]]
+| | 7. | Alliance One Specialty Products, LLC [North Carolina] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0204]]
+[[TABLE]]
+| | 8. | AOSP Investments, LLC [North Carolina] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0205]]
+[[TABLE]]
+| | 9. | Cres Tobacco Company LLC [North Carolina] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0206]]
+[[TABLE]]
+| | 10. | Criticality, LLC [North Carolina] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0207]]
+[[TABLE]]
+| | 11. | Eastern Carolina Packaging, LLC [North Carolina] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0208]]
+[[TABLE]]
+| | 12. | Global Specialty Products, LLC [North Carolina] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0209]]
+[[TABLE]]
+| | 13. | Monk-Austin International, Inc. [North Carolina] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0210]]
+[[TABLE]]
+| | 14. | PureAg-NC, LLC [North Carolina] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0211]]
+[[TABLE]]
+| | 15. | Pyxus Agriculture USA, LLC [North Carolina] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0212]]
+[[TABLE]]
+| | 16. | The Austin Tobacco Company, Incorporated [North Carolina] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0213]]
+[[TABLE]]
+| | 17. | Twelfth State Brands, LLC [North Carolina] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0214]]
+[[TABLE]]
+| | 18. | Alliance Once International Holdings, Ltd. [UK] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0215]]
+[[TABLE]]
+| | 19. | Pyxus Agricultural Holdings Limited [UK] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0216]]
+[[TABLE]]
+| | 20. | Trans-Continental Leaf Tobacco Corporation Limited [Liechtenstein] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0217]]
+[[TABLE]]
+| | 21. | Intabex Netherlands B.V. [Netherlands] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0218]]
+[[TABLE]]
+| | 22. | Alliance One International Tabak B.V. [Netherlands] |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0219]]
+EXHIBIT A
+
+[[A0220]]
+Term Sheet Terms used herein but not defined shall have the meanings given to such terms in the Support and Exchange Agreement to which this Term Sheet is attached.
+
+[[A0221]]
+[[TABLE]]
+| | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- |
+| Capital Structure | | | | | | |
+| | | Existing | | | | Pro Forma |
+| | | •  $100M ABL facility due February 2027 (the “ ABL ”) | | | | •  $100M ABL facility due February 2027 ( no change ) |
+| | | | | | | |
+| | | •  $281M of 10.000% Senior Secured First Lien Notes due August 2024 (the
+“ Existing Notes ”) | | | | •  Up to $281M of 8.50% secured notes due December 2027 (the “ New
+Notes ”) •  Unexchanged Existing Notes, if any |
+| | | | | | | |
+| | | •  At least $221M of secured terms loans due February 2025 (the “ Existing
+Term Loans ”) | | | | •  Up to an amount equal to 40% of existing principal of secured term loans
+due December 2027 (the “ New Intabex Loans ”) •  Up to an amount equal to 60% of existing principal of secured term loans due December 2027 (the
+“ New Pyxus Loans ”) •  Unexchanged Existing Term Loans, if any |
+| | | | | | | |
+| | | •  $100M of secured term loans due December 2023 at Intabex Netherlands B.V. (the
+“ Existing Intabex Loans ”) | | | | •  $102M of New Intabex Loans ( inclusive of exit fee on Existing Intabex
+Loans ) |
+| | | | | | | |
+| | | •  Various local lines | | | | •  Various local lines ( no change ) |
+| | | | | | | |
+| Terms of New Debt Instruments | | | | | | |
+| | | | | | | |
+| Overview | | •  The New Notes, New Pyxus Loans and New Intabex Loans will have
+economic, guarantee and collateral terms as described on Exhibit A hereto and other terms to be reasonably agreed | | | | |
+| | | | | | | |
+| Summary of Collateral Structure | | •  The New Notes, New Pyxus Loans and New Intabex Loans will be
+secured on a pari passu basis, except the collateral that secures the Existing Intabex Loans (the “ Intabex Collateral ”) will secure the New Intabex Loans but not the New Notes or New Pyxus Loans | | | | |
+| | | | | | | |
+| Summary of Guarantee Structure | | •  The New Notes, New Pyxus Loans and New Intabex Loans will be pari
+passu in right of payment vis-à-vis all entities that are obligors in respect of the Existing Notes or Existing Term Loans (and other guarantors, if any, to
+be reasonably agreed subject to diligence) •  In addition, the New Intabex Loans will be guaranteed on a pari passu basis by all entities
+that are obligors in respect of the Existing Intabex Loans but not the other existing debt instruments (the “ Specified Intabex Obligors ”) | | | | |
+[[/TABLE]]
+
+[[A0222]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+| Other | | •  The New Intabex Loans exchanged for Existing Term Loans or Existing Intabex
+Loans in the exchange transactions described herein will constitute a single, fungible tranche of loans under a single credit agreement •  Holders/lenders may participate in the Notes Exchange, Exit Term Loan Exchanges or Intabex
+Exchange (each as described below) only if they participate in all such exchanges in respect of all Existing Notes, Existing Term Loans and Existing Intabex Loans held by them |
+| | | |
+| Notes Transactions | | |
+| | | |
+| Notes Exchange | | •  All holders of Existing Notes outstanding under the Indenture dated
+August 24, 2020 (the “ Existing Indenture ”) will be offered the opportunity to exchange 100% of their Existing Notes at par into an equivalent amount of New Notes (the “ Notes Exchange ”) •  As a condition to their
+participation in the Notes Exchange, each participating holder (the “ Consenting Noteholders ”) will be required to consent to the Indenture Amendments referred to below •  Consummation of the Notes
+Exchange and the effectiveness of the Indenture Amendments will be subject to, among other things, (a) participation by and receipt of consents from holders having at least a majority in principal amount of the outstanding Existing Notes,
+- consummation of the Exit Term Loan Exchanges, (c) consummation of the Intabex Exchange and (d) entry into the ABL Amendment described below |
+| | | |
+| Indenture Amendments | | Immediately prior to the consummation of the Notes Exchange, the Existing Indenture will be modified to, among other things (collectively,
+the “ Indenture Amendments ”): • Payment Subordination . Subordinate the Existing Notes (and guarantees thereof) in right of
+payment to the New Notes, New Pyxus Loans and New Intabex Loans (and guarantees thereof) • Lien Subordination . Subordinate the liens securing the Existing Notes (and guarantees
+thereof) to the liens securing the New Notes, New Pyxus Loans and New Intabex Loans (and guarantees thereof) • Covenants . Remove the reporting, debt, lien, restricted payment, asset sale, affiliate
+transaction, burdensome agreements, merger, unrestricted subsidiary designation and certain other covenants • COC . Remove the “change of control” repurchase obligation • Payment for Consents .
+Remove the requirement that consent fees for future amendments be offered to all holders • Exchange Transactions. Consent to and waive any event of default that may arise as a result
+of the transactions contemplated by this Term Sheet • Events of Default . Remove all events of default related to the foregoing In addition, if the Consenting Noteholders collectively hold at least 2/3 rds in principal amount of the Existing Notes, all collateral securing the Existing Notes will be released. |
+| | | |
+| Consent Fee | | •  None |
+[[/TABLE]]
+
+[[A0223]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+| Term Loan Transactions | | |
+| | | |
+| Term Loan Transactions | | •  All holders of Existing Term Loans outstanding under the Exit Term Loan
+Agreement dated August 24, 2020 (the “ Existing Term Loan Credit Agreement ”) will be offered the opportunity to exchange (a) 40% of their Existing Term Loans at par into an equivalent amount of New Intabex Loans and (b) 60% of
+their Existing Term Loans at par into an equivalent amount of New Pyxus Loans (collectively, the “ Exit Term Loan Exchanges ”) •  Participating lenders will be entitled to customary oversubscription rights on a pro rata basis
+for any unsubscribed portion of the New Intabex Loans •  As a condition to their participation in the Exit Term Loan Exchanges, each participating lender
+(the “Consenting Term Lenders ”) will be required to consent to the Term Loan Amendments referred to below •  Consummation of the Exit Term Loan Exchanges and the effectiveness of the Term Loan Amendments
+will be subject to, among other things, (a) participation by and receipt of consents from lenders having at least a majority in principal amount of the outstanding Existing Term Loans, (b) consummation of the Notes Exchange,
+- consummation of the Intabex Exchange described below and (d) entry into the ABL Amendment described below |
+| | | |
+| Term Loan Amendments | | Immediately prior to the consummation of the Exit Term Loan Exchanges, the Existing Term Loan Credit Agreement will be modified to, among
+other things (collectively, the “ Term Loan Amendments ”): • Eligible Assignee . Modify the definition of “Eligible Assignee” to expressly
+include Pyxus International, Inc. and its subsidiaries and permit the Exit Term Loan Exchange. • Payment Priority . The Existing Term Loans (and guarantees thereof) will have a junior
+priority in right of payment to the New Notes, New Pyxus Loans and New Intabex Loans (and guarantees thereof) • Covenants . Remove the reporting, debt, lien, restricted payment, asset sale, affiliate
+transaction, burdensome agreements, merger and certain other covenants • Exchange Transactions. Consent to and waive any event of default that may arise as a result
+of the transactions contemplated by this Term Sheet • Events of Default . Remove all events of default related to the foregoing |
+| | | |
+| Consent Fee | | •  None |
+| | | |
+| Intabex Transactions | | |
+| | | |
+| Intabex Exchange | | •  All holders of Existing Intabex Loans will agree to exchange their Existing
+Intabex Loans at par into an equivalent amount of New Intabex Loans (the “ Intabex Term Loan Exchange ”) In addition, the company will pay the 2% exit fee contemplated by the terms of the Existing Intabex Loans, which fee will be capitalized and added to the
+principal amount of the New Intabex Loans upon consummation of the Intabex Exchange. |
+| | | |
+| Consent Fee | | •  None |
+| | | |
+| ABL | | |
+| | | |
+| Consents | | •  The transactions contemplated by this Term Sheet shall be subject to the
+consent of the Lenders having at least a majority in principal amount of the commitments outstanding under the ABL (the “ ABL Amendment ”) |
+[[/TABLE]]
+
+[[A0224]]
+Exhibit A
+
+[[A0225]]
+[[TABLE]]
+| | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- |
+| | | New Notes | | New Pyxus Loans | | New Intabex Loans |
+| Issuer / Borrower | | Pyxus Holdings, Inc. | | | | |
+| | | | | | | |
+| Guarantors | | (a) Substantially the same as the Existing Term Loan Credit Agreement and (b) additions, if any, to be reasonably agreed subject to diligence (but in any event excluding the Specified Intabex Obligors) | | (a) Same as the prior column and (b) each of the Specified Intabex Obligors | | |
+| | | | | | | |
+| Collateral | | (a) Substantially the same as the Existing Term Loan Credit Agreement and (b) additions, if any, to be reasonably agreed subject to diligence (but in any event excluding the Intabex Collateral) | | (a) Same as the prior column and (b) the Intabex Collateral | | |
+| | | | | | | |
+| Intercreditor Arrangements | | •  The New Notes, New Pyxus Loans and New Intabex Loans will be secured
+by shared collateral on a pari passu basis pursuant to customary intercreditor or collateral trust arrangements (with the New Intabex Loans being secured by the Intabex Collateral, which will not secure the New Notes or New Pyxus Loans) •  The liens securing the
+unexchanged Existing Notes, if any, will be subordinated to the liens securing the New Notes, New Pyxus Loans and New Intabex Loans pursuant to customary intercreditor arrangements or collateral trust arrangements | | | | |
+| | | | | | | |
+| Payment Priority | | •  The New Notes, New Pyxus Loans and New Intabex Loans (and
+guarantees thereof) will have priority in right of payment relative to any unexchanged Existing Notes (and guarantees thereof) and will have priority in right of payment relative to any unexchanged Existing Term Loans (and guarantees
+thereof) | | | | |
+| | | | | | | |
+| Maturity | | December 31, 2027 | | | | |
+| | | | | | | |
+| Interest Rate (all cash) | | 8.50% | | SOFR (subject to a floor of 1.50%), plus CSA of 0.10%, plus 8.0% | | SOFR (subject to a floor of 1.50%), plus CSA of 0.10%, plus 8.0% |
+| | | | | | | |
+| Call Protection | | None | | | | |
+| | | | | | | |
+| Amortization / Mandatory Prepayments | | None | | | | |
+| | | | | | | |
+| Covenants | | As set forth in the Existing Indenture and Existing Term Loan Credit Agreement (immediately prior to giving effect to the Indenture Amendments and Term Loan Amendments), as modified in accordance with the
+attached Annex 1 and as otherwise to be reasonably agreed | | | | |
+| | | | | | | |
+| Documentation Standard | | Based on form of Existing Indenture with changes consistent with this Term Sheet and that are otherwise on terms and conditions reasonably acceptable to the Company and the Majority Creditor Parties | | Based on form of Existing Term Loan Credit Agreement with changes consistent with this Term Sheet and that are otherwise on terms and conditions reasonably acceptable to the Company and the Majority Creditor Parties | | Based on form of Existing Term Loan Credit Agreement with changes consistent with this Term Sheet and that are otherwise on terms and conditions reasonably acceptable to the Company and the Majority Creditor Parties |
+[[/TABLE]]
+
+[[A0226]]
+Annex 1—Covenant Modifications
+
+[[A0227]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+| Covenants Generally | | All baskets to refresh on the closing date. |
+| | | |
+| Stacking | | Clarify that Company can use Ratio basket and incur fixed baskets in addition thereto. |
+| | | |
+| Restricted Payments | | •  Starter cushion to build from January 1, 2023 •  Permit use of all baskets for
+any type of Restricted Payment, including general basket |
+| | | |
+| Permitted Investments | | •  Eliminate FCCR 1x test •  Permit use of baskets by all
+Restricted Subsidiaries |
+| | | |
+| Debt | | •  Increase ABL basket to greater of (x) $90 million and (y) the
+availability under the ABL •  Increase foreign line basket to $950 million |
+| | | |
+| Liens | | Increase general basket to $20 million |
+| | | |
+| Events of Default | | •  Increase cure period for judgment default to 90 days •  Increase cure period for non-payment defaults to 60 days and apply to all foreign lines of credit |
+[[/TABLE]]
+
+[[A0228]]
+EXHIBIT B
+
+[[A0229]]
+FORM OF TRANSFER AGREEMENT
+
+[[A0230]]
+[•], 2022
+
+[[A0231]]
+The undersigned
+(“
+Transferee
+”) hereby acknowledges that it has read and understands that certain Support and Exchange Agreement, dated as of December 22, 2022 (as it may be amended in accordance with its terms, the
+“
+Agreement
+”), by and among Pyxus Holdings, Inc., [
+Transferor’s Name
+] (“
+Transferor
+”) and the other parties thereto, and in accordance with
+Section
+7
+of the Agreement,
+- agrees to be bound by the terms and conditions of the Agreement and shall be deemed a “Creditor Party” and a [“Noteholder Party”][“Exit Term Lender Party”][“Intabex Term Lender Party”] under the terms
+of the Agreement pursuant to the terms and conditions thereof and (ii) hereby makes all representations, warranties and covenants made therein by all other Creditor Parties and [Noteholder Parties][Exit Term Lender Parties][Intabex Term Lender
+Parties] as of the date of this Agreement.
+
+[[A0232]]
+All notices and other communications given or made pursuant to the Agreement shall be sent to the Transferee at the address set forth below in the Transferee’s signature.
+
+[[A0233]]
+[ Signature page follows ]
+
+[[A0234]]
+IN WITNESS WHEREOF, the undersigned has executed this Transfer Agreement as of the date first set forth above.
+
+[[A0235]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+| [•], | | |
+| | | |
+| [as a Noteholder Party beneficially holding $[•] aggregate principal amount of Existing Notes,] | | |
+| | | |
+| [as an Exit Term Lender Party beneficially holding $[•] aggregate principal amount of Exit Term Loans,][ and] | | |
+| | | |
+| [as an Intabex Term Lender Party beneficially holding $[•] aggregate principal amount of Intabex Term Loans] | | |
+| | | |
+| By: | | |
+| Name: | | |
+| Title: | | |
+| | | |
+| Notice Information: [•] | | |
+[[/TABLE]]
+
+[[A0236]]
+[Signature Page to Joinder Agreement]
+
+[[A0237]]
+EXHIBIT C
+
+[[A0238]]
+FORM OF JOINDER AGREEMENT
+
+[[A0239]]
+[•], 2022
+
+[[A0240]]
+The undersigned
+(“
+Joining Creditor Party
+”) hereby acknowledges that it has read and understands that certain Support and Exchange Agreement, dated as of December 22, 2022 (as it may be amended in accordance with its terms, the
+“
+Agreement
+”), by and among Pyxus Holdings, Inc. and the other parties thereto, and in accordance with
+Section
+10
+of the Agreement, (i) agrees to be bound by the terms and conditions of the Agreement
+and shall be deemed a “Creditor Party” and a [“Noteholder Party”][“Exit Term Lender Party”][“Intabex Term Lender Party”] under the terms of the Agreement pursuant to the terms and conditions thereof and
+- hereby makes all representations, warranties and covenants made therein by all other Creditor Parties and [Noteholder Parties][Exit Term Lender Parties][Intabex Term Lender Parties] as of the date of this Agreement.
+
+[[A0241]]
+All notices and other
+communications given or made pursuant to the Agreement shall be sent to the Joining Creditor Party at the address set forth below in the Joining Creditor Party’s signature.
+
+[[A0242]]
+[ Signature page follows ]
+
+[[A0243]]
+IN WITNESS WHEREOF, the undersigned has executed this Joinder Agreement as of the date first set forth above.
+
+[[A0244]]
+[[TABLE]]
+| | | |
+| --- | --- | --- |
+| [•], | | |
+| | | |
+| [as a Noteholder Party beneficially holding $[•] aggregate principal amount of Existing Notes,] | | |
+| | | |
+| [as an Exit Term Lender Party beneficially holding $[•] aggregate principal amount of Exit Term Loans,][ and] | | |
+| | | |
+| [as an Intabex Term Lender Party beneficially holding $[•] aggregate principal amount of Intabex Term Loans] | | |
+| | | |
+| By: | | |
+| Name: | | |
+| Title: | | |
+| | | |
+| Notice Information: [•] | | |
+[[/TABLE]]
+
+[[A0245]]
+EXHIBIT D
+
+[[A0246]]
+CONDITIONS PRECEDENT TO TRANSACTIONS
+
+[[A0247]]
+- Except for any security related opinions and other security and guarantee related actions that the Company and the
+Majority Creditor Parties agree to complete following the Closing Date (as defined below), the administrative agent, collateral agent and/or trustee, as applicable, shall have received:
+
+[[A0248]]
+[[TABLE]]
+| | 1. | the definitive credit agreement or indenture, as applicable, the guarantee agreement, as applicable, and the
+applicable U.S., UK, Dutch, and Brazilian security and pledge agreements and share charges, in each case with respect to the New Notes, New Intabex Term Loans and New Pyxus Term Loans (each of which shall be in form and substance consistent with the
+Agreement) executed and delivered by the applicable members of the Company Group and the other parties thereto. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0249]]
+[[TABLE]]
+| | 2. | on behalf of itself and the lenders or the noteholders, as applicable, one or more favorable written opinions
+of Simpson Thacher & Bartlett LLP, counsel for the Company, of Robinson, Bradshaw Hinson, P.A., counsel for certain members of the Company Group, of Macfarlanes LLP, counsel for the Lenders, of De Brauw Blackstone Westbroek N.V., counsel
+for the Lenders, and of Barbosa Müssnich Aragão, counsel for the Lenders, in each case (i) dated the Closing Date, (ii) addressed to the applicable administrative agent and lenders and/or trustee and noteholders, and
+- in form and substance reasonably satisfactory to the Majority Creditor Parties, covering such matters customarily covered in opinions of this type as the Majority Creditor Parties shall reasonably request; provided that, for the
+avoidance of doubt no 10b-5 opinions or similar negative assurance statements will be required. |
+| --- | --- | --- |
+[[/TABLE]]
+
+[[A0250]]
+- The representations and warranties of the Company and each other applicable member of the Company Group contained in the
+applicable Definitive Documentation shall be true and correct in all material respects on and as of the Closing Date;
+provided
+that, to the extent that such representations and warranties specifically refer to an earlier date, they shall be
+true and correct in all material respects as of such earlier date;
+provided
+,
+further
+, that any representation and warranty that is qualified as to “materiality,” “Material Adverse Effect” or similar language shall
+be true and correct (after giving effect to any qualification therein) in all respects on such respective dates.
+
+[[A0251]]
+(c)
+Immediately prior to and immediately after the Closing Date, no Default or Event of Default under the applicable Definitive Documentation shall have occurred and be continuing.
+
+[[A0252]]
+- The making of such Loan shall not violate any Requirement of Law (to be
+defined substantially consistent with the Exit Term Loan Credit Agreement) applicable to the Company Group, and shall not be enjoined, temporarily, preliminarily or permanently.
+
+[[A0253]]
+- The administrative agents for the New Intabex Term Loans and the New Pyxus Term Loans shall have received a customary
+borrowing notice of such borrowings.
+
+[[A0254]]
+- The trustee for the New Notes shall have received customary documentation to
+authenticate and register the notes.
+
+[[A0255]]
+- The applicable administrative agent or trustee shall have received (i) a
+copy of the certificate or articles of incorporation, including all amendments thereto, of each member of the Company Group that is a borrower or guarantor under the applicable Definitive Documentation (each, a “
+Loan Party
+”),
+certified as of a recent date by the Secretary of State of the state of its organization and, to the extent such concept or a similar concept exists under the laws of the applicable jurisdiction, a certificate as to the good standing of each
+applicable Loan Party as of a recent date, from such Secretary of State (in each case or the foreign equivalent, if any); (ii) a certificate of a responsible officer or a director of each Loan Party dated the Closing Date and certifying
+- that attached thereto is a true and complete copy of the constitutional documents, articles of association, memorandum of association, certificate of incorporation and
+by-laws
+of such Loan Party as in
+effect on the Closing Date and at all times since a date prior to the date of the resolutions described in
+clause
+(B)
+below, (B) that attached thereto is a true and complete copy of resolutions duly adopted by the
+board of directors (or its equivalent) of such Loan Party authorizing the execution, delivery and performance of the applicable Definitive Documentation to which such person is a party and, in the case of the Company, the borrowings hereunder, and
+that such resolutions have not been modified, rescinded or amended and are in full force and effect, (C) that the certificate or articles of incorporation, constitutional documents, articles of association and memorandum of association of such
+Loan Party have not been amended since the date of the last amendment thereto shown on the certificate of good standing (or the foreign equivalent, if any) furnished pursuant to
+clause
+(i)
+above, (D) as to the
+incumbency and specimen signature of each officer executing any Definitive Document or any other document delivered in connection herewith on behalf of such Loan Party and (E) except in the case of a Loan Party organized in the UK, as to the
+absence of any pending proceeding for dissolution or liquidation of such Loan Party or, to the knowledge of such responsible officer or director, threatening the existence of such Loan Party; (iii) a certificate of another officer as to the
+incumbency and specimen signature of the responsible officer executing the certificate pursuant to
+clause
+(ii)
+above; (iv) in the case of a Loan Party organized in the UK, a certificate of a director confirming that
+the entry into the Definitive Documentation to which such Loan Party is a party and the transactions contemplated by such Definitive Documentation would not exceed any guarantee or security limits under the constitutional documents of such Loan
+Party or under any other agreement or instrument to which such Loan Party is a party and (v) as applicable for any Loan Party that is not organized in the United States, a resolution of the direct shareholders of that Loan Party approving the
+terms of the Definitive Documentation to which such Loan Party is a party.
+
+[[A0256]]
+- The applicable administrative agent, trustee, lenders and noteholders,
+in each case, shall have received, at least five Business Days prior to the Closing Date, to the extent requested at least eight Business Days prior to the Closing Date, (i) all documentation and other information required by regulatory
+authorities under applicable “
+know your customer
+” and anti-money laundering rules and regulations, including the USA PATRIOT Act and (ii) if the Company qualified as a “legal entity customer” under the
+Beneficial Ownership Regulation, a customary certification regarding beneficial ownership required by the Beneficial Ownership Regulation in relation to the Company.
+
+[[A0257]]
+- Except for any actions or filings that the Company and the Majority Creditor Parties agree to complete following the
+Closing Date, the applicable collateral agent shall have received evidence that each Loan Party shall have taken or caused to be taken any action, executed and delivered or cause to be executed and delivered any other agreement, document and
+instrument (including any intercompany notes and allonges) and made or caused to be made any other filing and recording reasonably required by the applicable collateral agent and the applicable lenders and the applicable collateral or administrative
+agent or trustee shall have received all insurance policies and certificates required by the Definitive Documentation.
+
+[[A0258]]
+(j)
+Prior to or substantially simultaneously therewith, (i) the legal advisors of the applicable administrative agent and the trustee and (ii) Wachtell, Lipton, Rosen & Katz and one counsel for the Creditor Parties in each relevant
+jurisdiction other than the United States shall each have been reimbursed for all reasonable and documented fees and expenses incurred in connection with the Transactions (with respect to expenses, to the extent invoices have been presented at least
+one business day prior to such date).
+
+[[A0259]]
+- (i) The ABL Amendment, (ii) any amendments required to be made to the
+ABL/Term Loan/Notes Intercreditor Agreement, dated as of August 24, 2020, among PNC Bank, National Association, Alter Domus (US) LLC and Wilmington Trust, National Association to effect the Transactions and (iii) all Definitive
+Documentation shall have been, or substantially simultaneously with the Closing Date will be, entered into and effective.
+
+[[A0260]]
+- (i) the Notes Exchange Offer shall have been, or substantially simultaneously with the Closing Date will be, consummated
+with the participation of at least a majority of the outstanding principal amount of the Existing Notes, (ii) the Exit Term Loan Exchange Offer shall have been, or substantially simultaneously with the Closing Date will be, consummated with the
+participation of at least a majority of the outstanding principal amount of the Exit Term Loans and (iii) the Intabex Exchange Offer shall have been, or substantially simultaneously with the Closing Date will be, consummated with the
+participation of a majority of the outstanding principal amount of the Intabex Term Loans.
+
+[[A0261]]
+- There shall not exist any action, suit, investigation, litigation,
+proceeding or hearing, pending or threatened in any court or before any arbitrator or applicable governmental authority that affects the Transactions or otherwise impairs the ability of the Company Group to consummate the Transactions and no
+preliminary or permanent injunction or order by a state or federal court shall have been entered, in each case that would be material and adverse to the administrative agents, collateral agents, trustees or the Creditor Parties.
+
+[[A0262]]
+- No event or circumstance that, individually or in the aggregate with other events or circumstances, has had or would
+reasonably be expected to have a Material Adverse Effect (as defined in the Exit Term Loan Credit Agreement), shall have occurred since the signing of the Agreement.
+
+[[A0263]]
+“ Closing Date ” shall mean the date of the satisfaction (or waiver, if applicable) of the closing conditions set forth in this Exhibit D and the consummation of the Transactions.

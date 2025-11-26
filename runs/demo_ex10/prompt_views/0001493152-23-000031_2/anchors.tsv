@@ -1,0 +1,11 @@
+anchor_id	anchor_type	start	end	label
+A0001	sentence	0	12	sentence
+A0002	sentence	14	74	sentence
+A0003	sentence	76	475	sentence
+A0004	sentence	476	678	sentence
+A0005	table	680	1040	table
+A0006	table	1042	1244	table
+A0007	sentence	1246	1293	sentence
+A0008	table	1295	1468	table
+A0009	table	1470	1669	table
+A0010	table	1671	1703	table

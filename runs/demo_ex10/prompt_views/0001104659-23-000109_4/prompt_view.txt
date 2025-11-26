@@ -1,0 +1,312 @@
+Exhibit 10.2
+
+FORM OF COMPANY STOCKHOLDER SUPPORT AGREEMENT
+
+This COMPANY STOCKHOLDER SUPPORT AGREEMENT (this “ Agreement ”) is entered into as of December 31, 2022, by and among Monterey Capital Acquisition Corporation, a Delaware corporation (“ Parent ”), ConnectM Technology Solutions, Inc., a Delaware corporation (the “ Company ”) and the Persons set forth on Schedule I hereto (each, a “ Company Stockholder ” and, collectively, the “ Company Stockholders ”). Each of Parent, the Company and each of the Company Stockholders are sometimes referred to herein individually as a “ Party ” and collectively as the “ Parties ”. Capitalized terms used but not otherwise defined herein shall have the meanings ascribed to them in the Merger Agreement (defined below).
+
+RECITALS
+
+WHEREAS , on December 31, 2022, Parent, Chronos Merger Sub, Inc., a Delaware corporation (“ Merger Sub ”), and the Company, entered into that certain Agreement and Plan of Merger (as amended, supplemented or otherwise modified from time to time in accordance with its terms, the “ Merger Agreement ”) pursuant to which, among other things, Merger Sub will merge with and into the Company, with the Company as the surviving company in the merger and, after giving effect to such merger, becoming a wholly-owned Subsidiary of Parent, in each case, on the terms and subject to the conditions set forth in the Merger Agreement;
+
+WHEREAS , each Company Stockholder is the record and beneficial owner of the number of shares of Company Stock set forth opposite such Company Stockholder’s name on Schedule I hereto (together with any other equity securities of the Company that such Company Stockholder has or acquires record or beneficial ownership on or after the date hereof, collectively, the “ Subject Company Shares ”);
+
+WHEREAS , in consideration for the benefits to be received by the Company Stockholders under the terms of the Merger Agreement and as a material inducement to Parent agreeing to enter into and consummate the transactions contemplated by the Merger Agreement, the Company Stockholders agree to enter into this Agreement and to be bound by the agreements, covenants and obligations contained in this Agreement; and
+
+WHEREAS , the Parties acknowledge and agree that Parent would not have entered into and agreed to consummate the transactions contemplated by the Merger Agreement without the Company Stockholders entering into this Agreement and agreeing to be bound by the agreements, covenants and obligations contained in this Agreement.
+
+NOW, THEREFORE , in consideration of the premises and the mutual promises set forth herein and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the Parties, each intending to be legally bound, hereby agree as follows:
+
+AGREEMENT
+
+1. Company Stockholder Written Consent and Related Matters .
+
+- As promptly as reasonably practicable (and in any event within two (2) Business Days) following the time at which the Registration Statement / Proxy Statement is declared effective under the Securities Act, the Stockholders shall duly execute and deliver to the Company and Parent the Written Consent, under which they shall irrevocably and unconditionally consent to, authorize and approve the Merger Agreement and the Transaction Documents and the transactions contemplated thereby, including the Merger. Without limiting the generality of the first sentence of this Section 1(a) , prior to the Closing, the Company Stockholders shall vote (or cause to be voted) the Subject Company Shares against and withhold consent with respect to (A) any Company Acquisition Proposal or (B) any other matter, action or proposal that would reasonably be expected to (x) impede, frustrate, prevent or nullify any provision of this Agreement, the Merger Agreement, any Transaction Document or the transactions contemplated thereby, (y) result in a breach of any of the Company’s covenants, agreements or obligations under the Merger Agreement, or (z) any of the conditions to the Closing set forth in Sections 8.1 or 8.2 of the Merger Agreement not being satisfied.
+
+- Without limiting any other rights or remedies of Parent, each Company Stockholder hereby irrevocably appoints Parent or any individual reasonably designated by Parent as such Company Stockholder’s agent, attorney-in-fact and proxy (with full power of substitution and resubstituting), for and in the name, place and stead of such Company Stockholder, to attend on behalf of such Company Stockholder any meeting of the Company Stockholders with respect to the matters described in Section 1(a) , to include such Company Stockholder’s Subject Company Shares in any computation for purposes of establishing a quorum at any such meeting of the Company Stockholders, to vote (or cause to be voted) such Stockholder’s Subject Company Shares or consent (or withhold consent) with respect to any of the matters described in Section 1(a) in connection with any meeting of the Company Stockholders or any action by written consent by the Company Stockholders (including the Company Stockholder Written Consent), in each case, in the event that such Company Stockholder fails to perform or otherwise comply with the covenants, agreements or obligations set forth in Section 1(a) .
+
+- The proxy granted by each Company Stockholder pursuant to Section 1(b) is coupled with an interest sufficient at law to support an irrevocable proxy and is granted in consideration for Parent entering into the Merger Agreement and agreeing to consummate the transactions contemplated thereby. The proxy granted by each Company Stockholder pursuant to Section 1(b) is also a durable proxy and shall survive the bankruptcy, dissolution, death, incapacity or other inability to act by such Company Stockholder and shall revoke any and all prior proxies granted by such Company Stockholder with respect to its Subject Company Shares. The vote or consent of the proxyholder in accordance with Section 1(b) and with respect to the matters in Section 1(a) shall control in the event of any conflict between such vote or consent by the proxyholder of the Subject Company Shares and a vote or consent by a Company Stockholder of the Subject Company Shares (or any other Person with the power to vote the Subject Company Shares) with respect to the matters in Section 1(a) . The proxyholder may not exercise the proxy granted pursuant to Section 1(b) on any matter except those provided in Section 1(a) . For the avoidance of doubt, the Company Stockholder may vote the Subject Company Shares on all other matters, subject to, for the avoidance of doubt, the other applicable covenants, agreements and obligations set forth in this Agreement.
+
+2. Other Covenants and Agreements .
+
+(a)
+
+Each
+Company Stockholder shall be bound by and subject to the Confidentiality Agreement and
+Section 7.7
+- of the Merger
+Agreement to the same extent as such provisions apply to the parties to the Merger Agreement, as if such Company Stockholder were directly
+party thereto, and each Company Stockholder shall be bound by and subject to
+Section 5.3
+(No Claim Against the Parent Trust
+Account) and
+Section 5.4(a)
+- of the Merger Agreement to the same extent as such provisions apply to the
+Company, as if such Company Stockholder were directly party thereto.
+
+- Each Company Stockholder acknowledges and agrees that Parent is entering into the Merger Agreement in reliance upon such Company Stockholder entering into this Agreement and agreeing to be bound by, and perform, or otherwise comply with, as applicable, the agreements, covenants and obligations contained in this Agreement and but for such Company Stockholder entering into this Agreement and agreeing to be bound by, and perform, or otherwise comply with, as applicable, the agreements, covenants and obligations contained in this Agreement, Parent would not have entered into or agreed to consummate the transactions contemplated by the Merger Agreement.
+
+2
+
+3. Stockholder Representations and Warranties . Each of the Company Stockholders represents and warrants to Parent, severally but not jointly, on behalf of itself, as follows:
+
+- If such Company Stockholder is a corporation, limited liability company, trust or other applicable entity duly organized or formed, as applicable, validly existing and, , except where the failure to so qualify would not reasonably be expected to have a material adverse effect on the Company Stockholder’s ability to perform its obligations under this Agreement, in good standing (or the equivalent thereof, if applicable, in each case, with respect to the jurisdictions that recognize the concept of good standing or any equivalent thereof), in each case, under the Laws of its jurisdiction of formation or organization (as applicable).
+
+- Each Company Stockholder has full legal capacity, right and authority to execute and deliver this Agreement and to perform its obligations hereunder. This Agreement has been duly executed and delivered by such Company Stockholder and, assuming due authorization, execution and delivery by the other parties to this Agreement, this Agreement constitutes a legally valid and binding obligation of such Company Stockholder, enforceable against such Company Stockholder in accordance with the terms hereof (except as enforceability may be limited by bankruptcy Laws, other similar Laws affecting creditors’ rights and general principles of equity affecting the availability of specific performance and other equitable remedies). If this Agreement is being executed in a representative or fiduciary capacity, the Person signing this Agreement has full power and authority to enter into this Agreement on behalf of the applicable Company Stockholder.
+
+- No consent, approval or authorization of, or designation, declaration or filing with, any Governmental Entity is required on the part of such Company Stockholder with respect to such Company Stockholder’s execution, delivery or performance of its covenants, agreements or obligations under this Agreement (including, for the avoidance of doubt, those covenants, agreements and obligations under this Agreement that relate to the provisions of the Merger Agreement) or the consummation of the transactions contemplated hereby, except for any consents, approvals, authorizations, designations, declarations, waivers or filings, the absence of which would not adversely affect the ability of such Company Stockholder to perform, or otherwise comply with, any of its covenants, agreements or obligations hereunder in any material respect.
+
+- None of the execution or delivery of this Agreement by such Company Stockholder, the performance by such Company Stockholder of any of its covenants, agreements or obligations under this Agreement (including, for the avoidance of doubt, those covenants, agreements and obligations under this Agreement that relate to the provisions of the Merger Agreement) or the consummation of the transactions contemplated hereby will, directly or indirectly (with or without due notice or lapse of time or both), (i) result in any breach of any provision of such Company Stockholder’s Governing Documents, (ii) result in a violation or breach of, or constitute a default or give rise to any right of termination, Consent, cancellation, amendment, modification, suspension, revocation or acceleration under, any of the terms, conditions or provisions of any Contract to which such Company Stockholder is a party, (iii) violate, or constitute a breach under, any Order or applicable Law to which such Company Stockholder or any of its respective properties or assets is bound or (iv) result in the creation of any Lien upon the Subject Company Shares, except, in the case of any of clauses (ii) and (iii) above, as would not adversely affect the ability of such Company Stockholder to perform, or otherwise comply with, any of its covenants, agreements or obligations hereunder.
+
+- Such Company Stockholder is the record and beneficial owner of its Subject Company Shares, free and clear of all Liens (other than transfer restrictions under applicable Securities Law or under the Company Stockholders Agreements). Except for the Company Stock set forth on
+
+Schedule I hereto with respect to such Company Stockholder, together with any other equity securities of the Company that such Company Stockholder acquires record or beneficial ownership of after the date hereof that is either permitted pursuant to, or acquired in accordance with, Section 5.1(b)(v) of the Merger Agreement, such Company Stockholder does not own, beneficially or of record, any equity securities of the Company or its Subsidiaries. Except as otherwise expressly contemplated by the Company Stockholders Agreements and any agreement existing on the date hereof and made available to Parent or that is entered into in accordance with the Merger Agreement, such Company Stockholder has no right to acquire any equity securities of the Company or its Subsidiaries. Such Company Stockholder has the sole right to vote (and provide consent in respect of, as applicable) the Subject Company Shares and, except for this Agreement, the Merger Agreement, the Company Stockholders Agreements and any Contract with respect to a Permitted Transfer, such Company Stockholder is not party to or bound by (i) any option, warrant, purchase right, or other Contract that would (either alone or in connection with one or more events, developments or events (including the satisfaction or waiver of any conditions precedent)) require such Company Stockholder to Transfer any of its Subject Company Shares or (ii) any voting trust, proxy or other Contract with respect to the voting or Transfer of any of its Subject Company Shares.
+
+3
+
+- There is no Proceeding pending or, to such Company Stockholder’s knowledge, threatened against such Company Stockholder that, if adversely decided or resolved, would reasonably be expected to adversely affect the ability of such Company Stockholder to perform, or otherwise comply with, any of its covenants, agreements or obligations under this Agreement in any material respect.
+
+- Such Company Stockholder is a sophisticated stockholder, and on its own behalf and on behalf of its Representatives, acknowledges, represents, warrants and agrees that it has been furnished with or given access to such documents and information about Parent and its respective businesses and operations as it and its Representatives have deemed necessary to enable it to make an informed decision with respect to the execution, delivery and performance of this Agreement, the other Transaction Documents to which it is or will be a party and the transactions contemplated hereby and thereby.
+
+- In entering into this Agreement and the other Transaction Documents to which it is or will be a party, such Company Stockholder has relied solely on its own investigation and analysis and on the Parent’s representations and warranties expressly set forth in the Transaction Documents to which it is or will be a party and no other representations or warranties of Parent any Parent non-Party Affiliate or any other Person, either express or implied, and such Company Stockholder, on its own behalf and on behalf of its Representatives, acknowledges, represents, warrants and agrees that, except for the representations and warranties expressly set forth in the Transaction Documents to which it is or will be a party, none of Parent, any Parent non-Party Affiliate or any other Person makes or has made any representation or warranty, either express or implied, in connection with or related to this Agreement, the Transaction Documents to which it is or will be a party or the transactions contemplated hereby or thereby.
+
+- Such Company Stockholder has not employed any broker, finder, investment banker or other Person that is entitled to any brokerage fee, finders’ fee or other commission in connection with the transactions contemplated by the Merger Agreement based upon arrangements made by such Company Stockholder, for which the Company or any of its Affiliates may become liable.
+
+4. Transfer of Subject Company Shares . In addition to and without limiting the restrictions set forth in any Company Stockholder Lock-Up Agreement to which any Company Stockholder is a party, except as expressly contemplated by the Merger Agreement, with the prior written consent of Parent (such consent to be given or withheld in its sole discretion) or to a Permitted Transferee (as defined below), from and after the date hereof, each Company Stockholder agrees not to (a) Transfer any of its Subject Company Shares, (b) enter into (i) any option, warrant, purchase right, or other Contract that would (either alone or in connection with one or more events, developments or circumstances (including the satisfaction or waiver of any conditions precedent)) require such Company Stockholder to Transfer its Subject Company Shares or (ii) any voting trust, proxy or other Contract with respect to the voting or Transfer of its Subject Company Shares, or (c) take any actions in furtherance of any of the matters described in the foregoing clauses (a) or (b) . For purposes of this Agreement, “ Transfer ” means any, direct or indirect, sale, transfer, assignment, pledge, mortgage, exchange, hypothecation, grant of a security interest in or disposition or encumbrance of an interest (whether with or without consideration, whether voluntarily or involuntarily or by operation of law or otherwise) and “ Permitted Transferee ” means any (x) Person that controls, is controlled by or is under common control with a Stockholder or (y) outright or in trust to or for the benefit of (A) a family member of such Stockholder, or (B) any personal representative, estate or executor under any will of such Stockholder or pursuant to the laws of intestate succession, so long as the final recipient from any personal representative, estate or executor under any will or pursuant to the laws of intestate succession provided that, such transferee stated in the aforesaid (x) or (y) agrees in writing to be bound by all the obligations of the applicable Stockholder hereunder with respect to its Subject Company Shares upon a Transfer of such Subject Company Shares to such Person and provides a copy and notice of such agreement to Parent.
+
+5. Termination . This Agreement shall automatically terminate, without any notice or other action by any Party , upon the earlier of (a) the Effective Time and (b) the termination of the Merger Agreement in accordance with its terms. Upon termination of this Agreement as provided in the immediately preceding sentence, none of the Parties shall have any further obligations or Liabilities under, or with respect to, this Agreement. Notwithstanding the foregoing or anything to the contrary in this Agreement, (i) the termination of this Agreement pursuant to Section 5(b) shall not affect any Liability on the part of any Party for fraud or a Willful Breach of any covenant or agreement set forth in this Agreement prior to such termination, (ii) the first sentence of Section 2(a) (solely to the extent that it relates to the Confidentiality Agreement) and the representations and warranties set forth in Sections 3(g) through
+
+- shall each survive any termination of this Agreement, (iii) the first sentence of Section 2(a) (solely to the extent that it relates to Section 7.7 (Publicity) of the Merger Agreement) shall survive the termination of this Agreement pursuant to Section 5(a) and (iv) the first sentence of Section 2(a) (solely to the extent that it relates to Section 5.3 (No Claim Against the Parent Trust Account) of the Merger Agreement) shall survive the termination of this Agreement pursuant to Section 5(b) .
+
+4
+
+6. Fiduciary Duties . Notwithstanding anything in this Agreement to the contrary, (a) no Company Stockholder makes any agreement or understanding herein in any capacity other than in such Company Stockholder’s capacity as a record holder and beneficial owner of its Subject Company Shares and (b) nothing herein will be construed to limit or affect any action or inaction by such Company Stockholder or by any representative or Affiliate of such Company Stockholder serving as a member of the board of directors of the Company or any of its Subsidiaries or as an officer, employee or fiduciary of the Company or any of its Subsidiaries, in each case, acting in such person’s capacity as a director, officer, employee or fiduciary of the Company or such Subsidiary.
+
+7. No Recourse . Except for claims pursuant to the Merger Agreement or any other Transaction Document by any party(ies) thereto against any other party(ies) thereto, each Party agrees that (a) this Agreement may be enforced only against, and any action for breach of this Agreement may be made only against, the Parties, and no claims of any nature whatsoever (whether in tort, contract or otherwise) arising under or relating to this Agreement, the negotiation hereof or its subject matter, or the transactions contemplated hereby shall be asserted against the Company or any Company non-Party Affiliate (other than any Company Stockholder named as a party hereto, on the terms and subject to the conditions set forth herein) or any Parent non-Party Affiliate, and (b) none of the Company, its Subsidiaries, any Company non-Party Affiliates (other than any Stockholder named as a party hereto, on the terms and subject to the conditions set forth herein) or any Parent non-Party Affiliate shall have any Liability arising out of or relating to this Agreement, the negotiation hereof or its subject matter, or the transactions contemplated hereby, including with respect to any claim (whether in tort, contract or otherwise) for breach of this Agreement or in respect of any written or oral representations made or alleged to be made in connection herewith, as expressly provided herein, or for any actual or alleged inaccuracies, misstatements or omissions with respect to any information or materials of any kind furnished in connection with this Agreement, the negotiation hereof or the transactions contemplated hereby.
+
+8. Notices . All notices, requests, claims, demands and other communications hereunder shall be in writing and shall be given (and shall be deemed to have been duly given) by delivery in person, by e-mail (having obtained electronic delivery confirmation thereof (i.e., an electronic record of the sender that the email was sent to the intended recipient thereof without an “error” or similar message that such email was not received by such intended recipient)), or by registered or certified mail (postage prepaid, return receipt requested) (upon receipt thereof) to the other Parties as follows:
+
+If to Parent, to:
+
+c/o Monterey Capital Acquisition Corporation
+
+419 Webster Street
+
+Monterey, CA 93940
+
+Attention: Bala Padmakumar
+
+E-mail: bala@padmakumar.com
+
+with a copy (which shall not constitute notice) to:
+
+Mintz, Levin, Cohn, Ferris, Glovsky and Popeo, P.C.
+
+One Financial Center
+
+Boston, MA 02111
+
+Attention: Tom Burton; Jeffery Schultz
+
+E-mail: TRBurton@mintz.com; JSchultz@mintz.com
+
+If to the Company, to:
+
+c/o ConnectM Technology Solutions, Inc.
+
+2 Mount Royal Avenue, Suite 550
+
+Marlborough, MA 01752
+
+Attention: Bhaskar Panigrahi
+
+Email: Bhaskar@connectm.com
+
+5
+
+with a copy (which shall not constitute notice) to:
+
+Burns & Levinson LLP
+
+125 High Street
+
+Boston, MA 02110
+
+Attention: Andrew Merken
+
+E-mail: amerken@burnslev.com
+
+and, if to any Stockholder, to the notice address provided opposite their name on Schedule I attached hereto, or to such other address as the Party to whom notice is given may have previously furnished to the others in writing in the manner set forth above.
+
+9. Entire Agreement . This Agreement, the Merger Agreement and documents referred to herein and therein constitute the entire agreement of the Parties with respect to the subject matter of this Agreement, and supersede all prior agreements and undertakings, both written and oral, among the Parties with respect to the subject matter of this Agreement, except as otherwise expressly provided in this Agreement.
+
+10. Amendments and Waivers; Assignment . Any provision of this Agreement may be amended or waived if, and only if, such amendment or waiver is in writing and signed by the Company, the Company Stockholders and Parent. Notwithstanding the foregoing, no failure or delay by any Party in exercising any right hereunder shall operate as a waiver thereof nor shall any single or partial exercise thereof preclude any other or further exercise of any other right hereunder. Neither this Agreement nor any of the rights, interests or obligations hereunder shall be assignable by any Company Stockholder, other than to a Permitted Transferee, without Parent’s prior written consent (to be withheld or given in its sole discretion).
+
+11. Fees and Expenses . Except as otherwise expressly set forth in the Merger Agreement, all fees and expenses incurred in connection with this Agreement and the transactions contemplated hereby, including the fees and disbursements of counsel, financial advisors and accountants, shall be paid by the Party incurring such fees or expenses.
+
+12. Remedies . Except as otherwise expressly provided herein, any and all remedies provided herein will be deemed cumulative with and not exclusive of any other remedy conferred hereby upon, or available at law or in equity to, such Party, and the exercise by a Party of any one remedy will not preclude the exercise of any other remedy. The Parties agree that irreparable damage for which monetary damages, even if available, would not be an adequate remedy and would occur in the event that any Party does not perform its respective obligations under the provisions of this Agreement in accordance with their specific terms or otherwise breaches such provisions. It is accordingly agreed that each Party shall be entitled to an injunction or injunctions, specific performance and other equitable relief to prevent breaches of this Agreement and to enforce specifically the terms and provisions of this Agreement, in each case, without posting a bond or undertaking and without proof of damages and this being in addition to any other remedy to which they are entitled at law or in equity. Each Party agrees that it will not oppose the granting of an injunction, specific performance and other equitable relief when expressly available pursuant to the terms of this Agreement on the basis that the other parties have an adequate remedy at law or an award of specific performance is not an appropriate remedy for any reason at law or equity.
+
+13. No Third Party Beneficiaries . This Agreement shall be for the sole benefit of the Parties and their respective successors and permitted assigns and is not intended, nor shall be construed, to give any Person, other than the Parties and their respective successors and permitted assigns, any legal or equitable right, benefit or remedy of any nature whatsoever by reason this Agreement. Nothing in this Agreement, expressed or implied, is intended to or shall constitute the Parties as partners or participants in a joint venture.
+
+14. Miscellaneous .
+
+Article X
+(No Survival) and Sections
+11.2
+(Counterparts),
+11.3
+(Governing Law),
+11.4
+(Forum; Waiver
+of Jury Trial),
+11.11
+- and
+11.12
+(Interpretation and Construction), of the Merger Agreement are incorporated
+herein by reference and shall apply to this Agreement,
+mutatis mutandis
+.
+
+[Signature page follows]
+
+6
+
+IN WITNESS WHEREOF, the Parties have executed and delivered this Company Stockholder Support Agreement as of the date first above written.
+
+[[TABLE]]
+| | MONTEREY CAPITAL ACQUISITION CORPORATION | |
+| --- | --- | --- |
+| | | |
+| | By: | /s/ Bala Padmakumar |
+| | Name: Bala Padmakumar | |
+| | Title: Chief Executive Officer | |
+[[/TABLE]]
+
+[Signature Page to Company Stockholder Support Agreement]
+
+IN WITNESS WHEREOF, the Parties have executed and delivered this Company Stockholder Support Agreement as of the date first above written.
+
+[[TABLE]]
+| | CONNECTM TECHNOLOGY SOLUTIONS, INC. | |
+| --- | --- | --- |
+| | | |
+| | By: | /s/ Bhaskar Panigrahi |
+| | Name: Bhaskar Panigrahi | |
+| | Title: Chairman & CEO | |
+[[/TABLE]]
+
+IN WITNESS WHEREOF, the Parties have executed and delivered this Company Stockholder Support Agreement as of the date first above written.
+
+[[TABLE]]
+| | COMPANY STOCKHOLDERS: | |
+| --- | --- | --- |
+| | | |
+| | Avanti Holdings LLC | |
+| | | |
+| | By: | /s/ Bhaskar Panigrahi |
+| | Name: Bhaskar Panigrahi | |
+| | Title: Managing Member | |
+[[/TABLE]]
+
+IN WITNESS WHEREOF, the Parties have executed and delivered this Company Stockholder Support Agreement as of the date first above written.
+
+[[TABLE]]
+| | COMPANY STOCKHOLDERS: | |
+| --- | --- | --- |
+| | | |
+| | NXT Ventures Fund III, LLC | |
+| | | |
+| | By: | /s/ Barry Turkanis |
+| | Name: Barry Turkanis | |
+| | Title: Managing Director | |
+[[/TABLE]]
+
+IN WITNESS WHEREOF, the Parties have executed and delivered this Company Stockholder Support Agreement as of the date first above written.
+
+[[TABLE]]
+| | COMPANY STOCKHOLDERS: | |
+| --- | --- | --- |
+| | | |
+| | Satish K. Tadikonda Trust | |
+| | | |
+| | By: | /s/ Satish K. Tadikonda Trust |
+| | Name: Satish K. Tadikonda | |
+| | Title: Trustee | |
+[[/TABLE]]
+
+IN WITNESS WHEREOF, the Parties have executed and delivered this Company Stockholder Support Agreement as of the date first above written.
+
+[[TABLE]]
+| | COMPANY STOCKHOLDERS: | |
+| --- | --- | --- |
+| | | |
+| | The Subrahmanyam Kota IRRV Trust | |
+| | | |
+| | By: | /s/ Subrahmanyam Kota |
+| | Name: Subrahmanyam Kota | |
+| | Title: Trustee | |
+[[/TABLE]]
+
+IN WITNESS WHEREOF, the Parties have executed and delivered this Company Stockholder Support Agreement as of the date first above written.
+
+[[TABLE]]
+| | COMPANY STOCKHOLDERS: | |
+| --- | --- | --- |
+| | | |
+| | Win-Light Capital, Co. | |
+| | | |
+| | By: | /s/ YueMei Zhu |
+| | Name: YueMei Zhu | |
+| | Title: Director | |
+[[/TABLE]]
+
+IN WITNESS WHEREOF, the Parties have executed and delivered this Company Stockholder Support Agreement as of the date first above written.
+
+[[TABLE]]
+| | COMPANY STOCKHOLDERS: |
+| --- | --- |
+| | |
+| | /s/ Bhaskar Panigrahi |
+| | Bhaskar Panigrahi |
+[[/TABLE]]
+
+IN WITNESS WHEREOF, the Parties have executed and delivered this Company Stockholder Support Agreement as of the date first above written.
+
+[[TABLE]]
+| | COMPANY STOCKHOLDERS: |
+| --- | --- |
+| | |
+| | /s/ Girish Subramanya |
+| | Girish Subramanya |
+[[/TABLE]]
+
+IN WITNESS WHEREOF, the Parties have executed and delivered this Company Stockholder Support Agreement as of the date first above written.
+
+[[TABLE]]
+| | COMPANY STOCKHOLDERS: |
+| --- | --- |
+| | |
+| | /s/ Janaki Y |
+| | Janaki Y |
+[[/TABLE]]
+
+IN WITNESS WHEREOF, the Parties have executed and delivered this Company Stockholder Support Agreement as of the date first above written.
+
+[[TABLE]]
+| | COMPANY STOCKHOLDERS: |
+| --- | --- |
+| | |
+| | /s/ Myank Jain |
+| | Myank Jain |
+[[/TABLE]]
+
+IN WITNESS WHEREOF, the Parties have executed and delivered this Company Stockholder Support Agreement as of the date first above written.
+
+[[TABLE]]
+| | COMPANY STOCKHOLDERS: |
+| --- | --- |
+| | |
+| | /s/ Gaugarin Oliver |
+| | Gaugarin Oliver |
+[[/TABLE]]
+
+SCHEDULE I

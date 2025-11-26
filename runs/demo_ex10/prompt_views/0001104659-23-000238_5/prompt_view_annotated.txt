@@ -1,0 +1,409 @@
+[[A0001]]
+Exhibit 10.27.3
+​
+INDIVIDUAL CONSULTING AGREEMENT
+This Individual Consulting Agreement (“
+Consulting Agreement
+”) is entered into effective as of January 1, 2023, by and between LanzaTech NZ, Inc. (the “
+Company
+”) and Sean Simpson (“
+Consultant
+”). The Company desires to retain Consultant to provide independent contract services to Company and, where relevant, any company, partnership, joint venture, or other entity that directly or indirectly controls, is controlled by, or is under common control by the Company (the “
+Affiliates
+” and together with the Company “
+LanzaTech
+”), and Consultant is willing to perform such services, on the terms described below.
+
+[[A0002]]
+In consideration of the mutual promises contained herein, the parties agree as follows:
+1.
+Services and Compensation
+. Consultant agrees to furnish consulting and advisory services on a non-exclusive basis as described in
+Schedule A
+(the “
+Services
+”), and the Company agrees to pay Consultant the compensation described in
+Schedule A
+for Consultant’s performance of the Services.
+
+[[A0003]]
+The Company may by agreement with Consultant add or subtract from the services listed on
+Schedule A
+. Consultant shall not be required to devote Consultant’s full time to the Company, nor shall Consultant be required to work a minimum number of hours in a calendar month.
+2.
+Confidentiality
+.
+a.
+Definition
+. “
+Confidential Information
+” means any proprietary or non-public information that relates to the actual or anticipated business or research and development of LanzaTech, technical data, trade secrets, or know-how, including, but not limited to, research, product plans, or other information regarding LanzaTech’s products or services and their markets, customer lists, and customers (including, but not limited to, customers of LanzaTech on whom Consultant called or with whom Consultant became acquainted during the term of this Consulting Agreement), software, developments, inventions, processes, formulas, technology, designs, drawing, engineering, hardware configuration information, marketing, finances, or other business information.
+
+[[A0004]]
+Confidential Information does not include information that (i) is known to Consultant at the time of disclosure to Consultant by LanzaTech as evidenced by written records of Consultant, (ii) has become publicly known and made generally available otherwise than through Consultant’s unauthorized disclosure, or (iii) has been rightfully received by Consultant from a third party otherwise than through such third party’s unauthorized disclosure.
+
+[[A0005]]
+b.
+Nonuse and Nondisclosure
+. Consultant will not (i) use the Confidential Information for any purpose whatsoever other than the performance of the Services or (ii) disclose the Confidential Information to any third party other than with prior written approval from the Company.
+
+[[A0006]]
+Consultant agrees that all Confidential Information will remain the sole property of LanzaTech.
+
+[[A0007]]
+Consultant also agrees to take all reasonable precautions to prevent any unauthorized disclosure of such Confidential Information.
+
+[[A0008]]
+Except as expressly provided in paragraph 6 of the Transition Agreement dated December 28, 2022, Consultant will not use Company’s name, the name of any LanzaTech entity, or the name of any of their employees in any advertising, news releases, publicity, or any other public disclosure without prior written approval of the Company.
+
+[[A0009]]
+Further, notwithstanding Consultant’s confidentiality and nondisclosure obligations, Consultant is hereby advised as follows pursuant to the Defend Trade Secrets Act:
+An individual shall not be held criminally or civilly liable under any Federal or State trade secret law for the disclosure of a trade secret that (A) is made (i) in confidence to a Federal, State, or local government official, either directly or indirectly, or to an attorney; and (ii) solely for the purpose of reporting or investigating a suspected violation of law;
+​
+​
+Exhibit B - 1
+​
+or (B) is made in a complaint or other document filed in a lawsuit or other proceeding, if such filing is made under seal.
+
+[[A0010]]
+An individual who files a lawsuit for retaliation by an employer for reporting a suspected violation of law may disclose the trade secret to the attorney of the individual and use the trade secret information in the court proceeding, if the individual (x) files any document containing the trade secret under seal; and (y) does not disclose the trade secret, except pursuant to court order.
+
+[[A0011]]
+c.
+Former Client Confidential Information
+. Consultant agrees that Consultant will not improperly use or disclose any proprietary information or trade secrets of any former or current employer of Consultant or of any person or entity with which Consultant has an agreement or duty to keep in confidence such information, if any.
+
+[[A0012]]
+Consultant also agrees that Consultant will not bring onto LanzaTech’s premises any unpublished document or proprietary information belonging to any such employer, person, or entity unless consented to in writing by such employer, person, or entity and the Company.
+
+[[A0013]]
+d.
+Third Party Confidential Information
+. Consultant recognizes that LanzaTech has received, and in the future will receive, from third parties their confidential or proprietary information subject to a duty on LanzaTech’s part to maintain the confidentiality of such information and to use it only for certain limited purposes.
+
+[[A0014]]
+Consultant agrees that Consultant owes the Company and such third parties a duty to hold all such confidential or proprietary information in the strictest confidence and not to disclose it to any person, firm, or corporation or to use it, except as necessary in carrying out the Services consistent with LanzaTech’s agreement with such third party.
+
+[[A0015]]
+e.
+Return of Materials
+. Upon the termination of this Consulting Agreement, or upon Company’s earlier request, Consultant will deliver to the Company all of LanzaTech’s property, including but not limited to all electronically stored information and passwords to access such property, or Confidential Information that Consultant may have in Consultant’s possession or control.
+3.
+Ownership
+.
+a.
+Assignment
+. Consultant agrees that all copyrightable material, notes, records, inventions, improvements, developments, discoveries, and trade secrets conceived, discovered, developed, or reduced to practice by Consultant, solely or in collaboration with others, during the term of this Consulting Agreement that relate in any manner to the business of LanzaTech, or that Consultant may otherwise become associated with in performing the Services (collectively, “
+Inventions
+”), are the sole property of the Company.
+
+[[A0016]]
+Consultant also agrees to assign (or cause to be assigned) and hereby assigns fully to the Company or its designee all Inventions and any copyrights, patents, or other intellectual property rights relating to all Inventions.
+
+[[A0017]]
+Consultant agrees that the Inventions are hereby deemed a “work made for hire” as defined in U.S.C. § 101 for the Company.
+
+[[A0018]]
+If, for any reason, any of the Inventions do not constitute a “work made for hire,” the Consultant hereby irrevocably assigns to the Company, in each case without additional consideration, all right, title, and interest throughout the world in and to the Inventions, including all intellectual property rights therein.
+
+[[A0019]]
+Any assignment of copyrights under this Consulting Agreement includes all rights of paternity, integrity, disclosure, and withdrawal and any other rights that may be known as “moral rights,” and Consultant hereby irrevocably waives, to the extent permitted by law, any and all claims Consultant may have at any time in any jurisdiction to any such rights with respect to the Inventions.
+
+[[A0020]]
+b.
+Further Assurances
+. Consultant agrees to assist Company, or its designee, at the Company’s expense, in every proper way, to secure the Company’s or its designee’s rights in Inventions
+​
+​
+​
+and any copyrights, patents, or other intellectual property rights relating to all Inventions in any and all countries, including the disclosure to the Company of all pertinent information and data with respect to all Inventions; the execution of all applications, specifications, oaths, assignments, and all other instruments that the Company may deem necessary in order for it or its designee to apply for and obtain such rights; and in order to assign and convey to the Company; its designee; or its successors, assigns, or nominees the sole and exclusive right, title, and interest in and to all Inventions, and any copyrights, patents, or other intellectual property rights relating to all Inventions.
+
+[[A0021]]
+Consultant also agrees that Consultant’s obligation to execute or cause to be executed any such instrument or papers shall continue after the termination of this Consulting Agreement.
+
+[[A0022]]
+c.
+Prior Inventions.
+
+[[A0023]]
+Inventions, if any, patented or unpatented, which Consultant made prior to the beginning of the term of this Consulting Agreement are excluded from the scope of this Consulting Agreement, except to the extent they are subject to the Employee Proprietary Information and Inventions Agreement dated May 1, 2020 (the “
+PIIA Agreement
+”). To exclude any possible uncertainty, Consultant has set out on
+Schedule B
+a complete list of all Inventions that Consultant has, alone or jointly with others, conceived, developed, or reduced to practice or caused to be conceived, developed, or reduced to practice prior to the beginning of the term of this Consulting Agreement, that Consultant considers to be Consultant’s property or the property of third parties and that Consultant wishes to have excluded from the scope of this Consulting Agreement (collectively, “
+Prior Inventions
+”). If disclosure of any such Prior Invention would cause Consultant to violate any prior confidentiality agreement, Consultant should not list such Prior Inventions on
+Schedule B
+, but only disclose a cursory name for each such invention, a listing of the party(ies) to whom it belongs and the fact that full disclosure as to such inventions has not been made for that reason.
+
+[[A0024]]
+A space is provided on
+Schedule B
+for such purpose.
+
+[[A0025]]
+Contractor warrants and represents that
+Schedule B
+is a complete and accurate list of Prior Inventions and if no such disclosure is attached, Consultant warrants and represents that there are no Prior Inventions.
+4.
+Conflicting Obligations
+. Consultant certifies that Consultant has no outstanding agreement or obligation that is in conflict with any of the provisions of this Consulting Agreement or that would preclude Consultant from complying with the provisions of this Consulting Agreement.
+
+[[A0026]]
+Consultant will not enter into any such conflicting agreement during the term of this Consulting Agreement.
+
+[[A0027]]
+Consultant’s violation of this
+Section 4
+will be considered a material breach under
+Section 6.b
+.
+5.
+Reports
+. Consultant agrees that Consultant will, from time to time, during the term of this Consulting Agreement, keep the Company advised as to Consultant’s progress in performing the Services under this Consulting Agreement.
+
+[[A0028]]
+Consultant further agrees that Consultant will, as requested by the Company, prepare written reports with respect to such progress.
+
+[[A0029]]
+The Company and Consultant agree that the time required to prepare such written reports will be considered time devoted to the performance of the Services.
+6.
+Term and Termination
+.
+a.
+Term
+. The term of this Consulting Agreement will begin on the date of this Consulting Agreement and will continue until the earlier of (i) final completion of the Services or (ii) termination as provided in
+Section 6.b
+.
+b.
+Termination
+.
+i.
+Either party may terminate this Consulting Agreement upon giving the other party fourteen (14) days’ prior written notice of such termination in accordance with
+Section 9.f
+.
+​
+​
+​
+ii.
+
+[[A0030]]
+
+
+[[A0031]]
+If not terminated earlier, pursuant to
+Section 6.b.i
+or
+Section 6.b.ii
+, the Consulting Agreement will terminate on January 1, 2025.
+
+[[A0032]]
+c.
+Survival
+. Upon such termination, all rights and duties of the Company and Consultant toward each other shall cease except:
+i.
+The Company will pay, within thirty (30) days after the effective date of termination under
+Section 6.b.i
+or
+Section 6.b.iii
+, all amounts owing to Consultant for Services completed and accepted by the Company prior to the termination date and related expenses, if any, submitted in accordance with the Company’s policies and in accordance with the provisions of
+Section 1
+of this Consulting Agreement; and
+ii.
+
+[[A0033]]
+Section 2
+(Confidentiality),
+Section 3
+(Ownership),
+Section 4
+(Conflicting Obligations),
+Section 7
+(Independent Consultant Relationship), and
+Section 8
+- will survive termination of this Consulting Agreement.
+7.
+Independent Contractor Relationship.
+
+[[A0034]]
+a.
+Independent Contractor.
+
+[[A0035]]
+It is the express intention of the Company and Consultant that Consultant performs the Services as an independent contractor to the Company.
+
+[[A0036]]
+Nothing in this Consulting Agreement shall in any way be construed to constitute Consultant as an employee of the Company.
+
+[[A0037]]
+Without limiting the generality of the foregoing, Consultant is not authorized to bind the Company to any liability or obligation or to represent that Consultant has any such authority.
+
+[[A0038]]
+b.
+Discretion.
+
+[[A0039]]
+Consultant will exercise customary discretion and independent judgment with respect to the manner in which Consultant performs the Services pursuant to this Consulting Agreement.
+
+[[A0040]]
+Nothing in this Consulting Agreement will be deemed to deprive Consultant of such discretion or judgment or to require Consultant to perform any particular Service in any specific manner.
+
+[[A0041]]
+c.
+Expenses.
+
+[[A0042]]
+Consultant agrees to furnish (or reimburse the Company for) all tools and materials necessary to accomplish this Consulting Agreement and shall incur all expenses associated with performance, except as expressly provided in
+Schedule A
+.
+d.
+Taxes.
+
+[[A0043]]
+Consultant acknowledges and agrees that Consultant is obligated to report as income all compensation received by Consultant pursuant to this Consulting Agreement.
+
+[[A0044]]
+Consultant will pay all taxes and other governmental charges, however designated, which are levied or assessed upon any payment made to or on behalf of Consultant pursuant to this Consulting Agreement.
+
+[[A0045]]
+Consultant hereby agrees to reimburse and indemnify the Company in respect of any claims, expenses, penalties, damages, costs, charges, or liability incurred by the Company as a result of the nonpayment of any such taxes or charges.
+
+[[A0046]]
+e.
+Benefits
+. The Company and Consultant agree that Consultant is not eligible for and will not receive any Company-sponsored benefits from the Company where benefits include, but are not limited to, paid vacation, sick leave, medical insurance, and 401k participation.
+​
+​
+​
+f.
+Share Options
+. The Company agrees that any services performed under this Consulting Agreement shall constitute a continuation of “Service” for the purpose of the Company’s or its affiliate’s share plans, pursuant to which Consultant has been granted any equity awards in connection with any prior relationship(s) between Consultant and the Company or any affiliate of the Company.
+
+[[A0047]]
+Consultant’s equity awards shall continue to vest according to the terms on which they were granted, during the term of this Consulting Agreement.
+
+[[A0048]]
+Termination of this Consulting Agreement by either party shall be considered a termination of such “Service” for all purposes related to such share plans and grants.
+8.
+Nonsolicitation
+. From the date of this Consulting Agreement until twelve (12) months after the termination of this Consulting Agreement (the “
+Restricted Period
+”), Consultant will not, without the Company’s prior written consent, directly or indirectly, solicit or encourage any employee or contractor of LanzaTech to terminate employment with, or cease providing services to, LanzaTech.
+
+[[A0049]]
+During the Restricted Period, Consultant will not, whether for Consultant’s own account or for the account of any other person, firm, corporation, or other business organization, intentionally interfere with any person who is or, during the period of Consultant’s engagement by any LanzaTech entity, was a partner, supplier, customer, or client of LanzaTech.
+9.
+Miscellaneous
+.
+a.
+Governing Law
+. This Consulting Agreement shall be governed by the laws of State of Illinois without regard to its conflict of laws provisions.
+
+[[A0050]]
+If any dispute arises over the interpretation, or the terms of this Consulting Agreement or any matter arising from it, the parties may try to resolve such dispute through negotiation in good faith.
+
+[[A0051]]
+Consultant agrees that the state and federal courts located in the State of Illinois shall have jurisdiction in any action, suit, or proceeding against Consultant based on or arising out of this Consulting Agreement, and Consultant hereby: (i) submits to the personal jurisdiction of such courts; (ii) consents to service of process in connection with any action, suit, or proceeding against Consultant; and (iii) waives any other requirement (whether imposed by statute, rule of court, or otherwise) with respect to personal jurisdiction, venue, or service of process.
+
+[[A0052]]
+b.
+Breach
+. If Consultant breaches any of the provisions of this Consulting Agreement, then the Company may, at its sole option, immediately terminate any payments described in this Consulting Agreement and obtain reimbursement from Consultant of all payments already provided, plus any expenses and damages incurred as a result of the breach (including, without limitation, reasonable attorneys’ fees) of this Consulting Agreement, and all promises and covenants herein, remaining in full force and effect.
+
+[[A0053]]
+Consultant acknowledges and agrees that the remedy at law available to the Company for breach by Consultant of any of Consultant’s obligations under
+Section 2
+of this Consulting Agreement would be inadequate and that damages flowing from such a breach would not readily be susceptible to being measured in monetary terms.
+
+[[A0054]]
+Accordingly, Consultant acknowledges, consents, and agrees that, in addition to any other rights or remedies which the Company may have at law, in equity, or under this Consulting Agreement, upon adequate proof of Consultant’s violation of any provision of this Consulting Agreement, the Company shall be entitled to immediate injunctive relief and may obtain a temporary order restraining any threatened or further breach, without the necessity of proof of actual damage.
+
+[[A0055]]
+c.
+Assignability
+. Except as otherwise provided in this Consulting Agreement, Consultant may not assign, sell, or delegate any of its rights under this Consulting Agreement.
+
+[[A0056]]
+d.
+Entire Agreement
+. This Consulting Agreement constitutes the entire Consulting Agreement between the parties with respect to the subject matter of this Consulting Agreement and
+​
+​
+​
+supersedes all prior written and oral agreements between the parties regarding the subject matter of this Consulting Agreement.
+
+[[A0057]]
+e.
+Headings
+. Headings are used in this Consulting Agreement for reference only and shall not be considered when interpreting this Consulting Agreement.
+
+[[A0058]]
+f.
+Notices
+. Any notice or other communication required or permitted by this Consulting Agreement to be given to a party shall be in writing and shall be deemed given if delivered personally or by commercial messenger or courier service, or mailed by U.S. registered or certified mail (return receipt requested), to the party at the party’s address written below or at such other address as the party may have previously specified by like notice.
+
+[[A0059]]
+If by mail, delivery shall be deemed effective three (3) business days after mailing in accordance with this
+Section 9.f
+.
+i.
+If to the Company, to:
+Carl Wolf
+Chief Operating Officer
+LanzaTech NZ, Inc.
+8045 Lamon Avenue, Suite 400
+Skokie, IL 60077
+ii.
+
+[[A0060]]
+If to Consultant, to the address for notice on the signature page to this Consulting Agreement or, if no such address is provided, to the last address of Consultant provided by Consultant to the Company.
+
+[[A0061]]
+g.
+Attorneys’ Fees
+. In any court action at law or equity that is brought by one of the parties to this Consulting Agreement to enforce or interpret the provisions of this Consulting Agreement, the prevailing party will be entitled to reasonable attorneys’ fees, in addition to any other relief to which that party may be entitled.
+
+[[A0062]]
+h.
+Severability
+. If any provision of this Consulting Agreement is found to be illegal or unenforceable, the other provisions shall remain effective and enforceable to the greatest extent permitted by law.
+(
+signature page follows
+)
+​
+​
+​
+​
+IN WITNESS WHEREOF, the parties hereto have executed this Consulting Agreement as of the date first written above.
+
+[[A0063]]
+[[TABLE]]
+| ​ | ​ | ​ | ​ | ​ |
+| --- | --- | --- | --- | --- |
+| CONSULTANT | | LANZATECH NZ, INC. | | |
+| ​ | ​ | ​ | | |
+| By: | /s/ Sean Simpson | ​ | By: | /s/ Jennifer Holmgren |
+| ​ | ​ | ​ | | |
+| Name: | Sean Simpson | ​ | Name: | Dr. Jennifer Holmgren |
+| ​ | ​ | ​ | | |
+| Title: | Consultant | ​ | Title: | Chief Executive Officer |
+| ​ | ​ | ​ | | |
+| Date: | January 2, 2023 | ​ | Date: | January 2, 2023 |
+| ​ | ​ | ​ | ​ | |
+| Address for Notice | ​ | ​ | | |
+| [***] | ​ | ​ | | |
+| ​ | ​ | ​ | | |
+| ​ | ​ | ​ | | |
+[[/TABLE]]
+
+[[A0064]]
+​ [Signature page to LanzaTech NZ, Inc. Individual Consulting Agreement ] ​ ​ ​ Schedule A Services and Compensation 1. Services . The Services shall include, but shall not be limited to, the following: Consultant shall assist with the research and business development in relation to project P1204.
+
+[[A0065]]
+In addition, Consultant shall advise the Board and/or the Chief Executive Officer from time to time. 2. Compensation . The Company will pay Consultant $41,666.67 per month for so long as the Consulting Agreement has not been terminated pursuant to Section 6.b . 3. Expense Reimbursement . The Company will reimburse Consultant only for reasonable expenses related exclusively to the Services provided to the Company.
+
+[[A0066]]
+Consultant shall submit to the Company a written invoice for expenses with supporting documentation, and such statement shall be subject to the approval of the contact person listed above under Section 9.f.i or other designated representative of the Company and any other expense reimbursement policy or guidelines of the Company that may be in effect from time to time.
+
+[[A0067]]
+Without limiting the forgoing, the Company will cover Consultant’s air travel only if such travel is at the request of the Company and related to the Services, and the Company shall book such travel on behalf of Consultant in accordance with its policies and procedures then in effect. 4. Payment terms . The Company shall pay invoices on or before the thirtieth (30 th ) day after receipt by the Company of an invoice from Consultant setting out the amounts then owing. ​ ​ ​ Schedule B ​ Previous Inventions ​
