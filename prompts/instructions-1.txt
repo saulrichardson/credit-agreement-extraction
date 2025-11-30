@@ -1,0 +1,603 @@
+Everything below is “when you see X in the agreement, you must put Y into JSON”.
+
+---
+
+## 1. Preparation: read & mark
+
+1. Read the **entire agreement** once.
+2. As you go, mark (highlight, note, or tag) every place that describes any of the following:
+
+   * A **facility or loan** (commitment amount, term loan, LC line, swingline, etc.).
+   * How **interest** is calculated (reference rate, margin, floors).
+   * Any **fee** (commitment/unused, utilisation, LC, fronting, upfront, ticking, amendment, etc.).
+   * Any defined **ratio / metric / event** that changes pricing (leverage ratio, utilisation %, rating levels, days since signing/closing, covenant breach, default, IPO, etc.).
+   * Any **table or schedule** where pricing changes by band (grids/ratchets).
+   * Any **if X then pricing changes** clauses (step‑ups/step‑downs, MFN, waivers, temporary pricing).
+
+You will use only these marked parts to build the JSON.
+
+* Input: the analyst gets the **full credit agreement** (and any amendments).
+* Output: one JSON object with this shape (arrays may be empty but must exist):
+
+```jsonc
+{
+  "agreement_id": "",
+  "version": "",
+  "effective_from": "",
+  "effective_to": null,
+  "base_currency": "",
+
+  "indexes": [],
+  "metrics": [],
+  "facilities": [],
+  "rate_options": [],
+  "pricing_grids": [],
+  "pricing_components": [],
+  "rules": [],
+  "overrides": []
+}
+```
+
+---
+
+## 2. Agreement header
+
+**You must always do this.**
+
+Fill these fields from the front of the agreement:
+
+* `agreement_id`: internal ID you assign (e.g. `"AGR_ACME_2025"`).
+* `version`: `"1.0"` for the original; increment if encoding amendments.
+* `effective_from`: signing / effective date in `YYYY-MM-DD`.
+* `effective_to`: `null` unless this version is superseded.
+* `base_currency`: the main currency of the deal (typically the currency of the RCF).
+
+```jsonc
+{
+  "agreement_id": "AGR_ACME_2025",
+  "version": "1.0",
+  "effective_from": "2025-01-15",
+  "effective_to": null,
+  "base_currency": "USD",
+
+  "indexes": [],
+  "metrics": [],
+  "facilities": [],
+  "rate_options": [],
+  "pricing_grids": [],
+  "pricing_components": [],
+  "rules": [],
+  "overrides": []
+}
+```
+
+---
+
+## 3. Facilities
+
+**Whenever the agreement describes a distinct credit line or loan, you must create one facility.**
+
+A “facility” is anything with its own:
+
+* Amount (commitment or original principal), and
+* Purpose / type (revolver, term loan, LC line, swingline, bridge, etc.).
+
+For **each facility**, you must add an object to `facilities` with:
+
+* `facility_id`: your stable ID (e.g. `"RCF_USD"`, `"TLB1_USD"`, `"LC_FAC"`).
+* `name`: copy the deal’s label (“Revolving Credit Facility”, etc.).
+* `type`: choose one of:
+
+  * `"revolving"`, `"term_loan"`, `"lc"`, `"swingline"`, `"bridge"`, `"capex"`, `"other"`.
+* `base_currency`: the currency used for the commitment.
+* Either `limit` (for revolving/LC) or `original_amount` (for term loans).
+* `maturity_date` if stated.
+
+If the agreement creates a **sublimit or sub‑facility with distinct pricing or exposure** (e.g. an LC sublimit under the RCF), you must:
+
+* Create a separate facility for it.
+* Set `parent_facility_id` to the main facility’s ID.
+
+Example:
+
+```jsonc
+"facilities": [
+  {
+    "facility_id": "RCF_USD",
+    "name": "USD Revolving Credit Facility",
+    "type": "revolving",
+    "base_currency": "USD",
+    "limit": 250000000,
+    "maturity_date": "2030-01-15"
+  },
+  {
+    "facility_id": "TLB_USD",
+    "name": "Term Loan B",
+    "type": "term_loan",
+    "base_currency": "USD",
+    "original_amount": 500000000,
+    "maturity_date": "2031-01-15"
+  },
+  {
+    "facility_id": "LC_SUBLIMIT",
+    "name": "LC Sublimit under RCF",
+    "type": "lc",
+    "base_currency": "USD",
+    "limit": 50000000,
+    "parent_facility_id": "RCF_USD"
+  }
+]
+```
+
+**Rule:** If something can have its own drawn/undrawn/LC balances or different pricing, treat it as a separate facility.
+
+---
+
+## 4. Interest indexes
+
+**Every distinct reference rate mentioned in interest calculations must become an index.**
+
+For each reference rate you see (SOFR, SONIA, EURIBOR, base rate, prime, fixed rate, etc.):
+
+1. Create a unique `index_id` (e.g. `"SOFR_1M"`, `"BASE_RATE_USD"`).
+2. Record:
+
+   * `type` (e.g. `"SOFR"`, `"BASE_RATE"`, `"EURIBOR"`, `"FIXED"`).
+   * `currency` when relevant.
+   * `tenor` if specified (e.g. `"1M"`, `"3M"`).
+   * `day_count` (copy the day‑count convention).
+
+Example:
+
+```jsonc
+"indexes": [
+  {
+    "index_id": "SOFR_1M",
+    "type": "SOFR",
+    "currency": "USD",
+    "tenor": "1M",
+    "day_count": "ACT/360"
+  },
+  {
+    "index_id": "BASE_RATE_USD",
+    "type": "BASE_RATE",
+    "currency": "USD",
+    "day_count": "ACT/365"
+  }
+]
+```
+
+**Rule:** If a rate is ever used in the calculation of interest, you must have an `index` entry for it.
+
+---
+
+## 5. Metrics (things that drive pricing)
+
+**Any concept that appears on a pricing grid or in a conditional pricing clause must be represented as a metric.**
+
+Typical metrics:
+
+* Leverage ratios (e.g. “Total Net Leverage Ratio”)
+* Utilisation %
+* Rating‑based scores (internal or from agencies)
+* Time‑based metrics (e.g. days since signing/closing)
+* Boolean flags (covenant breach, event of default, IPO occurred, etc.)
+
+For **each such concept**, you must add an object to `metrics`:
+
+* `metric_id`: consistent snake_case ID (e.g. `"total_net_leverage"`).
+* `type`: `"number"`, `"boolean"`, or `"rating_level"`.
+* `source`:
+
+  * `"runtime_input"` if supplied from outside (e.g. borrower‑reported leverage).
+  * `"calculated"` if derived from other metrics.
+* `description`: short text matching the legal definition.
+
+Examples:
+
+```jsonc
+"metrics": [
+  {
+    "metric_id": "total_net_leverage",
+    "type": "number",
+    "source": "runtime_input",
+    "description": "Total Net Leverage Ratio as defined in the Agreement."
+  },
+  {
+    "metric_id": "facility_utilisation_pct",
+    "type": "number",
+    "source": "calculated",
+    "description": "Facility utilisation (drawn / commitment)."
+  },
+  {
+    "metric_id": "issuer_rating_score",
+    "type": "rating_level",
+    "source": "runtime_input",
+    "description": "Unified numeric rating based on external ratings."
+  },
+  {
+    "metric_id": "days_since_closing",
+    "type": "number",
+    "source": "calculated",
+    "description": "Number of days between as_of_date and Closing Date."
+  },
+  {
+    "metric_id": "state.covenant_breach",
+    "type": "boolean",
+    "source": "runtime_input",
+    "description": "True while a Financial Covenant Default is continuing."
+  }
+]
+```
+
+**Rules:**
+
+* If a ratio/flag/event is **ever** referenced in a margin/fee grid or an “if pricing = …” clause, you **must** give it a `metric_id`.
+* Do **not** create metrics for concepts that never affect pricing.
+
+---
+
+## 6. Rate options (SOFR vs base rate, etc.)
+
+**Any interest rate “choice” a borrower can make must be encoded as a rate option.**
+
+A rate option is a combination of:
+
+* A facility
+* An index
+* Base margin and floor (before grid/rules)
+* Payment frequency
+
+For each combination the agreement allows (e.g. “SOFR Loans” / “Base Rate Loans” for the RCF):
+
+1. Create an `option_id` (e.g. `"RCF_SOFR"`, `"RCF_BASE"`).
+2. Set `facility_ids` to the facilities this option applies to.
+3. Set `index_ref` to one of the `index_id`s you created.
+4. Set `payment_frequency` and `day_count`.
+5. If the agreement has a headline margin before grids, set `base_margin_bps` to that value in basis points (1.75% → 175). If all margins are purely grid‑based, set `base_margin_bps` to the lowest band’s margin.
+
+Example:
+
+```jsonc
+"rate_options": [
+  {
+    "option_id": "RCF_SOFR",
+    "facility_ids": ["RCF_USD"],
+    "index_ref": "SOFR_1M",
+    "base_margin_bps": 200,
+    "rate_floor_bps": 100,
+    "payment_frequency": "quarterly",
+    "day_count": "ACT/360",
+    "selection_field": "rate_option",
+    "selection_value": "SOFR"
+  },
+  {
+    "option_id": "RCF_BASE",
+    "facility_ids": ["RCF_USD"],
+    "index_ref": "BASE_RATE_USD",
+    "base_margin_bps": 100,
+    "payment_frequency": "quarterly",
+    "day_count": "ACT/365",
+    "selection_field": "rate_option",
+    "selection_value": "BASE"
+  }
+]
+```
+
+**Rule:** if the agreement names a loan type with its own reference rate and margin, you must create a `rate_option` for it.
+
+---
+
+## 7. Pricing grids (tables / ratchets)
+
+**Every table or schedule that maps a metric to different margins/fees must be translated into a pricing grid.**
+
+For each such table:
+
+1. Decide which `metric_id` it uses (e.g. `total_net_leverage`, `issuer_rating_score`, `facility_utilisation_pct`, `days_since_closing`).
+2. Give the grid a unique `grid_id` (e.g. `"lev_grid_rcf"`, `"rating_grid_tlb"`).
+3. For each row/band in the table:
+
+   * Convert bounds into numeric ranges.
+   * For “≤ 2.50x” use `min_inclusive = 0`, `max_exclusive = 2.5`.
+   * For “> 2.50x ≤ 3.50x” use `min_inclusive = 2.5`, `max_exclusive = 3.5`.
+4. For each row, create a `values` object with *all* numbers that change (e.g. `margin_bps`, `commitment_fee_bps`, `lc_fee_bps`).
+
+Example (leverage grid for RCF):
+
+```jsonc
+"pricing_grids": [
+  {
+    "grid_id": "lev_grid_rcf",
+    "metric_ref": "total_net_leverage",
+    "bands": [
+      {
+        "band_id": "LEV_0_2_5",
+        "min_inclusive": 0.0,
+        "max_exclusive": 2.5,
+        "values": {
+          "margin_bps": 175,
+          "commitment_fee_bps": 25
+        }
+      },
+      {
+        "band_id": "LEV_2_5_3_5",
+        "min_inclusive": 2.5,
+        "max_exclusive": 3.5,
+        "values": {
+          "margin_bps": 200,
+          "commitment_fee_bps": 37.5
+        }
+      },
+      {
+        "band_id": "LEV_3_5_PLUS",
+        "min_inclusive": 3.5,
+        "max_exclusive": 999.0,
+        "values": {
+          "margin_bps": 225,
+          "commitment_fee_bps": 50
+        }
+      }
+    ]
+  }
+]
+```
+
+For **rating grids**, you must:
+
+* Use the rating metric (e.g. `issuer_rating_score`).
+* Express “AA- / Aa3 or better” as a numeric lower bound on that metric (e.g. `min_level_inclusive = 18`).
+
+**Rules:**
+
+* Use a **single grid** whenever one metric drives multiple numbers (e.g. both margin and commitment fee). Put all those numbers in `values`.
+* Store all percentages as **basis points** (1.75% → 175).
+
+---
+
+## 8. Pricing components (everything the borrower pays)
+
+**Every margin and every fee in the agreement must be represented as a pricing component.**
+
+For each pricing item you marked in step 1, you must create one component in `pricing_components`.
+
+For each component, you must decide:
+
+* `component_id`: stable ID (e.g. `"RCF_SOFR_MARGIN"`, `"RCF_COMMITMENT_FEE"`).
+* `category`: choose from:
+
+  * `"interest_margin"`, `"commitment_fee"`, `"utilisation_fee"`, `"lc_fee"`,
+    `"upfront_fee"`, `"arrangement_fee"`, `"ticking_fee"`, `"amendment_fee"`, `"other"`.
+* `scope`: the facilities (and rate options) this component applies to:
+
+  * Always include `facility_ids`.
+  * If it only applies to some rate options, also include `rate_option_ids`.
+* `basis`: what it’s applied to:
+
+  * `"drawn"`, `"undrawn"`, `"facility_limit"`, `"lc_outstandings"`, `"flat"`.
+* `unit`: one of:
+
+  * `"bps_per_annum"` (for recurring margins/fees),
+  * `"percent_flat"` (one‑time % of commitment/loan),
+  * `"amount_flat"` (fixed currency amount).
+* Either:
+
+  * `base_value_bps` / `base_value_percentage` / `base_value_amount`, or
+  * a `grid` binding that fully determines the value.
+
+### 8.1 Interest margins
+
+For each pair (facility, rate_option) that has its own margin behaviour:
+
+```jsonc
+{
+  "component_id": "RCF_SOFR_MARGIN",
+  "category": "interest_margin",
+  "scope": {
+    "facility_ids": ["RCF_USD"],
+    "rate_option_ids": ["RCF_SOFR"]
+  },
+  "basis": "drawn",
+  "unit": "bps_per_annum",
+  "base_value_bps": 200,
+  "grid": {
+    "grid_id": "lev_grid_rcf",
+    "value_key": "margin_bps",
+    "mode": "override"
+  }
+}
+```
+
+### 8.2 Commitment / unused fees
+
+```jsonc
+{
+  "component_id": "RCF_COMMITMENT_FEE",
+  "category": "commitment_fee",
+  "scope": { "facility_ids": ["RCF_USD"] },
+  "basis": "undrawn",
+  "unit": "bps_per_annum",
+  "base_value_bps": 25,
+  "grid": {
+    "grid_id": "lev_grid_rcf",
+    "value_key": "commitment_fee_bps",
+    "mode": "override"
+  }
+}
+```
+
+### 8.3 Utilisation fees
+
+If the agreement charges an additional fee based on utilisation:
+
+* `category`: `"utilisation_fee"`
+* `basis`: usually `"drawn"`
+* Bind to a utilisation grid if present.
+
+### 8.4 LC fees, upfront, arrangement, ticking, etc.
+
+Follow this mapping:
+
+| Legal concept                            | category        | basis           | unit          |
+| ---------------------------------------- | --------------- | --------------- | ------------- |
+| Applicable Margin on loans               | interest_margin | drawn           | bps_per_annum |
+| Commitment / Unused Fee                  | commitment_fee  | undrawn         | bps_per_annum |
+| Utilisation fee (extra spread by % used) | utilisation_fee | drawn           | bps_per_annum |
+| LC participation fee                     | lc_fee          | lc_outstandings | bps_per_annum |
+| Upfront / Arrangement fee (% of commit)  | arrangement_fee | facility_limit  | percent_flat  |
+| Ticking fee on undrawn                   | ticking_fee     | undrawn         | bps_per_annum |
+| Amendment fee (flat amount)              | amendment_fee   | flat            | amount_flat   |
+
+**Rules:**
+
+* Every recurring pricing item must be a component with `unit = bps_per_annum`.
+* Every one‑time pricing item must be a component with `unit = percent_flat` or `amount_flat`.
+* If a grid sets different values by band, you must bind that grid using `grid_id` and `value_key`.
+
+---
+
+## 9. Rules (conditional pricing changes)
+
+**Any “if X then margin/fee changes” clause that is not already covered by a grid must be encoded as a rule.**
+
+For each such clause you’ve marked:
+
+1. Decide **which components** it affects (scope).
+2. Identify the **condition** in terms of metrics (e.g. `state.covenant_breach`, `days_since_closing`, `issuer_rating_score`).
+3. Decide the **effect**:
+
+   * Add a margin? (`add_bps`)
+   * Set margin to a value? (`set_bps`)
+   * Cap relative to something (MFN)? (`cap_relative_to_metric`)
+   * Floor/cap in absolute terms? (`cap_at_bps`, `floor_at_bps`)
+
+Example – covenant breach step‑up:
+
+```jsonc
+{
+  "rule_id": "COVENANT_BREACH_STEPUP",
+  "scope": {
+    "categories": ["interest_margin"]
+  },
+  "condition": {
+    "all_of": [
+      { "metric_ref": "state.covenant_breach", "operator": "==", "value": true }
+    ]
+  },
+  "effect": {
+    "operation": "add_bps",
+    "value_bps": 200
+  },
+  "description": "Margin increases by 200 bps during any Financial Covenant Default."
+}
+```
+
+Example – ticking fee:
+
+```jsonc
+{
+  "rule_id": "TICKING_FEE_POST_60DAYS",
+  "scope": {
+    "component_ids": ["RCF_COMMITMENT_FEE"]
+  },
+  "condition": {
+    "all_of": [
+      { "metric_ref": "days_since_closing", "operator": ">=", "value": 60 },
+      { "metric_ref": "state.deal_closed", "operator": "==", "value": false }
+    ]
+  },
+  "effect": {
+    "operation": "set_bps",
+    "value_bps": 25
+  },
+  "description": "Ticking fee of 25 bps on undrawn after 60 days if closing has not occurred."
+}
+```
+
+Example – MFN cap for incremental:
+
+```jsonc
+{
+  "rule_id": "INCREMENTAL_MFN",
+  "scope": {
+    "facility_ids": ["INCR_USD"],
+    "categories": ["interest_margin"]
+  },
+  "condition": { "all_of": [] },
+  "effect": {
+    "operation": "cap_relative_to_metric",
+    "reference_metric": "existing_facility_margin_bps",
+    "offset_bps": 50
+  },
+  "description": "Incremental margin cannot exceed existing margin by more than 50 bps."
+}
+```
+
+**Rules:**
+
+* If a clause only changes the **grid** (e.g. replaces one band table with another at a certain date), encode that as a new grid with different `effective_from`/`effective_to`, or as a rule that selects grids.
+* Otherwise, encode it as a rule modifying the affected components.
+
+---
+
+## 10. Overrides (rare, explicit manual patches)
+
+Use `overrides` **only** when:
+
+* There is a short-lived, known manual adjustment not worth formalizing as a rule, **and**
+* You know the exact date range and value.
+
+Example:
+
+```jsonc
+"overrides": [
+  {
+    "override_id": "TEMP_MARGIN_JULY_2025",
+    "facility_id": "RCF_USD",
+    "category": "interest_margin",
+    "date_from": "2025-07-01",
+    "date_to": "2025-07-31",
+    "value_bps": 190,
+    "reason": "Temporary margin reduction agreed in side letter dated 2025-06-25."
+  }
+]
+```
+
+If the agreement clearly states a rule or schedule, **do not** use overrides – encode it properly as a grid or rule.
+
+---
+
+## 11. Final QA checklist for the analyst
+
+Before you hand off the JSON, you must be able to answer “yes” to all of:
+
+1. **Facilities**
+
+   * [ ] Every commitment/loan/LC/swingline mentioned is represented as a facility.
+   * [ ] Sub‑limits with distinct pricing/exposure have their own facility entries.
+
+2. **Indexes & rate options**
+
+   * [ ] Every reference rate used in interest calculations has an entry in `indexes`.
+   * [ ] Every loan type the borrower can elect has a corresponding `rate_option`.
+
+3. **Metrics & grids**
+
+   * [ ] Every ratio, utilisation %, rating threshold, time‑based trigger that affects pricing has a `metric_id`.
+   * [ ] Every pricing table/ratchet in the agreement is represented as exactly one `pricing_grid`.
+   * [ ] All band boundaries and values match the legal wording (including “≤” vs “>”).
+
+4. **Components**
+
+   * [ ] For each facility, all recurring pricing items (margins, commitment/unused, utilisation, LC, ticking) have components with correct `category`, `basis`, and `unit`.
+   * [ ] All one‑off fees (upfront, arrangement, amendment) have components with `unit = percent_flat` or `amount_flat`.
+   * [ ] Components that depend on grids are bound to the correct `grid_id` and `value_key`.
+
+5. **Rules**
+
+   * [ ] Every conditional “if X then pricing changes” clause is represented as a rule with clear `scope`, `condition`, and `effect`.
+   * [ ] MFN protections and special cases are included.
+
+6. **Overrides**
+
+   * [ ] Overrides are only used for explicit, short‑term manual adjustments and include a clear `reason`.

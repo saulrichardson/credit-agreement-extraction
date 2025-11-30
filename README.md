@@ -37,3 +37,8 @@ runs/<run_id>/
 
 ## Status
 LLM calls are stubbed; plug your client into `pipeline/indexing.py` and `pipeline/structured.py` (llm_qa stage). Errors surface early to avoid silent failures.
+
+## Gateway-powered indexing (optional)
+- The repo now vendors the lightweight [agent-gateway](agent-gateway) as a git submodule. After cloning run `git submodule update --init --recursive`, then start it with your keys (`cd agent-gateway && make serve`) so the pipeline can call `/v1/responses`.
+- Run indexing with a model to enable LLM anchor selection: `pipeline index --run-id demo --prompt prompts/prompt_all_comprehensive_v2.txt --model openai:gpt-4o-mini --gateway-url http://127.0.0.1:8000`. If `--model` is omitted, the pipeline keeps all heuristic anchors. When a model is provided, the run now FAILS if the gateway is unreachable or returns zero anchors (no silent fallback). `--max-anchors` has been removed; all anchors are sent.
+- Outputs land in `runs/<run_id>/indexing/{item_id}_anchors.json`, which retrieval consumes.

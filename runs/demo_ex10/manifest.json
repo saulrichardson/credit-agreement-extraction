@@ -2465,5 +2465,7 @@
     "0001387131-23-000022_2": "runs/demo_ex10/prompt_views/0001387131-23-000022_2/prompt_view.txt",
     "0001387131-23-000022_3": "runs/demo_ex10/prompt_views/0001387131-23-000022_3/prompt_view.txt",
     "0001140361-23-000236_2": "runs/demo_ex10/prompt_views/0001140361-23-000236_2/prompt_view.txt"
-  }
+  },
+  "indexing_prompt": "prompts/prompt_all_comprehensive_v2.txt",
+  "indexing_prompt_sha256": "17bfb65803eea5b97f982e7938f14dcc8b866c9b5787e889345a538be8952696"
 }

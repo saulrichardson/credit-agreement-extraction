@@ -16,6 +16,7 @@ click = ">=8.1"
 beautifulsoup4 = ">=4.12"
 lxml = ">=5.2"
 PyYAML = ">=6.0"
+httpx = ">=0.28.1"
 
 [tool.poetry.group.dev.dependencies]
 black = ">=24.0"

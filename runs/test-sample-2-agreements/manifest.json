@@ -481,5 +481,9 @@
     "0000950117-96-000184_5": "runs/test-sample-2-agreements/normalized/0000950117-96-000184_5/prompt_view.txt",
     "0000906318-96-000011_6": "runs/test-sample-2-agreements/normalized/0000906318-96-000011_6/prompt_view.txt",
     "0000950134-96-000714_4": "runs/test-sample-2-agreements/normalized/0000950134-96-000714_4/prompt_view.txt"
-  }
+  },
+  "indexing_prompt": "prompts/prompt_all_comprehensive_v2.txt",
+  "indexing_prompt_sha256": "bb4258fe1a36d2a3fa014ad8dce8ca38c4ea74d1430c435a6c6bed7518979628",
+  "structured_prompt": "prompts/instructions-1.txt",
+  "structured_prompt_sha256": "d527c60960cf2f1c038e360a234f4cfdd3ff8bd0affdf79b0effa321a07569e3"
 }

@@ -17,5 +17,8 @@ tmp/
 logs/
 scratch/
 
+# Pipeline outputs
+runs/
+
 # Dev caches
 .pytest_cache/
