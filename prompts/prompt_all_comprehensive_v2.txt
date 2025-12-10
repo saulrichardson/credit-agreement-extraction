@@ -1,37 +1,88 @@
-You are reading a segment of a credit/loan agreement. Each line begins with an anchor.
+You are reading a segment of a credit/loan agreement.
+Each line begins with an anchor of the form `A####:` (for example, `A0001:`).
+When you answer, use these **exact** anchor IDs (e.g., `"A0001"`) and do not invent or transform them.
 
-Classify anchors into three buckets. List anchors only when the quoted text itself contains the requested signal.
+Your task: **classify anchors into three buckets** based on what the *anchored text* is doing economically or structurally in the deal.
+Only include an anchor in a bucket if the text at that anchor clearly contains that type of signal.
 
-(1) Fundamental anchors — capture core deal mechanics:
-  • Effective/Closing dates and Maturity dates.
-  • Borrower, Guarantor, Lender, Administrative Agent, Collateral Agent names.
-  • Facility descriptions (type, amount/commitment, currency, purpose, borrowing mechanics, whether the facility is fixed vs. floating, references to SOFR/Base Rate elections, base-rate formulas, rate option descriptions).
-  • Any clause defining whether loans may be SOFR/Base Rate, or otherwise explaining how interest type is determined.
-  • Definitions immediately tied to those concepts (e.g., "Term Loan Commitment is $260,000,000" or "Term Loans may be Base Rate Loans or SOFR Loans").
+---
 
-(2) Pricing anchors — capture anything that determines economics:
-  • Applicable Margin tables, pricing grids, tier definitions, references to leverage/utilization metrics that drive rates.
-  • ALWAYS include any anchor whose text contains “Interest Rate”, “Applicable Margin”, “Floor Rate”, “Default Rate”, or a rate formula like “Index Rate + X.XX%” (even if not in a table).
-  • Any clause that defines “Interest Rate”, “Applicable Margin”, “Floor Rate” (or any rate floor), “Default Rate”, or gives a formula like “Index Rate + X.XX%” (include these even if not in a table).
-  • Base Rate / SOFR / benchmark formulas with numeric components, default-rate adders, interest rate floors, pricing level definitions, prepayment/call premiums, early termination fees, unused/commitment fees, upfront fees.
-  • If any row in a table contains a number, include the anchors for the entire table (header + rows).
-  • Do NOT down-select to a small set; include every anchor that fits these criteria (50+ pricing anchors is OK).
+### (1) Fundamental anchors — core deal structure
 
-(3) Financial covenant anchors — capture maintenance tests or numeric limitations:
-  • Leverage, coverage, liquidity, EBITDA, capex, or similar tests with numeric thresholds or tables.
-  • Minimum cash, maximum leverage tables, ratio schedules, or any clause instructing to “not permit” a metric beyond a specific level.
+Include anchors whose text expresses the **basic mechanics and identity of the deal**, such as:
 
-Rules:
-  • Omit baskets, qualitative covenants, or other provisions with no numeric test.
-  • Do not duplicate an anchor across buckets unless the text truly covers both (rare).
-  • Output unique anchors per bucket ordered as they appear in the document.
+* Key dates: effective date, closing date, maturity date.
+* Parties: Borrower, Guarantor(s), Lender(s), Administrative Agent, Collateral Agent.
+* Facility-level terms:
 
-Return JSON only:
+  * Type of facility (e.g., term loan, revolving facility, delayed draw).
+  * Commitment / amount and currency.
+  * Purpose / use of proceeds.
+  * High-level borrowing mechanics or draw mechanics.
+* Interest-type structure:
+
+  * Whether loans may be SOFR/Base Rate (or other benchmark) and how the interest type is selected.
+  * Definitions or clauses that directly tie to these concepts (e.g., “Term Loans may be Base Rate Loans or SOFR Loans” or “Term Loan Commitment is $260,000,000”).
+
+Think of this bucket as **“who, what, when, and basic how of the facility.”**
+
+---
+
+### (2) Pricing anchors — economics of the deal
+
+Include anchors whose text defines or directly affects **interest, fees, or other economic terms**, such as:
+
+* Any definition or clause that sets **interest rates, spreads, margins, floors, or default-rate adders**, including:
+
+  * “Interest Rate”, “Applicable Margin”, “Floor Rate”, “Default Rate”, or similar.
+  * Formulas like “Base Rate + X.XX%”, “SOFR + X.XX%”, or other index-plus-spread structures.
+* Pricing grids and tables (e.g., leverage-based or utilization-based grids) and their tier definitions.
+* Definitions or clauses that specify:
+
+  * Rate options and benchmark formulas (SOFR/Base Rate or other benchmarks) when they include numeric components.
+  * Prepayment premiums, call protection, make-whole amounts.
+  * Early termination fees, unused/commitment fees, upfront/OID or similar fees.
+
+For tables: if a table is clearly about rate / fee levels and has numeric entries, **include the anchors for the entire table** (header plus rows).
+
+Think of this bucket as **“what the borrower pays and how pricing moves.”**
+
+---
+
+### (3) Financial covenant anchors — ongoing numeric tests/limits
+
+Include anchors whose text sets **quantitative, ongoing financial tests or limitations**, such as:
+
+* Maintenance covenants or tests on:
+
+  * Leverage, coverage, liquidity, EBITDA, interest coverage, fixed-charge coverage.
+  * Minimum cash or minimum liquidity requirements.
+  * Maximum leverage ratio, maximum secured leverage, etc.
+* Schedules or tables of financial ratios over time (e.g., maximum leverage ratio that steps down, minimum interest coverage ratios).
+* Clauses that explicitly say the borrower must **not permit** a metric to exceed or fall below a specified numeric threshold.
+
+Think of this bucket as **“numeric tests the borrower must satisfy over time.”**
+
+---
+
+### General rules
+
+* Only include anchors where the **text at that anchor** clearly contains the relevant signal (date, party, core facility term, economic term, or numeric covenant test). Do not infer from context outside that line unless the key concept is explicitly present.
+* Ignore purely qualitative covenants, baskets, or permissions **without numeric thresholds** (e.g., generic negative covenants, “material adverse effect” language, etc.) unless they clearly contain a financial ratio or specific numeric test.
+* Do **not** include the same anchor in more than one bucket unless the text genuinely serves both roles (this should be rare).
+* Within each bucket, include **all** relevant anchors (it is OK if there are many).
+
+---
+
+Return **JSON only** in this format, using the exact `A####` anchors as they appear in the document (without the colon):
+
+```json
 {
-  "fundamental_anchors": ["",""],
-  "pricing_anchors": ["s000456", ...],
-  "financial_covenant_anchors": ["s000789", ...]
+  "fundamental_anchors": ["A0001", "A0005"],
+  "pricing_anchors": ["A0010", "A0011"],
+  "financial_covenant_anchors": ["A0020", "A0021"]
 }
+```
 
 The document now follows below.
 
