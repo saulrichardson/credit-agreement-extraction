@@ -1,0 +1,30 @@
+Issue: Definitions pass missed leverage-ratio definitions in several exhibits
+
+What we ran
+- Prompt: vendor/edgar-covenants/prompts/prompt_definitions_first_pass_dg_v1.txt
+- Run: runs/pi/pi-toc-sample/
+- Output: runs/pi/pi-toc-sample/llm_qa/definitions_first_pass_dg_v1/*.txt (anchors only)
+
+Problem
+- The prompt expects anchors like [[sXXXXX]], but our anchors/snippets use [[A0001]] style. It returned mostly A-ids but missed key leverage-definition anchors in 4 of the 5 agreements that actually define a Leverage Ratio.
+
+Missed leverage definition anchors (explicit “Leverage Ratio means …” clauses)
+- 0001731122-23-000003_2: A1338
+- 0001193125-23-000306_2: A0539
+- 0000950134-96-000040_2: A0134
+- 0000950152-96-000050_2: A0597
+(Only 1 of 5 leverage definitions was captured.)
+
+Evidence examples
+- 0001140361-23-000246_8 (captured): anchor A1112 contains the Leverage Ratio test/definition.
+- 0001193125-23-000306_2 (missed): anchor A0539 covers the Leverage Ratio definition; not returned by the pass.
+
+Likely cause
+- ID mismatch and broad prompt: the model was asked for [[sXXXXX]] anchors; our data is [[A####]]. Some A anchors were returned, but the critical leverage definition anchors above were not selected.
+
+Impact
+- Downstream steps that rely on the definitions-first-pass output will not see leverage-ratio definitions for the four exhibits listed.
+
+Fix options
+- Re-run definitions with a prompt that accepts/uses A#### anchors and explicitly targets financial metric definitions (Leverage Ratio, Fixed Charge Coverage, Interest Coverage, EBITDA, etc.).
+- Alternatively, post-filter anchors by keyword (Leverage/coverage/EBITDA) and include those anchors before downstream passes.

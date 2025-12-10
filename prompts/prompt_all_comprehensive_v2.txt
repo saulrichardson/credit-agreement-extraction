@@ -1,4 +1,4 @@
-You are reading a segment of a credit/loan agreement. Each line begins with an anchor like [[s000123]].
+You are reading a segment of a credit/loan agreement. Each line begins with an anchor.
 
 Classify anchors into three buckets. List anchors only when the quoted text itself contains the requested signal.
 
@@ -11,8 +11,11 @@ Classify anchors into three buckets. List anchors only when the quoted text itse
 
 (2) Pricing anchors — capture anything that determines economics:
   • Applicable Margin tables, pricing grids, tier definitions, references to leverage/utilization metrics that drive rates.
+  • ALWAYS include any anchor whose text contains “Interest Rate”, “Applicable Margin”, “Floor Rate”, “Default Rate”, or a rate formula like “Index Rate + X.XX%” (even if not in a table).
+  • Any clause that defines “Interest Rate”, “Applicable Margin”, “Floor Rate” (or any rate floor), “Default Rate”, or gives a formula like “Index Rate + X.XX%” (include these even if not in a table).
   • Base Rate / SOFR / benchmark formulas with numeric components, default-rate adders, interest rate floors, pricing level definitions, prepayment/call premiums, early termination fees, unused/commitment fees, upfront fees.
   • If any row in a table contains a number, include the anchors for the entire table (header + rows).
+  • Do NOT down-select to a small set; include every anchor that fits these criteria (50+ pricing anchors is OK).
 
 (3) Financial covenant anchors — capture maintenance tests or numeric limitations:
   • Leverage, coverage, liquidity, EBITDA, capex, or similar tests with numeric thresholds or tables.
@@ -25,7 +28,7 @@ Rules:
 
 Return JSON only:
 {
-  "fundamental_anchors": ["s000123", ...],
+  "fundamental_anchors": ["",""],
   "pricing_anchors": ["s000456", ...],
   "financial_covenant_anchors": ["s000789", ...]
 }

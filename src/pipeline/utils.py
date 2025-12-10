@@ -51,13 +51,23 @@ def assert_exists(path: Path, message: str | None = None) -> Path:
 
 
 def prompt_view_path(paths: Paths, item_id: str) -> Path:
-    """Return the prompt_view.txt path, checking new normalized/ then legacy prompt_views/."""
+    """Return normalized text for an item.
+
+    Prefer canonical.txt (single source of truth); fall back to prompt_view.txt for older runs.
+    """
+
+    canonical = paths.normalized_dir / item_id / "canonical.txt"
+    if canonical.exists():
+        return canonical
+
     preferred = paths.normalized_dir / item_id / "prompt_view.txt"
     if preferred.exists():
         return preferred
+
     legacy = paths.legacy_prompt_views_dir / item_id / "prompt_view.txt"
     if legacy.exists():
         return legacy
+
     raise FileNotFoundError(
-        f"Missing prompt_view for {item_id}: checked {preferred} and {legacy}"
+        f"Missing normalized text for {item_id}: checked {canonical}, {preferred}, {legacy}"
     )

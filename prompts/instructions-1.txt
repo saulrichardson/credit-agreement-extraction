@@ -5,7 +5,7 @@ Everything below is “when you see X in the agreement, you must put Y into JSON
 ## 1. Preparation: read & mark
 
 1. Read the **entire agreement** once.
-2. As you go, mark (highlight, note, or tag) every place that describes any of the following:
+2. Be sure to focus on every place that describes any of the following:
 
    * A **facility or loan** (commitment amount, term loan, LC line, swingline, etc.).
    * How **interest** is calculated (reference rate, margin, floors).
@@ -14,9 +14,7 @@ Everything below is “when you see X in the agreement, you must put Y into JSON
    * Any **table or schedule** where pricing changes by band (grids/ratchets).
    * Any **if X then pricing changes** clauses (step‑ups/step‑downs, MFN, waivers, temporary pricing).
 
-You will use only these marked parts to build the JSON.
 
-* Input: the analyst gets the **full credit agreement** (and any amendments).
 * Output: one JSON object with this shape (arrays may be empty but must exist):
 
 ```jsonc

@@ -33,6 +33,8 @@ runs/<run_id>/
   validation/   # optional QA checks
   deliverables/ # final rollups
   manifest.json # filters, prompts, accessions, paths
+
+Tip: add `--namespace pi` (or any label) to pipeline commands to place artifacts under `runs/pi/<run_id>/`, keeping PI runs separate from your own without changing the core logic.
 ```
 
 ## Status
@@ -40,5 +42,6 @@ LLM calls are stubbed; plug your client into `pipeline/indexing.py` and `pipelin
 
 ## Gateway-powered indexing (optional)
 - The repo now vendors the lightweight [agent-gateway](agent-gateway) as a git submodule. After cloning run `git submodule update --init --recursive`, then start it with your keys (`cd agent-gateway && make serve`) so the pipeline can call `/v1/responses`.
-- Run indexing with a model to enable LLM anchor selection: `pipeline index --run-id demo --prompt prompts/prompt_all_comprehensive_v2.txt --model openai:gpt-4o-mini --gateway-url http://127.0.0.1:8000`. If `--model` is omitted, the pipeline keeps all heuristic anchors. When a model is provided, the run now FAILS if the gateway is unreachable or returns zero anchors (no silent fallback). `--max-anchors` has been removed; all anchors are sent.
+- Model policy (enforced): all gateway calls use `openai:gpt-5-nano` with `reasoning=medium`. CLI flags/environment won’t override this.
+- Run indexing to enable LLM anchor selection: `pipeline index --run-id demo --prompt prompts/prompt_all_comprehensive_v2.txt --gateway-url http://127.0.0.1:8000`. The run fails fast if the gateway is unreachable or returns zero anchors. `--max-anchors` has been removed; all anchors are sent.
 - Outputs land in `runs/<run_id>/indexing/{item_id}_anchors.json`, which retrieval consumes.

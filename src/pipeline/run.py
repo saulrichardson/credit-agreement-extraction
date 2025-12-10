@@ -5,7 +5,7 @@ from typing import Optional
 
 import click
 
-from .config import FilterSpec, RunConfig
+from .config import FilterSpec, RunConfig, REQUIRED_MODEL, REQUIRED_REASONING
 from .filters import load_filter_spec, load_doc_filter
 from .ingest import ingest_tarballs
 from .normalize import build_prompt_views
@@ -17,15 +17,21 @@ from .utils import load_manifest, manifest_items, read_accessions_file
 from .run_id import validate_run_id
 
 
-def resolve_run_config(run_id: str, base_dir: str, workers: int, bandwidth: int) -> RunConfig:
+def resolve_run_config(run_id: str, base_dir: str, workers: int, bandwidth: int, namespace: str | None) -> RunConfig:
     # Validate even when called programmatically (outside Click).
     run_id_validated = validate_run_id(None, None, run_id)
-    return RunConfig(run_id=run_id_validated, base_dir=Path(base_dir), workers=workers, bandwidth=bandwidth)
+    return RunConfig(
+        run_id=run_id_validated,
+        base_dir=Path(base_dir),
+        workers=workers,
+        bandwidth=bandwidth,
+        namespace=namespace,
+    )
 
 
-def _resolve_paths(run_id: str, base_dir: str, bandwidth: int) -> RunConfig:
+def _resolve_paths(run_id: str, base_dir: str, bandwidth: int, namespace: str | None) -> RunConfig:
     """Convenience helper to construct RunConfig and paths in one place."""
-    return resolve_run_config(run_id, base_dir, workers=4, bandwidth=bandwidth)
+    return resolve_run_config(run_id, base_dir, workers=4, bandwidth=bandwidth, namespace=namespace)
 
 
 def _load_accessions_and_filters(filters_path: Optional[str], accessions_file: Optional[str]):
@@ -72,9 +78,16 @@ def cli():
     is_flag=True,
     help="Allow reusing an existing run directory/manifest instead of failing fast.",
 )
-def ingest(run_id: str, tarball, filters_path: Optional[str], accessions_file: Optional[str], base_dir: str, resume: bool):
+@click.option(
+    "--namespace",
+    "--ns",
+    "namespace",
+    default=None,
+    help="Optional namespace under runs/ for grouping run directories (e.g., 'pi').",
+)
+def ingest(run_id: str, tarball, filters_path: Optional[str], accessions_file: Optional[str], base_dir: str, resume: bool, namespace: str | None):
     """Extract EX-10 HTMLs for selected accessions from tarballs."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
+    rc = _resolve_paths(run_id, base_dir, bandwidth=4, namespace=namespace)
     paths = rc.paths()
 
     if paths.manifest_path.exists() and not resume:
@@ -92,9 +105,16 @@ def ingest(run_id: str, tarball, filters_path: Optional[str], accessions_file: O
 @cli.command()
 @click.option("--run-id", required=True, callback=validate_run_id)
 @click.option("--base-dir", default=".", show_default=True)
-def normalize(run_id: str, base_dir: str):
+@click.option(
+    "--namespace",
+    "--ns",
+    "namespace",
+    default=None,
+    help="Optional namespace under runs/ for grouping run directories (e.g., 'pi').",
+)
+def normalize(run_id: str, base_dir: str, namespace: str | None):
     """Build prompt views from ingested HTML."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
+    rc = _resolve_paths(run_id, base_dir, bandwidth=4, namespace=namespace)
     paths = rc.paths()
     manifest = load_manifest(paths.manifest_path)
     items = manifest_items(manifest)
@@ -108,16 +128,18 @@ def normalize(run_id: str, base_dir: str):
 @click.option("--base-dir", default=".", show_default=True)
 @click.option(
     "--model",
-    default=None,
-    help="Gateway model (e.g., openai:gpt-4o-mini). When omitted, keeps all anchors without LLM.",
+    default=REQUIRED_MODEL,
+    show_default=True,
+    help="Gateway model (enforced).",
 )
 @click.option("--gateway-url", default=None, help="Gateway base URL; defaults to $GATEWAY_URL.")
 @click.option("--temperature", default=0.0, show_default=True, type=float)
 @click.option(
     "--reasoning",
-    default=None,
+    default=REQUIRED_REASONING,
     type=click.Choice(["light", "medium", "heavy"], case_sensitive=False),
-    help="Pass reasoning effort to the gateway (if supported by the provider).",
+    show_default=True,
+    help="Reasoning effort (enforced).",
 )
 @click.option(
     "--gateway-timeout",
@@ -133,9 +155,16 @@ def normalize(run_id: str, base_dir: str):
     type=int,
     help="Number of parallel gateway calls during indexing (only when --model is set).",
 )
-def index(run_id: str, prompt_path: str, base_dir: str, model: str, gateway_url: str, temperature: float, reasoning: str | None, gateway_timeout: float, concurrency: int):
+@click.option(
+    "--namespace",
+    "--ns",
+    "namespace",
+    default=None,
+    help="Optional namespace under runs/ for grouping run directories (e.g., 'pi').",
+)
+def index(run_id: str, prompt_path: str, base_dir: str, model: str, gateway_url: str, temperature: float, reasoning: str | None, gateway_timeout: float, concurrency: int, namespace: str | None):
     """Run anchor indexing via agent-gateway (or pass-through when model is omitted)."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
+    rc = _resolve_paths(run_id, base_dir, bandwidth=4, namespace=namespace)
     paths = rc.paths()
     manifest = load_manifest(paths.manifest_path)
     items = manifest_items(manifest)
@@ -157,9 +186,16 @@ def index(run_id: str, prompt_path: str, base_dir: str, model: str, gateway_url:
 @click.option("--run-id", required=True, callback=validate_run_id)
 @click.option("--bandwidth", default=400, show_default=True, type=int)
 @click.option("--base-dir", default=".", show_default=True)
-def retrieve(run_id: str, bandwidth: int, base_dir: str):
+@click.option(
+    "--namespace",
+    "--ns",
+    "namespace",
+    default=None,
+    help="Optional namespace under runs/ for grouping run directories (e.g., 'pi').",
+)
+def retrieve(run_id: str, bandwidth: int, base_dir: str, namespace: str | None):
     """Render snippets around anchors."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=bandwidth)
+    rc = _resolve_paths(run_id, base_dir, bandwidth=bandwidth, namespace=namespace)
     paths = rc.paths()
     manifest = load_manifest(paths.manifest_path)
     items = manifest_items(manifest)
@@ -172,17 +208,26 @@ def retrieve(run_id: str, bandwidth: int, base_dir: str):
 @click.option("--prompt", "prompt_path", type=click.Path(exists=True, dir_okay=False), required=True)
 @click.option("--base-dir", default=".", show_default=True)
 @click.option(
-    "--model",
+    "--namespace",
+    "--ns",
+    "namespace",
     default=None,
-    help="Gateway model for structured extraction (e.g., openai:gpt-5-nano). Defaults to INDEXING_MODEL.",
+    help="Optional namespace under runs/ for grouping run directories (e.g., 'pi').",
+)
+@click.option(
+    "--model",
+    default=REQUIRED_MODEL,
+    show_default=True,
+    help="Gateway model for structured extraction (enforced).",
 )
 @click.option("--gateway-url", default=None, help="Gateway base URL; defaults to $GATEWAY_URL.")
 @click.option("--temperature", default=0.0, show_default=True, type=float)
 @click.option(
     "--reasoning",
-    default=None,
+    default=REQUIRED_REASONING,
     type=click.Choice(["light", "medium", "heavy"], case_sensitive=False),
-    help="Pass reasoning effort to the gateway (if supported by the provider).",
+    show_default=True,
+    help="Reasoning effort (enforced).",
 )
 @click.option(
     "--gateway-timeout",
@@ -207,6 +252,7 @@ def structured(
     run_id: str,
     prompt_path: str,
     base_dir: str,
+    namespace: str | None,
     model: str | None,
     gateway_url: str | None,
     temperature: float,
@@ -216,7 +262,7 @@ def structured(
     output_subdir: str | None,
 ):
     """Structured extraction over snippets."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
+    rc = _resolve_paths(run_id, base_dir, bandwidth=4, namespace=namespace)
     paths = rc.paths()
     manifest = load_manifest(paths.manifest_path)
     items = manifest_items(manifest)
@@ -245,17 +291,26 @@ def structured(
 )
 @click.option("--base-dir", default=".", show_default=True)
 @click.option(
-    "--model",
+    "--namespace",
+    "--ns",
+    "namespace",
     default=None,
-    help="Gateway model (e.g., openai:gpt-5-nano). Defaults to INDEXING_MODEL env.",
+    help="Optional namespace under runs/ for grouping run directories (e.g., 'pi').",
+)
+@click.option(
+    "--model",
+    default=REQUIRED_MODEL,
+    show_default=True,
+    help="Gateway model (enforced).",
 )
 @click.option("--gateway-url", default=None, help="Gateway base URL; defaults to $GATEWAY_URL.")
 @click.option("--temperature", default=0.0, show_default=True, type=float)
 @click.option(
     "--reasoning",
-    default=None,
+    default=REQUIRED_REASONING,
     type=click.Choice(["light", "medium", "heavy"], case_sensitive=False),
-    help="Pass reasoning effort to the gateway (if supported by the provider).",
+    show_default=True,
+    help="Reasoning effort (enforced).",
 )
 @click.option(
     "--gateway-timeout",
@@ -281,6 +336,7 @@ def terms(
     run_id: str,
     qa_dir: str,
     base_dir: str,
+    namespace: str | None,
     model: str | None,
     gateway_url: str | None,
     temperature: float,
@@ -293,7 +349,7 @@ def terms(
 
     from .terms import run_terms_lookup
 
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
+    rc = _resolve_paths(run_id, base_dir, bandwidth=4, namespace=namespace)
     paths = rc.paths()
     manifest = load_manifest(paths.manifest_path)
     items = manifest_items(manifest)
@@ -315,9 +371,16 @@ def terms(
 @cli.command()
 @click.option("--run-id", required=True, callback=validate_run_id)
 @click.option("--base-dir", default=".", show_default=True)
-def validate(run_id: str, base_dir: str):
+@click.option(
+    "--namespace",
+    "--ns",
+    "namespace",
+    default=None,
+    help="Optional namespace under runs/ for grouping run directories (e.g., 'pi').",
+)
+def validate(run_id: str, base_dir: str, namespace: str | None):
     """Run QA/validation (stub)."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
+    rc = _resolve_paths(run_id, base_dir, bandwidth=4, namespace=namespace)
     paths = rc.paths()
     manifest = load_manifest(paths.manifest_path)
     items = manifest_items(manifest)
@@ -341,16 +404,18 @@ def validate(run_id: str, base_dir: str):
 )
 @click.option(
     "--model",
-    default=None,
-    help="Gateway model for indexing (e.g., openai:gpt-4o-mini). When omitted, keeps all anchors.",
+    default=REQUIRED_MODEL,
+    show_default=True,
+    help="Gateway model for indexing (enforced).",
 )
 @click.option("--gateway-url", default=None, help="Gateway base URL for indexing; defaults to $GATEWAY_URL.")
 @click.option("--temperature", default=0.0, show_default=True, type=float, help="Indexing LLM temperature.")
 @click.option(
     "--reasoning",
-    default=None,
+    default=REQUIRED_REASONING,
     type=click.Choice(["light", "medium", "heavy"], case_sensitive=False),
-    help="Pass reasoning effort to the gateway (if supported by the provider).",
+    show_default=True,
+    help="Reasoning effort (enforced).",
 )
 @click.option(
     "--gateway-timeout",
@@ -366,6 +431,13 @@ def validate(run_id: str, base_dir: str):
     type=int,
     help="Number of parallel gateway calls during indexing (only when --model is set).",
 )
+@click.option(
+    "--namespace",
+    "--ns",
+    "namespace",
+    default=None,
+    help="Optional namespace under runs/ for grouping run directories (e.g., 'pi').",
+)
 def all(
     run_id: str,
     tarball,
@@ -374,6 +446,7 @@ def all(
     prompt_structured: str,
     bandwidth: int,
     base_dir: str,
+    namespace: str | None,
     filters_path: Optional[str],
     model: str,
     gateway_url: str,
@@ -383,7 +456,7 @@ def all(
     concurrency: int,
 ):
     """Run ingest -> normalize -> index -> retrieve -> structured."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=bandwidth)
+    rc = _resolve_paths(run_id, base_dir, bandwidth=bandwidth, namespace=namespace)
     paths = rc.paths()
 
     if paths.manifest_path.exists():

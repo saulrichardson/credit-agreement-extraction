@@ -6,6 +6,10 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Optional
 
+# Pipeline-wide defaults for gateway calls
+REQUIRED_MODEL = "openai:gpt-5-nano"
+REQUIRED_REASONING = "medium"
+
 
 def _hash_file(path: Path) -> str:
     h = hashlib.sha256()
@@ -19,10 +23,14 @@ def _hash_file(path: Path) -> str:
 class Paths:
     root: Path
     run_id: str
+    namespace: Optional[str] = None
 
     @property
     def run_dir(self) -> Path:
-        return self.root / "runs" / self.run_id
+        base = self.root / "runs"
+        if self.namespace:
+            base = base / self.namespace
+        return base / self.run_id
 
     @property
     def ingest_dir(self) -> Path:
@@ -76,9 +84,10 @@ class RunConfig:
     base_dir: Path = Path(".")
     workers: int = 4
     bandwidth: int = 4  # snippet context sentences
+    namespace: Optional[str] = None
 
     def paths(self) -> Paths:
-        return Paths(root=self.base_dir, run_id=self.run_id)
+        return Paths(root=self.base_dir, run_id=self.run_id, namespace=self.namespace)
 
 
 @dataclass

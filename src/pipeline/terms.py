@@ -6,8 +6,8 @@ import re
 from pathlib import Path
 from typing import Any, Dict, Iterable, List
 
-from .config import Paths
-from .indexing import _ensure_gateway_client_async, DEFAULT_GATEWAY_URL, DEFAULT_MODEL
+from .config import Paths, REQUIRED_MODEL, REQUIRED_REASONING
+from .indexing import _ensure_gateway_client_async, DEFAULT_GATEWAY_URL
 from .utils import assert_exists
 
 
@@ -104,6 +104,10 @@ def run_terms_lookup(
 ) -> None:
     """Resolve exact agreement term names for metrics by asking the gateway over their snippets."""
 
+    # Hard enforcement of model + reasoning defaults.
+    model = REQUIRED_MODEL
+    reasoning = REQUIRED_REASONING
+
     out_dir = paths.structured_dir / output_subdir
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -126,7 +130,7 @@ def run_terms_lookup(
                 raw_text = await _call_gateway_raw(
                     client=client,
                     prompt=prompt,
-                    model=model or DEFAULT_MODEL,
+                    model=model,
                     temperature=temperature,
                     reasoning=reasoning,
                 )

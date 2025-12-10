@@ -6,14 +6,13 @@ import traceback
 from pathlib import Path
 from typing import Any, Iterable, List, Tuple
 
-from .config import Paths, prompt_hash, update_manifest
+from .config import Paths, prompt_hash, update_manifest, REQUIRED_MODEL, REQUIRED_REASONING
 from .utils import assert_exists
 
 # Reuse the gateway helpers/constants from indexing to avoid duplicating config.
 from .indexing import (  # type: ignore
     _ensure_gateway_client_async,
     DEFAULT_GATEWAY_URL,
-    DEFAULT_MODEL,
 )
 
 
@@ -104,8 +103,10 @@ def run_structured(
     """
 
     assert_exists(prompt_path, message=f"Structured prompt not found: {prompt_path}")
-    if not model:
-        model = DEFAULT_MODEL
+
+    # Hard enforcement of model + reasoning defaults.
+    model = REQUIRED_MODEL
+    reasoning = REQUIRED_REASONING
 
     prompt_digest = prompt_hash(prompt_path)
     prompt_template = prompt_path.read_text()
@@ -130,7 +131,7 @@ def run_structured(
                 raw_text = await _call_gateway(
                     client=client,
                     prompt=rendered_prompt,
-                    model=model or DEFAULT_MODEL,
+                    model=model,
                     temperature=temperature,
                     reasoning=reasoning,
                 )

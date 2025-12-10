@@ -8,12 +8,12 @@ import sys
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Tuple
 
-from .config import Paths, prompt_hash, update_manifest
+from .config import Paths, prompt_hash, update_manifest, REQUIRED_MODEL, REQUIRED_REASONING
 from .utils import assert_exists, prompt_view_path
 
 
-DEFAULT_MODEL = os.getenv("INDEXING_MODEL", "openai:gpt-4o-mini")
 DEFAULT_GATEWAY_URL = os.getenv("GATEWAY_URL", "http://127.0.0.1:8000")
+DEFAULT_MODEL = REQUIRED_MODEL
 
 
 class IndexingGatewayUnavailable(RuntimeError):
@@ -113,15 +113,19 @@ def _anchor_catalog(paths: Paths, item_id: str) -> Dict[str, Dict[str, Any]]:
 
 
 def _anchor_texts(paths: Paths, item_id: str) -> Dict[str, str]:
-    """Map anchor_id -> text block from prompt_view_annotated.txt."""
+    """Map anchor_id -> text block from annotated canonical text.
+
+    Prefers canonical_annotated.txt; falls back to legacy prompt_view_annotated.txt for old runs.
+    """
 
     candidates = [
-        paths.normalized_dir / item_id / "prompt_view_annotated.txt",
-        paths.legacy_prompt_views_dir / item_id / "prompt_view_annotated.txt",
+        paths.normalized_dir / item_id / "canonical_annotated.txt",
+        paths.normalized_dir / item_id / "prompt_view_annotated.txt",  # legacy
+        paths.legacy_prompt_views_dir / item_id / "prompt_view_annotated.txt",  # legacy
     ]
     annotated = next((p for p in candidates if p.exists()), None)
     if not annotated:
-        raise FileNotFoundError(f"prompt_view_annotated.txt missing for {item_id}")
+        raise FileNotFoundError(f"Annotated text missing for {item_id}")
 
     text = annotated.read_text()
     out: Dict[str, List[str]] = {}
@@ -288,14 +292,19 @@ def run_indexing(
     gateway_timeout: float | None = None,
     concurrency: int = 3,
 ) -> None:
-    """Index anchors via the agent-gateway (if available) or fall back to all anchors.
+    """Index anchors via the agent-gateway.
 
     - Reads candidate anchors from normalization outputs (anchors.tsv + annotated view).
     - Calls the gateway with a user prompt to pick/label anchors.
     - Writes `{item_id}_anchors.json` expected by retrieval.
+    - Also writes `{item_id}_anchors.txt` with raw model output for debugging.
     """
 
     assert_exists(prompt_path, message=f"Indexing prompt not found: {prompt_path}")
+
+    # Hard enforcement of model + reasoning defaults.
+    model = REQUIRED_MODEL
+    reasoning = REQUIRED_REASONING
     out_dir = paths.indexing_dir
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -303,6 +312,47 @@ def run_indexing(
     prompt_template = prompt_path.read_text()
 
     item_list = list(item_ids)
+
+    def _write_outputs(item_id: str, raw_text: str, selections: List[Tuple[str, str | None]], catalog):
+        """Persist raw LLM output and structured anchors JSON."""
+
+        if not selections:
+            raise RuntimeError(f"Model returned no anchors for {item_id}")
+
+        anchors_out = []
+        for aid, bucket_label in selections:
+            info = catalog.get(aid)
+            if not info:
+                continue
+            anchors_out.append(
+                {
+                    "anchor_id": aid,
+                    "label": bucket_label or info.get("label") or info.get("type"),
+                    "type": info.get("type"),
+                    "start": info.get("start"),
+                    "end": info.get("end"),
+                    "source": "gateway",
+                }
+            )
+
+        if not anchors_out:
+            raise RuntimeError(f"No anchors matched catalog for {item_id}")
+
+        # Persist raw gateway response for audit/debug convenience.
+        raw_path = out_dir / f"{item_id}_anchors.txt"
+        raw_path.write_text(str(raw_text))
+
+        json_path = out_dir / f"{item_id}_anchors.json"
+        json_payload = {
+            "item_id": item_id,
+            "model": model,
+            "prompt": str(prompt_path),
+            "prompt_sha256": prompt_digest,
+            "anchors": anchors_out,
+            # Keep raw model text inline for traceability instead of a separate file.
+            "raw_response": str(raw_text),
+        }
+        json_path.write_text(json.dumps(json_payload, indent=2))
 
     async def _run_async(items: List[str]) -> None:
         GatewayAgentClient = _ensure_gateway_client_async()
@@ -314,6 +364,7 @@ def run_indexing(
             async def _process(item_id: str) -> None:
                 async with sem:
                     anchor_texts = _anchor_texts(paths, item_id)
+                    catalog = _anchor_catalog(paths, item_id)
                     rendered_prompt = _render_prompt(prompt_template, anchor_texts)
 
                     result = await client.complete_response(
@@ -325,36 +376,29 @@ def run_indexing(
                         metadata=None,
                     )
                     raw_text = result.get("text") if isinstance(result, dict) else str(result)
-                    # Persist raw LLM output verbatim; no post-processing
-                    raw_path = out_dir / f"{item_id}_anchors.txt"
-                    raw_path.write_text(raw_text)
+                    selections = _parse_anchor_selection(raw_text or "")
+                    _write_outputs(item_id, raw_text, selections, catalog)
 
             await asyncio.gather(*(_process(i) for i in items))
 
     def _run_sync(items: List[str]) -> None:
         for item_id in items:
             anchor_texts = _anchor_texts(paths, item_id)
+            catalog = _anchor_catalog(paths, item_id)
             rendered_prompt = _render_prompt(prompt_template, anchor_texts)
-            if model:
-                complete_response_sync = _ensure_gateway_client_sync()
-                raw_text = complete_response_sync(
-                    model=model or DEFAULT_MODEL,
-                    prompt=rendered_prompt,
-                    base_url=gateway_url or DEFAULT_GATEWAY_URL,
-                    temperature=temperature,
-                    reasoning={"effort": reasoning} if reasoning else None,
-                    timeout=gateway_timeout,
-                )
-            else:
-                raw_text = ""
+            complete_response_sync = _ensure_gateway_client_sync()
+            raw_text = complete_response_sync(
+                model=model or DEFAULT_MODEL,
+                prompt=rendered_prompt,
+                base_url=gateway_url or DEFAULT_GATEWAY_URL,
+                temperature=temperature,
+                reasoning={"effort": reasoning} if reasoning else None,
+                timeout=gateway_timeout,
+            )
+            selections = _parse_anchor_selection(raw_text or "")
+            _write_outputs(item_id, raw_text, selections, catalog)
 
-            out_path = out_dir / f"{item_id}_anchors.txt"
-            out_path.write_text(str(raw_text))
-
-    if model:
-        asyncio.run(_run_async(item_list))
-    else:
-        _run_sync(item_list)
+    asyncio.run(_run_async(item_list))
 
     manifest_path = paths.manifest_path
     if manifest_path.exists():

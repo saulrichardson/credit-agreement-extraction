@@ -1,0 +1,21 @@
+You are given anchor snippets (ID + text) from a credit/loan agreement.
+
+Task: Select all anchors needed to understand pricing/economics. Include anchors about:
+- Interest rate mechanics (formulas, margins/spreads, floors, default rate adders, benchmark/base-rate definitions).
+- Fees and pricing tables (commitment/unused, LC, utilisation, upfront/arranger/extension, call/prepayment premiums).
+- Facility economics context (amount/commitment, currency, maturity, payment frequency/day count if stated).
+- Triggers/tiers that change pricing (metrics/ratios that set levels).
+- Financial covenant tests that directly drive pricing.
+
+If in doubt, include the anchor. Returning many anchors is fine.
+
+Output JSON only with buckets:
+{
+  "fundamental_anchors": [],
+  "pricing_anchors": [],
+  "financial_covenant_anchors": []
+}
+
+Anchors:
+
+{{document}}

@@ -241,8 +241,8 @@ def build_prompt_views(paths: Paths, manifest: Dict) -> None:
         out_dir.mkdir(parents=True, exist_ok=True)
 
         canonical_text = _canonicalize_html(html_file)
+        # Single normalized text source; downstream stages can slice/summarize as needed.
         (out_dir / "canonical.txt").write_text(canonical_text)
-        (out_dir / "prompt_view.txt").write_text(canonical_text)
         anchors = _split_blocks(canonical_text)
         with (out_dir / "anchors.tsv").open("w") as f:
             f.write("anchor_id\tanchor_type\tstart\tend\tlabel\n")
@@ -252,8 +252,9 @@ def build_prompt_views(paths: Paths, manifest: Dict) -> None:
         for start, end, label, aid in anchors:
             block = canonical_text[start:end]
             annotated_lines.append(f"[[{aid}]]\n{block}\n")
-        (out_dir / "prompt_view_annotated.txt").write_text("\n".join(annotated_lines))
-        prompt_view_paths[item_id] = str(out_dir / "prompt_view.txt")
+        # Keep an annotated view for anchor mapping; drop "prompt_view" naming.
+        (out_dir / "canonical_annotated.txt").write_text("\n".join(annotated_lines))
+        prompt_view_paths[item_id] = str(out_dir / "canonical.txt")
 
     manifest_path = paths.manifest_path
     manifest["normalized"] = prompt_view_paths

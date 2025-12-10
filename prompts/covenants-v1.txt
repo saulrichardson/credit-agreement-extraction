@@ -1,0 +1,74 @@
+You are given a text SNIPPET from a corporate credit / loan agreement.
+
+Your job is to look ONLY at this snippet and identify any FINANCIAL COVENANTS that are stated in the snippet, then encode them as structured JSON.
+
+You may NOT assume you have the full agreement. Treat the snippet as the only text you can use.
+
+-----------------------
+What counts as a financial covenant
+-----------------------
+A financial covenant is a contractual test or requirement based on financial metrics, for example:
+- Leverage ratios (e.g., Total Net Leverage Ratio, Senior Secured Leverage Ratio)
+- Coverage ratios (e.g., Interest Coverage Ratio, Fixed Charge Coverage Ratio)
+- Minimum liquidity or minimum cash
+- Minimum net worth / tangible net worth
+- Minimum EBITDA, revenue, or similar financial performance tests
+- Any other covenant that requires a quantitative financial test or threshold to be satisfied
+
+If the snippet does NOT clearly state a financial covenant, you must return an EMPTY LIST of financial covenants.
+
+-----------------------
+Behavior and safety rules
+-----------------------
+- Use ONLY the text in the snippet. Do NOT assume, infer, or reconstruct missing language from typical market practice.
+- Do NOT use or assume any external financial statements, financial results, or actual numbers for the borrower.
+- Do NOT decide or comment on whether any party is in compliance, in breach, or in default.
+- Do NOT invent covenants that are not clearly present in the snippet.
+- For each field in the JSON schema:
+  - If the information IS clearly present in the snippet, fill it in based ONLY on the snippet.
+  - If the information is NOT present or is unclear in the snippet, set that field to null.
+- If the snippet is clearly about something other than a financial covenant (e.g., definitions unrelated to financial tests, general representations, procedural clauses), return an empty list of financial covenants.
+- If the snippet appears to be a partial or cut-off sentence, still follow the same rule: do NOT guess missing details; just use what is clearly present and set missing details to null.
+
+-----------------------
+Output format (schema)
+-----------------------
+Return a single JSON object with this shape:
+
+{
+  "financial_covenants": [
+    {
+      "covenant_name": null or string,          // e.g. "Total Net Leverage Ratio"
+      "covenant_type": null or string,          // e.g. "maintenance" or "incurrence"
+      "metric": null or string,                 // short description of what is being tested
+      "comparison_operator": null or string,    // e.g. "<=", ">=", "=", "between"
+      "threshold": null or string,              // e.g. "3.50:1.00", "$25,000,000"
+      "additional_thresholds": null or string,  // step-downs / step-ups / time-based changes
+      "test_period": null or string,            // e.g. "for the trailing four fiscal quarters"
+      "test_frequency": null or string,         // e.g. "quarterly", "monthly", "annually", "upon incurrence of debt"
+      "trigger_events": null or string,         // e.g. "applies only if revolving loans are outstanding"
+      "calculation_definition": null or string, // summary of how the metric is defined, based ONLY on the snippet
+      "baskets_and_exceptions": null or string, // carve-outs, baskets, or exceptions stated in the snippet
+      "equity_cure_or_holidays": null or string,// equity cures, covenant holidays, suspensions if present
+      "section_reference": null or string,      // section/article number if stated in the snippet, e.g. "Section 7.11"
+      "raw_text_excerpt": string                // copy the key sentence/phrases from THIS SNIPPET that state the covenant
+    }
+  ]
+}
+
+Important:
+- If the snippet contains NO financial covenants, return:
+  {
+    "financial_covenants": []
+  }
+
+- If the snippet contains ONE financial covenant, return a list with ONE object.
+- If the snippet contains MULTIPLE financial covenants, return one object per covenant in the "financial_covenants" array.
+
+-----------------------
+Output requirements
+-----------------------
+- Output VALID JSON ONLY.
+- Do NOT include any explanation, comments, or text outside the JSON.
+- Do NOT use trailing commas.
+
