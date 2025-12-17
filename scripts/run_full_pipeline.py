@@ -5,7 +5,6 @@ End-to-end runner: indexing -> retrieval -> pricing structured -> metric definit
 Usage:
   poetry run python scripts/run_full_pipeline.py \
     --run-id pi-toc-sample \
-    --namespace pi \
     --items 0001731122-23-000003_2 \
     --gateway-url http://127.0.0.1:8000 \
     --model openai:gpt-5-nano
@@ -32,7 +31,6 @@ def load_items(run_dir: Path) -> List[str]:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--run-id", required=True)
-    ap.add_argument("--namespace", default=None)
     ap.add_argument("--items", help="Comma-separated item_ids; default: all from manifest")
     ap.add_argument("--gateway-url", default="http://127.0.0.1:8000")
     ap.add_argument("--model", default="openai:gpt-5-nano")
@@ -42,8 +40,6 @@ def main() -> None:
     args = ap.parse_args()
 
     base = Path("runs")
-    if args.namespace:
-        base /= args.namespace
     base /= args.run_id
 
     items = (
@@ -63,7 +59,6 @@ def main() -> None:
             "index",
             "--run-id",
             args.run_id,
-            *(["--namespace", args.namespace] if args.namespace else []),
             "--prompt",
             args.index_prompt,
             "--model",
@@ -88,7 +83,6 @@ def main() -> None:
             "retrieve",
             "--run-id",
             args.run_id,
-            *(["--namespace", args.namespace] if args.namespace else []),
         ]
     )
 
@@ -104,7 +98,6 @@ def main() -> None:
             "structured",
             "--run-id",
             args.run_id,
-            *(["--namespace", args.namespace] if args.namespace else []),
             "--prompt",
             args.pricing_prompt,
             "--model",
@@ -129,7 +122,6 @@ def main() -> None:
             "scripts/gen_covenant_snippets.py",
             "--run-id",
             args.run_id,
-            *(["--namespace", args.namespace] if args.namespace else []),
             "--items",
             ",".join(items),
         ]
@@ -151,7 +143,6 @@ def main() -> None:
                 "scripts/run_metric_definitions.py",
                 "--run-id",
                 args.run_id,
-                *(["--namespace", args.namespace] if args.namespace else []),
                 "--item",
                 item,
                 "--pricing-json",
@@ -179,7 +170,6 @@ def main() -> None:
                 "scripts/run_covenants_combined.py",
                 "--run-id",
                 args.run_id,
-                *(["--namespace", args.namespace] if args.namespace else []),
                 "--item",
                 item,
                 "--snippets",

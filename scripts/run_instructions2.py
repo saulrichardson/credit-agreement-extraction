@@ -5,10 +5,9 @@ Run the instructions-2 prompt against a snippets JSONL for a single item.
 Usage:
   poetry run python scripts/run_instructions2.py \
     --run-id pi-toc-sample \
-    --namespace pi \
     --item 0001731122-23-000003_2 \
-    --snippets runs/pi/pi-toc-sample/retrieval/0001731122-23-000003_2_snippets_highsimple.jsonl \
-    --out runs/pi/pi-toc-sample/llm_qa/instructions2_hot/0001731122-23-000003_2_instructions2.txt \
+    --snippets runs/pi-toc-sample/retrieval/0001731122-23-000003_2_snippets_highsimple.jsonl \
+    --out runs/pi-toc-sample/llm_qa/instructions2_hot/0001731122-23-000003_2_instructions2.txt \
     --model openai:gpt-5-nano \
     --gateway-url http://127.0.0.1:8000 \
     --temperature 0
@@ -37,11 +36,10 @@ def load_snippets(snippets_path: Path, labels: set[str]) -> list[str]:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--run-id", required=True)
-    ap.add_argument("--namespace", default=None)
     ap.add_argument("--item", required=True)
     ap.add_argument(
         "--snippets",
-        help="Path to snippets JSONL (default: runs/<ns>/<run>/retrieval/<item>_snippets.jsonl)",
+        help="Path to snippets JSONL (default: runs/<run>/retrieval/<item>_snippets.jsonl)",
     )
     ap.add_argument(
         "--prompt",
@@ -60,8 +58,6 @@ def main() -> None:
 
     base_dir = Path(".")
     run_dir = base_dir / "runs"
-    if args.namespace:
-        run_dir = run_dir / args.namespace
     run_dir = run_dir / args.run_id
 
     snippets_path = (

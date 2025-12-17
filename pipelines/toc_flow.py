@@ -17,10 +17,15 @@ from pipeline.utils import load_manifest, manifest_items
 
 @click.command()
 @click.option("--run-id", required=True, help="Run identifier.")
-@click.option("--namespace", "--ns", default=None, help="Optional namespace under runs/ (e.g., 'pi').")
 @click.option("--base-dir", default=".", show_default=True)
 @click.option("--tarball", multiple=True, type=click.Path(exists=True, dir_okay=False), required=True)
-@click.option("--filters", "filters_path", type=click.Path(exists=True, dir_okay=False), required=True, help="Filter spec JSON/YAML (doc_filter_path).")
+@click.option(
+    "--filters",
+    "filters_path",
+    type=click.Path(exists=True, dir_okay=False),
+    required=True,
+    help="Filter spec JSON/YAML (doc_filter_path + optional doc_filter_kwargs).",
+)
 @click.option("--accessions-file", type=click.Path(exists=True, dir_okay=False), required=False)
 @click.option("--index-prompt", type=click.Path(exists=True, dir_okay=False), required=True, help="Prompt for TOC/anchor selection.")
 @click.option("--definitions-prompt", type=click.Path(exists=True, dir_okay=False), required=True, help="Prompt for definitions extraction.")
@@ -36,7 +41,6 @@ from pipeline.utils import load_manifest, manifest_items
 @click.option("--verification-subdir", default="verification_v1", show_default=True, help="llm_qa subdir for verification outputs.")
 def main(
     run_id: str,
-    namespace: Optional[str],
     base_dir: str,
     tarball: tuple,
     filters_path: str,
@@ -56,12 +60,8 @@ def main(
 ):
     """End-to-end TOC-based flow: ingest -> normalize -> index -> retrieve -> definitions -> (optional) verification."""
 
-    rc = resolve_run_config(run_id, base_dir, workers=4, bandwidth=bandwidth, namespace=namespace)
+    rc = resolve_run_config(run_id, base_dir, workers=4, bandwidth=bandwidth)
     paths = rc.paths()
-
-    # Enforce required model/reasoning regardless of CLI input.
-    model = REQUIRED_MODEL
-    reasoning = REQUIRED_REASONING
 
     # Ingest
     accessions, spec, doc_filter = _load_accessions_and_filters(filters_path, accessions_file)

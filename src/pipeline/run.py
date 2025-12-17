@@ -12,12 +12,13 @@ from .normalize import build_prompt_views
 from .indexing import run_indexing
 from .retrieval import render_snippets
 from .structured import run_structured
+from .contract_pricing import run_contract_pricing
 from .validation import run_validation
 from .utils import load_manifest, manifest_items, read_accessions_file
 from .run_id import validate_run_id
 
 
-def resolve_run_config(run_id: str, base_dir: str, workers: int, bandwidth: int, namespace: str | None) -> RunConfig:
+def resolve_run_config(run_id: str, base_dir: str, workers: int, bandwidth: int) -> RunConfig:
     # Validate even when called programmatically (outside Click).
     run_id_validated = validate_run_id(None, None, run_id)
     return RunConfig(
@@ -25,13 +26,12 @@ def resolve_run_config(run_id: str, base_dir: str, workers: int, bandwidth: int,
         base_dir=Path(base_dir),
         workers=workers,
         bandwidth=bandwidth,
-        namespace=namespace,
     )
 
 
-def _resolve_paths(run_id: str, base_dir: str, bandwidth: int, namespace: str | None) -> RunConfig:
+def _resolve_paths(run_id: str, base_dir: str, bandwidth: int) -> RunConfig:
     """Convenience helper to construct RunConfig and paths in one place."""
-    return resolve_run_config(run_id, base_dir, workers=4, bandwidth=bandwidth, namespace=namespace)
+    return resolve_run_config(run_id, base_dir, workers=4, bandwidth=bandwidth)
 
 
 def _load_accessions_and_filters(filters_path: Optional[str], accessions_file: Optional[str]):
@@ -61,7 +61,7 @@ def cli():
     "--run-id",
     required=True,
     callback=validate_run_id,
-    help="Run identifier (creates runs/<run_id>/)",
+    help="Run identifier (writes under runs/<run_id>/; reruns overwrite artifacts).",
 )
 @click.option("--tarball", multiple=True, type=click.Path(exists=True, dir_okay=False), required=True)
 @click.option(
@@ -69,32 +69,14 @@ def cli():
     "filters_path",
     type=click.Path(exists=True, dir_okay=False),
     required=False,
-    help="Filter spec (JSON/YAML with doc_filter_path). Defaults to keep_all when omitted.",
+    help="Filter spec (JSON/YAML with doc_filter_path and optional doc_filter_kwargs). Defaults to keep_all when omitted.",
 )
 @click.option("--accessions-file", type=click.Path(exists=True, dir_okay=False), required=False)
 @click.option("--base-dir", default=".", show_default=True)
-@click.option(
-    "--resume",
-    is_flag=True,
-    help="Allow reusing an existing run directory/manifest instead of failing fast.",
-)
-@click.option(
-    "--namespace",
-    "--ns",
-    "namespace",
-    default=None,
-    help="Optional namespace under runs/ for grouping run directories (e.g., 'pi').",
-)
-def ingest(run_id: str, tarball, filters_path: Optional[str], accessions_file: Optional[str], base_dir: str, resume: bool, namespace: str | None):
+def ingest(run_id: str, tarball, filters_path: Optional[str], accessions_file: Optional[str], base_dir: str):
     """Extract EX-10 HTMLs for selected accessions from tarballs."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4, namespace=namespace)
+    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
     paths = rc.paths()
-
-    if paths.manifest_path.exists() and not resume:
-        raise click.UsageError(
-            f"Manifest already exists for run_id '{run_id}' at {paths.manifest_path}. "
-            "Use --resume to reuse it or pick a new --run-id."
-        )
 
     accessions, spec, doc_filter = _load_accessions_and_filters(filters_path, accessions_file)
 
@@ -105,16 +87,9 @@ def ingest(run_id: str, tarball, filters_path: Optional[str], accessions_file: O
 @cli.command()
 @click.option("--run-id", required=True, callback=validate_run_id)
 @click.option("--base-dir", default=".", show_default=True)
-@click.option(
-    "--namespace",
-    "--ns",
-    "namespace",
-    default=None,
-    help="Optional namespace under runs/ for grouping run directories (e.g., 'pi').",
-)
-def normalize(run_id: str, base_dir: str, namespace: str | None):
+def normalize(run_id: str, base_dir: str):
     """Build prompt views from ingested HTML."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4, namespace=namespace)
+    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
     paths = rc.paths()
     manifest = load_manifest(paths.manifest_path)
     items = manifest_items(manifest)
@@ -156,22 +131,39 @@ def normalize(run_id: str, base_dir: str, namespace: str | None):
     help="Number of parallel gateway calls during indexing (only when --model is set).",
 )
 @click.option(
-    "--namespace",
-    "--ns",
-    "namespace",
-    default=None,
-    help="Optional namespace under runs/ for grouping run directories (e.g., 'pi').",
+    "--item-id",
+    "item_ids",
+    multiple=True,
+    help="Optional item_id(s) to index (defaults to all items in the run manifest).",
 )
-def index(run_id: str, prompt_path: str, base_dir: str, model: str, gateway_url: str, temperature: float, reasoning: str | None, gateway_timeout: float, concurrency: int, namespace: str | None):
+def index(
+    run_id: str,
+    prompt_path: str,
+    base_dir: str,
+    model: str,
+    gateway_url: str,
+    temperature: float,
+    reasoning: str | None,
+    gateway_timeout: float,
+    concurrency: int,
+    item_ids: tuple[str, ...],
+):
     """Run anchor indexing via agent-gateway (or pass-through when model is omitted)."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4, namespace=namespace)
+    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
     paths = rc.paths()
     manifest = load_manifest(paths.manifest_path)
     items = manifest_items(manifest)
-    item_ids = [item["item_id"] for item in items]
+    manifest_item_ids = {item["item_id"] for item in items}
+    if item_ids:
+        unknown = sorted(set(item_ids) - manifest_item_ids)
+        if unknown:
+            raise click.UsageError(f"Unknown --item-id values not present in manifest: {', '.join(unknown)}")
+        selected_item_ids = list(item_ids)
+    else:
+        selected_item_ids = [item["item_id"] for item in items]
     run_indexing(
         paths,
-        item_ids,
+        selected_item_ids,
         Path(prompt_path),
         model=model,
         gateway_url=gateway_url,
@@ -181,26 +173,31 @@ def index(run_id: str, prompt_path: str, base_dir: str, model: str, gateway_url:
         concurrency=concurrency,
     )
 
-
 @cli.command()
 @click.option("--run-id", required=True, callback=validate_run_id)
 @click.option("--bandwidth", default=400, show_default=True, type=int)
 @click.option("--base-dir", default=".", show_default=True)
 @click.option(
-    "--namespace",
-    "--ns",
-    "namespace",
-    default=None,
-    help="Optional namespace under runs/ for grouping run directories (e.g., 'pi').",
+    "--item-id",
+    "item_ids",
+    multiple=True,
+    help="Optional item_id(s) to retrieve snippets for (defaults to all items in the run manifest).",
 )
-def retrieve(run_id: str, bandwidth: int, base_dir: str, namespace: str | None):
+def retrieve(run_id: str, bandwidth: int, base_dir: str, item_ids: tuple[str, ...]):
     """Render snippets around anchors."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=bandwidth, namespace=namespace)
+    rc = _resolve_paths(run_id, base_dir, bandwidth=bandwidth)
     paths = rc.paths()
     manifest = load_manifest(paths.manifest_path)
     items = manifest_items(manifest)
-    item_ids = [item["item_id"] for item in items]
-    render_snippets(paths, item_ids, bandwidth=bandwidth)
+    manifest_item_ids = {item["item_id"] for item in items}
+    if item_ids:
+        unknown = sorted(set(item_ids) - manifest_item_ids)
+        if unknown:
+            raise click.UsageError(f"Unknown --item-id values not present in manifest: {', '.join(unknown)}")
+        selected_item_ids = list(item_ids)
+    else:
+        selected_item_ids = [item["item_id"] for item in items]
+    render_snippets(paths, selected_item_ids, bandwidth=bandwidth)
 
 
 @cli.command()
@@ -208,11 +205,11 @@ def retrieve(run_id: str, bandwidth: int, base_dir: str, namespace: str | None):
 @click.option("--prompt", "prompt_path", type=click.Path(exists=True, dir_okay=False), required=True)
 @click.option("--base-dir", default=".", show_default=True)
 @click.option(
-    "--namespace",
-    "--ns",
-    "namespace",
-    default=None,
-    help="Optional namespace under runs/ for grouping run directories (e.g., 'pi').",
+    "--input-mode",
+    default="snippets",
+    type=click.Choice(["snippets", "full_document"], case_sensitive=False),
+    show_default=True,
+    help="Structured input source: retrieval snippets or normalized full document (canonical_annotated.txt).",
 )
 @click.option(
     "--model",
@@ -248,11 +245,17 @@ def retrieve(run_id: str, bandwidth: int, base_dir: str, namespace: str | None):
     default=None,
     help="Optional subfolder under runs/<run_id>/llm_qa/ for outputs (defaults to prompt filename stem).",
 )
+@click.option(
+    "--item-id",
+    "item_ids",
+    multiple=True,
+    help="Optional item_id(s) to run structured extraction for (defaults to all items in the run manifest).",
+)
 def structured(
     run_id: str,
     prompt_path: str,
     base_dir: str,
-    namespace: str | None,
+    input_mode: str,
     model: str | None,
     gateway_url: str | None,
     temperature: float,
@@ -260,17 +263,27 @@ def structured(
     gateway_timeout: float,
     concurrency: int,
     output_subdir: str | None,
+    item_ids: tuple[str, ...],
 ):
     """Structured extraction over snippets."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4, namespace=namespace)
+    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
     paths = rc.paths()
+    input_mode = input_mode.lower()
     manifest = load_manifest(paths.manifest_path)
     items = manifest_items(manifest)
-    item_ids = [item["item_id"] for item in items]
+    manifest_item_ids = {item["item_id"] for item in items}
+    if item_ids:
+        unknown = sorted(set(item_ids) - manifest_item_ids)
+        if unknown:
+            raise click.UsageError(f"Unknown --item-id values not present in manifest: {', '.join(unknown)}")
+        selected_item_ids = list(item_ids)
+    else:
+        selected_item_ids = [item["item_id"] for item in items]
     run_structured(
         paths,
-        item_ids,
+        selected_item_ids,
         Path(prompt_path),
+        input_mode=input_mode,  # type: ignore[arg-type]
         model=model,
         gateway_url=gateway_url,
         temperature=temperature,
@@ -279,6 +292,187 @@ def structured(
         concurrency=concurrency,
         output_subdir=output_subdir,
     )
+
+
+@cli.command(name="contract-pricing")
+@click.option("--run-id", required=True, callback=validate_run_id)
+@click.option("--prompt", "prompt_path", type=click.Path(exists=True, dir_okay=False), required=True)
+@click.option("--base-dir", default=".", show_default=True)
+@click.option("--gateway-url", default=None, help="Gateway base URL; defaults to $GATEWAY_URL.")
+@click.option("--temperature", default=0.0, show_default=True, type=float)
+@click.option(
+    "--gateway-timeout",
+    default=600.0,
+    show_default=True,
+    type=float,
+    help="Gateway client timeout (seconds) for contract pricing calls.",
+)
+@click.option(
+    "--concurrency",
+    default=2,
+    show_default=True,
+    type=int,
+    help="Number of parallel gateway calls during contract pricing extraction.",
+)
+@click.option(
+    "--attempts",
+    default=3,
+    show_default=True,
+    type=int,
+    help="Number of strict JSON/Pydantic attempts per item before failing.",
+)
+@click.option(
+    "--output-subdir",
+    default="contract_pricing_v1",
+    show_default=True,
+    help="Subfolder under runs/<run_id>/contract_pricing/ for outputs.",
+)
+@click.option(
+    "--item-id",
+    "item_ids",
+    multiple=True,
+    help="Optional item_id(s) to extract pricing for (defaults to all items in the run manifest).",
+)
+def contract_pricing(
+    run_id: str,
+    prompt_path: str,
+    base_dir: str,
+    gateway_url: str | None,
+    temperature: float,
+    gateway_timeout: float,
+    concurrency: int,
+    attempts: int,
+    output_subdir: str,
+    item_ids: tuple[str, ...],
+):
+    """Extract pricing regimes into a contract-like IR (doc IR -> LLM compile)."""
+    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
+    paths = rc.paths()
+    manifest = load_manifest(paths.manifest_path)
+    items = manifest_items(manifest)
+    manifest_item_ids = {item["item_id"] for item in items}
+    if item_ids:
+        unknown = sorted(set(item_ids) - manifest_item_ids)
+        if unknown:
+            raise click.UsageError(f"Unknown --item-id values not present in manifest: {', '.join(unknown)}")
+        selected_item_ids = list(item_ids)
+    else:
+        selected_item_ids = [item["item_id"] for item in items]
+
+    run_contract_pricing(
+        paths,
+        selected_item_ids,
+        Path(prompt_path),
+        gateway_url=gateway_url,
+        temperature=temperature,
+        gateway_timeout=gateway_timeout,
+        concurrency=concurrency,
+        output_subdir=output_subdir,
+        attempts=attempts,
+    )
+
+
+@cli.command(name="contract-pricing-flow")
+@click.option(
+    "--run-id",
+    required=True,
+    callback=validate_run_id,
+    help="Run identifier (writes under runs/<run_id>/; reruns overwrite artifacts).",
+)
+@click.option("--tarball", multiple=True, type=click.Path(exists=True, dir_okay=False), required=True)
+@click.option("--accessions-file", type=click.Path(exists=True, dir_okay=False), required=False)
+@click.option("--prompt", "prompt_path", type=click.Path(exists=True, dir_okay=False), required=True)
+@click.option(
+    "--filters",
+    "filters_path",
+    type=click.Path(exists=True, dir_okay=False),
+    required=False,
+    help="Filter spec (JSON/YAML with doc_filter_path and optional doc_filter_kwargs). Defaults to keep_all when omitted.",
+)
+@click.option("--base-dir", default=".", show_default=True)
+@click.option("--gateway-url", default=None, help="Gateway base URL; defaults to $GATEWAY_URL.")
+@click.option("--temperature", default=0.0, show_default=True, type=float)
+@click.option(
+    "--gateway-timeout",
+    default=600.0,
+    show_default=True,
+    type=float,
+    help="Gateway client timeout (seconds) for contract pricing calls.",
+)
+@click.option(
+    "--concurrency",
+    default=2,
+    show_default=True,
+    type=int,
+    help="Number of parallel gateway calls during contract pricing extraction.",
+)
+@click.option(
+    "--attempts",
+    default=3,
+    show_default=True,
+    type=int,
+    help="Number of strict JSON/Pydantic attempts per item before failing.",
+)
+@click.option(
+    "--output-subdir",
+    default="contract_pricing_v1",
+    show_default=True,
+    help="Subfolder under runs/<run_id>/contract_pricing/ for outputs.",
+)
+@click.option(
+    "--item-id",
+    "item_ids",
+    multiple=True,
+    help="Optional item_id(s) to extract pricing for (defaults to all items in the run manifest).",
+)
+def contract_pricing_flow(
+    run_id: str,
+    tarball,
+    accessions_file: Optional[str],
+    prompt_path: str,
+    filters_path: Optional[str],
+    base_dir: str,
+    gateway_url: str | None,
+    temperature: float,
+    gateway_timeout: float,
+    concurrency: int,
+    attempts: int,
+    output_subdir: str,
+    item_ids: tuple[str, ...],
+):
+    """Run ingest -> normalize -> contract-pricing (no indexing/retrieval)."""
+
+    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
+    paths = rc.paths()
+
+    accessions, spec, doc_filter = _load_accessions_and_filters(filters_path, accessions_file)
+    ingest_tarballs(paths, [Path(t) for t in tarball], spec, accessions, doc_filter=doc_filter)
+
+    manifest = load_manifest(paths.manifest_path)
+    items = manifest_items(manifest)
+    manifest_item_ids = {item["item_id"] for item in items}
+    build_prompt_views(paths, manifest)
+
+    if item_ids:
+        unknown = sorted(set(item_ids) - manifest_item_ids)
+        if unknown:
+            raise click.UsageError(f"Unknown --item-id values not present in manifest: {', '.join(unknown)}")
+        selected_item_ids = list(item_ids)
+    else:
+        selected_item_ids = [item["item_id"] for item in items]
+
+    run_contract_pricing(
+        paths,
+        selected_item_ids,
+        Path(prompt_path),
+        gateway_url=gateway_url,
+        temperature=temperature,
+        gateway_timeout=gateway_timeout,
+        concurrency=concurrency,
+        output_subdir=output_subdir,
+        attempts=attempts,
+    )
+    click.echo(f"[contract-pricing-flow] Completed contract pricing extraction for {len(selected_item_ids)} exhibits.")
 
 
 @cli.command()
@@ -290,13 +484,6 @@ def structured(
     help="Directory containing Q/A JSON outputs to read metrics from (e.g., llm_qa/instructions-1)",
 )
 @click.option("--base-dir", default=".", show_default=True)
-@click.option(
-    "--namespace",
-    "--ns",
-    "namespace",
-    default=None,
-    help="Optional namespace under runs/ for grouping run directories (e.g., 'pi').",
-)
 @click.option(
     "--model",
     default=REQUIRED_MODEL,
@@ -336,7 +523,6 @@ def terms(
     run_id: str,
     qa_dir: str,
     base_dir: str,
-    namespace: str | None,
     model: str | None,
     gateway_url: str | None,
     temperature: float,
@@ -349,7 +535,7 @@ def terms(
 
     from .terms import run_terms_lookup
 
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4, namespace=namespace)
+    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
     paths = rc.paths()
     manifest = load_manifest(paths.manifest_path)
     items = manifest_items(manifest)
@@ -371,16 +557,9 @@ def terms(
 @cli.command()
 @click.option("--run-id", required=True, callback=validate_run_id)
 @click.option("--base-dir", default=".", show_default=True)
-@click.option(
-    "--namespace",
-    "--ns",
-    "namespace",
-    default=None,
-    help="Optional namespace under runs/ for grouping run directories (e.g., 'pi').",
-)
-def validate(run_id: str, base_dir: str, namespace: str | None):
+def validate(run_id: str, base_dir: str):
     """Run QA/validation (stub)."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4, namespace=namespace)
+    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
     paths = rc.paths()
     manifest = load_manifest(paths.manifest_path)
     items = manifest_items(manifest)
@@ -400,7 +579,7 @@ def validate(run_id: str, base_dir: str, namespace: str | None):
     "filters_path",
     type=click.Path(exists=True, dir_okay=False),
     required=False,
-    help="Filter spec (JSON/YAML with doc_filter_path). Defaults to keep_all when omitted.",
+    help="Filter spec (JSON/YAML with doc_filter_path and optional doc_filter_kwargs). Defaults to keep_all when omitted.",
 )
 @click.option(
     "--model",
@@ -431,13 +610,6 @@ def validate(run_id: str, base_dir: str, namespace: str | None):
     type=int,
     help="Number of parallel gateway calls during indexing (only when --model is set).",
 )
-@click.option(
-    "--namespace",
-    "--ns",
-    "namespace",
-    default=None,
-    help="Optional namespace under runs/ for grouping run directories (e.g., 'pi').",
-)
 def all(
     run_id: str,
     tarball,
@@ -446,7 +618,6 @@ def all(
     prompt_structured: str,
     bandwidth: int,
     base_dir: str,
-    namespace: str | None,
     filters_path: Optional[str],
     model: str,
     gateway_url: str,
@@ -456,14 +627,8 @@ def all(
     concurrency: int,
 ):
     """Run ingest -> normalize -> index -> retrieve -> structured."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=bandwidth, namespace=namespace)
+    rc = _resolve_paths(run_id, base_dir, bandwidth=bandwidth)
     paths = rc.paths()
-
-    if paths.manifest_path.exists():
-        raise click.UsageError(
-            f"Manifest already exists for run_id '{run_id}' at {paths.manifest_path}. "
-            "Pick a new --run-id or remove the existing run directory."
-        )
 
     accessions, spec, doc_filter = _load_accessions_and_filters(filters_path, accessions_file)
 

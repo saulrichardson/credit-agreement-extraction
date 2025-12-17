@@ -5,10 +5,9 @@ Run the covenant extraction prompt once over all covenant snippets for an item.
 Usage:
   poetry run python scripts/run_covenants_combined.py \
     --run-id pi-toc-sample \
-    --namespace pi \
     --item 0001731122-23-000003_2 \
-    --snippets runs/pi/pi-toc-sample/retrieval/0001731122-23-000003_2_snippets_covenant.jsonl \
-    --out runs/pi/pi-toc-sample/llm_qa/covenants/0001731122-23-000003_2_covenants_combined.json \
+    --snippets runs/pi-toc-sample/retrieval/0001731122-23-000003_2_snippets_covenant.jsonl \
+    --out runs/pi-toc-sample/llm_qa/covenants/0001731122-23-000003_2_covenants_combined.json \
     --prompt prompts/covenants-v1.txt \
     --gateway-url http://127.0.0.1:8000 \
     --model openai:gpt-5-nano
@@ -61,7 +60,6 @@ def load_snippets(snippets_path: Path) -> list[str]:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--run-id", required=True)
-    ap.add_argument("--namespace", default=None)
     ap.add_argument("--item", required=True)
     ap.add_argument("--snippets", required=True, help="Path to covenant snippets JSONL")
     ap.add_argument("--prompt", default="prompts/covenants-v1.txt")

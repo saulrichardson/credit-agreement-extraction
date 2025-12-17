@@ -4,7 +4,7 @@ import asyncio
 import json
 import traceback
 from pathlib import Path
-from typing import Any, Iterable, List, Tuple
+from typing import Any, Iterable, List, Literal, Tuple
 
 from .config import Paths, prompt_hash, update_manifest, REQUIRED_MODEL, REQUIRED_REASONING
 from .utils import assert_exists
@@ -14,6 +14,8 @@ from .indexing import (  # type: ignore
     _ensure_gateway_client_async,
     DEFAULT_GATEWAY_URL,
 )
+
+StructuredInputMode = Literal["snippets", "full_document"]
 
 
 def _load_snippets(paths: Paths, item_id: str) -> List[dict]:
@@ -34,6 +36,17 @@ def _load_snippets(paths: Paths, item_id: str) -> List[dict]:
     if not snippets:
         raise RuntimeError(f"No snippets parsed for {item_id} (file: {path})")
     return snippets
+
+
+def _load_full_document(paths: Paths, item_id: str) -> str:
+    path = assert_exists(
+        paths.normalized_dir / item_id / "canonical_annotated.txt",
+        message=f"Missing canonical_annotated.txt for {item_id}: run normalize first.",
+    )
+    text = path.read_text()
+    if not text.strip():
+        raise RuntimeError(f"Empty canonical_annotated.txt for {item_id} (file: {path})")
+    return text
 
 
 def _render_snippet_block(snippets: List[dict]) -> str:
@@ -87,6 +100,7 @@ def run_structured(
     item_ids: Iterable[str],
     prompt_path: Path,
     *,
+    input_mode: StructuredInputMode = "snippets",
     model: str | None = None,
     gateway_url: str | None = None,
     temperature: float = 0.0,
@@ -95,10 +109,13 @@ def run_structured(
     concurrency: int = 3,
     output_subdir: str | None = None,
 ) -> None:
-    """Run structured LLM extraction over anchor snippets via agent-gateway.
+    """Run structured LLM extraction via agent-gateway.
 
-    - Reads snippets produced by retrieval stage (`*_snippets.jsonl`).
-    - Renders the user prompt with the snippets block appended or substituted.
+    Input modes:
+    - snippets: reads retrieval output (`*_snippets.jsonl`) and renders an anchor snippet block.
+    - full_document: reads normalized full document (`normalized/<item_id>/canonical_annotated.txt`).
+
+    - Renders the user prompt with the input appended or substituted.
     - Calls the gateway with bounded async concurrency and persists both raw and parsed outputs.
     """
 
@@ -125,9 +142,15 @@ def run_structured(
     async def _process(item_id: str, client: Any) -> None:
         async with sem:
             try:
-                snippets = _load_snippets(paths, item_id)
-                snippets_block = _render_snippet_block(snippets)
-                rendered_prompt = _render_prompt(prompt_template, snippets_block)
+                if input_mode == "snippets":
+                    snippets = _load_snippets(paths, item_id)
+                    input_block = _render_snippet_block(snippets)
+                elif input_mode == "full_document":
+                    input_block = _load_full_document(paths, item_id)
+                else:
+                    raise ValueError(f"Unknown structured input_mode: {input_mode!r}")
+
+                rendered_prompt = _render_prompt(prompt_template, input_block)
                 raw_text = await _call_gateway(
                     client=client,
                     prompt=rendered_prompt,

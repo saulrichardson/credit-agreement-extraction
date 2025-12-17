@@ -11,11 +11,10 @@ Steps:
 Usage (example):
   poetry run python scripts/run_metric_definitions.py \
     --run-id pi-toc-sample \
-    --namespace pi \
     --item 0001731122-23-000003_2 \
-    --pricing-json runs/pi/pi-toc-sample/llm_qa/pricing_second_pass_dg_nano_v2.txt \
-    --snippets runs/pi/pi-toc-sample/retrieval/0001731122-23-000003_2_snippets_highsimple.jsonl \
-    --canonical runs/pi/pi-toc-sample/normalized/0001731122-23-000003_2/canonical.txt \
+    --pricing-json runs/pi-toc-sample/llm_qa/pricing_second_pass_dg_nano_v2.txt \
+    --snippets runs/pi-toc-sample/retrieval/0001731122-23-000003_2_snippets_highsimple.jsonl \
+    --canonical runs/pi-toc-sample/normalized/0001731122-23-000003_2/canonical.txt \
     --gateway-url http://127.0.0.1:8000 \
     --model openai:gpt-5-nano
 """
@@ -78,7 +77,6 @@ def derive_metrics(pricing: dict) -> list[str]:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--run-id", required=True)
-    ap.add_argument("--namespace", default=None)
     ap.add_argument("--item", required=True)
     ap.add_argument("--pricing-json", help="Path to pricing JSON", required=True)
     ap.add_argument("--snippets", required=True, help="Path to snippets JSONL")
@@ -97,8 +95,6 @@ def main() -> None:
     args = ap.parse_args()
 
     run_dir = Path("runs")
-    if args.namespace:
-        run_dir /= args.namespace
     run_dir /= args.run_id
 
     out_dir = Path(args.out_dir) if args.out_dir else run_dir / "llm_qa" / "metric_definitions"

@@ -1,0 +1,85 @@
+You are extracting a SINGLE pricing table from a credit agreement into a strict JSON schema.
+
+Input: TABLE_CONTEXT_JSON containing:
+- One table (table_anchor_id, columns, rows, raw markdown)
+- Neighbor anchors around the table (may include regime intro lines and footnotes/adjustments)
+
+Hard rules
+- Output JSON only. No prose. No markdown.
+- Valid JSON only.
+- Do not invent facts.
+- Your output must match EXACTLY the schema below (no extra keys).
+- grid.table_anchor_id MUST equal the table_anchor_id provided in TABLE_CONTEXT_JSON.table.table_anchor_id.
+- TABLE_CONTEXT_JSON.adjustment_hints is authoritative when non-empty:
+  - Each adjustment_hints[*].anchor_id describes an explicit bps adjustment (e.g., “reduced by one basis point”).
+  - You MUST encode each of these as a PricingAdjustment and cite the anchor_id in the adjustment’s source_refs.
+- Percent-to-bps conversion:
+  - 1.75% -> 175
+  - 0.125% -> 12.5
+
+Output schema (JSON object)
+{
+  "rate_options": [
+    {
+      "rate_option_id": "no_spaces_id",
+      "label_raw": "VERBATIM LABEL FROM TABLE AXIS USED AS RATE OPTIONS",
+      "kind": "loan|fee",
+      "fee_basis": null,
+      "source_refs": ["A0001"]
+    }
+  ],
+  "grid": {
+    "grid_id": "no_spaces_id",
+    "table_anchor_id": "A0001",
+    "facility_id": null,
+    "tier_metric_label_raw": null,
+    "tiers": [
+      {
+        "tier_id": "no_spaces_id",
+        "label_raw": "VERBATIM tier label from the tier axis",
+        "tests": [
+          { "metric_label_raw": "VERBATIM", "op": \">=\", "value": 2.75, "source_refs": ["A0001"] }
+        ],
+        "source_refs": ["A0001"]
+      }
+    ],
+    "rate_option_ids": ["no_spaces_id"],
+    "cells": [
+      { "tier_id": "no_spaces_id", "rate_option_id": "no_spaces_id", "value_bps": 150, "source_refs": ["A0001"] }
+    ],
+    "source_refs": ["A0001"]
+  },
+  "adjustments": [
+    {
+      "adjustment_id": "no_spaces_id",
+      "label": "short label",
+      "delta_bps": -1,
+      "applies_to_rate_option_ids": ["no_spaces_id"],
+      "applies_when": { "text": "verbatim/near-verbatim condition text", "source_refs": ["A0001"] },
+      "floor_bps": null,
+      "cap_bps": null,
+      "source_refs": ["A0001"]
+    }
+  ],
+  "flat_items": []
+}
+
+How to interpret the table
+- Decide which axis is TIERS and which axis is RATE OPTIONS:
+  - If rows look like threshold bands (e.g., \">= 2.75:1.0\", \"< 2.75:1.0\"), those are tiers.
+  - If columns look like statuses (\"Level I Status\", ...), those are tiers.
+  - The other axis becomes rate options (loan types or fee columns).
+- For fee-only tables with a single pricing column (e.g., \"Commitment Fee\"), create one fee rate option using that column header.
+- For matrix tables where rows are loan types and columns are statuses:
+  - rate_options come from the row labels (loan types)
+  - tiers come from the status columns
+- For matrix tables where rows are threshold bands and columns are loan types:
+  - tiers come from the threshold row labels
+  - rate_options come from the loan-type columns
+
+Evidence
+- Every cell must cite at least the table_anchor_id in source_refs.
+- For any adjustment you encode, cite the footnote anchor in source_refs (and in applies_when.source_refs).
+
+TABLE_CONTEXT_JSON:
+{table_context_json}

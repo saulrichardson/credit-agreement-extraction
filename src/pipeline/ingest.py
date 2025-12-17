@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import tarfile
 from pathlib import Path
-from typing import Iterable, List, Tuple, Dict, Any, Callable, Optional
+from typing import Iterable, List, Tuple, Dict, Any, Callable
 
 from .config import FilterSpec, Paths, record_manifest
 from .filters import serialize_filter_spec

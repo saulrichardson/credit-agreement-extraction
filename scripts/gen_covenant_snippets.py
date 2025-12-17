@@ -3,12 +3,11 @@
 Generate covenant snippets JSONL for given items by selecting financial_covenant anchors
 and nearby covenant tables from anchors.tsv.
 
-Output: runs/<ns>/<run-id>/retrieval/<item>_snippets_covenant.jsonl
+Output: runs/<run-id>/retrieval/<item>_snippets_covenant.jsonl
 
 Usage:
   poetry run python scripts/gen_covenant_snippets.py \
     --run-id pi-toc-sample \
-    --namespace pi \
     --items 0001731122-23-000003_2
 """
 
@@ -18,14 +17,14 @@ import argparse
 import csv
 import json
 from pathlib import Path
-from typing import Iterable, List, Set
+from typing import List, Set
+
+from pipeline.schemas import IndexingSelectionArtifact
 
 
 def load_financial_covenant_ids(index_path: Path) -> Set[str]:
-    data = json.loads(index_path.read_text())
-    payload = data.get("payload") or {}
-    ids = set(payload.get("financial_covenant_anchors") or [])
-    return ids
+    artifact = IndexingSelectionArtifact.model_validate_json(index_path.read_text())
+    return set(artifact.selection.financial_covenant_anchors)
 
 
 def collect_snippets(
@@ -84,13 +83,10 @@ def collect_snippets(
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--run-id", required=True)
-    ap.add_argument("--namespace", default=None)
     ap.add_argument("--items", required=True, help="Comma-separated item_ids")
     args = ap.parse_args()
 
     base = Path("runs")
-    if args.namespace:
-        base /= args.namespace
     base /= args.run_id
 
     items = [x.strip() for x in args.items.split(",") if x.strip()]

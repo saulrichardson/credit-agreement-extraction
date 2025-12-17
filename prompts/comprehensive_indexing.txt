@@ -1,6 +1,12 @@
-You are reading a segment of a credit/loan agreement.
-Each line begins with an anchor of the form `A####:` (for example, `A0001:`).
-When you answer, use these **exact** anchor IDs (e.g., `"A0001"`) and do not invent or transform them.
+You are reading an entire SEC exhibit.
+
+The document is presented as *anchored blocks*. Each block begins with an anchor marker on its own line:
+
+`[[A0001]]`
+
+The block text follows on subsequent lines until the next `[[A####]]` marker.
+
+When you answer, use the **exact** anchor IDs (e.g., `"A0001"`) from the markers and do not invent or transform them.
 
 Your task: **classify anchors into three buckets** based on what the *anchored text* is doing economically or structurally in the deal.
 Only include an anchor in a bucket if the text at that anchor clearly contains that type of signal.
@@ -67,9 +73,9 @@ Think of this bucket as **“numeric tests the borrower must satisfy over time.�
 
 ### General rules
 
-* Only include anchors where the **text at that anchor** clearly contains the relevant signal (date, party, core facility term, economic term, or numeric covenant test). Do not infer from context outside that line unless the key concept is explicitly present.
+* Only include anchors where the **text at that anchor** clearly contains the relevant signal. Do not infer from context outside that line unless the key concept is explicitly present.
 * Ignore purely qualitative covenants, baskets, or permissions **without numeric thresholds** (e.g., generic negative covenants, “material adverse effect” language, etc.) unless they clearly contain a financial ratio or specific numeric test.
-* Do **not** include the same anchor in more than one bucket unless the text genuinely serves both roles (this should be rare).
+* It is OK for the same anchor to appear in multiple buckets if the anchored text clearly contains signals for multiple categories.
 * Within each bucket, include **all** relevant anchors (it is OK if there are many).
 
 ---
@@ -86,4 +92,4 @@ Return **JSON only** in this format, using the exact `A####` anchors as they app
 
 The document now follows below.
 
-{{document}}
+{document}

@@ -6,3 +6,4 @@ beautifulsoup4>=4.12
 lxml>=5.2
 PyYAML>=6.0
 httpx>=0.28.1
+pydantic>=2.10

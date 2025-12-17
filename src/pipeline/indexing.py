@@ -3,13 +3,15 @@ from __future__ import annotations
 import asyncio
 import json
 import os
-import re
 import sys
+import time
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Tuple
+from typing import Any, Iterable
 
 from .config import Paths, prompt_hash, update_manifest, REQUIRED_MODEL, REQUIRED_REASONING
-from .utils import assert_exists, prompt_view_path
+from .anchors import load_anchor_catalog
+from .schemas import IndexingSelection, IndexingSelectionArtifact
+from .utils import assert_exists
 
 
 DEFAULT_GATEWAY_URL = os.getenv("GATEWAY_URL", "http://127.0.0.1:8000")
@@ -68,216 +70,58 @@ def _ensure_gateway_client_async() -> Any:
         )
 
 
-def _anchor_catalog(paths: Paths, item_id: str) -> Dict[str, Dict[str, Any]]:
-    """Load anchor spans from anchors.tsv for an item.
+def _canonical_annotated_text(paths: Paths, item_id: str) -> str:
+    """Load the full annotated canonical text (with [[A####]] markers) for the item.
 
-    Returns a dict keyed by anchor_id with start/end/type/label and sort order.
+    This is produced by the normalization stage at:
+      runs/<run_id>/normalized/<item_id>/canonical_annotated.txt
     """
 
-    tsv_candidates = [
-        paths.normalized_dir / item_id / "anchors.tsv",
-        paths.legacy_prompt_views_dir / item_id / "anchors.tsv",
-    ]
-    tsv_path = next((p for p in tsv_candidates if p.exists()), None)
-    if not tsv_path:
-        raise FileNotFoundError(f"anchors.tsv not found for {item_id}")
-
-    catalog: Dict[str, Dict[str, Any]] = {}
-    with tsv_path.open() as fh:
-        header_skipped = False
-        order = 0
-        for line in fh:
-            if not header_skipped:
-                header_skipped = True
-                continue
-            parts = line.rstrip("\n").split("\t")
-            if len(parts) < 5:
-                continue
-            anchor_id, anchor_type, start, end, label = parts[:5]
-            try:
-                start_i, end_i = int(start), int(end)
-            except ValueError:
-                continue
-            catalog[anchor_id] = {
-                "anchor_id": anchor_id,
-                "type": anchor_type,
-                "label": label,
-                "start": start_i,
-                "end": end_i,
-                "order": order,
-            }
-            order += 1
-    if not catalog:
-        raise RuntimeError(f"No anchors parsed for {item_id}")
-    return catalog
+    annotated = paths.normalized_dir / item_id / "canonical_annotated.txt"
+    if not annotated.exists():
+        raise FileNotFoundError(f"Annotated text missing for {item_id}: expected {annotated}")
+    return annotated.read_text().strip()
 
 
-def _anchor_texts(paths: Paths, item_id: str) -> Dict[str, str]:
-    """Map anchor_id -> text block from annotated canonical text.
+def _render_prompt(template: str, doc_block: str) -> str:
+    """Blend the user template with the full annotated document block.
 
-    Prefers canonical_annotated.txt; falls back to legacy prompt_view_annotated.txt for old runs.
+    We require the template to contain `{document}` to avoid "magical" fallback behavior and to
+    keep the model contract explicit.
     """
 
-    candidates = [
-        paths.normalized_dir / item_id / "canonical_annotated.txt",
-        paths.normalized_dir / item_id / "prompt_view_annotated.txt",  # legacy
-        paths.legacy_prompt_views_dir / item_id / "prompt_view_annotated.txt",  # legacy
-    ]
-    annotated = next((p for p in candidates if p.exists()), None)
-    if not annotated:
-        raise FileNotFoundError(f"Annotated text missing for {item_id}")
-
-    text = annotated.read_text()
-    out: Dict[str, List[str]] = {}
-    current_id: str | None = None
-    current_lines: List[str] = []
-    anchor_re = re.compile(r"^\[\[(A\d{4,})\]\]")
-
-    for line in text.splitlines():
-        match = anchor_re.match(line.strip())
-        if match:
-            if current_id:
-                out[current_id] = current_lines[:]
-            current_id = match.group(1)
-            current_lines = []
-            continue
-        if current_id:
-            current_lines.append(line)
-    if current_id:
-        out[current_id] = current_lines[:]
-
-    return {aid: "\n".join(lines).strip() for aid, lines in out.items()}
-
-
-def _render_prompt(template: str, anchor_texts: Dict[str, str]) -> str:
-    """Blend the user template with a list of anchor snippets."""
-
-    pairs = list(anchor_texts.items())
-    formatted_snippets = []
-    for aid, snippet in pairs:
-        short = snippet.strip()
-        if len(short) > 400:
-            short = short[:400] + "..."
-        formatted_snippets.append(f"{aid}: {short}")
-
-    doc_block = "\n\n".join(formatted_snippets)
     template = template.strip()
-    if "{document}" in template:
-        return template.replace("{document}", doc_block)
-    if "{anchors}" in template:
-        return template.replace("{anchors}", doc_block)
-    return (
-        f"{template}\n\nYou will be given anchors identified by ID and text."
-        " Select only those that are relevant to credit agreement economics (rates, fees,"
-        " grids, maturity, principal amounts, collateral, covenants, definitions, prepayment,"
-        " margin adjustments). Respond strictly with JSON: {\"anchors\": [{\"anchor_id\":"
-        " \"A0001\", \"label\": \"short label\"}, ...]}\n\nAnchors:\n\n"
-        f"{doc_block}"
-    )
+    if "{document}" not in template:
+        raise ValueError(
+            "Indexing prompt template must include a `{document}` placeholder so the full "
+            "annotated document can be injected."
+        )
+    return template.replace("{document}", doc_block)
 
+def _retry_prompt(base_prompt: str, *, attempt: int, error: str, max_anchor_id: str) -> str:
+    """Generate an explicit retry prompt for strict JSON output."""
 
-def _parse_anchor_selection(raw_text: str) -> List[Tuple[str, str | None]]:
-    """Parse the model response into a list of (anchor_id, label)."""
-
-    def _load_json(text: str) -> Any:
-        try:
-            return json.loads(text)
-        except Exception:
-            match = re.search(r"\{.*\}", text, flags=re.DOTALL)
-            if match:
-                return json.loads(match.group(0))
-            raise
-
-    payload = _load_json(raw_text)
-    # Case 1: expected {"anchors": [...]}
-    if isinstance(payload, dict) and "anchors" in payload:
-        anchors_raw = payload.get("anchors")
+    if attempt == 2:
+        rules = (
+            "Your previous response was not valid. Fix it.\n"
+            "- Output MUST be a single JSON object (no markdown, no code fences, no prose).\n"
+            "- JSON MUST match this exact schema:\n"
+            "  {\"fundamental_anchors\": [...], \"pricing_anchors\": [...], \"financial_covenant_anchors\": [...]}\n"
+            "- Each value MUST be a JSON array of UNIQUE anchor IDs like \"A0001\".\n"
+            f"- Valid anchor IDs for this document range from A0001 to {max_anchor_id}.\n"
+        )
     else:
-        anchors_raw = payload
+        rules = (
+            "STRICT MODE (final attempt):\n"
+            "- Return ONLY JSON with exactly these keys:\n"
+            "  fundamental_anchors, pricing_anchors, financial_covenant_anchors\n"
+            "- Do not include any other keys.\n"
+            "- Do not include any text before/after the JSON.\n"
+            f"- Valid anchor IDs range from A0001 to {max_anchor_id}.\n"
+            "- If a bucket has no anchors, return an empty array for that bucket (but keep the key).\n"
+        )
 
-    # Case 2: bucketed keys (fundamental/pricing/financial_covenant)
-    bucket_keys = (
-        "fundamental_anchors",
-        "pricing_anchors",
-        "financial_covenant_anchors",
-    )
-    if isinstance(payload, dict) and any(k in payload for k in bucket_keys):
-        results: List[Tuple[str, str | None]] = []
-        for key in bucket_keys:
-            anchors_list = payload.get(key)
-            if not isinstance(anchors_list, list):
-                continue
-            for aid in anchors_list:
-                if isinstance(aid, str):
-                    results.append((aid, key.replace("_anchors", "")))
-        if results:
-            return results
-
-    if not isinstance(anchors_raw, list):
-        raise ValueError("Model response missing 'anchors' array")
-
-    results: List[Tuple[str, str | None]] = []
-    for entry in anchors_raw:
-        if isinstance(entry, str):
-            results.append((entry, None))
-            continue
-        if not isinstance(entry, dict):
-            continue
-        aid = entry.get("anchor_id") or entry.get("id")
-        label = entry.get("label") or entry.get("reason") or entry.get("name")
-        if aid:
-            results.append((aid, label))
-    return results
-
-
-def _select_anchors_via_gateway(
-    *,
-    prompt: str,
-    model: str,
-    gateway_url: str,
-    temperature: float,
-    reasoning: str | None,
-    timeout: float | None = None,
-) -> List[Tuple[str, str | None]]:
-    complete_response_sync = _ensure_gateway_client_sync()
-    reasoning_payload = None
-    if reasoning:
-        reasoning_payload = {"effort": reasoning}
-    raw = complete_response_sync(
-        model=model,
-        prompt=prompt,
-        base_url=gateway_url,
-        temperature=temperature,
-        reasoning=reasoning_payload,
-        timeout=timeout,
-    )
-    return _parse_anchor_selection(raw)
-
-
-async def _select_anchors_via_gateway_async(
-    *,
-    prompt: str,
-    model: str,
-    gateway_url: str,
-    temperature: float,
-    reasoning: str | None,
-    timeout: float | None = None,
-    client: Any,
-) -> List[Tuple[str, str | None]]:
-    reasoning_payload = None
-    if reasoning:
-        reasoning_payload = {"effort": reasoning}
-
-    result = await client.complete_response(
-        model=model,
-        input_messages=[{"role": "user", "content": prompt}],
-        reasoning=reasoning_payload,
-        temperature=temperature,
-        max_output_tokens=None,
-        metadata=None,
-    )
-    raw = result.get("text") if isinstance(result, dict) else result
-    return _parse_anchor_selection(raw or "")
+    return f"{base_prompt}\n\n=== RETRY REQUIRED ===\nError: {error}\n\n{rules}"
 
 
 def run_indexing(
@@ -292,12 +136,19 @@ def run_indexing(
     gateway_timeout: float | None = None,
     concurrency: int = 3,
 ) -> None:
-    """Index anchors via the agent-gateway.
+    """Index anchors via the agent-gateway (selection-only, strict JSON).
 
-    - Reads candidate anchors from normalization outputs (anchors.tsv + annotated view).
-    - Calls the gateway with a user prompt to pick/label anchors.
-    - Writes `{item_id}_anchors.json` expected by retrieval.
-    - Also writes `{item_id}_anchors.txt` with raw model output for debugging.
+    Contract:
+    - The model must return a single JSON object matching IndexingSelection exactly.
+    - We validate with Pydantic and reject any response that is not valid JSON or does not
+      match the schema.
+    - We also validate that every anchor_id returned exists in anchors.tsv for the item.
+    - We retry up to 3 attempts per item; after that the run fails loudly.
+
+    Output:
+      runs/<run_id>/indexing/{item_id}_anchors.json
+        - Contains the model selection only (plus minimal metadata).
+        - Does NOT embed start/end/type spans (those live in anchors.tsv).
     """
 
     assert_exists(prompt_path, message=f"Indexing prompt not found: {prompt_path}")
@@ -313,90 +164,109 @@ def run_indexing(
 
     item_list = list(item_ids)
 
-    def _write_outputs(item_id: str, raw_text: str, selections: List[Tuple[str, str | None]], catalog):
-        """Persist raw LLM output and structured anchors JSON."""
-
-        if not selections:
-            raise RuntimeError(f"Model returned no anchors for {item_id}")
-
-        anchors_out = []
-        for aid, bucket_label in selections:
-            info = catalog.get(aid)
-            if not info:
-                continue
-            anchors_out.append(
-                {
-                    "anchor_id": aid,
-                    "label": bucket_label or info.get("label") or info.get("type"),
-                    "type": info.get("type"),
-                    "start": info.get("start"),
-                    "end": info.get("end"),
-                    "source": "gateway",
-                }
-            )
-
-        if not anchors_out:
-            raise RuntimeError(f"No anchors matched catalog for {item_id}")
-
-        # Persist raw gateway response for audit/debug convenience.
-        raw_path = out_dir / f"{item_id}_anchors.txt"
-        raw_path.write_text(str(raw_text))
-
-        json_path = out_dir / f"{item_id}_anchors.json"
-        json_payload = {
-            "item_id": item_id,
-            "model": model,
-            "prompt": str(prompt_path),
-            "prompt_sha256": prompt_digest,
-            "anchors": anchors_out,
-            # Keep raw model text inline for traceability instead of a separate file.
-            "raw_response": str(raw_text),
-        }
-        json_path.write_text(json.dumps(json_payload, indent=2))
-
-    async def _run_async(items: List[str]) -> None:
+    async def _run_async(items: list[str]) -> None:
         GatewayAgentClient = _ensure_gateway_client_async()
         sem = asyncio.Semaphore(max(1, concurrency))
-        async with GatewayAgentClient(
-            base_url=gateway_url or DEFAULT_GATEWAY_URL, timeout=gateway_timeout or 30.0
-        ) as client:
+        resolved_gateway_url = gateway_url or DEFAULT_GATEWAY_URL
+
+        failures: list[tuple[str, str]] = []
+
+        async with GatewayAgentClient(base_url=resolved_gateway_url, timeout=gateway_timeout or 30.0) as client:
 
             async def _process(item_id: str) -> None:
                 async with sem:
-                    anchor_texts = _anchor_texts(paths, item_id)
-                    catalog = _anchor_catalog(paths, item_id)
-                    rendered_prompt = _render_prompt(prompt_template, anchor_texts)
+                    catalog = load_anchor_catalog(paths, item_id)
+                    max_anchor_id = max(catalog.keys(), key=lambda aid: int(aid[1:]))
 
-                    result = await client.complete_response(
-                        model=model or DEFAULT_MODEL,
-                        input_messages=[{"role": "user", "content": rendered_prompt}],
-                        reasoning={"effort": reasoning} if reasoning else None,
-                        temperature=temperature,
-                        max_output_tokens=None,
-                        metadata=None,
-                    )
-                    raw_text = result.get("text") if isinstance(result, dict) else str(result)
-                    selections = _parse_anchor_selection(raw_text or "")
-                    _write_outputs(item_id, raw_text, selections, catalog)
+                    doc_block = _canonical_annotated_text(paths, item_id)
+                    base_prompt = _render_prompt(prompt_template, doc_block)
+
+                    # Remove stale sidecars from older runs; we only write JSON in this mode.
+                    for legacy in (
+                        out_dir / f"{item_id}_anchors.txt",
+                        out_dir / f"{item_id}_anchors.retry.txt",
+                        out_dir / f"{item_id}_anchors.error.txt",
+                        out_dir / f"{item_id}_anchors.retry.error.txt",
+                        out_dir / f"{item_id}_anchors.final.error.txt",
+                    ):
+                        if legacy.exists():
+                            legacy.unlink()
+
+                    last_error = "unknown"
+                    for attempt in (1, 2, 3):
+                        prompt = base_prompt
+                        if attempt > 1:
+                            prompt = _retry_prompt(
+                                base_prompt,
+                                attempt=attempt,
+                                error=last_error,
+                                max_anchor_id=max_anchor_id,
+                            )
+
+                        result = await client.complete_response(
+                            model=model or DEFAULT_MODEL,
+                            input_messages=[{"role": "user", "content": prompt}],
+                            reasoning={"effort": reasoning} if reasoning else None,
+                            temperature=temperature,
+                            max_output_tokens=None,
+                            metadata=None,
+                        )
+
+                        raw_text = result.get("text") if isinstance(result, dict) else str(result)
+                        try:
+                            payload = json.loads(raw_text)
+                        except json.JSONDecodeError as exc:
+                            last_error = f"invalid JSON: {exc}"
+                            continue
+
+                        try:
+                            selection = IndexingSelection.model_validate(payload)
+                        except Exception as exc:
+                            last_error = f"schema validation failed: {exc}"
+                            continue
+
+                        invalid: list[str] = []
+                        for aid in (
+                            selection.fundamental_anchors
+                            + selection.pricing_anchors
+                            + selection.financial_covenant_anchors
+                        ):
+                            if aid not in catalog:
+                                invalid.append(aid)
+                        if invalid:
+                            examples = ", ".join(invalid[:10])
+                            last_error = (
+                                f"returned anchor_id values not present in anchors.tsv "
+                                f"(count={len(invalid)}; examples={examples})"
+                            )
+                            continue
+
+                        artifact = IndexingSelectionArtifact(
+                            schema_version="indexing_selection_v1",
+                            stage="indexing",
+                            run_id=paths.run_id,
+                            item_id=item_id,
+                            created_at=int(time.time()),
+                            gateway_url=resolved_gateway_url,
+                            model=model,
+                            reasoning_effort=reasoning,
+                            temperature=float(temperature),
+                            prompt=str(prompt_path),
+                            prompt_sha256=prompt_digest,
+                            attempts_used=attempt,
+                            selection=selection,
+                        )
+                        json_path = out_dir / f"{item_id}_anchors.json"
+                        json_path.write_text(artifact.model_dump_json(indent=2))
+                        return
+
+                    failures.append((item_id, last_error))
 
             await asyncio.gather(*(_process(i) for i in items))
 
-    def _run_sync(items: List[str]) -> None:
-        for item_id in items:
-            anchor_texts = _anchor_texts(paths, item_id)
-            catalog = _anchor_catalog(paths, item_id)
-            rendered_prompt = _render_prompt(prompt_template, anchor_texts)
-            complete_response_sync = _ensure_gateway_client_sync()
-            raw_text = complete_response_sync(
-                model=model or DEFAULT_MODEL,
-                prompt=rendered_prompt,
-                base_url=gateway_url or DEFAULT_GATEWAY_URL,
-                temperature=temperature,
-                reasoning={"effort": reasoning} if reasoning else None,
-                timeout=gateway_timeout,
-            )
-            selections = _parse_anchor_selection(raw_text or "")
-            _write_outputs(item_id, raw_text, selections, catalog)
+        if failures:
+            joined = "; ".join(f"{item_id}: {err}" for item_id, err in failures)
+            raise RuntimeError(f"Indexing failed for {len(failures)} items: {joined}")
 
     asyncio.run(_run_async(item_list))
 
