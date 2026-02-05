@@ -120,53 +120,23 @@ def _drop_empty_rows(matrix: list[list[str]]) -> list[list[str]]:
 
 
 def parse_table(block_text: str) -> dict[str, Any] | None:
-    """Parse the first [[TABLE]] ... [[/TABLE]] block inside an anchor block."""
+    """Extract the first [[TABLE]] ... [[/TABLE]] block inside an anchor block.
+
+    Intentional design choice:
+    - Preserve the table as raw markdown/text only.
+    - Do NOT apply deterministic parsing rules to extract columns/rows.
+    - The LLM should interpret whatever structure exists in the raw payload.
+    """
 
     payload = _extract_table_payload(block_text)
     if payload is None:
         return None
 
-    matrix = _parse_markdown_table(payload)
-    if matrix is None:
-        # Preserve raw payload even when we cannot structure it.
-        return {
-            "raw": payload,
-            "columns": [],
-            "rows": [],
-            "structured": False,
-        }
-
-    matrix = _drop_empty_rows(_drop_empty_columns(matrix))
-    if not matrix:
-        return {
-            "raw": payload,
-            "columns": [],
-            "rows": [],
-            "structured": False,
-        }
-
-    header = matrix[0]
-    columns = [c.strip() for c in header]
-    if columns and not columns[0]:
-        columns[0] = "ROW_LABEL"
-
-    rows_out: list[dict[str, Any]] = []
-    for r in matrix[1:]:
-        row = r + [""] * (len(columns) - len(r))
-        row_label = row[0].strip()
-        cells: dict[str, str] = {}
-        for idx in range(1, len(columns)):
-            col = columns[idx] or f"COL_{idx}"
-            cells[col] = row[idx].strip()
-        if not row_label and not any(v for v in cells.values()):
-            continue
-        rows_out.append({"row_label": row_label, "cells": cells})
-
     return {
         "raw": payload,
-        "columns": columns,
-        "rows": rows_out,
-        "structured": True,
+        "columns": [],
+        "rows": [],
+        "structured": False,
     }
 
 
@@ -186,6 +156,11 @@ def build_doc_ir(paths: Paths, item_id: str) -> dict[str, Any]:
         anchor_type = str(info.get("anchor_type") or "unknown")
         start = info.get("start")
         end = info.get("end")
+        parsed_table = parse_table(block_text)
+        if parsed_table is not None:
+            # Canonical annotated text is the source-of-truth for whether a block contains a table payload.
+            # If a [[TABLE]] block exists, treat this anchor as a table even if the catalog mislabeled it.
+            anchor_type = "table"
         anchor_rec = {
             "anchor_id": anchor_id,
             "anchor_type": anchor_type,
@@ -197,7 +172,7 @@ def build_doc_ir(paths: Paths, item_id: str) -> dict[str, Any]:
         anchors.append(anchor_rec)
 
         if anchor_type == "table":
-            parsed = parse_table(block_text) or {"raw": "", "columns": [], "rows": [], "structured": False}
+            parsed = parsed_table or {"raw": "", "columns": [], "rows": [], "structured": False}
             tables.append(
                 {
                     "table_anchor_id": anchor_id,
@@ -221,4 +196,3 @@ def load_doc_ir(path: Path) -> dict[str, Any]:
 def iter_anchor_text(doc_ir: dict[str, Any]) -> Iterable[tuple[str, str]]:
     for a in doc_ir.get("anchors", []):
         yield str(a.get("anchor_id")), str(a.get("text") or "")
-

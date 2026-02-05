@@ -3,6 +3,7 @@ You are extracting a SINGLE pricing table from a credit agreement into a strict 
 Input: TABLE_CONTEXT_JSON containing:
 - One table (table_anchor_id, columns, rows, raw markdown)
 - Neighbor anchors around the table (may include regime intro lines and footnotes/adjustments)
+- Optional: table_plan (semantic hints from a separate planning step)
 
 Hard rules
 - Output JSON only. No prose. No markdown.
@@ -16,6 +17,12 @@ Hard rules
 - Percent-to-bps conversion:
   - 1.75% -> 175
   - 0.125% -> 12.5
+Planner hints (authoritative when present)
+- If TABLE_CONTEXT_JSON.table_plan is present:
+  - Use table_plan.tiers_axis to decide which axis is tiers.
+  - Use table_plan.rate_options_axis to decide which axis is rate options.
+  - If table_plan.defined_term is present, it may define the fee/price label even if not present in the table itself.
+  - If the plan seems inconsistent with the table, do NOT invent fields or add fake adjustments. Prefer the interpretation that is best supported by the table + neighbor_anchors and keep the output strictly grounded.
 
 Output schema (JSON object)
 {
@@ -78,8 +85,18 @@ How to interpret the table
   - rate_options come from the loan-type columns
 
 Evidence
-- Every cell must cite at least the table_anchor_id in source_refs.
+- Every rate option MUST cite at least the table_anchor_id in source_refs.
+- Every tier MUST cite at least the table_anchor_id in source_refs.
+- Every cell MUST cite at least the table_anchor_id in source_refs.
 - For any adjustment you encode, cite the footnote anchor in source_refs (and in applies_when.source_refs).
+-
+ID rules (strict)
+- All *_id fields MUST be lowercase snake_case with no spaces (letters/numbers/underscores only).
+- Do NOT use placeholder values like "no_spaces_id" or any IDs containing the word "verbatim".
+-
+Grounding rules (strict)
+- label_raw fields MUST be copied from the table text (or, if needed, from neighbor_anchors text).
+- Do NOT output template phrases like "VERBATIM LABEL ..." in any field.
 
 TABLE_CONTEXT_JSON:
 {table_context_json}

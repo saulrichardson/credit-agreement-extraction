@@ -1,0 +1,104 @@
+You are extracting **facility fundamentals** from a credit agreement snippet pack.
+
+Return JSON only. Do not add commentary.
+
+INPUT FORMAT
+- You will receive multiple snippet blocks.
+- Each block begins with an anchor header like:
+    [[A0123]]
+    label: agreement_dates,fundamental,key_date_definitions
+  followed by text from the agreement.
+
+EVIDENCE RULES (HARD)
+1) Use ONLY the provided snippets. Do not guess or infer missing values.
+2) Every facility object you output MUST include `source_refs` as a non-empty list of plain anchor IDs like "A0123".
+3) If a field is not explicitly supported by the provided snippets, set it to null/[] and explain briefly in `notes`.
+
+DATE NORMALIZATION RULES (IMPORTANT)
+- If an agreement states a calendar date explicitly (e.g., "March 12, 2026"), normalize it to `YYYY-MM-DD` in the `date` field.
+- If a date is expressed **relatively or conditionally** (e.g., "the date that is the fifth anniversary of the Closing Date", "the earlier of (a) ... and (b) ..."),
+  set `date` to null and put the **verbatim date expression** in `text`.
+- Do NOT compute relative dates. Do NOT assume the Closing Date is the Agreement Date, etc.
+
+MULTI-FACILITY SEPARATION (CRITICAL)
+Many agreements contain multiple distinct facilities/tranches (e.g., Revolving Facility + Term Loan A + Term Loan B).
+You MUST output **one facility object per distinct facility/tranche** when any of these differ:
+- committed amount
+- maturity / termination
+- availability period
+- facility type label
+
+If the agreement clearly has multiple facilities but you can only confidently extract one, output the one you can support and explain the limitation in top-level `notes`.
+
+TASK
+Extract ONLY these concepts:
+
+AGREEMENT-LEVEL DATES (when explicitly stated)
+- Closing Date (or similar defined/used term; can be a definition like “Closing Date means …”)
+- Effective Date / Restatement Effective Date / Amendment Effective Date (capture what the snippets explicitly support; do NOT assume these are the same thing)
+
+Agreement-date completeness rules:
+- If ANY snippet provides an explicit calendar date or an explicit definition for one of these concepts, you MUST populate the corresponding top-level field (do not leave it null).
+- If the agreement/amendment preamble states “dated as of <Month Day, Year>”, treat that as evidence for an agreement-level effective/dated-as-of concept:
+  - Put the normalized date in `agreement_effective_date.date` (unless a more specific effective-date term is explicitly defined elsewhere in the snippets).
+  - Optionally note “dated as of …” briefly in `agreement_effective_date.notes`.
+- If an effective date is defined only conditionally/relatively (e.g., “This Amendment shall become effective only upon … (the ‘Amendment Effective Date’)”), set `agreement_effective_date.date` to null and put the defining language in `agreement_effective_date.text`.
+- Do NOT output a naked cross-reference like “Defined in Section X” as the date `text` unless the snippet actually contains the full definition. If you only have a cross-reference without the definition, leave the field null and explain in `notes`.
+
+FACILITY-LEVEL FUNDAMENTALS
+For each facility/tranche you can support from the snippets:
+- facility name/label (e.g., "Revolving Facility", "Term Loan Facility", "Tranche B Term Loan") when present
+- facility types present (must be one or more of: revolver, term_loan, letters_of_credit, swingline, delayed_draw, other)
+- committed amount (number + currency) when explicitly stated
+- currency (3-letter ISO code ONLY if explicitly stated; do NOT infer USD from "$")
+- availability period start / end (or the closest equivalent concept, e.g., "Final Availability Date", "Last Borrowing Date")
+- termination vs maturity (capture relative/conditional language when used):
+  - For revolving facilities, the end of availability is often a commitment termination/expiration date (last day to borrow); maturity is often the final maturity date (last day to repay).
+  - If the agreement only provides one of these concepts for a facility, fill the one you can support and leave the other as null (explain briefly in notes).
+
+OUTPUT JSON (EXACT SHAPE)
+{
+  "schema_version": "facility_fundamentals_v1",
+  "agreement_closing_date": {
+    "date": "1999-12-31" | null,
+    "text": "verbatim relative/conditional date expression" | null,
+    "source_refs": ["A0123"],
+    "notes": "string|null"
+  } | null,
+  "agreement_effective_date": {
+    "date": "1999-12-31" | null,
+    "text": "verbatim relative/conditional date expression" | null,
+    "source_refs": ["A0123"],
+    "notes": "string|null"
+  } | null,
+  "facilities": [
+    {
+      "facility_name": "string|null",
+      "facility_types": ["revolver", "letters_of_credit"],
+      "committed_amount": { "amount": 50000000, "currency": "USD" } | null,
+      "currency": "USD" | null,
+      "availability_start": { "date": "1999-12-31"|null, "text": "string|null", "notes": "string|null" } | null,
+      "availability_end": { "date": "1999-12-31"|null, "text": "string|null", "notes": "string|null" } | null,
+      "maturity": { "date": "1999-12-31"|null, "text": "string|null", "notes": "string|null" } | null,
+      "termination": { "date": "1999-12-31"|null, "text": "string|null", "notes": "string|null" } | null,
+      "source_refs": ["A0123"],
+      "notes": "string|null"
+    }
+  ],
+  "notes": "string|null"
+}
+
+IMPORTANT TYPE RULES
+- amount MUST be a JSON number (no quotes, no commas).
+- `currency` MUST be a 3-letter ISO code like "USD" when provided.
+- Dates MUST be YYYY-MM-DD when present in a `date` field.
+- Anchor refs MUST be plain anchor IDs like "A0123" (no brackets, no labels).
+- facility_types MUST be an array of strings. Do NOT include pipe characters like "revolver|letters_of_credit".
+- Do NOT output placeholder facility objects:
+  - If you cannot identify facility_types for a facility, do not emit that facility object.
+  - If you cannot identify any facilities, return facilities: [] and explain why in top-level notes.
+- Do NOT use sentinel placeholder strings like "Not specified", "N/A", or "unknown" inside date fields:
+  - If you cannot support a date term, set the entire date object field to null and explain briefly in notes.
+
+INPUT
+(The snippet pack follows.)

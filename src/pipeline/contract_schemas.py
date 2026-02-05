@@ -6,6 +6,16 @@ from typing import Literal
 from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 ANCHOR_ID_RE = re.compile(r"^A\d{4,}$")
+_NO_SPACES_ID_RE = re.compile(r"^[a-z0-9_]{1,80}$", flags=re.IGNORECASE)
+_PLACEHOLDER_IDS = {
+    "no_spaces_id",
+    "id",
+    "grid_id",
+    "tier_id",
+    "rate_option_id",
+    "adjustment_id",
+    "item_id",
+}
 
 
 def _validate_anchor_ids(anchor_ids: list[str]) -> list[str]:
@@ -23,6 +33,30 @@ def _validate_anchor_ids(anchor_ids: list[str]) -> list[str]:
     return cleaned
 
 
+def _validate_anchor_ids_nonempty(anchor_ids: list[str]) -> list[str]:
+    cleaned = _validate_anchor_ids(anchor_ids)
+    if not cleaned:
+        raise ValueError("source_refs must contain at least one anchor_id")
+    return cleaned
+
+
+def _validate_no_spaces_id(value: str) -> str:
+    if not isinstance(value, str):
+        raise TypeError("id fields must be strings")
+    v = value.strip()
+    if not v:
+        raise ValueError("id fields must be non-empty")
+    if any(ch.isspace() for ch in v):
+        raise ValueError(f"invalid id {v!r}: spaces are not allowed")
+    if v.lower() in _PLACEHOLDER_IDS:
+        raise ValueError(f"invalid id {v!r}: placeholder value not allowed")
+    if "verbatim" in v.lower():
+        raise ValueError(f"invalid id {v!r}: placeholder value not allowed")
+    if not _NO_SPACES_ID_RE.fullmatch(v):
+        raise ValueError(f"invalid id {v!r}: expected [a-z0-9_], length <= 80")
+    return v
+
+
 class EvidenceText(BaseModel):
     """A text statement with explicit anchor references that support it."""
 
@@ -34,7 +68,7 @@ class EvidenceText(BaseModel):
     @field_validator("source_refs")
     @classmethod
     def _source_refs_validate(cls, value: list[str]) -> list[str]:
-        return _validate_anchor_ids(value)
+        return _validate_anchor_ids_nonempty(value)
 
 
 class AgreementInfo(BaseModel):
@@ -68,10 +102,15 @@ class RateOption(BaseModel):
 
     source_refs: list[str] = Field(default_factory=list)
 
+    @field_validator("rate_option_id")
+    @classmethod
+    def _rate_option_id_validate(cls, value: str) -> str:
+        return _validate_no_spaces_id(value)
+
     @field_validator("source_refs")
     @classmethod
     def _source_refs_validate(cls, value: list[str]) -> list[str]:
-        return _validate_anchor_ids(value)
+        return _validate_anchor_ids_nonempty(value)
 
 
 class TierTest(BaseModel):
@@ -82,10 +121,39 @@ class TierTest(BaseModel):
     value: float
     source_refs: list[str] = Field(default_factory=list)
 
+    @field_validator("op", mode="before")
+    @classmethod
+    def _op_validate(cls, value: str) -> str:
+        """Normalize common operator variants emitted by LLMs.
+
+        Keep the canonical set small so downstream logic stays deterministic.
+        """
+
+        if not isinstance(value, str):
+            return value
+        v = value.strip()
+
+        # Some models will emit the literal unicode escape sequence inside JSON (e.g., "\\u2264")
+        # instead of the actual character (e.g., "≤"). Decode it if possible.
+        if len(v) == 6 and v.lower().startswith("\\u"):
+            try:
+                v = chr(int(v[2:], 16))
+            except Exception:
+                pass
+
+        aliases = {
+            "=": "==",
+            "≤": "<=",
+            "≥": ">=",
+            "≠": "!=",
+            "<>": "!=",
+        }
+        return aliases.get(v, v)
+
     @field_validator("source_refs")
     @classmethod
     def _source_refs_validate(cls, value: list[str]) -> list[str]:
-        return _validate_anchor_ids(value)
+        return _validate_anchor_ids_nonempty(value)
 
 
 class PricingTier(BaseModel):
@@ -96,10 +164,15 @@ class PricingTier(BaseModel):
     tests: list[TierTest] = Field(default_factory=list)
     source_refs: list[str] = Field(default_factory=list)
 
+    @field_validator("tier_id")
+    @classmethod
+    def _tier_id_validate(cls, value: str) -> str:
+        return _validate_no_spaces_id(value)
+
     @field_validator("source_refs")
     @classmethod
     def _source_refs_validate(cls, value: list[str]) -> list[str]:
-        return _validate_anchor_ids(value)
+        return _validate_anchor_ids_nonempty(value)
 
 
 class PricingCell(BaseModel):
@@ -113,7 +186,7 @@ class PricingCell(BaseModel):
     @field_validator("source_refs")
     @classmethod
     def _source_refs_validate(cls, value: list[str]) -> list[str]:
-        return _validate_anchor_ids(value)
+        return _validate_anchor_ids_nonempty(value)
 
 
 class PricingGrid(BaseModel):
@@ -135,6 +208,11 @@ class PricingGrid(BaseModel):
 
     source_refs: list[str] = Field(default_factory=list)
 
+    @field_validator("grid_id")
+    @classmethod
+    def _grid_id_validate(cls, value: str) -> str:
+        return _validate_no_spaces_id(value)
+
     @field_validator("table_anchor_id")
     @classmethod
     def _table_anchor_validate(cls, value: str) -> str:
@@ -148,7 +226,7 @@ class PricingGrid(BaseModel):
     @field_validator("source_refs")
     @classmethod
     def _source_refs_validate(cls, value: list[str]) -> list[str]:
-        return _validate_anchor_ids(value)
+        return _validate_anchor_ids_nonempty(value)
 
 
 class PricingAdjustment(BaseModel):
@@ -165,10 +243,15 @@ class PricingAdjustment(BaseModel):
     cap_bps: float | None = None
     source_refs: list[str] = Field(default_factory=list)
 
+    @field_validator("adjustment_id")
+    @classmethod
+    def _adjustment_id_validate(cls, value: str) -> str:
+        return _validate_no_spaces_id(value)
+
     @field_validator("source_refs")
     @classmethod
     def _source_refs_validate(cls, value: list[str]) -> list[str]:
-        return _validate_anchor_ids(value)
+        return _validate_anchor_ids_nonempty(value)
 
 
 class FlatPricingItem(BaseModel):
@@ -180,10 +263,15 @@ class FlatPricingItem(BaseModel):
     applies_when: EvidenceText | None = None
     source_refs: list[str] = Field(default_factory=list)
 
+    @field_validator("item_id")
+    @classmethod
+    def _item_id_validate(cls, value: str) -> str:
+        return _validate_no_spaces_id(value)
+
     @field_validator("source_refs")
     @classmethod
     def _source_refs_validate(cls, value: list[str]) -> list[str]:
-        return _validate_anchor_ids(value)
+        return _validate_anchor_ids_nonempty(value)
 
 
 class PricingRegime(BaseModel):
@@ -196,6 +284,11 @@ class PricingRegime(BaseModel):
     adjustments: list[PricingAdjustment] = Field(default_factory=list)
     flat_items: list[FlatPricingItem] = Field(default_factory=list)
     source_refs: list[str] = Field(default_factory=list)
+
+    @field_validator("regime_id")
+    @classmethod
+    def _regime_id_validate(cls, value: str) -> str:
+        return _validate_no_spaces_id(value)
 
     @field_validator("source_refs")
     @classmethod
@@ -217,7 +310,7 @@ class ContractPricingArtifact(BaseModel):
 
     model_config = ConfigDict(extra="forbid")
 
-    schema_version: Literal["contract_pricing_v1"]
+    schema_version: Literal["contract_pricing_v1", "contract_pricing_v2", "contract_pricing_v3"]
     stage: Literal["contract_pricing"]
     run_id: str
     item_id: str
@@ -233,6 +326,14 @@ class ContractPricingArtifact(BaseModel):
 
     attempts_used: int
     pricing: ContractPricingModel
+
+    # Optional v2 planner metadata (kept optional so v1 artifacts still validate).
+    planner_prompt: str | None = None
+    planner_prompt_sha256: str | None = None
+    planner_model: str | None = None
+    planner_reasoning_effort: str | None = None
+    planner_temperature: float | None = None
+    planner_max_steps: int | None = None
 
 
 class ContractPricingTableExtract(BaseModel):

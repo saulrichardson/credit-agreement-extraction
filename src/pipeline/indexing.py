@@ -25,49 +25,47 @@ class IndexingGatewayUnavailable(RuntimeError):
 def _ensure_gateway_client_sync() -> Any:
     """Return the sync helper complete_response_sync from agent-gateway."""
 
+    # Prefer the repo's pinned agent-gateway submodule over any globally-installed `gateway`
+    # package (which can silently diverge and cause confusing runtime behavior).
+    root = Path(__file__).resolve().parents[2] / "agent-gateway" / "src"
+    if root.exists() and str(root) not in sys.path:
+        sys.path.insert(0, str(root))
+
     try:
         from gateway.client import complete_response_sync  # type: ignore
 
         return complete_response_sync
-    except ModuleNotFoundError:
-        root = Path(__file__).resolve().parents[2] / "agent-gateway" / "src"
-        if root.exists() and str(root) not in sys.path:
-            sys.path.append(str(root))
-            try:
-                from gateway.client import complete_response_sync  # type: ignore
-
-                return complete_response_sync
-            except ModuleNotFoundError as exc:  # pragma: no cover
-                raise IndexingGatewayUnavailable(
-                    "agent-gateway present but import failed; ensure dependencies are installed"
-                ) from exc
+    except ModuleNotFoundError as exc:  # pragma: no cover
+        if root.exists():
+            raise IndexingGatewayUnavailable(
+                "agent-gateway present but import failed; ensure dependencies are installed"
+            ) from exc
         raise IndexingGatewayUnavailable(
             "agent-gateway submodule not available; run `git submodule update --init --recursive`"
-        )
+        ) from exc
 
 
 def _ensure_gateway_client_async() -> Any:
     """Return the async GatewayAgentClient from agent-gateway."""
 
+    # Prefer the repo's pinned agent-gateway submodule over any globally-installed `gateway`
+    # package (which can silently diverge and cause confusing runtime behavior).
+    root = Path(__file__).resolve().parents[2] / "agent-gateway" / "src"
+    if root.exists() and str(root) not in sys.path:
+        sys.path.insert(0, str(root))
+
     try:
         from gateway.client import GatewayAgentClient  # type: ignore
 
         return GatewayAgentClient
-    except ModuleNotFoundError:
-        root = Path(__file__).resolve().parents[2] / "agent-gateway" / "src"
-        if root.exists() and str(root) not in sys.path:
-            sys.path.append(str(root))
-            try:
-                from gateway.client import GatewayAgentClient  # type: ignore
-
-                return GatewayAgentClient
-            except ModuleNotFoundError as exc:  # pragma: no cover
-                raise IndexingGatewayUnavailable(
-                    "agent-gateway present but import failed; ensure dependencies are installed"
-                ) from exc
+    except ModuleNotFoundError as exc:  # pragma: no cover
+        if root.exists():
+            raise IndexingGatewayUnavailable(
+                "agent-gateway present but import failed; ensure dependencies are installed"
+            ) from exc
         raise IndexingGatewayUnavailable(
             "agent-gateway submodule not available; run `git submodule update --init --recursive`"
-        )
+        ) from exc
 
 
 def _canonical_annotated_text(paths: Paths, item_id: str) -> str:

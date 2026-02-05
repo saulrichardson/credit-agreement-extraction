@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import re
 import time
 import traceback
 from pathlib import Path
@@ -13,9 +14,21 @@ from .contract_schemas import (
     ContractPricingArtifact,
     ContractPricingModel,
     ContractPricingTableExtract,
+    EvidenceText,
     FlatPricingItem,
+    PricingAdjustment,
+    PricingCell,
+    PricingGrid,
     PricingRegime,
+    PricingTier,
     RateOption,
+)
+from .pricing_index import build_pricing_index, score_pricing_table
+from .pricing_heuristics import (
+    looks_like_adjustment_anchor,
+    looks_like_definition_anchor,
+    looks_like_pricing_anchor,
+    looks_like_regime_intro,
 )
 from .utils import assert_exists
 
@@ -25,117 +38,301 @@ from .indexing import (  # type: ignore
     DEFAULT_GATEWAY_URL,
 )
 
+_PLACEHOLDER_TEXT_MARKERS = (
+    "verbatim label",
+    "verbatim",
+    "no_spaces_id",
+    "table_context_json",
+    "output schema",
+)
+
+_DEFINED_TERM_RE = re.compile(r'[“"]\s*([^”"]{2,120}?)\s*[”"]\s*:')
+
+
+def _extract_defined_term_before_table(anchor_text: str) -> str | None:
+    """Best-effort: find the last defined term label preceding a [[TABLE]] marker."""
+
+    if not isinstance(anchor_text, str) or not anchor_text.strip():
+        return None
+
+    idx = anchor_text.find("[[TABLE]]")
+    prefix = anchor_text[:idx] if idx != -1 else anchor_text
+    matches = list(_DEFINED_TERM_RE.finditer(prefix))
+    if not matches:
+        return None
+    return matches[-1].group(1).strip() or None
+
+
+def _extract_defined_term_for_table(
+    *, neighbor_anchors: list[dict[str, Any]], table_anchor_id: str
+) -> str | None:
+    """Find the most likely defined-term label for a table using nearby anchor text.
+
+    In many normalized filings, the table anchor itself contains only the [[TABLE]] payload, while
+    the immediately preceding sentence anchor contains the definition label (e.g., “Facility Fee Rate”: ...).
+    """
+
+    if not table_anchor_id:
+        return None
+    if not isinstance(neighbor_anchors, list) or not neighbor_anchors:
+        return None
+
+    table_idx: int | None = None
+    for i, a in enumerate(neighbor_anchors):
+        if isinstance(a, dict) and str(a.get("anchor_id") or "") == table_anchor_id:
+            table_idx = i
+            break
+
+    # Prefer scanning backwards from the table anchor.
+    if table_idx is not None:
+        for j in range(table_idx - 1, -1, -1):
+            a = neighbor_anchors[j]
+            if not isinstance(a, dict):
+                continue
+            txt = a.get("text")
+            if not isinstance(txt, str) or not txt.strip():
+                continue
+            matches = list(_DEFINED_TERM_RE.finditer(txt))
+            if matches:
+                return matches[-1].group(1).strip() or None
+
+    # Fallback: full concatenation, but use the last match overall.
+    joined = "\n\n".join(
+        str(a.get("text") or "") for a in neighbor_anchors if isinstance(a, dict) and a.get("text")
+    )
+    matches = list(_DEFINED_TERM_RE.finditer(joined))
+    if matches:
+        return matches[-1].group(1).strip() or None
+
+    return None
+
+
+def _parse_percent_to_bps(raw: str) -> float:
+    import re
+
+    txt = (raw or "").strip()
+    m = re.fullmatch(r"(\d+(?:\.\d+)?)\s*%", txt)
+    if not m:
+        raise ValueError(f"Not a percent value: {raw!r}")
+    return float(m.group(1)) * 100.0
+
+
+def _extract_adjustments_from_hints(
+    *,
+    adjustment_hints: list[dict[str, Any]],
+    applies_to_rate_option_ids: list[str],
+) -> list[PricingAdjustment]:
+    import re
+
+    out: list[PricingAdjustment] = []
+    for hint in adjustment_hints or []:
+        if not isinstance(hint, dict):
+            continue
+        aid = str(hint.get("anchor_id") or "").strip()
+        txt = str(hint.get("text") or "").strip()
+        if not aid or not txt:
+            continue
+
+        hay = txt.lower()
+        # Determine sign (explicitly prefer reduced/decreased when present).
+        sign = 1.0
+        if any(k in hay for k in ["reduc", "decreas", "lower"]):
+            sign = -1.0
+        elif any(k in hay for k in ["increas", "raise", "higher", "addit"]):
+            sign = 1.0
+
+        # Extract magnitude.
+        # Common patterns:
+        # - "reduced by 1 basis point"
+        # - "reduced by one (1) basis point"
+        # - "increased by (2) bps"
+        mag: float | None = None
+        m = re.search(
+            r"\(\s*(\d+(?:\.\d+)?)\s*\)\s*(?:basis point|basis points|\bbp\b|\bbps\b)",
+            txt,
+            flags=re.I,
+        )
+        if m:
+            mag = float(m.group(1))
+        else:
+            m = re.search(r"(\d+(?:\.\d+)?)\s*(?:basis point|basis points|\bbp\b|\bbps\b)", txt, flags=re.I)
+            if m:
+                mag = float(m.group(1))
+
+        if mag is None:
+            word_map = {
+                "one": 1.0,
+                "two": 2.0,
+                "three": 3.0,
+                "four": 4.0,
+                "five": 5.0,
+                "six": 6.0,
+                "seven": 7.0,
+                "eight": 8.0,
+                "nine": 9.0,
+                "ten": 10.0,
+            }
+            for word, val in word_map.items():
+                if re.search(rf"\b{word}\b\s*(?:basis point|basis points|\bbp\b|\bbps\b)", txt, flags=re.I):
+                    mag = val
+                    break
+
+        if mag is None:
+            continue
+
+        delta_bps = sign * mag
+
+        out.append(
+            PricingAdjustment(
+                adjustment_id=_slugify_id(f"adj_{aid.lower()}"),
+                label="bps adjustment",
+                delta_bps=delta_bps,
+                applies_to_rate_option_ids=list(applies_to_rate_option_ids or []),
+                applies_when=EvidenceText(text=txt, source_refs=[aid]),
+                floor_bps=None,
+                cap_bps=None,
+                source_refs=[aid],
+            )
+        )
+    return out
+
+
+def _try_extract_single_row_status_fee_table(
+    *, table_context: dict[str, Any]
+) -> ContractPricingTableExtract | None:
+    """Deterministic extraction for 1-row 'Level I Status ...' fee rate tables.
+
+    Common pattern in credit agreements:
+      “Facility Fee Rate”: the applicable percentage per annum set forth below based upon the Status...
+      [[TABLE]]  Level I Status | ... | Level VI Status
+               0.100% | ... | 0.300%
+    """
+
+    table = table_context.get("table") or {}
+    if not isinstance(table, dict):
+        return None
+
+    if not table.get("structured"):
+        return None
+
+    cols = table.get("columns") or []
+    rows = table.get("rows") or []
+    if not isinstance(cols, list) or not isinstance(rows, list) or len(rows) != 1:
+        return None
+
+    def _is_status_col(c: str) -> bool:
+        hay = (c or "").strip().lower()
+        return "status" in hay and hay.startswith("level ")
+
+    status_cols = [str(c) for c in cols if isinstance(c, str) and c.strip()]
+    if len(status_cols) < 4:
+        return None
+    if not all(_is_status_col(c) for c in status_cols):
+        return None
+
+    row0 = rows[0] if isinstance(rows[0], dict) else None
+    if not row0:
+        return None
+
+    row_label = str(row0.get("row_label") or "").strip()
+    cells = row0.get("cells") or {}
+    if not row_label or not isinstance(cells, dict):
+        return None
+
+    # Interpret: row_label is the value for the first status column; remaining values are in cells keyed by column.
+    values_by_status: dict[str, str] = {status_cols[0]: row_label}
+    for col in status_cols[1:]:
+        v = str(cells.get(col) or "").strip()
+        if not v:
+            return None
+        values_by_status[col] = v
+
+    # Ensure all values are percentages.
+    try:
+        bps_by_status = {k: _parse_percent_to_bps(v) for k, v in values_by_status.items()}
+    except Exception:
+        return None
+
+    table_anchor_id = str(table.get("table_anchor_id") or "").strip()
+    if not table_anchor_id:
+        return None
+
+    neighbor_anchors = list(table_context.get("neighbor_anchors") or [])
+    fee_label = _extract_defined_term_for_table(
+        neighbor_anchors=neighbor_anchors,
+        table_anchor_id=table_anchor_id,
+    )
+    if not fee_label:
+        return None
+
+    rate_option_id = _slugify_id(fee_label)
+    rate_option = RateOption(
+        rate_option_id=rate_option_id,
+        label_raw=fee_label,
+        kind="fee",
+        fee_basis=None,
+        source_refs=[table_anchor_id],
+    )
+
+    tiers: list[PricingTier] = []
+    cells_out: list[PricingCell] = []
+    for status_label in status_cols:
+        tier_id = _slugify_id(status_label)
+        tiers.append(PricingTier(tier_id=tier_id, label_raw=status_label, tests=[], source_refs=[table_anchor_id]))
+        cells_out.append(
+            PricingCell(
+                tier_id=tier_id,
+                rate_option_id=rate_option_id,
+                value_bps=bps_by_status[status_label],
+                source_refs=[table_anchor_id],
+            )
+        )
+
+    adjustments = _extract_adjustments_from_hints(
+        adjustment_hints=list(table_context.get("adjustment_hints") or []),
+        applies_to_rate_option_ids=[rate_option_id],
+    )
+
+    grid = PricingGrid(
+        grid_id=_slugify_id(f"grid_{table_anchor_id.lower()}"),
+        table_anchor_id=table_anchor_id,
+        facility_id=None,
+        tier_metric_label_raw="Status",
+        tiers=tiers,
+        rate_option_ids=[rate_option_id],
+        cells=cells_out,
+        source_refs=[table_anchor_id],
+    )
+
+    extract = ContractPricingTableExtract(
+        rate_options=[rate_option],
+        grid=grid,
+        adjustments=adjustments,
+        flat_items=[],
+    )
+    return extract
+
 
 def _looks_like_pricing_table(table: dict[str, Any]) -> bool:
-    raw = str(table.get("raw") or "")
-    hay = raw.lower()
-    if "%" in raw or "bps" in hay or "basis point" in hay:
-        return True
-
-    keywords = [
-        "applicable margin",
-        "applicable rate",
-        "margin",
-        "spread",
-        "fee",
-        "commitment fee",
-        "facility fee",
-        "l/c fee",
-        "letter of credit",
-        "fronting",
-        "sofr",
-        "libor",
-        "eurocurrency",
-        "base rate",
-        "abr",
-        "prime",
-        "rate",
-    ]
-    return any(k in hay for k in keywords)
+    # Deprecated in favor of deterministic scoring; kept as a narrow wrapper for callers.
+    score = score_pricing_table(table)
+    return score.score >= 3
 
 
 def _looks_like_pricing_anchor(text: str) -> bool:
-    hay = text.lower()
-    keywords = [
-        "applicable margin",
-        "applicable rate",
-        "default rate",
-        "fronting fee",
-        "letter of credit fee",
-        "letter of credit fees",
-        "l/c fee rate",
-        "commitment fee",
-        "facility fee rate",
-        "unused fee",
-        "utilization",
-        "basis point",
-        "bps",
-        "pricing grid",
-        "sustainability grid",
-        "sustainability metric grid",
-    ]
-    # Do NOT treat '%' alone as a pricing signal; that explodes context size on long exhibits.
-    # We only include anchors when explicit pricing keywords are present.
-    return any(k in hay for k in keywords)
+    return looks_like_pricing_anchor(text)
 
 
 def _looks_like_definition_anchor(text: str) -> bool:
-    # Conservative: include only classic definitions we want nearby for pricing.
-    hay = text.strip()
-    if not hay:
-        return False
-    if " means " not in hay and " shall mean " not in hay:
-        return False
-    targets = [
-        '"Base Rate"',
-        '"ABR"',
-        '"Eurocurrency Rate"',
-        '"SOFR"',
-        '"Term SOFR"',
-        '"Adjusted Term SOFR Rate"',
-        '"Adjusted CD Rate"',
-        '"CD Base Rate"',
-        '"London Interbank Offered Rate"',
-        '"Applicable Margin"',
-        '"Applicable Rate"',
-        '"Facility Fee"',
-        '"Commitment Fee"',
-        '"L/C Fee',
-    ]
-    return any(t in hay for t in targets)
+    return looks_like_definition_anchor(text)
 
 
 def _looks_like_regime_intro(text: str) -> bool:
-    """Heuristic: lines that introduce a distinct pricing applicability regime."""
-
-    hay = (text or "").strip().lower()
-    if not hay:
-        return False
-
-    # Very common in amendments/agreements: bullet-like regime intros.
-    if hay.startswith("-"):
-        if any(k in hay for k in ["prior to", "on or after", "from and after", "until", "while", "during"]):
-            return True
-        if hay.startswith("- if "):
-            return True
-
-    # Common "alternate grid" intros.
-    if "notwithstanding" in hay and any(k in hay for k in ["if ", "while ", "from and after", "on and after"]):
-        return True
-
-    return False
+    return looks_like_regime_intro(text)
 
 
 def _looks_like_adjustment_anchor(text: str) -> bool:
-    """Heuristic: footnotes/clauses that adjust a grid by +/- X bps."""
-
-    hay = (text or "").lower()
-    if not hay:
-        return False
-    has_bps = any(k in hay for k in ["basis point", "basis points", " bps", " bp"])
-    if not has_bps:
-        return False
-    return any(k in hay for k in ["reduced", "increased", "additional", "decreased", "increase", "reduce"])
+    return looks_like_adjustment_anchor(text)
 
 
 def build_pricing_context(doc_ir: dict[str, Any], *, neighbor_window: int = 6, header_anchors: int = 40) -> dict[str, Any]:
@@ -162,8 +359,14 @@ def build_pricing_context(doc_ir: dict[str, Any], *, neighbor_window: int = 6, h
 
     # 1) Pricing tables (+ neighbors)
     selected_tables: list[dict[str, Any]] = []
+    table_scores: dict[str, Any] = {}
     for t in tables:
-        if not _looks_like_pricing_table(t):
+        score = score_pricing_table(t)
+        table_scores[str(score.table_anchor_id)] = {
+            "score": score.score,
+            "signals": score.signals,
+        }
+        if score.score < 3:
             continue
         selected_tables.append(t)
         table_anchor_id = str(t.get("table_anchor_id"))
@@ -243,7 +446,9 @@ def build_pricing_context(doc_ir: dict[str, Any], *, neighbor_window: int = 6, h
                 "columns": t.get("columns"),
                 "rows": t.get("rows"),
                 "raw": t.get("raw"),
-                "reasons": ["pricing_table_match"],
+                "table_score": (table_scores.get(str(t.get("table_anchor_id"))) or {}).get("score"),
+                "table_score_signals": (table_scores.get(str(t.get("table_anchor_id"))) or {}).get("signals"),
+                "reasons": ["pricing_table_score>=3"],
             }
         )
 
@@ -374,6 +579,256 @@ def _validate_pricing_output(
                     )
 
     return model
+
+
+def _table_surface_text(table: dict[str, Any]) -> str:
+    # Similar to pricing_index._table_text, but kept local to avoid importing internals.
+    parts: list[str] = []
+    raw = table.get("raw")
+    if isinstance(raw, str) and raw.strip():
+        parts.append(raw)
+    cols = table.get("columns") or []
+    if isinstance(cols, list):
+        parts.extend(str(c) for c in cols if isinstance(c, str) and c.strip())
+    rows = table.get("rows") or []
+    if isinstance(rows, list):
+        for row in rows:
+            if not isinstance(row, dict):
+                continue
+            row_label = row.get("row_label")
+            if isinstance(row_label, str) and row_label.strip():
+                parts.append(row_label)
+            cells = row.get("cells") or {}
+            if isinstance(cells, dict):
+                parts.extend(str(v) for v in cells.values() if isinstance(v, str) and v.strip())
+    return "\n".join(parts)
+
+
+def _has_placeholder_text(value: str) -> bool:
+    hay = (value or "").strip().lower()
+    return any(marker in hay for marker in _PLACEHOLDER_TEXT_MARKERS)
+
+
+def _grounded_in_table(label_raw: str, surface_text: str) -> bool:
+    label = (label_raw or "").strip()
+    if not label:
+        return False
+    # Grounding check for labels against the table surface text.
+    #
+    # We want to catch template-copy hallucinations, but we also need to tolerate:
+    # - line wraps inside a single label (e.g., "no\n rating") and
+    # - fixed-width tables where numeric columns can appear between words in the raw text.
+    import re
+
+    def _norm(s: str) -> str:
+        return re.sub(r"\s+", " ", (s or "").lower()).strip()
+
+    label_norm = _norm(label)
+    surface_norm = _norm(surface_text or "")
+
+    # Fast path: normalized substring match.
+    if label_norm and label_norm in surface_norm:
+        return True
+
+    # Fallback: token-in-order match within a bounded span.
+    #
+    # Example that motivated this:
+    #   label:   "BBB-/BBB or below (including no rating)"
+    #   surface: "BBB-/BBB or below (including no 1.50% rating)"
+    tokens = re.findall(r"[a-z0-9][a-z0-9%./+-]*", label_norm)
+    if not tokens:
+        return False
+
+    idx = 0
+    first: int | None = None
+    for tok in tokens:
+        pos = surface_norm.find(tok, idx)
+        if pos == -1:
+            return False
+        if first is None:
+            first = pos
+        idx = pos + len(tok)
+
+    # Avoid matching tokens that are scattered arbitrarily across the whole table/neighbor context.
+    if first is not None and (idx - first) > 500:
+        return False
+
+    return True
+
+
+_LABEL_STOPWORDS = {
+    "a",
+    "an",
+    "and",
+    "any",
+    "as",
+    "at",
+    "by",
+    "for",
+    "from",
+    "in",
+    "into",
+    "is",
+    "it",
+    "its",
+    "of",
+    "on",
+    "or",
+    "that",
+    "the",
+    "to",
+    "under",
+    "with",
+    "without",
+}
+
+
+def _grounded_in_table_relaxed_label(label_raw: str, surface_text: str) -> bool:
+    """Relaxed grounding used ONLY for unstructured/pseudo-table label_raw fields.
+
+    For prose-encoded "tables", the extracted label is often still grounded but not in
+    the same word order as the source (e.g., "interest on drawings..." vs "drawings ...
+    interest"). We still want to reject hallucinations, but we don't want label word
+    order to be a hard blocker for unstructured contexts.
+
+    Strategy:
+    - Require all "meaningful" tokens (non-stopwords, len>=4) to appear somewhere.
+    - Require those token occurrences to fall within a bounded character span so the
+      tokens aren't scattered arbitrarily across the whole neighbor window.
+    """
+
+    label = (label_raw or "").strip()
+    surface = (surface_text or "").strip()
+    if not label or not surface:
+        return False
+
+    label_norm = re.sub(r"\s+", " ", label.lower()).strip()
+    surface_norm = re.sub(r"\s+", " ", surface.lower()).strip()
+
+    tokens = [
+        tok
+        for tok in re.findall(r"[a-z0-9]+", label_norm)
+        if len(tok) >= 4 and tok not in _LABEL_STOPWORDS
+    ]
+    if not tokens:
+        return False
+
+    positions: list[int] = []
+    for tok in tokens:
+        pos = surface_norm.find(tok)
+        if pos != -1:
+            positions.append(pos)
+
+    # Require substantial token overlap, but don't require exact word-for-word match.
+    # This prevents long, mostly-correct labels from being rejected due to a couple missing tokens.
+    overlap = len(positions) / max(1, len(tokens))
+    if overlap < 0.7:
+        return False
+    if len(positions) < 3:
+        return False
+
+    return (max(positions) - min(positions)) <= 500
+
+
+def _validate_table_extract(extract: ContractPricingTableExtract, *, table_context: dict[str, Any]) -> None:
+    """Fail loudly when the table extract is obviously ungrounded or internally inconsistent."""
+
+    table = table_context.get("table") or {}
+    table_anchor_id = str(table.get("table_anchor_id") or "")
+    if not table_anchor_id:
+        raise ValueError("TABLE_CONTEXT_JSON.table.table_anchor_id is missing")
+
+    surface_parts: list[str] = [_table_surface_text(table)]
+    for a in table_context.get("neighbor_anchors", []) or []:
+        if isinstance(a, dict):
+            txt = a.get("text")
+            if isinstance(txt, str) and txt.strip():
+                surface_parts.append(txt.strip())
+    surface = "\n\n".join(p for p in surface_parts if p)
+
+    errors: list[str] = []
+
+    table_signals = table.get("table_score_signals") or []
+    if not isinstance(table_signals, list):
+        table_signals = []
+
+    def _is_status_label(text: str) -> bool:
+        hay = (text or "").lower()
+        return "status" in hay or hay.startswith("level ")
+
+    is_unstructured = not bool(table.get("structured", True))
+
+    # Rate options must be grounded in the table surface.
+    for ro in extract.rate_options:
+        if _has_placeholder_text(ro.label_raw):
+            errors.append(f"rate_option.label_raw appears to be a placeholder: {ro.label_raw!r}")
+        if not is_unstructured and not _grounded_in_table(ro.label_raw, surface):
+            errors.append(f"rate_option.label_raw not found in table text: {ro.label_raw!r}")
+
+    # Tiers must be grounded in the table surface.
+    for tier in extract.grid.tiers:
+        if _has_placeholder_text(tier.label_raw):
+            errors.append(f"tier.label_raw appears to be a placeholder: {tier.label_raw!r}")
+        if not _grounded_in_table(tier.label_raw, surface):
+            errors.append(f"tier.label_raw not found in table text: {tier.label_raw!r}")
+
+    # Axis sanity for "Status"-style pricing tables:
+    # - Status levels ("Level I Status", etc.) should be tiers, not rate options.
+    if "looks_like_status_grid" in table_signals:
+        status_tiers = [t for t in extract.grid.tiers if _is_status_label(t.label_raw)]
+        status_rate_options = [ro for ro in extract.rate_options if _is_status_label(ro.label_raw)]
+        if not status_tiers:
+            errors.append("table looks like a status grid but no tier labels look like statuses")
+        if status_rate_options and len(status_rate_options) >= max(1, len(status_tiers)):
+            errors.append("table looks like a status grid but status labels were encoded as rate options (axis swap)")
+
+    # Every cell must cite the table anchor (minimum evidence).
+    for cell in extract.grid.cells:
+        if table_anchor_id not in (cell.source_refs or []):
+            errors.append(
+                f"cell missing table_anchor_id in source_refs: tier_id={cell.tier_id!r} "
+                f"rate_option_id={cell.rate_option_id!r}"
+            )
+
+    # Referential integrity within the extract.
+    rate_option_ids = [ro.rate_option_id for ro in extract.rate_options]
+    if len(set(rate_option_ids)) != len(rate_option_ids):
+        errors.append("duplicate rate_option_id values within rate_options")
+
+    grid_rate_option_ids = list(extract.grid.rate_option_ids or [])
+    if len(set(grid_rate_option_ids)) != len(grid_rate_option_ids):
+        errors.append("duplicate ids in grid.rate_option_ids")
+
+    unknown_grid_rate_options = sorted(set(grid_rate_option_ids) - set(rate_option_ids))
+    if unknown_grid_rate_options:
+        errors.append(
+            "grid.rate_option_ids contains ids missing from rate_options: "
+            + ", ".join(unknown_grid_rate_options)
+        )
+
+    tier_ids = [t.tier_id for t in extract.grid.tiers]
+    if len(set(tier_ids)) != len(tier_ids):
+        errors.append("duplicate tier_id values within grid.tiers")
+
+    # Require a full tier x rate_option matrix (pricing tables are typically complete grids).
+    expected_pairs = {(tid, roid) for tid in tier_ids for roid in grid_rate_option_ids}
+    found_pairs = {(c.tier_id, c.rate_option_id) for c in extract.grid.cells}
+    missing_pairs = sorted(expected_pairs - found_pairs)
+    extra_pairs = sorted(found_pairs - expected_pairs)
+    if missing_pairs:
+        errors.append(f"grid.cells missing {len(missing_pairs)} tier/rate_option combinations")
+    if extra_pairs:
+        errors.append(f"grid.cells has {len(extra_pairs)} unexpected tier/rate_option combinations")
+
+    # Placeholder guardrails on IDs (schema enforces format, but not semantic grounding).
+    for ro in extract.rate_options:
+        if _has_placeholder_text(ro.rate_option_id):
+            errors.append(f"rate_option_id appears to be a placeholder: {ro.rate_option_id!r}")
+    if _has_placeholder_text(extract.grid.grid_id):
+        errors.append(f"grid_id appears to be a placeholder: {extract.grid.grid_id!r}")
+
+    if errors:
+        raise ValueError("Table extract failed grounding checks: " + "; ".join(errors))
 
 
 def _slugify_id(raw: str, *, max_len: int = 64) -> str:
@@ -570,10 +1025,21 @@ def run_contract_pricing(
                 doc_ir_path = doc_ir_dir / f"{item_id}.json"
                 write_doc_ir(doc_ir_path, doc_ir)
 
+                # 1b) Deterministic pricing index (ranked table candidates)
+                pricing_index_dir = paths.run_dir / "pricing_index"
+                pricing_index_dir.mkdir(parents=True, exist_ok=True)
+                pricing_index = build_pricing_index(doc_ir)
+                (pricing_index_dir / f"{item_id}.json").write_text(json.dumps(pricing_index, indent=2))
+
                 # 2) Build + persist context pack
                 context = build_pricing_context(doc_ir)
                 context_path = context_dir / f"{item_id}.json"
                 context_path.write_text(json.dumps(context, indent=2))
+                if not (context.get("tables") or []):
+                    raise RuntimeError(
+                        "No pricing tables detected (score>=3). "
+                        "Inspect runs/<run_id>/pricing_index/<item_id>.json for scored candidates."
+                    )
 
                 # 3) Per-table extraction (strict JSON + Pydantic, retries)
                 # Persist per-table contexts for audit/debug.
@@ -639,6 +1105,24 @@ def run_contract_pricing(
                     table_contexts.append(table_context)
                     (per_table_dir / f"{table_anchor_id}.json").write_text(json.dumps(table_context, indent=2))
 
+                    # Deterministic fast path for common 1-row status fee tables ("Facility Fee Rate", "L/C Fee Rate", etc.).
+                    deterministic = _try_extract_single_row_status_fee_table(table_context=table_context)
+                    if deterministic is not None:
+                        # Ensure deterministic output still respects our hint contract.
+                        hinted = {h["anchor_id"] for h in table_context.get("adjustment_hints", []) if h.get("anchor_id")}
+                        if hinted:
+                            referenced: set[str] = set()
+                            for adj in deterministic.adjustments:
+                                referenced.update(adj.source_refs or [])
+                                referenced.update(adj.applies_when.source_refs or [])
+                            missing = sorted(hinted - referenced)
+                            if missing:
+                                deterministic = None
+                        if deterministic is not None:
+                            _validate_table_extract(deterministic, table_context=table_context)
+                            extracts_by_table[table_anchor_id] = deterministic
+                            continue
+
                     rendered = _render_table_prompt(table_prompt_template, json.dumps(table_context, indent=2))
                     last_err: str | None = None
                     used = 0
@@ -667,6 +1151,7 @@ def run_contract_pricing(
                                 raise ValueError(
                                     f"grid.table_anchor_id {ex.grid.table_anchor_id!r} does not match expected {table_anchor_id!r}"
                                 )
+                            _validate_table_extract(ex, table_context=table_context)
                             # If we provided explicit adjustment hints, require the output to encode them.
                             hinted = {h["anchor_id"] for h in table_context.get("adjustment_hints", []) if h.get("anchor_id")}
                             if hinted:

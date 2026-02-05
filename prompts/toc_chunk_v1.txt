@@ -1,0 +1,40 @@
+You are building a document table-of-contents (TOC) from a credit agreement.
+
+You will be given a CHUNK of the agreement with anchor markers like:
+  [[A0123]]
+  ...text...
+
+Return JSON only. No markdown, no code fences, no commentary.
+
+GOAL
+Produce a TOC entry for this chunk that can be used to guide downstream retrieval and analysis.
+
+HARD RULES
+1) Use ONLY the provided chunk text. Do not guess what is outside the chunk.
+2) Keep the title short and stable (it should look like a TOC line).
+3) If uncertain, be explicit in `notes` rather than hallucinating.
+
+OUTPUT JSON (EXACT SHAPE)
+{
+  "schema_version": "toc_chunk_v1",
+  "chunk_id": 1,
+  "title": "string",
+  "summary": "string",
+  "topics": ["string"],
+  "key_terms": ["string"],
+  "notes": "string|null"
+}
+
+FIELD RULES
+- chunk_id MUST be the integer provided in the input header.
+- title: 3–10 words, no trailing period.
+- summary: 1–3 sentences. No bullets.
+- topics: 3–10 short phrases (e.g., "definitions", "facility overview", "interest mechanics", "financial covenants", "events of default", "boilerplate", "signatures").
+- key_terms: up to 15 items. Prefer exact defined-term spellings if present (e.g., "Borrower", "Administrative Agent", "Applicable Margin", "Leverage Ratio"). If none are clear, return [].
+
+INPUT HEADER
+chunk_id={{CHUNK_ID}}
+
+CHUNK
+{{CHUNK_TEXT}}
+

@@ -1,0 +1,706 @@
+{
+  "schema_version": "compustat_allowlist_v1",
+  "frequency": "quarterly",
+  "variables": [
+    {
+      "code": "acchgq",
+      "description": "Accounting Changes – Cumulative Effect"
+    },
+    {
+      "code": "acomincq",
+      "description": "Accumulated Other Comprehensive Income (Loss)"
+    },
+    {
+      "code": "acoq",
+      "description": "Current Assets – Other – Total"
+    },
+    {
+      "code": "actq",
+      "description": "Current Assets – Total"
+    },
+    {
+      "code": "adrrq",
+      "description": "ADR Ratio"
+    },
+    {
+      "code": "ajpq",
+      "description": "Adjustment Factor (Company) – Cumulative byPay-Date"
+    },
+    {
+      "code": "altoq",
+      "description": "Other Long-term Assets"
+    },
+    {
+      "code": "aolochy",
+      "description": "Assets and Liabilities – Other (Net Change)"
+    },
+    {
+      "code": "aoq",
+      "description": "Assets – Other"
+    },
+    {
+      "code": "apalchy",
+      "description": "Accounts Payable and Accrued Liabilities – Increase (Decrease)"
+    },
+    {
+      "code": "apq",
+      "description": "Account Payable/Creditors – Trade"
+    },
+    {
+      "code": "aqaq",
+      "description": "Acquisition/Merger After-Tax"
+    },
+    {
+      "code": "aqcy",
+      "description": "Acquisitions"
+    },
+    {
+      "code": "aqdq",
+      "description": "Acquisition/Merger Diluted EPS Effect"
+    },
+    {
+      "code": "aqepsq",
+      "description": "Acquisition/Merger Basic EPS Effect"
+    },
+    {
+      "code": "aqpq",
+      "description": "Acquisition/Merger Pretax"
+    },
+    {
+      "code": "atq",
+      "description": "Assets – Total"
+    },
+    {
+      "code": "capr1q",
+      "description": "Risk-Adjusted Capital Ratio – Tier 1"
+    },
+    {
+      "code": "caprtq",
+      "description": "Risk-Adjusted Capital Ratio – Total – Quarterly"
+    },
+    {
+      "code": "capsq",
+      "description": "Capital Surplus/Share Premium Reserve"
+    },
+    {
+      "code": "capxy",
+      "description": "Capital Expenditures"
+    },
+    {
+      "code": "ceqq",
+      "description": "Common/Ordinary Equity – Total"
+    },
+    {
+      "code": "chechy",
+      "description": "Cash and Cash Equivalents – Increase (Decrease)"
+    },
+    {
+      "code": "cheq",
+      "description": "Cash and Short-Term Investments"
+    },
+    {
+      "code": "cogsq",
+      "description": "Cost of Goods Sold"
+    },
+    {
+      "code": "csh12q",
+      "description": "Common Shares Used to Calculate Earnings Per Share – 12 Months Moving"
+    },
+    {
+      "code": "cshfdq",
+      "description": "Com Shares for Diluted EPS"
+    },
+    {
+      "code": "cshiq",
+      "description": "Common Shares Issued"
+    },
+    {
+      "code": "cshoq",
+      "description": "Common Shares Outstanding"
+    },
+    {
+      "code": "cshprq",
+      "description": "Common Shares Used to Calculate Earnings Per Share – Basic"
+    },
+    {
+      "code": "cshtrq",
+      "description": "Common Shares Traded – Quarter"
+    },
+    {
+      "code": "cstkeq",
+      "description": "Common Stock Equivalents – Dollar Savings"
+    },
+    {
+      "code": "cstkq",
+      "description": "Common/Ordinary Stock (Capital)"
+    },
+    {
+      "code": "currtrq",
+      "description": "Currency Translation Rate"
+    },
+    {
+      "code": "dcomq",
+      "description": "Deferred Compensation"
+    },
+    {
+      "code": "diladq",
+      "description": "Dilution Adjustment"
+    },
+    {
+      "code": "dilavq",
+      "description": "Dilution Available – Excluding Extraordinary Items"
+    },
+    {
+      "code": "dlcchy",
+      "description": "Changes in Current Debt"
+    },
+    {
+      "code": "dlcq",
+      "description": "Debt in Current Liabilities"
+    },
+    {
+      "code": "dltisy",
+      "description": "Long-Term Debt – Issuance"
+    },
+    {
+      "code": "dltry",
+      "description": "Long-Term Debt – Reduction"
+    },
+    {
+      "code": "dlttq",
+      "description": "Long-Term Debt – Total"
+    },
+    {
+      "code": "doq",
+      "description": "Discontinued Operations"
+    },
+    {
+      "code": "dpacreq",
+      "description": "Accumulated Depreciation of RE Property"
+    },
+    {
+      "code": "dpactq",
+      "description": "Depreciation Depletion and Amortization (Accumulated)"
+    },
+    {
+      "code": "dpcy",
+      "description": "Depreciation and Amortization – Statement of Cash Flows"
+    },
+    {
+      "code": "dpq",
+      "description": "Depreciation and Amortization – Total"
+    },
+    {
+      "code": "dpretq",
+      "description": "Depr/Amort of Property"
+    },
+    {
+      "code": "dvpq",
+      "description": "Dividends – Preferred/Preference"
+    },
+    {
+      "code": "dvpspq",
+      "description": "Dividends per Share – Pay Date – Quarter"
+    },
+    {
+      "code": "dvpsxm",
+      "description": "Index Monthly Dividend"
+    },
+    {
+      "code": "dvrate",
+      "description": "Dividend Rate – Monthly"
+    },
+    {
+      "code": "dvy",
+      "description": "Cash Dividends"
+    },
+    {
+      "code": "epsf12",
+      "description": "Earnings Per Share (Diluted) – Excluding Extraordinary Items – 12 Months Moving"
+    },
+    {
+      "code": "epsfiq",
+      "description": "Earnings Per Share (Diluted) – Including Extraordinary Items"
+    },
+    {
+      "code": "epsfxq",
+      "description": "Earnings Per Share (Diluted) – Excluding Extraordinary items"
+    },
+    {
+      "code": "epspiq",
+      "description": "Earnings Per Share (Basic) – Including Extraordinary Items"
+    },
+    {
+      "code": "epspxq",
+      "description": "Earnings Per Share (Basic) – Excluding Extraordinary Items"
+    },
+    {
+      "code": "epsx12",
+      "description": "Earnings Per Share (Basic) – Excluding Extraordinary Items – 12 Months Moving"
+    },
+    {
+      "code": "esubcy",
+      "description": "Equity in Net Loss/Earnings (C/F)"
+    },
+    {
+      "code": "exrey",
+      "description": "Exchange Rate Effect"
+    },
+    {
+      "code": "fcaq",
+      "description": "Foreign Exchange Income (Loss)"
+    },
+    {
+      "code": "fiaoy",
+      "description": "Financing Activities – Other"
+    },
+    {
+      "code": "fincfy",
+      "description": "Financing Activities – Net Cash Flow"
+    },
+    {
+      "code": "fopoy",
+      "description": "Funds from Operations – Other"
+    },
+    {
+      "code": "fopty",
+      "description": "Funds From Operations – Total"
+    },
+    {
+      "code": "fsrcoy",
+      "description": "Sources of Funds – Other"
+    },
+    {
+      "code": "fsrcty",
+      "description": "Sources of Funds – Total"
+    },
+    {
+      "code": "fuseoy",
+      "description": "Uses of Funds – Other"
+    },
+    {
+      "code": "fusety",
+      "description": "Uses of Funds – Total"
+    },
+    {
+      "code": "gdwlamq",
+      "description": "Amortization of Goodwill"
+    },
+    {
+      "code": "gdwlamq_fn1",
+      "description": "Goodwill Amortization Footnote"
+    },
+    {
+      "code": "gdwliaq",
+      "description": "Impairment of Goodwill After-tax"
+    },
+    {
+      "code": "gdwlidq",
+      "description": "Impairment of Goodwill Diluted EPS Effect"
+    },
+    {
+      "code": "gdwliepsq",
+      "description": "Impairment of Goodwill Basic EPS Effect"
+    },
+    {
+      "code": "gdwlipq",
+      "description": "Impairment of Goodwill Pretax"
+    },
+    {
+      "code": "gdwlq",
+      "description": "Goodwill (net)"
+    },
+    {
+      "code": "glaq",
+      "description": "Gain/Loss After-Tax"
+    },
+    {
+      "code": "gldq",
+      "description": "Gain/Loss Diluted EPS Effect"
+    },
+    {
+      "code": "glepsq",
+      "description": "Gain/Loss Basic EPS Effect"
+    },
+    {
+      "code": "glpq",
+      "description": "Gain/Loss Pretax"
+    },
+    {
+      "code": "ibadjq",
+      "description": "Income Before Extraordinary Items – Adjusted for Common Stock Equivalents"
+    },
+    {
+      "code": "ibcomq",
+      "description": "Income Before Extraordinary Items – Available for Common"
+    },
+    {
+      "code": "ibcy",
+      "description": "Income Before Extraordinary Items – Statement of Cash Flows"
+    },
+    {
+      "code": "ibq",
+      "description": "Income Before Extraordinary Items"
+    },
+    {
+      "code": "icaptq",
+      "description": "Invested Capital – Total – Quarterly"
+    },
+    {
+      "code": "intanoq",
+      "description": "Other Intangibles"
+    },
+    {
+      "code": "intpny",
+      "description": "Interest Paid – Net"
+    },
+    {
+      "code": "invchy",
+      "description": "Inventory – Decrease (Increase)"
+    },
+    {
+      "code": "invtq",
+      "description": "Inventories – Total"
+    },
+    {
+      "code": "ivacoy",
+      "description": "Investing Activities – Other"
+    },
+    {
+      "code": "ivchy",
+      "description": "Increase in Investments"
+    },
+    {
+      "code": "ivltq",
+      "description": "Total Long-term Investments"
+    },
+    {
+      "code": "ivncfy",
+      "description": "Investing Activities – Net Cash Flow"
+    },
+    {
+      "code": "ivstchy",
+      "description": "Short-Term Investments – Change"
+    },
+    {
+      "code": "lcoq",
+      "description": "Current Liabilities – Other – Total"
+    },
+    {
+      "code": "lctq",
+      "description": "Current Liabilities – Total"
+    },
+    {
+      "code": "loq",
+      "description": "Liabilities – Other"
+    },
+    {
+      "code": "ltq",
+      "description": "Liabilities – Total"
+    },
+    {
+      "code": "mibq",
+      "description": "Minority Interest – Balance Sheet"
+    },
+    {
+      "code": "miiq",
+      "description": "Minority Interest – Income Account"
+    },
+    {
+      "code": "ncoq",
+      "description": "Net Charge-Offs"
+    },
+    {
+      "code": "niitq",
+      "description": "Net Interest Income (Tax Equivalent)"
+    },
+    {
+      "code": "nimq",
+      "description": "Net Interest Margin"
+    },
+    {
+      "code": "niq",
+      "description": "Net Income (Loss)"
+    },
+    {
+      "code": "nopiq",
+      "description": "Non-Operating Income (Expense) – Total"
+    },
+    {
+      "code": "npatq",
+      "description": "Nonperforming Assets – Total"
+    },
+    {
+      "code": "oancfy",
+      "description": "Operating Activities – Net Cash Flow"
+    },
+    {
+      "code": "oepf12",
+      "description": "Earnings Per Share – Diluted – from Operations – 12MM"
+    },
+    {
+      "code": "oeps12",
+      "description": "Earnings Per Share from Operations – 12 Months Moving"
+    },
+    {
+      "code": "oepsxq",
+      "description": "Earnings Per Share – Diluted – from Operations"
+    },
+    {
+      "code": "oibdpq",
+      "description": "Operating Income Before Depreciation – Quarterly"
+    },
+    {
+      "code": "opepsq",
+      "description": "Earnings Per Share from Operations"
+    },
+    {
+      "code": "piq",
+      "description": "Pretax Income"
+    },
+    {
+      "code": "pllq",
+      "description": "Provision for Loan/Asset Losses"
+    },
+    {
+      "code": "ppegtq",
+      "description": "Property Plant and Equipment – Total (Gross) – Quarterly"
+    },
+    {
+      "code": "ppentq",
+      "description": "Property Plant and Equipment – Total (Net)"
+    },
+    {
+      "code": "prccq",
+      "description": "Price – Close – Quarter"
+    },
+    {
+      "code": "prchq",
+      "description": "Price – High – Quarter"
+    },
+    {
+      "code": "prclq",
+      "description": "Price – Low – Quarter"
+    },
+    {
+      "code": "prstkcy",
+      "description": "Purchase of Common and Preferred Stock"
+    },
+    {
+      "code": "pstkq",
+      "description": "Preferred/Preference Stock (Capital) – Total"
+    },
+    {
+      "code": "pstkrq",
+      "description": "Preferred/Preference Stock – Redeemable"
+    },
+    {
+      "code": "rcaq",
+      "description": "Restructuring Cost After-tax"
+    },
+    {
+      "code": "rcdq",
+      "description": "Restructuring Cost Diluted EPS Effect"
+    },
+    {
+      "code": "rcepsq",
+      "description": "Restructuring Cost Basic EPS Effect"
+    },
+    {
+      "code": "rcpq",
+      "description": "Restructuring Cost Pretax"
+    },
+    {
+      "code": "rdipq",
+      "description": "In Process R+D"
+    },
+    {
+      "code": "recchy",
+      "description": "Accounts Receivable – Decrease (Increase)"
+    },
+    {
+      "code": "rectq",
+      "description": "Receivables – Total"
+    },
+    {
+      "code": "req",
+      "description": "Retained Earnings"
+    },
+    {
+      "code": "retq",
+      "description": "Total RE Property"
+    },
+    {
+      "code": "reunaq",
+      "description": "Unadjusted Retained Earnings"
+    },
+    {
+      "code": "rllq",
+      "description": "Reserve for Loan/Asset Losses"
+    },
+    {
+      "code": "saleq",
+      "description": "Sales/Turnover (Net)"
+    },
+    {
+      "code": "seqoq",
+      "description": "Other Stockholders Equity Adjustments"
+    },
+    {
+      "code": "seqq",
+      "description": "Shareholders Equity – Total"
+    },
+    {
+      "code": "setaq",
+      "description": "Settlement (Litigation/Insurance) After-tax"
+    },
+    {
+      "code": "setdq",
+      "description": "Settlement (Litigation/Insurance) Diluted EPS Effect"
+    },
+    {
+      "code": "setepsq",
+      "description": "Settlement (Litigation/Insurance) Basic EPS Effect"
+    },
+    {
+      "code": "setpq",
+      "description": "Settlement (Litigation/Insurance) Pretax"
+    },
+    {
+      "code": "sivy",
+      "description": "Sale of Investments"
+    },
+    {
+      "code": "spidq",
+      "description": "Other Special Items Diluted EPS Effect"
+    },
+    {
+      "code": "spiepsq",
+      "description": "Other Special Items Basic EPS Effect"
+    },
+    {
+      "code": "spioaq",
+      "description": "Other Special Items After-tax"
+    },
+    {
+      "code": "spiopq",
+      "description": "Other Special Items Pretax"
+    },
+    {
+      "code": "spiq",
+      "description": "Special Items"
+    },
+    {
+      "code": "sppey",
+      "description": "Sale of Property"
+    },
+    {
+      "code": "sppivy",
+      "description": "Sale of PPE and Investments – (Gain) Loss"
+    },
+    {
+      "code": "sretq",
+      "description": "Gain/Loss on Sale of Property"
+    },
+    {
+      "code": "sstky",
+      "description": "Sale of Common and Preferred Stock"
+    },
+    {
+      "code": "stkcoq",
+      "description": "Stock Compensation Expense"
+    },
+    {
+      "code": "tieq",
+      "description": "Interest Expense – Total (Financial Services)"
+    },
+    {
+      "code": "tiiq",
+      "description": "Interest Income – Total (Financial Services)"
+    },
+    {
+      "code": "tstkq",
+      "description": "Treasury Stock – Total (All Capital)"
+    },
+    {
+      "code": "txachy",
+      "description": "Income Taxes – Accrued – Increase (Decrease)"
+    },
+    {
+      "code": "txbcofy",
+      "description": "Excess Tax Benefit of Stock Options – Cash Flow Financing"
+    },
+    {
+      "code": "txdcy",
+      "description": "Deferred Taxes (Statement of Cash Flows)"
+    },
+    {
+      "code": "txdiq",
+      "description": "Income Taxes – Deferred"
+    },
+    {
+      "code": "txditcq",
+      "description": "Deferred Taxes and Investment Tax Credit"
+    },
+    {
+      "code": "txpdy",
+      "description": "Income Taxes Paid"
+    },
+    {
+      "code": "txpq",
+      "description": "Income Taxes Payable"
+    },
+    {
+      "code": "txtq",
+      "description": "Income Taxes – Total"
+    },
+    {
+      "code": "wcapchy",
+      "description": "Working Capital Changes – Total"
+    },
+    {
+      "code": "wcapcy",
+      "description": "Working Capital Change – Other – Increase/(Decrease)"
+    },
+    {
+      "code": "wdaq",
+      "description": "Writedowns After-tax"
+    },
+    {
+      "code": "wddq",
+      "description": "Writedowns Diluted EPS Effect"
+    },
+    {
+      "code": "wdepsq",
+      "description": "Writedowns Basic EPS Effect"
+    },
+    {
+      "code": "wdpq",
+      "description": "Writedowns Pretax"
+    },
+    {
+      "code": "xidocy",
+      "description": "Extraordinary Items and Discontinued Operations (Statement of Cash Flows)"
+    },
+    {
+      "code": "xidoq",
+      "description": "Extraordinary Items and Discontinued Operations"
+    },
+    {
+      "code": "xintq",
+      "description": "Interest and Related Expense- Total"
+    },
+    {
+      "code": "xiq",
+      "description": "Extraordinary Items"
+    },
+    {
+      "code": "xrdq",
+      "description": "Research and Development Expense"
+    },
+    {
+      "code": "xsgaq",
+      "description": "Selling General and Administrative Expenses"
+    }
+  ]
+}

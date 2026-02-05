@@ -55,6 +55,8 @@ Only define a metric if it is directly used in a tier condition or a rate condit
 metrics[] item shape:
 {
   "name": "",
+  "contract_term": "",
+  "search_tokens": [],
   "description": "",
   "formula": "",
   "requires_non_compustat": true,
@@ -64,6 +66,11 @@ metrics[] item shape:
 Rules:
 - Do NOT invent Compustat formulas.
 - If the agreement does not provide a formula, set formula="" and requires_non_compustat=true.
+- contract_term MUST be the exact metric term as written in the agreement (verbatim substring from the provided anchors).
+  - If you cannot find the exact contract term in the provided anchors, set contract_term="" (empty string).
+- search_tokens MUST be 3–6 short, regex-safe words or micro-phrases drawn verbatim from the provided anchors that can be used
+  to locate the definition in the full agreement text later.
+  - Do NOT paraphrase. Do NOT invent. If you cannot find evidence, set search_tokens=[].
 
 === TIER SCHEMES ===
 tier_schemes[] item shape:
@@ -149,7 +156,16 @@ Optional: include "condition" only when multi-regime applies (see above).
 
 Margins MUST include:
   "base_rate": "",
-  "base_rate_type": "sofr|libor|prime|other"
+  "base_rate_type": "sofr|libor|prime|other",
+  "base_rate_contract_term": "",
+  "base_rate_search_tokens": []
+
+Rules for base rate definition helpers:
+- base_rate_contract_term MUST be the exact benchmark/base-rate term as written in the agreement (verbatim substring from the provided anchors).
+  - If you cannot find the exact contract term in the provided anchors, set base_rate_contract_term="" (empty string).
+- base_rate_search_tokens MUST be 3–6 short, regex-safe words or micro-phrases drawn verbatim from the provided anchors that can be used
+  to locate the benchmark definition in the full agreement text later.
+  - Do NOT paraphrase. Do NOT invent. If you cannot find evidence, set base_rate_search_tokens=[].
 
 Fees MUST include:
   "fee_basis": "undrawn|letters_of_credit|facility_commitment|other",
@@ -172,4 +188,3 @@ Only populate issuer/title/currency/as_of_date if explicitly supported in provid
 
 === INPUT ===
 (The extracted pricing section from the agreement follows below.)
-

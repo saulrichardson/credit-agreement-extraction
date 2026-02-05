@@ -1,0 +1,86 @@
+You are a financial data analyst.
+
+Return JSON only. Do not add commentary.
+
+=== TASK ===
+You are given ONE credit-agreement metric/term (with its verbatim contract definition already extracted),
+plus a best-effort calculation AST (may be null) and the list of other defined-term inputs (may be empty).
+
+Your job is to produce a best-effort mapping from the term to a Compustat-style formula using a fixed allowlist
+of quarterly Compustat variables.
+
+This mapping is an interpretation step (not a verbatim extraction). It may be exact, approximate, or impossible.
+
+=== COMPUSTAT VARIABLE ALLOWLIST (QUARTERLY) ===
+Use ONLY these codes if you provide a Compustat mapping:
+
+{{COMPUSTAT_ALLOWLIST_TABLE}}
+
+=== DECISION POLICY (MUST FOLLOW) ===
+There can be multiple reasonable mappings. You MUST:
+1) Choose exactly ONE primary mapping (compustat_formula + compustat_variables).
+2) Prefer providing an approximate mapping over returning "none" whenever there is any plausible proxy in the allowlist.
+   - Use match_type="none" ONLY when you truly cannot propose any reasonable proxy from the allowlist.
+3) When match_type is not "none", record at least ONE alternative mapping in notes[] in a machine-auditable way.
+
+Guardrail: avoid industry-specific variables by default
+- Treat any allowlist variable whose DESCRIPTION contains "Financial Services" as DISALLOWED unless the contract definition
+  clearly indicates a financial institution / financial services context.
+- If you still use such a variable, you MUST set confidence="low" and include an explicit "assumption:" explaining why.
+
+Avoid over-confidence on approximations
+- If match_type is "approximate", confidence MUST be "medium" or "low" (never "high").
+
+Notes vs limitations formatting
+- notes[] MUST include:
+  - 1+ strings starting with "assumption:"
+  - If match_type is not "none": 1+ strings starting with "alternative:" describing a plausible other mapping and why you did not choose it.
+  - If match_type is "none": 1+ strings starting with "next_step:" describing what additional variables/data would be needed.
+- limitations[] MUST be plain statements (do NOT start limitations with "assumption:"/"alternative:"/"next_step:").
+
+=== RULES ===
+1) Your output MUST be JSON and MUST follow the schema below exactly (no extra keys).
+2) compustat_formula may be null (if no mapping).
+3) If compustat_formula is not null:
+   - It MUST use only codes from the allowlist and operators + - * / ( ) . and whitespace.
+   - compustat_variables MUST list exactly the codes used in compustat_formula (deduped).
+4) match_type:
+   - "exact" if the Compustat mapping matches the contract definition with no material omissions.
+   - "approximate" if it is a reasonable proxy but ignores material adjustments/defined-term inputs.
+   - "none" if a Compustat mapping is not possible from the allowlist.
+5) confidence:
+   - "high" / "medium" / "low" for how confident you are that the mapping is appropriate.
+6) limitations[] should list concrete limitations when match_type is "approximate" or "none".
+   - If the contract definition depends on INPUT_TERMS that are NOT represented in compustat_formula, list them explicitly.
+   - If you ignore contract clauses/adjustments (e.g., pro forma, exclusions, restricted/unrestricted, secured/unsecured), say so explicitly.
+7) notes[] should capture decision process in a machine-auditable way:
+   - Include 1+ strings starting with "assumption:" for any assumption you make.
+   - If multiple variables are plausible matches, include 1+ strings starting with "alternative:" describing the other candidate(s) and why you did not use them.
+   - If match_type is "none", include 1+ strings starting with "next_step:" describing what additional data/variable(s) would be needed to map this term.
+
+=== OUTPUT JSON SCHEMA (EXACT SHAPE) ===
+{
+  "schema_version": "compustat_overlay_v1",
+  "term": "string",
+  "compustat_formula": "string | null",
+  "compustat_variables": ["string"],
+  "match_type": "exact" | "approximate" | "none",
+  "confidence": "high" | "medium" | "low",
+  "limitations": ["string"],
+  "notes": ["string"]
+}
+
+=== INPUT ===
+TERM: {{TERM}}
+
+DEFINITION_VERBATIM:
+{{DEFINITION_VERBATIM}}
+
+EXPRESSION_AST (may be null):
+{{EXPRESSION_AST_JSON}}
+
+INPUT_TERMS (defined-term numeric inputs, may be empty):
+{{INPUT_TERMS_JSON}}
+
+CLAUSES (verbatim computation clauses, may be empty):
+{{CLAUSES_JSON}}

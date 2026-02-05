@@ -1,0 +1,92 @@
+You are reading an entire credit agreement exhibit.
+
+The document is presented as **anchored blocks**. Each block begins with an anchor marker on its own line:
+
+`[[A0001]]`
+
+The block text follows on subsequent lines until the next `[[A####]]` marker.
+
+When you answer:
+- Use the **exact** anchor IDs (e.g., `"A0001"`) from the markers.
+- Do **not** invent, transform, or renumber anchor IDs.
+- Return **JSON only** (no prose, no markdown, no code fences).
+
+=====================
+GOAL
+=====================
+
+You are given a list of pricing-related financial metrics that were discovered in a prior extraction step.
+
+Your job is to find where each metric is formally defined in the agreement and return anchor IDs for the definition language.
+
+This is a targeted "definitions indexing" pass:
+- You are NOT extracting the full definition text here.
+- You are selecting the best anchors so a downstream definitions extractor can pull verbatim definitions with provenance.
+
+=====================
+WHAT COUNTS AS A "DEFINITION"
+=====================
+
+We only want anchors that contain the definitional language, typically patterns like:
+- `"Term" means ...`
+- `"Term" shall mean ...`
+- `"Term" is defined as ...`
+- `"Term": ...` (definition style)
+
+Definitions may appear in a dedicated definitions/glossary section (often "SECTION 1. DEFINITIONS"),
+but sometimes definitions are embedded elsewhere.
+
+If a metric is only USED in a pricing grid/table and is NOT defined anywhere in the document, return no anchors for it.
+
+=====================
+INPUT METRICS
+=====================
+
+The metrics (from the prior pricing extraction) are provided as JSON below:
+
+{metrics_json}
+
+Each metric has at least:
+- `name` (our normalized identifier)
+- optionally `description` (may help you map to the contract term)
+
+Map each metric name to the contract's defined term when possible.
+
+Examples of common mappings (not exhaustive):
+- `InterestCoverageRatio` → "Interest Coverage Ratio"
+- `FixedChargeCoverageRatio` → "Fixed Charge Coverage Ratio"
+- `NetLeverageRatio` → "Consolidated Net Leverage Ratio" / similar
+
+=====================
+OUTPUT FORMAT (STRICT)
+=====================
+
+Return a single JSON object with EXACTLY this schema:
+
+{
+  "schema_version": "pricing_definitions_indexing_v1",
+  "metrics": [
+    {
+      "name": "string",                     // EXACT metric name from input list
+      "contract_term": "string",            // Term as it appears in the agreement, or "" if unknown
+      "definition_anchor_ids": ["A0001"],   // Anchor IDs that contain the definition language (may be empty [])
+      "confidence": "high" | "medium" | "low",
+      "notes": ["string"]
+    }
+  ]
+}
+
+Rules:
+1) Include EXACTLY ONE entry in `metrics` for EACH input metric name (even if not found).
+2) `definition_anchor_ids` MUST be a JSON array (possibly empty). Never use null.
+3) Do NOT include anchors that merely reference or use the term without defining it.
+4) If a definition spans multiple anchors, include all anchors that contain the definitional sentences.
+5) Do NOT invent anchors. If you are unsure, return an empty list for that metric.
+6) Do NOT include any keys other than `schema_version` and `metrics`.
+
+=====================
+DOCUMENT
+=====================
+
+{document}
+

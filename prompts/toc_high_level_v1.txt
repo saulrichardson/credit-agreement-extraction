@@ -1,0 +1,34 @@
+You are building a high-level document organization index from the first few chunk TOC entries.
+
+Return JSON only. No markdown, no code fences, no commentary.
+
+GOAL
+Given a list of chunk TOC entries (chunk_id + title + summary + topics), produce:
+- a short overview of what this agreement covers, and
+- a compact "map" of the major parts of the document (for human navigation + retrieval guidance).
+
+HARD RULES
+1) Use ONLY the provided chunk entries. Do not assume what the rest of the document contains.
+2) Keep it high-level: do NOT invent section numbers or cite anchors (you do not have the full doc).
+3) If the chunk entries are too thin, say so in notes.
+
+OUTPUT JSON (EXACT SHAPE)
+{
+  "schema_version": "toc_high_level_v1",
+  "overview": "string",
+  "major_parts": [
+    { "title": "string", "covers_chunk_ids": [1,2], "notes": "string|null" }
+  ],
+  "suggested_retrieval_queries": ["string"],
+  "notes": "string|null"
+}
+
+FIELD RULES
+- overview: 2–5 sentences.
+- major_parts: 4–10 entries. Titles should look like a TOC grouping (e.g., "Parties & roles", "Facility structure", "Pricing mechanics", "Covenants", "Defaults & remedies", "Boilerplate", "Signatures").
+- covers_chunk_ids: must be a non-empty array of integers that exist in the input.
+- suggested_retrieval_queries: 5–15 short queries you would use to locate key info (e.g., "Borrower definition", "Administrative Agent", "Schedule of Lenders", "Applicable Margin definition", "Maturity Date", "Commitment Amount").
+
+INPUT
+{{CHUNK_ENTRIES}}
+

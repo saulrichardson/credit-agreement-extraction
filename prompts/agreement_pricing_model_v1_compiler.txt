@@ -1,0 +1,202 @@
+You are compiling a COMPUTATION-ORIENTED pricing "program" for a corporate credit agreement.
+
+You will be given CONTEXT_JSON containing:
+- item_id
+- required_anchor_ids: anchor IDs that MUST be represented in your output via source_refs
+- pricing_table_anchor_ids: anchor IDs that contain pricing schedules/grids (these MUST become schedules)
+- adjustment_anchor_ids: anchor IDs that contain explicit pricing adjustments/constraints
+- anchors: ordered anchored text blocks (anchor_id like "A0575", anchor_type, order, text)
+
+Goal
+- Encode the COMPLETE pricing logic present in the provided anchored text as a structured, computation-ready model.
+- Treat the agreement like "code": define inputs, tiering logic, schedules, adjustments, and constraints explicitly.
+
+Hard rules (strict)
+- Output JSON only. No prose. No markdown. No code fences.
+- Valid JSON only.
+- Do NOT invent facts. Only use information supported by CONTEXT_JSON.anchors[*].text.
+- Every `source_refs` MUST be anchor IDs that appear in CONTEXT_JSON.anchors[*].anchor_id.
+- COVERAGE REQUIREMENT: Every anchor_id in CONTEXT_JSON.required_anchor_ids MUST appear in at least one `source_refs`
+  somewhere in your output (e.g., evidence.source_refs, schedule cell source_refs, etc.). Do not drop anchors.
+- PRICING SCHEDULE COVERAGE: Every anchor_id in CONTEXT_JSON.pricing_table_anchor_ids MUST be represented as at least one
+  PricingParameterRule.schedule where:
+  - schedule.source_table_anchor_id == that anchor_id (preferred), OR
+  - schedule/source cell source_refs include that anchor_id.
+- ADJUSTMENT COVERAGE: Every anchor_id in CONTEXT_JSON.adjustment_anchor_ids MUST be represented inside either:
+  - PricingAdjustment.source_refs OR PricingAdjustment.when.evidence.source_refs, OR
+  - PricingConstraint.source_refs OR PricingConstraint.evidence.source_refs.
+- Percent-to-bps conversion for schedule values:
+  - 1.75% -> 175
+  - 0.125% -> 12.5
+- IDs must be stable, lowercase snake_case, and contain no spaces (e.g., "revolver", "term_sofr_loans", "tier_1").
+
+Output schema target (field names matter)
+- Your output MUST validate as `AgreementPricingModelV1` (schema_version = "agreement_pricing_v1").
+- Top-level keys MUST be exactly:
+  schema_version, issuer, agreement, facilities, rate_options, variables, tiering_schemes, pricing_parameters
+- Do NOT invent your own field names like "id", "label", "description", "item_id", "fixed_schedule", etc.
+  Use the EXACT field names below.
+
+Exact JSON shape (keys only; fill with real values)
+{
+  "schema_version": "agreement_pricing_v1",
+  "issuer": null,
+  "agreement": {
+    "title": null,
+    "as_of_date": null,
+    "currency": null,
+    "source_refs": []
+  },
+  "facilities": [
+    {
+      "facility_id": "no_spaces_id",
+      "label_raw": "verbatim label",
+      "facility_type": "revolver|term_loan|delayed_draw_term_loan|swingline|letter_of_credit|other",
+      "currency": null,
+      "source_refs": ["A0001"]
+    }
+  ],
+  "rate_options": [
+    {
+      "rate_option_id": "no_spaces_id",
+      "label_raw": "verbatim label",
+      "kind": "loan|fee",
+      "facility_id": null,
+      "fee_basis": null,
+      "source_refs": ["A0001"]
+    }
+  ],
+  "variables": [
+    {
+      "var_id": "no_spaces_id",
+      "label_raw": "verbatim-ish label",
+      "kind": "number|boolean|string|date|rating",
+      "unit": null,
+      "notes": null,
+      "source_refs": ["A0001"]
+    }
+  ],
+  "tiering_schemes": [
+    {
+      "scheme_id": "no_spaces_id",
+      "label_raw": "verbatim-ish label",
+      "input_var_ids": ["no_spaces_id"],
+      "tiers": [
+        { "tier_id": "no_spaces_id", "label_raw": "verbatim tier label", "source_refs": ["A0001"] }
+      ],
+      "rules": [
+        {
+          "rule_id": "no_spaces_id",
+          "tier_id": "no_spaces_id",
+          "when": { "evidence": { "text": "near-verbatim", "source_refs": ["A0001"] }, "expr": null },
+          "priority": 100,
+          "source_refs": ["A0001"]
+        }
+      ],
+      "default_tier_id": "no_spaces_id",
+      "notes": [
+        { "text": "near-verbatim note", "source_refs": ["A0001"] }
+      ],
+      "source_refs": ["A0001"]
+    }
+  ],
+  "pricing_parameters": [
+    {
+      "parameter_id": "no_spaces_id",
+      "label_raw": "verbatim-ish label",
+      "kind": "margin_bps|fee_rate_bps|all_in_rate_bps|default_interest_spread_bps|other_bps",
+      "rate_option_ids": ["no_spaces_id"],
+      "rules": [
+        {
+          "rule_id": "no_spaces_id",
+          "priority": 100,
+          "when": { "evidence": { "text": "near-verbatim", "source_refs": ["A0001"] }, "expr": null },
+          "schedule": {
+            "type": "fixed",
+            "values": [
+              { "rate_option_id": "no_spaces_id", "value_bps": 150, "source_refs": ["A0001"] }
+            ],
+            "source_table_anchor_id": null,
+            "source_refs": ["A0001"]
+          },
+          "adjustments": [],
+          "constraints": [],
+          "source_refs": ["A0001"]
+        }
+      ],
+      "source_refs": ["A0001"]
+    }
+  ]
+}
+
+TieredSchedule example (this is NOT an extra wrapper; it is the schedule object itself)
+{
+  "type": "tiered",
+  "tiering_scheme_id": "no_spaces_id",
+  "cells": [
+    { "tier_id": "no_spaces_id", "rate_option_id": "no_spaces_id", "value_bps": 150, "source_refs": ["A0001"] }
+  ],
+  "source_table_anchor_id": null,
+  "source_refs": ["A0001"]
+}
+
+Modeling guidance (how to encode "pricing as code")
+1) Facilities
+   - Create Facility objects when the text clearly distinguishes facilities (revolving facility, term loan, swingline, LC).
+   - If facilities are not clearly described in the provided anchors, leave facilities empty.
+
+2) Rate options
+   - Create RateOption objects for:
+     - loan choices (e.g., "ABR Loans", "Base Rate Loans", "Term SOFR Loans", "Eurocurrency Loans")
+     - fee rate labels (e.g., "Commitment Fee", "Letter of Credit Fee", "Fronting Fee", "Facility Fee")
+   - `kind` is "loan" or "fee". Use `fee_basis` only if explicitly stated.
+   - `label_raw` should be as close to verbatim as possible.
+
+3) Variables (inputs)
+   - Create PricingVariable objects for any metric used to select tiers or apply conditions, for example:
+     - leverage_ratio (number)
+     - consolidated_net_leverage_ratio (number)
+     - ratings_level (rating or string)
+     - is_default (boolean) if a Default-rate rule exists
+   - Use `source_refs` to cite where the metric is defined or referenced.
+   - Use `unit` hints when clear (e.g., "ratio", "rating_grade").
+
+4) Tiering schemes
+   - For each tiered pricing schedule, define a TieringScheme:
+     - tiers: ordered labels (Tier 1 / Level I Status / etc.) with evidence
+     - rules: TierRule objects that select the active tier using a Condition
+     - default_tier_id: required (choose the most conservative/worst tier if unclear)
+   - Condition encoding:
+     - Always include `when.evidence` (near-verbatim text + source_refs).
+     - `when.expr` MUST either be null OR follow the exact BoolExpr/NumExpr AST shape below.
+       If you cannot produce a valid AST, set expr=null (do NOT invent your own "op/var_id/value" shape).
+
+Expression AST cheatsheet (use exactly these keys)
+- Numeric comparison:
+  { "type": "num_compare", "op": "<=", "left": { "type": "var", "var_id": "leverage_ratio" }, "right": { "type": "const", "value": 3.0 } }
+- AND / OR:
+  { "type": "and", "args": [ <BoolExpr>, <BoolExpr> ] }
+  { "type": "or", "args": [ <BoolExpr>, <BoolExpr> ] }
+- NOT:
+  { "type": "not", "arg": <BoolExpr> }
+- Boolean variable (only when the agreement defines a boolean trigger):
+  { "type": "var", "var_id": "is_default" }
+
+5) Pricing parameters (the actual outputs)
+   - Create PricingParameter objects for each distinct pricing output, such as:
+     - applicable_margin_bps for loan options
+     - commitment_fee_rate_bps for fee options
+     - lc_fee_rate_bps / fronting_fee_rate_bps if specified
+     - default_interest_spread_bps if specified
+   - Each PricingParameter MUST have at least one PricingParameterRule.
+   - Prefer TieredSchedule when tiers exist; FixedSchedule when the value is constant.
+   - Schedule completeness:
+     - For FixedSchedule: include exactly one RateValue per applicable rate_option_id.
+     - For TieredSchedule: include a full tier x rate_option matrix of TierRateValue cells.
+   - If the agreement provides adjustments (step-ups/step-downs, floors/caps), encode them as:
+     - PricingAdjustment (delta_bps with conditions), and/or
+     - PricingConstraint (min/max bps)
+     with evidence and source_refs.
+
+CONTEXT_JSON:
+{context_json}

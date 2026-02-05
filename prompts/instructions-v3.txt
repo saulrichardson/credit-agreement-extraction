@@ -1,0 +1,1037 @@
+**You are extracting the pricing engine of a corporate credit agreement (EDGAR exhibits).**
+Return **JSON only** that validates against the schema.
+
+### 1) Object-level citation requirement (hard rule)
+
+For **every object you output** that represents a pricing element (benchmark, fallback step, pricing grid, tier, facility, rate option, fee, schedule, rule, adjustment, condition clause, party/role), you MUST include:
+
+```json
+"source_refs": { "anchors": ["A0123"] }
+```
+
+* `anchors` must be a **non-empty** list of the exact `A####` IDs that support that object.
+* If a field is `null` because the snippet is incomplete, cite the anchor where the missing detail is referenced (e.g., “as defined in Section …”) and explain briefly in `notes`.
+
+### 2) Code + label rule (hard rule)
+
+Whenever the schema provides `*_code` and `*_label`:
+
+* `*_label` MUST capture the agreement’s exact term (e.g., “Alternate Base Rate”, “Adjusted Term SOFR”, “Commitment Fee”).
+* `*_code` MUST be the closest matching normalized enum value; if you cannot confidently normalize, set `*_code` to `CUSTOM` or `OTHER` (as available) and rely on `*_label` + `*_text`.
+
+### 3) No guessing
+
+* Do not invent numbers, tier boundaries, formulas, payment dates, or benchmark sources.
+* Use `null` for unknown values and describe what’s missing in `notes`.
+
+### 4) Performance pricing grids
+
+* Encode each table once as a `pricing_grid`.
+* Use `columns[]` to represent each priced output (SOFR margin, ABR margin, commitment fee, LC fee, etc.).
+* Use `tiers[]` to represent tier conditions and values.
+* If “pricing level changes upon delivery of financials” / “missing financials => highest tier” exists, encode it in `pricing_grid.update_timing`.
+
+### 5) Normalize units
+
+* Use **bps** for spreads/margins and fee rates when they’re expressed as “x.xx%” margins/fees.
+* Use **percent** for benchmark floors/caps or index-like floors unless it is clearly a spread.
+
+### 6) Minimal but sufficient notes
+
+* Put complex operative language into `*_text` fields and keep `notes` brief.
+* Don’t paste long excerpts.
+
+---
+
+## Updated JSON Schema (Draft 2020-12)
+
+```json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/corporate-credit-pricing-engine.v2.schema.json",
+  "title": "Corporate Credit Agreement Pricing Engine (v2, object-level refs, code+label)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "agreement", "pricing_engine"],
+  "properties": {
+    "schema_version": { "type": "string" },
+
+    "agreement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "document_title",
+        "agreement_date",
+        "sec_accession_number",
+        "exhibit_number",
+        "borrowers",
+        "guarantors",
+        "agents_and_arrangers",
+        "lenders",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "document_title": { "type": ["string", "null"] },
+        "agreement_date": { "type": ["string", "null"], "format": "date" },
+        "sec_accession_number": { "type": ["string", "null"] },
+        "exhibit_number": { "type": ["string", "null"] },
+
+        "borrowers": { "type": "array", "items": { "$ref": "#/$defs/party" } },
+        "guarantors": { "type": "array", "items": { "$ref": "#/$defs/party" } },
+        "agents_and_arrangers": { "type": "array", "items": { "$ref": "#/$defs/partyRole" } },
+        "lenders": { "type": "array", "items": { "$ref": "#/$defs/party" } },
+
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "pricing_engine": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "conventions",
+        "benchmarks",
+        "pricing_grids",
+        "facilities",
+        "conditional_adjustments",
+        "notes"
+      ],
+      "properties": {
+        "conventions": { "$ref": "#/$defs/globalConventions" },
+
+        "benchmarks": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/benchmark" }
+        },
+
+        "pricing_grids": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/pricingGrid" }
+        },
+
+        "facilities": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/facility" }
+        },
+
+        "conditional_adjustments": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/adjustment" }
+        },
+
+        "notes": { "type": ["string", "null"] }
+      }
+    }
+  },
+
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_\\-\\.]{1,64}$"
+    },
+
+    "sourceRefsRequired": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["anchors", "excerpt", "notes"],
+      "properties": {
+        "anchors": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^A\\d{4}$" }
+        },
+        "excerpt": { "type": ["string", "null"] },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "party": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "entity_type", "source_refs", "notes"],
+      "properties": {
+        "name": { "type": ["string", "null"] },
+        "entity_type": { "type": ["string", "null"] },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "partyRole": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["role_label", "role_code", "party_name", "source_refs", "notes"],
+      "properties": {
+        "role_label": { "type": ["string", "null"], "description": "Exact role name in agreement (e.g., 'Administrative Agent')." },
+        "role_code": {
+          "type": ["string", "null"],
+          "enum": [
+            "ADMINISTRATIVE_AGENT",
+            "COLLATERAL_AGENT",
+            "SYNDICATION_AGENT",
+            "DOCUMENTATION_AGENT",
+            "ARRANGER",
+            "BOOKRUNNER",
+            "ISSUING_BANK",
+            "SWINGLINE_LENDER",
+            "OTHER",
+            "CUSTOM",
+            null
+          ]
+        },
+        "party_name": { "type": ["string", "null"] },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "currency": { "type": "string", "pattern": "^[A-Z]{3}$" },
+
+    "money": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["amount", "currency"],
+      "properties": {
+        "amount": { "type": ["number", "null"] },
+        "currency": { "anyOf": [{ "$ref": "#/$defs/currency" }, { "type": "null" }] }
+      }
+    },
+
+    "rateValue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "unit"],
+      "properties": {
+        "value": { "type": ["number", "null"] },
+        "unit": { "type": "string", "enum": ["bps", "percent"] }
+      }
+    },
+
+    "dayCount": {
+      "type": ["string", "null"],
+      "enum": ["ACT/360", "ACT/365F", "ACT/ACT", "30/360", "30E/360", "BUS/252", "OTHER", null]
+    },
+
+    "businessDayConvention": {
+      "type": ["string", "null"],
+      "enum": ["FOLLOWING", "MODIFIED_FOLLOWING", "PRECEDING", "MODIFIED_PRECEDING", "NONE", "OTHER", null]
+    },
+
+    "frequency": {
+      "type": ["string", "null"],
+      "enum": ["ONE_TIME", "DAILY", "MONTHLY", "QUARTERLY", "SEMI_ANNUAL", "ANNUAL", "END_OF_INTEREST_PERIOD", "AT_MATURITY", "ON_OCCURRENCE", "OTHER", null]
+    },
+
+    "globalConventions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "default_day_count",
+        "default_business_day_convention",
+        "rounding_text",
+        "interest_payment_timing_text",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "default_day_count": { "$ref": "#/$defs/dayCount" },
+        "default_business_day_convention": { "$ref": "#/$defs/businessDayConvention" },
+        "rounding_text": { "type": ["string", "null"] },
+        "interest_payment_timing_text": { "type": ["string", "null"] },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "benchmark": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "benchmark_id",
+        "benchmark_type_code",
+        "benchmark_type_label",
+        "name",
+        "rate_source_text",
+        "tenors_supported",
+        "calculation_conventions",
+        "components",
+        "selection_method_code",
+        "selection_method_label",
+        "credit_spread_adjustment",
+        "floor",
+        "fallbacks",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "benchmark_id": { "$ref": "#/$defs/id" },
+
+        "benchmark_type_code": {
+          "type": ["string", "null"],
+          "enum": [
+            "TERM_SOFR",
+            "DAILY_SIMPLE_SOFR",
+            "DAILY_COMPOUNDED_SOFR",
+            "SOFR_AVERAGE",
+            "BASE_RATE",
+            "PRIME_RATE",
+            "FED_FUNDS_RATE",
+            "EURIBOR",
+            "SONIA",
+            "FIXED_RATE",
+            "OTHER",
+            "CUSTOM",
+            null
+          ]
+        },
+        "benchmark_type_label": { "type": ["string", "null"], "description": "Exact term from agreement (e.g., 'Adjusted Term SOFR')." },
+
+        "name": { "type": ["string", "null"] },
+        "rate_source_text": { "type": ["string", "null"] },
+
+        "tenors_supported": { "type": "array", "items": { "type": "string" } },
+
+        "calculation_conventions": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "method_text",
+            "lookback_days",
+            "lockout_days",
+            "observation_shift_text",
+            "day_count",
+            "business_day_convention",
+            "rounding_text",
+            "source_refs",
+            "notes"
+          ],
+          "properties": {
+            "method_text": { "type": ["string", "null"] },
+            "lookback_days": { "type": ["number", "null"] },
+            "lockout_days": { "type": ["number", "null"] },
+            "observation_shift_text": { "type": ["string", "null"] },
+            "day_count": { "$ref": "#/$defs/dayCount" },
+            "business_day_convention": { "$ref": "#/$defs/businessDayConvention" },
+            "rounding_text": { "type": ["string", "null"] },
+            "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+            "notes": { "type": ["string", "null"] }
+          }
+        },
+
+        "components": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/benchmarkComponent" }
+        },
+
+        "selection_method_code": {
+          "type": ["string", "null"],
+          "enum": ["MAX", "MIN", "AVERAGE", "SUM", "OTHER", "CUSTOM", null]
+        },
+        "selection_method_label": { "type": ["string", "null"] },
+
+        "credit_spread_adjustment": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["csa_text", "by_tenor", "source_refs", "notes"],
+          "properties": {
+            "csa_text": { "type": ["string", "null"] },
+            "by_tenor": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["tenor", "adjustment", "source_refs", "notes"],
+                "properties": {
+                  "tenor": { "type": ["string", "null"] },
+                  "adjustment": { "$ref": "#/$defs/rateValue" },
+                  "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+                  "notes": { "type": ["string", "null"] }
+                }
+              }
+            },
+            "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+            "notes": { "type": ["string", "null"] }
+          }
+        },
+
+        "floor": { "anyOf": [{ "$ref": "#/$defs/rateValue" }, { "type": "null" }] },
+
+        "fallbacks": { "$ref": "#/$defs/benchmarkFallbacks" },
+
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "benchmarkComponent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "component_type_code",
+        "component_type_label",
+        "benchmark_id",
+        "tenor",
+        "adder",
+        "multiplier",
+        "component_text",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "component_type_code": {
+          "type": ["string", "null"],
+          "enum": ["BENCHMARK_REF", "PRIME_RATE", "FED_FUNDS_RATE", "CUSTOM_TEXT", "OTHER", "CUSTOM", null]
+        },
+        "component_type_label": { "type": ["string", "null"] },
+        "benchmark_id": { "type": ["string", "null"] },
+        "tenor": { "type": ["string", "null"] },
+        "adder": { "anyOf": [{ "$ref": "#/$defs/rateValue" }, { "type": "null" }] },
+        "multiplier": { "type": ["number", "null"] },
+        "component_text": { "type": ["string", "null"] },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "benchmarkFallbacks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "triggers",
+        "waterfall",
+        "conforming_changes_allowed",
+        "fallback_text",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "triggers": { "type": "array", "items": { "$ref": "#/$defs/fallbackTrigger" } },
+        "waterfall": { "type": "array", "items": { "$ref": "#/$defs/fallbackStep" } },
+        "conforming_changes_allowed": { "type": ["boolean", "null"] },
+        "fallback_text": { "type": ["string", "null"] },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "fallbackTrigger": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["trigger_type_code", "trigger_type_label", "description_text", "source_refs", "notes"],
+      "properties": {
+        "trigger_type_code": {
+          "type": ["string", "null"],
+          "enum": [
+            "BENCHMARK_UNAVAILABLE",
+            "BENCHMARK_TRANSITION_EVENT",
+            "EARLY_OPT_IN",
+            "ADMINISTRATOR_ANNOUNCEMENT",
+            "REGULATORY_SHUTDOWN",
+            "OTHER",
+            "CUSTOM",
+            null
+          ]
+        },
+        "trigger_type_label": { "type": ["string", "null"] },
+        "description_text": { "type": ["string", "null"] },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "fallbackStep": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "order",
+        "replacement_benchmark_id",
+        "spread_adjustment",
+        "step_text",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "order": { "type": ["integer", "null"], "minimum": 1 },
+        "replacement_benchmark_id": { "type": ["string", "null"] },
+        "spread_adjustment": { "anyOf": [{ "$ref": "#/$defs/rateValue" }, { "type": "null" }] },
+        "step_text": { "type": ["string", "null"] },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "pricingGrid": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "grid_id",
+        "name",
+        "driver",
+        "columns",
+        "tiers",
+        "update_timing",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "grid_id": { "$ref": "#/$defs/id" },
+        "name": { "type": ["string", "null"] },
+        "driver": { "$ref": "#/$defs/gridDriver" },
+        "columns": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/gridColumn" } },
+        "tiers": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/gridTier" } },
+        "update_timing": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "update_frequency_text",
+            "effective_time_text",
+            "retroactive",
+            "missing_data_behavior_text",
+            "source_refs",
+            "notes"
+          ],
+          "properties": {
+            "update_frequency_text": { "type": ["string", "null"] },
+            "effective_time_text": { "type": ["string", "null"] },
+            "retroactive": { "type": ["boolean", "null"] },
+            "missing_data_behavior_text": { "type": ["string", "null"] },
+            "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+            "notes": { "type": ["string", "null"] }
+          }
+        },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "gridDriver": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "driver_type_code",
+        "driver_type_label",
+        "name",
+        "definition_text",
+        "measurement_window_text",
+        "rating_rule_text",
+        "utilization_definition_text",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "driver_type_code": {
+          "type": ["string", "null"],
+          "enum": ["FINANCIAL_RATIO", "CREDIT_RATING", "UTILIZATION", "ESG_KPI", "OTHER", "CUSTOM", null]
+        },
+        "driver_type_label": { "type": ["string", "null"] },
+        "name": { "type": ["string", "null"] },
+        "definition_text": { "type": ["string", "null"] },
+        "measurement_window_text": { "type": ["string", "null"] },
+        "rating_rule_text": { "type": ["string", "null"] },
+        "utilization_definition_text": { "type": ["string", "null"] },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "gridColumn": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "column_id",
+        "label",
+        "unit",
+        "target",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "column_id": { "$ref": "#/$defs/id" },
+        "label": { "type": ["string", "null"] },
+        "unit": { "type": "string", "enum": ["bps", "percent"] },
+        "target": { "$ref": "#/$defs/gridTarget" },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "gridTarget": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "target_type_code",
+        "target_type_label",
+        "facility_id",
+        "rate_option_id",
+        "fee_id",
+        "description_text",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "target_type_code": { "type": ["string", "null"], "enum": ["RATE_MARGIN", "FEE_RATE", "OTHER", "CUSTOM", null] },
+        "target_type_label": { "type": ["string", "null"] },
+        "facility_id": { "type": ["string", "null"] },
+        "rate_option_id": { "type": ["string", "null"] },
+        "fee_id": { "type": ["string", "null"] },
+        "description_text": { "type": ["string", "null"] },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "gridTier": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tier_id", "label", "condition", "values", "source_refs", "notes"],
+      "properties": {
+        "tier_id": { "$ref": "#/$defs/id" },
+        "label": { "type": ["string", "null"] },
+        "condition": { "$ref": "#/$defs/tierCondition" },
+        "values": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/gridTierValue" } },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "tierCondition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "condition_type_code",
+        "condition_type_label",
+        "min_exclusive",
+        "min_inclusive",
+        "max_exclusive",
+        "max_inclusive",
+        "ratings",
+        "condition_text",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "condition_type_code": { "type": ["string", "null"], "enum": ["RANGE", "RATINGS", "TEXT", "OTHER", "CUSTOM", null] },
+        "condition_type_label": { "type": ["string", "null"] },
+        "min_exclusive": { "type": ["number", "null"] },
+        "min_inclusive": { "type": ["number", "null"] },
+        "max_exclusive": { "type": ["number", "null"] },
+        "max_inclusive": { "type": ["number", "null"] },
+        "ratings": { "type": "array", "items": { "type": "string" } },
+        "condition_text": { "type": ["string", "null"] },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "gridTierValue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["column_id", "value", "source_refs", "notes"],
+      "properties": {
+        "column_id": { "$ref": "#/$defs/id" },
+        "value": { "$ref": "#/$defs/rateValue" },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "facility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "facility_id",
+        "name",
+        "facility_type_code",
+        "facility_type_label",
+        "currency",
+        "commitment",
+        "maturity_date",
+        "rate_options",
+        "fees",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "facility_id": { "$ref": "#/$defs/id" },
+        "name": { "type": ["string", "null"] },
+
+        "facility_type_code": {
+          "type": ["string", "null"],
+          "enum": ["REVOLVING", "TERM_LOAN", "DELAYED_DRAW_TERM_LOAN", "SWINGLINE", "LETTER_OF_CREDIT", "OTHER", "CUSTOM", null]
+        },
+        "facility_type_label": { "type": ["string", "null"] },
+
+        "currency": { "anyOf": [{ "$ref": "#/$defs/currency" }, { "type": "null" }] },
+        "commitment": { "anyOf": [{ "$ref": "#/$defs/money" }, { "type": "null" }] },
+        "maturity_date": { "type": ["string", "null"], "format": "date" },
+
+        "rate_options": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/rateOption" } },
+        "fees": { "type": "array", "items": { "$ref": "#/$defs/fee" } },
+
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "rateOption": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "rate_option_id",
+        "name",
+        "rate_option_type_code",
+        "rate_option_type_label",
+        "benchmark_id",
+        "allowed_interest_periods",
+        "benchmark_floor",
+        "all_in_floor",
+        "margin_schedule",
+        "interest_payment_frequency_code",
+        "interest_payment_frequency_label",
+        "interest_payment_timing_text",
+        "day_count",
+        "availability_condition",
+        "default_interest",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "rate_option_id": { "$ref": "#/$defs/id" },
+        "name": { "type": ["string", "null"] },
+
+        "rate_option_type_code": {
+          "type": ["string", "null"],
+          "enum": ["TERM_SOFR", "DAILY_SIMPLE_SOFR", "DAILY_COMPOUNDED_SOFR", "BASE_RATE", "EUROCURRENCY", "FIXED", "OTHER", "CUSTOM", null]
+        },
+        "rate_option_type_label": { "type": ["string", "null"] },
+
+        "benchmark_id": { "type": ["string", "null"] },
+        "allowed_interest_periods": { "type": "array", "items": { "type": "string" } },
+
+        "benchmark_floor": { "anyOf": [{ "$ref": "#/$defs/rateValue" }, { "type": "null" }] },
+        "all_in_floor": { "anyOf": [{ "$ref": "#/$defs/rateValue" }, { "type": "null" }] },
+
+        "margin_schedule": { "$ref": "#/$defs/rateSchedule" },
+
+        "interest_payment_frequency_code": { "$ref": "#/$defs/frequency" },
+        "interest_payment_frequency_label": { "type": ["string", "null"] },
+        "interest_payment_timing_text": { "type": ["string", "null"] },
+
+        "day_count": { "$ref": "#/$defs/dayCount" },
+
+        "availability_condition": { "$ref": "#/$defs/condition" },
+        "default_interest": { "anyOf": [{ "$ref": "#/$defs/adjustment" }, { "type": "null" }] },
+
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "fee": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fee_id",
+        "name",
+        "fee_type_code",
+        "fee_type_label",
+        "rate_schedule",
+        "base_amount",
+        "day_count",
+        "payment_frequency_code",
+        "payment_frequency_label",
+        "payment_timing_text",
+        "condition",
+        "fee_text",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "fee_id": { "$ref": "#/$defs/id" },
+        "name": { "type": ["string", "null"] },
+
+        "fee_type_code": {
+          "type": ["string", "null"],
+          "enum": [
+            "UPFRONT",
+            "OID",
+            "COMMITMENT",
+            "UNUSED_COMMITMENT",
+            "UTILIZATION",
+            "LETTER_OF_CREDIT",
+            "FRONTING",
+            "SWINGLINE",
+            "ADMIN_AGENT",
+            "ARRANGEMENT",
+            "TICK",
+            "EXTENSION",
+            "AMENDMENT",
+            "PREPAYMENT_PREMIUM",
+            "MAKE_WHOLE",
+            "BREAKAGE",
+            "INCREASED_COSTS",
+            "TAX_GROSS_UP",
+            "OTHER",
+            "CUSTOM",
+            null
+          ]
+        },
+        "fee_type_label": { "type": ["string", "null"] },
+
+        "rate_schedule": { "anyOf": [{ "$ref": "#/$defs/rateSchedule" }, { "type": "null" }] },
+        "base_amount": { "anyOf": [{ "$ref": "#/$defs/amountBase" }, { "type": "null" }] },
+
+        "day_count": { "$ref": "#/$defs/dayCount" },
+
+        "payment_frequency_code": { "$ref": "#/$defs/frequency" },
+        "payment_frequency_label": { "type": ["string", "null"] },
+        "payment_timing_text": { "type": ["string", "null"] },
+
+        "condition": { "$ref": "#/$defs/condition" },
+
+        "fee_text": { "type": ["string", "null"] },
+
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "amountBase": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "base_type_code",
+        "base_type_label",
+        "formula_text",
+        "includes",
+        "excludes",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "base_type_code": {
+          "type": ["string", "null"],
+          "enum": [
+            "OUTSTANDING_PRINCIPAL",
+            "TOTAL_COMMITMENT",
+            "UNUSED_COMMITMENT",
+            "AVERAGE_DAILY_OUTSTANDING",
+            "AVERAGE_DAILY_UNUSED",
+            "LC_AMOUNT",
+            "LC_EXPOSURE",
+            "AMOUNT_PREPAID",
+            "OTHER",
+            "CUSTOM",
+            null
+          ]
+        },
+        "base_type_label": { "type": ["string", "null"] },
+        "formula_text": { "type": ["string", "null"] },
+        "includes": { "type": "array", "items": { "type": "string" } },
+        "excludes": { "type": "array", "items": { "type": "string" } },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "rateSchedule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schedule_type_code",
+        "schedule_type_label",
+        "fixed_rate",
+        "grid_ref",
+        "rules",
+        "schedule_text",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "schedule_type_code": { "type": ["string", "null"], "enum": ["FIXED", "PRICING_GRID", "RULES", "TEXT_ONLY", "CUSTOM", null] },
+        "schedule_type_label": { "type": ["string", "null"] },
+
+        "fixed_rate": { "anyOf": [{ "$ref": "#/$defs/rateValue" }, { "type": "null" }] },
+
+        "grid_ref": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "required": ["grid_id", "column_id", "source_refs", "notes"],
+          "properties": {
+            "grid_id": { "type": ["string", "null"] },
+            "column_id": { "type": ["string", "null"] },
+            "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+            "notes": { "type": ["string", "null"] }
+          }
+        },
+
+        "rules": { "type": "array", "items": { "$ref": "#/$defs/rateRule" } },
+
+        "schedule_text": { "type": ["string", "null"] },
+
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "rateRule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["condition", "rate", "rule_text", "source_refs", "notes"],
+      "properties": {
+        "condition": { "$ref": "#/$defs/condition" },
+        "rate": { "$ref": "#/$defs/rateValue" },
+        "rule_text": { "type": ["string", "null"] },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "adjustment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["adjustment_id", "name", "applies_to", "condition", "effect", "source_refs", "notes"],
+      "properties": {
+        "adjustment_id": { "$ref": "#/$defs/id" },
+        "name": { "type": ["string", "null"] },
+
+        "applies_to": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["facility_id", "rate_option_id", "fee_id", "applies_to_text", "source_refs", "notes"],
+          "properties": {
+            "facility_id": { "type": ["string", "null"] },
+            "rate_option_id": { "type": ["string", "null"] },
+            "fee_id": { "type": ["string", "null"] },
+            "applies_to_text": { "type": ["string", "null"] },
+            "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+            "notes": { "type": ["string", "null"] }
+          }
+        },
+
+        "condition": { "$ref": "#/$defs/condition" },
+        "effect": { "$ref": "#/$defs/effect" },
+
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "effect": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "effect_type_code",
+        "effect_type_label",
+        "value",
+        "target_grid_id",
+        "target_tier_id",
+        "effect_text",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "effect_type_code": {
+          "type": ["string", "null"],
+          "enum": [
+            "ADD_RATE",
+            "SET_RATE",
+            "ADD_FEE_RATE",
+            "SET_FEE_RATE",
+            "FORCE_PRICING_TIER",
+            "PASS_THROUGH_REIMBURSEMENT",
+            "OTHER",
+            "CUSTOM",
+            null
+          ]
+        },
+        "effect_type_label": { "type": ["string", "null"] },
+        "value": { "anyOf": [{ "$ref": "#/$defs/rateValue" }, { "type": "null" }] },
+        "target_grid_id": { "type": ["string", "null"] },
+        "target_tier_id": { "type": ["string", "null"] },
+        "effect_text": { "type": ["string", "null"] },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "condition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["all_of", "any_of", "raw_text", "source_refs", "notes"],
+      "properties": {
+        "all_of": { "type": "array", "items": { "$ref": "#/$defs/conditionClause" } },
+        "any_of": { "type": "array", "items": { "$ref": "#/$defs/conditionClause" } },
+        "raw_text": { "type": ["string", "null"] },
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "conditionClause": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "clause_type_code",
+        "clause_type_label",
+        "value",
+        "metric_name",
+        "min_exclusive",
+        "min_inclusive",
+        "max_exclusive",
+        "max_inclusive",
+        "agency",
+        "ratings",
+        "rating_rule_text",
+        "utilization_definition_text",
+        "start_date",
+        "end_date",
+        "description_text",
+        "source_refs",
+        "notes"
+      ],
+      "properties": {
+        "clause_type_code": {
+          "type": ["string", "null"],
+          "enum": [
+            "EVENT_OF_DEFAULT",
+            "FINANCIALS_NOT_DELIVERED",
+            "METRIC_RANGE",
+            "RATING_IN",
+            "UTILIZATION_RANGE",
+            "DATE_RANGE",
+            "OTHER",
+            "CUSTOM",
+            null
+          ]
+        },
+        "clause_type_label": { "type": ["string", "null"] },
+        "value": { "type": ["boolean", "null"] },
+
+        "metric_name": { "type": ["string", "null"] },
+        "min_exclusive": { "type": ["number", "null"] },
+        "min_inclusive": { "type": ["number", "null"] },
+        "max_exclusive": { "type": ["number", "null"] },
+        "max_inclusive": { "type": ["number", "null"] },
+
+        "agency": { "type": ["string", "null"] },
+        "ratings": { "type": "array", "items": { "type": "string" } },
+        "rating_rule_text": { "type": ["string", "null"] },
+
+        "utilization_definition_text": { "type": ["string", "null"] },
+
+        "start_date": { "type": ["string", "null"], "format": "date" },
+        "end_date": { "type": ["string", "null"], "format": "date" },
+
+        "description_text": { "type": ["string", "null"] },
+
+        "source_refs": { "$ref": "#/$defs/sourceRefsRequired" },
+        "notes": { "type": ["string", "null"] }
+      }
+    }
+  }
+}
+```

@@ -1,0 +1,27 @@
+Your task is to find and extract all financial covenants from the provided snippets. The snippet content is taken from a corporate debt agreement. It may include a description of the financial covenants included in that agreement. Financial covenants are rules that the company cannot permit certain financial ratios or statistics, such as the interest coverage ratio, fixed charge ratio, leverage ratio, or the ratio of debt to EBITDA or earnings, to exceed certain bounds. Other covenants may require that capital expenditure, net worth, or EBITDA not exceed certain bounds.
+
+Performance pricing rules state that the interest rate, margin, spread, fees, lease, or pricing on a loan can vary with the firm's financial ratios. We do NOT want to include performance pricing rules in our output.
+
+The input is the snippets following these instructions, which may contain a table (possibly in HTML format). Each snippet begins with an anchor like [[A0123]].
+
+Output JSON only.
+
+The output that describes the financial covenants MUST be a JSON array of objects including the following fields: 
+
+1. name (string): the financial statistic or ratio that is being limited.
+2. limit (number): the numeric value the financial statistic is not allowed to cross. Provide only a single number for this value, and convert percentage points to decimals (e.g., 350% -> 3.5).
+3. start_date (string|null): the date the covenant begins to apply at this limit in "MM/DD/YYYY" format, if relevant (otherwise null).
+4. end_date (string|null): the date the covenant stops applying at this limit in "MM/DD/YYYY" format, if relevant (otherwise null).
+
+If the paragraph does not include financial covenants the output should be an empty list. You should not explain why there is no financial covenant in the paragraph, and should not omit the empty list.
+
+Here is an example for input and output:
+
+Example input: "borrowers will maintain an interest coverage ratio for each quarter of not less than 3.00 to 1.00 until June 1, 2005, a ratio of not less than 350% until September 1, 2006, and then a ratio of not less than 4.00 to 1.00 each quarter thereafter."
+
+Example output:
+[
+  {"name": "interest coverage ratio", "limit": 3.0, "start_date": null, "end_date": "6/1/2005"},
+  {"name": "interest coverage ratio", "limit": 3.5, "start_date": "6/1/2005", "end_date": "9/1/2006"},
+  {"name": "interest coverage ratio", "limit": 4.0, "start_date": "9/1/2006", "end_date": null}
+]

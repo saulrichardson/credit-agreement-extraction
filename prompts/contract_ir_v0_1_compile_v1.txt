@@ -1,0 +1,348 @@
+You are converting credit agreement excerpts into a strictly-validated JSON intermediate representation (ContractIR v0.1).
+
+Return JSON ONLY. No markdown. No commentary. No code fences.
+
+=====================
+CONTRACTIR v0.1
+=====================
+
+Top-level keys (must all be present; use empty arrays when needed):
+- schema_version (must be "contract_ir_v0_1")
+- contract_id
+- sources
+- indices
+- tables
+- derived
+- open_items
+
+cashflows is optional and MAY be omitted.
+
+---------------------
+Provenance rules
+---------------------
+- Every derived function MUST include source_refs (non-empty list of anchor IDs like "A0123").
+- Every table row MUST include source_refs (non-empty list of anchor IDs).
+- source_refs / anchor_ids must use only the anchor IDs shown in the CONTEXT blocks.
+
+---------------------
+Semantic role (derived functions)
+---------------------
+Every derived function MUST include semantic_role with one of:
+- base_rate     (benchmark/base rate definition, e.g., ABR, Adjusted LIBOR)
+- margin        (spread/margin component only, not including the underlying base rate)
+- all_in_rate   (base rate + margin combined)
+- other         (anything else)
+
+---------------------
+AST grammar (ONLY these 3 node types)
+---------------------
+1) Literal node:
+   {"lit": {"type": "...", "value": ...}}
+
+2) Variable node:
+   {"var": "name"}
+
+3) Operator node:
+   {"op": "op_name", "args": [<node>, ...]}
+
+Literal types (v0.1):
+- "rate" | "bps" | "decimal" | "money" | "integer" | "string" | "bool" | "date"
+
+NUMERIC LITERALS MUST BE STRINGS.
+Examples:
+- {"lit":{"type":"rate","value":"0.0525"}}   # 5.25% as a decimal rate
+- {"lit":{"type":"bps","value":"37.5"}}     # 37.5 bps
+- {"lit":{"type":"decimal","value":"1.00"}}
+- {"lit":{"type":"integer","value":"16"}}
+
+---------------------
+Operator allowlist (v0.1)
+---------------------
+Core math:
+- add(x,y,...)
+- sub(x,y,...)
+- mul(x,y,...)
+- div(x,y,...)
+- max(x,y,...)
+- min(x,y,...)
+
+External series:
+- index(series_id, date)
+  - series_id MUST be a string literal (e.g., {"lit":{"type":"string","value":"PrimeRate"}})
+  - date should be a variable or a date literal
+
+Rounding:
+- round_up_to_increment(x, increment)
+  - increment is a numeric literal (string), e.g.:
+    - next higher 1/100th of 1% => increment = 0.0001
+    - next 1/16 of 1% => increment = 0.000625
+
+Conversions:
+- bps_to_rate(bps)
+  - returns rate decimal: bps / 10000
+
+Tables:
+- lookup(table_id, key_column, key_value, value_column)
+  - exact match on key_column == key_value (string equality)
+  - table_id/key_column/value_column are string literals
+
+Conditionals (only if needed):
+- if(cond, then_expr, else_expr)
+- eq/lt/lte/gt/gte
+- and/or/not
+
+---------------------
+When ambiguous
+---------------------
+Do NOT guess. Put an entry in open_items with:
+- issue (string)
+- source_refs (anchor ids)
+- suggested_parameters (list of strings; can be empty)
+- blocking (boolean)
+
+=====================
+OUTPUT SHAPE (must match exactly)
+=====================
+{
+  "schema_version": "contract_ir_v0_1",
+  "contract_id": "<string>",
+  "sources": [
+    {
+      "source_id": "S1",
+      "kind": "excerpt_pack",
+      "item_id": "<item_id>",
+      "anchor_ids": ["A0001"],
+      "notes": null
+    }
+  ],
+  "indices": [
+    {"series_id": "<string>", "unit": "rate|bps|decimal|money|bool|string", "description": null}
+  ],
+  "tables": [
+    {
+      "table_id": "<string>",
+      "description": null,
+      "columns": [{"name":"...", "type":"string|decimal|rate|bps|money|bool|date"}],
+      "rows": [
+        {"row_id": null, "cells": {"col": {"lit": {"type": "...", "value": "..."}}}, "source_refs": ["A0001"]}
+      ]
+    }
+  ],
+  "derived": [
+    {
+      "fn_id": "<string>",
+      "semantic_role": "base_rate|margin|all_in_rate|other",
+      "description": null,
+      "args": [{"name":"...", "type":"string|decimal|rate|bps|money|bool|date"}],
+      "returns": "string|decimal|rate|bps|money|bool|date",
+      "expr": {"op":"...", "args":[...]},
+      "source_refs": ["A0001"]
+    }
+  ],
+  "open_items": []
+}
+
+=====================
+GOLDEN EXAMPLE (ABR-style benchmark)
+=====================
+{
+  "schema_version": "contract_ir_v0_1",
+  "contract_id": "EXAMPLE_ABR",
+  "sources": [
+    {
+      "source_id": "S1",
+      "kind": "excerpt_pack",
+      "item_id": "EXAMPLE_ITEM",
+      "anchor_ids": ["A0001"],
+      "notes": null
+    }
+  ],
+  "indices": [
+    { "series_id": "PrimeRate", "unit": "rate", "description": null },
+    { "series_id": "FederalFundsEffectiveRate", "unit": "rate", "description": null }
+  ],
+  "tables": [],
+  "derived": [
+    {
+      "fn_id": "ABR",
+      "semantic_role": "base_rate",
+      "description": null,
+      "args": [{ "name": "date", "type": "date" }],
+      "returns": "rate",
+      "expr": {
+        "op": "round_up_to_increment",
+        "args": [
+          {
+            "op": "max",
+            "args": [
+              { "op": "index", "args": [ { "lit": { "type": "string", "value": "PrimeRate" } }, { "var": "date" } ] },
+	              {
+	                "op": "add",
+	                "args": [
+	                  { "op": "index", "args": [ { "lit": { "type": "string", "value": "FederalFundsEffectiveRate" } }, { "var": "date" } ] },
+	                  { "lit": { "type": "rate", "value": "0.005" } }
+	                ]
+	              }
+            ]
+          },
+          { "lit": { "type": "rate", "value": "0.000625" } }
+        ]
+      },
+      "source_refs": ["A0001"]
+    }
+  ],
+  "open_items": []
+}
+
+=====================
+GOLDEN EXAMPLE (margin table component)
+=====================
+{
+  "schema_version": "contract_ir_v0_1",
+  "contract_id": "EXAMPLE_MARGIN",
+  "sources": [
+    {
+      "source_id": "S1",
+      "kind": "excerpt_pack",
+      "item_id": "EXAMPLE_ITEM",
+      "anchor_ids": ["A0001"],
+      "notes": null
+    }
+  ],
+  "indices": [],
+  "tables": [
+    {
+      "table_id": "ApplicableMarginByLevel",
+      "description": null,
+      "columns": [
+        { "name": "level", "type": "string" },
+        { "name": "margin_bps", "type": "bps" }
+      ],
+      "rows": [
+        {
+          "row_id": null,
+          "cells": {
+            "level": { "lit": { "type": "string", "value": "I" } },
+            "margin_bps": { "lit": { "type": "bps", "value": "25" } }
+          },
+          "source_refs": ["A0001"]
+        },
+        {
+          "row_id": null,
+          "cells": {
+            "level": { "lit": { "type": "string", "value": "II" } },
+            "margin_bps": { "lit": { "type": "bps", "value": "50" } }
+          },
+          "source_refs": ["A0001"]
+        }
+      ]
+    }
+  ],
+  "derived": [
+    {
+      "fn_id": "ApplicableMargin",
+      "semantic_role": "margin",
+      "description": null,
+      "args": [{ "name": "level", "type": "string" }],
+      "returns": "rate",
+      "expr": {
+        "op": "bps_to_rate",
+        "args": [
+          {
+            "op": "lookup",
+            "args": [
+              { "lit": { "type": "string", "value": "ApplicableMarginByLevel" } },
+              { "lit": { "type": "string", "value": "level" } },
+              { "var": "level" },
+              { "lit": { "type": "string", "value": "margin_bps" } }
+            ]
+          }
+        ]
+      },
+      "source_refs": ["A0001"]
+    }
+  ],
+  "open_items": []
+}
+
+=====================
+GOLDEN EXAMPLE (status-based margin table pivot)
+=====================
+{
+  "schema_version": "contract_ir_v0_1",
+  "contract_id": "EXAMPLE_STATUS_MARGIN",
+  "sources": [
+    {
+      "source_id": "S1",
+      "kind": "excerpt_pack",
+      "item_id": "EXAMPLE_ITEM",
+      "anchor_ids": ["A0001"],
+      "notes": null
+    }
+  ],
+  "indices": [],
+  "tables": [
+    {
+      "table_id": "ApplicableMarginByStatus",
+      "description": null,
+      "columns": [
+        { "name": "status_code", "type": "string" },
+        { "name": "status_label", "type": "string" },
+        { "name": "abr_margin_bps", "type": "bps" }
+      ],
+      "rows": [
+        {
+          "row_id": null,
+          "cells": {
+            "status_code": { "lit": { "type": "string", "value": "I" } },
+            "status_label": { "lit": { "type": "string", "value": "Level I Status" } },
+            "abr_margin_bps": { "lit": { "type": "bps", "value": "0" } }
+          },
+          "source_refs": ["A0001"]
+        },
+        {
+          "row_id": null,
+          "cells": {
+            "status_code": { "lit": { "type": "string", "value": "II" } },
+            "status_label": { "lit": { "type": "string", "value": "Level II Status" } },
+            "abr_margin_bps": { "lit": { "type": "bps", "value": "5" } }
+          },
+          "source_refs": ["A0001"]
+        }
+      ]
+    }
+  ],
+  "derived": [
+    {
+      "fn_id": "ApplicableMarginABR",
+      "semantic_role": "margin",
+      "description": null,
+      "args": [{ "name": "status_code", "type": "string" }],
+      "returns": "rate",
+      "expr": {
+        "op": "bps_to_rate",
+        "args": [
+          {
+            "op": "lookup",
+            "args": [
+              { "lit": { "type": "string", "value": "ApplicableMarginByStatus" } },
+              { "lit": { "type": "string", "value": "status_code" } },
+              { "var": "status_code" },
+              { "lit": { "type": "string", "value": "abr_margin_bps" } }
+            ]
+          }
+        ]
+      },
+      "source_refs": ["A0001"]
+    }
+  ],
+  "open_items": []
+}
+
+=====================
+TASK
+=====================
+{{TASK}}
+
+CONTEXTS (use ONLY these):
+{{CONTEXTS}}

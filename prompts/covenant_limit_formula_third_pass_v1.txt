@@ -1,0 +1,97 @@
+You are extracting a COMPUTABLE formula for a financial covenant LIMIT (threshold) from a credit agreement excerpt.
+
+The input contains:
+- Anchor blocks like [[A0123]] with the covenant text.
+- A JSON list of covenant rows from a prior, less-structured extraction step.
+
+Your job in this pass is ONLY:
+1) Identify which covenant rows have a non-numeric limit (limit = null with limit_text).
+2) Convert each such limit_text into a simple, computable expression for the LIMIT value.
+
+IMPORTANT:
+- You are NOT asked to compute any metric definitions from financial statements.
+- Treat any referenced financial quantities as EXTERNAL INPUT VARIABLES (you may introduce variables like `net_income_since_1995_12_31`).
+- Do NOT invent numbers that are not explicitly in the excerpt.
+- Do NOT invent anchors. Every `source_refs` anchor must appear as a header in the provided excerpt.
+- Do NOT treat DEFINED TERMS as covenant limits. If the text is a definition (e.g., '"TERM" means ...' / 'shall mean' / 'is defined as'),
+  it is NOT a covenant limit and should NOT appear in `limits`.
+
+=====================
+OUTPUT (JSON ONLY)
+=====================
+Return a single JSON object with this structure:
+
+{
+  "schema_version": "covenant_limit_formula_v1",
+  "item_id": "{item_id}",
+  "limits": [
+    {
+      "name": "string",
+      "start_date": "MM/DD/YYYY | NA",
+      "end_date": "MM/DD/YYYY | NA",
+      "limit_text": "string",
+      "limit_expr": {
+        "args": [{"name":"...", "type":"money|decimal|date"}, ...],
+        "returns": "money|decimal",
+        "expr": <AST_NODE>,
+        "source_refs": ["A0001", ...]
+      },
+      "source_refs": ["A0001", ...],
+      "confidence": "high|medium|low",
+      "notes": ["string"]
+    }
+  ],
+  "unresolved_inputs": [
+    {"name":"string", "type":"money|decimal|date", "reason":"string"}
+  ]
+}
+
+If there are no rows with non-numeric limits, return:
+{"schema_version":"covenant_limit_formula_v1","item_id":"{item_id}","limits":[],"unresolved_inputs":[]}
+
+=====================
+AST NODE SHAPES
+=====================
+Use ONLY these node types:
+
+1) Literal:
+  {"lit": {"type": "money|decimal|date|string", "value": "..." }}
+  - For money: value is digits only (no commas, no $), e.g. "210000000"
+  - For decimal: value is a decimal string, e.g. "0.50", "1.25"
+
+2) Variable reference:
+  {"var": "snake_case_name"}
+
+3) Operator call:
+  {"op": "add|sub|mul|div", "args": [<AST_NODE>, <AST_NODE>, ...]}
+
+=====================
+RULES FOR COMMON PATTERNS
+=====================
+- Percent multipliers:
+  - "50% of Net Income" => multiply by 0.50
+  - "90% of Net Income" => multiply by 0.90
+- SUM OF / PLUS chains:
+  - "SUM OF (a) $X PLUS (b) 90% of Net Income ... PLUS (c) 100% of ..." => add(...) chain.
+- "positive amount" thresholds:
+  - "less than a positive amount" => limit is 0 (money or decimal depending on the metric context).
+    Prefer to represent this as a literal 0 (not a free variable like positive_amount).
+
+ARG DECLARATIONS (IMPORTANT)
+- Every variable name you use in any {"var": "..."} node MUST appear in limit_expr.args.
+- If the limit expression is just a single external input variable, args must still declare it.
+
+=====================
+INPUT
+=====================
+
+Item ID:
+{item_id}
+
+Excerpt (anchors + covenant language):
+{excerpt}
+
+Prior extraction rows (JSON list):
+{rows_json}
+
+Output JSON only. No prose.

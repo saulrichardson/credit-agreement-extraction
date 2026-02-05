@@ -1,6 +1,7 @@
 {
   "name": "test-sample-2-agreements",
-  "description": "Curated sample of 18 credit agreements used for regression/testing.",
+  "description": "Curated sample of 18 credit agreements (18 item_ids / documents) across 17 SEC filings (accessions), used for regression/testing.",
+  "notes": "The accession count differs from the item_id count because accession 0000950117-96-000184 contains two EX-10 exhibits: 0000950117-96-000184_4 (sequence 4) and 0000950117-96-000184_5 (sequence 5).",
   "item_ids": [
     "0000041850-96-000001_5",
     "0000355948-96-000003_2",

@@ -1,0 +1,86 @@
+You are extracting agreement metadata from a credit agreement snippet pack.
+
+Return JSON only. Do not add commentary.
+
+INPUT FORMAT
+- You will receive multiple snippet blocks.
+- Each block begins with an anchor header like:
+    [[A0123]]
+    label: metadata
+  followed by text from the agreement.
+
+EVIDENCE RULES (HARD)
+1) Use ONLY the provided snippets. Do not guess.
+2) Every object you output MUST include `source_refs` as a non-empty list of plain anchor IDs like "A0123".
+3) If a field is not explicitly supported by the provided snippets, set it to null/[] and explain briefly in `notes`.
+
+TASK
+Extract only these concepts:
+
+PARTIES + ROLES
+- borrower(s)
+- guarantor(s)
+- agents (Administrative Agent, Collateral Agent, Syndication Agent, Documentation Agent, etc.)
+- arranger/bookrunner (if present)
+- lenders list if explicitly enumerated in the provided snippets (names appear in the text/table).
+- If the lender list is explicitly enumerated but too long to list, set `lenders_present_but_omitted=true` and cite the anchor(s) that contain the lender list (grid/table OR signature pages that enumerate lenders “as a Lender”).
+  - IMPORTANT: a *reference* to a schedule is NOT an enumerated list. Example of NOT enough evidence: “Schedule 1.1 Commitments and Addresses of the Lenders” (no names shown).
+  - `lenders_present_but_omitted=true` is ONLY allowed when the snippet text actually contains lender names (multiple lender entities). Commitments/addresses are optional; signature-page lender lists are valid evidence.
+  - If the enumerated lender list is <= 40 unique lenders in the snippets, list them explicitly in `lenders[]` instead of omitting.
+
+FACILITY HEADLINE TERMS (only when explicitly stated)
+- committed amount(s) (number + currency)
+- currency (3-letter code ONLY if explicitly stated; do NOT infer USD from "$")
+- maturity date and/or termination date (YYYY-MM-DD if stated, else null)
+- facility types present (revolver, term loan, letters of credit, swingline, delayed draw) based on explicit labels
+
+OUTPUT JSON (EXACT SHAPE)
+{
+  "schema_version": "agreement_metadata_v1",
+  "borrowers": [
+    { "name": "string", "source_refs": ["A0123"], "notes": "string|null" }
+  ],
+  "guarantors": [
+    { "name": "string", "source_refs": ["A0123"], "notes": "string|null" }
+  ],
+  "agents": [
+    { "role_label": "string", "party_name": "string", "source_refs": ["A0123"], "notes": "string|null" }
+  ],
+  "arrangers": [
+    { "role_label": "string", "party_name": "string", "source_refs": ["A0123"], "notes": "string|null" }
+  ],
+  "lenders": [
+    { "name": "string", "source_refs": ["A0123"], "notes": "string|null" }
+  ],
+  "lenders_present_but_omitted": false,
+  "lenders_source_refs": ["A0123"],
+  "facilities": [
+    {
+      "facility_name": "string|null",
+      "facility_types": ["revolver", "letters_of_credit"],
+      "committed_amount": { "amount": 50000000, "currency": "USD" } | null,
+      "currency": "USD" | null,
+      "maturity_date": "1999-12-31" | null,
+      "termination_date": "1999-12-31" | null,
+      "source_refs": ["A0123"],
+      "notes": "string|null"
+    }
+  ],
+  "notes": "string|null"
+}
+
+IMPORTANT TYPE RULES
+- amount MUST be a JSON number (no quotes, no commas).
+- Dates MUST be YYYY-MM-DD when present.
+- Anchor refs MUST be plain anchor IDs like "A0123" (no brackets, no labels).
+- facility_types MUST be an array of strings. Do NOT include pipe characters like "revolver|letters_of_credit".
+- Do NOT output placeholder objects with null required fields:
+  - If you cannot identify a borrower/guarantor name, leave borrowers/guarantors as [] and explain in top-level notes.
+  - If you cannot identify an agent/arranger role AND party_name, leave agents/arrangers as [] (do not emit null role objects).
+  - If lender list is not present in snippets, leave lenders as [] and lenders_present_but_omitted=false.
+- lenders_source_refs MUST be [] unless:
+  - you output at least one lender in lenders[], OR
+  - lenders_present_but_omitted=true (and you cite the lender table/schedule anchors).
+
+INPUT
+(The snippet pack follows.)

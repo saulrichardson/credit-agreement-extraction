@@ -1,0 +1,45 @@
+You are extracting GLOBAL pricing adjustments from a credit agreement into a strict JSON schema.
+
+Inputs
+1) ADJUSTMENT_ANCHORS_JSON
+   - A list of anchors (anchor_id + verbatim text) that a full-document scan flagged as pricing adjustments with explicit numeric deltas.
+2) RATE_OPTIONS_JSON
+   - The already-extracted rate options (IDs + labels) that exist in the pricing model.
+
+Goal
+- Produce PricingAdjustment objects that faithfully encode the numeric deltas and conditions in ADJUSTMENT_ANCHORS_JSON.
+- Maximal fidelity, zero invention.
+
+Hard rules
+- Output JSON only. No prose. No markdown.
+- Output MUST be a JSON array (possibly empty) of PricingAdjustment objects with EXACTLY these keys:
+  adjustment_id, label, delta_bps, applies_to_rate_option_ids, applies_when, floor_bps, cap_bps, source_refs
+- Do NOT invent numbers. If a numeric delta is not explicit in the anchor text, DO NOT output an adjustment for that anchor.
+- Every adjustment MUST cite its anchor_id:
+  - adjustment.source_refs MUST include that anchor_id
+  - adjustment.applies_when.source_refs MUST include that anchor_id
+- applies_to_rate_option_ids:
+  - Prefer including ONLY relevant rate_option_id values from RATE_OPTIONS_JSON.
+  - If the text applies broadly to "Loans" or "any amount due", it is acceptable to use an empty list (meaning "applies generally").
+  - Never invent a rate_option_id that is not present in RATE_OPTIONS_JSON.
+- Use basis points (bps) consistently:
+  - "200 basis points" -> delta_bps = 200
+  - "0.25%" -> delta_bps = 25
+
+PricingAdjustment schema (JSON object)
+{
+  "adjustment_id": "no_spaces_id",
+  "label": "short label",
+  "delta_bps": 200,
+  "applies_to_rate_option_ids": ["no_spaces_id"],
+  "applies_when": { "text": "near-verbatim condition text", "source_refs": ["A0001"] },
+  "floor_bps": null,
+  "cap_bps": null,
+  "source_refs": ["A0001"]
+}
+
+ADJUSTMENT_ANCHORS_JSON:
+{adjustment_anchors_json}
+
+RATE_OPTIONS_JSON:
+{rate_options_json}

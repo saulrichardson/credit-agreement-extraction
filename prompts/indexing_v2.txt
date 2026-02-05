@@ -1,0 +1,156 @@
+You are reading an entire SEC exhibit.
+
+The document is presented as **anchored blocks**. Each block begins with an anchor marker on its own line:
+
+`[[A0001]]`
+
+The block text follows on subsequent lines until the next `[[A####]]` marker.
+
+When you answer, use the **exact** anchor IDs (e.g., `"A0001"`) from the markers and **do not invent or transform them**.
+
+## Task
+
+Classify anchors into the buckets below. **Only include an anchor if the anchored text itself** contains relevant information (numbers, defined terms, mechanics, tables, formulas, or explicit cross-references).
+It is OK for the same anchor to appear in multiple buckets.
+
+### (0) `definitions_anchor_range` — dedicated glossary/definitions section span (optional)
+
+If (and only if) the agreement contains a dedicated definitions/glossary section where terms are defined (commonly headed by text like "DEFINITIONS", "Defined Terms", or "SECTION 1. DEFINITIONS"), provide a contiguous anchor range that covers that definitions section.
+
+Output shape:
+
+* If applicable: `"definitions_anchor_range": {"start_anchor": "A....", "end_anchor": "A...."}`
+* If not applicable: `"definitions_anchor_range": null`
+
+Selection rule:
+* `start_anchor` should be the first anchor whose text clearly begins the definitions section.
+* `end_anchor` should be the last anchor that is still within that definitions section (i.e., the last anchor before the next major section heading begins).
+
+### (1) `metadata_anchors` — document + parties + roles + execution details
+
+Include anchors that capture **who/what this document is** and **who the parties are**, including:
+
+* Document identity: exhibit number, agreement title/caption, “dated as of” / “among” lines, brief transaction description.
+* Parties and roles: Borrower, Parent/Holdings, Guarantor(s), Lender(s), Administrative Agent, Collateral Agent, Arranger(s), Issuing Bank(s), Swingline Lender, etc.
+* Party lists/schedules/annexes that enumerate parties or roles (lender grids, commitment schedules, borrower/guarantor/subsidiary schedules).
+* Signature blocks and execution metadata: signature pages, signatory names/titles, addresses/notice details when part of party/signature sections.
+
+### (1b) `agreement_date_anchors` — agreement-level key dates (targeted)
+
+Include anchors that explicitly **state or define** agreement-level key dates, such as:
+
+* Preamble date statements like “dated as of …” (including amendments/restatements).
+* Definitions like “Closing Date means …”, “Effective Date means …”, “Restatement Effective Date means …”, “Amendment Effective Date means …”.
+* Any anchor that contains the actual calendar date for such a term, if explicitly stated.
+
+Rules:
+* Keep this bucket **small and targeted**. Include ONLY anchors that contain the date expression itself or its definition.
+* If the date is described **relatively/conditionally** (“the date of the initial borrowing”, “the date on which conditions are satisfied”), still include that anchor.
+* Duplicates across buckets are allowed (e.g., a “dated as of” preamble line can be both `metadata_anchors` and `agreement_date_anchors`).
+
+### (2) `fundamental_anchors` — core facility structure (non-pricing)
+
+Include anchors describing the **basic structure and lifecycle** of the facility, such as:
+
+* Facility type(s): term loan, revolver, delayed draw, incremental/accordion, letters of credit, swingline.
+* Key facility dates: availability period, maturity date, commitment termination date, amortization schedule dates (structure-level).
+* Definitions of key facility date terms when present (even inside a definitions section): anchors that contain language like “Maturity Date means …”, “Termination Date means …”, “Revolving Credit Commitment Termination Date means …”, “Final Maturity Date means …”, or similar.
+* Commitments/amounts/currency and high-level borrowing limits.
+* Borrowing/repayment mechanics at a structural level (how borrowings occur; repayments/amortization concepts).
+* Structural conditions that define how the facility works (not general legal boilerplate).
+
+Selection note:
+* If you identify a dedicated definitions/glossary section and provide `definitions_anchor_range`, do NOT rely on that range alone for key facility dates. Still include the specific anchors defining these key date terms in `fundamental_anchors` (so downstream fundamentals extraction can work without ingesting the entire definitions span).
+
+### (2b) `key_date_definitions_anchors` — explicit definitions of key facility date terms (targeted)
+
+Include anchors that **explicitly define** key facility date terms, usually in Article I / Definitions, such as:
+- “Maturity Date means …”
+- “Termination Date means …”
+- “Commitment Termination Date means …”
+- “Revolving Credit Commitment Termination Date means …”
+- “L/C Commitment Expiration Date means …”
+- “Final Maturity Date means …”
+
+Rules:
+- Include ONLY anchors that contain the definition (not every mention of the term).
+- Do NOT include unrelated definitions (accounts, taxes, parties, generic terms, etc.). This bucket is ONLY for date-term definitions.
+- Prefer this targeted list over relying on the entire `definitions_anchor_range`.
+
+### (3) `pricing_anchors` — all borrower economics **including any needed definitions/mechanics**
+
+Include anchors that define or directly affect **anything the borrower pays**, **and** the definitions/mechanics required to compute those payments. This includes:
+
+**A. Direct pricing terms**
+
+* Interest rate economics: benchmark + spread formulas, margins, **floors**, caps, **default rate** adders, step-ups/step-downs, alternate base rate formulations.
+* Fees & OID: upfront/arrangement/admin/agency fees (if borrower-paid), unused/commitment/ticking/utilization/LC/fronting fees, OID/discount, amendment/waiver fees (if economic).
+* Performance pricing: pricing grids/tables tied to leverage/ratings/utilization/ESG or other performance metrics; tier thresholds; how tiers apply.
+* Prepayment economics: make-whole, call protection, prepayment premiums, repricing protection, early termination fees.
+* Yield protection / pass-throughs: breakage/funding losses, increased costs, taxes/gross-up/withholding reimbursement—anything that increases borrower cost.
+
+**B. Pricing definitions + pricing mechanics (must be included here when relevant)**
+Include anchors that define or operationalize rate/fee computation, even if they don’t contain the final numeric spread, including:
+
+* Benchmark/base rate plumbing: SOFR/Term SOFR/Daily Simple SOFR, “Adjusted” rates, observation/lockout/lookback, compounding conventions, fallback/replacement, credit spread adjustment concepts; Base Rate/Prime/Fed Funds “highest of” mechanics.
+* Interest mechanics: Interest Period, resets, rate election/conversion mechanics, day count, rounding, business day conventions, accrual timing, interest/fee payment dates (when tied to computation).
+* Definitions of pricing inputs: “Applicable Margin/Applicable Rate/Pricing Level,” utilization, commitments/outstandings/unused commitment, average daily usage, etc.
+* Pricing grid update mechanics: when pricing level changes, what financials are used, what happens if statements are late/missing, retroactive vs prospective application.
+
+**Tables rule:** if an anchor is part of a pricing grid/table/schedule, include anchors covering the **entire table** (header, rows, footnotes).
+
+### (4) `financial_covenant_anchors` — numeric tests/limits **including any needed definitions/mechanics**
+
+Include anchors that contain **explicit numeric/ratiometric requirements** **and** the definitions/mechanics required to compute them, including:
+
+* Maintenance covenants (max/min leverage, coverage, liquidity, minimum cash, etc.).
+* Step-down/step-up covenant schedules and testing frequency/timing.
+* Ratio-conditioned permissions/limits (incurrence-style tests) where a ratio/threshold is explicitly required.
+* Cure mechanics (e.g., equity cure) **if they change compliance math**.
+
+**Covenant definitions + covenant mechanics (must be included here when relevant)**
+Include anchors that define or operationalize covenant calculations, including:
+
+* Definitions and calculation mechanics for metrics used in covenants: EBITDA (and add-backs), net debt, leverage ratios, coverage ratios, excess cash flow, pro forma adjustments, measurement periods, consolidated definitions.
+* Any “how to test” language: test dates, periods, delivery requirements that determine which numbers apply.
+
+## Cross-reference rule (important for completeness)
+
+If an anchor contains an **explicit cross-reference** to pricing or covenant definitions/mechanics (e.g., “as defined in Section…”, “see definition of…”), include that anchor in the relevant bucket **even if** it mainly points elsewhere.
+
+## General rules
+
+* **Anchor-level evidence only:** include an anchor only when the relevant signal is present in that anchored text (including tables or explicit cross-references).
+* **Definitions belong inside the relevant bucket(s):**
+
+  * If a definition/mechanic supports pricing → include it in `pricing_anchors`.
+  * If it supports covenants → include it in `financial_covenant_anchors`.
+  * If it supports both (e.g., EBITDA used for pricing tiers and covenants) → include the anchor in **both** buckets.
+* Be exhaustive within scope: capture base rate/benchmark mechanics through performance pricing, fees, protections, covenant tests, and compute-critical definitions/mechanics.
+* Duplicates across buckets are allowed and encouraged when truly cross-cutting.
+
+## Output format
+
+Return **JSON only** in this format:
+- Include ALL keys exactly as shown (do not omit keys).
+- If a bucket has no anchors, return an empty array for that bucket.
+- If there is no dedicated definitions section, return `"definitions_anchor_range": null`.
+
+```json
+{
+  "definitions_anchor_range": {"start_anchor": "A0001", "end_anchor": "A0123"} | null,
+  "metadata_anchors": ["A0001", "A0002"],
+  "agreement_date_anchors": ["A0003"],
+  "fundamental_anchors": ["A0010", "A0011"],
+  "key_date_definitions_anchors": ["A0020", "A0021"],
+  "pricing_anchors": ["A0100", "A0101"],
+  "base_rate_anchors": ["A0102"],
+  "spread_anchors": ["A0103"],
+  "fee_anchors": ["A0104"],
+  "financial_covenant_anchors": ["A0200", "A0201"]
+}
+```
+
+The document now follows below.
+
+{document}

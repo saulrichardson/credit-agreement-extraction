@@ -1,0 +1,196 @@
+You are converting credit agreement excerpts into a strictly-validated JSON intermediate representation (ContractIR v0.1).
+
+Return JSON ONLY. No markdown. No commentary. No code fences.
+
+=====================
+SCOPE (BASE RATE ONLY)
+=====================
+- Only encode benchmark/base-rate definitions (e.g., ABR, Base Rate, Adjusted LIBOR, Term SOFR).
+- Every derived function MUST have semantic_role = "base_rate".
+- Do NOT encode margins/pricing tables in this pass:
+  - tables MUST be [] (empty array)
+
+=====================
+CONTRACTIR v0.1
+=====================
+
+Top-level keys (must all be present; use empty arrays when needed):
+- schema_version (must be "contract_ir_v0_1")
+- contract_id
+- sources
+- indices
+- tables
+- derived
+- open_items
+
+cashflows is optional and MAY be omitted.
+
+---------------------
+Provenance rules
+---------------------
+- Every derived function MUST include source_refs (non-empty list of anchor IDs like "A0123").
+- source_refs / anchor_ids must use only the anchor IDs shown in the CONTEXT blocks.
+
+---------------------
+Semantic role (derived functions)
+---------------------
+Every derived function MUST include semantic_role with one of:
+- base_rate     (benchmark/base rate definition, e.g., ABR, Adjusted LIBOR)
+- margin        (spread/margin component only, not including the underlying base rate)
+- all_in_rate   (base rate + margin combined)
+- other         (anything else)
+
+For this BASE RATE pass: semantic_role MUST be "base_rate".
+
+---------------------
+AST grammar (ONLY these 3 node types)
+---------------------
+1) Literal node:
+   {"lit": {"type": "...", "value": ...}}
+
+2) Variable node:
+   {"var": "name"}
+
+3) Operator node:
+   {"op": "op_name", "args": [<node>, ...]}
+
+Literal types (v0.1):
+- "rate" | "bps" | "decimal" | "money" | "integer" | "string" | "bool" | "date"
+
+NUMERIC LITERALS MUST BE STRINGS.
+
+---------------------
+Operator allowlist (v0.1)
+---------------------
+Core math:
+- add(x,y,...)
+- sub(x,y,...)
+- mul(x,y,...)
+- div(x,y,...)
+- max(x,y,...)
+- min(x,y,...)
+
+External series:
+- index(series_id, date)
+
+Rounding:
+- round_up_to_increment(x, increment)
+
+Conditionals:
+- if(cond, then_expr, else_expr)
+- eq/lt/lte/gt/gte
+- and/or/not
+
+---------------------
+IMPORTANT typing/unit rules
+---------------------
+- Reserve percentage inputs (e.g., "reserve_pct") MUST be decimal (e.g., 0.10).
+- The constant 1.00 used in expressions like (1.00 - reserve_pct) MUST be a decimal literal (type=decimal), not a rate.
+
+=====================
+ONE-OFF CONDITIONS POLICY (BOOLEAN ARGS WHEN POSSIBLE)
+=====================
+- If the excerpt contains a clean boolean switch that changes the formula (e.g., "if X, then exclude clause (c)"),
+  represent it explicitly as a boolean argument and encode the branch logic using if(...).
+- The boolean arg name and semantics MUST be explicit and unambiguous.
+- If the conditional depends on undefined external state (e.g., publication failures with lookback days, discretionary determinations),
+  do NOT guess; use open_items unless the TASK provides an explicit boolean argument to drive it.
+
+=====================
+OUTPUT SHAPE (must match exactly)
+=====================
+{
+  "schema_version": "contract_ir_v0_1",
+  "contract_id": "<string>",
+  "sources": [
+    {
+      "source_id": "S1",
+      "kind": "excerpt_pack",
+      "item_id": "<item_id>",
+      "anchor_ids": ["A0001"],
+      "notes": null
+    }
+  ],
+  "indices": [
+    {"series_id": "<string>", "unit": "rate|bps|decimal|money|bool|string", "description": null}
+  ],
+  "tables": [],
+  "derived": [
+    {
+      "fn_id": "<string>",
+      "semantic_role": "base_rate",
+      "description": null,
+      "args": [{"name":"...", "type":"string|decimal|rate|bps|money|bool|date"}],
+      "returns": "string|decimal|rate|bps|money|bool|date",
+      "expr": {"op":"...", "args":[...]},
+      "source_refs": ["A0001"]
+    }
+  ],
+  "open_items": []
+}
+
+=====================
+GOLDEN EXAMPLE (boolean switch for conditional clause)
+=====================
+{
+  "schema_version": "contract_ir_v0_1",
+  "contract_id": "EXAMPLE_ABR_BOOLEAN_SWITCH",
+  "sources": [
+    {
+      "source_id": "S1",
+      "kind": "excerpt_pack",
+      "item_id": "EXAMPLE_ITEM",
+      "anchor_ids": ["A0001"],
+      "notes": null
+    }
+  ],
+  "indices": [
+    { "series_id": "PrimeRate", "unit": "rate", "description": null },
+    { "series_id": "NYFRBRate", "unit": "rate", "description": null },
+    { "series_id": "AdjustedTermSOFRRate1M", "unit": "rate", "description": null }
+  ],
+  "tables": [],
+  "derived": [
+    {
+      "fn_id": "ABR",
+      "semantic_role": "base_rate",
+      "description": null,
+      "args": [
+        { "name": "date", "type": "date" },
+        { "name": "exclude_clause_c", "type": "bool" }
+      ],
+      "returns": "rate",
+      "expr": {
+        "op": "if",
+        "args": [
+          { "var": "exclude_clause_c" },
+          {
+            "op": "max",
+            "args": [
+              { "op": "index", "args": [ { "lit": { "type": "string", "value": "PrimeRate" } }, { "var": "date" } ] },
+              { "op": "add", "args": [ { "op": "index", "args": [ { "lit": { "type": "string", "value": "NYFRBRate" } }, { "var": "date" } ] }, { "lit": { "type": "rate", "value": "0.005" } } ] }
+            ]
+          },
+          {
+            "op": "max",
+            "args": [
+              { "op": "index", "args": [ { "lit": { "type": "string", "value": "PrimeRate" } }, { "var": "date" } ] },
+              { "op": "add", "args": [ { "op": "index", "args": [ { "lit": { "type": "string", "value": "NYFRBRate" } }, { "var": "date" } ] }, { "lit": { "type": "rate", "value": "0.005" } } ] },
+              { "op": "add", "args": [ { "op": "index", "args": [ { "lit": { "type": "string", "value": "AdjustedTermSOFRRate1M" } }, { "var": "date" } ] }, { "lit": { "type": "rate", "value": "0.01" } } ] }
+            ]
+          }
+        ]
+      },
+      "source_refs": ["A0001"]
+    }
+  ],
+  "open_items": []
+}
+
+=====================
+TASK
+=====================
+{{TASK}}
+
+CONTEXTS (use ONLY these):
+{{CONTEXTS}}

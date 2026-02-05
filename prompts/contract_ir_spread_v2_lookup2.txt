@@ -1,0 +1,158 @@
+You are converting credit agreement excerpts into a strictly-validated JSON intermediate representation (ContractIR v0.2).
+
+Return JSON ONLY. No markdown. No commentary. No code fences.
+
+=====================
+SCOPE (SPREAD / GRID NORMALIZATION)
+=====================
+- Only encode pricing spreads / margins / pricing grids (NOT fees, and NOT underlying benchmark/base rate definitions).
+- Every derived function MUST have semantic_role = "spread".
+- This prompt supports normalizing 2D tables into a long table and using lookup2.
+
+=====================
+CONTRACTIR v0.2
+=====================
+
+Top-level keys (must all be present; use empty arrays when needed):
+- schema_version (must be "contract_ir_v0_2")
+- contract_id  (MUST equal the item_id from TASK)
+- sources
+- indices
+- tables
+- derived
+- open_items
+
+cashflows is optional and MAY be omitted.
+
+---------------------
+Provenance rules
+---------------------
+- Every derived function MUST include source_refs (non-empty list of anchor IDs like "A0123").
+- Every table row MUST include source_refs (non-empty list of anchor IDs).
+- source_refs / anchor_ids must use only the anchor IDs shown in the CONTEXT blocks.
+
+---------------------
+Semantic role (derived functions)
+---------------------
+Every derived function MUST include semantic_role with one of:
+- base_rate
+- spread
+- fee_rate
+- all_in_rate
+- other
+
+For this SPREAD pass: semantic_role MUST be "spread".
+
+---------------------
+AST grammar (ONLY these 3 node types)
+---------------------
+1) Literal node:
+   {"lit": {"type": "...", "value": ...}}
+
+2) Variable node:
+   {"var": "name"}
+
+3) Operator node:
+   {"op": "op_name", "args": [<node>, ...]}
+
+Literal types (v0.2):
+- "rate" | "bps" | "decimal" | "money" | "integer" | "string" | "bool" | "date"
+
+NUMERIC LITERALS MUST BE STRINGS.
+
+---------------------
+Operator allowlist (v0.2)
+---------------------
+Conversions:
+- bps_to_rate(bps)
+
+Tables:
+- lookup(table_id, key_column, key_value, value_column)
+- lookup2(table_id, key1_column, key1_value, key2_column, key2_value, value_column)
+  - exact match on BOTH keys (string equality)
+  - table_id/key*_column/value_column are string literals
+
+Table argument encoding (IMPORTANT):
+- table_id, key_column(s), and value_column MUST be AST string literal nodes:
+  - {"lit":{"type":"string","value":"..."}}
+- key_value args are usually variable nodes, e.g. {"var":"status_code"}.
+
+Conditionals (only if needed):
+- if(cond, then_expr, else_expr)
+- eq/lt/lte/gt/gte
+- and/or/not
+
+=====================
+GRID NORMALIZATION POLICY
+=====================
+- If the TASK asks you to normalize a grid/table into a long table:
+  - create one row per combination of the two axes
+  - include stable codes for both axes (as specified in the TASK)
+  - do not guess codes; use exactly what the TASK specifies
+
+=====================
+MISSING DATA POLICY (NO GUESSING)
+=====================
+- If the TASK requires rows/cells that are NOT explicitly present in the provided CONTEXT, DO NOT GUESS values.
+- Instead: emit a blocking open_item describing what is missing and set:
+  - tables = [] (empty)
+  - derived = [] (empty)
+
+---------------------
+OPEN_ITEMS schema reminder (v0.2)
+---------------------
+Each open_items entry MUST be an object with:
+- issue (string)
+- source_refs (array of anchor ids; non-empty)
+- suggested_parameters (array of strings; required; can be empty)
+- blocking (boolean)
+
+=====================
+OUTPUT SHAPE (must match exactly)
+=====================
+{
+  "schema_version": "contract_ir_v0_2",
+  "contract_id": "<string>",
+  "sources": [
+    {
+      "source_id": "S1",
+      "kind": "excerpt_pack",
+      "item_id": "<item_id>",
+      "anchor_ids": ["A0001"],
+      "notes": null
+    }
+  ],
+  "indices": [],
+  "tables": [
+    {
+      "table_id": "<string>",
+      "description": null,
+      "columns": [{"name":"...", "type":"string|decimal|rate|bps|money|bool|date"}],
+      "rows": [
+        {"row_id": null, "cells": {"col": {"lit": {"type": "...", "value": "..."}}}, "source_refs": ["A0001"]}
+      ]
+    }
+  ],
+  "derived": [
+    {
+      "fn_id": "<string>",
+      "semantic_role": "spread",
+      "description": null,
+      "args": [{"name":"...", "type":"string|decimal|rate|bps|money|bool|date"}],
+      "returns": "string|decimal|rate|bps|money|bool|date",
+      "expr": {"op":"...", "args":[...]},
+      "source_refs": ["A0001"]
+    }
+  ],
+  "open_items": []
+}
+
+=====================
+TASK
+=====================
+{{TASK}}
+
+=====================
+CONTEXT
+=====================
+{{CONTEXTS}}

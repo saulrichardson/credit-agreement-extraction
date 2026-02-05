@@ -1,0 +1,444 @@
+You are converting credit agreement excerpts into a strictly-validated JSON intermediate representation (CovenantIR v0.1).
+
+Return JSON ONLY. No markdown. No commentary. No code fences.
+
+=====================
+SCOPE (FINANCIAL COVENANTS ONLY)
+=====================
+- Extract ONLY financial covenants (maintenance / incurrence / springing financial tests).
+- Exclude non-financial operational covenants unless they contain a numeric financial test.
+- Do NOT extract pricing (base rate, margin, fees). This is covenants only.
+- IMPORTANT: Exclude "negative covenant" restrictions/baskets even if they contain numbers or formulas.
+  Common false positives to EXCLUDE:
+  - limitations on Indebtedness / Liens / Restricted Payments / Investments / Asset Sales / Fundamental Changes
+  - limitations on Guaranties, affiliate transactions, ERISA obligations, reporting / information delivery
+  - dividends / distributions caps (even if computed from cash flow / earnings / FFO)
+  - one-off consent thresholds (e.g., "may not do X in excess of $100,000 without consent")
+  Those are NOT financial covenants for this task unless the clause is clearly a financial condition test (leverage/coverage/net worth/EBITDA/capex/etc.).
+
+=====================
+MODE (PRECISION FIRST)
+=====================
+This run is precision-first:
+- Either encode ALL financial covenants in the CONTEXT as computable compliance tests, OR
+- If ANY financial covenant cannot be encoded from the CONTEXT, FAIL THE WHOLE ITEM:
+  - emit one or more blocking open_items describing what is missing
+  - return covenants = []
+  - return tables = []
+  - return derived = []
+
+In this mode:
+- Ignore non-financial covenants in the CONTEXT (e.g., ERISA / reporting / affiliate transactions / negative covenants).
+  Do NOT create open_items about non-financial covenants; they are out of scope and must not cause blocking.
+- Do NOT emit non-blocking open_items.
+- If open_items is non-empty, every open_item MUST have blocking = true.
+
+=====================
+COVENANTIR v0.1
+=====================
+
+Top-level keys:
+- schema_version (must be "covenant_ir_v0_1")
+- contract_id  (MUST equal the item_id from TASK)
+- sources
+- indices (use [] unless the excerpt explicitly requires time series / indices)
+- tables
+- derived (use [] unless you need to reuse expressions across multiple covenants)
+- open_items (use [] unless something is missing/ambiguous)
+- covenants
+
+---------------------
+Provenance rules
+---------------------
+- Every covenant MUST include source_refs (non-empty list of anchor IDs like "A0123").
+- Every covenant object MUST include all required keys: covenant_id, title, test, source_refs.
+- Every table row MUST include source_refs (non-empty list of anchor IDs).
+- Every inline expression MUST include source_refs (non-empty list of anchor IDs).
+- Use ONLY anchor IDs shown in the CONTEXT blocks.
+
+Identification / traceability (IMPORTANT):
+- If the covenant is labeled in the excerpt (e.g., “6.14 NET INCOME.”, “7.4. … RATIO.”, “f. Tangible Net Worth.”):
+  - Include the label in covenant_id (e.g., "6_14_net_income") and in the title (e.g., "6.14 Net Income").
+  - This reduces silent omissions and makes audits/evaluation easier.
+
+---------------------
+Covenant policy (computable tests)
+---------------------
+Each covenant is a compliance test. Encode each covenant as:
+- applies_when (optional): a boolean expression describing when the covenant applies (springing triggers, etc.)
+- test (required): a boolean expression describing whether the covenant is satisfied when applicable
+
+Incurrence-style financial tests (IMPORTANT):
+- Some agreements express financial tests as CONDITIONS to taking an action (not a "must maintain at all times" covenant).
+  Example phrases:
+  - "may incur additional Indebtedness only if ..."
+  - "as a condition precedent to ... the Borrower shall have ..."
+- For these, you MUST encode the action as a boolean trigger input and put it in applies_when.
+  - Example trigger input: incurring_additional_indebtedness (bool)
+  - applies_when: {"args":[{"name":"incurring_additional_indebtedness","type":"bool"}],"returns":"bool","expr":{"var":"incurring_additional_indebtedness"},"source_refs":[...]}
+  - test: the financial condition (e.g., leverage_ratio <= 3.00)
+- Do NOT silently convert an incurrence test into an unconditional "at all times" maintenance test.
+
+Completeness rule (IMPORTANT):
+- Do NOT omit a financial covenant that appears in the CONTEXT just because it looks similar to another covenant.
+- If the agreement lists multiple distinct EBITDA covenants (e.g., "Minimum EBITDA" and a separate "Minimum <Subsidiary> EBITDA" such as "Scott Aviation"), they are separate covenants and must each be encoded (or block if truly unencodable).
+
+Non-ratio financial covenants are still IN SCOPE:
+- Not all financial covenants are ratios. Examples that are financial covenants for this task:
+  - Minimum Net Income (often phrased as “not less than a positive amount”)
+  - Maximum Capital Expenditures (CapEx)
+  - Minimum Tangible Net Worth / Net Worth
+  - Working-capital style tests (e.g., turnover tests) when stated as a covenant requirement
+
+---------------------
+A1 reminder (metrics are inputs)
+---------------------
+This run is A1: you are NOT asked to compute covenant-defined metrics from raw financial statement line items.
+- Treat covenant metrics and adjusted metrics as EXTERNALLY-COMPUTED INPUT VARIABLES.
+  Examples: leverage_ratio, tangible_net_worth, total_priority_indebtedness_ratio, unrestricted_cash, matured_priority_indebtedness_within_24_months.
+- IMPORTANT (A1 + strict thresholds):
+  - Do NOT leave thresholds as free input variables named like required_* / minimum_* / maximum_* / limit_*.
+    Those will be treated as placeholders and will FAIL validation in this run.
+  - If the covenant threshold is a DEFINED TERM in the excerpt (e.g., “Required Tangible Net Worth means …”):
+    - Encode the definition as an expression (or a schedule lookup), using upstream-computed component inputs as needed.
+    - Example pattern (shape only; use the excerpt’s numbers/terms):
+      - args: tangible_net_worth (money), tnw_as_of_2020_12_31 (money), cumulative_net_income_after_2020_excluding_losses (money)
+      - required_threshold = add(mul(0.65, tnw_as_of_2020_12_31), mul(0.50, cumulative_net_income_after_2020_excluding_losses))
+      - test: tangible_net_worth >= required_threshold
+- If the covenant references an adjustment (e.g., debt net of cash, debt maturing within 24 months, post-acquisition step-ups):
+  - You MAY represent the adjusted quantity directly as an input variable (do not block).
+  - You MAY represent conditional thresholds using if(...) with a boolean input (e.g., has_major_acquisition).
+  - Prefer introducing a single adjusted input variable over encoding deep nested arithmetic/if trees.
+    (Deep trees are fragile and often not required for A1.)
+  - Example (conditional threshold; do NOT block):
+    - If the covenant says the max leverage ratio is 0.60, but increases to 0.65 for four quarters after a “Major Acquisition”:
+      - Introduce an upstream-computed boolean like has_major_acquisition_recent_4q (bool)
+      - Use threshold = if(has_major_acquisition_recent_4q, 0.65, 0.60)
+      - Or for purely-boolean gating, use: or(not(has_major_acquisition_recent_4q), leverage_ratio <= 0.65) AND leverage_ratio <= 0.60
+- Only BLOCK when the agreement text in CONTEXT is itself missing/ambiguous about the covenant requirement (e.g., threshold values missing, schedule rows truncated beyond recovery).
+
+Comparator direction (CRITICAL):
+- Many covenants are phrased as a PROHIBITION (e.g., "shall not permit X to be greater than ...").
+- Encode the compliance test so it returns true when the borrower is IN COMPLIANCE.
+
+Common mappings:
+- "shall not permit X to be greater than T" / "shall not exceed T"  =>  X <= T  (use op "lte")
+- "shall not permit X to be less than T" / "shall be at least T" / "not less than T"  =>  X >= T  (use op "gte")
+- "must be between A and B" => (X >= A) AND (X <= B) (use op "and" of "gte"/"lte")
+
+Special case (common covenant drafting):
+- If the excerpt says "Borrower shall not permit X to be less than T":
+  - That is a MINIMUM test, so compliance is X >= T (op "gte").
+- If the excerpt says "Borrower shall not permit X to be greater than T":
+  - That is a MAXIMUM test, so compliance is X <= T (op "lte").
+
+Concrete examples:
+- If the excerpt says: "Permit the Leverage Ratio ... to be greater than 5.50 to 1.00" (i.e., borrower shall NOT permit it):
+  - Compliance test is: leverage_ratio <= 5.50  (op "lte")
+- If the excerpt says: "Permit the Interest Coverage Ratio ... to be less than 2.00 to 1.00":
+  - Compliance test is: interest_coverage_ratio >= 2.00  (op "gte")
+- If the excerpt says: "Permit the Debt Service Ratio ... to be less than 1.10 to 1.00":
+  - Compliance test is: debt_service_ratio >= 1.10  (op "gte")
+
+“Positive amount” / sign conventions (IMPORTANT):
+- If the excerpt requires a value to be a “positive amount” / “positive number”:
+  - Treat that as strictly > 0 (use op "gt" against 0).
+  - This is a deterministic comparison and does NOT require guessing a numeric threshold.
+  - Do NOT block claiming “missing numeric threshold” in this case; the threshold is 0.
+- If the excerpt uses “non-negative” / “not less than zero”:
+  - Treat that as >= 0 (use op "gte" against 0).
+
+Time-varying thresholds (IMPORTANT):
+- If a single covenant's threshold changes over time (e.g., "Effective Date through 6/30/99 ...; 7/1/99 ...; thereafter ..."):
+  - Prefer encoding it as ONE covenant with a schedule table + lookup_range(...) inside test.
+  - Do NOT split a single covenant into multiple covenants solely to represent the schedule.
+  - Use applies_when for genuine conditional applicability (springing triggers), not as a substitute for a schedule.
+
+Schedule encoding guidance (to avoid unnecessary open_items):
+- If the schedule says "Effective Date through <date>":
+  - You MAY represent the first row as having no lower bound (omit/null lower + lower_cmp) and an upper bound (upper/upper_cmp).
+- If the schedule says "<date> and thereafter":
+  - You MAY represent the last row as having a lower bound (lower/lower_cmp) and no upper bound (omit/null upper + upper_cmp).
+- For lookup_range schedules, ALWAYS use bound columns named: lower, lower_cmp, upper, upper_cmp (even if some cells are omitted for open-ended bounds).
+- The value column name can vary (e.g., "max_ratio", "min_ratio", "min_ebitda") as long as you use it consistently in the table and lookup_range call.
+- If a date is clearly corrupted by character confusion but unambiguous (e.g., "7/l/99" where "l" is a "1"), you MAY normalize it to the intended ISO date.
+
+Schedules expressed as "period ending <date>":
+- If the schedule is keyed by a period end date (e.g., "Fiscal Quarter ending <date>" or "Four Fiscal Quarter period ending <date>") and the agreement does not specify a start date:
+  - Treat the key as that period end date.
+  - Represent each row as an equality range by setting lower = upper = <date>, with lower_cmp="gte" and upper_cmp="lte".
+  - This ensures lookup_range matches EXACTLY one row for that end date.
+
+Non-date schedules (fiscal years / named periods):
+- Sometimes a covenant schedule is keyed by a fiscal year label (e.g., “1995-1996”, “FY 2024”) or another named period, and the excerpt does NOT state the fiscal year start/end dates.
+  - Do NOT guess fiscal-year boundaries in that case.
+  - In particular: do NOT manufacture ISO dates like "2026-01-01" / "2026-12-31" from a bare year label unless the CONTEXT explicitly states the fiscal year start/end dates.
+  - Instead, encode the schedule using a string key and a simple lookup:
+    - Use lookup(...) with a table keyed by a string column, OR
+    - Use lookup_rule(...) with predicate rows testing the string key.
+  - Introduce an input arg like {"name":"as_of_fiscal_year","type":"string"} that your test uses to select the applicable row.
+  - If a row label includes "and thereafter" (or similar open-ended wording), do NOT treat the literal phrase as an equality key unless the agreement clearly defines that literal label as the key.
+    Prefer a predicate-based representation:
+    - Example: row says "2028 and thereafter"
+      - Use as_of_fiscal_year = "2028", "2029", ... (normalized year string)
+      - Use lookup_rule predicate: gte(as_of_fiscal_year, "2028")
+
+If you cannot encode a covenant as a computable boolean test from the provided CONTEXT:
+- DO NOT GUESS
+- DO NOT emit a covenant record with an invented test
+- Instead, emit a blocking open_item describing what is missing/ambiguous, with evidence anchors.
+
+Comparator ambiguity (IMPORTANT: block instead of guessing):
+- If the covenant states a ratio/metric value but does not specify the direction (>= vs <=), you MUST treat it as ambiguous and BLOCK.
+  Ambiguous examples:
+  - "shall maintain a Current Ratio of 1.20 to 1.00" (no "not less than" / "at least" / "not greater than" / "does not exceed")
+  - "shall maintain a Leverage Ratio of 3.50 to 1.00" (no direction)
+- Do NOT infer direction from the name alone ("Current Ratio" usually implies minimum, but you MUST NOT guess).
+
+Rolling / multi-period tests (A1 ALLOWED; treat as externally-computed inputs):
+- Some covenants reference rolling windows or cross-period conditions (e.g., "any two consecutive fiscal quarters", "trailing four fiscal quarters", "any fiscal year").
+- You MAY introduce a single scalar input that is assumed to be computed upstream (outside this task), representing the relevant window/aggregation.
+  Examples:
+  - has_net_operating_loss_two_consecutive_fiscal_quarters (bool)  -> compliance: not(var)
+  - net_operating_loss_two_consecutive_fiscal_quarters (money)    -> compliance: lte(var, 0)
+  - ebitda_trailing_four_quarters (money)                         -> used directly in a ratio test
+- Prefer explicit, descriptive variable names that reflect the covenant language.
+- Do NOT block just because the covenant implies a rolling window; block only if the threshold/condition itself is unclear in the CONTEXT.
+
+If the covenant is a complex piecewise test:
+- If the covenant’s compliance condition is clearly stated but would require a long piecewise schedule / window-selection logic to encode cleanly:
+  - You MAY introduce a single upstream-computed boolean input representing compliance with that covenant as written.
+  - Example:
+    - net_income_meets_section_6_14 (bool)
+    - compliance test: {"var":"net_income_meets_section_6_14"}
+  - Use this only when the covenant requirement is clear but the piecewise mechanics are cumbersome to encode in A1.
+
+Carry-forward / “increase permitted amount” covenants (A1 ALLOWED):
+- Some covenants specify a fixed cap but allow carry-forward of unused capacity (common for CAPEX).
+  Example: “CapEx during any fiscal year shall not exceed $7,000,000; unused amount increases next year only.”
+  - You MAY treat the carry-forward amount as an input variable computed upstream:
+    - capex_carryforward_from_prior_year (money)
+  - Then encode the cap as:
+    capex_this_fiscal_year <= 7,000,000 + capex_carryforward_from_prior_year
+
+Duplicate / overlapping excerpts (IMPORTANT):
+- The excerpt pack may contain repeated or partially-truncated copies of the same covenant (overlapping anchors).
+  - Do NOT block just because one copy is truncated if another copy contains the needed information.
+  - Prefer using the most complete wording; you may cite multiple anchors in source_refs.
+  - Only block when (a) all copies are missing key terms, OR (b) different copies conflict on material values and you cannot resolve the conflict from CONTEXT.
+
+---------------------
+Expression encoding
+---------------------
+A covenant's test/applies_when is a "bool_expr_spec" and MUST be one of:
+
+1) Inline expression form (preferred):
+{
+  "args": [{"name":"...", "type":"string|decimal|rate|bps|money|bool|date"}, ...],
+  "returns": "bool",
+  "expr": <AST NODE>,
+  "source_refs": ["A0001"]
+}
+
+2) Derived function reference:
+{ "fn_id": "SomeBoolFn" }
+  - Use only if the SAME expression is reused across multiple covenants.
+
+Arg types (IMPORTANT):
+- args[*].type MUST be one of: string, decimal, rate, bps, money, bool, date
+- Do NOT use "integer" as an arg type (even though integer literals exist). Use "decimal" instead.
+
+IMPORTANT (bool_expr_spec shape):
+- test/applies_when MUST be EITHER:
+  - {"fn_id": "..."} OR
+  - {"args":[...], "returns":"bool", "expr": {...}, "source_refs":[...]}
+- Do NOT wrap inline expressions in extra keys like:
+  - {"inline_expr": {...}}
+  - {"bool_expr_spec": {...}}
+  - {"inline": {...}}
+- The inline expression object IS the bool_expr_spec.
+
+---------------------
+AST grammar (ONLY these 3 node types)
+---------------------
+1) Literal node:
+   {"lit": {"type": "...", "value": ...}}
+
+2) Variable node:
+   {"var": "name"}
+
+3) Operator node:
+   {"op": "op_name", "args": [<node>, ...]}
+
+Do NOT add any extra keys to AST nodes. In particular:
+- Do NOT add "source_refs" inside AST nodes.
+- source_refs belongs only on covenants, inline_expr/derived_fn, and table rows.
+
+Literal types:
+- "rate" | "bps" | "decimal" | "money" | "integer" | "string" | "bool" | "date"
+
+NUMERIC LITERALS MUST BE STRINGS.
+
+---------------------
+Operator allowlist (subset used for covenants)
+---------------------
+Arithmetic:
+- add/sub/mul/div
+
+Comparisons:
+- eq/lt/lte/gt/gte
+
+Boolean:
+- and/or/not
+- if(cond, then_expr, else_expr)
+  - IMPORTANT: if(...) MUST have exactly 3 args.
+  - For “if X then requirement Y” (a conditional requirement), prefer boolean gating:
+    - Encode as: or(not(X), Y)
+    - This avoids fragile if(...) usage and is easier to validate.
+
+Tables:
+- lookup(table_id, key_column, key_value, value_column)
+  - for 1D exact-match tables keyed by a string column (e.g., fiscal year label schedules)
+- lookup2(table_id, key1_column, key1_value, key2_column, key2_value, value_column)
+  - for 2D exact-match tables keyed by two string columns (grid tables)
+- lookup_range(table_id, key_value, lower_bound_col, lower_cmp_col, upper_bound_col, upper_cmp_col, value_col)
+  - for 1D schedules (e.g., threshold changes over time)
+- lookup_rule(table_id, predicate_col, value_col)
+  - for multi-dimensional rules or bespoke row predicates
+
+IMPORTANT (tables + AST):
+- Every argument to every operator MUST be an AST node (lit/var/op). No raw strings.
+- For lookup / lookup2 / lookup_range / lookup_rule, table_id / column identifiers MUST be AST string literals:
+  {"lit":{"type":"string","value":"..."}}
+
+lookup(...) call shape (NOTE: 4 args; key_column and value_column are STRING LITERALS):
+{
+  "op":"lookup",
+  "args":[
+    {"lit":{"type":"string","value":"t_some_table"}},
+    {"lit":{"type":"string","value":"key_col_name"}},
+    {"var":"key_value_var"},
+    {"lit":{"type":"string","value":"value_col_name"}}
+  ]
+}
+
+lookup2(...) call shape (NOTE: 6 args; key*_column and value_column are STRING LITERALS):
+{
+  "op":"lookup2",
+  "args":[
+    {"lit":{"type":"string","value":"t_some_table"}},
+    {"lit":{"type":"string","value":"key1_col"}},
+    {"var":"key1_value"},
+    {"lit":{"type":"string","value":"key2_col"}},
+    {"var":"key2_value"},
+    {"lit":{"type":"string","value":"value_col"}}
+  ]
+}
+
+lookup_range table shape (recommended):
+- Use a table with columns like:
+  - lower (date) + lower_cmp (string: "gt" or "gte")
+  - upper (date) + upper_cmp (string: "lt" or "lte")
+  - value column (decimal/money/etc; name depends on covenant, e.g. "max_ratio" or "min_ratio")
+
+Table encoding (IMPORTANT):
+- tables[].rows[].cells MUST be an OBJECT mapping column_name -> AST node (NOT a list).
+- tables[].columns MUST be an array of {"name": "...", "type": "..."} objects (both fields required).
+- tables[].rows[] objects MUST include row_id (string or null). (The key is required even if the value is null.)
+- For schedule tables, use appropriate types (usually: lower/upper = "date", value = "decimal").
+- Example row cells object:
+  {
+    "lower": {"lit":{"type":"date","value":"1999-07-01"}},
+    "lower_cmp": {"lit":{"type":"string","value":"gte"}},
+    "upper": {"lit":{"type":"date","value":"2000-06-30"}},
+    "upper_cmp": {"lit":{"type":"string","value":"lte"}},
+    "max_ratio": {"lit":{"type":"decimal","value":"5.00"}}
+  }
+
+Example columns for a date-based threshold schedule:
+[
+  {"name":"lower","type":"date"},
+  {"name":"lower_cmp","type":"string"},
+  {"name":"upper","type":"date"},
+  {"name":"upper_cmp","type":"string"},
+  {"name":"max_ratio","type":"decimal"}
+]
+
+Example lookup_range call (NOTE: 7 args, all AST nodes):
+{
+  "op": "lookup_range",
+  "args": [
+    {"lit":{"type":"string","value":"t_leverage_ratio_schedule"}},
+    {"var":"as_of_date"},
+    {"lit":{"type":"string","value":"lower"}},
+    {"lit":{"type":"string","value":"lower_cmp"}},
+    {"lit":{"type":"string","value":"upper"}},
+    {"lit":{"type":"string","value":"upper_cmp"}},
+    {"lit":{"type":"string","value":"max_ratio"}}
+  ]
+}
+
+Example max-threshold covenant using lookup_range:
+  leverage_ratio <= lookup_range(..., "max_ratio")
+
+Inline expression requirements (IMPORTANT):
+- Inline expressions MUST include source_refs.
+- If you omit source_refs on an inline expression, the output WILL NOT validate.
+- Inline expressions MUST include args (the variable names/types referenced by the expr).
+- If you omit args on an inline expression, the output WILL NOT validate.
+
+Rule-table predicate encoding (IMPORTANT):
+- Predicate cells MUST be AST expressions that evaluate to bool (NOT strings).
+- IMPORTANT: the predicate column itself MUST be declared as type "bool" in tables[].columns.
+  - Example: {"name":"predicate","type":"bool"}
+  - Do NOT declare predicate columns as "string" when the cells are boolean expressions.
+- Preserve "AND"/"OR" exactly from the excerpt.
+- IMPORTANT: vars used inside rule-table predicates must be declared as args of the expression that calls lookup_rule.
+  Example: if a predicate cell uses {"var":"as_of_date"}, then the covenant test's args MUST include {"name":"as_of_date","type":"date"}
+  even though the lookup_rule(...) call itself does not mention as_of_date explicitly.
+
+=====================
+MISSING / AMBIGUOUS DATA POLICY
+=====================
+- If the excerpt is incomplete (e.g., table is truncated or definitions are missing), DO NOT guess.
+- Emit one or more blocking open_items describing what additional evidence is required.
+
+Each open_items entry MUST be an object with:
+- issue (string)
+- source_refs (array of anchor ids; non-empty)
+- suggested_parameters (array of strings; required; can be empty)
+- blocking (boolean)
+
+=====================
+OUTPUT SHAPE (must match exactly)
+=====================
+{
+  "schema_version": "covenant_ir_v0_1",
+  "contract_id": "<item_id>",
+  "sources": [
+    {
+      "source_id": "S1",
+      "kind": "excerpt_pack",
+      "item_id": "<item_id>",
+      "anchor_ids": ["A0001"],
+      "notes": null
+    }
+  ],
+  "indices": [],
+  "tables": [],
+  "derived": [],
+  "open_items": [],
+  "covenants": []
+}
+
+For a covenant that is ALWAYS applicable, OMIT applies_when (do not set it to null/"always").
+
+=====================
+TASK
+=====================
+{{TASK}}
+
+=====================
+CONTEXT
+=====================
+{{CONTEXTS}}

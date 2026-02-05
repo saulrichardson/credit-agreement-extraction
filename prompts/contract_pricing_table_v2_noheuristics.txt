@@ -1,0 +1,109 @@
+You are extracting a SINGLE pricing table from a credit agreement into a strict JSON schema.
+
+Input: TABLE_CONTEXT_JSON containing:
+- One table (table_anchor_id, columns, rows, raw markdown)
+- neighbor_anchors around the table (deterministic window)
+- tail_anchors after the table until the next table (deterministic; may include footnotes/adjustments)
+- Optional: table_plan (semantic hints from a separate planning step)
+- Optional: global_adjustment_anchors (anchors elsewhere in the document that the scan identified as REQUIRED pricing adjustments)
+
+Hard rules
+- Output JSON only. No prose. No markdown.
+- Valid JSON only.
+- Do not invent facts.
+- Your output must match EXACTLY the schema below (no extra keys).
+- grid.table_anchor_id MUST equal the table_anchor_id provided in TABLE_CONTEXT_JSON.table.table_anchor_id.
+- If the surrounding anchors (neighbor_anchors or tail_anchors) contain pricing adjustments (e.g., “reduced by 1.00%”, “increased by one basis point”), you MUST encode them as PricingAdjustment entries and cite the correct anchor_id(s) in source_refs.
+- If global_adjustment_anchors is present:
+  - These are additional adjustment anchors found elsewhere in the agreement by a full-document scan.
+  - Only encode an adjustment from global_adjustment_anchors if it CLEARLY applies to this table/rate option.
+  - When you do encode it, cite that anchor_id in adjustment.source_refs and adjustment.applies_when.source_refs.
+- Percent-to-bps conversion:
+  - 1.75% -> 175
+  - 0.125% -> 12.5
+
+Planner hints (authoritative when present)
+- If TABLE_CONTEXT_JSON.table_plan is present:
+  - Use table_plan.tiers_axis to decide which axis is tiers.
+  - Use table_plan.rate_options_axis to decide which axis is rate options.
+  - If table_plan.defined_term is present, it may define the fee/price label even if not present in the table itself.
+  - If the plan seems inconsistent with the table, do NOT invent fields or add fake adjustments. Prefer the interpretation that is best supported by the table + anchors and keep the output strictly grounded.
+
+Special case: "list-style" grids (common in older / non-table agreements)
+- Sometimes the "table" is really prose or fixed-width text like:
+  "<tier condition> <rate>"
+  repeated for multiple tiers, and there is only ONE pricing output label (often a defined term like "Applicable Margin"
+  or "Libor Option Rate").
+- In that case:
+  - Create EXACTLY ONE rate option for that output label (use table_plan.defined_term when present).
+  - Create one tier per row/line (encode the thresholds as tier.tests when possible).
+  - Create one cell per tier for that single rate option.
+  - Do NOT create one "rate option" per row's numeric value (e.g., do not make "1.50%" a rate option label).
+
+Output schema (JSON object)
+{
+  "rate_options": [
+    {
+      "rate_option_id": "no_spaces_id",
+      "label_raw": "VERBATIM LABEL FROM TABLE AXIS USED AS RATE OPTIONS",
+      "kind": "loan|fee",
+      "fee_basis": null,
+      "source_refs": ["A0001"]
+    }
+  ],
+  "grid": {
+    "grid_id": "no_spaces_id",
+    "table_anchor_id": "A0001",
+    "facility_id": null,
+    "tier_metric_label_raw": null,
+    "tiers": [
+      {
+        "tier_id": "no_spaces_id",
+        "label_raw": "VERBATIM tier label from the tier axis",
+        "tests": [
+          { "metric_label_raw": "VERBATIM", "op": \">=\", "value": 2.75, "source_refs": ["A0001"] }
+        ],
+        "source_refs": ["A0001"]
+      }
+    ],
+    "rate_option_ids": ["no_spaces_id"],
+    "cells": [
+      { "tier_id": "no_spaces_id", "rate_option_id": "no_spaces_id", "value_bps": 150, "source_refs": ["A0001"] }
+    ],
+    "source_refs": ["A0001"]
+  },
+  "adjustments": [
+    {
+      "adjustment_id": "no_spaces_id",
+      "label": "short label",
+      "delta_bps": -1,
+      "applies_to_rate_option_ids": ["no_spaces_id"],
+      "applies_when": { "text": "verbatim/near-verbatim condition text", "source_refs": ["A0001"] },
+      "floor_bps": null,
+      "cap_bps": null,
+      "source_refs": ["A0001"]
+    }
+  ],
+  "flat_items": []
+}
+
+Evidence
+- Every rate option MUST cite at least the table_anchor_id in source_refs.
+- Every tier MUST cite at least the table_anchor_id in source_refs.
+- Every cell MUST cite at least the table_anchor_id in source_refs.
+- For any adjustment you encode, cite the footnote/adjustment anchor in source_refs (and in applies_when.source_refs).
+
+ID rules (strict)
+- All *_id fields MUST be lowercase snake_case with no spaces (letters/numbers/underscores only).
+- Do NOT use placeholder values like "no_spaces_id" or any IDs containing the word "verbatim".
+
+Grounding rules (strict)
+- label_raw fields MUST be copied from the table text (or, if needed, from nearby anchor text).
+- Do NOT output template phrases like "VERBATIM LABEL ..." in any field.
+- For rate_option.label_raw specifically:
+  - Prefer a verbatim column/axis label from the table/header.
+  - If no clean header exists, copy a short contiguous verbatim phrase from TABLE_CONTEXT_JSON.table.raw or neighbor_anchors.
+  - Do NOT paraphrase or reorder words; keep the same word order as in the source text.
+
+TABLE_CONTEXT_JSON:
+{table_context_json}

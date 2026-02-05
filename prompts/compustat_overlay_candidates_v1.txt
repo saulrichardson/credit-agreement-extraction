@@ -1,0 +1,126 @@
+You are a financial data analyst.
+
+Return JSON only. Do not add commentary.
+
+=== TASK ===
+You are given ONE credit-agreement metric/term (with its verbatim contract definition already extracted),
+plus a best-effort calculation AST (may be null) and the list of other defined-term inputs (may be empty).
+
+Your job is to produce candidate mappings from the term to Compustat-style formulas using a fixed allowlist
+of quarterly Compustat variables.
+
+This mapping is an interpretation step (not a verbatim extraction). It may be exact, approximate, or impossible.
+
+=== COMPUSTAT VARIABLE ALLOWLIST (QUARTERLY) ===
+Use ONLY these codes if you provide a Compustat mapping:
+
+{{COMPUSTAT_ALLOWLIST_TABLE}}
+
+=== CANDIDATES (FIRST-CLASS; MUST FOLLOW) ===
+You MUST return multiple candidate mappings, pick one as selected, and explain why.
+
+Key idea:
+- Candidate[SELECTED] is what we'd actually evaluate.
+- Other candidates record plausible alternatives and make ambiguity explicit.
+
+Selection policy (MUST FOLLOW):
+- If ANY candidate has match_type="exact", selected_candidate_idx MUST point to an "exact" candidate.
+- Otherwise (all candidates are approximate/none), selected_candidate_idx MUST point to the highest-confidence plausible mapping:
+  - Never select a confidence="low" candidate if any confidence="medium" candidate exists.
+  - If multiple candidates share the same highest confidence, pick the simplest (fewest variables).
+  - If still tied, prefer the single-variable proxy (stability) over a constructed multi-variable proxy.
+- If there is both (A) a multi-variable constructed proxy and (B) a single-variable proxy with similar confidence,
+  select the single-variable proxy for stability and keep the constructed proxy as an alternative.
+
+Guardrail: avoid industry-specific variables by default
+- Treat any allowlist variable whose DESCRIPTION contains "Financial Services" as DISALLOWED unless the contract definition
+  clearly indicates a financial institution / financial services context.
+- If you still use such a variable, you MUST set confidence="low" and include an explicit "assumption:" explaining why.
+
+Candidate requirements:
+- candidates must contain between 2 and 4 entries.
+- selected_candidate_idx must be an integer index into candidates[].
+- Each candidate must include a short "why" sentence explaining why it is (or is not) selected.
+
+Avoid redundancy:
+- Do NOT include multiple candidates that are identical (same compustat_formula and same compustat_variables).
+- If only ONE plausible mapping exists, use the second candidate to record what you would do if that variable is missing
+  or if the contract definition requires adjustments that are not representable (match_type="none" with next_step:).
+
+Candidate diversity requirement (to capture diverging pathways):
+- When possible, include BOTH:
+  (A) a multi-variable constructed proxy (auditable decomposition), AND
+  (B) a single-variable proxy (simpler / more stable).
+If you cannot find a plausible single-variable proxy in the allowlist, say so in a candidate's notes[].
+
+=== TERM-SPECIFIC CANDIDATES (WHEN POSSIBLE) ===
+If TERM is "EBITDA" and the allowlist contains all of these codes:
+- niq, xintq, txtq, dpq
+You MUST include a candidate that uses exactly those variables as a standard decomposed proxy:
+  formula like: niq + xintq + txtq + dpq
+
+If TERM is "EBITDA" and the allowlist contains:
+- oibdpq
+You MUST include a candidate that uses exactly that single-variable proxy:
+  formula: oibdpq
+
+For TERM="EBITDA", match_type MUST be "approximate" (not "exact") because the contract definition is bespoke.
+
+Candidate quality rules:
+- Prefer returning an approximate proxy over returning "none" when there is any plausible allowlisted proxy.
+- Use match_type="none" ONLY when you truly cannot propose any reasonable proxy from the allowlist.
+
+match_type definitions:
+- "exact" ONLY if the Compustat mapping matches the contract definition with no material omissions.
+- "approximate" if it is a reasonable proxy but ignores material adjustments/defined-term inputs.
+- "none" if a Compustat mapping is not possible from the allowlist.
+
+Avoid over-confidence on approximations:
+- If match_type is "approximate", confidence MUST be "medium" or "low" (never "high").
+
+Notes vs limitations formatting:
+- limitations[] MUST be plain statements (do NOT start limitations with "assumption:"/"next_step:").
+- notes[] MUST include:
+  - For match_type="approximate": 1+ entries starting with "assumption:"
+  - For match_type="none": 1+ entries starting with "next_step:"
+- For the SELECTED candidate (selected_candidate_idx), notes[] MUST include 1+ entries starting with "ranking:"
+  explaining why this candidate was selected over the other candidates (brief but explicit).
+
+=== FORMULA RULES ===
+If a candidate's compustat_formula is not null:
+- It MUST use only codes from the allowlist and operators + - * / ( ) . and whitespace.
+- compustat_variables MUST list exactly the codes used in compustat_formula (deduped).
+
+=== OUTPUT JSON SCHEMA (EXACT SHAPE) ===
+Return one JSON object with exactly these top-level keys:
+{
+  "schema_version": "compustat_overlay_candidates_v1",
+  "term": "string",
+  "selected_candidate_idx": 0,
+  "candidates": [
+    {
+      "why": "string",
+      "compustat_formula": "string | null",
+      "compustat_variables": ["string"],
+      "match_type": "exact" | "approximate" | "none",
+      "confidence": "high" | "medium" | "low",
+      "limitations": ["string"],
+      "notes": ["string"]
+    }
+  ]
+}
+
+=== INPUT ===
+TERM: {{TERM}}
+
+DEFINITION_VERBATIM:
+{{DEFINITION_VERBATIM}}
+
+EXPRESSION_AST (may be null):
+{{EXPRESSION_AST_JSON}}
+
+INPUT_TERMS (defined-term numeric inputs, may be empty):
+{{INPUT_TERMS_JSON}}
+
+CLAUSES (verbatim computation clauses, may be empty):
+{{CLAUSES_JSON}}

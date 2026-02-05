@@ -1,0 +1,159 @@
+You are reading an entire credit agreement exhibit (often from EDGAR).
+
+The document is presented as **anchored blocks**. Each block begins with an anchor marker on its own line:
+
+`[[A0001]]`
+
+The block text follows on subsequent lines until the next `[[A####]]` marker.
+
+When you answer, use the **exact** anchor IDs (e.g., `"A0001"`) from the markers and **do not invent or transform them**.
+
+## Task
+
+Select anchor IDs and classify them into the buckets below.
+
+This indexing output will be used to build excerpt packs for downstream structured extraction of:
+- base-rate definitions
+- spread/margin schedules (Applicable Margin / Applicable Rate grids)
+- fee-rate schedules (facility/commitment/LC/utilization fees)
+- financial covenants
+
+### Critical rules (completeness > brevity)
+
+0) **No post-processing / no backfill**
+   - Your selection is the source of truth for downstream extraction.
+   - If you omit the anchor(s) that contain the actual numeric schedules (tables/grids) or compute-critical definitions, downstream will fail or be incomplete.
+   - It is OK to return many anchors. Prefer completeness over minimality.
+
+1) **Do not pick only “mentions”. Pick the actual schedule/definition.**
+   - If a term like “Applicable Margin” / “Facility Fee Rate” / “L/C Fee Rate” is defined in the document, include the anchor(s) that contain that definition.
+   - If the numeric schedule is in a table/grid, you MUST include the table anchor(s) containing the numeric values (%, bps).
+
+2) **Table adjacency rule (important)**
+   - If an anchor introduces a table/grid (often says “set forth below”, “based on the following grid/table”, “as set forth on Schedule …”), include:
+     - the **intro/heading anchor**, AND
+     - the **table anchor(s)** immediately following (or immediately preceding) that contain the numeric schedule, AND
+     - any immediately adjacent anchors that contain footnotes/continuations needed to interpret the table.
+   - Tables/grids may span multiple anchored blocks. If the table continues across multiple `[[A####]]` blocks, include all contiguous blocks needed to capture the full table (headers, rows, footnotes).
+
+3) **Prefer primary definitions over later mechanics**
+   - Pricing schedules are often located in a definitions/glossary section (e.g., definition of “Applicable Margin”).
+   - Do NOT return only later operational clauses that reference the term (e.g., “Applicable Margin shall adjust…” hundreds of anchors later) if the primary definition/table exists elsewhere.
+
+### General selection rule (anchor-level evidence)
+Include an anchor if the anchored text itself contains relevant information, such as:
+- numeric thresholds, percentages, bps, or schedules
+- defined terms + compute mechanics
+- tables/grids (including headers/rows/footnotes)
+- explicit cross-references that point to compute-critical definitions or schedules
+
+It is OK (and expected) for the same anchor to appear in multiple buckets.
+
+### (0) `definitions_anchor_range` — dedicated glossary/definitions section span (optional)
+
+If (and only if) the agreement contains a dedicated definitions/glossary section where terms are defined (commonly headed by text like "DEFINITIONS", "Defined Terms", or "SECTION 1. DEFINITIONS"), provide a contiguous anchor range that covers that definitions section.
+
+This range is used downstream to ensure we can reliably retrieve pricing tables embedded in definitions.
+
+Output shape:
+- If applicable: `"definitions_anchor_range": {"start_anchor": "A....", "end_anchor": "A...."}`
+- If not applicable: `"definitions_anchor_range": null`
+
+Selection rule:
+- `start_anchor` should be the first anchor whose text clearly begins the definitions section.
+- `end_anchor` should be the last anchor that is still within that definitions section (i.e., the last anchor before the next major section heading begins).
+
+### (1) `metadata_anchors` — document + parties + roles + execution details
+
+Include anchors that capture **who/what this document is** and **who the parties are**, including:
+- Agreement title/caption; “dated as of” / “among” lines.
+- Parties and roles: Borrower, Parent/Holdings, Guarantor(s), Lender(s), Administrative Agent, Collateral Agent, Arranger(s), Issuing Bank(s), Swingline Lender, etc.
+- Party schedules/annexes and signature blocks (when they enumerate parties/roles).
+
+### (2) `fundamental_anchors` — core facility structure (non-pricing)
+
+Include anchors describing the **basic structure and lifecycle** of the facility:
+- Facility type(s): term loan, revolver, delayed draw, incremental/accordion, letters of credit, swingline.
+- Key dates: closing/effective date, maturity, availability period.
+- Commitments/amounts/currency and high-level borrowing limits.
+
+### (3A) `base_rate_anchors` — benchmark/base-rate definitions + compute-critical mechanics
+
+Include anchors that define and operationalize benchmark/base-rate computation, including:
+- ABR / Base Rate / Alternate Base Rate “highest of” formulas (Prime, Fed Funds + spread, etc.).
+- Eurodollar/LIBOR/Adjusted LIBOR definitions (reserve adjustments, adjusted denominator, etc.).
+- SOFR / Term SOFR / Daily Simple SOFR definitions (lookback/lockout/observation shift, credit spread adjustments).
+- Rounding increments for rates (e.g., next higher 1/16 of 1%).
+- Explicit cross-references to where base-rate definitions live.
+
+### (3B) `spread_anchors` — spreads/margins only (Applicable Margin/Applicable Rate schedules)
+
+Include anchors that define pricing spreads/margins (NOT the underlying benchmark), including:
+- Applicable Margin / Applicable Rate tables, grids, tiers (including headers/rows/footnotes).
+- Performance pricing mechanics: pricing level updates, timing, retroactive/prospective application.
+- Definitions of pricing inputs used by the spread schedule (pricing level, leverage ratio, utilization, ratings, etc.).
+- Explicit cross-references to where the spread schedule or pricing level mechanics are defined.
+
+Hard requirement:
+- If the agreement contains a numeric spread/margin schedule (percentages/bps), include at least one anchor that contains the numeric schedule itself (usually a table anchor).
+
+### (3C) `fee_anchors` — fee rates/schedules only (commitment/utilization/LC/facility fees)
+
+Include anchors that define borrower-paid fee rates/schedules and compute-critical mechanics, including:
+- Commitment/unused commitment fees, utilization fees, letter of credit fees, fronting fees, facility/administrative fees (if borrower-paid).
+- Fee rate grids/tables/tiers (include headers/rows/footnotes).
+- Definitions of fee inputs (unused commitment, average daily usage, etc.).
+- Explicit cross-references to where fee definitions/mechanics live.
+
+Hard requirement:
+- If the agreement contains a numeric fee schedule (percentages/bps), include at least one anchor that contains the numeric schedule itself (usually a table anchor).
+
+### (3D) `pricing_anchors` — all borrower economics (union bucket)
+
+Include anchors that define or affect **anything the borrower pays**, including:
+- Interest economics (benchmark + spread, floors/caps, default rate adders).
+- Fees, OID, and other borrower economics.
+- Any compute-critical definitions/mechanics required to interpret pricing.
+
+This is a union-style bucket: it can (and often should) overlap heavily with `base_rate_anchors`, `spread_anchors`, and `fee_anchors`.
+
+### (4) `financial_covenant_anchors` — numeric tests/limits **including any needed definitions/mechanics**
+
+Include anchors that contain explicit numeric/ratiometric requirements and their compute mechanics:
+- Maintenance covenants (max/min leverage, coverage, liquidity, etc.).
+- Step-down/step-up schedules and testing frequency/timing.
+- Definitions and calculation mechanics for metrics used in covenants (EBITDA, net debt, etc.).
+
+## Cross-reference rule (important)
+
+If an anchor contains an explicit cross-reference to pricing or covenant definitions/mechanics (e.g., “as defined in Section…”, “see definition of…”), include that anchor in the relevant bucket even if it mainly points elsewhere.
+
+But do not let cross-references replace the primary definition/table anchors if those exist.
+
+## General rules
+
+- Anchor-level evidence only: include an anchor only when the relevant signal is present in that anchored text (including tables or explicit cross-references).
+- Be exhaustive within scope: capture base-rate mechanics, spread schedules, fee schedules, and compute-critical definitions/mechanics.
+- Duplicates across buckets are allowed and encouraged when truly cross-cutting.
+- Do not include table-of-contents tables unless they contain actual rates/thresholds (rare).
+
+## Output format
+
+Return JSON only with exactly these keys (use empty arrays when needed):
+
+```json
+{
+  "definitions_anchor_range": {"start_anchor": "A0001", "end_anchor": "A0123"},
+  "metadata_anchors": ["A0001", "A0002"],
+  "fundamental_anchors": ["A0010", "A0011"],
+  "pricing_anchors": ["A0100", "A0101"],
+  "base_rate_anchors": ["A0200", "A0201"],
+  "spread_anchors": ["A0300", "A0301"],
+  "fee_anchors": ["A0400", "A0401"],
+  "financial_covenant_anchors": ["A0500", "A0501"]
+}
+```
+
+The document now follows below.
+
+{document}

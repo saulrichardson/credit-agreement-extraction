@@ -1,0 +1,887 @@
+You are an information-extraction engine. Your task is to extract **financial covenants** from the provided document text and output **only valid JSON** that conforms to the provided JSON Schema.
+
+Rules:
+
+* Output **JSON only** (no markdown, no prose).
+* Do **not** guess. If a field is not stated, use `null` (or omit only if schema allows).
+* Prefer **exact numbers**, operators, dates, and defined-term names as written.
+* Normalize numeric values for computation (e.g., dollars to full dollars), but always keep the **raw textual representation** too.
+* When a covenant references defined terms (e.g., “Consolidated EBITDA”), capture:
+
+  1. the term name,
+  2. a short summary of what it means,
+  3. where it appears (evidence locator),
+  4. any caps/baskets/add-backs if stated.
+* A “financial covenant” includes:
+
+  * Maintenance tests (tested periodically)
+  * Incurrence tests (conditions to take an action)
+  * Springing tests (become applicable upon a trigger)
+  * Minimum liquidity / net worth / EBITDA / capex numeric tests when used as covenant conditions
+* Exclude purely operational/negative covenants **unless** they contain a numeric financial test.
+* Provide **evidence**: short excerpts and a locator (section heading / page / paragraph / character offsets if available).
+* If the input is partial (e.g., a chunk), set `extraction.is_partial = true` and list missing context in `extraction.needs_more_context`.
+
+Quality checks before final output:
+
+* Comparator direction is correct (e.g., “not less than” ⇒ `>=`).
+* Ratio thresholds are stored as numeric (e.g., “4.00 to 1.00” ⇒ `4.0`, unit `"x"`), and raw text preserved.
+* If thresholds change over time, use a schedule with period bounds.
+* If a covenant is springing or incurrence-based, populate `trigger` or `applies_when`.
+
+### USER (template)
+
+Extract all financial covenants and output JSON that validates against the schema.
+
+Inputs:
+
+* Document metadata: {{DOCUMENT_METADATA_JSON}}
+* Document text (verbatim):
+  <<<BEGIN TEXT
+  {{DOCUMENT_TEXT}}
+  END TEXT>>>
+
+JSON Schema (must conform exactly):
+<<<BEGIN SCHEMA
+{{JSON_SCHEMA_BELOW}}
+END SCHEMA>>>
+
+---
+
+## JSON Schema (Draft 2020-12)
+
+```json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/financial-covenants-extraction.schema.json",
+  "title": "Financial Covenant Extraction",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "document", "extraction", "covenants"],
+  "properties": {
+    "schema_version": { "type": "string", "enum": ["1.0.0"] },
+    "document": { "$ref": "#/$defs/Document" },
+    "extraction": { "$ref": "#/$defs/ExtractionMetadata" },
+    "defined_terms": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/DefinedTerm" },
+      "default": []
+    },
+    "metrics": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Metric" },
+      "default": []
+    },
+    "covenants": {
+      "type": "array",
+      "minItems": 0,
+      "items": { "$ref": "#/$defs/Covenant" }
+    },
+    "extensions": {
+      "type": "object",
+      "additionalProperties": true,
+      "default": {}
+    }
+  },
+  "$defs": {
+    "Document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["document_id", "source_system", "title", "filing"],
+      "properties": {
+        "document_id": { "type": "string", "minLength": 1 },
+        "source_system": { "type": "string", "enum": ["sec_edgar", "other"] },
+        "title": { "type": ["string", "null"] },
+        "url": { "type": ["string", "null"] },
+        "filing": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["company_name", "cik", "form_type", "accession_number", "filed_date"],
+          "properties": {
+            "company_name": { "type": ["string", "null"] },
+            "cik": { "type": ["string", "null"] },
+            "form_type": { "type": ["string", "null"] },
+            "accession_number": { "type": ["string", "null"] },
+            "filed_date": { "type": ["string", "null"], "format": "date" },
+            "period_of_report": { "type": ["string", "null"], "format": "date" },
+            "exhibit_number": { "type": ["string", "null"] },
+            "agreement_name": { "type": ["string", "null"] }
+          }
+        }
+      }
+    },
+
+    "ExtractionMetadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["extracted_at", "extractor", "is_partial", "needs_more_context", "warnings"],
+      "properties": {
+        "extracted_at": { "type": ["string", "null"], "format": "date-time" },
+        "extractor": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["model", "version"],
+          "properties": {
+            "model": { "type": ["string", "null"] },
+            "version": { "type": ["string", "null"] }
+          }
+        },
+        "is_partial": { "type": "boolean" },
+        "needs_more_context": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": []
+        },
+        "warnings": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Issue" },
+          "default": []
+        }
+      }
+    },
+
+    "Covenant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "covenant_id",
+        "name",
+        "covenant_type",
+        "taxonomy_tags",
+        "description",
+        "applies_to",
+        "effective_window",
+        "testing",
+        "trigger",
+        "applies_when",
+        "tests",
+        "remedies_and_cures",
+        "evidence",
+        "confidence",
+        "issues"
+      ],
+      "properties": {
+        "covenant_id": { "type": "string", "minLength": 1 },
+        "name": { "type": ["string", "null"] },
+        "covenant_type": {
+          "type": "string",
+          "enum": ["maintenance", "incurrence", "springing", "reporting", "other"]
+        },
+        "taxonomy_tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": []
+        },
+        "description": { "type": ["string", "null"] },
+
+        "applies_to": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["scope", "entities", "notes"],
+          "properties": {
+            "scope": {
+              "type": "string",
+              "enum": ["consolidated_group", "borrower", "guarantors", "restricted_subsidiaries", "specified_subsidiaries", "other"]
+            },
+            "entities": { "type": "array", "items": { "type": "string" }, "default": [] },
+            "notes": { "type": ["string", "null"] }
+          }
+        },
+
+        "effective_window": { "$ref": "#/$defs/EffectiveWindow" },
+
+        "testing": { "$ref": "#/$defs/TestingTerms" },
+
+        "trigger": {
+          "description": "For springing covenants: when the covenant becomes applicable. Otherwise null.",
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/$defs/Condition" }
+          ]
+        },
+
+        "applies_when": {
+          "description": "For incurrence covenants: the action/event that requires satisfying the test (e.g., incur debt, make restricted payments). Otherwise null.",
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/$defs/Condition" }
+          ]
+        },
+
+        "tests": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/TestConstraint" }
+        },
+
+        "remedies_and_cures": { "$ref": "#/$defs/RemediesAndCures" },
+
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/Evidence" }
+        },
+
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "issues": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Issue" },
+          "default": []
+        },
+        "extensions": {
+          "type": "object",
+          "additionalProperties": true,
+          "default": {}
+        }
+      }
+    },
+
+    "TestConstraint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "constraint_id",
+        "metric",
+        "comparator",
+        "thresholds",
+        "measurement_period",
+        "pro_forma",
+        "evidence",
+        "confidence",
+        "issues"
+      ],
+      "properties": {
+        "constraint_id": { "type": "string", "minLength": 1 },
+        "metric": { "$ref": "#/$defs/MetricRefOrInline" },
+        "comparator": {
+          "type": "string",
+          "enum": ["<", "<=", ">", ">=", "=", "!=", "between_inclusive", "between_exclusive"]
+        },
+        "thresholds": { "$ref": "#/$defs/ThresholdSpec" },
+        "measurement_period": { "$ref": "#/$defs/PeriodSpec" },
+        "pro_forma": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["is_pro_forma_applicable", "notes"],
+          "properties": {
+            "is_pro_forma_applicable": { "type": "boolean" },
+            "notes": { "type": ["string", "null"] }
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/Evidence" }
+        },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "issues": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Issue" },
+          "default": []
+        },
+        "extensions": {
+          "type": "object",
+          "additionalProperties": true,
+          "default": {}
+        }
+      }
+    },
+
+    "MetricRefOrInline": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["metric_ref"],
+          "properties": { "metric_ref": { "type": "string", "minLength": 1 } }
+        },
+        { "$ref": "#/$defs/Metric" }
+      ]
+    },
+
+    "Metric": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "metric_id",
+        "name",
+        "kind",
+        "unit",
+        "accounting_basis",
+        "formula_text",
+        "expression",
+        "ratio_components",
+        "adjustments",
+        "netting",
+        "evidence"
+      ],
+      "properties": {
+        "metric_id": { "type": "string", "minLength": 1 },
+        "name": { "type": ["string", "null"] },
+        "kind": { "type": "string", "enum": ["ratio", "amount", "percentage", "count", "boolean", "other"] },
+        "unit": {
+          "description": "For ratios use 'x'. For percentages use '%'. For currency use ISO 4217 (e.g., USD).",
+          "type": ["string", "null"]
+        },
+        "accounting_basis": {
+          "type": "string",
+          "enum": ["GAAP", "IFRS", "covenant_defined", "non_GAAP", "other"]
+        },
+        "formula_text": { "type": ["string", "null"] },
+
+        "expression": {
+          "description": "Optional structured expression tree. Null if not extracted.",
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/$defs/Expression" }
+          ]
+        },
+
+        "ratio_components": {
+          "description": "For ratio metrics only; otherwise null.",
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["numerator", "denominator", "to_one_basis"],
+              "properties": {
+                "numerator": { "type": ["string", "null"] },
+                "denominator": { "type": ["string", "null"] },
+                "to_one_basis": {
+                  "description": "If written like '4.00 to 1.00', store 'to_1'.",
+                  "type": ["string", "null"],
+                  "enum": ["to_1", "other", null]
+                }
+              }
+            }
+          ]
+        },
+
+        "adjustments": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Adjustment" },
+          "default": []
+        },
+
+        "netting": {
+          "description": "For 'net' metrics: cash netting mechanics/caps.",
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["is_net", "netted_items", "cap", "notes"],
+              "properties": {
+                "is_net": { "type": "boolean" },
+                "netted_items": { "type": "array", "items": { "type": "string" }, "default": [] },
+                "cap": {
+                  "oneOf": [
+                    { "type": "null" },
+                    { "$ref": "#/$defs/Value" }
+                  ]
+                },
+                "notes": { "type": ["string", "null"] }
+              }
+            }
+          ]
+        },
+
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/Evidence" }
+        },
+
+        "extensions": {
+          "type": "object",
+          "additionalProperties": true,
+          "default": {}
+        }
+      }
+    },
+
+    "ThresholdSpec": {
+      "description": "Single threshold, a schedule of thresholds, or a band (between).",
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "single"],
+          "properties": {
+            "type": { "type": "string", "enum": ["single"] },
+            "single": { "$ref": "#/$defs/Value" }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "schedule"],
+          "properties": {
+            "type": { "type": "string", "enum": ["schedule"] },
+            "schedule": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "$ref": "#/$defs/ScheduledValue" }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "band"],
+          "properties": {
+            "type": { "type": "string", "enum": ["band"] },
+            "band": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["lower", "upper"],
+              "properties": {
+                "lower": { "$ref": "#/$defs/Value" },
+                "upper": { "$ref": "#/$defs/Value" }
+              }
+            }
+          }
+        }
+      ]
+    },
+
+    "ScheduledValue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["applies_from", "applies_to", "value", "notes", "evidence"],
+      "properties": {
+        "applies_from": { "$ref": "#/$defs/PeriodRef" },
+        "applies_to": {
+          "description": "Inclusive end of applicability. Null if open-ended.",
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/$defs/PeriodRef" }
+          ]
+        },
+        "value": { "$ref": "#/$defs/Value" },
+        "notes": { "type": ["string", "null"] },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/Evidence" }
+        }
+      }
+    },
+
+    "Value": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "unit", "raw", "scale"],
+      "properties": {
+        "value": { "type": ["number", "null"] },
+        "unit": { "type": ["string", "null"] },
+        "raw": { "type": ["string", "null"] },
+        "scale": {
+          "type": ["string", "null"],
+          "enum": ["ones", "thousand", "million", "billion", "other", null]
+        }
+      }
+    },
+
+    "TestingTerms": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["frequency", "as_of_timing", "delivery_requirements", "grace_period", "notes"],
+      "properties": {
+        "frequency": {
+          "type": "string",
+          "enum": ["quarterly", "monthly", "annual", "event_driven", "daily", "other"]
+        },
+        "as_of_timing": { "type": ["string", "null"] },
+        "delivery_requirements": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["is_required", "deliverable", "due_within_days", "notes"],
+          "properties": {
+            "is_required": { "type": "boolean" },
+            "deliverable": { "type": ["string", "null"] },
+            "due_within_days": { "type": ["integer", "null"], "minimum": 0 },
+            "notes": { "type": ["string", "null"] }
+          }
+        },
+        "grace_period": {
+          "description": "Time to cure/report before default, if stated.",
+          "type": ["string", "null"]
+        },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "EffectiveWindow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end", "notes"],
+      "properties": {
+        "start": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/$defs/PeriodRef" }
+          ]
+        },
+        "end": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/$defs/PeriodRef" }
+          ]
+        },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "PeriodSpec": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "length", "unit", "notes"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["point_in_time", "trailing", "forward", "period_to_date", "other"]
+        },
+        "length": { "type": ["integer", "null"], "minimum": 0 },
+        "unit": { "type": ["string", "null"], "enum": ["days", "months", "quarters", "years", "other", null] },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "PeriodRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "fiscal_year", "fiscal_quarter", "label"],
+      "properties": {
+        "date": { "type": ["string", "null"], "format": "date" },
+        "fiscal_year": { "type": ["integer", "null"] },
+        "fiscal_quarter": { "type": ["integer", "null"], "minimum": 1, "maximum": 4 },
+        "label": { "type": ["string", "null"] }
+      },
+      "anyOf": [
+        { "required": ["date"] },
+        { "required": ["fiscal_year"] },
+        { "required": ["label"] }
+      ]
+    },
+
+    "Condition": {
+      "description": "A narrative condition with optional structured expression for machine evaluation.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["condition_text", "expression", "evidence"],
+      "properties": {
+        "condition_text": { "type": ["string", "null"] },
+        "expression": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/$defs/Expression" }
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/Evidence" }
+        }
+      }
+    },
+
+    "Expression": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "metric_id"],
+          "properties": {
+            "type": { "type": "string", "enum": ["metric_ref"] },
+            "metric_id": { "type": "string" }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "value", "unit", "raw"],
+          "properties": {
+            "type": { "type": "string", "enum": ["const"] },
+            "value": { "type": ["number", "null"] },
+            "unit": { "type": ["string", "null"] },
+            "raw": { "type": ["string", "null"] }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "op", "args"],
+          "properties": {
+            "type": { "type": "string", "enum": ["op"] },
+            "op": { "type": "string", "enum": ["add", "sub", "mul", "div", "min", "max", "neg", "abs", "and", "or", "not", "lt", "lte", "gt", "gte", "eq", "neq"] },
+            "args": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "$ref": "#/$defs/Expression" }
+            }
+          }
+        }
+      ]
+    },
+
+    "Adjustment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "description", "cap", "conditions", "evidence"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["add_back", "deduction", "cap", "basket", "exclusion", "other"]
+        },
+        "description": { "type": ["string", "null"] },
+        "cap": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/$defs/Value" }
+          ]
+        },
+        "conditions": { "type": ["string", "null"] },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/Evidence" }
+        }
+      }
+    },
+
+    "DefinedTerm": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["term", "definition_summary", "raw_excerpt", "evidence"],
+      "properties": {
+        "term": { "type": "string", "minLength": 1 },
+        "definition_summary": { "type": ["string", "null"] },
+        "raw_excerpt": { "type": ["string", "null"], "maxLength": 1000 },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/Evidence" }
+        }
+      }
+    },
+
+    "RemediesAndCures": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["equity_cure", "other_cures", "default_consequence_notes"],
+      "properties": {
+        "equity_cure": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["is_available", "notes", "evidence"],
+          "properties": {
+            "is_available": { "type": "boolean" },
+            "notes": { "type": ["string", "null"] },
+            "evidence": { "type": "array", "items": { "$ref": "#/$defs/Evidence" }, "default": [] }
+          }
+        },
+        "other_cures": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": []
+        },
+        "default_consequence_notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "Evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["excerpt", "locator"],
+      "properties": {
+        "excerpt": { "type": ["string", "null"], "maxLength": 800 },
+        "locator": { "$ref": "#/$defs/Locator" }
+      }
+    },
+
+    "Locator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["document_part", "exhibit", "section_heading", "page", "paragraph", "char_start", "char_end", "notes"],
+      "properties": {
+        "document_part": { "type": ["string", "null"], "enum": ["filing_body", "exhibit", "other", null] },
+        "exhibit": { "type": ["string", "null"] },
+        "section_heading": { "type": ["string", "null"] },
+        "page": { "type": ["integer", "null"], "minimum": 1 },
+        "paragraph": { "type": ["string", "null"] },
+        "char_start": { "type": ["integer", "null"], "minimum": 0 },
+        "char_end": { "type": ["integer", "null"], "minimum": 0 },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "Issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "message", "severity"],
+      "properties": {
+        "code": { "type": "string", "minLength": 1 },
+        "message": { "type": "string", "minLength": 1 },
+        "severity": { "type": "string", "enum": ["info", "warning", "error"] }
+      }
+    }
+  }
+}
+```
+
+---
+
+## Minimal example output instance (illustrative)
+
+```json
+{
+  "schema_version": "1.0.0",
+  "document": {
+    "document_id": "0000000000-25-000001_EX10_1",
+    "source_system": "sec_edgar",
+    "title": "Credit Agreement",
+    "url": null,
+    "filing": {
+      "company_name": "ExampleCo",
+      "cik": "0000000000",
+      "form_type": "8-K",
+      "accession_number": "0000000000-25-000001",
+      "filed_date": "2025-02-10",
+      "period_of_report": null,
+      "exhibit_number": "10.1",
+      "agreement_name": "Credit Agreement"
+    }
+  },
+  "extraction": {
+    "extracted_at": "2025-12-18T00:00:00Z",
+    "extractor": { "model": "gpt-x", "version": "1" },
+    "is_partial": false,
+    "needs_more_context": [],
+    "warnings": []
+  },
+  "defined_terms": [],
+  "metrics": [],
+  "covenants": [
+    {
+      "covenant_id": "COV-001",
+      "name": "Consolidated Net Leverage Ratio",
+      "covenant_type": "maintenance",
+      "taxonomy_tags": ["leverage_net"],
+      "description": "Maximum net leverage tested quarterly.",
+      "applies_to": {
+        "scope": "consolidated_group",
+        "entities": [],
+        "notes": null
+      },
+      "effective_window": { "start": null, "end": null, "notes": null },
+      "testing": {
+        "frequency": "quarterly",
+        "as_of_timing": "as of the last day of each Fiscal Quarter",
+        "delivery_requirements": {
+          "is_required": true,
+          "deliverable": "Compliance Certificate",
+          "due_within_days": null,
+          "notes": null
+        },
+        "grace_period": null,
+        "notes": null
+      },
+      "trigger": null,
+      "applies_when": null,
+      "tests": [
+        {
+          "constraint_id": "TEST-001",
+          "metric": {
+            "metric_id": "MET-001",
+            "name": "Consolidated Net Leverage Ratio",
+            "kind": "ratio",
+            "unit": "x",
+            "accounting_basis": "covenant_defined",
+            "formula_text": "(Funded Debt - Qualified Cash) / Consolidated EBITDA",
+            "expression": null,
+            "ratio_components": {
+              "numerator": "Funded Debt minus Qualified Cash",
+              "denominator": "Consolidated EBITDA",
+              "to_one_basis": "to_1"
+            },
+            "adjustments": [],
+            "netting": {
+              "is_net": true,
+              "netted_items": ["Qualified Cash"],
+              "cap": null,
+              "notes": null
+            },
+            "evidence": [
+              {
+                "excerpt": "“Consolidated Net Leverage Ratio” means ...",
+                "locator": {
+                  "document_part": "exhibit",
+                  "exhibit": "10.1",
+                  "section_heading": "Definitions",
+                  "page": null,
+                  "paragraph": null,
+                  "char_start": null,
+                  "char_end": null,
+                  "notes": null
+                }
+              }
+            ],
+            "extensions": {}
+          },
+          "comparator": "<=",
+          "thresholds": {
+            "type": "single",
+            "single": { "value": 4.0, "unit": "x", "raw": "4.00 to 1.00", "scale": "ones" }
+          },
+          "measurement_period": { "type": "trailing", "length": 4, "unit": "quarters", "notes": "most recently ended four Fiscal Quarters" },
+          "pro_forma": { "is_pro_forma_applicable": false, "notes": null },
+          "evidence": [
+            {
+              "excerpt": "shall not permit the Consolidated Net Leverage Ratio to exceed 4.00 to 1.00",
+              "locator": {
+                "document_part": "exhibit",
+                "exhibit": "10.1",
+                "section_heading": "Financial Covenants",
+                "page": null,
+                "paragraph": null,
+                "char_start": null,
+                "char_end": null,
+                "notes": null
+              }
+            }
+          ],
+          "confidence": 0.86,
+          "issues": [],
+          "extensions": {}
+        }
+      ],
+      "remedies_and_cures": {
+        "equity_cure": { "is_available": false, "notes": null, "evidence": [] },
+        "other_cures": [],
+        "default_consequence_notes": null
+      },
+      "evidence": [
+        {
+          "excerpt": "FINANCIAL COVENANTS ... Consolidated Net Leverage Ratio ...",
+          "locator": {
+            "document_part": "exhibit",
+            "exhibit": "10.1",
+            "section_heading": "Financial Covenants",
+            "page": null,
+            "paragraph": null,
+            "char_start": null,
+            "char_end": null,
+            "notes": null
+          }
+        }
+      ],
+      "confidence": 0.84,
+      "issues": [],
+      "extensions": {}
+    }
+  ],
+  "extensions": {}
+}
+```

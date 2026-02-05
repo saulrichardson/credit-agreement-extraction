@@ -1,0 +1,115 @@
+You are reading an entire credit agreement exhibit (often from EDGAR, but not always).
+
+The document is presented as **anchored blocks**. Each block begins with an anchor marker on its own line:
+
+`[[A0001]]`
+
+The block text follows on subsequent lines until the next `[[A####]]` marker.
+
+When you answer:
+- Use the **exact** anchor IDs (e.g., `"A0001"`) from the markers.
+- Do **not** invent, transform, or renumber anchor IDs.
+- Return **JSON only** (no prose, no markdown, no code fences).
+
+## Goal
+
+Select anchor IDs that will let downstream extractors reliably encode:
+- pricing (base rate definitions, spreads/margins, fee schedules)
+- financial covenants (tests, thresholds, timing, and compute-critical definitions)
+
+This is a **single-pass selection** task. There is no downstream backfill. If you omit compute-critical anchors (especially tables/grids), downstream will be incomplete.
+
+## How to work (internal procedure; do not output)
+
+Work in this order:
+
+1) **Locate a Definitions / Glossary section (if any)**
+   - If the agreement has a dedicated definitions section, identify a contiguous anchor range that covers it.
+   - This range is only a pointer (it does not replace selecting the specific anchors needed for pricing/covenants).
+
+2) **Pricing: Base rate / benchmark definitions**
+   - Find anchors that define benchmark/base-rate computation mechanics (ABR/Base Rate, Prime, Fed Funds, SOFR/Term SOFR/Daily Simple SOFR, Adjusted rates, rounding, day count when compute-critical).
+   - Include compute mechanics, not just mentions.
+
+3) **Pricing: Spread / margin schedules**
+   - Find anchors that define pricing spreads/margins (Applicable Margin / Applicable Rate).
+   - If the spread schedule is expressed as a table/grid/tier list, include the anchors containing the actual numeric schedule.
+   - Include adjacent anchors needed to interpret the schedule (headers/row labels/footnotes/continuations).
+
+4) **Pricing: Fee schedules**
+   - Find anchors defining borrower-paid fees (commitment/unused/utilization/LC/fronting/facility/admin fees if borrower-paid).
+   - If a fee schedule is expressed as a table/grid/tier list, include the anchors containing the actual numeric schedule.
+   - Include adjacent anchors needed to interpret the schedule (headers/row labels/footnotes/continuations).
+
+5) **Financial covenants**
+   - Find anchors that state explicit numeric/ratiometric requirements (max/min leverage, coverage, liquidity, etc.), including step-downs and testing timing/frequency.
+   - Include compute-critical definitions/mechanics needed to evaluate compliance (EBITDA, Net Debt, measurement period, pro forma rules, etc.) when referenced by the covenant.
+   - Include “springing” / conditional covenant language when present (e.g., covenant applies only when utilization exceeds X% or when an event occurs).
+
+6) **Self-check (internal; do not output)**
+   - If you selected an intro/heading that says “set forth below / in the following table/grid”, ensure you also selected the anchor(s) that contain the actual table/grid values.
+   - If you selected a clause that references a defined term (e.g., “Applicable Margin”), ensure you also selected the anchor(s) where that term is defined (and any schedule embedded in that definition).
+
+## Output buckets
+
+Select anchor IDs into the buckets below. Only include anchors where the anchored text itself contains relevant information (numbers, defined terms, mechanics, tables, formulas, or explicit cross-references).
+
+It is OK (and expected) for the same anchor to appear in multiple buckets.
+
+### (0) `definitions_anchor_range` — dedicated glossary/definitions section span (optional)
+
+If (and only if) the agreement contains a dedicated definitions/glossary section where terms are defined, provide a contiguous anchor range that covers that definitions section.
+
+Output shape:
+- If applicable: `"definitions_anchor_range": {"start_anchor": "A....", "end_anchor": "A...."}`
+- If not applicable: `"definitions_anchor_range": null`
+
+### (1) `metadata_anchors` — document + parties + roles + execution details
+
+Include anchors that capture who/what the document is and who the parties are (Borrower, Guarantor, Lenders, Administrative Agent, etc.), including signature blocks when they enumerate parties/roles.
+
+### (2) `fundamental_anchors` — core facility structure (non-pricing)
+
+Include anchors describing facility structure: types, commitments/amounts, maturity, availability period, key lifecycle mechanics.
+
+### (3D) `pricing_anchors` — all borrower economics (union bucket)
+
+Include anchors that define or affect anything the borrower pays (interest economics + fees + compute-critical definitions/mechanics). This should overlap heavily with the pricing sub-buckets below.
+
+### (3A) `base_rate_anchors` — benchmark/base-rate definitions + compute-critical mechanics
+
+Include anchors defining benchmark/base-rate computation mechanics (ABR/Base Rate, SOFR, Adjusted rates, rounding, reserve adjustments, etc.).
+
+### (3B) `spread_anchors` — spreads/margins only (Applicable Margin/Applicable Rate schedules)
+
+Include anchors defining spread/margin schedules and mechanics. If there is a numeric schedule, include the anchor(s) containing the numeric schedule itself.
+
+### (3C) `fee_anchors` — fee rates/schedules only
+
+Include anchors defining borrower-paid fee rates/schedules and mechanics. If there is a numeric schedule, include the anchor(s) containing the numeric schedule itself.
+
+### (4) `financial_covenant_anchors` — numeric tests/limits including needed definitions/mechanics
+
+Include anchors with explicit numeric covenant tests/limits, plus the definitions/mechanics needed to compute them.
+
+## Output format
+
+Return JSON only with exactly these keys (use empty arrays when needed):
+
+```json
+{
+  "definitions_anchor_range": {"start_anchor": "A0001", "end_anchor": "A0123"},
+  "metadata_anchors": ["A0001", "A0002"],
+  "fundamental_anchors": ["A0010", "A0011"],
+  "pricing_anchors": ["A0100", "A0101"],
+  "base_rate_anchors": ["A0200", "A0201"],
+  "spread_anchors": ["A0300", "A0301"],
+  "fee_anchors": ["A0400", "A0401"],
+  "financial_covenant_anchors": ["A0500", "A0501"]
+}
+```
+
+The document now follows below.
+
+{document}
+

@@ -1,0 +1,164 @@
+You are a financial data extraction agent.
+Read the extracted portion of a corporate credit agreement below and output ONLY valid JSON
+describing the loan’s performance pricing (margin/spread/fees that vary by ratings or financial metrics).
+
+The input is an "excerpt pack" made of anchor blocks like:
+  [[A0125]]
+  <agreement text...>
+
+Use these anchor IDs as provenance markers in `source_refs`.
+Do NOT invent anchor IDs:
+- Every element of any `source_refs` array MUST be copied from an anchor header that appears in the input (e.g., "A0125").
+- Never cite anchors that do not appear in the input. If unsure, use an empty list [] rather than guessing.
+
+=== TASK ===
+Parse the text into structured JSON with these main sections:
+
+{
+  "issuer": "Company name or NA",
+  "agreement": {
+    "title": "NA or extracted title",
+    "currency": "NA unless explicitly stated",
+    "as_of_date": "YYYY-MM-DD or NA"
+  },
+  "metrics": [...],
+  "tier_schemes": [...],
+  "facilities": [...]
+}
+
+=== CORE RULES ===
+
+0. Use ONLY the provided input.
+   - Do not assume you have the full agreement.
+   - Do not guess missing thresholds, tier cutoffs, or rates.
+
+1. **Classification** (choose one per tier scheme):
+   - "ratings_based": tiers determined by agency ratings (AAA, BBB-, “S&P”, “Moody’s”).
+   - "financial_metrics": tiers determined by financial ratios (leverage, coverage, EBITDA).
+   - "flat": no performance pricing; fixed rates only.
+
+2. **Metrics**:
+   - Define every metric that appears in tier conditions OR rate conditions.
+   - Prefer Compustat-compatible variables when possible, but DO NOT guess formulas.
+     If unsure, set `"requires_non_compustat": true` and include a short `description`.
+   - If ratings-based, you may define a metric named `"RatingScore"` with `"requires_non_compustat": true`.
+   - Preferred metric object shape:
+       { "name": "...", "description": "...", "requires_non_compustat": true|false, "compustat_formula": "..." | null }
+
+3. **Tier Schemes**:
+   - Each scheme MUST include:
+       `scheme_id`, `classification`, `tiers`, and `source_refs`.
+
+   - For single-metric tier schemes, ALSO include:
+       `metric` (string): the metric name used for tier cutoffs (e.g., "NetLeverageRatio").
+
+   - For multi-metric / 2D grids (e.g., tiers depend on BOTH InterestCoverageRatio AND FixedChargeCoverageRatio),
+     omit `metric` and instead encode conditions with explicit metric references at the tier level.
+
+   - Each `tier` MUST include:
+       `tier_id`, `display`, `conditions`, and `source_refs`.
+
+   - **Conditions encoding**
+     A tier's `conditions` MUST be one of:
+
+     A) Single-metric scheme (scheme has `metric`):
+        - `conditions` is a LIST of objects: `{ "op": "<=|<|>=|>|==|!=", "value": number }`
+        - Interpret the list as AND (all must hold).
+        - Example (closed interval): `[{"op":">=","value":1.75},{"op":"<","value":2.50}]`
+
+     B) Multi-metric scheme (scheme omits `metric`):
+        - `conditions` is an OBJECT with either:
+          - `{ "all": [ { "metric": "...", "op": "...", "value": number }, ... ] }`  (AND)
+          - `{ "any": [ { "metric": "...", "op": "...", "value": number }, ... ] }`  (OR)
+        - IMPORTANT mapping to text:
+          - If the row uses the word "or" between metric cutoffs (e.g., "ICR < 1.75 OR FCCR < 1.20"), use `"any"`.
+          - If the row uses the word "and" (e.g., "ICR >= 1.75 AND FCCR >= 1.20"), use `"all"`.
+          - If the row mixes AND/OR in a way you cannot represent cleanly, set `conditions` to `"NA"` and include `conditions_text`.
+
+     C) If the text is ambiguous or not reliably parseable:
+        - `conditions` is the STRING `"NA"`, and include a `conditions_text` string with the verbatim cutoff language.
+          (Still include `source_refs`.)
+
+   - IMPORTANT: Do NOT invent implied complementary ranges or missing bounds.
+     If the document only provides one-sided cutoffs, keep one-sided conditions.
+     It's OK if the tier definitions are not gap-free; reflect what the agreement actually says.
+
+   - **Tier ordering**:
+       Preserve the exact order in which tiers appear in the text.
+
+   - **One row → one tier**:
+       Each pricing-row in a table must correspond to exactly ONE tier.
+       Never merge or split table rows across tiers.
+
+   - **Source references**:
+       Each tier should include `source_refs` pointing to the anchor(s) that define the row.
+       If the excerpt contains no explicit performance pricing (classification "flat"), `source_refs` may be an empty array.
+
+4. **Facilities**:
+   - Each facility should include:
+       `facility_id`, `committed_amount`, `currency`,
+       `maturity_date`, `rate_type` ("fixed"|"floating"), and an array of `rates`.
+   - If the excerpt does not specify facilities, return a single facility with `"facility_id": "NA"`.
+   - If you identify ANY non-flat performance pricing tiers (classification != "flat"),
+     the facility MUST include at least one corresponding `rate` object. Do NOT leave `rates: []`.
+
+5. **Rates**:
+   - Required fields:
+       `rate_id`, `type` ("margin"|"fee"), `tier_scheme_ref`, `by_level`, and `units`.
+     If a tier scheme exists (classification != "flat"), you MUST output at least one rate object
+     that references it via `tier_scheme_ref`, even if some metadata must be "NA".
+
+   - **Referential integrity (IMPORTANT)**:
+       * Every `tier_scheme_ref` MUST exactly match a `tier_schemes[].scheme_id`.
+       * Do NOT invent scheme IDs like "NonUseFeeFlat". If a rate is flat (single number, not tiered), use `tier_scheme_ref: "Flat"`.
+
+   - For **margin** rates:
+       * include `base_rate` (e.g. "LIBO Rate", "Term SOFR", "Prime Rate", "Base Rate", "Index Rate")
+       * include `base_rate_type` ("sofr","libor","prime","other")
+       * units = `"bps"`
+
+   - For **fee** rates:
+       * omit base_rate
+       * include `fee_basis` ("undrawn","letters_of_credit", etc.)
+       * include `calculation_basis` ("per_annum","flat")
+       * units = `"bps"` or `"currency"`
+
+   - **Units rule**:
+       Units must be ONLY `"bps"` or `"currency"`. Do not invent alternative unit labels.
+
+   - **by_level entries**:
+       * `{ "tier_id": "...", "bps": number }`  (if units = "bps")
+       * `{ "tier_id": "...", "amount": number }`  (if units = "currency")
+       * IMPORTANT: use `"bps"` for BOTH margin and fee rates when units = "bps".
+         `"amount"` is ONLY for units = "currency".
+
+   - **Ratings tables (ABR/LIBOR/etc.)**:
+       * If the agreement provides multiple margin columns by base rate (e.g., "ABR margin", "LIBOR margin", "CD margin"),
+         create ONE `rate` object per column:
+           - `type`: "margin"
+           - `base_rate`: use the column label (e.g., "ABR", "LIBOR", "CD")
+           - `base_rate_type`: "prime" for ABR/Base/Prime; "libor" for LIBOR; otherwise "other"
+           - `by_level`: use the tier rows in the same order as the table.
+       * Do NOT leave `rates: []` when the excerpt clearly states numeric margins/fees.
+
+   - **Percent → bps conversion (IMPORTANT)**:
+       * If the agreement states a margin/fee as a PERCENT per annum like "2.50%", then:
+           bps = 2.50 * 100 = 250
+         (because 1.00% = 100 bps).
+       * Do NOT multiply by 1000. Do NOT output 2500 for "2.50%".
+
+   - Optional: rates MAY include a `source_refs` array (anchor IDs) pointing to the table row / paragraph that states the rate.
+
+6. **Fallback**:
+   - If no performance pricing exists in the excerpt, return:
+       "tier_schemes": [
+         { "scheme_id": "Flat", "classification": "flat", "tiers": [{ "tier_id": "Flat", "display": "Flat", "conditions": "NA", "source_refs": [] }], "source_refs": [] }
+       ]
+     All rates should reference `"tier_scheme_ref": "Flat"`.
+
+7. **Output**:
+   - Output valid JSON only.
+   - No prose or commentary outside the JSON.
+
+=== INPUT ===
+(The extracted pricing section from the agreement follows below.)
