@@ -9,11 +9,7 @@ from .config import REQUIRED_MODEL, REQUIRED_REASONING
 from .contract_pricing_plan_schemas import ContractPricingPlanV2
 from .utils import assert_exists
 
-# Reuse gateway helper/constants from indexing to avoid duplicating config.
-from .indexing import (  # type: ignore
-    _ensure_gateway_client_async,
-    DEFAULT_GATEWAY_URL,
-)
+from .llm.gateway import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async
 
 
 def _render_table_pack_prompt(template: str, tables_pack_json: str) -> str:
@@ -203,4 +199,3 @@ async def plan_contract_pricing_table_pack(
         timeout=gateway_timeout,
     ) as active_client:
         return await _run_with_client(active_client)
-

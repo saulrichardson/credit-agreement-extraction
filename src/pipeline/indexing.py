@@ -2,70 +2,23 @@ from __future__ import annotations
 
 import asyncio
 import json
-import os
-import sys
 import time
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Iterable
 
 from .config import Paths, prompt_hash, update_manifest, REQUIRED_MODEL, REQUIRED_REASONING
 from .anchors import load_anchor_catalog
+from .llm.gateway import (
+    DEFAULT_GATEWAY_URL,
+    GatewayUnavailable as IndexingGatewayUnavailable,
+    _ensure_gateway_client_async,
+    _ensure_gateway_client_sync,
+)
 from .schemas import IndexingSelection, IndexingSelectionArtifact
 from .utils import assert_exists
 
 
-DEFAULT_GATEWAY_URL = os.getenv("GATEWAY_URL", "http://127.0.0.1:8000")
 DEFAULT_MODEL = REQUIRED_MODEL
-
-
-class IndexingGatewayUnavailable(RuntimeError):
-    """Raised when the gateway client cannot be imported or called."""
-
-
-def _ensure_gateway_client_sync() -> Any:
-    """Return the sync helper complete_response_sync from agent-gateway."""
-
-    # Prefer the repo's pinned agent-gateway submodule over any globally-installed `gateway`
-    # package (which can silently diverge and cause confusing runtime behavior).
-    root = Path(__file__).resolve().parents[2] / "agent-gateway" / "src"
-    if root.exists() and str(root) not in sys.path:
-        sys.path.insert(0, str(root))
-
-    try:
-        from gateway.client import complete_response_sync  # type: ignore
-
-        return complete_response_sync
-    except ModuleNotFoundError as exc:  # pragma: no cover
-        if root.exists():
-            raise IndexingGatewayUnavailable(
-                "agent-gateway present but import failed; ensure dependencies are installed"
-            ) from exc
-        raise IndexingGatewayUnavailable(
-            "agent-gateway submodule not available; run `git submodule update --init --recursive`"
-        ) from exc
-
-
-def _ensure_gateway_client_async() -> Any:
-    """Return the async GatewayAgentClient from agent-gateway."""
-
-    # Prefer the repo's pinned agent-gateway submodule over any globally-installed `gateway`
-    # package (which can silently diverge and cause confusing runtime behavior).
-    root = Path(__file__).resolve().parents[2] / "agent-gateway" / "src"
-    if root.exists() and str(root) not in sys.path:
-        sys.path.insert(0, str(root))
-
-    try:
-        from gateway.client import GatewayAgentClient  # type: ignore
-
-        return GatewayAgentClient
-    except ModuleNotFoundError as exc:  # pragma: no cover
-        if root.exists():
-            raise IndexingGatewayUnavailable(
-                "agent-gateway present but import failed; ensure dependencies are installed"
-            ) from exc
-        raise IndexingGatewayUnavailable(
-            "agent-gateway submodule not available; run `git submodule update --init --recursive`"
-        ) from exc
 
 
 def _canonical_annotated_text(paths: Paths, item_id: str) -> str:

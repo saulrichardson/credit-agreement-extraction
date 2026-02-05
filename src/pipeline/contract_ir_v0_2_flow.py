@@ -12,8 +12,8 @@ from .config import REQUIRED_MODEL, REQUIRED_REASONING, Paths
 from .contract_ir_v0_2 import ContractIRValidationError, validate_contract_ir
 from .contract_ir_v0_2_merge import merge_contract_ir_v0_2
 from .excerpt_packs import ExcerptPackError, build_excerpt_pack_from_canonical, expand_anchor_ids, order_anchor_ids
-from .indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_sync
 from .indexing_v2 import run_indexing_v2
+from .llm.gateway import DEFAULT_GATEWAY_URL, _ensure_gateway_client_sync
 from .retrieval_v2 import render_snippets_v2
 from .schemas_v2 import IndexingSelectionV2Artifact
 from .utils import assert_exists, load_manifest, manifest_items, prompt_view_path

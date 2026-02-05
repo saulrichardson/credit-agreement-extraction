@@ -13,7 +13,7 @@ from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 from .anchors import load_anchor_catalog
 from .config import Paths, REQUIRED_MODEL, REQUIRED_REASONING, prompt_hash, update_manifest
-from .indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async  # type: ignore
+from .llm.gateway import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async
 from .utils import assert_exists
 
 ANCHOR_ID_RE = re.compile(r"^A\d{4,}$")
@@ -935,6 +935,37 @@ def run_agreement_metadata_v1(
                             if isinstance(rec.get("anchor_id"), str)
                         }
 
+                        def _write_outputs(
+                            *,
+                            artifact_json: Any,
+                            attempts_used: int,
+                            auto_corrections: list[dict] | None = None,
+                        ) -> None:
+                            artifact_path = out_dir / f"{item_id}.json"
+                            artifact_path.write_text(json.dumps(artifact_json, indent=2))
+                            meta_path = out_dir / f"{item_id}.meta.json"
+                            meta_path.write_text(
+                                json.dumps(
+                                    {
+                                        "schema_version": "agreement_metadata_v1_artifact_meta",
+                                        "stage": "agreement_metadata_v1",
+                                        "run_id": paths.run_id,
+                                        "item_id": item_id,
+                                        "created_at": int(time.time()),
+                                        "gateway_url": resolved_gateway_url,
+                                        "model": model,
+                                        "reasoning_effort": reasoning,
+                                        "temperature": float(temperature),
+                                        "prompt": str(prompt_path),
+                                        "prompt_sha256": prompt_digest,
+                                        "attempts_used": int(attempts_used),
+                                        "categories": wanted_categories,
+                                        "auto_corrections": auto_corrections or [],
+                                    },
+                                    indent=2,
+                                )
+                            )
+
                         last_error = "unknown"
                         for attempt in range(1, attempts + 1):
                             prompt = base_prompt if attempt == 1 else _retry_prompt(base_prompt, attempt=attempt, error=last_error)
@@ -1315,29 +1346,10 @@ def run_agreement_metadata_v1(
                                 continue
 
                             # Success.
-                            artifact_path = out_dir / f"{item_id}.json"
-                            artifact_path.write_text(json.dumps(artifact.model_dump(mode="json"), indent=2))
-                            meta_path = out_dir / f"{item_id}.meta.json"
-                            meta_path.write_text(
-                                json.dumps(
-                                    {
-                                        "schema_version": "agreement_metadata_v1_artifact_meta",
-                                        "stage": "agreement_metadata_v1",
-                                        "run_id": paths.run_id,
-                                        "item_id": item_id,
-                                        "created_at": int(time.time()),
-                                        "gateway_url": resolved_gateway_url,
-                                        "model": model,
-                                        "reasoning_effort": reasoning,
-                                        "temperature": float(temperature),
-                                        "prompt": str(prompt_path),
-                                        "prompt_sha256": prompt_digest,
-                                        "attempts_used": attempt,
-                                        "categories": wanted_categories,
-                                        "auto_corrections": auto_corrections,
-                                    },
-                                    indent=2,
-                                )
+                            _write_outputs(
+                                artifact_json=artifact.model_dump(mode="json"),
+                                attempts_used=attempt,
+                                auto_corrections=auto_corrections,
                             )
                             return
 

@@ -24,7 +24,7 @@ from .definitions_compiler_v1 import (
     _validate_compiler_output_v2_ast,
 )  # reuse stable schema validation + context selection
 from .excerpt_packs import build_excerpt_pack_from_canonical
-from .indexing import _ensure_gateway_client_async, DEFAULT_GATEWAY_URL  # type: ignore
+from .llm.gateway import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async
 from .schemas_v2 import IndexingSelectionV2Artifact
 from .utils import assert_exists, prompt_view_path
 

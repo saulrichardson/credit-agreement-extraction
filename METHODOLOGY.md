@@ -9,6 +9,9 @@ This repo is best understood as a **run-scoped evidence pipeline** with a single
 
 There are multiple *pipelines* in the codebase, but they should not represent multiple methodologies. They should be different **artifact families** produced under the same evidence/validation contract.
 
+If you want a “what runs when / what files exist” view (not conceptual), see:
+- `design/PIPELINE_MAP.md`
+
 ## Core concepts (shared across everything)
 
 ### 1) `run_id` (reproducibility boundary)
@@ -55,6 +58,23 @@ When an approach is “production-grade” in this repo, it should follow:
 - retries use explicit validation error feedback
 - final failure is loud (no silent partial outputs)
 - raw model output is saved as a debug sidecar, not the product surface
+
+## Conventions (so stages compose cleanly)
+
+These are the conventions the canonical v2 stages follow today:
+
+- **Deterministic vs LLM-backed is explicit**
+  - Deterministic stages write reproducible artifacts from upstream inputs (no gateway calls).
+  - LLM-backed stages call the gateway and produce strict-ish artifacts plus debug sidecars.
+
+- **Prompts are versioned by path + hash**
+  - Prompt templates live in `prompts/`.
+  - Stages record both the prompt path and its SHA-256 in `runs/<run_id>/manifest.json`.
+
+- **Output subdirectories are part of the experiment boundary**
+  - When a stage supports `--output-subdir`, it selects a subfolder under its stage directory.
+  - The resolved subdir is recorded in the manifest so downstream joins can reference it (see `analysis-export`).
+
 
 ## Artifact families (pipelines)
 

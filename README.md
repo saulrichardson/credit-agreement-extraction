@@ -20,6 +20,7 @@ Start here:
 - `METHODOLOGY.md`
 - `PIPELINES_COVENANT_AND_PRICING.md`
 - `ROADMAP.md`
+- `design/PIPELINE_MAP.md` (functional stage map + artifact graph)
 
 Legacy snapshots (kept out of the canonical branch):
 - `legacy/v1-run-scoped` — older v1 `ingest → normalize → index → retrieve → structured` CLI flow
@@ -92,7 +93,7 @@ pipeline structured-v2 --run-id demo --prompt prompts/prompt_pricing_second_pass
 
 Artifacts:
 - `runs/<run_id>/retrieval_v2/{item_id}_snippets.jsonl`
-- `runs/<run_id>/llm_qa/<prompt_stem>/{item_id}.txt`
+- `runs/<run_id>/llm_qa/<prompt_stem>/{item_id}.json`
 
 Notes:
 - `index-v2` may deterministically add signature-page anchors into `metadata_anchors` when it detects an execution block (e.g., “IN WITNESS WHEREOF”). These additions are recorded in `auto_added_anchors` inside `runs/<run_id>/indexing_v2/{item_id}_anchors.json` so the behavior is not silent.

@@ -32,11 +32,7 @@ from .doc_tools import DocBrowser
 from .pricing_index import build_pricing_index
 from .utils import assert_exists
 
-# Reuse gateway helper/constants from indexing to avoid duplicating config.
-from .indexing import (  # type: ignore
-    _ensure_gateway_client_async,
-    DEFAULT_GATEWAY_URL,
-)
+from .llm.gateway import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async
 
 
 def run_contract_pricing_v2(

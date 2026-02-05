@@ -258,4 +258,3 @@ def analysis_export(
         definitions_v2_subdir=definitions_v2_subdir,
         output_subdir=output_subdir,
     )
-

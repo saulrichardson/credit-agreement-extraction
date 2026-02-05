@@ -11,7 +11,7 @@ from pydantic import BaseModel, ConfigDict, Field, field_validator, model_valida
 
 from .anchors import load_anchor_catalog
 from .config import Paths, REQUIRED_MODEL, REQUIRED_REASONING, prompt_hash, update_manifest
-from .indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async  # type: ignore
+from .llm.gateway import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async
 from .llm.strict_json import StrictJsonFailure, call_strict_json
 from .utils import assert_exists
 

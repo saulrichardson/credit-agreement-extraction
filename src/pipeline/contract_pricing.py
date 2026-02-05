@@ -31,12 +31,7 @@ from .pricing_heuristics import (
     looks_like_regime_intro,
 )
 from .utils import assert_exists
-
-# Reuse gateway helper/constants from indexing to avoid duplicating config.
-from .indexing import (  # type: ignore
-    _ensure_gateway_client_async,
-    DEFAULT_GATEWAY_URL,
-)
+from .llm.gateway import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async
 
 _PLACEHOLDER_TEXT_MARKERS = (
     "verbatim label",

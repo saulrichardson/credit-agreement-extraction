@@ -8,13 +8,8 @@ from typing import Any, Iterable, List, Tuple
 
 from .config import Paths, prompt_hash, update_manifest, REQUIRED_MODEL, REQUIRED_REASONING
 from .llm.strict_json import StrictJsonFailure, call_strict_json
+from .llm.gateway import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async
 from .utils import assert_exists
-
-# Reuse the gateway helpers/constants from indexing to avoid duplicating config.
-from .indexing import (  # type: ignore
-    _ensure_gateway_client_async,
-    DEFAULT_GATEWAY_URL,
-)
 
 
 def _load_snippets_v2(paths: Paths, item_id: str) -> List[dict]:
@@ -189,8 +184,8 @@ def run_structured_v2(
                         f"structured-v2 failed strict JSON after {attempts} attempt(s). Last error: {exc.last_error}"
                     ) from exc
 
-                raw_path = out_dir / f"{item_id}.txt"
-                raw_path.write_text(json.dumps(parsed, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+                artifact_path = out_dir / f"{item_id}.json"
+                artifact_path.write_text(json.dumps(parsed, indent=2, sort_keys=True) + "\n", encoding="utf-8")
             except Exception as exc:  # pragma: no cover - defensive
                 errors.append((item_id, str(exc)))
                 err_path = out_dir / f"{item_id}.error.txt"

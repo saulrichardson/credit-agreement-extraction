@@ -11,11 +11,7 @@ from .contract_pricing_plan_schemas import ContractPricingPlanV2
 from .doc_tools import DocBrowser
 from .utils import assert_exists
 
-# Reuse gateway helper/constants from indexing to avoid duplicating config.
-from .indexing import (  # type: ignore
-    _ensure_gateway_client_async,
-    DEFAULT_GATEWAY_URL,
-)
+from .llm.gateway import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async
 
 
 def _render_planner_prompt(template: str, doc_catalog_json: str) -> str:

@@ -57,4 +57,3 @@ cli.add_command(all_v2)
 
 def main() -> None:
     cli()
-

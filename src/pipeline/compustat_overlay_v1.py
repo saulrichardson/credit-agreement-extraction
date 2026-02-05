@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional
 
 from .config import Paths, REQUIRED_MODEL, REQUIRED_REASONING, prompt_hash, update_manifest
-from .indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async  # type: ignore
+from .llm.gateway import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async
 from .utils import assert_exists
 
 

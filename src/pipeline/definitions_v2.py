@@ -9,7 +9,7 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 from .anchors import load_anchor_catalog
 from .config import Paths, REQUIRED_MODEL, REQUIRED_REASONING, prompt_hash, update_manifest
-from .indexing import _ensure_gateway_client_async, DEFAULT_GATEWAY_URL  # type: ignore
+from .llm.gateway import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async
 from .schemas_v2 import IndexingSelectionV2Artifact
 from .utils import assert_exists, prompt_view_path
 
@@ -21,11 +21,16 @@ def _load_dg_output(paths: Paths, item_id: str, qa_subdir: str) -> Dict[str, Any
     depends on contract_term/search_tokens being present in the dg output.
     """
 
-    path = paths.structured_dir / qa_subdir / f"{item_id}.txt"
+    path_json = paths.structured_dir / qa_subdir / f"{item_id}.json"
+    path_txt = paths.structured_dir / qa_subdir / f"{item_id}.txt"
+    path = path_json if path_json.exists() else path_txt
     if not path.exists():
-        raise FileNotFoundError(f"Missing dg output for {item_id}: expected {path}")
+        raise FileNotFoundError(
+            "Missing structured output for definition targeting. "
+            f"Expected {path_json} (preferred) or legacy {path_txt}."
+        )
     try:
-        doc = json.loads(path.read_text())
+        doc = json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
         raise RuntimeError(f"dg output is not valid JSON for {item_id}: {path}") from exc
     if not isinstance(doc, dict):

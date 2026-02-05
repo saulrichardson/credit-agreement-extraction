@@ -12,7 +12,7 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 from .anchors import load_anchor_catalog
 from .config import Paths, REQUIRED_MODEL, REQUIRED_REASONING, prompt_hash, update_manifest
 from .excerpt_packs import build_excerpt_pack_from_canonical, expand_anchor_ids
-from .indexing import _ensure_gateway_client_async, DEFAULT_GATEWAY_URL  # type: ignore
+from .llm.gateway import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async
 from .indexing_pricing_definitions_v1_schemas import PricingDefinitionsIndexingSelectionV1
 from .schemas_v2 import IndexingSelectionV2Artifact
 from .utils import assert_exists, prompt_view_path
@@ -26,9 +26,14 @@ class MetricTarget:
 
 
 def _load_dg_output(paths: Paths, item_id: str, qa_subdir: str) -> Dict[str, Any]:
-    path = paths.structured_dir / qa_subdir / f"{item_id}.txt"
+    path_json = paths.structured_dir / qa_subdir / f"{item_id}.json"
+    path_txt = paths.structured_dir / qa_subdir / f"{item_id}.txt"
+    path = path_json if path_json.exists() else path_txt
     if not path.exists():
-        raise FileNotFoundError(f"Missing dg output for {item_id}: expected {path}")
+        raise FileNotFoundError(
+            "Missing structured output for definition compilation. "
+            f"Expected {path_json} (preferred) or legacy {path_txt}."
+        )
     try:
         doc = json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
