@@ -12,6 +12,7 @@ from pydantic import BaseModel, ConfigDict, Field, field_validator, model_valida
 from .anchors import load_anchor_catalog
 from .config import Paths, REQUIRED_MODEL, REQUIRED_REASONING, prompt_hash, update_manifest
 from .indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async  # type: ignore
+from .llm.strict_json import StrictJsonFailure, call_strict_json
 from .utils import assert_exists
 
 
@@ -289,7 +290,8 @@ def _render_prompt(template: str, snippets_block: str) -> str:
     return f"{template}\n\n=== INPUT ===\n{snippets_block}"
 
 
-def _retry_prompt(base_prompt: str, *, attempt: int, error: str) -> str:
+def _retry_prompt(base_prompt: str, attempt: int, error: str, previous_output: str) -> str:
+    _ = previous_output
     if attempt == 2:
         rules = (
             "Your previous response was not valid. Fix it.\n"
@@ -308,20 +310,6 @@ def _retry_prompt(base_prompt: str, *, attempt: int, error: str) -> str:
             "- If you cannot support a field from the snippets, use null/[] and explain briefly in notes.\n"
         )
     return f"{base_prompt}\n\n=== RETRY REQUIRED ===\nError: {error}\n\n{rules}"
-
-
-async def _call_gateway(*, client: Any, prompt: str, model: str, temperature: float, reasoning: str | None) -> str:
-    result = await client.complete_response(
-        model=model,
-        input_messages=[{"role": "user", "content": prompt}],
-        reasoning={"effort": reasoning} if reasoning else None,
-        temperature=temperature,
-        max_output_tokens=None,
-        metadata=None,
-    )
-    if isinstance(result, dict):
-        return result.get("text") or ""
-    return str(result)
 
 
 def run_facility_fundamentals_v1(
@@ -393,78 +381,82 @@ def run_facility_fundamentals_v1(
 
                         catalog = load_anchor_catalog(paths, item_id)
 
-                        last_error = "unknown"
-                        for attempt in range(1, attempts + 1):
-                            prompt = base_prompt if attempt == 1 else _retry_prompt(base_prompt, attempt=attempt, error=last_error)
-                            raw_text = await _call_gateway(
-                                client=client,
-                                prompt=prompt,
-                                model=model,
-                                temperature=temperature,
-                                reasoning=reasoning,
-                            )
-                            (out_dir / f"{item_id}.attempt{attempt}.raw.txt").write_text(raw_text)
-
-                            try:
-                                payload = json.loads(raw_text)
-                            except json.JSONDecodeError as exc:
-                                last_error = f"invalid JSON: {exc}"
-                                continue
-
+                        def _validate(payload: object) -> FacilityFundamentalsArtifact:
                             try:
                                 artifact = FacilityFundamentalsArtifact.model_validate(payload)
                             except Exception as exc:
-                                last_error = f"schema validation failed: {exc}"
-                                continue
+                                raise ValueError(f"schema validation failed: {exc}") from exc
 
                             if artifact.schema_version != "facility_fundamentals_v1":
-                                last_error = (
+                                raise ValueError(
                                     "schema_version mismatch: expected 'facility_fundamentals_v1' "
                                     f"got {artifact.schema_version!r}"
                                 )
-                                continue
 
                             # Validate that every referenced anchor exists in anchors.tsv.
                             def _check_anchors(anchor_ids: list[str], *, ctx: str) -> None:
                                 missing = [a for a in anchor_ids if a not in catalog]
                                 if missing:
-                                    raise RuntimeError(f"{ctx}: unknown anchor_ids (examples): {missing[:10]}")
+                                    raise ValueError(f"{ctx}: unknown anchor_ids (examples): {missing[:10]}")
 
                             if artifact.agreement_closing_date is not None:
-                                _check_anchors(artifact.agreement_closing_date.source_refs, ctx="agreement_closing_date.source_refs")
+                                _check_anchors(
+                                    artifact.agreement_closing_date.source_refs,
+                                    ctx="agreement_closing_date.source_refs",
+                                )
                             if artifact.agreement_effective_date is not None:
                                 _check_anchors(
-                                    artifact.agreement_effective_date.source_refs, ctx="agreement_effective_date.source_refs"
+                                    artifact.agreement_effective_date.source_refs,
+                                    ctx="agreement_effective_date.source_refs",
                                 )
-                            for i, f in enumerate(artifact.facilities):
-                                _check_anchors(f.source_refs, ctx=f"facilities[{i}].source_refs")
+                            for i, facility in enumerate(artifact.facilities):
+                                _check_anchors(facility.source_refs, ctx=f"facilities[{i}].source_refs")
 
-                            # Success.
-                            artifact_path = out_dir / f"{item_id}.json"
-                            artifact_path.write_text(json.dumps(artifact.model_dump(mode="json"), indent=2))
-                            meta_path = out_dir / f"{item_id}.meta.json"
-                            meta_path.write_text(
-                                json.dumps(
-                                    {
-                                        "schema_version": "facility_fundamentals_v1_artifact_meta",
-                                        "stage": "facility_fundamentals_v1",
-                                        "run_id": paths.run_id,
-                                        "item_id": item_id,
-                                        "created_at": int(time.time()),
-                                        "gateway_url": resolved_gateway_url,
-                                        "model": model,
-                                        "reasoning_effort": reasoning,
-                                        "temperature": float(temperature),
-                                        "prompt": str(prompt_path),
-                                        "prompt_sha256": prompt_digest,
-                                        "attempts_used": attempt,
-                                    },
-                                    indent=2,
-                                )
+                            return artifact
+
+                        try:
+                            artifact, _raw_text, attempts_used = await call_strict_json(
+                                client=client,
+                                prompt=base_prompt,
+                                model=model,
+                                temperature=temperature,
+                                reasoning=reasoning,
+                                attempts=attempts,
+                                retry_prompt=_retry_prompt,
+                                allowed_root_types=(dict,),
+                                validate=_validate,
+                                on_attempt=lambda attempt, raw_text: (out_dir / f"{item_id}.attempt{attempt}.raw.txt").write_text(
+                                    raw_text
+                                ),
                             )
+                        except StrictJsonFailure as exc:
+                            failures.append((item_id, exc.last_error))
                             return
 
-                        failures.append((item_id, last_error))
+                        # Success.
+                        artifact_path = out_dir / f"{item_id}.json"
+                        artifact_path.write_text(json.dumps(artifact.model_dump(mode="json"), indent=2))
+                        meta_path = out_dir / f"{item_id}.meta.json"
+                        meta_path.write_text(
+                            json.dumps(
+                                {
+                                    "schema_version": "facility_fundamentals_v1_artifact_meta",
+                                    "stage": "facility_fundamentals_v1",
+                                    "run_id": paths.run_id,
+                                    "item_id": item_id,
+                                    "created_at": int(time.time()),
+                                    "gateway_url": resolved_gateway_url,
+                                    "model": model,
+                                    "reasoning_effort": reasoning,
+                                    "temperature": float(temperature),
+                                    "prompt": str(prompt_path),
+                                    "prompt_sha256": prompt_digest,
+                                    "attempts_used": attempts_used,
+                                },
+                                indent=2,
+                            )
+                        )
+                        return
                     except Exception as exc:
                         failures.append((item_id, str(exc)))
 

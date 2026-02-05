@@ -9,6 +9,7 @@ from typing import Iterable
 from .anchors import load_anchor_catalog
 from .config import Paths, REQUIRED_MODEL, REQUIRED_REASONING, prompt_hash, update_manifest
 from .indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async
+from .llm.strict_json import StrictJsonFailure, call_strict_json
 from .schemas_v2 import IndexingSelectionV2, IndexingSelectionV2Artifact
 from .utils import assert_exists
 
@@ -33,7 +34,8 @@ def _render_prompt(template: str, doc_block: str) -> str:
     return template.replace("{document}", doc_block)
 
 
-def _retry_prompt(base_prompt: str, *, attempt: int, error: str) -> str:
+def _retry_prompt(base_prompt: str, attempt: int, error: str, previous_output: str) -> str:
+    _ = previous_output
     if attempt == 2:
         rules = (
             "Your previous response was not valid. Fix it.\n"
@@ -59,20 +61,6 @@ def _retry_prompt(base_prompt: str, *, attempt: int, error: str) -> str:
             "- If a bucket has no anchors, return an empty array for that bucket (but keep the key).\n"
         )
     return f"{base_prompt}\n\n=== RETRY REQUIRED ===\nError: {error}\n\n{rules}"
-
-
-async def _call_gateway(*, client, prompt: str, model: str, temperature: float, reasoning: str | None) -> str:
-    result = await client.complete_response(
-        model=model,
-        input_messages=[{"role": "user", "content": prompt}],
-        reasoning={"effort": reasoning} if reasoning else None,
-        temperature=temperature,
-        max_output_tokens=None,
-        metadata=None,
-    )
-    if isinstance(result, dict):
-        return result.get("text") or ""
-    return str(result)
 
 
 def run_indexing_v2(
@@ -123,35 +111,11 @@ def run_indexing_v2(
                     doc_block = _canonical_annotated_text(paths, item_id)
                     base_prompt = _render_prompt(prompt_template, doc_block)
 
-                    last_error = "unknown"
-                    for attempt in range(1, attempts + 1):
-                        prompt = base_prompt
-                        if attempt > 1:
-                            prompt = _retry_prompt(base_prompt, attempt=attempt, error=last_error)
-
-                        try:
-                            raw_text = await _call_gateway(
-                                client=client,
-                                prompt=prompt,
-                                model=model or REQUIRED_MODEL,
-                                temperature=temperature,
-                                reasoning=reasoning,
-                            )
-                        except Exception as exc:
-                            last_error = f"gateway call failed: {exc}"
-                            continue
-
-                        try:
-                            payload = json.loads(raw_text)
-                        except json.JSONDecodeError as exc:
-                            last_error = f"invalid JSON: {exc}"
-                            continue
-
+                    def _validate(payload: object) -> IndexingSelectionV2:
                         try:
                             selection = IndexingSelectionV2.model_validate(payload)
                         except Exception as exc:
-                            last_error = f"schema validation failed: {exc}"
-                            continue
+                            raise ValueError(f"schema validation failed: {exc}") from exc
 
                         invalid: list[str] = []
                         for bucket in (
@@ -176,45 +140,59 @@ def run_indexing_v2(
                                 invalid.append(dr.end_anchor)
                         if invalid:
                             examples = ", ".join(sorted(set(invalid))[:10])
-                            last_error = (
+                            raise ValueError(
                                 "returned anchor_id values not present in anchors.tsv "
                                 f"(count={len(invalid)}; examples={examples})"
                             )
-                            continue
 
                         if selection.definitions_anchor_range is not None:
                             dr = selection.definitions_anchor_range
                             start_order = int(catalog[dr.start_anchor]["order"])
                             end_order = int(catalog[dr.end_anchor]["order"])
                             if start_order > end_order:
-                                last_error = (
+                                raise ValueError(
                                     "definitions_anchor_range has start_anchor after end_anchor "
                                     f"(start={dr.start_anchor} order={start_order}; end={dr.end_anchor} order={end_order})"
                                 )
-                                continue
 
-                        auto_added_anchors: list[dict] = []
+                        return selection
 
-                        artifact = IndexingSelectionV2Artifact(
-                            schema_version="indexing_selection_v2",
-                            stage="indexing_v2",
-                            run_id=paths.run_id,
-                            item_id=item_id,
-                            created_at=int(time.time()),
-                            gateway_url=resolved_gateway_url,
-                            model=model,
-                            reasoning_effort=reasoning,
-                            temperature=float(temperature),
-                            prompt=str(prompt_path),
-                            prompt_sha256=prompt_digest,
-                            attempts_used=attempt,
-                            selection=selection,
-                            auto_added_anchors=auto_added_anchors,
+                    try:
+                        selection, _raw_text, attempts_used = await call_strict_json(
+                            client=client,
+                            prompt=base_prompt,
+                            model=model or REQUIRED_MODEL,
+                            temperature=temperature,
+                            reasoning=reasoning,
+                            attempts=attempts,
+                            retry_prompt=_retry_prompt,
+                            allowed_root_types=(dict,),
+                            validate=_validate,
                         )
-                        json_path.write_text(artifact.model_dump_json(indent=2))
+                    except StrictJsonFailure as exc:
+                        failures.append((item_id, exc.last_error))
                         return
 
-                    failures.append((item_id, last_error))
+                    auto_added_anchors: list[dict] = []
+
+                    artifact = IndexingSelectionV2Artifact(
+                        schema_version="indexing_selection_v2",
+                        stage="indexing_v2",
+                        run_id=paths.run_id,
+                        item_id=item_id,
+                        created_at=int(time.time()),
+                        gateway_url=resolved_gateway_url,
+                        model=model,
+                        reasoning_effort=reasoning,
+                        temperature=float(temperature),
+                        prompt=str(prompt_path),
+                        prompt_sha256=prompt_digest,
+                        attempts_used=attempts_used,
+                        selection=selection,
+                        auto_added_anchors=auto_added_anchors,
+                    )
+                    json_path.write_text(artifact.model_dump_json(indent=2))
+                    return
 
             await asyncio.gather(*(_process(i) for i in items))
 

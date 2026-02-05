@@ -13,6 +13,7 @@ from pydantic import BaseModel, ConfigDict, Field, field_validator
 from .anchors import load_anchor_catalog
 from .config import Paths, REQUIRED_MODEL, REQUIRED_REASONING, prompt_hash, update_manifest
 from .indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async  # type: ignore
+from .llm.strict_json import StrictJsonFailure, call_strict_json
 from .utils import assert_exists, prompt_view_path
 
 ANCHOR_ID_RE = re.compile(r"^A\d{4,}$")
@@ -249,18 +250,15 @@ def _render_prompt(template: str, *, chunk_id: int, chunk_text: str) -> str:
     return out
 
 
-async def _call_gateway(*, client: Any, prompt: str, model: str, temperature: float, reasoning: str | None) -> str:
-    result = await client.complete_response(
-        model=model,
-        input_messages=[{"role": "user", "content": prompt}],
-        reasoning={"effort": reasoning} if reasoning else None,
-        temperature=temperature,
-        max_output_tokens=None,
-        metadata=None,
+def _retry_prompt(base_prompt: str, attempt: int, error: str, previous_output: str) -> str:
+    _ = attempt
+    _ = previous_output
+    strict = (
+        "=== RETRY REQUIRED ===\n"
+        f"Error: {error}\n\n"
+        "Return JSON ONLY matching the exact schema. No extra keys.\n"
     )
-    if isinstance(result, dict):
-        return result.get("text") or ""
-    return str(result)
+    return f"{base_prompt}\n\n{strict}"
 
 
 def run_toc_v1(
@@ -348,44 +346,34 @@ def run_toc_v1(
                     chunk_text = _render_chunk_text(anchor_ids, anchor_text_by_id)
                     base_prompt = _render_prompt(chunk_template, chunk_id=idx, chunk_text=chunk_text)
 
-                    last_error = "unknown"
-                    parsed: TocChunkV1 | None = None
-                    for attempt in range(1, attempts + 1):
-                        prompt = base_prompt
-                        if attempt > 1:
-                            strict = (
-                                "=== RETRY REQUIRED ===\n"
-                                f"Error: {last_error}\n\n"
-                                "Return JSON ONLY matching the exact schema. No extra keys.\n"
-                            )
-                            prompt = f"{base_prompt}\n\n{strict}"
-                        raw = await _call_gateway(
-                            client=client,
-                            prompt=prompt,
-                            model=model,
-                            temperature=temperature,
-                            reasoning=reasoning,
-                        )
-                        (out_dir / f"{item_id}.chunk{idx}.attempt{attempt}.raw.txt").write_text(raw)
-
-                        try:
-                            payload = json.loads(raw)
-                        except json.JSONDecodeError as exc:
-                            last_error = f"invalid JSON: {exc}"
-                            continue
+                    def _validate(payload: object) -> TocChunkV1:
                         try:
                             parsed = TocChunkV1.model_validate(payload)
                         except Exception as exc:
-                            last_error = f"schema validation failed: {exc}"
-                            continue
+                            raise ValueError(f"schema validation failed: {exc}") from exc
                         if parsed.chunk_id != idx:
-                            last_error = f"chunk_id mismatch: expected {idx}, got {parsed.chunk_id}"
-                            parsed = None
-                            continue
-                        break
+                            raise ValueError(f"chunk_id mismatch: expected {idx}, got {parsed.chunk_id}")
+                        return parsed
 
-                    if not parsed:
-                        raise RuntimeError(f"Failed to produce valid toc_chunk_v1 for chunk {idx}: {last_error}")
+                    try:
+                        parsed, _raw_text, _attempts_used = await call_strict_json(
+                            client=client,
+                            prompt=base_prompt,
+                            model=model,
+                            temperature=temperature,
+                            reasoning=reasoning,
+                            attempts=attempts,
+                            retry_prompt=_retry_prompt,
+                            allowed_root_types=(dict,),
+                            validate=_validate,
+                            on_attempt=lambda attempt, raw_text: (out_dir / f"{item_id}.chunk{idx}.attempt{attempt}.raw.txt").write_text(
+                                raw_text
+                            ),
+                        )
+                    except StrictJsonFailure as exc:
+                        raise RuntimeError(
+                            f"Failed to produce valid toc_chunk_v1 for chunk {idx}: {exc.last_error}"
+                        ) from exc
 
                     start_anchor = anchor_ids[0]
                     end_anchor = anchor_ids[-1]
@@ -423,19 +411,22 @@ def run_toc_v1(
                     ]
                     input_block = json.dumps(entries, indent=2)
                     prompt = high_template.replace("{{CHUNK_ENTRIES}}", input_block)
-                    raw = await _call_gateway(
-                        client=client,
-                        prompt=prompt,
-                        model=model,
-                        temperature=temperature,
-                        reasoning=reasoning,
-                    )
-                    (out_dir / f"{item_id}.high_level.raw.txt").write_text(raw)
                     try:
-                        payload = json.loads(raw)
-                        high_level = TocHighLevelV1.model_validate(payload)
-                    except Exception as exc:
-                        raise RuntimeError(f"High-level TOC output invalid for {item_id}: {exc}") from exc
+                        high_level, _raw_text, _attempts_used = await call_strict_json(
+                            client=client,
+                            prompt=prompt,
+                            model=model,
+                            temperature=temperature,
+                            reasoning=reasoning,
+                            attempts=1,
+                            allowed_root_types=(dict,),
+                            validate=lambda payload: TocHighLevelV1.model_validate(payload),
+                            on_attempt=lambda attempt, raw_text: (out_dir / f"{item_id}.high_level.raw.txt").write_text(
+                                raw_text
+                            ),
+                        )
+                    except StrictJsonFailure as exc:
+                        raise RuntimeError(f"High-level TOC output invalid for {item_id}: {exc.last_error}") from exc
 
                 artifact = DocumentTocV1(
                     schema_version="document_toc_v1",
