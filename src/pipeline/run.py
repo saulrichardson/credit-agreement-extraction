@@ -9,13 +9,9 @@ from .config import FilterSpec, RunConfig, REQUIRED_MODEL, REQUIRED_REASONING
 from .filters import load_filter_spec, load_doc_filter
 from .ingest import ingest_tarballs
 from .normalize import build_prompt_views
-from .indexing import run_indexing
-from .retrieval import render_snippets
-from .structured import run_structured
 from .structured_v2 import run_structured_v2
 from .contract_pricing import run_contract_pricing
 from .retrieval_v2 import render_snippets_v2
-from .validation import run_validation
 from .utils import load_manifest, manifest_items, read_accessions_file
 from .run_id import validate_run_id
 from .indexing_v2 import run_indexing_v2
@@ -103,83 +99,6 @@ def normalize(run_id: str, base_dir: str):
     items = manifest_items(manifest)
     build_prompt_views(paths, manifest)
     click.echo(f"[normalize] Built prompt views for {len(items)} items (exhibits).")
-
-
-@cli.command()
-@click.option("--run-id", required=True, callback=validate_run_id)
-@click.option("--prompt", "prompt_path", type=click.Path(exists=True, dir_okay=False), required=True)
-@click.option("--base-dir", default=".", show_default=True)
-@click.option(
-    "--model",
-    default=REQUIRED_MODEL,
-    show_default=True,
-    help="Gateway model (enforced).",
-)
-@click.option("--gateway-url", default=None, help="Gateway base URL; defaults to $GATEWAY_URL.")
-@click.option("--temperature", default=0.0, show_default=True, type=float)
-@click.option(
-    "--reasoning",
-    default=REQUIRED_REASONING,
-    type=click.Choice(["light", "medium", "heavy"], case_sensitive=False),
-    show_default=True,
-    help="Reasoning effort (enforced).",
-)
-@click.option(
-    "--gateway-timeout",
-    default=600.0,
-    show_default=True,
-    type=float,
-    help="Gateway client timeout (seconds) for indexing calls.",
-)
-@click.option(
-    "--concurrency",
-    default=3,
-    show_default=True,
-    type=int,
-    help="Number of parallel gateway calls during indexing (only when --model is set).",
-)
-@click.option(
-    "--item-id",
-    "item_ids",
-    multiple=True,
-    help="Optional item_id(s) to index (defaults to all items in the run manifest).",
-)
-def index(
-    run_id: str,
-    prompt_path: str,
-    base_dir: str,
-    model: str,
-    gateway_url: str,
-    temperature: float,
-    reasoning: str | None,
-    gateway_timeout: float,
-    concurrency: int,
-    item_ids: tuple[str, ...],
-):
-    """Run anchor indexing via agent-gateway (or pass-through when model is omitted)."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
-    paths = rc.paths()
-    manifest = load_manifest(paths.manifest_path)
-    items = manifest_items(manifest)
-    manifest_item_ids = {item["item_id"] for item in items}
-    if item_ids:
-        unknown = sorted(set(item_ids) - manifest_item_ids)
-        if unknown:
-            raise click.UsageError(f"Unknown --item-id values not present in manifest: {', '.join(unknown)}")
-        selected_item_ids = list(item_ids)
-    else:
-        selected_item_ids = [item["item_id"] for item in items]
-    run_indexing(
-        paths,
-        selected_item_ids,
-        Path(prompt_path),
-        model=model,
-        gateway_url=gateway_url,
-        temperature=temperature,
-        reasoning=reasoning,
-        gateway_timeout=gateway_timeout,
-        concurrency=concurrency,
-    )
 
 
 @cli.command(name="index-v2")
@@ -274,33 +193,6 @@ def index_v2(
         skip_existing=bool(skip_existing),
     )
 
-@cli.command()
-@click.option("--run-id", required=True, callback=validate_run_id)
-@click.option("--bandwidth", default=400, show_default=True, type=int)
-@click.option("--base-dir", default=".", show_default=True)
-@click.option(
-    "--item-id",
-    "item_ids",
-    multiple=True,
-    help="Optional item_id(s) to retrieve snippets for (defaults to all items in the run manifest).",
-)
-def retrieve(run_id: str, bandwidth: int, base_dir: str, item_ids: tuple[str, ...]):
-    """Render snippets around anchors."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=bandwidth)
-    paths = rc.paths()
-    manifest = load_manifest(paths.manifest_path)
-    items = manifest_items(manifest)
-    manifest_item_ids = {item["item_id"] for item in items}
-    if item_ids:
-        unknown = sorted(set(item_ids) - manifest_item_ids)
-        if unknown:
-            raise click.UsageError(f"Unknown --item-id values not present in manifest: {', '.join(unknown)}")
-        selected_item_ids = list(item_ids)
-    else:
-        selected_item_ids = [item["item_id"] for item in items]
-    render_snippets(paths, selected_item_ids, bandwidth=bandwidth)
-
-
 @cli.command(name="retrieve-v2")
 @click.option("--run-id", required=True, callback=validate_run_id)
 @click.option("--bandwidth", default=400, show_default=True, type=int)
@@ -326,107 +218,6 @@ def retrieve_v2(run_id: str, bandwidth: int, base_dir: str, item_ids: tuple[str,
     else:
         selected_item_ids = [item["item_id"] for item in items]
     render_snippets_v2(paths, selected_item_ids, bandwidth=bandwidth)
-
-
-@cli.command()
-@click.option("--run-id", required=True, callback=validate_run_id)
-@click.option("--prompt", "prompt_path", type=click.Path(exists=True, dir_okay=False), required=True)
-@click.option("--base-dir", default=".", show_default=True)
-@click.option(
-    "--input-mode",
-    default="snippets",
-    type=click.Choice(["snippets", "full_document"], case_sensitive=False),
-    show_default=True,
-    help="Structured input source: retrieval snippets or normalized full document (canonical_annotated.txt).",
-)
-@click.option(
-    "--model",
-    default=REQUIRED_MODEL,
-    show_default=True,
-    help="Gateway model for structured extraction (enforced).",
-)
-@click.option("--gateway-url", default=None, help="Gateway base URL; defaults to $GATEWAY_URL.")
-@click.option("--temperature", default=0.0, show_default=True, type=float)
-@click.option(
-    "--reasoning",
-    default=REQUIRED_REASONING,
-    type=click.Choice(["light", "medium", "heavy"], case_sensitive=False),
-    show_default=True,
-    help="Reasoning effort (enforced).",
-)
-@click.option(
-    "--gateway-timeout",
-    default=600.0,
-    show_default=True,
-    type=float,
-    help="Gateway client timeout (seconds) for structured calls.",
-)
-@click.option(
-    "--concurrency",
-    default=3,
-    show_default=True,
-    type=int,
-    help="Number of parallel gateway calls during structured extraction.",
-)
-@click.option(
-    "--output-subdir",
-    default=None,
-    help="Optional subfolder under runs/<run_id>/llm_qa/ for outputs (defaults to prompt filename stem).",
-)
-@click.option(
-    "--category",
-    "categories",
-    multiple=True,
-    help="Optional category filter (repeatable). Example: --category financial_covenant",
-)
-@click.option(
-    "--item-id",
-    "item_ids",
-    multiple=True,
-    help="Optional item_id(s) to run structured extraction for (defaults to all items in the run manifest).",
-)
-def structured(
-    run_id: str,
-    prompt_path: str,
-    base_dir: str,
-    input_mode: str,
-    model: str | None,
-    gateway_url: str | None,
-    temperature: float,
-    reasoning: str | None,
-    gateway_timeout: float,
-    concurrency: int,
-    output_subdir: str | None,
-    categories: tuple[str, ...],
-    item_ids: tuple[str, ...],
-):
-    """Structured extraction over snippets."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
-    paths = rc.paths()
-    input_mode = input_mode.lower()
-    manifest = load_manifest(paths.manifest_path)
-    items = manifest_items(manifest)
-    manifest_item_ids = {item["item_id"] for item in items}
-    if item_ids:
-        unknown = sorted(set(item_ids) - manifest_item_ids)
-        if unknown:
-            raise click.UsageError(f"Unknown --item-id values not present in manifest: {', '.join(unknown)}")
-        selected_item_ids = list(item_ids)
-    else:
-        selected_item_ids = [item["item_id"] for item in items]
-    run_structured(
-        paths,
-        selected_item_ids,
-        Path(prompt_path),
-        input_mode=input_mode,  # type: ignore[arg-type]
-        model=model,
-        gateway_url=gateway_url,
-        temperature=temperature,
-        reasoning=reasoning,
-        gateway_timeout=gateway_timeout,
-        concurrency=concurrency,
-        output_subdir=output_subdir,
-    )
 
 
 @cli.command(name="structured-v2")
@@ -463,6 +254,13 @@ def structured(
     help="Number of parallel gateway calls during structured extraction.",
 )
 @click.option(
+    "--attempts",
+    default=3,
+    show_default=True,
+    type=int,
+    help="Strict JSON attempts per item before failing.",
+)
+@click.option(
     "--output-subdir",
     default=None,
     help="Optional subfolder under runs/<run_id>/llm_qa/ for outputs (defaults to prompt filename stem).",
@@ -489,11 +287,12 @@ def structured_v2(
     reasoning: str | None,
     gateway_timeout: float,
     concurrency: int,
+    attempts: int,
     output_subdir: str | None,
     categories: tuple[str, ...],
     item_ids: tuple[str, ...],
 ):
-    """Structured extraction over v2 retrieval snippets."""
+    """Structured extraction over v2 retrieval snippets (strict JSON)."""
     rc = _resolve_paths(run_id, base_dir, bandwidth=4)
     paths = rc.paths()
     manifest = load_manifest(paths.manifest_path)
@@ -516,6 +315,7 @@ def structured_v2(
         reasoning=reasoning,
         gateway_timeout=gateway_timeout,
         concurrency=concurrency,
+        attempts=attempts,
         output_subdir=output_subdir,
         categories=categories,
     )
@@ -596,124 +396,6 @@ def contract_pricing(
         concurrency=concurrency,
         output_subdir=output_subdir,
         attempts=attempts,
-    )
-
-
-@cli.command(name="contract-pricing-v2")
-@click.option("--run-id", required=True, callback=validate_run_id)
-@click.option(
-    "--planner-prompt",
-    "planner_prompt_path",
-    type=click.Path(exists=True, dir_okay=False),
-    default="prompts/contract_pricing_planner_v2.txt",
-    show_default=True,
-    help="Prompt used by the agentic planner to select pricing tables + axis semantics.",
-)
-@click.option(
-    "--table-prompt",
-    "table_prompt_path",
-    type=click.Path(exists=True, dir_okay=False),
-    default="prompts/contract_pricing_table_v1.txt",
-    show_default=True,
-    help="Prompt used to compile a single pricing table into the strict schema.",
-)
-@click.option("--base-dir", default=".", show_default=True)
-@click.option("--gateway-url", default=None, help="Gateway base URL; defaults to $GATEWAY_URL.")
-@click.option("--planner-model", default="openai:gpt-5-mini", show_default=True)
-@click.option(
-    "--planner-reasoning",
-    default="high",
-    show_default=True,
-    type=click.Choice(["none", "minimal", "low", "medium", "high", "xhigh"], case_sensitive=False),
-)
-@click.option("--planner-temperature", default=0.0, show_default=True, type=float)
-@click.option("--planner-max-steps", default=12, show_default=True, type=int)
-@click.option("--planner-attempts-per-step", default=3, show_default=True, type=int)
-@click.option("--compiler-temperature", default=0.0, show_default=True, type=float)
-@click.option(
-    "--gateway-timeout",
-    default=600.0,
-    show_default=True,
-    type=float,
-    help="Gateway client timeout (seconds) for planner + table compiler calls.",
-)
-@click.option(
-    "--concurrency",
-    default=2,
-    show_default=True,
-    type=int,
-    help="Number of parallel gateway calls (per-item) during contract pricing v2 extraction.",
-)
-@click.option(
-    "--attempts",
-    default=3,
-    show_default=True,
-    type=int,
-    help="Number of strict JSON/Pydantic attempts per table before failing.",
-)
-@click.option(
-    "--output-subdir",
-    default="contract_pricing_v2",
-    show_default=True,
-    help="Subfolder under runs/<run_id>/contract_pricing/ for outputs.",
-)
-@click.option(
-    "--item-id",
-    "item_ids",
-    multiple=True,
-    help="Optional item_id(s) to extract pricing for (defaults to all items in the run manifest).",
-)
-def contract_pricing_v2(
-    run_id: str,
-    planner_prompt_path: str,
-    table_prompt_path: str,
-    base_dir: str,
-    gateway_url: str | None,
-    planner_model: str,
-    planner_reasoning: str,
-    planner_temperature: float,
-    planner_max_steps: int,
-    planner_attempts_per_step: int,
-    compiler_temperature: float,
-    gateway_timeout: float,
-    concurrency: int,
-    attempts: int,
-    output_subdir: str,
-    item_ids: tuple[str, ...],
-):
-    """Extract pricing regimes with an agentic planner (no embeddings) + strict per-table compilation."""
-
-    from .contract_pricing_v2 import run_contract_pricing_v2
-
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
-    paths = rc.paths()
-    manifest = load_manifest(paths.manifest_path)
-    items = manifest_items(manifest)
-    manifest_item_ids = {item["item_id"] for item in items}
-    if item_ids:
-        unknown = sorted(set(item_ids) - manifest_item_ids)
-        if unknown:
-            raise click.UsageError(f"Unknown --item-id values not present in manifest: {', '.join(unknown)}")
-        selected_item_ids = list(item_ids)
-    else:
-        selected_item_ids = [item["item_id"] for item in items]
-
-    run_contract_pricing_v2(
-        paths,
-        selected_item_ids,
-        planner_prompt_path=Path(planner_prompt_path),
-        table_prompt_path=Path(table_prompt_path),
-        gateway_url=gateway_url,
-        planner_model=planner_model,
-        planner_reasoning=planner_reasoning,
-        planner_temperature=planner_temperature,
-        planner_max_steps=planner_max_steps,
-        planner_attempts_per_step=planner_attempts_per_step,
-        compiler_temperature=compiler_temperature,
-        gateway_timeout=gateway_timeout,
-        concurrency=concurrency,
-        attempts=attempts,
-        output_subdir=output_subdir,
     )
 
 
@@ -918,141 +600,6 @@ def contract_pricing_v3(
     )
 
 
-@cli.command(name="agreement-pricing-v1")
-@click.option("--run-id", required=True, callback=validate_run_id)
-@click.option(
-    "--compiler-prompt",
-    "compiler_prompt_path",
-    type=click.Path(exists=True, dir_okay=False),
-    default="prompts/agreement_pricing_model_v1_compiler.txt",
-    show_default=True,
-    help="Prompt used to compile anchored pricing evidence into AgreementPricingModelV1 (pricing as code).",
-)
-@click.option(
-    "--scan-prompt",
-    "scan_prompt_path",
-    type=click.Path(exists=True, dir_okay=False),
-    default="prompts/semantic_pricing_scan_chunk_v2_any_anchor.txt",
-    show_default=True,
-    help="Prompt used for coverage-first semantic scan chunks (any anchor may be a pricing block).",
-)
-@click.option("--base-dir", default=".", show_default=True)
-@click.option("--gateway-url", default=None, help="Gateway base URL; defaults to $GATEWAY_URL.")
-@click.option("--compiler-model", default="openai:gpt-5-mini", show_default=True)
-@click.option(
-    "--compiler-reasoning",
-    default="high",
-    show_default=True,
-    type=click.Choice(["none", "minimal", "low", "medium", "high", "xhigh"], case_sensitive=False),
-)
-@click.option("--compiler-temperature", default=0.0, show_default=True, type=float)
-@click.option("--scan-model", default="openai:gpt-5-mini", show_default=True)
-@click.option(
-    "--scan-reasoning",
-    default="high",
-    show_default=True,
-    type=click.Choice(["none", "minimal", "low", "medium", "high", "xhigh"], case_sensitive=False),
-)
-@click.option("--scan-temperature", default=0.0, show_default=True, type=float)
-@click.option("--scan-max-chunk-chars", default=20000, show_default=True, type=int)
-@click.option("--scan-overlap-anchors", default=5, show_default=True, type=int)
-@click.option("--scan-max-anchors-per-chunk", default=120, show_default=True, type=int)
-@click.option("--scan-attempts-per-chunk", default=3, show_default=True, type=int)
-@click.option(
-    "--neighbor-window",
-    default=2,
-    show_default=True,
-    type=int,
-    help="Deterministic +/- anchor window included around scan-selected pricing anchors.",
-)
-@click.option(
-    "--concurrency",
-    default=1,
-    show_default=True,
-    type=int,
-    help="Number of parallel gateway calls (per-item) during agreement pricing compilation.",
-)
-@click.option(
-    "--attempts",
-    default=3,
-    show_default=True,
-    type=int,
-    help="Number of strict JSON/Pydantic attempts per item before failing.",
-)
-@click.option(
-    "--output-subdir",
-    default="agreement_pricing_v1",
-    show_default=True,
-    help="Subfolder under runs/<run_id>/agreement_pricing/ for outputs.",
-)
-@click.option(
-    "--item-id",
-    "item_ids",
-    multiple=True,
-    help="Optional item_id(s) to extract pricing for (defaults to all items in the run manifest).",
-)
-def agreement_pricing_v1(
-    run_id: str,
-    compiler_prompt_path: str,
-    scan_prompt_path: str,
-    base_dir: str,
-    gateway_url: str | None,
-    compiler_model: str,
-    compiler_reasoning: str,
-    compiler_temperature: float,
-    scan_model: str,
-    scan_reasoning: str,
-    scan_temperature: float,
-    scan_max_chunk_chars: int,
-    scan_overlap_anchors: int,
-    scan_max_anchors_per_chunk: int,
-    scan_attempts_per_chunk: int,
-    neighbor_window: int,
-    concurrency: int,
-    attempts: int,
-    output_subdir: str,
-    item_ids: tuple[str, ...],
-):
-    """Compile pricing as a computation-oriented program (AgreementPricingModelV1)."""
-
-    from .agreement_pricing_v1 import run_agreement_pricing_v1
-
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
-    paths = rc.paths()
-    manifest = load_manifest(paths.manifest_path)
-    items = manifest_items(manifest)
-    manifest_item_ids = {item["item_id"] for item in items}
-    if item_ids:
-        unknown = sorted(set(item_ids) - manifest_item_ids)
-        if unknown:
-            raise click.UsageError(f"Unknown --item-id values not present in manifest: {', '.join(unknown)}")
-        selected_item_ids = list(item_ids)
-    else:
-        selected_item_ids = [item["item_id"] for item in items]
-
-    run_agreement_pricing_v1(
-        paths,
-        selected_item_ids,
-        compiler_prompt_path=Path(compiler_prompt_path),
-        scan_prompt_path=Path(scan_prompt_path),
-        gateway_url=gateway_url,
-        compiler_model=compiler_model,
-        compiler_reasoning=compiler_reasoning,
-        compiler_temperature=compiler_temperature,
-        scan_model=scan_model,
-        scan_reasoning=scan_reasoning,
-        scan_temperature=scan_temperature,
-        scan_max_chunk_chars=scan_max_chunk_chars,
-        scan_overlap_anchors=scan_overlap_anchors,
-        scan_max_anchors_per_chunk=scan_max_anchors_per_chunk,
-        scan_attempts_per_chunk=scan_attempts_per_chunk,
-        neighbor_window=neighbor_window,
-        concurrency=concurrency,
-        attempts=attempts,
-        output_subdir=output_subdir,
-    )
-
-
 @cli.command(name="contract-pricing-flow")
 @click.option(
     "--run-id",
@@ -1154,224 +701,6 @@ def contract_pricing_flow(
         attempts=attempts,
     )
     click.echo(f"[contract-pricing-flow] Completed contract pricing extraction for {len(selected_item_ids)} exhibits.")
-
-
-@cli.command(name="contract-pricing-v2-flow")
-@click.option(
-    "--run-id",
-    required=True,
-    callback=validate_run_id,
-    help="Run identifier (writes under runs/<run_id>/; reruns overwrite artifacts).",
-)
-@click.option("--tarball", multiple=True, type=click.Path(exists=True, dir_okay=False), required=True)
-@click.option("--accessions-file", type=click.Path(exists=True, dir_okay=False), required=False)
-@click.option(
-    "--planner-prompt",
-    "planner_prompt_path",
-    type=click.Path(exists=True, dir_okay=False),
-    default="prompts/contract_pricing_planner_v2.txt",
-    show_default=True,
-)
-@click.option(
-    "--table-prompt",
-    "table_prompt_path",
-    type=click.Path(exists=True, dir_okay=False),
-    default="prompts/contract_pricing_table_v1.txt",
-    show_default=True,
-)
-@click.option(
-    "--filters",
-    "filters_path",
-    type=click.Path(exists=True, dir_okay=False),
-    required=False,
-    help="Filter spec (JSON/YAML with doc_filter_path and optional doc_filter_kwargs). Defaults to keep_all when omitted.",
-)
-@click.option("--base-dir", default=".", show_default=True)
-@click.option("--gateway-url", default=None, help="Gateway base URL; defaults to $GATEWAY_URL.")
-@click.option("--planner-model", default="openai:gpt-5-mini", show_default=True)
-@click.option(
-    "--planner-reasoning",
-    default="high",
-    show_default=True,
-    type=click.Choice(["none", "minimal", "low", "medium", "high", "xhigh"], case_sensitive=False),
-)
-@click.option("--planner-temperature", default=0.0, show_default=True, type=float)
-@click.option("--planner-max-steps", default=12, show_default=True, type=int)
-@click.option("--planner-attempts-per-step", default=3, show_default=True, type=int)
-@click.option("--compiler-temperature", default=0.0, show_default=True, type=float)
-@click.option(
-    "--gateway-timeout",
-    default=600.0,
-    show_default=True,
-    type=float,
-    help="Gateway client timeout (seconds) for planner + table compiler calls.",
-)
-@click.option(
-    "--concurrency",
-    default=2,
-    show_default=True,
-    type=int,
-    help="Number of parallel gateway calls (per-item) during contract pricing v2 extraction.",
-)
-@click.option(
-    "--attempts",
-    default=3,
-    show_default=True,
-    type=int,
-    help="Number of strict JSON/Pydantic attempts per table before failing.",
-)
-@click.option(
-    "--output-subdir",
-    default="contract_pricing_v2",
-    show_default=True,
-    help="Subfolder under runs/<run_id>/contract_pricing/ for outputs.",
-)
-@click.option(
-    "--item-id",
-    "item_ids",
-    multiple=True,
-    help="Optional item_id(s) to extract pricing for (defaults to all items in the run manifest).",
-)
-def contract_pricing_v2_flow(
-    run_id: str,
-    tarball,
-    accessions_file: Optional[str],
-    planner_prompt_path: str,
-    table_prompt_path: str,
-    filters_path: Optional[str],
-    base_dir: str,
-    gateway_url: str | None,
-    planner_model: str,
-    planner_reasoning: str,
-    planner_temperature: float,
-    planner_max_steps: int,
-    planner_attempts_per_step: int,
-    compiler_temperature: float,
-    gateway_timeout: float,
-    concurrency: int,
-    attempts: int,
-    output_subdir: str,
-    item_ids: tuple[str, ...],
-):
-    """Run ingest -> normalize -> contract-pricing-v2 (agentic, no embeddings)."""
-
-    from .contract_pricing_v2 import run_contract_pricing_v2
-
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
-    paths = rc.paths()
-
-    accessions, spec, doc_filter = _load_accessions_and_filters(filters_path, accessions_file)
-    ingest_tarballs(paths, [Path(t) for t in tarball], spec, accessions, doc_filter=doc_filter)
-
-    manifest = load_manifest(paths.manifest_path)
-    items = manifest_items(manifest)
-    manifest_item_ids = {item["item_id"] for item in items}
-    build_prompt_views(paths, manifest)
-
-    if item_ids:
-        unknown = sorted(set(item_ids) - manifest_item_ids)
-        if unknown:
-            raise click.UsageError(f"Unknown --item-id values not present in manifest: {', '.join(unknown)}")
-        selected_item_ids = list(item_ids)
-    else:
-        selected_item_ids = [item["item_id"] for item in items]
-
-    run_contract_pricing_v2(
-        paths,
-        selected_item_ids,
-        planner_prompt_path=Path(planner_prompt_path),
-        table_prompt_path=Path(table_prompt_path),
-        gateway_url=gateway_url,
-        planner_model=planner_model,
-        planner_reasoning=planner_reasoning,
-        planner_temperature=planner_temperature,
-        planner_max_steps=planner_max_steps,
-        planner_attempts_per_step=planner_attempts_per_step,
-        compiler_temperature=compiler_temperature,
-        gateway_timeout=gateway_timeout,
-        concurrency=concurrency,
-        attempts=attempts,
-        output_subdir=output_subdir,
-    )
-    click.echo(f"[contract-pricing-v2-flow] Completed contract pricing extraction for {len(selected_item_ids)} exhibits.")
-
-@cli.command()
-@click.option("--run-id", required=True, callback=validate_run_id)
-@click.option(
-    "--qa-dir",
-    type=click.Path(exists=True, file_okay=False, dir_okay=True),
-    required=True,
-    help="Directory containing Q/A JSON outputs to read metrics from (e.g., llm_qa/instructions-1)",
-)
-@click.option("--base-dir", default=".", show_default=True)
-@click.option(
-    "--model",
-    default=REQUIRED_MODEL,
-    show_default=True,
-    help="Gateway model (enforced).",
-)
-@click.option("--gateway-url", default=None, help="Gateway base URL; defaults to $GATEWAY_URL.")
-@click.option("--temperature", default=0.0, show_default=True, type=float)
-@click.option(
-    "--reasoning",
-    default=REQUIRED_REASONING,
-    type=click.Choice(["light", "medium", "heavy"], case_sensitive=False),
-    show_default=True,
-    help="Reasoning effort (enforced).",
-)
-@click.option(
-    "--gateway-timeout",
-    default=600.0,
-    show_default=True,
-    type=float,
-    help="Gateway client timeout (seconds) for term resolution calls.",
-)
-@click.option(
-    "--concurrency",
-    default=3,
-    show_default=True,
-    type=int,
-    help="Number of parallel gateway calls during term resolution.",
-)
-@click.option(
-    "--output-subdir",
-    default="terms_from_qa",
-    show_default=True,
-    help="Subfolder under runs/<run_id>/llm_qa/ for outputs.",
-)
-def terms(
-    run_id: str,
-    qa_dir: str,
-    base_dir: str,
-    model: str | None,
-    gateway_url: str | None,
-    temperature: float,
-    reasoning: str | None,
-    gateway_timeout: float,
-    concurrency: int,
-    output_subdir: str,
-):
-    """Resolve exact agreement term wording for metrics used in Q/A outputs."""
-
-    from .terms import run_terms_lookup
-
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
-    paths = rc.paths()
-    manifest = load_manifest(paths.manifest_path)
-    items = manifest_items(manifest)
-    item_ids = [item["item_id"] for item in items]
-    run_terms_lookup(
-        paths,
-        item_ids,
-        qa_dir=Path(qa_dir),
-        model=model,
-        gateway_url=gateway_url,
-        temperature=temperature,
-        reasoning=reasoning,
-        gateway_timeout=gateway_timeout,
-        concurrency=concurrency,
-        output_subdir=output_subdir,
-    )
 
 
 @cli.command(name="definitions-v2")
@@ -1818,18 +1147,6 @@ def compustat_overlay_v1(
         concurrency=concurrency,
         attempts=attempts,
     )
-
-
-@cli.command()
-@click.option("--run-id", required=True, callback=validate_run_id)
-@click.option("--base-dir", default=".", show_default=True)
-def validate(run_id: str, base_dir: str):
-    """Run QA/validation (stub)."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=4)
-    paths = rc.paths()
-    manifest = load_manifest(paths.manifest_path)
-    items = manifest_items(manifest)
-    run_validation(paths, items)
 
 
 @cli.command(name="facility-fundamentals")
@@ -2450,93 +1767,6 @@ def all_v2(
     )
 
     click.echo(f"[all-v2] Completed v2 flow through analysis-export for {len(selected_item_ids)} exhibits.")
-
-
-@cli.command()
-@click.option("--run-id", required=True, callback=validate_run_id)
-@click.option("--tarball", multiple=True, type=click.Path(exists=True, dir_okay=False), required=True)
-@click.option("--accessions-file", type=click.Path(exists=True, dir_okay=False), required=False)
-@click.option("--prompt-index", type=click.Path(exists=True, dir_okay=False), required=True)
-@click.option("--prompt-structured", type=click.Path(exists=True, dir_okay=False), required=True)
-@click.option("--bandwidth", default=400, show_default=True, type=int)
-@click.option("--base-dir", default=".", show_default=True)
-@click.option(
-    "--filters",
-    "filters_path",
-    type=click.Path(exists=True, dir_okay=False),
-    required=False,
-    help="Filter spec (JSON/YAML with doc_filter_path and optional doc_filter_kwargs). Defaults to keep_all when omitted.",
-)
-@click.option(
-    "--model",
-    default=REQUIRED_MODEL,
-    show_default=True,
-    help="Gateway model for indexing (enforced).",
-)
-@click.option("--gateway-url", default=None, help="Gateway base URL for indexing; defaults to $GATEWAY_URL.")
-@click.option("--temperature", default=0.0, show_default=True, type=float, help="Indexing LLM temperature.")
-@click.option(
-    "--reasoning",
-    default=REQUIRED_REASONING,
-    type=click.Choice(["light", "medium", "heavy"], case_sensitive=False),
-    show_default=True,
-    help="Reasoning effort (enforced).",
-)
-@click.option(
-    "--gateway-timeout",
-    default=600.0,
-    show_default=True,
-    type=float,
-    help="Gateway client timeout (seconds) for indexing calls.",
-)
-@click.option(
-    "--concurrency",
-    default=3,
-    show_default=True,
-    type=int,
-    help="Number of parallel gateway calls during indexing (only when --model is set).",
-)
-def all(
-    run_id: str,
-    tarball,
-    accessions_file: Optional[str],
-    prompt_index: str,
-    prompt_structured: str,
-    bandwidth: int,
-    base_dir: str,
-    filters_path: Optional[str],
-    model: str,
-    gateway_url: str,
-    temperature: float,
-    reasoning: str | None,
-    gateway_timeout: float,
-    concurrency: int,
-):
-    """Run ingest -> normalize -> index -> retrieve -> structured."""
-    rc = _resolve_paths(run_id, base_dir, bandwidth=bandwidth)
-    paths = rc.paths()
-
-    accessions, spec, doc_filter = _load_accessions_and_filters(filters_path, accessions_file)
-
-    ingest_tarballs(paths, [Path(t) for t in tarball], spec, accessions, doc_filter=doc_filter)
-    manifest = load_manifest(paths.manifest_path)
-    items = manifest_items(manifest)
-    item_ids = [item["item_id"] for item in items]
-    build_prompt_views(paths, manifest)
-    run_indexing(
-        paths,
-        item_ids,
-        Path(prompt_index),
-        model=model,
-        gateway_url=gateway_url,
-        temperature=temperature,
-        reasoning=reasoning,
-        gateway_timeout=gateway_timeout,
-        concurrency=concurrency,
-    )
-    render_snippets(paths, item_ids, bandwidth=bandwidth)
-    run_structured(paths, item_ids, Path(prompt_structured))
-    click.echo(f"[all] Completed through structured stage for {len(item_ids)} exhibits.")
 
 
 def main():

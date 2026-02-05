@@ -154,6 +154,15 @@ async def _call_gateway_with_retry(
             await asyncio.sleep(1.5 * attempt)
     raise last_exc if last_exc else RuntimeError("Gateway call failed with unknown error.")
 
+def _retry_prompt(base_prompt: str, *, error: str) -> str:
+    rules = (
+        "Your previous response was invalid.\n"
+        "- Output MUST be valid JSON.\n"
+        "- Output MUST contain JSON ONLY (no markdown, no code fences, no prose).\n"
+        "- If you are unsure, return the best-effort JSON in the expected shape rather than commentary.\n"
+    )
+    return f"{base_prompt}\n\n=== RETRY REQUIRED ===\nError: {error}\n\n{rules}"
+
 
 def run_structured_v2(
     paths: Paths,
@@ -166,10 +175,11 @@ def run_structured_v2(
     reasoning: str | None = None,
     gateway_timeout: float | None = None,
     concurrency: int = 3,
+    attempts: int = 3,
     output_subdir: str | None = None,
     categories: Iterable[str] | None = None,
 ) -> None:
-    """Run structured LLM extraction over v2 retrieval snippets."""
+    """Run structured LLM extraction over v2 retrieval snippets (strict JSON output)."""
 
     assert_exists(prompt_path, message=f"Structured prompt not found: {prompt_path}")
 
@@ -206,16 +216,49 @@ def run_structured_v2(
                 input_block = _render_snippet_block(snippets)
 
                 rendered_prompt = _render_prompt(prompt_template, input_block)
-                raw_text = await _call_gateway_with_retry(
-                    client=client,
-                    prompt=rendered_prompt,
-                    model=model,
-                    temperature=temperature,
-                    reasoning=reasoning,
-                )
+                last_error = "unknown"
+                final_raw: str | None = None
+                parsed: Any = None
+                for attempt in range(1, max(1, int(attempts)) + 1):
+                    prompt = rendered_prompt if attempt == 1 else _retry_prompt(rendered_prompt, error=last_error)
+                    try:
+                        raw_text = await _call_gateway_with_retry(
+                            client=client,
+                            prompt=prompt,
+                            model=model,
+                            temperature=temperature,
+                            reasoning=reasoning,
+                            attempts=1,
+                        )
+                    except Exception as exc:  # pragma: no cover - network/errors
+                        last_error = f"gateway call failed: {exc}"
+                        continue
+
+                    final_raw = raw_text
+                    if not isinstance(raw_text, str) or not raw_text.strip():
+                        last_error = "empty response text"
+                        continue
+
+                    try:
+                        parsed = json.loads(raw_text)
+                    except json.JSONDecodeError as exc:
+                        last_error = f"invalid JSON: {exc}"
+                        continue
+
+                    if not isinstance(parsed, (dict, list)):
+                        last_error = f"expected JSON object or array; got {type(parsed).__name__}"
+                        parsed = None
+                        continue
+
+                    break
+
+                if parsed is None:
+                    raw_sidecar = out_dir / f"{item_id}.raw.txt"
+                    raw_sidecar.write_text(final_raw or "", encoding="utf-8")
+                    raise RuntimeError(f"structured-v2 failed strict JSON after {attempts} attempt(s). Last error: {last_error}")
 
                 raw_path = out_dir / f"{item_id}.txt"
-                raw_path.write_text(raw_text)
+                raw_path.write_text(json.dumps(parsed, indent=2, sort_keys=True) + "\n", encoding="utf-8")
             except Exception as exc:  # pragma: no cover - defensive
                 errors.append((item_id, str(exc)))
                 err_path = out_dir / f"{item_id}.error.txt"

@@ -21,6 +21,10 @@ Start here:
 - `PIPELINES_COVENANT_AND_PRICING.md`
 - `ROADMAP.md`
 
+Legacy snapshots (kept out of the canonical branch):
+- `legacy/v1-run-scoped` — older v1 `ingest → normalize → index → retrieve → structured` CLI flow
+- `legacy/pricing-as-code-v1` — priority-ordered “pricing as code” model
+
 ## Run it
 ```bash
 poetry install
@@ -44,26 +48,30 @@ poetry run pipeline all-v2 \
 runs/<run_id>/
   ingest/       # extracted filing HTML
   normalized/   # canonical text, anchors, prompt_view.txt
-  indexing/     # anchor JSON (LLM-produced)
-  retrieval/    # evidence snippets
-  llm_qa/       # LLM QA / extraction outputs
-  validation/   # optional QA checks
-  deliverables/ # final rollups
+  toc_v1/       # optional chunk TOC (LLM-produced)
+  indexing_v2/  # anchor buckets (LLM-produced; strict JSON)
+  retrieval_v2/ # evidence snippet packs (deterministic)
+  llm_qa/       # extraction outputs (prompt-driven; typically strict JSON)
+  definitions_v2/ # definition grounding outputs
+  agreement_metadata/ # parties/roles + facility headline terms
+  analysis_export/ # analysis-ready record joins
+  contract_pricing/ # pricing regime compiler outputs
+  contractir_v0_2/ # pricing kernel (ContractIR v0.2) outputs
   manifest.json # filters, prompts, accessions, paths
 ```
 
 ## Status
-LLM calls are stubbed; plug your client into `pipeline/indexing.py` and `pipeline/structured.py` (llm_qa stage). Errors surface early to avoid silent failures.
+LLM calls run via the local `agent-gateway` submodule. Canonical pipeline stages enforce strict JSON outputs and fail loudly on schema/provenance errors (see `METHODOLOGY.md`).
 
 ## Gateway-powered indexing (optional)
 - The repo now vendors the lightweight [agent-gateway](agent-gateway) as a git submodule. After cloning run `git submodule update --init --recursive`, then start it with your keys (`cd agent-gateway && make serve`) so the pipeline can call `/v1/responses`.
 - Model policy (enforced): all gateway calls use `openai:gpt-5-nano` with `reasoning=medium`. CLI flags/environment won’t override this.
-- Run indexing to enable LLM anchor selection: `pipeline index --run-id demo --prompt prompts/comprehensive_indexing.txt --gateway-url http://127.0.0.1:8000`. The run fails fast if the gateway is unreachable or returns zero anchors. `--max-anchors` has been removed; all anchors are sent.
-- Outputs land in `runs/<run_id>/indexing/{item_id}_anchors.json` as a **selection-only** artifact (anchor IDs grouped by category). Retrieval joins that selection with `normalized/<item_id>/anchors.tsv` (spans) to render snippets.
+- Run indexing to enable LLM anchor selection: `pipeline index-v2 --run-id demo --prompt prompts/indexing_v2.txt --gateway-url http://127.0.0.1:8000`. The run fails fast if the gateway is unreachable or returns invalid JSON / invalid anchor IDs.
+- Outputs land in `runs/<run_id>/indexing_v2/{item_id}_anchors.json` as a **selection-only** artifact (anchor IDs grouped by category). Retrieval joins that selection with `normalized/<item_id>/anchors.tsv` (spans) to render snippet packs.
 
-### Indexing v2 (separate workflow)
+### Indexing v2
 
-The v2 indexing prompt returns **streamlined anchor buckets** (arrays of anchor IDs). This is a separate command and output path so legacy indexing remains unchanged.
+The v2 indexing prompt returns **streamlined anchor buckets** (arrays of anchor IDs) with an optional full definitions section span for downstream definition work.
 
 ```bash
 pipeline index-v2 \

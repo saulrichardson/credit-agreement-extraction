@@ -4,6 +4,10 @@ This file records an artifact-first snapshot of the repo state and a concrete pl
 
 Branch created for this work: `modernize/reorg-2026-02-04`.
 
+Legacy snapshots (kept out of the canonical branch):
+- `legacy/v1-run-scoped`
+- `legacy/pricing-as-code-v1`
+
 ## Snapshot (What’s Here)
 
 Top-level:
@@ -113,4 +117,3 @@ Move or retire:
    - Docs: track Markdown but ignore PDFs/aux/logs (recommended).
 4. **Python version floor**
    - Keep `>=3.10` vs raise to `>=3.11` (aligns with `agent-gateway`, cleaner typing, faster runtime).
-

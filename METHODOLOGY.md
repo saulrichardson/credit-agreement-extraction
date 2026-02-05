@@ -123,10 +123,10 @@ Goal:
 
 Status:
 - Treat as legacy / research unless explicitly elevated.
+- Snapshot preserved on branch: `legacy/pricing-as-code-v1`
 
-Primary code entrypoints:
-- Model: `src/pipeline/pricing_schema_v1.py`
-- Runner: `src/pipeline/agreement_pricing_v1.py`
+Notes:
+- This approach is intentionally not present on the canonical branch to avoid two competing compute semantics.
 
 ## “Latest” methodology choice (proposed default)
 
