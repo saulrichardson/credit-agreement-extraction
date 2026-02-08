@@ -5,8 +5,8 @@ from typing import Tuple
 
 import click
 
-from ..config import REQUIRED_REASONING
-from ..run_id import validate_run_id
+from pipeline.core.config import REQUIRED_REASONING
+from pipeline.core.run_id import validate_run_id
 from .common import resolve_paths, resolve_selected_item_ids
 
 
@@ -72,7 +72,7 @@ def toc_v1(
 ) -> None:
     """Build a TOC via adaptive chunking + LLM summaries (no embeddings)."""
 
-    from ..toc_v1 import run_toc_v1
+    from pipeline.evidence.toc_v1 import run_toc_v1
 
     paths = resolve_paths(run_id, base_dir, bandwidth=4)
     _manifest, _items, selected_item_ids = resolve_selected_item_ids(paths, item_ids)

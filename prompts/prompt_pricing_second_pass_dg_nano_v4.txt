@@ -41,6 +41,9 @@ Parse the text into structured JSON with these main sections:
    - Define every metric that appears in tier conditions OR rate conditions.
    - Prefer Compustat-compatible variables when possible, but DO NOT guess formulas.
      If unsure, set `"requires_non_compustat": true` and include a short `description`.
+   - Metric naming MUST represent a concrete driver variable (ratio/rating/date/status), not an outcome label.
+     - Do NOT use synthetic names like `"PricingLevel"`, `"PricingRegime"`, `"PricingTier"`, `"ApplicableMarginLevel"`.
+     - Ratings-based exception: rating/status driver labels are allowed when explicitly supported by the agreement.
    - If ratings-based, you may define a metric named `"RatingScore"` with `"requires_non_compustat": true`.
    - Preferred metric object shape:
        { "name": "...", "description": "...", "requires_non_compustat": true|false, "compustat_formula": "..." | null }

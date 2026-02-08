@@ -35,8 +35,8 @@ SRC_ROOT = PROJECT_ROOT / "src"
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from pipeline.anchors import load_anchor_catalog  # noqa: E402
-from pipeline.config import Paths  # noqa: E402
+from pipeline.core.anchors import load_anchor_catalog  # noqa: E402
+from pipeline.core.config import Paths  # noqa: E402
 
 
 ANCHOR_ID_RE = re.compile(r"^A\d{4,}$")
@@ -272,9 +272,17 @@ def _terms_from_definitions_aggregate(stage_dir: Path, item_id: str, agg_json: D
     for d in defs:
         if not isinstance(d, dict):
             continue
-        term = d.get("name")
+        compiled_obj: Dict[str, Any] = d
+        if isinstance(d.get("metric"), dict):
+            compiled_obj = dict(d["metric"])
+        term = compiled_obj.get("metric_name") or compiled_obj.get("name") or d.get("metric_name") or d.get("name")
         if not isinstance(term, str) or not term.strip():
             continue
+        term = term.strip()
+        if "name" not in compiled_obj:
+            compiled_obj["name"] = term
+        if "metric_name" not in compiled_obj:
+            compiled_obj["metric_name"] = term
         slug = _safe_slug(term)
 
         raw = _find_best_raw_text(
@@ -296,14 +304,14 @@ def _terms_from_definitions_aggregate(stage_dir: Path, item_id: str, agg_json: D
             ),
         )
 
-        source_refs = [x for x in (d.get("source_refs") or []) if isinstance(x, str)]
+        source_refs = [x for x in (compiled_obj.get("source_refs") or []) if isinstance(x, str)]
         cited = sorted(set(a.strip() for a in source_refs if ANCHOR_ID_RE.fullmatch(a.strip())), key=lambda s: int(s[1:]))
 
         out.append(
             {
                 "term": term,
                 "slug": slug,
-                "compiled": d,
+                "compiled": compiled_obj,
                 "raw": raw,
                 "contexts": contexts,
                 "cited_anchor_ids": cited,

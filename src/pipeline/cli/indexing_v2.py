@@ -5,11 +5,11 @@ from typing import Optional, Tuple
 
 import click
 
-from ..config import REQUIRED_MODEL, REQUIRED_REASONING
-from ..indexing_v2 import run_indexing_v2
-from ..retrieval_v2 import render_snippets_v2
-from ..run_id import validate_run_id
-from ..structured_v2 import run_structured_v2
+from pipeline.core.config import REQUIRED_MODEL, REQUIRED_REASONING
+from pipeline.evidence.indexing_v2 import run_indexing_v2
+from pipeline.evidence.retrieval_v2 import render_snippets_v2
+from pipeline.core.run_id import validate_run_id
+from pipeline.extract.structured_v2 import run_structured_v2
 from .common import resolve_paths, resolve_selected_item_ids
 
 

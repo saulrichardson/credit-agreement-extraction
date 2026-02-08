@@ -15,7 +15,7 @@ Almost everything in this repo is built around a single reproducibility boundary
 
 The manifest (`runs/<run_id>/manifest.json`) is the run-scoped “what happened” record written/updated by stages.
 
-Code: `src/pipeline/config.py` (`Paths`, `update_manifest`) + `src/pipeline/ingest.py` (manifest creation).
+Code: `src/pipeline/core/config.py` (`Paths`, `update_manifest`) + `src/pipeline/evidence/ingest.py` (manifest creation).
 
 ---
 
@@ -24,23 +24,23 @@ Code: `src/pipeline/config.py` (`Paths`, `update_manifest`) + `src/pipeline/inge
 The shared upstream is:
 
 1) **Ingest**: tarballs + filters → `runs/<run_id>/ingest/` + `manifest.json`  
-   Code: `src/pipeline/ingest.py`, CLI: `src/pipeline/cli/ingest.py`
+   Code: `src/pipeline/evidence/ingest.py`, CLI: `src/pipeline/cli/ingest.py`
 
 2) **Normalize**: HTML → canonical text + anchors (`A0001…`)  
    Writes `runs/<run_id>/normalized/<item_id>/{canonical.txt,anchors.tsv,canonical_annotated.txt,prompt_view.txt}`  
-   Code: `src/pipeline/normalize.py`, CLI: `src/pipeline/cli/ingest.py`
+   Code: `src/pipeline/evidence/normalize.py`, CLI: `src/pipeline/cli/ingest.py`
 
 After that, the repo intentionally supports *multiple* LLM-backed transforms that play **different roles**:
 
 | Role | What it does | Entry points | Artifacts |
 |---|---|---|---|
-| Evidence selection (global read) | LLM reads the full annotated doc and returns anchor buckets | `pipeline index-v2`, `src/pipeline/indexing_v2.py` | `runs/<run_id>/indexing_v2/<item_id>_anchors.json` |
-| Navigation/context (optional) | LLM builds a TOC-like map used to tag snippets with “where in doc” context | `pipeline toc-v1`, `src/pipeline/toc_v1.py` | `runs/<run_id>/toc_v1/<subdir>/<item_id>.json` |
-| Evidence packaging (deterministic) | Join anchor IDs + anchor spans → render snippet packs | `pipeline retrieve-v2`, `src/pipeline/retrieval_v2.py` | `runs/<run_id>/retrieval_v2/<item_id>_snippets.jsonl` |
-| Extraction (prompt-driven) | LLM compiles snippet packs into “discovery JSON” (DG-ish output) | `pipeline structured-v2`, `src/pipeline/structured_v2.py` | `runs/<run_id>/llm_qa/<subdir>/<item_id>.*` |
-| Grounding pass | LLM re-asks over narrow context to pin down definition language | `pipeline definitions-v2`, `src/pipeline/definitions_v2.py` | `runs/<run_id>/definitions_v2/<subdir>/*__definition.json` |
-| Agreement-level metadata | LLM extracts parties/roles + headline facility terms | `pipeline agreement-metadata`, `src/pipeline/agreement_metadata_v1.py` | `runs/<run_id>/agreement_metadata/<subdir>/<item_id>.json` |
-| Facility fundamentals | LLM extracts facility separation + key dates | `pipeline facility-fundamentals`, `src/pipeline/facility_fundamentals_v1.py` | `runs/<run_id>/facility_fundamentals/<subdir>/<item_id>.json` |
+| Evidence selection (global read) | LLM reads the full annotated doc and returns anchor buckets | `pipeline index-v2`, `src/pipeline/evidence/indexing_v2.py` | `runs/<run_id>/indexing_v2/<item_id>_anchors.json` |
+| Navigation/context (optional) | LLM builds a TOC-like map used to tag snippets with “where in doc” context | `pipeline toc-v1`, `src/pipeline/evidence/toc_v1.py` | `runs/<run_id>/toc_v1/<subdir>/<item_id>.json` |
+| Evidence packaging (deterministic) | Join anchor IDs + anchor spans → render snippet packs | `pipeline retrieve-v2`, `src/pipeline/evidence/retrieval_v2.py` | `runs/<run_id>/retrieval_v2/<item_id>_snippets.jsonl` |
+| Extraction (prompt-driven) | LLM compiles snippet packs into “discovery JSON” (DG-ish output) | `pipeline structured-v2`, `src/pipeline/extract/structured_v2.py` | `runs/<run_id>/llm_qa/<subdir>/<item_id>.*` |
+| Grounding pass | LLM re-asks over narrow context to pin down definition language | `pipeline definitions-v2`, `src/pipeline/extract/definitions_v2.py` | `runs/<run_id>/definitions_v2/<subdir>/*__definition.json` |
+| Agreement-level metadata | LLM extracts parties/roles + headline facility terms | `pipeline agreement-metadata`, `src/pipeline/extract/agreement_metadata_v1.py` | `runs/<run_id>/agreement_metadata/<subdir>/<item_id>.json` |
+| Facility fundamentals | LLM extracts facility separation + key dates | `pipeline facility-fundamentals`, `src/pipeline/extract/facility_fundamentals_v1.py` | `runs/<run_id>/facility_fundamentals/<subdir>/<item_id>.json` |
 
 So: the “multiple Q/A parts” are not accidental duplication — they are separate transforms in the overall DAG.
 
@@ -55,29 +55,29 @@ These are different outputs built under the same run-scoped / anchor-grounded me
 
 ### A) DG-style discovery JSON (“structured-v2”)
 - Purpose: discovery/triage and upstream term targeting (not computable semantics).
-- Code: `src/pipeline/structured_v2.py`
+- Code: `src/pipeline/extract/structured_v2.py`
 
 ### B) Definitions grounding (“definitions-v2”)
 - Purpose: recover verbatim definition text + provenance for the terms found in the discovery JSON.
-- Code: `src/pipeline/definitions_v2.py`
+- Code: `src/pipeline/extract/definitions_v2.py`
 
 ### C) Definition Graph compiler (AST-first)
 - Purpose: compile definition language into an AST and resolve dependencies.
-- Code: `src/pipeline/definitions_compiler_v1.py`, `src/pipeline/blocking_terms_compiler_v1.py`, `src/pipeline/compustat_overlay_v1.py`
+- Code: `src/pipeline/compile/definitions_compiler_v1.py`, `src/pipeline/compile/blocking_terms_compiler_v1.py`, `src/pipeline/compile/compustat_overlay_v1.py`
 
 ### D) ContractIR v0.2 (pricing kernel; computable semantics)
 - Purpose: imposed-structure computable pricing logic (base rate / spread / fees) with strict evaluation semantics.
-- CLI: `src/pipeline/contract_ir_v0_2_cli.py`
-- Core: `src/pipeline/contract_ir_v0_2.py`
+- CLI: `src/pipeline/ir/contract_ir_v0_2_cli.py`
+- Core: `src/pipeline/ir/contract_ir_v0_2.py`
 
 ### E) Contract pricing compiler (pricing regimes/tables coverage)
 - Purpose: table/regime coverage using `doc_ir` + per-table compilation (indexing-free by design).
 - CLI: `src/pipeline/cli/contract_pricing.py`
-- Core: `src/pipeline/contract_pricing.py`, `src/pipeline/doc_ir.py`
+- Core: `src/pipeline/pricing/contract_pricing.py`, `src/pipeline/pricing/doc_ir.py`
 
 ### F) CovenantIR v0.1 (financial covenants; computable semantics)
 - Purpose: computable covenant tests with strict provenance + hard validation.
-- Core validator/evaluator: `src/pipeline/covenant_ir_v0_1.py`
+- Core validator/evaluator: `src/pipeline/ir/covenant_ir_v0_1.py`
 - Current extraction harnesses live in `scripts/` (e.g., `scripts/covenant_ir_v0_1_one_pass_harness.py`).
 
 ---

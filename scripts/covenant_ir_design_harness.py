@@ -26,7 +26,7 @@ SRC_ROOT = PROJECT_ROOT / "src"
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from pipeline.covenant_ir_v0_1 import evaluate_covenant, validate_covenant_ir  # noqa: E402
+from pipeline.ir.covenant_ir_v0_1 import evaluate_covenant, validate_covenant_ir  # noqa: E402
 
 
 def _lit(typ: str, value: Any) -> Dict[str, Any]:

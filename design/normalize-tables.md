@@ -4,7 +4,7 @@ Issue observed
 Some EDGAR filings embed pricing grids as ASCII tables inside `<TABLE>` tags but without `<tr>/<td>` cells (e.g., using `<CAPTION>`, `<S>`, `<C>` markers). Our normalizer previously dropped any table that lacked rows, which caused loss of Applicable Margin grids (example: accession 0000950117-96-000184, item `_4`).
 
 Fix implemented  
-- In `src/pipeline/normalize.py`, we now fall back to preserving the raw table text when no `<tr>/<td>` rows are found, wrapping it in `[[TABLE]] ... [[/TABLE]]` so it survives later processing.  
+- In `src/pipeline/evidence/normalize.py`, we now fall back to preserving the raw table text when no `<tr>/<td>` rows are found, wrapping it in `[[TABLE]] ... [[/TABLE]]` so it survives later processing.  
 - Truly empty tables are still dropped.
 
 Guidance / future work  

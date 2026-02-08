@@ -30,15 +30,15 @@ SRC_ROOT = PROJECT_ROOT / "src"
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from pipeline.config import REQUIRED_MODEL, REQUIRED_REASONING
-from pipeline.contract_ir_v0_1 import (
+from pipeline.core.config import REQUIRED_MODEL, REQUIRED_REASONING
+from pipeline.ir.contract_ir_v0_1 import (
     ContractIREvalError,
     ContractIRValidationError,
     TypedValue,
     evaluate_function,
     validate_contract_ir,
 )
-from pipeline.indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_sync  # type: ignore
+from pipeline.evidence.indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_sync  # type: ignore
 
 
 def _read_text(path: Path) -> str:

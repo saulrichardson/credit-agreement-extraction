@@ -24,7 +24,7 @@ MULTI-FACILITY SEPARATION (CRITICAL)
 Many agreements contain multiple distinct facilities/tranches (e.g., Revolving Facility + Term Loan A + Term Loan B).
 You MUST output **one facility object per distinct facility/tranche** when any of these differ:
 - committed amount
-- maturity / termination
+- end-date concept or basis
 - availability period
 - facility type label
 
@@ -51,10 +51,21 @@ For each facility/tranche you can support from the snippets:
 - facility types present (must be one or more of: revolver, term_loan, letters_of_credit, swingline, delayed_draw, other)
 - committed amount (number + currency) when explicitly stated
 - currency (3-letter ISO code ONLY if explicitly stated; do NOT infer USD from "$")
-- availability period start / end (or the closest equivalent concept, e.g., "Final Availability Date", "Last Borrowing Date")
-- termination vs maturity (capture relative/conditional language when used):
-  - For revolving facilities, the end of availability is often a commitment termination/expiration date (last day to borrow); maturity is often the final maturity date (last day to repay).
-  - If the agreement only provides one of these concepts for a facility, fill the one you can support and leave the other as null (explain briefly in notes).
+- availability period start (if explicit)
+- a single canonical facility end date object (`facility_end`) representing the best supported end-of-facility concept
+- `facility_end_basis` as one of:
+  - `maturity` (final repayment/maturity concept),
+  - `termination` (commitment termination/expiration concept),
+  - `availability_end` (last borrowing/final availability concept),
+  - `mixed` (multiple end concepts are present and cannot be collapsed cleanly to one),
+  - `unknown` (an end-date expression exists but basis is unclear).
+
+LENDER FIELDS
+- Extract lenders when explicitly enumerated in snippets (names in text/grid/signature lists).
+- If lender list is explicitly present but too long to enumerate cleanly, set:
+  - `lenders_present_but_omitted=true`
+  - cite supporting anchors in `lenders_source_refs`
+  - keep `lenders=[]`.
 
 OUTPUT JSON (EXACT SHAPE)
 {
@@ -71,6 +82,11 @@ OUTPUT JSON (EXACT SHAPE)
     "source_refs": ["A0123"],
     "notes": "string|null"
   } | null,
+  "lenders": [
+    { "name": "string", "source_refs": ["A0123"], "notes": "string|null" }
+  ],
+  "lenders_present_but_omitted": false,
+  "lenders_source_refs": ["A0123"],
   "facilities": [
     {
       "facility_name": "string|null",
@@ -78,9 +94,8 @@ OUTPUT JSON (EXACT SHAPE)
       "committed_amount": { "amount": 50000000, "currency": "USD" } | null,
       "currency": "USD" | null,
       "availability_start": { "date": "1999-12-31"|null, "text": "string|null", "notes": "string|null" } | null,
-      "availability_end": { "date": "1999-12-31"|null, "text": "string|null", "notes": "string|null" } | null,
-      "maturity": { "date": "1999-12-31"|null, "text": "string|null", "notes": "string|null" } | null,
-      "termination": { "date": "1999-12-31"|null, "text": "string|null", "notes": "string|null" } | null,
+      "facility_end": { "date": "1999-12-31"|null, "text": "string|null", "notes": "string|null" } | null,
+      "facility_end_basis": "maturity" | "termination" | "availability_end" | "mixed" | "unknown" | null,
       "source_refs": ["A0123"],
       "notes": "string|null"
     }
@@ -94,6 +109,10 @@ IMPORTANT TYPE RULES
 - Dates MUST be YYYY-MM-DD when present in a `date` field.
 - Anchor refs MUST be plain anchor IDs like "A0123" (no brackets, no labels).
 - facility_types MUST be an array of strings. Do NOT include pipe characters like "revolver|letters_of_credit".
+- If `facility_end` is non-null, `facility_end_basis` MUST be one of the allowed basis values (not null).
+- If `facility_end` is null, `facility_end_basis` MUST be null.
+- If `lenders_present_but_omitted=true`, `lenders_source_refs` MUST be non-empty and `lenders` MUST be [].
+- If `lenders_present_but_omitted=false` and `lenders=[]`, then `lenders_source_refs` MUST be [].
 - Do NOT output placeholder facility objects:
   - If you cannot identify facility_types for a facility, do not emit that facility object.
   - If you cannot identify any facilities, return facilities: [] and explain why in top-level notes.

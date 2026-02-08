@@ -39,16 +39,16 @@ import sys
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from pipeline.anchors import load_anchor_catalog  # noqa: E402
-from pipeline.config import Paths  # noqa: E402
-from pipeline.contract_ir_v0_2_flow import (  # noqa: E402
+from pipeline.core.anchors import load_anchor_catalog  # noqa: E402
+from pipeline.core.config import Paths  # noqa: E402
+from pipeline.ir.contract_ir_v0_2_flow import (  # noqa: E402
     ContractIRFlowError,
     DEFAULT_ANCHOR_GAP_FILL_UP_TO,
     DEFAULT_ANCHOR_NEIGHBOR_PAD,
     prepare_run_inputs_from_source,
 )
-from pipeline.excerpt_packs import expand_anchor_ids  # noqa: E402
-from pipeline.indexing_v2 import run_indexing_v2  # noqa: E402
+from pipeline.evidence.excerpt_packs import expand_anchor_ids  # noqa: E402
+from pipeline.evidence.indexing_v2 import run_indexing_v2  # noqa: E402
 from pipeline.schemas_v2 import IndexingSelectionV2Artifact  # noqa: E402
 
 

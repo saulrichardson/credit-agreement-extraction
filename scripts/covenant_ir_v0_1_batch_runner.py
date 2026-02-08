@@ -4,7 +4,7 @@ Batch runner for the CovenantIR v0.1 one-pass harness.
 
 Goal:
   - Pressure-test extraction behavior across real retrieval_v2 snippet packs
-  - Produce a summary.json with per-item status ("ok" / "blocked" / "invalid")
+  - Produce a summary.json with per-item status ("ok" / "blocked_artifact" / "invalid")
 
 This intentionally shells out to:
   scripts/covenant_ir_v0_1_one_pass_harness.py

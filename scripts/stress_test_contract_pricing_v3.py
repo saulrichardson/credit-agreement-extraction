@@ -185,7 +185,7 @@ def _run_mode(
     concurrency: int,
     attempts: int,
 ) -> tuple[float, str | None]:
-    from src.pipeline.contract_pricing_v3 import run_contract_pricing_v3
+    from src.pipeline.pricing.contract_pricing_v3 import run_contract_pricing_v3
 
     start = time.time()
     err: str | None = None

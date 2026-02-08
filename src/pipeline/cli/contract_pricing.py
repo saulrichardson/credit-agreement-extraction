@@ -5,11 +5,11 @@ from typing import Optional, Tuple
 
 import click
 
-from ..contract_pricing import run_contract_pricing
-from ..ingest import ingest_tarballs
-from ..normalize import build_prompt_views
-from ..run_id import validate_run_id
-from ..utils import load_manifest, manifest_items
+from pipeline.pricing.contract_pricing import run_contract_pricing
+from pipeline.evidence.ingest import ingest_tarballs
+from pipeline.evidence.normalize import build_prompt_views
+from pipeline.core.run_id import validate_run_id
+from pipeline.utils import load_manifest, manifest_items
 from .common import load_accessions_and_filters, resolve_paths, resolve_selected_item_ids
 
 
@@ -236,7 +236,7 @@ def contract_pricing_v3(
 ) -> None:
     """Extract pricing regimes with a no-heuristics agentic planner + strict per-table compilation."""
 
-    from ..contract_pricing_v3 import run_contract_pricing_v3
+    from pipeline.pricing.contract_pricing_v3 import run_contract_pricing_v3
 
     paths = resolve_paths(run_id, base_dir, bandwidth=4)
     _manifest, _items, selected_item_ids = resolve_selected_item_ids(paths, item_ids)

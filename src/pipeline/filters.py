@@ -8,7 +8,7 @@ from typing import Dict, Callable, Any
 
 import yaml
 
-from .config import FilterSpec
+from pipeline.core.config import FilterSpec
 
 
 def load_filter_spec(path: Path) -> FilterSpec:

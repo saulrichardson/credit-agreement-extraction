@@ -5,8 +5,8 @@ from typing import Tuple
 
 import click
 
-from ..config import REQUIRED_MODEL, REQUIRED_REASONING
-from ..run_id import validate_run_id
+from pipeline.core.config import REQUIRED_MODEL, REQUIRED_REASONING
+from pipeline.core.run_id import validate_run_id
 from .common import resolve_paths, resolve_selected_item_ids
 
 
@@ -77,7 +77,7 @@ def definitions_v2(
 ) -> None:
     """Resolve metric and rate term definitions using dg outputs (v2)."""
 
-    from ..definitions_v2 import run_definitions_v2
+    from pipeline.extract.definitions_v2 import run_definitions_v2
 
     paths = resolve_paths(run_id, base_dir, bandwidth=4)
     _manifest, _items, selected_item_ids = resolve_selected_item_ids(paths, item_ids)
@@ -172,7 +172,7 @@ def definitions_compiler_v1(
 ) -> None:
     """Compile metric definitions (verbatim + AST + dependency terms) from canonical text and indexing hints."""
 
-    from ..definitions_compiler_v1 import run_definitions_compiler_v1
+    from pipeline.compile.definitions_compiler_v1 import run_definitions_compiler_v1
 
     paths = resolve_paths(run_id, base_dir, bandwidth=4)
     _manifest, _items, selected_item_ids = resolve_selected_item_ids(paths, item_ids)
@@ -288,7 +288,7 @@ def blocking_terms_compiler_v1(
 ) -> None:
     """Resolve dependency terms recursively from metric definitions using whole-document contexts."""
 
-    from ..blocking_terms_compiler_v1 import run_blocking_terms_compiler_v1
+    from pipeline.compile.blocking_terms_compiler_v1 import run_blocking_terms_compiler_v1
 
     paths = resolve_paths(run_id, base_dir, bandwidth=4)
     _manifest, _items, selected_item_ids = resolve_selected_item_ids(paths, item_ids)
@@ -392,7 +392,7 @@ def compustat_overlay_v1(
 ) -> None:
     """Map extracted v2 AST definitions to Compustat formulas (overlay stage)."""
 
-    from ..compustat_overlay_v1 import run_compustat_overlay_v1
+    from pipeline.compile.compustat_overlay_v1 import run_compustat_overlay_v1
 
     if not metrics_output_subdir and not blocking_terms_output_subdir:
         raise click.UsageError("Must provide at least one of --metrics-output-subdir or --blocking-terms-output-subdir.")

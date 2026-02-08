@@ -44,7 +44,7 @@ Top-level:
 
 ## Validator (strict; no repairs)
 
-The v2 validator lives in `src/pipeline/definitions_compiler_v1.py` as:
+The v2 validator lives in `src/pipeline/compile/definitions_compiler_v1.py` as:
 - `_validate_compiler_output_v2_ast(...)`
 
 Key behaviors:

@@ -41,14 +41,14 @@ SRC_ROOT = PROJECT_ROOT / "src"
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from pipeline.config import Paths, REQUIRED_MODEL, REQUIRED_REASONING  # noqa: E402
-from pipeline.contract_ir_v0_2_flow import (  # noqa: E402
+from pipeline.core.config import Paths, REQUIRED_MODEL, REQUIRED_REASONING  # noqa: E402
+from pipeline.ir.contract_ir_v0_2_flow import (  # noqa: E402
     ContractIRFlowError,
     prepare_run_inputs_from_source,
     run_contractir_v0_2_flow,
 )
-from pipeline.indexing_v2 import run_indexing_v2  # noqa: E402
-from pipeline.retrieval_v2 import render_snippets_v2  # noqa: E402
+from pipeline.evidence.indexing_v2 import run_indexing_v2  # noqa: E402
+from pipeline.evidence.retrieval_v2 import render_snippets_v2  # noqa: E402
 from pipeline.utils import load_manifest, manifest_items  # noqa: E402
 
 

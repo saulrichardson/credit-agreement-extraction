@@ -333,7 +333,7 @@ def main() -> None:
     ap.add_argument(
         "--only-present",
         action="store_true",
-        help="Audit only the item_ids that have a *.txt output present in the qa-subdir (useful for partial runs).",
+        help="Audit only the item_ids that have a *.json (or legacy *.txt) output present in the qa-subdir.",
     )
     ap.add_argument(
         "--snippets-dir",
@@ -355,8 +355,10 @@ def main() -> None:
     # Resolve item_ids to audit.
     if args.only_present:
         present: list[str] = []
+        for p in structured_dir.glob("*.json"):
+            present.append(p.stem)
         for p in structured_dir.glob("*.txt"):
-            # Skip error sidecars.
+            # Skip error sidecars from legacy runs.
             if p.name.endswith(".error.txt"):
                 continue
             present.append(p.stem)
@@ -388,13 +390,22 @@ def main() -> None:
         if not item_id:
             continue
         total += 1
+        json_path = structured_dir / f"{item_id}.json"
         txt_path = structured_dir / f"{item_id}.txt"
-        if not txt_path.exists():
+        input_path: Path | None = json_path if json_path.exists() else (txt_path if txt_path.exists() else None)
+        if input_path is None:
             missing_files.append(item_id)
-            all_issues.append(Issue(item_id=item_id, kind="missing_output_file", json_path=str(txt_path), detail=""))
+            all_issues.append(
+                Issue(
+                    item_id=item_id,
+                    kind="missing_output_file",
+                    json_path=f"{json_path} | {txt_path}",
+                    detail="",
+                )
+            )
             continue
 
-        raw = _read_text(txt_path)
+        raw = _read_text(input_path)
         snippet_text: Optional[str] = None
         snips_path = snippets_dir / f"{item_id}_snippets.jsonl"
         if snips_path.exists():

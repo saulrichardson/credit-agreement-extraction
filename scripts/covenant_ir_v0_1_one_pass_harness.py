@@ -33,10 +33,10 @@ SRC_ROOT = PROJECT_ROOT / "src"
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from pipeline.anchors import load_anchor_catalog
-from pipeline.config import Paths, REQUIRED_MODEL, REQUIRED_REASONING
-from pipeline.covenant_ir_v0_1 import CovenantIRValidationError, validate_covenant_ir, validate_precision_first_policy
-from pipeline.indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_sync
+from pipeline.core.anchors import load_anchor_catalog
+from pipeline.core.config import Paths, REQUIRED_MODEL, REQUIRED_REASONING
+from pipeline.ir.covenant_ir_v0_1 import CovenantIRValidationError, validate_covenant_ir, validate_precision_first_policy
+from pipeline.evidence.indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_sync
 from pipeline.utils import prompt_view_path
 
 
@@ -1050,6 +1050,52 @@ def _count_open_items(doc: Any) -> tuple[int, int]:
     return (total, blocking)
 
 
+def _to_blocked_artifact(
+    *,
+    item_id: str,
+    run_id: str,
+    attempts_used: int,
+    blocked_reason: str,
+    cov_anchors: Sequence[str],
+    covenantir_validated: Mapping[str, Any],
+    out_dir: Path,
+    last_errors: Sequence[CovenantIRValidationError],
+) -> Dict[str, Any]:
+    """Build a deterministic sidecar record for blocked CovenantIR items."""
+
+    open_items_total, open_items_blocking = _count_open_items(covenantir_validated)
+    covs = covenantir_validated.get("covenants")
+    tables = covenantir_validated.get("tables")
+    derived = covenantir_validated.get("derived")
+    open_items = covenantir_validated.get("open_items")
+
+    error_rows = [asdict(e) for e in (last_errors or [])]
+    error_codes: List[str] = sorted({str(e.get("code") or "") for e in error_rows if isinstance(e, dict)})
+
+    return {
+        "schema_version": "covenant_ir_v0_1_blocked_artifact_v1",
+        "artifact_type": "covenantir_blocked_artifact",
+        "item_id": item_id,
+        "run_id": run_id,
+        "attempts_used": int(attempts_used),
+        "blocked_reason": blocked_reason,
+        "open_items_total": int(open_items_total),
+        "open_items_blocking": int(open_items_blocking),
+        "source_anchor_ids": [a for a in cov_anchors if isinstance(a, str)],
+        "covenantir_validated_path": str(out_dir / "covenantir_validated.json"),
+        "covenantir_summary": {
+            "covenants_count": len(covs) if isinstance(covs, list) else 0,
+            "tables_count": len(tables) if isinstance(tables, list) else 0,
+            "derived_count": len(derived) if isinstance(derived, list) else 0,
+            "open_items_count": len(open_items) if isinstance(open_items, list) else 0,
+        },
+        "error_codes": [c for c in error_codes if c],
+        "error_count": len(error_rows),
+        "error_examples": error_rows[:10],
+        "open_item_examples": open_items[:5] if isinstance(open_items, list) else [],
+    }
+
+
 def _parse_excerpt_pack_blocks(contexts: str) -> Dict[str, str]:
     """Parse the harness-built excerpt pack into {anchor_id: text} blocks."""
 
@@ -1463,12 +1509,25 @@ def main() -> int:
                 continue
 
             _write_json(out_dir / "covenantir_validated.json", parsed)
+            if open_items_blocking > 0:
+                blocked_artifact = _to_blocked_artifact(
+                    item_id=item_id,
+                    run_id=args.run_id,
+                    attempts_used=attempt,
+                    blocked_reason="model_reported_missing_context",
+                    cov_anchors=cov_anchors,
+                    covenantir_validated=parsed if isinstance(parsed, dict) else {},
+                    out_dir=out_dir,
+                    last_errors=[],
+                )
+                _write_json(out_dir / "blocked_artifact.json", blocked_artifact)
             result = {
                 "item_id": item_id,
                 "run_id": args.run_id,
                 "attempts_used": attempt,
                 "ok": (open_items_blocking == 0),
-                "status": "ok" if open_items_blocking == 0 else "blocked",
+                "status": "ok" if open_items_blocking == 0 else "blocked_artifact",
+                "blocked_reason": "model_reported_missing_context" if open_items_blocking > 0 else None,
                 "covenants_count": n_covs,
                 "open_items_total": open_items_total,
                 "open_items_blocking": open_items_blocking,
@@ -1478,9 +1537,9 @@ def main() -> int:
 
             if open_items_blocking:
                 print(
-                    f"BLOCKED attempts_used={attempt} blocking_open_items={open_items_blocking} covenants={n_covs} out={out_dir}"
+                    f"BLOCKED_ARTIFACT attempts_used={attempt} blocking_open_items={open_items_blocking} covenants={n_covs} out={out_dir}"
                 )
-                return 2
+                return 0
 
             print(f"OK attempts_used={attempt} covenants={n_covs} out={out_dir}")
             return 0
@@ -1490,19 +1549,7 @@ def main() -> int:
         _write_text(out_dir / f"repair_appendix_attempt_{attempt}.txt", repair_appendix)
         prompt = base_prompt + "\n\n" + repair_appendix
 
-    result = {
-        "item_id": item_id,
-        "run_id": args.run_id,
-        "attempts_used": attempt,
-        "ok": False,
-        "status": "blocked_invalid_output",
-        "covenants_count": 0,
-        "open_items_total": 1,
-        "open_items_blocking": 1,
-        "out_dir": str(out_dir),
-    }
-
-    # Produce a schema-valid, precision-first blocked artifact so downstream tooling can proceed
+    # Produce a schema-valid, precision-first blocked CovenantIR document so downstream tooling can proceed
     # deterministically even when the model fails to emit valid CovenantIR after repair attempts.
     err_list = [asdict(e) for e in (last_errors or [])]
     issue = (
@@ -1538,10 +1585,34 @@ def main() -> int:
         "covenants": [],
     }
     _write_json(out_dir / "covenantir_validated.json", salvage)
+    blocked_artifact = _to_blocked_artifact(
+        item_id=item_id,
+        run_id=args.run_id,
+        attempts_used=attempt,
+        blocked_reason="invalid_output_after_repair",
+        cov_anchors=cov_anchors,
+        covenantir_validated=salvage,
+        out_dir=out_dir,
+        last_errors=last_errors,
+    )
+    _write_json(out_dir / "blocked_artifact.json", blocked_artifact)
+    result = {
+        "item_id": item_id,
+        "run_id": args.run_id,
+        "attempts_used": attempt,
+        "ok": False,
+        "status": "blocked_artifact",
+        "blocked_reason": "invalid_output_after_repair",
+        "legacy_status": "blocked_invalid_output",
+        "covenants_count": 0,
+        "open_items_total": 1,
+        "open_items_blocking": 1,
+        "out_dir": str(out_dir),
+    }
     _write_json(out_dir / "result.json", result)
 
-    print(f"BLOCKED_INVALID attempts_used={attempt} out={out_dir}")
-    return 2
+    print(f"BLOCKED_ARTIFACT_INVALID_OUTPUT attempts_used={attempt} out={out_dir}")
+    return 0
 
 
 if __name__ == "__main__":

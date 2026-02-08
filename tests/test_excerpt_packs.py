@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import pytest
 
-from pipeline.excerpt_packs import ExcerptPackError, build_excerpt_pack_from_canonical, expand_anchor_ids
+from pipeline.evidence.excerpt_packs import ExcerptPackError, build_excerpt_pack_from_canonical, expand_anchor_ids
 
 
 def _catalog_for_text(text: str) -> tuple[str, dict[str, dict[str, int]]]:

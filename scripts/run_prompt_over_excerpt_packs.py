@@ -34,10 +34,10 @@ _REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(_REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(_REPO_ROOT))
 
-from src.pipeline.anchors import load_anchor_catalog  # noqa: E402
-from src.pipeline.config import REQUIRED_MODEL, REQUIRED_REASONING, Paths  # noqa: E402
-from src.pipeline.excerpt_packs import build_excerpt_pack_from_canonical, expand_anchor_ids  # noqa: E402
-from src.pipeline.indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_sync  # noqa: E402
+from src.pipeline.core.anchors import load_anchor_catalog  # noqa: E402
+from src.pipeline.core.config import REQUIRED_MODEL, REQUIRED_REASONING, Paths  # noqa: E402
+from src.pipeline.evidence.excerpt_packs import build_excerpt_pack_from_canonical, expand_anchor_ids  # noqa: E402
+from src.pipeline.evidence.indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_sync  # noqa: E402
 from src.pipeline.schemas_v2 import IndexingSelectionV2Artifact  # noqa: E402
 from src.pipeline.utils import assert_exists, prompt_view_path  # noqa: E402
 

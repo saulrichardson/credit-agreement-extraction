@@ -33,9 +33,9 @@ import sys
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from pipeline.anchors import load_anchor_catalog  # noqa: E402
-from pipeline.config import Paths  # noqa: E402
-from pipeline.excerpt_packs import expand_anchor_ids, order_anchor_ids  # noqa: E402
+from pipeline.core.anchors import load_anchor_catalog  # noqa: E402
+from pipeline.core.config import Paths  # noqa: E402
+from pipeline.evidence.excerpt_packs import expand_anchor_ids, order_anchor_ids  # noqa: E402
 
 
 SPREAD_KEYWORDS = (

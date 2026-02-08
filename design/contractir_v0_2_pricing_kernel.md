@@ -28,7 +28,7 @@ ContractIR is a strict JSON intermediate representation with:
 
 **Files**
 - Schema: `schemas/contract_ir_v0_2.schema.json`
-- Validator + deterministic evaluator: `src/pipeline/contract_ir_v0_2.py`
+- Validator + deterministic evaluator: `src/pipeline/ir/contract_ir_v0_2.py`
 
 ### Prompt strategy (subtasks)
 Each pricing component is extracted with a **separate prompt** and a **separate excerpt pack**.
@@ -54,7 +54,7 @@ Hard rules:
 - Require `contract_id == item_id` so outputs are mergeable across passes
 
 **Files**
-- Merge utility: `src/pipeline/contract_ir_v0_2_merge.py`
+- Merge utility: `src/pipeline/ir/contract_ir_v0_2_merge.py`
 
 ---
 

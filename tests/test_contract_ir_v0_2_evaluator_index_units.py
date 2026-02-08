@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import pytest
 
-from pipeline.contract_ir_v0_2 import evaluate_expr
+from pipeline.ir.contract_ir_v0_2 import evaluate_expr
 
 
 def _lit(typ: str, value: object) -> dict:

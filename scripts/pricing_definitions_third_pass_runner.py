@@ -11,6 +11,8 @@ This is intentionally artifact-first and run-scoped. It writes a folder per item
   - llm_output.txt
   - meta.json
   - validation.json
+  - compiled_metrics/*.compiled.json
+  - compiled_metrics_bundle.json
 
 The goal is to make "pricing definitions" iterative + auditable without forcing the full
 ContractIR/CovenantIR strict schemas.
@@ -38,11 +40,11 @@ _REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(_REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(_REPO_ROOT))
 
-from src.pipeline.anchors import load_anchor_catalog  # noqa: E402
-from src.pipeline.config import REQUIRED_MODEL, REQUIRED_REASONING, Paths  # noqa: E402
-from src.pipeline.excerpt_packs import build_excerpt_pack_from_canonical, expand_anchor_ids  # noqa: E402
-from src.pipeline.indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_sync  # noqa: E402
-from src.pipeline.indexing_pricing_definitions_v1_schemas import (  # noqa: E402
+from src.pipeline.core.anchors import load_anchor_catalog  # noqa: E402
+from src.pipeline.core.config import REQUIRED_MODEL, REQUIRED_REASONING, Paths, prompt_hash  # noqa: E402
+from src.pipeline.evidence.excerpt_packs import build_excerpt_pack_from_canonical, expand_anchor_ids  # noqa: E402
+from src.pipeline.evidence.indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_sync  # noqa: E402
+from src.pipeline.compile.indexing_pricing_definitions_v1_schemas import (  # noqa: E402
     PricingDefinitionsIndexingArtifactV1,
     PricingDefinitionsIndexingSelectionV1,
 )
@@ -53,6 +55,12 @@ from src.pipeline.utils import assert_exists, prompt_view_path  # noqa: E402
 @dataclass(frozen=True)
 class StrategySpec:
     name: str
+    description: str
+
+
+@dataclass(frozen=True)
+class CompustatAllowlistEntry:
+    code: str
     description: str
 
 
@@ -121,10 +129,68 @@ def _split_csv(values: Iterable[str]) -> list[str]:
     return out
 
 
+def _load_compustat_allowlist(path: Path) -> list[CompustatAllowlistEntry]:
+    try:
+        doc = _read_json(path)
+    except Exception as exc:
+        raise PricingDefinitionsThirdPassError(f"Compustat allowlist is not valid JSON: {path} ({type(exc).__name__}: {exc})") from exc
+
+    if not isinstance(doc, dict):
+        raise PricingDefinitionsThirdPassError(f"Compustat allowlist must be a JSON object: {path}")
+    if doc.get("schema_version") != "compustat_allowlist_v1":
+        raise PricingDefinitionsThirdPassError(
+            f"Compustat allowlist schema_version must be 'compustat_allowlist_v1' (got {doc.get('schema_version')!r}): {path}"
+        )
+    if doc.get("frequency") != "quarterly":
+        raise PricingDefinitionsThirdPassError(
+            f"Compustat allowlist frequency must be 'quarterly' (got {doc.get('frequency')!r}): {path}"
+        )
+
+    rows = doc.get("variables")
+    if not isinstance(rows, list) or not rows:
+        raise PricingDefinitionsThirdPassError(f"Compustat allowlist variables must be a non-empty list: {path}")
+
+    entries: list[CompustatAllowlistEntry] = []
+    for idx, row in enumerate(rows):
+        if not isinstance(row, dict):
+            raise PricingDefinitionsThirdPassError(f"Compustat allowlist variables[{idx}] must be object: {path}")
+        code = row.get("code")
+        description = row.get("description")
+        if not isinstance(code, str) or not code.strip():
+            raise PricingDefinitionsThirdPassError(f"Compustat allowlist variables[{idx}].code must be non-empty string: {path}")
+        if not isinstance(description, str) or not description.strip():
+            raise PricingDefinitionsThirdPassError(
+                f"Compustat allowlist variables[{idx}].description must be non-empty string: {path}"
+            )
+        entries.append(CompustatAllowlistEntry(code=code.strip().lower(), description=description.strip()))
+
+    deduped: dict[str, CompustatAllowlistEntry] = {}
+    for e in entries:
+        if e.code not in deduped:
+            deduped[e.code] = e
+    return [deduped[k] for k in sorted(deduped.keys())]
+
+
+def _render_allowlist_table(allowlist: list[CompustatAllowlistEntry]) -> str:
+    lines = [
+        "| Code | Description |",
+        "|------|-------------|",
+    ]
+    for e in allowlist:
+        lines.append(f"| {e.code} | {e.description} |")
+    return "\n".join(lines)
+
+
+def _safe_slug(text: str) -> str:
+    return re.sub(r"[^A-Za-z0-9_-]+", "_", text or "").strip("_") or "metric"
+
+
 def _load_pricing_second_pass_doc(pricing_dir: Path, item_id: str) -> dict[str, Any]:
     candidates = [
         pricing_dir / item_id / "llm_output.txt",
+        pricing_dir / f"{item_id}.json",
         pricing_dir / f"{item_id}.txt",
+        pricing_dir / item_id / f"{item_id}.json",
         pricing_dir / item_id / f"{item_id}.txt",
     ]
     for p in candidates:
@@ -134,7 +200,8 @@ def _load_pricing_second_pass_doc(pricing_dir: Path, item_id: str) -> dict[str, 
                 raise PricingDefinitionsThirdPassError(f"pricing second-pass output must be a JSON object: {p}")
             return doc
     raise PricingDefinitionsThirdPassError(
-        f"Missing pricing second-pass output for {item_id} under {pricing_dir} (expected llm_output.txt or <item_id>.txt)"
+        f"Missing pricing second-pass output for {item_id} under {pricing_dir} "
+        "(expected llm_output.txt or <item_id>.json/.txt)"
     )
 
 
@@ -572,12 +639,23 @@ def _pricing_union_seeds(selection: Any) -> list[str]:
     return deduped
 
 
-def _render_prompt(template: str, metrics_list: list[str], definition_chunks: str) -> str:
-    if "{metrics_list}" not in template or "{definition_chunks}" not in template:
-        raise PricingDefinitionsThirdPassError("Prompt template must contain {metrics_list} and {definition_chunks} placeholders")
+def _render_prompt(
+    template: str,
+    metrics_list: list[str],
+    definition_chunks: str,
+    *,
+    compustat_allowlist_table: str,
+) -> str:
+    required = ("{metrics_list}", "{definition_chunks}", "{compustat_allowlist_table}")
+    if any(k not in template for k in required):
+        raise PricingDefinitionsThirdPassError(
+            "Prompt template must contain placeholders: "
+            "{metrics_list}, {definition_chunks}, {compustat_allowlist_table}"
+        )
     return (
         template.replace("{metrics_list}", json.dumps(metrics_list, indent=2))
         .replace("{definition_chunks}", definition_chunks)
+        .replace("{compustat_allowlist_table}", compustat_allowlist_table)
         .strip()
     )
 
@@ -633,11 +711,92 @@ def _validate_output(doc: Any, metrics_expected: Sequence[str], *, anchors_prese
     return out
 
 
+def _unresolved_for_metric(unresolved: Any, metric_name: str) -> list[dict[str, Any]]:
+    if not isinstance(unresolved, list):
+        return []
+    out: list[dict[str, Any]] = []
+    seen: set[tuple[str, tuple[str, ...]]] = set()
+    for row in unresolved:
+        if not isinstance(row, dict):
+            continue
+        term = row.get("term")
+        refs = row.get("referenced_by")
+        if not isinstance(term, str) or not term.strip():
+            continue
+        if not isinstance(refs, list) or not all(isinstance(x, str) for x in refs):
+            continue
+        refs_clean = [x.strip() for x in refs if x.strip()]
+        if metric_name not in refs_clean:
+            continue
+        key = (term.strip(), tuple(sorted(set(refs_clean))))
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append({"term": term.strip(), "referenced_by": sorted(set(refs_clean))})
+    return out
+
+
+def _write_per_metric_compiled_jsons(item_out: Path, parsed_doc: dict[str, Any]) -> dict[str, Any]:
+    metrics = parsed_doc.get("metrics")
+    if not isinstance(metrics, list):
+        return {"written_count": 0, "paths": []}
+
+    unresolved = parsed_doc.get("unresolved_dependencies")
+    compiled_dir = item_out / "compiled_metrics"
+    if compiled_dir.exists():
+        shutil.rmtree(compiled_dir)
+    compiled_dir.mkdir(parents=True, exist_ok=True)
+
+    written_paths: list[str] = []
+    bundle_metrics: list[dict[str, Any]] = []
+    seen_names: set[str] = set()
+
+    for row in metrics:
+        if not isinstance(row, dict):
+            continue
+        name = row.get("name")
+        if not isinstance(name, str) or not name.strip():
+            continue
+        metric_name = name.strip()
+        if metric_name in seen_names:
+            continue
+        seen_names.add(metric_name)
+
+        metric_payload = dict(row)
+        metric_payload["name"] = metric_name
+        unresolved_metric = _unresolved_for_metric(unresolved, metric_name)
+        compiled_doc = {
+            "schema_version": "pricing_metric_definition_compiled_v1",
+            "metric_name": metric_name,
+            "metric": metric_payload,
+            "unresolved_dependencies": unresolved_metric,
+        }
+
+        out_path = compiled_dir / f"{_safe_slug(metric_name)}.compiled.json"
+        _write_json(out_path, compiled_doc)
+        written_paths.append(str(out_path))
+        bundle_metrics.append(compiled_doc)
+
+    _write_json(
+        item_out / "compiled_metrics_bundle.json",
+        {
+            "schema_version": "pricing_metric_definition_compiled_bundle_v1",
+            "metrics": bundle_metrics,
+        },
+    )
+    return {"written_count": len(bundle_metrics), "paths": written_paths}
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--run-id", required=True, help="Existing run folder under runs/<run-id>/ with normalized/ + indexing_v2/.")
     ap.add_argument("--pricing-second-pass-dir", required=True, help="Directory containing pricing second-pass outputs per item.")
     ap.add_argument("--prompt", default="prompts/prompt_pricing_third_pass_dg_v2.txt")
+    ap.add_argument(
+        "--compustat-allowlist",
+        default="datasets/compustat_allowlist_quarterly_v1.json",
+        help="Compustat allowlist JSON injected into the one-step prompt as a table.",
+    )
     ap.add_argument(
         "--definition-finder-prompt",
         default="prompts/indexing_pricing_definitions_v1.txt",
@@ -704,10 +863,18 @@ def main() -> int:
     prompt_path = Path(args.prompt)
     assert_exists(prompt_path, message=f"Prompt not found: {prompt_path}")
     prompt_template = _read_text(prompt_path)
+    prompt_digest = prompt_hash(prompt_path)
+
+    compustat_allowlist_path = Path(args.compustat_allowlist)
+    assert_exists(compustat_allowlist_path, message=f"Compustat allowlist not found: {compustat_allowlist_path}")
+    allowlist = _load_compustat_allowlist(compustat_allowlist_path)
+    compustat_allowlist_table = _render_allowlist_table(allowlist)
+    compustat_allowlist_digest = prompt_hash(compustat_allowlist_path)
 
     definition_finder_prompt_path = Path(args.definition_finder_prompt)
     assert_exists(definition_finder_prompt_path, message=f"Definition-finder prompt not found: {definition_finder_prompt_path}")
     definition_finder_template = _read_text(definition_finder_prompt_path)
+    definition_finder_prompt_digest = prompt_hash(definition_finder_prompt_path)
 
     out_dir = Path(args.out_dir)
     if out_dir.exists():
@@ -729,6 +896,11 @@ def main() -> int:
         "run_id": run_id,
         "pricing_second_pass_dir": str(pricing_second_pass_dir),
         "prompt": str(prompt_path),
+        "prompt_sha256": prompt_digest,
+        "definition_finder_prompt": str(definition_finder_prompt_path),
+        "definition_finder_prompt_sha256": definition_finder_prompt_digest,
+        "compustat_allowlist": str(compustat_allowlist_path),
+        "compustat_allowlist_sha256": compustat_allowlist_digest,
         "strategies": strategies,
         "llm": {
             "model": args.model,
@@ -899,7 +1071,12 @@ def main() -> int:
             )
             anchors_present = _extract_anchor_ids(definition_chunks)
 
-            rendered = _render_prompt(prompt_template, metric_names, definition_chunks)
+            rendered = _render_prompt(
+                prompt_template,
+                metric_names,
+                definition_chunks,
+                compustat_allowlist_table=compustat_allowlist_table,
+            )
 
             _write_text(item_out / "definition_chunks.txt", definition_chunks)
             _write_json(item_out / "metrics_list.json", metric_names)
@@ -920,6 +1097,12 @@ def main() -> int:
                     "reasoning": args.reasoning,
                     "temperature": float(args.temperature),
                     "gateway_url": gateway_url,
+                    "prompt": str(prompt_path),
+                    "prompt_sha256": prompt_digest,
+                    "definition_finder_prompt": str(definition_finder_prompt_path),
+                    "definition_finder_prompt_sha256": definition_finder_prompt_digest,
+                    "compustat_allowlist": str(compustat_allowlist_path),
+                    "compustat_allowlist_sha256": compustat_allowlist_digest,
                 },
             )
 
@@ -963,6 +1146,8 @@ def main() -> int:
 
             validation = _validate_output(parsed, metric_names, anchors_present=anchors_present)
             _write_json(item_out / "validation.json", validation)
+            per_metric = _write_per_metric_compiled_jsons(item_out, parsed)
+            _write_json(item_out / "compiled_metrics_index.json", per_metric)
             per_strategy[strategy] = {"status": "ok", **validation}
 
             score = int(validation.get("metrics_with_definition_and_refs") or 0)

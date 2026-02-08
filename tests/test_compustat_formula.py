@@ -1,6 +1,6 @@
 import pytest
 
-from pipeline.compustat_formula import CompustatFormulaError, evaluate_compustat_formula
+from pipeline.compile.compustat_formula import CompustatFormulaError, evaluate_compustat_formula
 
 
 def test_evaluate_compustat_formula_basic() -> None:

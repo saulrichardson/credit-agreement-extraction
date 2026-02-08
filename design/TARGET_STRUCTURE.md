@@ -55,7 +55,7 @@ This keeps “multiple pipelines” from looking like “multiple methodologies�
 ### Short-term (incremental, low-risk)
 
 - Keep `src/pipeline/*.py` flat for now, but:
-  - move **gateway plumbing** out of `src/pipeline/indexing.py` into `src/pipeline/llm/gateway.py`
+  - move **gateway plumbing** out of `src/pipeline/evidence/indexing.py` into `src/pipeline/llm/gateway.py`
   - standardize “JSON artifacts use `.json`” (no JSON-in-`.txt`)
   - keep *compatibility re-exports* in old locations so scripts don’t all break at once
 

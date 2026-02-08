@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import click
 
-from ..contract_ir_v0_2_cli import contractir_v0_2_cli
+from pipeline.ir.contract_ir_v0_2_cli import contractir_v0_2_cli
 from .all_v2 import all_v2
 from .contract_pricing import contract_pricing, contract_pricing_flow, contract_pricing_v3
 from .definitions import (

@@ -4,7 +4,7 @@ from decimal import Decimal
 
 import pytest
 
-from pipeline.contract_ir_v0_2 import MultipleMatchingRows, NoMatchingRow, evaluate_expr
+from pipeline.ir.contract_ir_v0_2 import MultipleMatchingRows, NoMatchingRow, evaluate_expr
 
 
 def _var(name: str) -> dict:

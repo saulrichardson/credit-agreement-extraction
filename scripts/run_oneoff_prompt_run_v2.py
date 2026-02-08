@@ -38,8 +38,8 @@ _REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(_REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(_REPO_ROOT))
 
-from src.pipeline.config import REQUIRED_MODEL, REQUIRED_REASONING, Paths  # noqa: E402
-from src.pipeline.indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async  # noqa: E402
+from src.pipeline.core.config import REQUIRED_MODEL, REQUIRED_REASONING, Paths  # noqa: E402
+from src.pipeline.evidence.indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async  # noqa: E402
 from src.pipeline.utils import load_manifest, manifest_items  # noqa: E402
 
 # Reuse the snippet rendering + filtering behavior from structured_v2 so "one-off"

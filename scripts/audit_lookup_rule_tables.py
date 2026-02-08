@@ -39,7 +39,7 @@ import sys
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from pipeline.contract_ir_v0_2 import evaluate_expr, validate_contract_ir  # noqa: E402
+from pipeline.ir.contract_ir_v0_2 import evaluate_expr, validate_contract_ir  # noqa: E402
 
 
 def _read_json(path: Path) -> Any:

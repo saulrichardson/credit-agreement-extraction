@@ -5,11 +5,11 @@ from typing import Optional, Tuple
 
 import click
 
-from ..config import REQUIRED_REASONING
-from ..ingest import ingest_tarballs
-from ..normalize import build_prompt_views
-from ..run_id import validate_run_id
-from ..toc_v1 import run_toc_v1
+from pipeline.core.config import REQUIRED_REASONING
+from pipeline.evidence.ingest import ingest_tarballs
+from pipeline.evidence.normalize import build_prompt_views
+from pipeline.core.run_id import validate_run_id
+from pipeline.evidence.toc_v1 import run_toc_v1
 from .common import load_accessions_and_filters, resolve_paths, resolve_selected_item_ids
 
 
@@ -144,12 +144,12 @@ def all_v2(
 ) -> None:
     """Run ingest -> normalize -> toc-v1 -> index-v2 -> retrieve-v2 -> structured-v2 -> definitions-v2 -> agreement-metadata -> analysis-export."""
 
-    from ..agreement_metadata_v1 import run_agreement_metadata_v1
-    from ..analysis_export_v1 import run_analysis_export_v1
-    from ..definitions_v2 import run_definitions_v2
-    from ..indexing_v2 import run_indexing_v2
-    from ..retrieval_v2 import render_snippets_v2
-    from ..structured_v2 import run_structured_v2
+    from pipeline.extract.agreement_metadata_v1 import run_agreement_metadata_v1
+    from pipeline.extract.analysis_export_v1 import run_analysis_export_v1
+    from pipeline.extract.definitions_v2 import run_definitions_v2
+    from pipeline.evidence.indexing_v2 import run_indexing_v2
+    from pipeline.evidence.retrieval_v2 import render_snippets_v2
+    from pipeline.extract.structured_v2 import run_structured_v2
 
     paths = resolve_paths(run_id, base_dir, bandwidth=4)
 

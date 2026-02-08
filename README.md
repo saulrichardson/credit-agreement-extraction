@@ -61,6 +61,23 @@ runs/<run_id>/
   manifest.json # filters, prompts, accessions, paths
 ```
 
+## Source layout
+The codebase is organized by pipeline role, not by historical iteration:
+
+```
+src/pipeline/
+  core/      # run paths, manifest helpers, anchor loading, run_id validation
+  llm/       # gateway client + strict JSON retry policy
+  evidence/  # ingest, normalize, toc, indexing, retrieval, excerpt packs
+  extract/   # structured extraction, definitions grounding, metadata/facility extraction
+  pricing/   # pricing compiler/planner/doc_ir/schema modules
+  compile/   # definitions/blocking-term/overlay compilers
+  ir/        # ContractIR and CovenantIR validators/evaluators/flows
+  cli/       # Click command surface
+```
+
+This layout is strict-forward: modules consume canonical run artifacts (`runs/<run_id>/...`) and do not include legacy module-path aliases.
+
 ## Status
 LLM calls run via the local `agent-gateway` submodule. Canonical pipeline stages enforce strict JSON outputs and fail loudly on schema/provenance errors (see `METHODOLOGY.md`).
 

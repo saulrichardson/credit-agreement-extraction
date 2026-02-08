@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import pytest
 
-from pipeline.definitions_compiler_v1 import _validate_compiler_output_v2_ast
+from pipeline.compile.definitions_compiler_v1 import _validate_compiler_output_v2_ast
 
 
 def test_definitions_compiler_rejects_source_refs_not_in_contexts():

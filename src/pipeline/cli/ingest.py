@@ -5,10 +5,10 @@ from typing import Optional
 
 import click
 
-from ..ingest import ingest_tarballs
-from ..normalize import build_prompt_views
-from ..run_id import validate_run_id
-from ..utils import load_manifest, manifest_items
+from pipeline.evidence.ingest import ingest_tarballs
+from pipeline.evidence.normalize import build_prompt_views
+from pipeline.core.run_id import validate_run_id
+from pipeline.utils import load_manifest, manifest_items
 from .common import load_accessions_and_filters, resolve_paths
 
 

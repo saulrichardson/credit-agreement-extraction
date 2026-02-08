@@ -5,7 +5,7 @@ from pathlib import Path
 import re
 from typing import List, Dict, Any
 
-from .config import Paths
+from pipeline.core.config import Paths
 
 
 def load_manifest(path: Path) -> Dict:
@@ -53,21 +53,11 @@ def assert_exists(path: Path, message: str | None = None) -> Path:
 def prompt_view_path(paths: Paths, item_id: str) -> Path:
     """Return normalized text for an item.
 
-    Prefer canonical.txt (single source of truth); fall back to prompt_view.txt for older runs.
+    canonical.txt is the single source of truth.
     """
 
     canonical = paths.normalized_dir / item_id / "canonical.txt"
     if canonical.exists():
         return canonical
 
-    preferred = paths.normalized_dir / item_id / "prompt_view.txt"
-    if preferred.exists():
-        return preferred
-
-    legacy = paths.legacy_prompt_views_dir / item_id / "prompt_view.txt"
-    if legacy.exists():
-        return legacy
-
-    raise FileNotFoundError(
-        f"Missing normalized text for {item_id}: checked {canonical}, {preferred}, {legacy}"
-    )
+    raise FileNotFoundError(f"Missing normalized text for {item_id}: checked {canonical}")

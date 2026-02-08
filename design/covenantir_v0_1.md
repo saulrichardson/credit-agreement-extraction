@@ -8,14 +8,14 @@ Goal: encode **financial covenants** from credit agreements as **computable comp
 Primary artifacts:
 
 - Schema: `schemas/covenant_ir_v0_1.schema.json`
-- Validator + evaluator: `src/pipeline/covenant_ir_v0_1.py`
+- Validator + evaluator: `src/pipeline/ir/covenant_ir_v0_1.py`
 - Extraction prompt: `prompts/covenant_ir_financial_v0_1.txt`
 - One-pass harness (LLM + repair + validate): `scripts/covenant_ir_v0_1_one_pass_harness.py`
 - Batch runner (pressure-testing): `scripts/covenant_ir_v0_1_batch_runner.py`
 
 ## Strict lookup semantics (no priority)
 
-Like ContractIR, CovenantIR uses the shared AST + table evaluation semantics from `src/pipeline/contract_ir_v0_2.py`.
+Like ContractIR, CovenantIR uses the shared AST + table evaluation semantics from `src/pipeline/ir/contract_ir_v0_2.py`.
 
 In particular, rule/schedule evaluation is strict:
 
@@ -37,7 +37,7 @@ The financial covenant extraction prompt is currently operated in a **precision-
   - `tables = []`
   - `derived = []`
 
-The one-pass harness enforces this policy via `validate_precision_first_policy(...)` (see `src/pipeline/covenant_ir_v0_1.py`).
+The one-pass harness enforces this policy via `validate_precision_first_policy(...)` (see `src/pipeline/ir/covenant_ir_v0_1.py`).
 
 ## Future direction: Option 3 (table type inference)
 

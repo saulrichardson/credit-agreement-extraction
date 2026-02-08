@@ -36,10 +36,10 @@ _REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(_REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(_REPO_ROOT))
 
-from src.pipeline.anchors import load_anchor_catalog  # noqa: E402
-from src.pipeline.config import REQUIRED_MODEL, REQUIRED_REASONING, Paths, prompt_hash, update_manifest  # noqa: E402
-from src.pipeline.indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async  # noqa: E402
-from src.pipeline.indexing_pricing_definitions_v1_schemas import (  # noqa: E402
+from src.pipeline.core.anchors import load_anchor_catalog  # noqa: E402
+from src.pipeline.core.config import REQUIRED_MODEL, REQUIRED_REASONING, Paths, prompt_hash, update_manifest  # noqa: E402
+from src.pipeline.evidence.indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async  # noqa: E402
+from src.pipeline.compile.indexing_pricing_definitions_v1_schemas import (  # noqa: E402
     PricingDefinitionsIndexingArtifactV1,
     PricingDefinitionsIndexingSelectionV1,
     PricingMetricInputV1,

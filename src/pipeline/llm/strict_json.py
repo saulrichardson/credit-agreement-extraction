@@ -52,6 +52,7 @@ async def call_strict_json(
     model: str,
     temperature: float,
     reasoning: str | None,
+    max_output_tokens: int | None = None,
     attempts: int = 3,
     retry_prompt: RetryPromptFn | None = None,
     allowed_root_types: tuple[type, ...] = (dict,),
@@ -86,7 +87,7 @@ async def call_strict_json(
                 input_messages=[{"role": "user", "content": attempt_prompt}],
                 reasoning={"effort": reasoning} if reasoning else None,
                 temperature=temperature,
-                max_output_tokens=None,
+                max_output_tokens=max_output_tokens,
                 metadata=None,
             )
         except Exception as exc:  # pragma: no cover - network/errors
@@ -130,4 +131,3 @@ async def call_strict_json(
         last_error=last_error,
         last_raw_text=last_raw_text,
     )
-

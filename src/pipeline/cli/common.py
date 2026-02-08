@@ -5,10 +5,10 @@ from typing import Optional, Tuple
 
 import click
 
-from ..config import FilterSpec, Paths, RunConfig
-from ..filters import load_doc_filter, load_filter_spec
-from ..run_id import validate_run_id
-from ..utils import load_manifest, manifest_items, read_accessions_file
+from pipeline.core.config import FilterSpec, Paths, RunConfig
+from pipeline.filters import load_doc_filter, load_filter_spec
+from pipeline.core.run_id import validate_run_id
+from pipeline.utils import load_manifest, manifest_items, read_accessions_file
 
 
 def resolve_run_config(run_id: str, base_dir: str, *, workers: int, bandwidth: int) -> RunConfig:

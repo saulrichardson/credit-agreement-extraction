@@ -31,14 +31,14 @@ SRC_ROOT = PROJECT_ROOT / "src"
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from pipeline.config import REQUIRED_MODEL, REQUIRED_REASONING  # noqa: E402
-from pipeline.contract_ir_v0_1 import (  # noqa: E402
+from pipeline.core.config import REQUIRED_MODEL, REQUIRED_REASONING  # noqa: E402
+from pipeline.ir.contract_ir_v0_1 import (  # noqa: E402
     ContractIREvalError,
     ContractIRValidationError,
     evaluate_function,
     validate_contract_ir,
 )
-from pipeline.indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_sync  # type: ignore  # noqa: E402
+from pipeline.evidence.indexing import DEFAULT_GATEWAY_URL, _ensure_gateway_client_sync  # type: ignore  # noqa: E402
 
 
 def _decimal_str(x: Decimal) -> str:

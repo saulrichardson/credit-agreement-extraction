@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import importlib.util
 
-from pipeline.covenant_ir_v0_1 import evaluate_covenant, validate_covenant_ir, validate_precision_first_policy
+from pipeline.ir.covenant_ir_v0_1 import evaluate_covenant, validate_covenant_ir, validate_precision_first_policy
 
 
 def _lit(typ: str, value: object) -> dict:

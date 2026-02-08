@@ -189,7 +189,7 @@ poetry run python scripts/run_dg_v2_pricing_flow.py \
 
 ## Notes on recent robustness fixes
 
-- `src/pipeline/structured_v2.py` enforces **strict JSON output** (retry-then-fail). On repeated failure it writes a `.raw.txt` sidecar and a per-item `.error.txt`.
-- `src/pipeline/structured_v2.py` does **not** drop `definitions` bucket snippets by default. If you want to exclude definitions section text from a structured prompt, pass an explicit category filter when running `structured-v2`.
-- `src/pipeline/definitions_v2.py` uses `selection.definitions_anchor_range` (when present) to prefer term hits inside the definitions span.
-- `src/pipeline/definitions_v2.py` treats “no terms” and “term not found” as **issues** (recorded in `issues.txt`) rather than hard failures.
+- `src/pipeline/extract/structured_v2.py` enforces **strict JSON output** (retry-then-fail). On repeated failure it writes a `.raw.txt` sidecar and a per-item `.error.txt`.
+- `src/pipeline/extract/structured_v2.py` does **not** drop `definitions` bucket snippets by default. If you want to exclude definitions section text from a structured prompt, pass an explicit category filter when running `structured-v2`.
+- `src/pipeline/extract/definitions_v2.py` uses `selection.definitions_anchor_range` (when present) to prefer term hits inside the definitions span.
+- `src/pipeline/extract/definitions_v2.py` treats “no terms” and “term not found” as **issues** (recorded in `issues.txt`) rather than hard failures.

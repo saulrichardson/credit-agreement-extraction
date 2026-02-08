@@ -16,6 +16,16 @@ Use ONLY these codes if you provide a Compustat mapping:
 
 {{COMPUSTAT_ALLOWLIST_TABLE}}
 
+=== REASONING MACROS (PROMPT-ONLY) ===
+You may reason with these shorthand forms while thinking:
+- SUMQ(var, n): rolling sum of var over the past n quarters
+- AVGQ(var, n): rolling average of var over the past n quarters
+- LAG(var, n): var lagged n quarters
+
+Critical output guardrail:
+- Do NOT emit SUMQ/AVGQ/LAG in `compustat_formula`.
+- `compustat_formula` must remain parser-safe allowlist-variable arithmetic (codes + `+ - * / ( ) .` and whitespace).
+
 === DECISION POLICY (MUST FOLLOW) ===
 There can be multiple reasonable mappings. You MUST:
 1) Choose exactly ONE primary mapping (compustat_formula + compustat_variables).

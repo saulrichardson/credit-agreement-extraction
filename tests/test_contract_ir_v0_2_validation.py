@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from pipeline.contract_ir_v0_2 import validate_contract_ir
+from pipeline.ir.contract_ir_v0_2 import validate_contract_ir
 
 
 def _minimal_contract_ir(*, source_anchor_ids: list[str], derived_source_refs: list[str]):

@@ -29,8 +29,8 @@ SRC_ROOT = PROJECT_ROOT / "src"
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from pipeline.anchors import load_anchor_catalog  # noqa: E402
-from pipeline.config import Paths  # noqa: E402
+from pipeline.core.anchors import load_anchor_catalog  # noqa: E402
+from pipeline.core.config import Paths  # noqa: E402
 
 
 ANCHOR_ID_RE = re.compile(r"^A\d{4,}$")
@@ -592,8 +592,15 @@ def _html_template(*, title: str, embedded_json: str) -> str:
           if (filter && !itemId.includes(filter)) continue;
           const it = DATA.items[itemId];
           const hasFund = !!(it && it.fundamentals && it.fundamentals.json);
+          const fundJson = hasFund ? it.fundamentals.json : null;
           const citedCount = (it && it.cited_anchor_ids) ? it.cited_anchor_ids.length : 0;
           const docCount = (it && it.doc_blocks) ? it.doc_blocks.length : 0;
+          const facilityCount = Array.isArray(fundJson && fundJson.facilities) ? fundJson.facilities.length : 0;
+          const lenderCount = Array.isArray(fundJson && fundJson.lenders) ? fundJson.lenders.length : 0;
+          const lendersOmitted = !!(fundJson && fundJson.lenders_present_but_omitted);
+          const facilityEndCount = Array.isArray(fundJson && fundJson.facilities)
+            ? fundJson.facilities.filter((f) => f && f.facility_end).length
+            : 0;
 
           const div = document.createElement('div');
           div.className = 'item' + (itemId === state.selectedItemId ? ' active' : '');
@@ -617,9 +624,21 @@ def _html_template(*, title: str, embedded_json: str) -> str:
           const b3 = document.createElement('div');
           b3.className = 'badge';
           b3.textContent = `anchors=${{docCount}}`;
+          const b4 = document.createElement('div');
+          b4.className = 'badge';
+          b4.textContent = `facilities=${{facilityCount}}`;
+          const b5 = document.createElement('div');
+          b5.className = 'badge';
+          b5.textContent = lendersOmitted ? 'lenders=omitted' : `lenders=${{lenderCount}}`;
+          const b6 = document.createElement('div');
+          b6.className = 'badge';
+          b6.textContent = `facility_end=${{facilityEndCount}}`;
           meta.appendChild(b1);
           meta.appendChild(b2);
           meta.appendChild(b3);
+          meta.appendChild(b4);
+          meta.appendChild(b5);
+          meta.appendChild(b6);
 
           div.appendChild(idDiv);
           div.appendChild(meta);

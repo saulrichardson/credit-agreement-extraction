@@ -55,8 +55,8 @@ flowchart TD
 ```
 
 Notes grounded in current implementation:
-- `retrieve-v2` will attach TOC metadata only if the manifest indicates `toc-v1` ran (see `src/pipeline/retrieval_v2.py`).
-- The `structured-v2` artifact is stored as JSON under `llm_qa/` (see `src/pipeline/structured_v2.py`).
+- `retrieve-v2` will attach TOC metadata only if the manifest indicates `toc-v1` ran (see `src/pipeline/evidence/retrieval_v2.py`).
+- The `structured-v2` artifact is stored as JSON under `llm_qa/` (see `src/pipeline/extract/structured_v2.py`).
 
 ## Per-stage IO summary (v2)
 
@@ -64,15 +64,15 @@ This is the operational contract each stage follows today (inputs/outputs + mani
 
 | Stage | Type | Reads | Writes | Manifest fields written |
 |---|---|---|---|---|
-| `ingest` | deterministic | `data/*.nc.tar.gz` + optional filter spec | `runs/<run_id>/ingest/*.html`, `runs/<run_id>/manifest.json` | `run_id`, `tarballs`, `filters`, `accessions`, `items` (see `src/pipeline/ingest.py`) |
+| `ingest` | deterministic | `data/*.nc.tar.gz` + optional filter spec | `runs/<run_id>/ingest/*.html`, `runs/<run_id>/manifest.json` | `run_id`, `tarballs`, `filters`, `accessions`, `items` (see `src/pipeline/evidence/ingest.py`) |
 | `normalize` | deterministic | `runs/<run_id>/ingest/*.html` | `runs/<run_id>/normalized/<item_id>/{canonical.txt, anchors.tsv, canonical_annotated.txt, prompt_view.txt}` | (does not currently add explicit manifest fields beyond `normalized` presence) |
-| `toc-v1` | LLM | `normalized/<item_id>/anchors.tsv` + prompt(s) | `runs/<run_id>/toc_v1/<subdir>/<item_id>.json` | `toc_v1_output_subdir`, `toc_v1_item_ids`, prompt paths + hashes (see `src/pipeline/toc_v1.py`) |
-| `index-v2` | LLM (selection) | `normalized/<item_id>/canonical_annotated.txt` + prompt | `runs/<run_id>/indexing_v2/<item_id>_anchors.json` | `indexing_v2_prompt`, `indexing_v2_prompt_sha256` (see `src/pipeline/indexing_v2.py`) |
+| `toc-v1` | LLM | `normalized/<item_id>/anchors.tsv` + prompt(s) | `runs/<run_id>/toc_v1/<subdir>/<item_id>.json` | `toc_v1_output_subdir`, `toc_v1_item_ids`, prompt paths + hashes (see `src/pipeline/evidence/toc_v1.py`) |
+| `index-v2` | LLM (selection) | `normalized/<item_id>/canonical_annotated.txt` + prompt | `runs/<run_id>/indexing_v2/<item_id>_anchors.json` | `indexing_v2_prompt`, `indexing_v2_prompt_sha256` (see `src/pipeline/evidence/indexing_v2.py`) |
 | `retrieve-v2` | deterministic (packaging) | `indexing_v2/<item_id>_anchors.json`, `normalized/<item_id>/prompt_view.txt`, optional `toc_v1/<subdir>/<item_id>.json` | `runs/<run_id>/retrieval_v2/<item_id>_snippets.jsonl` | (no manifest update; its output is derived deterministically) |
-| `structured-v2` | LLM (extraction) | `retrieval_v2/<item_id>_snippets.jsonl` + prompt | `runs/<run_id>/llm_qa/<subdir>/<item_id>.json` (+ `*.raw.txt` on failure) | `structured_v2_prompt`, `structured_v2_prompt_sha256` (see `src/pipeline/structured_v2.py`) |
-| `definitions-v2` | LLM (grounding) | `llm_qa/<subdir>/<item_id>.json` (legacy: `.txt`), `normalized/<item_id>/canonical.txt`, `anchors.tsv` + prompt | `runs/<run_id>/definitions_v2/<subdir>/*__definition.json` (+ sidecars) | `definitions_v2_prompt`, `definitions_v2_prompt_sha256`, `definitions_v2_output_subdir` (see `src/pipeline/definitions_v2.py`) |
-| `agreement-metadata` | LLM (extraction) | `retrieval_v2/<item_id>_snippets.jsonl` + prompt | `runs/<run_id>/agreement_metadata/<subdir>/<item_id>.json` (+ meta + attempt raw) | `agreement_metadata_prompt`, `agreement_metadata_prompt_sha256`, `agreement_metadata_output_subdir`, `agreement_metadata_categories` (see `src/pipeline/agreement_metadata_v1.py`) |
-| `analysis-export` | deterministic (join) | `agreement_metadata/<subdir>/<item_id>.json`, `definitions_v2/<subdir>/*__definition.json`, optional `toc_v1/<subdir>/<item_id>.json` | `runs/<run_id>/analysis_export/<subdir>/<item_id>.json` + `records.jsonl` | `analysis_export_output_subdir`, `analysis_export_agreement_metadata_subdir`, `analysis_export_definitions_v2_subdir` (see `src/pipeline/analysis_export_v1.py`) |
+| `structured-v2` | LLM (extraction) | `retrieval_v2/<item_id>_snippets.jsonl` + prompt | `runs/<run_id>/llm_qa/<subdir>/<item_id>.json` (+ `*.raw.txt` on failure) | `structured_v2_prompt`, `structured_v2_prompt_sha256` (see `src/pipeline/extract/structured_v2.py`) |
+| `definitions-v2` | LLM (grounding) | `llm_qa/<subdir>/<item_id>.json`, `normalized/<item_id>/canonical.txt`, `anchors.tsv` + prompt | `runs/<run_id>/definitions_v2/<subdir>/*__definition.json` (+ sidecars) | `definitions_v2_prompt`, `definitions_v2_prompt_sha256`, `definitions_v2_output_subdir` (see `src/pipeline/extract/definitions_v2.py`) |
+| `agreement-metadata` | LLM (extraction) | `retrieval_v2/<item_id>_snippets.jsonl` + prompt | `runs/<run_id>/agreement_metadata/<subdir>/<item_id>.json` (+ meta + attempt raw) | `agreement_metadata_prompt`, `agreement_metadata_prompt_sha256`, `agreement_metadata_output_subdir`, `agreement_metadata_categories` (see `src/pipeline/extract/agreement_metadata_v1.py`) |
+| `analysis-export` | deterministic (join) | `agreement_metadata/<subdir>/<item_id>.json`, `definitions_v2/<subdir>/*__definition.json`, optional `toc_v1/<subdir>/<item_id>.json` | `runs/<run_id>/analysis_export/<subdir>/<item_id>.json` + `records.jsonl` | `analysis_export_output_subdir`, `analysis_export_agreement_metadata_subdir`, `analysis_export_definitions_v2_subdir` (see `src/pipeline/extract/analysis_export_v1.py`) |
 
 ## Where “multiple Q/A parts” show up
 
@@ -107,7 +107,7 @@ Commands:
 
 Shape:
 - These flows can run **without** `index-v2`/`retrieve-v2` if the prompt/compiler does its own evidence targeting.
-- Outputs land in `runs/<run_id>/contract_pricing/<output_subdir>/...` (see `src/pipeline/contract_pricing.py` and `src/pipeline/contract_pricing_v3.py`).
+- Outputs land in `runs/<run_id>/contract_pricing/<output_subdir>/...` (see `src/pipeline/pricing/contract_pricing.py` and `src/pipeline/pricing/contract_pricing_v3.py`).
 
 ### ContractIR v0.2 (pricing kernel)
 

@@ -5,8 +5,8 @@ from typing import Tuple
 
 import click
 
-from ..config import REQUIRED_MODEL, REQUIRED_REASONING
-from ..run_id import validate_run_id
+from pipeline.core.config import REQUIRED_MODEL, REQUIRED_REASONING
+from pipeline.core.run_id import validate_run_id
 from .common import resolve_paths, resolve_selected_item_ids
 
 
@@ -66,7 +66,7 @@ from .common import resolve_paths, resolve_selected_item_ids
     "--category",
     "categories",
     multiple=True,
-    help="Optional snippet category filter (repeatable). Default: agreement_dates + fundamental + key_date_definitions.",
+    help="Optional snippet category filter (repeatable). Default: agreement_dates + fundamental + key_date_definitions + metadata.",
 )
 @click.option(
     "--item-id",
@@ -91,12 +91,12 @@ def facility_fundamentals(
 ) -> None:
     """Extract facility fundamentals (dates + facility separation) from v2 retrieval snippets."""
 
-    from ..facility_fundamentals_v1 import run_facility_fundamentals_v1
+    from pipeline.extract.facility_fundamentals_v1 import run_facility_fundamentals_v1
 
     paths = resolve_paths(run_id, base_dir, bandwidth=4)
     _manifest, _items, selected_item_ids = resolve_selected_item_ids(paths, item_ids)
 
-    selected_categories = categories if categories else ("agreement_dates", "fundamental", "key_date_definitions")
+    selected_categories = categories if categories else ("agreement_dates", "fundamental", "key_date_definitions", "metadata")
 
     run_facility_fundamentals_v1(
         paths,
@@ -188,7 +188,7 @@ def agreement_metadata(
 ) -> None:
     """Extract parties/roles + facility headline terms from v2 retrieval snippets."""
 
-    from ..agreement_metadata_v1 import run_agreement_metadata_v1
+    from pipeline.extract.agreement_metadata_v1 import run_agreement_metadata_v1
 
     paths = resolve_paths(run_id, base_dir, bandwidth=4)
     _manifest, _items, selected_item_ids = resolve_selected_item_ids(paths, item_ids)
@@ -246,7 +246,7 @@ def analysis_export(
 ) -> None:
     """Export a single analysis-ready JSON record per agreement."""
 
-    from ..analysis_export_v1 import run_analysis_export_v1
+    from pipeline.extract.analysis_export_v1 import run_analysis_export_v1
 
     paths = resolve_paths(run_id, base_dir, bandwidth=4)
     _manifest, _items, selected_item_ids = resolve_selected_item_ids(paths, item_ids)

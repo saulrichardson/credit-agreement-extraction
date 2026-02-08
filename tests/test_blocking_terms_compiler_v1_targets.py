@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import pytest
 
-from pipeline.blocking_terms_compiler_v1 import _extract_blocking_term_targets
+from pipeline.compile.blocking_terms_compiler_v1 import _extract_blocking_term_targets
 
 
 def test_extract_blocking_term_targets_dedupes_and_sorts():

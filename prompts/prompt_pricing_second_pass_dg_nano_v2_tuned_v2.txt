@@ -66,6 +66,10 @@ metrics[] item shape:
 Rules:
 - Do NOT invent Compustat formulas.
 - If the agreement does not provide a formula, set formula="" and requires_non_compustat=true.
+- Metric naming MUST represent a tier/rate **driver variable**, not an outcome label.
+  - BAD metric names: "PricingLevel", "PricingRegime", "PricingTier", "ApplicableMarginLevel".
+  - GOOD metric names: leverage ratio term, coverage ratio term, rating/status code term, amendment effective date term.
+  - Exception: ratings-based schemes may use rating/status driver labels when that is the explicit contract driver.
 - contract_term MUST be the exact metric term as written in the agreement (verbatim substring from the provided anchors).
   - If you cannot find the exact contract term in the provided anchors, set contract_term="" (empty string).
 - search_tokens MUST be 3–6 short, regex-safe words or micro-phrases drawn verbatim from the provided anchors that can be used
@@ -120,14 +124,13 @@ In this case:
   - "L/C Fee Rate" tables => fee rate, fee_basis="letters_of_credit"
 
 === MULTI-REGIME PRICING (AMENDMENT PERIODS) ===
-If the input shows multiple distinct pricing regimes (e.g., “prior to X”, “on or after Y”, “before the Revolving Facility Amendment Date”, etc.), you MUST:
-1) Create a metric named "PricingRegime" with requires_non_compustat=true.
-2) Create one tier_scheme PER regime (scheme_id ends with "_P1", "_P2", ...).
-3) For EACH rate object for a multi-regime facility, include:
-   "condition": { "metric": "PricingRegime", "op": "==", "value": 1 } (or 2,3...)
-4) The source_refs for PricingRegime must cite anchors that contain the regime language.
-
-If there is only one regime, do NOT include PricingRegime at all.
+If the input shows multiple distinct pricing regimes (e.g., “prior to X”, “on or after Y”, “before the Revolving Facility Amendment Date”, etc.):
+1) Create one tier_scheme PER regime (scheme_id may end with "_P1", "_P2", ...).
+2) Do NOT create synthetic outcome metrics like "PricingRegime" or "PricingLevel".
+3) Only use `condition` on rate objects when you can name a concrete driver metric from the agreement text
+   (for example a rating/status metric, leverage metric, or explicit amendment-effective-date term).
+4) If regime split exists but no single driver metric is explicitly named, omit `condition` and encode separation via
+   distinct `tier_scheme_ref` + `rate_id`, with regime evidence in `source_refs`.
 
 === FACILITIES ===
 facilities[] item shape:

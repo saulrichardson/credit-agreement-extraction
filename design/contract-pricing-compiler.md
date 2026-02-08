@@ -62,7 +62,7 @@ poetry run pipeline contract-pricing \
 ### Deterministic IR
 
 - `runs/<run_id>/doc_ir/<item_id>.json`
-  - Produced by `src/pipeline/doc_ir.py`
+  - Produced by `src/pipeline/pricing/doc_ir.py`
   - Contains:
     - `anchors[]`: ordered blocks with anchor_id + text
     - `tables[]`: parsed tables (columns + row_label + cells), plus raw markdown payload
@@ -70,8 +70,8 @@ poetry run pipeline contract-pricing \
 ### Contract pricing outputs
 
 - `runs/<run_id>/contract_pricing/<subdir>/<item_id>.json`
-  - Produced by `src/pipeline/contract_pricing.py`
-  - Strictly validated by Pydantic models in `src/pipeline/contract_schemas.py`
+  - Produced by `src/pipeline/pricing/contract_pricing.py`
+  - Strictly validated by Pydantic models in `src/pipeline/pricing/contract_schemas.py`
   - Model:
     - `pricing_regimes[]`: each regime contains `grids[]`, `adjustments[]`, and `flat_items[]`
     - `grid.cells[]` references `tier_id` + `rate_option_id` so downstream logic can reason over matrices
