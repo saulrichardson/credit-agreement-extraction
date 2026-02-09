@@ -113,6 +113,18 @@ def _retry_prompt(base_prompt: str, attempt: int, error: str, previous_output: s
     return f"{base_prompt}\n\n=== RETRY REQUIRED ===\nError: {error}\n\n{rules}"
 
 
+def validate_structured_v2_payload(payload: object) -> dict | list:
+    """Validate structured-v2 payload shape.
+
+    Domain-level semantics are enforced by downstream stages; this validator isolates
+    shape checks from prompt execution flow.
+    """
+
+    if not isinstance(payload, (dict, list)):
+        raise ValueError(f"structured-v2 payload must be object or array; got {type(payload).__name__}")
+    return payload
+
+
 def run_structured_v2(
     paths: Paths,
     item_ids: Iterable[str],
@@ -175,7 +187,7 @@ def run_structured_v2(
                         attempts=attempts,
                         retry_prompt=_retry_prompt,
                         allowed_root_types=(dict, list),
-                        validate=lambda payload: payload,
+                        validate=validate_structured_v2_payload,
                     )
                 except StrictJsonFailure as exc:
                     raw_sidecar = out_dir / f"{item_id}.raw.txt"

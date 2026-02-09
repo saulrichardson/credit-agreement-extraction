@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import asyncio
-import json
 import time
 from pathlib import Path
 from typing import Iterable
@@ -16,6 +15,59 @@ from pipeline.utils import assert_exists
 # Indexing selection artifacts are compact anchor-id lists.
 # Keep output budget tight so very large documents stay below provider TPM request caps.
 INDEXING_V2_MAX_OUTPUT_TOKENS = 2000
+
+
+def validate_indexing_selection_v2_payload(
+    payload: object,
+    *,
+    catalog: dict[str, dict[str, int | str]],
+) -> IndexingSelectionV2:
+    """Validate an indexing-v2 payload against schema and run-local anchors."""
+
+    try:
+        selection = IndexingSelectionV2.model_validate(payload)
+    except Exception as exc:
+        raise ValueError(f"schema validation failed: {exc}") from exc
+
+    invalid: list[str] = []
+    for bucket in (
+        selection.metadata_anchors,
+        selection.agreement_date_anchors,
+        selection.fundamental_anchors,
+        selection.key_date_definitions_anchors,
+        selection.pricing_anchors,
+        selection.base_rate_anchors,
+        selection.spread_anchors,
+        selection.fee_anchors,
+        selection.financial_covenant_anchors,
+    ):
+        for anchor_id in bucket:
+            if anchor_id not in catalog:
+                invalid.append(anchor_id)
+    if selection.definitions_anchor_range is not None:
+        dr = selection.definitions_anchor_range
+        if dr.start_anchor not in catalog:
+            invalid.append(dr.start_anchor)
+        if dr.end_anchor not in catalog:
+            invalid.append(dr.end_anchor)
+    if invalid:
+        examples = ", ".join(sorted(set(invalid))[:10])
+        raise ValueError(
+            "returned anchor_id values not present in anchors.tsv "
+            f"(count={len(invalid)}; examples={examples})"
+        )
+
+    if selection.definitions_anchor_range is not None:
+        dr = selection.definitions_anchor_range
+        start_order = int(catalog[dr.start_anchor]["order"])
+        end_order = int(catalog[dr.end_anchor]["order"])
+        if start_order > end_order:
+            raise ValueError(
+                "definitions_anchor_range has start_anchor after end_anchor "
+                f"(start={dr.start_anchor} order={start_order}; end={dr.end_anchor} order={end_order})"
+            )
+
+    return selection
 
 
 def _canonical_annotated_text(paths: Paths, item_id: str) -> str:
@@ -115,52 +167,6 @@ def run_indexing_v2(
                     doc_block = _canonical_annotated_text(paths, item_id)
                     base_prompt = _render_prompt(prompt_template, doc_block)
 
-                    def _validate(payload: object) -> IndexingSelectionV2:
-                        try:
-                            selection = IndexingSelectionV2.model_validate(payload)
-                        except Exception as exc:
-                            raise ValueError(f"schema validation failed: {exc}") from exc
-
-                        invalid: list[str] = []
-                        for bucket in (
-                            selection.metadata_anchors,
-                            selection.agreement_date_anchors,
-                            selection.fundamental_anchors,
-                            selection.key_date_definitions_anchors,
-                            selection.pricing_anchors,
-                            selection.base_rate_anchors,
-                            selection.spread_anchors,
-                            selection.fee_anchors,
-                            selection.financial_covenant_anchors,
-                        ):
-                            for anchor_id in bucket:
-                                if anchor_id not in catalog:
-                                    invalid.append(anchor_id)
-                        if selection.definitions_anchor_range is not None:
-                            dr = selection.definitions_anchor_range
-                            if dr.start_anchor not in catalog:
-                                invalid.append(dr.start_anchor)
-                            if dr.end_anchor not in catalog:
-                                invalid.append(dr.end_anchor)
-                        if invalid:
-                            examples = ", ".join(sorted(set(invalid))[:10])
-                            raise ValueError(
-                                "returned anchor_id values not present in anchors.tsv "
-                                f"(count={len(invalid)}; examples={examples})"
-                            )
-
-                        if selection.definitions_anchor_range is not None:
-                            dr = selection.definitions_anchor_range
-                            start_order = int(catalog[dr.start_anchor]["order"])
-                            end_order = int(catalog[dr.end_anchor]["order"])
-                            if start_order > end_order:
-                                raise ValueError(
-                                    "definitions_anchor_range has start_anchor after end_anchor "
-                                    f"(start={dr.start_anchor} order={start_order}; end={dr.end_anchor} order={end_order})"
-                                )
-
-                        return selection
-
                     try:
                         selection, _raw_text, attempts_used = await call_strict_json(
                             client=client,
@@ -172,7 +178,7 @@ def run_indexing_v2(
                             attempts=attempts,
                             retry_prompt=_retry_prompt,
                             allowed_root_types=(dict,),
-                            validate=_validate,
+                            validate=lambda payload: validate_indexing_selection_v2_payload(payload, catalog=catalog),
                         )
                     except StrictJsonFailure as exc:
                         failures.append((item_id, exc.last_error))

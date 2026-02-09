@@ -10,6 +10,7 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 from pipeline.core.anchors import load_anchor_catalog
 from pipeline.core.config import Paths, REQUIRED_MODEL, REQUIRED_REASONING, prompt_hash, update_manifest
 from pipeline.llm.gateway import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async
+from pipeline.llm.json_io import ask_json_response
 from pipeline.schemas_v2 import IndexingSelectionV2Artifact
 from pipeline.utils import assert_exists, prompt_view_path
 
@@ -399,16 +400,14 @@ async def _call_gateway(
     temperature: float,
     reasoning: str | None,
 ) -> str:
-    reasoning_payload = {"effort": reasoning} if reasoning else None
-    result = await client.complete_response(
+    return await ask_json_response(
+        client=client,
+        prompt=prompt,
         model=model,
-        input_messages=[{"role": "user", "content": prompt}],
-        reasoning=reasoning_payload,
         temperature=temperature,
+        reasoning=reasoning,
         max_output_tokens=None,
-        metadata=None,
     )
-    return result.get("text") if isinstance(result, dict) else str(result)
 
 
 async def _call_gateway_with_retry(
@@ -434,6 +433,72 @@ async def _call_gateway_with_retry(
             last_exc = exc
             await asyncio.sleep(1.5 * attempt)
     raise last_exc if last_exc else RuntimeError("Gateway call failed with unknown error.")
+
+
+def validate_definition_output_payload(
+    payload: object,
+    *,
+    expected_term: str,
+    expected_term_type: str,
+    allowed_ctx_anchors: set[str],
+) -> dict[str, Any]:
+    """Validate one definitions-v2 JSON payload against term/context contracts."""
+
+    if not isinstance(payload, dict):
+        raise RuntimeError("definition output must be a JSON object")
+
+    required_keys = {"term", "term_type", "definition_text", "anchor_refs", "candidates", "notes"}
+    missing_keys = sorted(required_keys - set(payload.keys()))
+    if missing_keys:
+        raise RuntimeError(f"definition output missing required keys: {', '.join(missing_keys)}")
+
+    def _norm(s: str) -> str:
+        return re.sub(r"\s+", " ", s).strip().lower()
+
+    parsed_term = payload.get("term")
+    if not isinstance(parsed_term, str) or not parsed_term.strip():
+        raise RuntimeError("definition output term must be a non-empty string")
+    if _norm(parsed_term) != _norm(expected_term):
+        raise RuntimeError(f"definition output term mismatch: expected {expected_term!r} got {parsed_term!r}")
+
+    if payload.get("term_type") != expected_term_type:
+        raise RuntimeError(
+            f"definition output term_type mismatch: expected {expected_term_type!r} got {payload.get('term_type')!r}"
+        )
+
+    definition_text = payload.get("definition_text")
+    if definition_text is not None and not isinstance(definition_text, str):
+        raise RuntimeError("definition output definition_text must be a string or null")
+
+    anchor_refs = payload.get("anchor_refs")
+    if not isinstance(anchor_refs, list) or not all(isinstance(a, str) for a in anchor_refs):
+        raise RuntimeError("definition output anchor_refs must be a list of strings")
+    unknown_anchors = [a for a in anchor_refs if a not in allowed_ctx_anchors]
+    if unknown_anchors:
+        raise RuntimeError(
+            "definition output contains anchor_refs not present in the provided CONTEXTS "
+            f"(examples={unknown_anchors[:10]})"
+        )
+
+    candidates = payload.get("candidates")
+    if not isinstance(candidates, list):
+        raise RuntimeError("definition output candidates must be a list")
+    for idx, cand in enumerate(candidates):
+        if not isinstance(cand, dict):
+            raise RuntimeError(f"definition output candidates[{idx}] must be an object")
+        if "definition_text" not in cand or "anchor_refs" not in cand:
+            raise RuntimeError(f"definition output candidates[{idx}] missing keys")
+        cand_anchors = cand.get("anchor_refs")
+        if not isinstance(cand_anchors, list) or not all(isinstance(a, str) for a in cand_anchors):
+            raise RuntimeError(f"definition output candidates[{idx}].anchor_refs must be a list of strings")
+        cand_unknown = [a for a in cand_anchors if a not in allowed_ctx_anchors]
+        if cand_unknown:
+            raise RuntimeError(
+                f"definition output candidates[{idx}] contains anchor_refs not present in the provided CONTEXTS "
+                f"(examples={cand_unknown[:10]})"
+            )
+
+    return payload
 
 
 def run_definitions_v2(
@@ -602,67 +667,17 @@ def run_definitions_v2(
                     def_path.write_text(def_raw)
 
                     try:
-                        parsed = json.loads(def_raw)
+                        payload = json.loads(def_raw)
                         parsed_path = out_dir / f"{item_id}__{safe_term}__definition.json"
-                        if not isinstance(parsed, dict):
-                            raise RuntimeError("definition output must be a JSON object")
-                        # Basic shape validation (fail loudly).
-                        required_keys = {"term", "term_type", "definition_text", "anchor_refs", "candidates", "notes"}
-                        missing_keys = sorted(required_keys - set(parsed.keys()))
-                        if missing_keys:
-                            raise RuntimeError(f"definition output missing required keys: {', '.join(missing_keys)}")
-
-                        def _norm(s: str) -> str:
-                            return re.sub(r"\s+", " ", s).strip().lower()
-
-                        parsed_term = parsed.get("term")
-                        if not isinstance(parsed_term, str) or not parsed_term.strip():
-                            raise RuntimeError("definition output term must be a non-empty string")
-                        if _norm(parsed_term) != _norm(term_for_prompt):
-                            raise RuntimeError(
-                                f"definition output term mismatch: expected {term_for_prompt!r} got {parsed_term!r}"
-                            )
-                        if parsed.get("term_type") != term_type:
-                            raise RuntimeError(
-                                f"definition output term_type mismatch: expected {term_type!r} got {parsed.get('term_type')!r}"
-                            )
-                        definition_text = parsed.get("definition_text")
-                        if definition_text is not None and not isinstance(definition_text, str):
-                            raise RuntimeError("definition output definition_text must be a string or null")
-                        anchor_refs = parsed.get("anchor_refs")
-                        if not isinstance(anchor_refs, list) or not all(isinstance(a, str) for a in anchor_refs):
-                            raise RuntimeError("definition output anchor_refs must be a list of strings")
-                        allowed_ctx_anchors = set(anchor_ids)
-                        unknown_anchors = [a for a in anchor_refs if a not in allowed_ctx_anchors]
-                        if unknown_anchors:
-                            raise RuntimeError(
-                                "definition output contains anchor_refs not present in the provided CONTEXTS "
-                                f"(examples={unknown_anchors[:10]})"
-                            )
-
-                        candidates = parsed.get("candidates")
-                        if not isinstance(candidates, list):
-                            raise RuntimeError("definition output candidates must be a list")
-                        for idx, cand in enumerate(candidates):
-                            if not isinstance(cand, dict):
-                                raise RuntimeError(f"definition output candidates[{idx}] must be an object")
-                            if "definition_text" not in cand or "anchor_refs" not in cand:
-                                raise RuntimeError(f"definition output candidates[{idx}] missing keys")
-                            cand_anchors = cand.get("anchor_refs")
-                            if not isinstance(cand_anchors, list) or not all(isinstance(a, str) for a in cand_anchors):
-                                raise RuntimeError(
-                                    f"definition output candidates[{idx}].anchor_refs must be a list of strings"
-                                )
-                            cand_unknown = [a for a in cand_anchors if a not in allowed_ctx_anchors]
-                            if cand_unknown:
-                                raise RuntimeError(
-                                    f"definition output candidates[{idx}] contains anchor_refs not present in the provided CONTEXTS "
-                                    f"(examples={cand_unknown[:10]})"
-                                )
-
+                        parsed = validate_definition_output_payload(
+                            payload,
+                            expected_term=term_for_prompt,
+                            expected_term_type=term_type,
+                            allowed_ctx_anchors=set(anchor_ids),
+                        )
                         parsed_path.write_text(json.dumps(parsed, indent=2))
                         break
-                    except Exception as exc:
+                    except Exception:
                         if out_attempt < max_output_attempts:
                             await asyncio.sleep(0.75 * out_attempt)
                             continue

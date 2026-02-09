@@ -1,8 +1,9 @@
 from __future__ import annotations
 
-import json
 from dataclasses import dataclass
 from typing import Any, Callable, TypeVar
+
+from pipeline.llm.json_io import ask_json_response, parse_json_response
 
 
 T = TypeVar("T")
@@ -82,39 +83,28 @@ async def call_strict_json(
         attempt_prompt = prompt if attempt == 1 else retry_prompt(prompt, attempt, last_error, previous_output)
 
         try:
-            result = await client.complete_response(
+            raw_text = await ask_json_response(
+                client=client,
+                prompt=attempt_prompt,
                 model=model,
-                input_messages=[{"role": "user", "content": attempt_prompt}],
-                reasoning={"effort": reasoning} if reasoning else None,
                 temperature=temperature,
+                reasoning=reasoning,
                 max_output_tokens=max_output_tokens,
-                metadata=None,
             )
         except Exception as exc:  # pragma: no cover - network/errors
             last_error = f"gateway call failed: {type(exc).__name__}: {exc}"
             continue
 
-        raw_text = result.get("text") if isinstance(result, dict) else str(result)
-        raw_text = raw_text if isinstance(raw_text, str) else str(raw_text)
         last_raw_text = raw_text
         previous_output = raw_text
 
         if on_attempt is not None:
             on_attempt(attempt, raw_text)
 
-        if not raw_text or not raw_text.strip():
-            last_error = "empty response text"
-            continue
-
         try:
-            payload = json.loads(raw_text)
-        except json.JSONDecodeError as exc:
-            last_error = f"invalid JSON: {exc}"
-            continue
-
-        if allowed_root_types and not isinstance(payload, allowed_root_types):
-            allowed = ", ".join(t.__name__ for t in allowed_root_types)
-            last_error = f"expected JSON root type {allowed}; got {type(payload).__name__}"
+            payload = parse_json_response(raw_text, allowed_root_types=allowed_root_types)
+        except ValueError as exc:
+            last_error = str(exc)
             continue
 
         try:

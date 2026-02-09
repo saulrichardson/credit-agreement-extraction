@@ -134,6 +134,46 @@ class DocumentTocV1(BaseModel):
     high_level: TocHighLevelV1 | None = None
 
 
+def validate_toc_chunk_payload(payload: object, *, expected_chunk_id: int) -> TocChunkV1:
+    """Validate one TOC chunk payload."""
+
+    try:
+        parsed = TocChunkV1.model_validate(payload)
+    except Exception as exc:
+        raise ValueError(f"schema validation failed: {exc}") from exc
+    if parsed.chunk_id != expected_chunk_id:
+        raise ValueError(f"chunk_id mismatch: expected {expected_chunk_id}, got {parsed.chunk_id}")
+    return parsed
+
+
+def validate_toc_high_level_payload(payload: object, *, valid_chunk_ids: set[int]) -> TocHighLevelV1:
+    """Validate high-level TOC payload and enforce major_parts chunk references."""
+
+    try:
+        parsed = TocHighLevelV1.model_validate(payload)
+    except Exception as exc:
+        raise ValueError(f"schema validation failed: {exc}") from exc
+
+    for idx, part in enumerate(parsed.major_parts):
+        if not isinstance(part, dict):
+            raise ValueError(f"major_parts[{idx}] must be an object")
+        title = part.get("title")
+        covers_chunk_ids = part.get("covers_chunk_ids")
+        if not isinstance(title, str) or not title.strip():
+            raise ValueError(f"major_parts[{idx}].title must be a non-empty string")
+        if not isinstance(covers_chunk_ids, list) or not covers_chunk_ids:
+            raise ValueError(f"major_parts[{idx}].covers_chunk_ids must be a non-empty array of integers")
+        for j, value in enumerate(covers_chunk_ids):
+            if not isinstance(value, int):
+                raise ValueError(f"major_parts[{idx}].covers_chunk_ids[{j}] must be an integer")
+            if value not in valid_chunk_ids:
+                raise ValueError(
+                    f"major_parts[{idx}].covers_chunk_ids[{j}] references unknown chunk_id {value} "
+                    f"(known={sorted(valid_chunk_ids)})"
+                )
+    return parsed
+
+
 def _heading_score(text: str) -> int:
     t = re.sub(r"\s+", " ", (text or "")).strip()
     if not t:
@@ -346,15 +386,6 @@ def run_toc_v1(
                     chunk_text = _render_chunk_text(anchor_ids, anchor_text_by_id)
                     base_prompt = _render_prompt(chunk_template, chunk_id=idx, chunk_text=chunk_text)
 
-                    def _validate(payload: object) -> TocChunkV1:
-                        try:
-                            parsed = TocChunkV1.model_validate(payload)
-                        except Exception as exc:
-                            raise ValueError(f"schema validation failed: {exc}") from exc
-                        if parsed.chunk_id != idx:
-                            raise ValueError(f"chunk_id mismatch: expected {idx}, got {parsed.chunk_id}")
-                        return parsed
-
                     try:
                         parsed, _raw_text, _attempts_used = await call_strict_json(
                             client=client,
@@ -365,7 +396,7 @@ def run_toc_v1(
                             attempts=attempts,
                             retry_prompt=_retry_prompt,
                             allowed_root_types=(dict,),
-                            validate=_validate,
+                            validate=lambda payload: validate_toc_chunk_payload(payload, expected_chunk_id=idx),
                             on_attempt=lambda attempt, raw_text: (out_dir / f"{item_id}.chunk{idx}.attempt{attempt}.raw.txt").write_text(
                                 raw_text
                             ),
@@ -411,6 +442,7 @@ def run_toc_v1(
                     ]
                     input_block = json.dumps(entries, indent=2)
                     prompt = high_template.replace("{{CHUNK_ENTRIES}}", input_block)
+                    valid_chunk_ids = {c.chunk_id for c in subset}
                     try:
                         high_level, _raw_text, _attempts_used = await call_strict_json(
                             client=client,
@@ -420,7 +452,7 @@ def run_toc_v1(
                             reasoning=reasoning,
                             attempts=1,
                             allowed_root_types=(dict,),
-                            validate=lambda payload: TocHighLevelV1.model_validate(payload),
+                            validate=lambda payload: validate_toc_high_level_payload(payload, valid_chunk_ids=valid_chunk_ids),
                             on_attempt=lambda attempt, raw_text: (out_dir / f"{item_id}.high_level.raw.txt").write_text(
                                 raw_text
                             ),

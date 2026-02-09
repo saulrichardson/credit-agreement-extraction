@@ -13,6 +13,7 @@ from pydantic import BaseModel, ConfigDict, Field, field_validator
 from pipeline.core.anchors import load_anchor_catalog
 from pipeline.core.config import Paths, REQUIRED_MODEL, REQUIRED_REASONING, prompt_hash, update_manifest
 from pipeline.llm.gateway import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async
+from pipeline.llm.json_io import ask_json_response
 from pipeline.extract.party_extraction import (
     MAX_EXPLICIT_LENDERS,
     extract_lenders_from_snippets as extract_lenders_from_snippets_det,
@@ -721,17 +722,41 @@ def _retry_prompt(base_prompt: str, *, attempt: int, error: str) -> str:
 
 
 async def _call_gateway(*, client: Any, prompt: str, model: str, temperature: float, reasoning: str | None) -> str:
-    result = await client.complete_response(
+    return await ask_json_response(
+        client=client,
+        prompt=prompt,
         model=model,
-        input_messages=[{"role": "user", "content": prompt}],
-        reasoning={"effort": reasoning} if reasoning else None,
         temperature=temperature,
+        reasoning=reasoning,
         max_output_tokens=None,
-        metadata=None,
     )
-    if isinstance(result, dict):
-        return result.get("text") or ""
-    return str(result)
+
+
+def parse_metadata_json_payload(raw_text: str) -> dict[str, Any]:
+    """Parse one metadata response into a JSON object."""
+
+    try:
+        payload = json.loads(raw_text)
+    except json.JSONDecodeError as exc:
+        raise RuntimeError(f"invalid JSON: {exc}") from exc
+    if not isinstance(payload, dict):
+        raise RuntimeError(f"expected JSON object, got {type(payload).__name__}")
+    return payload
+
+
+def validate_metadata_artifact_payload(payload: object) -> AgreementMetadataArtifact:
+    """Validate metadata payload against the strict artifact schema."""
+
+    try:
+        artifact = AgreementMetadataArtifact.model_validate(payload)
+    except Exception as exc:
+        raise RuntimeError(f"schema validation failed: {exc}") from exc
+
+    if artifact.schema_version != "agreement_metadata_v1":
+        raise RuntimeError(
+            f"schema_version mismatch: expected 'agreement_metadata_v1' got {artifact.schema_version!r}"
+        )
+    return artifact
 
 
 def run_agreement_metadata_v1(
@@ -854,9 +879,9 @@ def run_agreement_metadata_v1(
                             (out_dir / f"{item_id}.attempt{attempt}.raw.txt").write_text(raw_text)
 
                             try:
-                                payload = json.loads(raw_text)
-                            except json.JSONDecodeError as exc:
-                                last_error = f"invalid JSON: {exc}"
+                                payload = parse_metadata_json_payload(raw_text)
+                            except Exception as exc:
+                                last_error = str(exc)
                                 continue
 
                             pre_validation_corrections: list[dict[str, Any]] = []
@@ -868,13 +893,9 @@ def run_agreement_metadata_v1(
                             )
 
                             try:
-                                artifact = AgreementMetadataArtifact.model_validate(payload)
+                                artifact = validate_metadata_artifact_payload(payload)
                             except Exception as exc:
-                                last_error = f"schema validation failed: {exc}"
-                                continue
-
-                            if artifact.schema_version != "agreement_metadata_v1":
-                                last_error = f"schema_version mismatch: expected 'agreement_metadata_v1' got {artifact.schema_version!r}"
+                                last_error = str(exc)
                                 continue
 
                             # Deterministic fix-up (non-silent): models sometimes cite a nearby
