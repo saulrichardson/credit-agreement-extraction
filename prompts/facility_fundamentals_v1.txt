@@ -16,9 +16,9 @@ EVIDENCE RULES (HARD)
 
 DATE NORMALIZATION RULES (IMPORTANT)
 - If an agreement states a calendar date explicitly (e.g., "March 12, 2026"), normalize it to `YYYY-MM-DD` in the `date` field.
-- If a date is expressed **relatively or conditionally** (e.g., "the date that is the fifth anniversary of the Closing Date", "the earlier of (a) ... and (b) ..."),
+- If a date is expressed **relatively or conditionally** (e.g., "the date that is the fifth anniversary of the Maturity Date", "the earlier of (a) ... and (b) ..."),
   set `date` to null and put the **verbatim date expression** in `text`.
-- Do NOT compute relative dates. Do NOT assume the Closing Date is the Agreement Date, etc.
+- Do NOT compute relative dates. Do NOT assume the Maturity Date is the Agreement Date, etc.
 
 MULTI-FACILITY SEPARATION (CRITICAL)
 Many agreements contain multiple distinct facilities/tranches (e.g., Revolving Facility + Term Loan A + Term Loan B).
@@ -34,7 +34,7 @@ TASK
 Extract ONLY these concepts:
 
 AGREEMENT-LEVEL DATES (when explicitly stated)
-- Closing Date (or similar defined/used term; can be a definition like “Closing Date means …”)
+- Maturity Date (or similar defined/used term; can be a definition like “Maturity Date means …”)
 - Effective Date / Restatement Effective Date / Amendment Effective Date (capture what the snippets explicitly support; do NOT assume these are the same thing)
 
 Agreement-date completeness rules:
@@ -70,7 +70,7 @@ LENDER FIELDS
 OUTPUT JSON (EXACT SHAPE)
 {
   "schema_version": "facility_fundamentals_v1",
-  "agreement_closing_date": {
+  "agreement_maturity_date": {
     "date": "1999-12-31" | null,
     "text": "verbatim relative/conditional date expression" | null,
     "source_refs": ["A0123"],

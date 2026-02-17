@@ -6,7 +6,7 @@ from typing import Iterable, Dict, Any
 from pipeline.core.anchors import load_anchor_catalog
 from pipeline.core.config import Paths
 from pipeline.schemas_v2 import IndexingSelectionV2Artifact
-from pipeline.utils import assert_exists, load_manifest, prompt_view_path
+from pipeline.utils import assert_exists, prompt_view_path
 
 
 def _window(text: str, start: int, end: int, bandwidth_chars: int) -> Dict[str, Any]:
@@ -18,23 +18,6 @@ def _window(text: str, start: int, end: int, bandwidth_chars: int) -> Dict[str, 
 def render_snippets_v2(paths: Paths, item_ids: Iterable[str], bandwidth: int = 400) -> None:
     out_dir = paths.run_dir / "retrieval_v2"
     out_dir.mkdir(parents=True, exist_ok=True)
-
-    toc_subdir: str | None = None
-    toc_item_ids: set[str] | None = None
-    toc_manifest: dict | None = None
-    if paths.manifest_path.exists():
-        toc_manifest = load_manifest(paths.manifest_path)
-        toc_subdir = toc_manifest.get("toc_v1_output_subdir") if isinstance(toc_manifest, dict) else None
-        if isinstance(toc_subdir, str) and not toc_subdir.strip():
-            toc_subdir = None
-        if toc_subdir and isinstance(toc_manifest, dict):
-            raw_ids = toc_manifest.get("toc_v1_item_ids")
-            if raw_ids is None:
-                toc_item_ids = None
-            elif isinstance(raw_ids, list) and all(isinstance(v, str) for v in raw_ids):
-                toc_item_ids = {v for v in raw_ids if v.strip()}
-            else:
-                raise RuntimeError("manifest toc_v1_item_ids must be a list of strings when provided")
 
     for item_id in item_ids:
         selection_json = assert_exists(
@@ -49,49 +32,6 @@ def render_snippets_v2(paths: Paths, item_ids: Iterable[str], bandwidth: int = 4
         selection = artifact.selection
 
         catalog = load_anchor_catalog(paths, item_id)
-
-        # Optional/strict: attach TOC chunk title/ids to each snippet for higher-level retrieval context.
-        # If the manifest indicates toc-v1 has been run, we treat missing/invalid TOC as an error (no silent failure).
-        toc_by_order: list[dict] = []
-        if toc_subdir:
-            toc_path = paths.run_dir / "toc_v1" / toc_subdir / f"{item_id}.json"
-            if not toc_path.exists():
-                toc_expected = toc_item_ids is None or item_id in toc_item_ids
-                if toc_expected:
-                    raise RuntimeError(
-                        f"TOC missing for {item_id}: expected {toc_path} because manifest indicates toc-v1 ran for this item "
-                        f"(toc_v1_output_subdir={toc_subdir!r})"
-                    )
-            else:
-                try:
-                    toc_doc = json.loads(toc_path.read_text())
-                except json.JSONDecodeError as exc:
-                    raise RuntimeError(f"TOC is not valid JSON for {item_id}: {toc_path}") from exc
-                if not isinstance(toc_doc, dict):
-                    raise RuntimeError(f"TOC must be a JSON object for {item_id}: {toc_path}")
-                toc_chunks = toc_doc.get("chunks")
-                if not isinstance(toc_chunks, list) or not toc_chunks:
-                    raise RuntimeError(f"TOC chunks missing/empty for {item_id}: {toc_path}")
-                for ch in toc_chunks:
-                    if not isinstance(ch, dict):
-                        raise RuntimeError(f"TOC chunk entry must be an object for {item_id}: {toc_path}")
-                    if not isinstance(ch.get("start_order"), int) or not isinstance(ch.get("end_order"), int):
-                        raise RuntimeError(f"TOC chunk missing start_order/end_order for {item_id}: {toc_path}")
-                    if not isinstance(ch.get("chunk_id"), int) or not isinstance(ch.get("title"), str):
-                        raise RuntimeError(f"TOC chunk missing chunk_id/title for {item_id}: {toc_path}")
-                    toc_by_order.append(ch)
-
-        def _toc_for_anchor(aid: str) -> dict | None:
-            if not toc_by_order:
-                return None
-            info = catalog.get(aid)
-            if not info:
-                return None
-            order = int(info["order"])
-            for ch in toc_by_order:
-                if int(ch["start_order"]) <= order <= int(ch["end_order"]):
-                    return ch
-            return None
 
         categories_by_anchor: dict[str, list[str]] = {}
         buckets_by_anchor: dict[str, set[str]] = {}
@@ -165,7 +105,6 @@ def render_snippets_v2(paths: Paths, item_ids: Iterable[str], bandwidth: int = 4
                 categories = categories_by_anchor.get(anchor_id) or []
                 label = ",".join(categories) if categories else anchor_type
                 window = _window(text, start, end, bandwidth_chars=bandwidth)
-                toc = _toc_for_anchor(anchor_id)
                 rec = {
                     "item_id": item_id,
                     "anchor_id": anchor_id,
@@ -175,8 +114,6 @@ def render_snippets_v2(paths: Paths, item_ids: Iterable[str], bandwidth: int = 4
                     "start": start,
                     "end": end,
                     "buckets": sorted(buckets_by_anchor.get(anchor_id, set())),
-                    "toc_chunk_id": int(toc["chunk_id"]) if toc else None,
-                    "toc_title": str(toc["title"]) if toc else None,
                     **window,
                 }
                 fh.write(json.dumps(rec) + "\n")

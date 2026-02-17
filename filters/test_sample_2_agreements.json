@@ -1,5 +1,0 @@
-{
-  "doc_filter_path": "pipeline.filters:keep_item_ids_from_file",
-  "doc_filter_kwargs": { "path": "datasets/test_sample_2_agreements.json" }
-}
-

@@ -34,6 +34,12 @@ class CompustatAllowlistEntry:
     description: str
 
 
+_FORMULA_IDENTIFIER_ALIASES: dict[str, str] = {
+    # Common legacy shorthand seen in model outputs.
+    "ibdpq": "oibdpq",
+}
+
+
 def _load_compustat_allowlist(path: Path) -> list[CompustatAllowlistEntry]:
     try:
         doc = json.loads(path.read_text(encoding="utf-8"))
@@ -110,6 +116,142 @@ def _render_prompt(
     return out
 
 
+def _normalize_str_list(values: Any) -> list[str]:
+    if not isinstance(values, list):
+        return []
+    out: list[str] = []
+    for v in values:
+        if not isinstance(v, str):
+            continue
+        s = v.strip()
+        if s:
+            out.append(s)
+    return out
+
+
+def _dedupe_preserve_order(values: list[str]) -> list[str]:
+    out: list[str] = []
+    seen: set[str] = set()
+    for v in values:
+        if v in seen:
+            continue
+        seen.add(v)
+        out.append(v)
+    return out
+
+
+def _formula_identifiers(formula: str) -> list[str]:
+    return [m.group(0).lower() for m in re.finditer(r"\b[a-z][a-z0-9_]*\b", formula.lower())]
+
+
+def _normalize_formula_aliases(*, formula: str, compustat_allowlist: set[str]) -> str:
+    """Rewrite known legacy identifiers to allowlisted canonical codes when safe."""
+
+    out = formula
+    for source, target in _FORMULA_IDENTIFIER_ALIASES.items():
+        if source in compustat_allowlist:
+            continue
+        if target not in compustat_allowlist:
+            continue
+        out = re.sub(rf"\b{re.escape(source)}\b", target, out, flags=re.IGNORECASE)
+    return out
+
+
+def _normalize_candidate_common(
+    *,
+    cand: dict[str, Any],
+    compustat_allowlist: set[str],
+    financial_services_codes: set[str],
+) -> dict[str, Any]:
+    """Best-effort structural normalization for recurring overlay schema slips."""
+
+    out = dict(cand)
+    out["limitations"] = _normalize_str_list(out.get("limitations"))
+    out["notes"] = _normalize_str_list(out.get("notes"))
+
+    prefixed_limitations: list[str] = []
+    plain_limitations: list[str] = []
+    for ln in out["limitations"]:
+        low = ln.lower()
+        if low.startswith(("assumption:", "alternative:", "next_step:")):
+            prefixed_limitations.append(ln)
+        else:
+            plain_limitations.append(ln)
+    if prefixed_limitations:
+        out["notes"] = _dedupe_preserve_order(out["notes"] + prefixed_limitations)
+    out["limitations"] = plain_limitations
+
+    formula = out.get("compustat_formula")
+    if isinstance(formula, str):
+        formula = formula.strip()
+        formula = _normalize_formula_aliases(formula=formula, compustat_allowlist=compustat_allowlist)
+        out["compustat_formula"] = formula or None
+    else:
+        out["compustat_formula"] = None
+
+    vars_raw = _normalize_str_list(out.get("compustat_variables"))
+    vars_norm = _dedupe_preserve_order([v.lower() for v in vars_raw])
+    out["compustat_variables"] = vars_norm
+
+    match_type = out.get("match_type")
+    confidence = out.get("confidence")
+    notes = out["notes"]
+    limitations = out["limitations"]
+
+    if out["compustat_formula"] is None:
+        out["match_type"] = "none"
+        out["compustat_variables"] = []
+        if not limitations:
+            out["limitations"] = ["No robust allowlisted Compustat mapping identified."]
+        if not any(n.lower().startswith("next_step:") for n in notes):
+            out["notes"] = _dedupe_preserve_order(
+                notes + ["next_step: review source clauses and add a vetted formula candidate."]
+            )
+        if confidence not in {"high", "medium", "low"}:
+            out["confidence"] = "low"
+        return out
+
+    identifiers = _formula_identifiers(out["compustat_formula"])
+    if identifiers:
+        out["compustat_variables"] = _dedupe_preserve_order(identifiers)
+
+    if match_type == "exact" and out["limitations"]:
+        out["limitations"] = []
+    if match_type == "approximate" and not out["limitations"]:
+        out["limitations"] = ["Potential approximation between contract definition and Compustat mapping."]
+
+    if match_type == "approximate":
+        if out.get("confidence") == "high":
+            out["confidence"] = "medium"
+        if not any(n.lower().startswith("assumption:") for n in out["notes"]):
+            out["notes"] = _dedupe_preserve_order(
+                out["notes"] + ["assumption: mapping uses proxy terms where contract definitions differ from Compustat labels."]
+            )
+
+    if not any(n.lower().startswith("alternative:") for n in out["notes"]):
+        out["notes"] = _dedupe_preserve_order(
+            out["notes"] + ["alternative: no superior allowlisted formula candidate identified in this pass."]
+        )
+
+    fs_used = sorted({v for v in out["compustat_variables"] if v in financial_services_codes})
+    if fs_used:
+        out["confidence"] = "low"
+        has_fs_assumption = any(
+            n.lower().startswith("assumption:")
+            and ("financial services" in n.lower() or any(code in n.lower() for code in fs_used))
+            for n in out["notes"]
+        )
+        if not has_fs_assumption:
+            out["notes"] = _dedupe_preserve_order(
+                out["notes"]
+                + [
+                    "assumption: financial services-specific variables are used due to limited direct non-financial equivalents."
+                ]
+            )
+
+    return out
+
+
 def _validate_overlay_output(
     *,
     term: str,
@@ -168,6 +310,11 @@ def _validate_overlay_output(
                 )
 
         def _validate_candidate(*, idx: int, cand: dict[str, Any]) -> dict[str, Any]:
+            cand = _normalize_candidate_common(
+                cand=cand,
+                compustat_allowlist=compustat_allowlist,
+                financial_services_codes=financial_services_codes,
+            )
             allowed_keys = {
                 "why",
                 "compustat_formula",
@@ -388,6 +535,12 @@ def _validate_overlay_output(
     if raw_json.get("term") != term:
         raise RuntimeError(f"overlay output term must equal input term {term!r}; got {raw_json.get('term')!r}")
 
+    raw_json = _normalize_candidate_common(
+        cand=raw_json,
+        compustat_allowlist=compustat_allowlist,
+        financial_services_codes=financial_services_codes,
+    )
+
     match_type = raw_json.get("match_type")
     if match_type not in {"exact", "approximate", "none"}:
         raise RuntimeError("overlay output match_type must be 'exact'|'approximate'|'none'")
@@ -540,7 +693,10 @@ def run_compustat_overlay_v1(
             stale_path.unlink()
 
     GatewayAgentClient = _ensure_gateway_client_async()
-    sem = asyncio.Semaphore(max(1, concurrency))
+    # IMPORTANT: create loop-bound asyncio primitives inside the running loop.
+    # Creating Semaphore before asyncio.run(...) can bind it to a different loop
+    # on Python 3.9 compute nodes.
+    sem: asyncio.Semaphore | None = None
 
     hard_errors: list[tuple[str, str]] = []
     soft_issues: list[tuple[str, str]] = []
@@ -607,6 +763,8 @@ def run_compustat_overlay_v1(
         return str(result)
 
     async def _process_target(client: Any, target: OverlayTarget) -> dict[str, Any] | None:
+        if sem is None:
+            raise RuntimeError("internal error: compustat-overlay semaphore was not initialized")
         async with sem:
             safe_term = _safe_slug(target.term)
             raw_base = out_dir / f"{target.item_id}__{safe_term}__compustat_overlay.raw.txt"
@@ -614,9 +772,20 @@ def run_compustat_overlay_v1(
 
             if out_path.exists():
                 try:
-                    return json.loads(out_path.read_text(encoding="utf-8"))
+                    existing = json.loads(out_path.read_text(encoding="utf-8"))
+                    cleaned_existing = _validate_overlay_output(
+                        term=target.term,
+                        raw_json=existing,
+                        compustat_allowlist=compustat_allowlist,
+                        financial_services_codes=financial_services_codes,
+                    )
+                    if cleaned_existing != existing:
+                        out_path.write_text(json.dumps(cleaned_existing, indent=2) + "\n", encoding="utf-8")
+                    return cleaned_existing
                 except Exception:
-                    soft_issues.append((f"{target.item_id}::{target.term}", f"Existing overlay JSON unreadable; recomputing: {out_path}"))
+                    soft_issues.append(
+                        (f"{target.item_id}::{target.term}", f"Existing overlay JSON invalid/unreadable; recomputing: {out_path}")
+                    )
 
             rendered = _render_prompt(
                 prompt_template,
@@ -684,8 +853,20 @@ def run_compustat_overlay_v1(
                 out_path.write_text(json.dumps(cleaned, indent=2) + "\n", encoding="utf-8")
                 return cleaned
 
-            hard_errors.append((f"{target.item_id}::{target.term}", f"Failed after {attempts} attempt(s): {last_error}"))
-            return None
+            msg = f"Failed after {attempts} attempt(s): {last_error}"
+            soft_issues.append((f"{target.item_id}::{target.term}", msg))
+            fallback = {
+                "schema_version": "compustat_overlay_v1",
+                "term": target.term,
+                "match_type": "none",
+                "confidence": "low",
+                "limitations": [msg],
+                "notes": ["next_step: manual review required after repeated schema failures."],
+                "compustat_formula": None,
+                "compustat_variables": [],
+            }
+            out_path.write_text(json.dumps(fallback, indent=2) + "\n", encoding="utf-8")
+            return fallback
 
     async def _process_item(client: Any, item_id: str) -> None:
         try:
@@ -725,6 +906,8 @@ def run_compustat_overlay_v1(
         )
 
     async def _runner() -> None:
+        nonlocal sem
+        sem = asyncio.Semaphore(max(1, concurrency))
         async with GatewayAgentClient(
             base_url=gateway_url or DEFAULT_GATEWAY_URL,
             timeout=gateway_timeout or 600.0,

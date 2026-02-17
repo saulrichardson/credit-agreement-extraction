@@ -4,7 +4,7 @@ import hashlib
 import json
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict
+from typing import Dict
 
 # Pipeline-wide defaults for gateway calls
 REQUIRED_MODEL = "openai:gpt-5-nano"
@@ -72,32 +72,15 @@ class RunConfig:
         return Paths(root=self.base_dir, run_id=self.run_id)
 
 
-@dataclass
-class FilterSpec:
-    # Single, user-supplied Python callable to decide if a document should be kept.
-    #
-    # doc_filter_path format: "module:function"
-    #
-    # Two supported callable shapes:
-    # 1) Predicate:
-    #    (submission_dict, document_dict) -> bool
-    # 2) Factory (when doc_filter_kwargs is provided):
-    #    (**doc_filter_kwargs) -> predicate(submission_dict, document_dict) -> bool
-    #
-    # submission_dict keys: accession, cik, form_type, filing_date, documents[*].
-    # document_dict keys: type, filename, sequence, content, (plus any SGML fields).
-    doc_filter_path: str
-    doc_filter_kwargs: Dict[str, Any] | None = None
-
-    @classmethod
-    def from_mapping(cls, mapping: Dict) -> "FilterSpec":
-        path = mapping.get("doc_filter_path")
-        if not path or not isinstance(path, str):
-            raise ValueError("doc_filter_path is required (module:function)")
-        kwargs = mapping.get("doc_filter_kwargs")
-        if kwargs is not None and not isinstance(kwargs, dict):
-            raise ValueError("doc_filter_kwargs must be a mapping when provided")
-        return cls(doc_filter_path=path, doc_filter_kwargs=kwargs)
+@dataclass(frozen=True)
+class DocumentSelection:
+    # Explicit ingest selectors (no dynamic callable paths).
+    # - item_ids: optional allowlist of "<accession>_<sequence>" identifiers.
+    # - doc_type_prefixes: optional allowlist for SGML <TYPE> prefixes (e.g., EX-10).
+    # Matching semantics are logical AND when both selectors are present.
+    item_ids_source: str | None
+    item_ids: tuple[str, ...] = ()
+    doc_type_prefixes: tuple[str, ...] = ()
 
 
 def record_manifest(path: Path, payload: Dict) -> None:

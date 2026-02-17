@@ -1782,7 +1782,11 @@ def run_definitions_compiler_v1(
 
     items = list(item_ids)
     GatewayAgentClient = _ensure_gateway_client_async()
-    sem = asyncio.Semaphore(max(1, concurrency))
+    # IMPORTANT: create loop-bound asyncio primitives inside the running loop.
+    # On Python 3.9 compute nodes, creating Semaphore before asyncio.run(...)
+    # can bind it to a different loop and trigger:
+    # "Task ... got Future <Future pending> attached to a different loop".
+    sem: asyncio.Semaphore | None = None
 
     hard_errors: list[tuple[str, str]] = []
     soft_issues: list[tuple[str, str]] = []
@@ -1799,6 +1803,8 @@ def run_definitions_compiler_v1(
         financial_covenant_anchor_ids: List[str],
         client: Any,
     ) -> None:
+        if sem is None:
+            raise RuntimeError("internal error: definitions compiler semaphore was not initialized")
         async with sem:
             safe_metric = _safe_slug(metric.name)
             context_path = out_dir / f"{item_id}__{safe_metric}__contexts.txt"
@@ -1816,6 +1822,34 @@ def run_definitions_compiler_v1(
 
             finder_raw_path = out_dir / f"{item_id}__{safe_metric}__definition_finder.raw.txt"
             finder_json_path = out_dir / f"{item_id}__{safe_metric}__definition_finder.json"
+
+            def _write_fallback_compiled(message: str) -> None:
+                parsed_path.write_text(
+                    json.dumps(
+                        {
+                            "schema_version": "definition_compiler_v2_ast_v1",
+                            "metric_name": metric.name,
+                            "definitions": [
+                                {
+                                    "name": metric.name,
+                                    "contract_term": None,
+                                    "definition_verbatim": None,
+                                    "expression_ast": None,
+                                    "input_terms": [],
+                                    "clauses": [],
+                                    "source_refs": [],
+                                    "needs_more_context": False,
+                                    "confidence": "low",
+                                    "notes": [message],
+                                }
+                            ],
+                            "unresolved_dependencies": [],
+                        },
+                        indent=2,
+                    )
+                    + "\n",
+                    encoding="utf-8",
+                )
 
             def _has_grounded_definition(doc: dict[str, Any]) -> bool:
                 defs = doc.get("definitions")
@@ -1977,14 +2011,23 @@ def run_definitions_compiler_v1(
                     )
                     if selected_anchor_ids:
                         contexts_block = _build_context_blocks(canonical_text, anchors, selected_anchor_ids)
-                        pass1_doc = await _compile_with_contexts(
-                            pass_tag="pass1_restricted",
-                            selected_anchor_ids=selected_anchor_ids,
-                            contexts_block=contexts_block,
-                            context_out_path=pass1_context_path,
-                            raw_base_path=pass1_raw_base,
-                            compiled_out_path=pass1_compiled_path,
-                        )
+                        try:
+                            pass1_doc = await _compile_with_contexts(
+                                pass_tag="pass1_restricted",
+                                selected_anchor_ids=selected_anchor_ids,
+                                contexts_block=contexts_block,
+                                context_out_path=pass1_context_path,
+                                raw_base_path=pass1_raw_base,
+                                compiled_out_path=pass1_compiled_path,
+                            )
+                        except Exception as exc:
+                            soft_issues.append(
+                                (
+                                    f"{item_id}::{metric.name}::pass1_restricted",
+                                    f"Pass 1 failed; continuing to definition-finder fallback: {exc}",
+                                )
+                            )
+                            pass1_doc = None
 
             if pass1_doc and _has_grounded_definition(pass1_doc):
                 context_path.write_text(pass1_context_path.read_text(encoding="utf-8", errors="replace"), encoding="utf-8")
@@ -2042,14 +2085,22 @@ def run_definitions_compiler_v1(
                     neighbor_pad=3,
                 )
                 contexts_block = _build_context_blocks(canonical_text, anchors, expanded)
-                pass2_doc = await _compile_with_contexts(
-                    pass_tag="pass2_definition_finder",
-                    selected_anchor_ids=expanded,
-                    contexts_block=contexts_block,
-                    context_out_path=pass2_context_path,
-                    raw_base_path=pass2_raw_base,
-                    compiled_out_path=pass2_compiled_path,
-                )
+                try:
+                    pass2_doc = await _compile_with_contexts(
+                        pass_tag="pass2_definition_finder",
+                        selected_anchor_ids=expanded,
+                        contexts_block=contexts_block,
+                        context_out_path=pass2_context_path,
+                        raw_base_path=pass2_raw_base,
+                        compiled_out_path=pass2_compiled_path,
+                    )
+                except Exception as exc:
+                    msg = (
+                        f"Definition finder selected anchors but compilation failed for metric={metric.name!r}: {exc}"
+                    )
+                    soft_issues.append((f"{item_id}::{metric.name}::pass2_definition_finder", msg))
+                    _write_fallback_compiled(msg)
+                    return
 
                 context_path.write_text(pass2_context_path.read_text(encoding="utf-8", errors="replace"), encoding="utf-8")
                 raw_path.write_text(pass2_raw_base.read_text(encoding="utf-8", errors="replace"), encoding="utf-8")
@@ -2073,32 +2124,7 @@ def run_definitions_compiler_v1(
                 f"(contract_term_hint={metric.contract_term_hint!r}; search_tokens={metric.search_tokens!r})."
             )
             soft_issues.append((f"{item_id}::{metric.name}", msg))
-            parsed_path.write_text(
-                json.dumps(
-                    {
-                        "schema_version": "definition_compiler_v2_ast_v1",
-                        "metric_name": metric.name,
-                        "definitions": [
-                            {
-                                "name": metric.name,
-                                "contract_term": None,
-                                "definition_verbatim": None,
-                                "expression_ast": None,
-                                "input_terms": [],
-                                "clauses": [],
-                                "source_refs": [],
-                                "needs_more_context": False,
-                                "confidence": "low",
-                                "notes": [msg],
-                            }
-                        ],
-                        "unresolved_dependencies": [],
-                    },
-                    indent=2,
-                )
-                + "\n",
-                encoding="utf-8",
-            )
+            _write_fallback_compiled(msg)
             return
 
     async def _process_item(item_id: str, client: Any) -> None:
@@ -2201,6 +2227,8 @@ def run_definitions_compiler_v1(
         )
 
     async def _runner() -> None:
+        nonlocal sem
+        sem = asyncio.Semaphore(max(1, concurrency))
         async with GatewayAgentClient(
             base_url=gateway_url or DEFAULT_GATEWAY_URL,
             timeout=gateway_timeout or 600.0,

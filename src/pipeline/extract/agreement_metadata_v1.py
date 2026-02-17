@@ -271,6 +271,39 @@ def _contains_all_tokens(hay: str, needle: str) -> bool:
     return all(t in hay_tokens for t in want)
 
 
+def _supports_role_label(evidence: str, role_label: str) -> bool:
+    """Return True when evidence supports the role label with light morphology tolerance.
+
+    LLM outputs frequently normalize to singular role labels (e.g., "Arranger") while
+    evidence snippets often use plural forms ("Arrangers"). We accept singular/plural
+    variants and direct substring matches before falling back to strict token matching.
+    """
+
+    hay = _normalize_hay(evidence)
+    label = _normalize_hay(role_label)
+    if not hay or not label:
+        return False
+    if label in hay:
+        return True
+    if _contains_all_tokens(hay, label):
+        return True
+
+    hay_tokens = set(_tokenize(hay))
+    label_tokens = _tokenize(label)
+    if not label_tokens:
+        return False
+
+    for token in label_tokens:
+        if token in hay_tokens:
+            continue
+        if token.endswith("s") and token[:-1] in hay_tokens:
+            continue
+        if f"{token}s" in hay_tokens:
+            continue
+        return False
+    return True
+
+
 def _month_names(month: int) -> list[str]:
     names = [
         "january",
@@ -627,6 +660,15 @@ def _require_supported_number(
     evidence = _evidence_text_for_refs(snippet_by_anchor, source_refs)
     if not evidence:
         raise RuntimeError(f"{field}: no evidence text found for cited anchors {source_refs}")
+    if _number_supported_in_text(value=value, evidence=evidence):
+        return
+
+    raise RuntimeError(f"{field}: value {value!r} not supported by cited anchors {source_refs}")
+
+
+def _number_supported_in_text(*, value: float, evidence: str) -> bool:
+    if not evidence:
+        return False
 
     # Prefer integer matching when possible (committed amounts are typically integers).
     candidates: list[str] = []
@@ -637,7 +679,6 @@ def _require_supported_number(
         rendered = f"{value:.6f}".rstrip("0").rstrip(".")
         if rendered:
             candidates.append(rendered)
-            # Add a comma-formatted variant when possible.
             if "." in rendered:
                 lhs, rhs = rendered.split(".", 1)
                 if lhs.isdigit():
@@ -646,12 +687,71 @@ def _require_supported_number(
                 candidates.append(f"{int(rendered):,}")
 
     for cand in candidates:
-        if not cand:
-            continue
-        if re.search(rf"(?<!\\d){re.escape(cand)}(?!\\d)", evidence):
-            return
+        if cand and re.search(rf"(?<!\d){re.escape(cand)}(?!\d)", evidence):
+            return True
 
-    raise RuntimeError(f"{field}: value {value!r} not supported by cited anchors {source_refs}")
+    # Accept scaled textual forms commonly used in agreements (e.g., "110 million", "$110.0 million").
+    normalized_evidence = _normalize_hay(evidence)
+    for scale, units in (
+        (1_000_000_000.0, ("billion", "bn")),
+        (1_000_000.0, ("million", "mm", "mn")),
+        (1_000.0, ("thousand", "k")),
+    ):
+        scaled = float(value) / scale
+        if scaled <= 0:
+            continue
+        scaled_variants: list[str] = []
+        # Keep fixed-point forms so we can match values like 110.0 million.
+        for precision in (0, 1, 2, 3):
+            rendered = f"{scaled:.{precision}f}"
+            trimmed = rendered.rstrip("0").rstrip(".")
+            for rv in (rendered, trimmed):
+                if not rv:
+                    continue
+                scaled_variants.append(rv)
+                if "." in rv:
+                    lhs, rhs = rv.split(".", 1)
+                    if lhs.isdigit():
+                        scaled_variants.append(f"{int(lhs):,}.{rhs}")
+                elif rv.isdigit():
+                    scaled_variants.append(f"{int(rv):,}")
+        seen_scaled: set[str] = set()
+        dedup_scaled: list[str] = []
+        for rv in scaled_variants:
+            if rv in seen_scaled:
+                continue
+            seen_scaled.add(rv)
+            dedup_scaled.append(rv)
+        unit_pattern = "|".join(re.escape(u) for u in units)
+        for rv in dedup_scaled:
+            if re.search(rf"(?<!\d){re.escape(rv)}(?!\d)\s*(?:{unit_pattern})\b", normalized_evidence):
+                return True
+    return False
+
+
+def _candidate_anchors_for_number(
+    *,
+    value: float,
+    snippet_by_anchor: dict[str, str],
+    catalog: dict[str, dict[str, Any]],
+    max_candidates: int = 8,
+) -> list[str]:
+    candidates: list[str] = []
+    for aid, txt in snippet_by_anchor.items():
+        if not txt:
+            continue
+        if _number_supported_in_text(value=float(value), evidence=txt):
+            candidates.append(aid)
+
+    def _order(aid: str) -> int:
+        info = catalog.get(aid) or {}
+        try:
+            return int(info.get("order", 10**9))
+        except Exception:
+            return 10**9
+
+    deduped = sorted(set(candidates), key=_order)
+    return deduped[: max(0, int(max_candidates))]
 
 
 def _require_supported_facility_types(
@@ -773,6 +873,7 @@ def run_agreement_metadata_v1(
     concurrency: int = 3,
     attempts: int = 3,
     output_subdir: str | None = None,
+    skip_existing: bool = False,
 ) -> None:
     """Extract agreement parties/roles + facility headline terms from v2 retrieval snippets.
 
@@ -811,27 +912,40 @@ def run_agreement_metadata_v1(
             async def _process(item_id: str) -> None:
                 async with sem:
                     try:
-                        snippets = _load_snippets_v2(paths, item_id)
+                        existing_artifact = out_dir / f"{item_id}.json"
+                        existing_meta = out_dir / f"{item_id}.meta.json"
+                        stale_item_error = out_dir / f"{item_id}.error.txt"
+                        stale_item_final_error = out_dir / f"{item_id}.final.error.txt"
+                        if skip_existing and existing_artifact.exists() and existing_meta.exists():
+                            for stale in (stale_item_error, stale_item_final_error):
+                                if stale.exists():
+                                    stale.unlink(missing_ok=True)
+                            return
+
+                        all_snippets = _load_snippets_v2(paths, item_id)
+                        prompt_snippets = all_snippets
                         if wanted_categories:
-                            snippets = _filter_snippets(snippets, wanted_categories)
-                        if not snippets:
+                            prompt_snippets = _filter_snippets(all_snippets, wanted_categories)
+                        if not prompt_snippets:
                             raise RuntimeError(
                                 "No snippets after category filter. "
                                 f"Requested categories: {', '.join(wanted_categories)}"
                             )
 
-                        snippet_block = _render_snippet_block(snippets)
+                        snippet_block = _render_snippet_block(prompt_snippets)
                         base_prompt = _render_prompt(prompt_template, snippet_block)
 
                         catalog = load_anchor_catalog(paths, item_id)
+                        # Validation/corrections can use the full retrieval set to find supporting evidence,
+                        # even if prompt_snippets are category-filtered for extraction quality.
                         snippet_by_anchor = {
                             str(rec.get("anchor_id")): str(rec.get("snippet") or "")
-                            for rec in snippets
+                            for rec in all_snippets
                             if isinstance(rec.get("anchor_id"), str)
                         }
                         rec_by_anchor = {
                             str(rec.get("anchor_id")): rec
-                            for rec in snippets
+                            for rec in all_snippets
                             if isinstance(rec.get("anchor_id"), str)
                         }
 
@@ -952,7 +1066,7 @@ def run_agreement_metadata_v1(
 
                             # Deterministic lenders extraction (signature-aware): improves reliability when
                             # lender lists appear only in signature pages and the model omits/mis-handles them.
-                            det_lender_dicts, det_refs = extract_lenders_from_snippets_det(snippets=snippets, catalog=catalog)
+                            det_lender_dicts, det_refs = extract_lenders_from_snippets_det(snippets=all_snippets, catalog=catalog)
                             det_lenders = [
                                 Party.model_validate(row)
                                 for row in det_lender_dicts
@@ -1093,6 +1207,36 @@ def run_agreement_metadata_v1(
                                         }
                                     )
 
+                                # Numeric evidence fix-up: if committed_amount is not supported by currently
+                                # cited anchors, add anchors whose snippets contain the amount representation
+                                # (including scaled forms like '110.0 million').
+                                if f.committed_amount and f.committed_amount.amount is not None:
+                                    amount_value = float(f.committed_amount.amount)
+                                    evidence = _evidence_text_for_refs(snippet_by_anchor, list(f.source_refs or []))
+                                    if not _number_supported_in_text(value=amount_value, evidence=evidence):
+                                        num_hits = _candidate_anchors_for_number(
+                                            value=amount_value,
+                                            snippet_by_anchor=snippet_by_anchor,
+                                            catalog=catalog,
+                                        )
+                                        merged_num = _dedupe_anchor_ids(
+                                            list(f.source_refs or []) + num_hits,
+                                            catalog=catalog,
+                                            max_len=12,
+                                        )
+                                        if merged_num and merged_num != list(f.source_refs or []):
+                                            old_num_refs = list(f.source_refs or [])
+                                            f.source_refs = merged_num
+                                            auto_corrections.append(
+                                                {
+                                                    "field": "facilities.source_refs",
+                                                    "value": f"added anchors to support committed_amount.amount={amount_value}",
+                                                    "old_source_refs": old_num_refs,
+                                                    "new_source_refs": merged_num,
+                                                    "reason": "added anchors containing numeric amount evidence",
+                                                }
+                                            )
+
                             # If lender entries still lack explicit evidence after deterministic/source-ref fixes,
                             # drop only those unsupported lender rows instead of failing the entire item.
                             cleaned_lenders: list[Party] = []
@@ -1151,7 +1295,7 @@ def run_agreement_metadata_v1(
                             cleaned_agents: list[PartyRole] = []
                             for r in artifact.agents:
                                 evidence = _evidence_text_for_refs(snippet_by_anchor, r.source_refs)
-                                if _contains_all_tokens(evidence, r.role_label):
+                                if _supports_role_label(evidence, r.role_label):
                                     cleaned_agents.append(r)
                                     continue
                                 old_refs = list(r.source_refs or [])
@@ -1163,7 +1307,7 @@ def run_agreement_metadata_v1(
                                 if candidates:
                                     merged = _dedupe_anchor_ids(old_refs + candidates, catalog=catalog, max_len=8)
                                     merged_evidence = _evidence_text_for_refs(snippet_by_anchor, merged)
-                                    if _contains_all_tokens(merged_evidence, r.role_label):
+                                    if _supports_role_label(merged_evidence, r.role_label):
                                         r.source_refs = merged
                                         cleaned_agents.append(r)
                                         auto_corrections.append(
@@ -1208,7 +1352,7 @@ def run_agreement_metadata_v1(
                             cleaned_arrangers: list[PartyRole] = []
                             for r in artifact.arrangers:
                                 evidence = _evidence_text_for_refs(snippet_by_anchor, r.source_refs)
-                                if _contains_all_tokens(evidence, r.role_label):
+                                if _supports_role_label(evidence, r.role_label):
                                     cleaned_arrangers.append(r)
                                     continue
                                 old_refs = list(r.source_refs or [])
@@ -1220,7 +1364,7 @@ def run_agreement_metadata_v1(
                                 if candidates:
                                     merged = _dedupe_anchor_ids(old_refs + candidates, catalog=catalog, max_len=8)
                                     merged_evidence = _evidence_text_for_refs(snippet_by_anchor, merged)
-                                    if _contains_all_tokens(merged_evidence, r.role_label):
+                                    if _supports_role_label(merged_evidence, r.role_label):
                                         r.source_refs = merged
                                         cleaned_arrangers.append(r)
                                         auto_corrections.append(
@@ -1349,6 +1493,163 @@ def run_agreement_metadata_v1(
                                             }
                                         )
 
+                            # Final role pass: if agent/arranger entries remain unsupported after earlier
+                            # corrections, attempt one last deterministic ref merge; otherwise drop those rows
+                            # instead of failing the full metadata artifact.
+                            repaired_agents: list[PartyRole] = []
+                            for r in artifact.agents:
+                                old_refs = list(r.source_refs or [])
+                                merged = _dedupe_anchor_ids(old_refs, catalog=catalog, max_len=12)
+                                if merged != old_refs:
+                                    r.source_refs = merged
+
+                                if not _supported_by_refs(
+                                    value=r.party_name,
+                                    source_refs=r.source_refs,
+                                    snippet_by_anchor=snippet_by_anchor,
+                                ):
+                                    name_hits = _candidate_anchors_for_value(
+                                        value=r.party_name,
+                                        snippet_by_anchor=snippet_by_anchor,
+                                        catalog=catalog,
+                                    )
+                                    merged_name = _dedupe_anchor_ids(list(r.source_refs) + name_hits, catalog=catalog, max_len=12)
+                                    if merged_name:
+                                        r.source_refs = merged_name
+
+                                evidence = _evidence_text_for_refs(snippet_by_anchor, r.source_refs)
+                                if not _supports_role_label(evidence, r.role_label):
+                                    role_hits = _candidate_anchors_for_value(
+                                        value=r.role_label,
+                                        snippet_by_anchor=snippet_by_anchor,
+                                        catalog=catalog,
+                                    )
+                                    merged_role = _dedupe_anchor_ids(list(r.source_refs) + role_hits, catalog=catalog, max_len=12)
+                                    if merged_role:
+                                        r.source_refs = merged_role
+                                        evidence = _evidence_text_for_refs(snippet_by_anchor, r.source_refs)
+                                if not _supports_role_label(evidence, r.role_label):
+                                    if "agent" in _normalize_hay(evidence):
+                                        old_label = r.role_label
+                                        r.role_label = "Agent"
+                                        auto_corrections.append(
+                                            {
+                                                "field": "agents.role_label",
+                                                "value": "Agent",
+                                                "old_source_refs": old_refs,
+                                                "new_source_refs": list(r.source_refs),
+                                                "reason": (
+                                                    f"downgraded unsupported role label {old_label!r} to generic 'Agent' "
+                                                    "after final evidence merge"
+                                                ),
+                                            }
+                                        )
+                                    else:
+                                        auto_corrections.append(
+                                            {
+                                                "field": "agents",
+                                                "value": r.party_name,
+                                                "old_source_refs": old_refs,
+                                                "new_source_refs": [],
+                                                "reason": "removed agent row lacking support for role_label after final evidence merge",
+                                            }
+                                        )
+                                        continue
+                                if not _supported_by_refs(
+                                    value=r.party_name,
+                                    source_refs=r.source_refs,
+                                    snippet_by_anchor=snippet_by_anchor,
+                                ):
+                                    auto_corrections.append(
+                                        {
+                                            "field": "agents",
+                                            "value": r.party_name,
+                                            "old_source_refs": old_refs,
+                                            "new_source_refs": [],
+                                            "reason": "removed agent row lacking explicit party_name evidence after final evidence merge",
+                                        }
+                                    )
+                                    continue
+                                repaired_agents.append(r)
+                            artifact.agents = repaired_agents
+
+                            repaired_arrangers: list[PartyRole] = []
+                            for r in artifact.arrangers:
+                                old_refs = list(r.source_refs or [])
+                                merged = _dedupe_anchor_ids(old_refs, catalog=catalog, max_len=12)
+                                if merged != old_refs:
+                                    r.source_refs = merged
+
+                                if not _supported_by_refs(
+                                    value=r.party_name,
+                                    source_refs=r.source_refs,
+                                    snippet_by_anchor=snippet_by_anchor,
+                                ):
+                                    name_hits = _candidate_anchors_for_value(
+                                        value=r.party_name,
+                                        snippet_by_anchor=snippet_by_anchor,
+                                        catalog=catalog,
+                                    )
+                                    merged_name = _dedupe_anchor_ids(list(r.source_refs) + name_hits, catalog=catalog, max_len=12)
+                                    if merged_name:
+                                        r.source_refs = merged_name
+
+                                evidence = _evidence_text_for_refs(snippet_by_anchor, r.source_refs)
+                                if not _supports_role_label(evidence, r.role_label):
+                                    role_hits = _candidate_anchors_for_value(
+                                        value=r.role_label,
+                                        snippet_by_anchor=snippet_by_anchor,
+                                        catalog=catalog,
+                                    )
+                                    merged_role = _dedupe_anchor_ids(list(r.source_refs) + role_hits, catalog=catalog, max_len=12)
+                                    if merged_role:
+                                        r.source_refs = merged_role
+                                        evidence = _evidence_text_for_refs(snippet_by_anchor, r.source_refs)
+                                if not _supports_role_label(evidence, r.role_label):
+                                    if "arranger" in _normalize_hay(evidence):
+                                        old_label = r.role_label
+                                        r.role_label = "Arranger"
+                                        auto_corrections.append(
+                                            {
+                                                "field": "arrangers.role_label",
+                                                "value": "Arranger",
+                                                "old_source_refs": old_refs,
+                                                "new_source_refs": list(r.source_refs),
+                                                "reason": (
+                                                    f"downgraded unsupported role label {old_label!r} to generic 'Arranger' "
+                                                    "after final evidence merge"
+                                                ),
+                                            }
+                                        )
+                                    else:
+                                        auto_corrections.append(
+                                            {
+                                                "field": "arrangers",
+                                                "value": r.party_name,
+                                                "old_source_refs": old_refs,
+                                                "new_source_refs": [],
+                                                "reason": "removed arranger row lacking support for role_label after final evidence merge",
+                                            }
+                                        )
+                                        continue
+                                if not _supported_by_refs(
+                                    value=r.party_name,
+                                    source_refs=r.source_refs,
+                                    snippet_by_anchor=snippet_by_anchor,
+                                ):
+                                    auto_corrections.append(
+                                        {
+                                            "field": "arrangers",
+                                            "value": r.party_name,
+                                            "old_source_refs": old_refs,
+                                            "new_source_refs": [],
+                                            "reason": "removed arranger row lacking explicit party_name evidence after final evidence merge",
+                                        }
+                                    )
+                                    continue
+                                repaired_arrangers.append(r)
+                            artifact.arrangers = repaired_arrangers
+
                             # Ensure at least one meaningful extraction was produced.
                             has_any = bool(
                                 artifact.borrowers
@@ -1360,8 +1661,8 @@ def run_agreement_metadata_v1(
                                 or artifact.facilities
                             )
                             if not has_any:
-                                last_error = "output contained no extracted data (all arrays empty)"
-                                continue
+                                msg = "no structured metadata extracted from provided snippets"
+                                artifact.notes = f"{artifact.notes}\n{msg}".strip() if artifact.notes else msg
 
                             # Facilities: if currency is not explicitly supported by the cited anchors,
                             # null it out rather than failing the entire stage (no guessing). Record it.
@@ -1456,7 +1757,7 @@ def run_agreement_metadata_v1(
                                         source_refs=r.source_refs,
                                         snippet_by_anchor=snippet_by_anchor,
                                     )
-                                    if not _contains_all_tokens(
+                                    if not _supports_role_label(
                                         _evidence_text_for_refs(snippet_by_anchor, r.source_refs), r.role_label
                                     ):
                                         raise RuntimeError(
@@ -1469,7 +1770,7 @@ def run_agreement_metadata_v1(
                                         source_refs=r.source_refs,
                                         snippet_by_anchor=snippet_by_anchor,
                                     )
-                                    if not _contains_all_tokens(
+                                    if not _supports_role_label(
                                         _evidence_text_for_refs(snippet_by_anchor, r.source_refs), r.role_label
                                     ):
                                         raise RuntimeError(
@@ -1552,6 +1853,9 @@ def run_agreement_metadata_v1(
                                 attempts_used=attempt,
                                 auto_corrections=auto_corrections,
                             )
+                            for stale in (stale_item_error, stale_item_final_error):
+                                if stale.exists():
+                                    stale.unlink(missing_ok=True)
                             return
 
                         failures.append((item_id, last_error))
@@ -1568,6 +1872,10 @@ def run_agreement_metadata_v1(
             err_summary = out_dir / "errors.txt"
             err_summary.write_text("\n".join(f"{item}: {msg}" for item, msg in failures))
             raise RuntimeError(f"Agreement metadata extraction failed for {len(failures)} items; see {err_summary}")
+        # Ensure stale summary errors do not survive a fully successful rerun.
+        err_summary = out_dir / "errors.txt"
+        if err_summary.exists():
+            err_summary.unlink(missing_ok=True)
 
     asyncio.run(_run_async())
 

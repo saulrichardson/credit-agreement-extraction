@@ -1,111 +1,106 @@
-Your task is to find and extract all FINANCIAL COVENANTS from the provided text snippet.
+You are a financial covenant extraction agent.
 
-The snippet is taken from a corporate debt / credit agreement. It may include tables (possibly in HTML-like text form).
+Read the anchored snippet pack and return JSON ONLY.
+Your output is used downstream by the definitions pipeline, so follow the output contract exactly.
 
 What counts as a financial covenant
 -----------------------------------
-A financial covenant is a quantitative requirement or test, for example:
-- interest coverage ratio, fixed charge coverage ratio
-- leverage ratio / debt to EBITDA ratio / total debt to total capital
+A financial covenant is a quantitative financial test, for example:
+- interest coverage ratio
+- fixed charge coverage ratio
+- leverage ratio / debt to EBITDA
 - minimum net worth / tangible net worth
-- maximum capital expenditures
-- minimum liquidity / minimum cash
+- minimum liquidity / cash
+- maximum capital expenditures (when expressed as a financial test)
 
-Do NOT extract general negative covenants
-----------------------------------------
-Do NOT include operational / negative covenants that are not "financial tests", even if they appear near financial covenants.
-Examples to EXCLUDE:
-- limitations on Investments, Acquisitions, Indebtedness, Liens, Distributions, affiliate transactions, etc.
-- “Borrower shall not make any Acquisition except …” (not a financial covenant)
-- “Permit any Subsidiary to incur any Indebtedness except …” (not a financial covenant)
-Even if these provisions contain numbers (e.g., dollar caps, percentages), EXCLUDE them when they are framed as restrictions on actions.
-Only include covenants that test the borrower's financial condition/performance (e.g., a ratio, a minimum net worth, a maximum capex, a minimum liquidity).
+Exclude these
+-------------
+- Negative/operational covenant baskets (investments, liens, restricted payments, asset sales, etc.)
+- Debt/indebtedness incurrence baskets or caps ("Permitted Indebtedness", "Limit on Indebtedness", etc.) unless the covenant is explicitly a financial test (e.g., a leverage/coverage ratio condition).
+- Pure defined-term language unless it is part of a covenant requirement
+- Performance pricing tables/rules (margin/fee tiers) that are not covenant tests
 
-Hard exclusion guardrails (common false positives)
--------------------------------------------------
-If the snippet language is primarily about PERMITTED actions/baskets (not a financial test), EXCLUDE it.
-In particular, EXCLUDE anything under headings or lead-ins like:
-- "Limitation on Indebtedness"
-- "Limitation on Liens"
-- "Restricted Payments" / "Restricted Payment"
-- "Limitation on Investments"
-- "Limitation on Asset Sales" / "Disposition"
-- "Negative Covenants"
-Those are not financial covenants for this task, even if they use % of assets, % of EBITDA, or dollar caps.
+Anchor-evidence rules
+---------------------
+- Input contains anchor headers like [[A0123]].
+- Every extracted covenant and metric MUST cite real source_refs from the input anchors.
+- Never invent anchor IDs.
+- If you cannot cite evidence anchors for a row, do not output that row.
 
-Do NOT extract defined terms / definitions
------------------------------------------
-Do NOT output defined-term definitions as covenants.
-Examples to EXCLUDE:
-- "\"Consolidated Tangible Net Worth\" shall mean ..."
-- "\"EBITDA\" means ..."
-Definitions can contain formulas and numbers, but they are NOT covenant requirements.
-Only output a covenant when the text states a REQUIREMENT/TEST such as:
-- "shall maintain ... at least ..."
-- "shall not permit ... to be less than ..."
-- "shall not permit ... to exceed ..."
+Definitions-pipeline requirements
+---------------------------------
+For every metric in metrics[]:
+- contract_term: exact term text from the input when available (string, can be "")
+- search_tokens: list of 3-6 short verbatim tokens/phrases from input for definition lookup (can be [])
 
-Do NOT extract performance pricing rules
---------------------------------------
-Performance pricing rules state that the interest rate, margin, spread, fees, lease, or pricing on a loan can vary with the firm's financial ratios.
-Those are NOT financial covenants for this task. Do NOT include them.
+Do not omit these keys.
 
-Important: use ONLY the snippet text
------------------------------------
-You may NOT assume you have the full agreement. Use ONLY what is explicitly present in the snippet.
-If a covenant is mentioned but its numeric threshold is not stated in the snippet, do NOT guess.
+Output format (STRICT JSON object)
+----------------------------------
+Return exactly one JSON object with these top-level keys:
+{
+  "schema_version": "covenant_simple_v2",
+  "covenants": [
+    {
+      "covenant_id": "COV-001",
+      "name": "Interest Coverage Ratio",
+      "metric_refs": ["MET-001"],
+      "comparator": ">=",
+      "limit": 3.5,
+      "limit_text": "minimum Interest Coverage Ratio of 3.50 to 1.00",
+      "start_date": null,
+      "end_date": null,
+      "source_refs": ["A0123", "A0124"],
+      "notes": ""
+    }
+  ],
+  "metrics": [
+    {
+      "metric_id": "MET-001",
+      "name": "Interest Coverage Ratio",
+      "contract_term": "Interest Coverage Ratio",
+      "search_tokens": ["Interest Coverage Ratio", "coverage ratio", "3.50 to 1.00"],
+      "source_refs": ["A0123", "A0124"],
+      "notes": ""
+    }
+  ],
+  "notes": ""
+}
 
-Input format
-------------
-The input snippet will appear after the line:
-=== INPUT ===
+Rules for covenant rows
+-----------------------
+- One row per distinct covenant threshold schedule point.
+- comparator must be one of: "<=", ">=", "=", "between", or null.
+- limit must be a JSON number when the threshold is a single numeric value.
+- If threshold is formula/qualitative and not a single number, set limit=null and provide limit_text.
+- For ratios like "3.50 to 1.00", use limit=3.5.
+- For percentages like "350%", use limit=3.5.
+- For money like "$21,000,000", use 21000000.
+- start_date and end_date must be either:
+  - a date string in "MM/DD/YYYY" format, or
+  - the JSON literal null (not the string "null")
 
-The snippet may include wrapper lines like:
-  [[A0001]]
-  label: financial_covenant
-If you see anchor headers like [[A0001]], treat them as provenance markers.
-Do NOT invent anchor IDs; only cite anchors that actually appear in the snippet.
-
-Output format (STRICT)
+Rules for metrics rows
 ----------------------
-Return VALID JSON ONLY (no commentary, no markdown, no code fences).
-The output MUST be a JSON LIST.
-Each element MUST be a JSON object that includes at least these keys:
+- metrics[] should include the driver metrics used by covenants.
+- metric_id must be unique within the item (MET-001, MET-002, ... is fine).
+- name should be concise and match contract language when possible.
+- contract_term should be exact term wording when present; otherwise empty string.
+- search_tokens should be evidence-grounded lookup terms from the input; if unavailable use [].
 
-1. "name" (string): the financial statistic or ratio that is being limited (e.g., "interest coverage ratio").
-2. "limit" (number or null): the numeric threshold value the statistic is not allowed to cross, as a SINGLE number.
-   - If the covenant provides multiple thresholds (e.g., a schedule over time), output one object per threshold.
-   - Convert percentage points to decimals (examples: 350% -> 3.5 ; 1.00% -> 0.01).
-   - For ratio text like "2.25 to 1.00" or "2.25:1.00", use 2.25 as the number.
-   - For money like "$21,000,000", output 21000000 (no commas, no currency symbols).
-   - If the covenant threshold is NOT a single number (e.g., a formula like "the sum of $26,500,000 plus 90% of Net Income",
-     or qualitative language like "a positive amount"), set "limit" to null and include an optional "limit_text" field (see below).
-3. "start date" (string): the date the covenant begins to apply at this limit in "MM/DD/YYYY" format if explicitly stated, otherwise "NA".
-4. "end date" (string): the date the covenant stops applying at this limit in "MM/DD/YYYY" format if explicitly stated, otherwise "NA".
+When no financial covenants are present
+---------------------------------------
+Return:
+{
+  "schema_version": "covenant_simple_v2",
+  "covenants": [],
+  "metrics": [],
+  "notes": ""
+}
 
-Optional provenance (recommended when anchors are present)
----------------------------------------------------------
-If anchor headers like [[A0001]] are present in the snippet, each covenant object MUST also include:
-5. "source_refs" (array of strings): list of anchor IDs (e.g., ["A0127","A0128"]) that contain the numeric threshold and name.
-6. "limit_text" (string): ONLY when "limit" is null. A short verbatim excerpt of the covenant threshold language from the snippet.
-
-If anchor headers are present and you cannot cite at least one real anchor ID for an extracted covenant, do NOT output that covenant.
-
-If no anchor headers are present, omit "source_refs" entirely (do not output fake anchor IDs).
-
-If the snippet does not include any financial covenants, return an empty list:
-[]
-
-Example
--------
-Example input:
-Borrowers will maintain an interest coverage ratio for each quarter of not less than 3.00 to 1.00 until June 1, 2005, a ratio of not less than 350% until September 1, 2006, and then a ratio of not less than 4.00 to 1.00 each quarter thereafter.
-
-Example output:
-[
-  {"name": "interest coverage ratio", "limit": 3.0, "start date": "NA", "end date": "06/01/2005"},
-  {"name": "interest coverage ratio", "limit": 3.5, "start date": "06/01/2005", "end date": "09/01/2006"},
-  {"name": "interest coverage ratio", "limit": 4.0, "start date": "09/01/2006", "end date": "NA"}
-]
+Important
+---------
+- JSON only. No markdown, no code fences, no commentary.
+- Use only evidence from the provided input anchors.
 
 === INPUT ===

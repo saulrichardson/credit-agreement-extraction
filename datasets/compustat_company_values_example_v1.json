@@ -1,0 +1,33 @@
+{
+  "schema_version": "compustat_company_values_v1",
+  "description": "Example company-level Compustat inputs for overlay formula evaluation.",
+  "companies": [
+    {
+      "company_id": "example-company-a",
+      "item_ids": [
+        "0000950144-96-000010_7"
+      ],
+      "values": {
+        "niq": 120.0,
+        "dpq": 18.0,
+        "acchgq": 5.0,
+        "dlttq": 450.0,
+        "dlcq": 40.0,
+        "oancfy": 210.0
+      }
+    },
+    {
+      "company_id": "example-company-b",
+      "item_ids": [
+        "0000720032-96-000002_2"
+      ],
+      "values": {
+        "niq": 95.0,
+        "xintq": 15.0,
+        "txtq": 22.0,
+        "dpq": 12.0,
+        "capxy": 30.0
+      }
+    }
+  ]
+}

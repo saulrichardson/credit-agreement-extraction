@@ -4,9 +4,37 @@ import tarfile
 from pathlib import Path
 from typing import Iterable, List, Tuple, Dict, Any, Callable
 
-from pipeline.core.config import FilterSpec, Paths, record_manifest
-from pipeline.filters import serialize_filter_spec
+from pipeline.core.config import DocumentSelection, Paths, record_manifest
+from pipeline.evidence.selection import serialize_document_selection
 from pipeline.utils import safe_item_id
+
+
+def _normalize_sequence(seq_raw: str) -> str:
+    seq_raw = str(seq_raw or "").strip()
+    if not seq_raw:
+        return ""
+    try:
+        return str(int(seq_raw))
+    except ValueError:
+        return seq_raw.lstrip("0") or seq_raw
+
+
+def _requested_accession_sequences(selection: DocumentSelection) -> set[tuple[str, str]] | None:
+    """Return requested (accession, normalized_sequence) pairs when item_ids are explicit."""
+
+    if not selection.item_ids:
+        return None
+    requested: set[tuple[str, str]] = set()
+    for raw in selection.item_ids:
+        item_id = str(raw or "").strip()
+        if not item_id or "_" not in item_id:
+            continue
+        accession, seq_raw = item_id.split("_", 1)
+        accession = accession.strip()
+        seq = _normalize_sequence(seq_raw)
+        if accession and seq:
+            requested.add((accession, seq))
+    return requested if requested else None
 
 
 def _member_matches_accessions(member_name: str, accessions: List[str]) -> Tuple[bool, str | None]:
@@ -88,26 +116,10 @@ def _parse_submission(text: str) -> Dict[str, Any]:
     }
 
 
-def _doc_type_matches(doc_type: str | None, exhibit_types: List[str] | None, exhibit_glob: str | None) -> bool:
-    # If no filters provided, accept all document types.
-    if not exhibit_types and not exhibit_glob:
-        return True
-    if doc_type is None:
-        return False
-    upper = doc_type.upper()
-    if exhibit_types:
-        for pat in exhibit_types:
-            if upper.startswith(pat.upper()):
-                return True
-    if exhibit_glob:
-        return exhibit_glob.lower() in upper.lower()
-    return False
-
-
 def ingest_tarballs(
     paths: Paths,
     tarballs: Iterable[Path],
-    filters: FilterSpec,
+    selection: DocumentSelection,
     accessions: List[str] | None,
     doc_filter: Callable[[Dict[str, Any], Dict[str, Any]], bool],
 ) -> List[str]:
@@ -117,7 +129,11 @@ def ingest_tarballs(
     collected: List[Dict[str, Any]] = []  # per accession
     items: List[Dict[str, Any]] = []      # flat per-document
     accessions = accessions or []
+    requested_pairs = _requested_accession_sequences(selection)
+    stop_scanning = False
     for tarball in tarballs:
+        if stop_scanning:
+            break
         if not tarball.exists():
             raise FileNotFoundError(f"Tarball not found: {tarball}")
         with tarfile.open(tarball, "r:*") as tf:
@@ -166,6 +182,9 @@ def ingest_tarballs(
                             "item_id": item_id,
                         }
                     )
+                    if requested_pairs is not None:
+                        seq_norm = _normalize_sequence(seq)
+                        requested_pairs.discard((acc, seq_norm))
                 if docs:
                     # choose primary deterministically: lowest sequence number
                     try:
@@ -194,9 +213,12 @@ def ingest_tarballs(
                                 "primary": d.get("primary"),
                             }
                         )
+                if requested_pairs is not None and not requested_pairs:
+                    stop_scanning = True
+                    break
 
     if not collected:
-        raise RuntimeError("No matching EX-10 exhibits were extracted with the provided filters/accessions.")
+        raise RuntimeError("No matching exhibits were extracted with the provided selectors/accessions.")
     dedup: Dict[str, Dict[str, Any]] = {}
     for entry in collected:
         acc = entry["accession"]
@@ -205,7 +227,7 @@ def ingest_tarballs(
     manifest = {
         "run_id": paths.run_id,
         "tarballs": [str(p) for p in tarballs],
-        "filters": serialize_filter_spec(filters),
+        "document_selection": serialize_document_selection(selection),
         "accessions": list(dedup.values()),
         "items": items,
     }

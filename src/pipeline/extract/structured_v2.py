@@ -6,6 +6,8 @@ import traceback
 from pathlib import Path
 from typing import Any, Iterable, List, Tuple
 
+from pipeline.contracts.common import StructuredValidationContext
+from pipeline.contracts.registry import StructuredContractName, get_structured_contract
 from pipeline.core.config import Paths, prompt_hash, update_manifest, REQUIRED_MODEL, REQUIRED_REASONING
 from pipeline.llm.strict_json import StrictJsonFailure, call_strict_json
 from pipeline.llm.gateway import DEFAULT_GATEWAY_URL, _ensure_gateway_client_async
@@ -46,28 +48,6 @@ def _filter_snippets(snippets: List[dict], categories: Iterable[str]) -> List[di
     return filtered
 
 
-def _drop_definitions_only(snippets: List[dict]) -> List[dict]:
-    """Remove snippets that are *only* in the 'definitions' bucket.
-
-    Indexing v2 can optionally expand a large definitions section anchor range. Those anchors are
-    useful for the definitions pass, but they should not be fed wholesale into structured pricing
-    extraction prompts (too large / not targeted).
-
-    We keep any snippet that is tagged with other buckets (e.g., pricing/base_rate) even if it
-    also lies inside the definitions range.
-    """
-
-    kept: List[dict] = []
-    for rec in snippets:
-        cats = [c.lower() for c in (rec.get("categories") or []) if isinstance(c, str) and c.strip()]
-        buckets = [c.lower() for c in (rec.get("buckets") or []) if isinstance(c, str) and c.strip()]
-        tags = cats or buckets
-        if tags and all(t == "definitions" for t in tags):
-            continue
-        kept.append(rec)
-    return kept
-
-
 def _render_snippet_block(snippets: List[dict]) -> str:
     blocks: List[str] = []
     for rec in snippets:
@@ -101,35 +81,12 @@ def _render_prompt(template: str, snippets_block: str) -> str:
     return f"{template}\n\n=== INPUT ===\n{snippets_block}"
 
 
-def _retry_prompt(base_prompt: str, attempt: int, error: str, previous_output: str) -> str:
-    _ = attempt
-    _ = previous_output
-    rules = (
-        "Your previous response was invalid.\n"
-        "- Output MUST be valid JSON.\n"
-        "- Output MUST contain JSON ONLY (no markdown, no code fences, no prose).\n"
-        "- If you are unsure, return the best-effort JSON in the expected shape rather than commentary.\n"
-    )
-    return f"{base_prompt}\n\n=== RETRY REQUIRED ===\nError: {error}\n\n{rules}"
-
-
-def validate_structured_v2_payload(payload: object) -> dict | list:
-    """Validate structured-v2 payload shape.
-
-    Domain-level semantics are enforced by downstream stages; this validator isolates
-    shape checks from prompt execution flow.
-    """
-
-    if not isinstance(payload, (dict, list)):
-        raise ValueError(f"structured-v2 payload must be object or array; got {type(payload).__name__}")
-    return payload
-
-
 def run_structured_v2(
     paths: Paths,
     item_ids: Iterable[str],
     prompt_path: Path,
     *,
+    contract: StructuredContractName,
     model: str | None = None,
     gateway_url: str | None = None,
     temperature: float = 0.0,
@@ -139,10 +96,13 @@ def run_structured_v2(
     attempts: int = 3,
     output_subdir: str | None = None,
     categories: Iterable[str] | None = None,
+    skip_existing: bool = False,
+    allow_empty_after_filter: bool = False,
 ) -> None:
     """Run structured LLM extraction over v2 retrieval snippets (strict JSON output)."""
 
     assert_exists(prompt_path, message=f"Structured prompt not found: {prompt_path}")
+    contract_spec = get_structured_contract(contract)
 
     # Hard enforcement of model + reasoning defaults.
     model = REQUIRED_MODEL
@@ -158,22 +118,63 @@ def run_structured_v2(
     items = list(item_ids)
 
     GatewayAgentClient = _ensure_gateway_client_async()
-    sem = asyncio.Semaphore(max(1, concurrency))
     errors: List[Tuple[str, str]] = []
 
-    async def _process(item_id: str, client: Any) -> None:
+    async def _process(item_id: str, client: Any, sem: asyncio.Semaphore) -> None:
         async with sem:
             try:
+                artifact_path = out_dir / f"{item_id}.json"
+                if skip_existing and artifact_path.exists():
+                    return
+
                 snippets = _load_snippets_v2(paths, item_id)
                 if categories:
                     snippets = _filter_snippets(snippets, categories)
                 if not snippets:
+                    if allow_empty_after_filter:
+                        empty = contract_spec.empty_payload(
+                            "no snippets after category filter"
+                            if categories
+                            else "no snippets after loading"
+                        )
+                        artifact_path.write_text(json.dumps(empty, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+                        return
                     if categories:
                         raise RuntimeError(
                             "No snippets after category filter. "
                             f"Requested categories: {', '.join(categories or [])}"
                         )
                     raise RuntimeError(f"No snippets parsed for {item_id} after loading.")
+
+                allowed_anchor_ids: set[str] = set()
+                anchor_tags: dict[str, set[str]] = {}
+                snippet_text_by_anchor: dict[str, str] = {}
+                for rec in snippets:
+                    aid = rec.get("anchor_id")
+                    if not isinstance(aid, str) or not aid.strip():
+                        continue
+                    anchor_id = aid.strip()
+                    allowed_anchor_ids.add(anchor_id)
+                    snippet_text_by_anchor[anchor_id] = str(rec.get("snippet") or "")
+                    tags: set[str] = set()
+                    for raw in (rec.get("categories") or []):
+                        if isinstance(raw, str) and raw.strip():
+                            tags.add(raw.strip().lower())
+                    for raw in (rec.get("buckets") or []):
+                        if isinstance(raw, str) and raw.strip():
+                            tags.add(raw.strip().lower())
+                    label = rec.get("label") or ""
+                    for part in str(label).split(","):
+                        if part.strip():
+                            tags.add(part.strip().lower())
+                    anchor_tags[anchor_id] = tags
+
+                ctx = StructuredValidationContext(
+                    item_id=item_id,
+                    allowed_anchor_ids=allowed_anchor_ids,
+                    anchor_tags=anchor_tags,
+                    snippet_text_by_anchor=snippet_text_by_anchor,
+                )
                 input_block = _render_snippet_block(snippets)
 
                 rendered_prompt = _render_prompt(prompt_template, input_block)
@@ -185,9 +186,9 @@ def run_structured_v2(
                         temperature=temperature,
                         reasoning=reasoning,
                         attempts=attempts,
-                        retry_prompt=_retry_prompt,
-                        allowed_root_types=(dict, list),
-                        validate=validate_structured_v2_payload,
+                        retry_prompt=contract_spec.retry_prompt,
+                        allowed_root_types=contract_spec.allowed_root_types,
+                        validate=lambda payload: contract_spec.validate(payload, ctx),
                     )
                 except StrictJsonFailure as exc:
                     raw_sidecar = out_dir / f"{item_id}.raw.txt"
@@ -196,7 +197,6 @@ def run_structured_v2(
                         f"structured-v2 failed strict JSON after {attempts} attempt(s). Last error: {exc.last_error}"
                     ) from exc
 
-                artifact_path = out_dir / f"{item_id}.json"
                 artifact_path.write_text(json.dumps(parsed, indent=2, sort_keys=True) + "\n", encoding="utf-8")
             except Exception as exc:  # pragma: no cover - defensive
                 errors.append((item_id, str(exc)))
@@ -204,11 +204,12 @@ def run_structured_v2(
                 err_path.write_text(f"{exc}\n\n{traceback.format_exc()}")
 
     async def _runner() -> None:
+        sem = asyncio.Semaphore(max(1, concurrency))
         async with GatewayAgentClient(
             base_url=gateway_url or DEFAULT_GATEWAY_URL,
             timeout=gateway_timeout or 600.0,
         ) as client:
-            await asyncio.gather(*(_process(item_id, client) for item_id in items))
+            await asyncio.gather(*(_process(item_id, client, sem) for item_id in items))
 
     asyncio.run(_runner())
 

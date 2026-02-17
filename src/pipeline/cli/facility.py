@@ -171,6 +171,11 @@ def facility_fundamentals(
     multiple=True,
     help="Optional item_id(s) to run agreement metadata for (defaults to all items in the run manifest).",
 )
+@click.option(
+    "--skip-existing",
+    is_flag=True,
+    help="Skip items with existing runs/<run_id>/agreement_metadata/<output_subdir>/<item_id>.json + .meta.json outputs.",
+)
 def agreement_metadata(
     run_id: str,
     prompt_path: str,
@@ -185,6 +190,7 @@ def agreement_metadata(
     output_subdir: str | None,
     categories: Tuple[str, ...],
     item_ids: Tuple[str, ...],
+    skip_existing: bool,
 ) -> None:
     """Extract parties/roles + facility headline terms from v2 retrieval snippets."""
 
@@ -208,10 +214,11 @@ def agreement_metadata(
         concurrency=concurrency,
         attempts=attempts,
         output_subdir=output_subdir,
+        skip_existing=bool(skip_existing),
     )
 
 
-@click.command(name="analysis-export")
+@click.command(name="analysis-export-v2")
 @click.option("--run-id", required=True, callback=validate_run_id)
 @click.option("--base-dir", default=".", show_default=True)
 @click.option(
@@ -220,13 +227,48 @@ def agreement_metadata(
     help="Subfolder under runs/<run_id>/agreement_metadata/ containing <item_id>.json outputs.",
 )
 @click.option(
-    "--definitions-v2-subdir",
+    "--pricing-qa-subdir",
     required=True,
-    help="Subfolder under runs/<run_id>/definitions_v2/ containing per-term __definition.json outputs.",
+    help="Subfolder under runs/<run_id>/llm_qa/ containing pricing structured-v2 outputs.",
+)
+@click.option(
+    "--pricing-metrics-output-subdir",
+    required=True,
+    help="Subfolder under runs/<run_id>/definitions_compiler_v1/ containing pricing recursive metric aggregates.",
+)
+@click.option(
+    "--pricing-blocking-output-subdir",
+    required=True,
+    help="Subfolder under runs/<run_id>/blocking_terms_compiler_v1/ containing pricing recursive term aggregates.",
+)
+@click.option(
+    "--pricing-overlay-output-subdir",
+    required=True,
+    help="Subfolder under runs/<run_id>/compustat_overlay_v1/ containing pricing recursive overlay aggregates.",
+)
+@click.option(
+    "--covenant-qa-subdir",
+    required=True,
+    help="Subfolder under runs/<run_id>/llm_qa/ containing covenant structured-v2 outputs.",
+)
+@click.option(
+    "--covenant-metrics-output-subdir",
+    required=True,
+    help="Subfolder under runs/<run_id>/definitions_compiler_v1/ containing covenant recursive metric aggregates.",
+)
+@click.option(
+    "--covenant-blocking-output-subdir",
+    required=True,
+    help="Subfolder under runs/<run_id>/blocking_terms_compiler_v1/ containing covenant recursive term aggregates.",
+)
+@click.option(
+    "--covenant-overlay-output-subdir",
+    required=True,
+    help="Subfolder under runs/<run_id>/compustat_overlay_v1/ containing covenant recursive overlay aggregates.",
 )
 @click.option(
     "--output-subdir",
-    default="analysis_export_v1",
+    default="analysis_export_v2",
     show_default=True,
     help="Output subfolder under runs/<run_id>/analysis_export/.",
 )
@@ -236,25 +278,39 @@ def agreement_metadata(
     multiple=True,
     help="Optional item_id(s) to export (defaults to all items in the run manifest).",
 )
-def analysis_export(
+def analysis_export_v2(
     run_id: str,
     base_dir: str,
     agreement_metadata_subdir: str,
-    definitions_v2_subdir: str,
+    pricing_qa_subdir: str,
+    pricing_metrics_output_subdir: str,
+    pricing_blocking_output_subdir: str,
+    pricing_overlay_output_subdir: str,
+    covenant_qa_subdir: str,
+    covenant_metrics_output_subdir: str,
+    covenant_blocking_output_subdir: str,
+    covenant_overlay_output_subdir: str,
     output_subdir: str,
     item_ids: Tuple[str, ...],
 ) -> None:
-    """Export a single analysis-ready JSON record per agreement."""
+    """Export a single analysis-ready JSON record per agreement (pricing + covenants)."""
 
-    from pipeline.extract.analysis_export_v1 import run_analysis_export_v1
+    from pipeline.extract.analysis_export_v2 import run_analysis_export_v2
 
     paths = resolve_paths(run_id, base_dir, bandwidth=4)
     _manifest, _items, selected_item_ids = resolve_selected_item_ids(paths, item_ids)
 
-    run_analysis_export_v1(
+    run_analysis_export_v2(
         paths,
         selected_item_ids,
         agreement_metadata_subdir=agreement_metadata_subdir,
-        definitions_v2_subdir=definitions_v2_subdir,
+        pricing_qa_subdir=pricing_qa_subdir,
+        pricing_metrics_output_subdir=pricing_metrics_output_subdir,
+        pricing_blocking_output_subdir=pricing_blocking_output_subdir,
+        pricing_overlay_output_subdir=pricing_overlay_output_subdir,
+        covenant_qa_subdir=covenant_qa_subdir,
+        covenant_metrics_output_subdir=covenant_metrics_output_subdir,
+        covenant_blocking_output_subdir=covenant_blocking_output_subdir,
+        covenant_overlay_output_subdir=covenant_overlay_output_subdir,
         output_subdir=output_subdir,
     )

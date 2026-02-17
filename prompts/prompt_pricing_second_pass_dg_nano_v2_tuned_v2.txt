@@ -13,6 +13,7 @@ IMPORTANT: You must cite evidence using ONLY anchors that appear in the input.
 === OUTPUT CONTRACT (JSON ONLY) ===
 Return exactly one JSON object with these top-level keys:
 {
+  "schema_version": "pricing_structured_v2",
   "issuer": "",
   "agreement": {
     "title": "",
@@ -25,6 +26,11 @@ Return exactly one JSON object with these top-level keys:
   "facilities": [],
   "overrides": []
 }
+
+Overrides note
+--------------
+- overrides[] is reserved for future use and is NOT currently supported.
+- Always return "overrides": [] (empty array).
 
 === EVIDENCE / ANCHOR RULES (HIGHEST PRIORITY) ===
 1) Output only valid JSON (no prose, no markdown, no comments).
@@ -68,8 +74,16 @@ Rules:
 - If the agreement does not provide a formula, set formula="" and requires_non_compustat=true.
 - Metric naming MUST represent a tier/rate **driver variable**, not an outcome label.
   - BAD metric names: "PricingLevel", "PricingRegime", "PricingTier", "ApplicableMarginLevel".
+  - BAD metric names also include literal contract labels such as "APPLICABLE PRICING LEVEL", "PRICING LEVEL", "LEVEL I STATUS" when used as standalone metric names.
   - GOOD metric names: leverage ratio term, coverage ratio term, rating/status code term, amendment effective date term.
   - Exception: ratings-based schemes may use rating/status driver labels when that is the explicit contract driver.
+- Ratings-based normalization:
+  - If tiers are status buckets (e.g., "Level I Status" ...), DO NOT emit one metric per level label.
+  - Instead, emit the underlying rating driver metric(s) that determine status in the evidence (for example: "S&P Rating", "Moody's Rating", "Debt Ratings", "Corporate Rating").
+  - If the status-to-rating mapping is not shown in provided anchors, metrics[] may be empty for that scheme.
+- IMPORTANT: "Pricing Level" terms are tier labels, not underlying metrics.
+  - If a table maps "Pricing Level" to an underlying variable (for example, "Cash Flow Leverage"), the metric MUST be the underlying variable ("Cash Flow Leverage"), not "Pricing Level".
+  - If no underlying variable is stated in provided anchors, do NOT emit a synthetic "Pricing Level" metric; leave metrics[] empty for that scheme.
 - contract_term MUST be the exact metric term as written in the agreement (verbatim substring from the provided anchors).
   - If you cannot find the exact contract term in the provided anchors, set contract_term="" (empty string).
 - search_tokens MUST be 3–6 short, regex-safe words or micro-phrases drawn verbatim from the provided anchors that can be used
@@ -188,6 +202,9 @@ Only populate issuer/title/currency/as_of_date if explicitly supported in provid
 - Output JSON only.
 - Include the required top-level keys even if arrays are empty.
 - Include source_refs on EVERY object you output.
+- Self-check before finalizing JSON:
+  - Reject any metrics[] entry whose name/contract_term is a tier label or outcome label ("Pricing Level", "Applicable Pricing Level", "Pricing Tier", "Pricing Regime", roman-numeral level labels).
+  - Replace it with the actual driver metric if present in evidence; otherwise remove that metrics[] entry.
 
 === INPUT ===
 (The extracted pricing section from the agreement follows below.)

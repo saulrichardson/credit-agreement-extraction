@@ -239,7 +239,10 @@ def run_blocking_terms_compiler_v1(
 
     items = list(item_ids)
     GatewayAgentClient = _ensure_gateway_client_async()
-    term_sem = asyncio.Semaphore(max(1, concurrency))
+    # IMPORTANT: create loop-bound asyncio primitives inside the running loop.
+    # Creating Semaphore before asyncio.run(...) can bind it to a different loop
+    # on Python 3.9 compute nodes.
+    term_sem: asyncio.Semaphore | None = None
 
     hard_errors: list[tuple[str, str]] = []
     soft_issues: list[tuple[str, str]] = []
@@ -263,6 +266,8 @@ def run_blocking_terms_compiler_v1(
         full_allowed_anchor_ids: set[str],
         client: Any,
     ) -> tuple[bool, list[str]]:
+        if term_sem is None:
+            raise RuntimeError("internal error: blocking-terms semaphore was not initialized")
         async with term_sem:
             term_display = _normalize_term_display(target.term)
             term_key = _canonical_term_key(term_display)
@@ -280,6 +285,34 @@ def run_blocking_terms_compiler_v1(
             pass1_compiled_path = out_dir / f"{item_id}__{safe_term}__compiled.pass1.json"
 
             pass2_raw_base = out_dir / f"{item_id}__{safe_term}__compile.pass2.raw.txt"
+
+            def _write_fallback_compiled(message: str) -> None:
+                compiled_path.write_text(
+                    json.dumps(
+                        {
+                            "schema_version": "definition_compiler_v2_ast_v1",
+                            "metric_name": term_display,
+                            "definitions": [
+                                {
+                                    "name": term_display,
+                                    "contract_term": None,
+                                    "definition_verbatim": None,
+                                    "expression_ast": None,
+                                    "input_terms": [],
+                                    "clauses": [],
+                                    "source_refs": [],
+                                    "needs_more_context": False,
+                                    "confidence": "low",
+                                    "notes": [message],
+                                }
+                            ],
+                            "unresolved_dependencies": [],
+                        },
+                        indent=2,
+                    )
+                    + "\n",
+                    encoding="utf-8",
+                )
 
             if compiled_path.exists():
                 try:
@@ -478,13 +511,19 @@ def run_blocking_terms_compiler_v1(
                 return (True, [d for d in deps if isinstance(d, str) and d.strip()])
 
             # Pass 2: full document fallback.
-            pass2_doc = await _compile_with_contexts(
-                pass_tag="pass2_full_document",
-                contexts_block=full_contexts_block,
-                allowed_anchor_ids=full_allowed_anchor_ids,
-                raw_base_path=pass2_raw_base,
-                compiled_out_path=compiled_path,
-            )
+            try:
+                pass2_doc = await _compile_with_contexts(
+                    pass_tag="pass2_full_document",
+                    contexts_block=full_contexts_block,
+                    allowed_anchor_ids=full_allowed_anchor_ids,
+                    raw_base_path=pass2_raw_base,
+                    compiled_out_path=compiled_path,
+                )
+            except Exception as exc:
+                msg = f"Pass 2 full-document compilation failed for blocking term={term_display!r}: {exc}"
+                soft_issues.append((f"{item_id}::{term_display}::pass2_full_document", msg))
+                _write_fallback_compiled(msg)
+                return (False, [])
             raw_base_path.write_text(pass2_raw_base.read_text(encoding="utf-8", errors="replace"), encoding="utf-8")
             context_path.write_text(f"(used full document contexts: {item_id}__contexts.full.txt)\n", encoding="utf-8")
 
@@ -731,6 +770,8 @@ def run_blocking_terms_compiler_v1(
         )
 
     async def _runner() -> None:
+        nonlocal term_sem
+        term_sem = asyncio.Semaphore(max(1, concurrency))
         async with GatewayAgentClient(
             base_url=gateway_url or DEFAULT_GATEWAY_URL,
             timeout=gateway_timeout or 600.0,

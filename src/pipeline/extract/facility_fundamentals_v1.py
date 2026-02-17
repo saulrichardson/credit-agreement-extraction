@@ -107,7 +107,7 @@ class DateTerm(BaseModel):
         default=None,
         description=(
             "Verbatim date expression when the agreement uses relative/conditional language "
-            '(e.g., "the date that is the fifth anniversary of the Closing Date", "the earlier of ...").'
+            '(e.g., "the date that is the fifth anniversary of the Maturity Date", "the earlier of ...").'
         ),
     )
     notes: str | None = None
@@ -251,7 +251,7 @@ class FacilityFundamentalsArtifact(BaseModel):
 
     schema_version: Literal["facility_fundamentals_v1"]
 
-    agreement_closing_date: AgreementDateTerm | None = None
+    agreement_maturity_date: AgreementDateTerm | None = None
     agreement_effective_date: AgreementDateTerm | None = None
 
     lenders: list[Party] = Field(default_factory=list)
@@ -346,7 +346,7 @@ def _retry_prompt(base_prompt: str, attempt: int, error: str, previous_output: s
             "- Output MUST be a single JSON object (no markdown, no code fences, no prose).\n"
             "- JSON MUST match the exact shape described in the prompt.\n"
             "- Every facility object MUST include non-empty source_refs.\n"
-            "- agreement_closing_date / agreement_effective_date objects MUST include non-empty source_refs when provided.\n"
+            "- agreement_maturity_date / agreement_effective_date objects MUST include non-empty source_refs when provided.\n"
             "- Dates MUST be YYYY-MM-DD when you provide a `date` field.\n"
         )
     else:
@@ -451,10 +451,10 @@ def run_facility_fundamentals_v1(
                                     f"got {artifact.schema_version!r}"
                                 )
 
-                            if artifact.agreement_closing_date is not None:
+                            if artifact.agreement_maturity_date is not None:
                                 _check_anchors(
-                                    artifact.agreement_closing_date.source_refs,
-                                    ctx="agreement_closing_date.source_refs",
+                                    artifact.agreement_maturity_date.source_refs,
+                                    ctx="agreement_maturity_date.source_refs",
                                 )
                             if artifact.agreement_effective_date is not None:
                                 _check_anchors(
@@ -605,8 +605,8 @@ def run_facility_fundamentals_v1(
                                     }
                                 )
 
-                        if artifact.agreement_closing_date is not None:
-                            _check_anchors(artifact.agreement_closing_date.source_refs, ctx="agreement_closing_date.source_refs")
+                        if artifact.agreement_maturity_date is not None:
+                            _check_anchors(artifact.agreement_maturity_date.source_refs, ctx="agreement_maturity_date.source_refs")
                         if artifact.agreement_effective_date is not None:
                             _check_anchors(artifact.agreement_effective_date.source_refs, ctx="agreement_effective_date.source_refs")
                         if artifact.lenders_source_refs:

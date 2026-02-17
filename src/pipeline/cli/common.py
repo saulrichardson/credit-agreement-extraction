@@ -5,8 +5,8 @@ from typing import Optional, Tuple
 
 import click
 
-from pipeline.core.config import FilterSpec, Paths, RunConfig
-from pipeline.filters import load_doc_filter, load_filter_spec
+from pipeline.core.config import Paths, RunConfig
+from pipeline.evidence.selection import build_document_selection
 from pipeline.core.run_id import validate_run_id
 from pipeline.utils import load_manifest, manifest_items, read_accessions_file
 
@@ -34,22 +34,29 @@ def resolve_paths(run_id: str, base_dir: str, *, bandwidth: int, workers: int = 
     return rc.paths()
 
 
-def load_accessions_and_filters(filters_path: Optional[str], accessions_file: Optional[str]):
-    """Shared validation for ingest / all-v2 commands."""
+def load_accessions_and_selection(
+    *,
+    accessions_file: Optional[str],
+    item_ids_file: Optional[str],
+    doc_type_prefixes: Tuple[str, ...],
+):
+    """Shared ingest selector validation for CLI entrypoints.
+
+    We require at least one explicit selector so ingest does not scan all exhibits by accident.
+    """
 
     accessions = read_accessions_file(Path(accessions_file)) if accessions_file else None
 
-    if not accessions_file and not filters_path:
-        raise click.UsageError("Provide either accessions-file or filters to avoid scanning everything.")
+    if not accessions_file and not item_ids_file and not doc_type_prefixes:
+        raise click.UsageError(
+            "Provide at least one selector: --accessions-file, --item-ids-file, or --doc-type-prefix."
+        )
 
-    if filters_path:
-        spec = load_filter_spec(Path(filters_path))
-    else:
-        # Default to accepting all documents when no filter is supplied.
-        spec = FilterSpec(doc_filter_path="pipeline.filters:keep_all")
-
-    doc_filter = load_doc_filter(spec)
-    return accessions, spec, doc_filter
+    selection, doc_filter = build_document_selection(
+        item_ids_file=item_ids_file,
+        doc_type_prefixes=doc_type_prefixes,
+    )
+    return accessions, selection, doc_filter
 
 
 def resolve_selected_item_ids(paths: Paths, item_ids: Tuple[str, ...]) -> Tuple[dict, list[dict], list[str]]:
@@ -73,4 +80,3 @@ def resolve_selected_item_ids(paths: Paths, item_ids: Tuple[str, ...]) -> Tuple[
         selected_item_ids = [item["item_id"] for item in items]
 
     return manifest, items, selected_item_ids
-

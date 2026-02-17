@@ -162,6 +162,12 @@ def retrieve_v2(run_id: str, bandwidth: int, base_dir: str, item_ids: Tuple[str,
     help="Optional subfolder under runs/<run_id>/llm_qa/ for outputs (defaults to prompt filename stem).",
 )
 @click.option(
+    "--contract",
+    required=True,
+    type=click.Choice(["pricing_structured_v2", "covenant_simple_v2"], case_sensitive=False),
+    help="LLM output contract to enforce (no backwards compatibility).",
+)
+@click.option(
     "--category",
     "categories",
     multiple=True,
@@ -172,6 +178,19 @@ def retrieve_v2(run_id: str, bandwidth: int, base_dir: str, item_ids: Tuple[str,
     "item_ids",
     multiple=True,
     help="Optional item_id(s) to run structured extraction for (defaults to all items in the run manifest).",
+)
+@click.option(
+    "--skip-existing",
+    is_flag=True,
+    help="Skip items with existing runs/<run_id>/llm_qa/<output_subdir>/<item_id>.json outputs.",
+)
+@click.option(
+    "--allow-empty-after-filter",
+    is_flag=True,
+    help=(
+        "When category filtering yields no snippets for an item, write an empty structured artifact "
+        "instead of failing the run."
+    ),
 )
 def structured_v2(
     run_id: str,
@@ -185,8 +204,11 @@ def structured_v2(
     concurrency: int,
     attempts: int,
     output_subdir: str | None,
+    contract: str,
     categories: Tuple[str, ...],
     item_ids: Tuple[str, ...],
+    skip_existing: bool,
+    allow_empty_after_filter: bool,
 ) -> None:
     """Structured extraction over v2 retrieval snippets (strict JSON)."""
 
@@ -196,6 +218,7 @@ def structured_v2(
         paths,
         selected_item_ids,
         Path(prompt_path),
+        contract=contract.lower(),  # click Choice returns canonical casing but keep it explicit
         model=model,
         gateway_url=gateway_url,
         temperature=temperature,
@@ -205,5 +228,6 @@ def structured_v2(
         attempts=attempts,
         output_subdir=output_subdir,
         categories=categories,
+        skip_existing=bool(skip_existing),
+        allow_empty_after_filter=bool(allow_empty_after_filter),
     )
-

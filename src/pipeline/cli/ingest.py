@@ -9,7 +9,7 @@ from pipeline.evidence.ingest import ingest_tarballs
 from pipeline.evidence.normalize import build_prompt_views
 from pipeline.core.run_id import validate_run_id
 from pipeline.utils import load_manifest, manifest_items
-from .common import load_accessions_and_filters, resolve_paths
+from .common import load_accessions_and_selection, resolve_paths
 
 
 @click.command()
@@ -21,22 +21,39 @@ from .common import load_accessions_and_filters, resolve_paths
 )
 @click.option("--tarball", multiple=True, type=click.Path(exists=True, dir_okay=False), required=True)
 @click.option(
-    "--filters",
-    "filters_path",
+    "--item-ids-file",
     type=click.Path(exists=True, dir_okay=False),
     required=False,
-    help="Filter spec (JSON/YAML with doc_filter_path and optional doc_filter_kwargs). Defaults to keep_all when omitted.",
+    help="JSON/YAML dataset with item_ids allowlist (mapping with item_ids or a bare list).",
+)
+@click.option(
+    "--doc-type-prefix",
+    "doc_type_prefixes",
+    multiple=True,
+    required=False,
+    help="Repeatable SGML <TYPE> prefix allowlist (e.g., EX-10).",
 )
 @click.option("--accessions-file", type=click.Path(exists=True, dir_okay=False), required=False)
 @click.option("--base-dir", default=".", show_default=True)
-def ingest(run_id: str, tarball, filters_path: Optional[str], accessions_file: Optional[str], base_dir: str) -> None:
-    """Extract EX-10 HTMLs for selected accessions from tarballs."""
+def ingest(
+    run_id: str,
+    tarball,
+    item_ids_file: Optional[str],
+    doc_type_prefixes: tuple[str, ...],
+    accessions_file: Optional[str],
+    base_dir: str,
+) -> None:
+    """Extract selected exhibit HTMLs for chosen filings/documents from tarballs."""
 
     paths = resolve_paths(run_id, base_dir, bandwidth=4)
 
-    accessions, spec, doc_filter = load_accessions_and_filters(filters_path, accessions_file)
+    accessions, selection, doc_filter = load_accessions_and_selection(
+        accessions_file=accessions_file,
+        item_ids_file=item_ids_file,
+        doc_type_prefixes=doc_type_prefixes,
+    )
 
-    ingest_tarballs(paths, [Path(t) for t in tarball], spec, accessions, doc_filter=doc_filter)
+    ingest_tarballs(paths, [Path(t) for t in tarball], selection, accessions, doc_filter=doc_filter)
     click.echo(f"[ingest] Done. Manifest at {paths.manifest_path}")
 
 
@@ -51,4 +68,3 @@ def normalize(run_id: str, base_dir: str) -> None:
     items = manifest_items(manifest)
     build_prompt_views(paths, manifest)
     click.echo(f"[normalize] Built prompt views for {len(items)} items (exhibits).")
-
